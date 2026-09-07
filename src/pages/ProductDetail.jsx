@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { getProductById, getRelatedProducts } from "../data/products.js";
 import { cdnImage } from "../lib/image.js";
 import { displayTitle } from "../lib/specSummary.js";
+import { useShopNotice } from "../context/shopNotice.js";
 import VariantSelector from "../components/VariantSelector.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 
@@ -70,8 +71,11 @@ function ProductDetailView({ product }) {
     }
   };
 
+  const notify = useShopNotice();
   const related = getRelatedProducts(product);
   const title = displayTitle(product);
+  // Drop Shopify's internal bookkeeping tags ("lable__new-arrival").
+  const tags = (product.tags ?? []).filter((tag) => !tag.includes("__"));
   const specRows = Object.entries(selected).filter(
     ([key, value]) => key.toLowerCase() !== "title" && value,
   );
@@ -106,11 +110,16 @@ function ProductDetailView({ product }) {
           <h1 className="nameplate mt-4 text-[1.75rem] text-ivory sm:text-[2.15rem]">
             {title}
           </h1>
-          <p className="mt-3 text-sm text-muted">{product.vendor}</p>
+          <Link
+            to={`/brand/${product.brandSlug}`}
+            className="mt-3 inline-block text-sm text-muted transition-colors hover:text-filament"
+          >
+            {product.brand}
+          </Link>
 
-          {product.tags?.length > 0 && (
+          {tags.length > 0 && (
             <div className="mt-6 flex flex-wrap gap-2">
-              {product.tags.map((tag) => (
+              {tags.map((tag) => (
                 <span
                   key={tag}
                   className="rounded-[3px] border border-conduit px-2.5 py-1 text-xs text-muted"
@@ -142,14 +151,23 @@ function ProductDetailView({ product }) {
             )}
           </dl>
 
-          <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-3">
+          <div className="mt-10 flex flex-wrap items-center gap-x-4 gap-y-3">
             <button
               type="button"
+              onClick={() =>
+                notify(`"${title}" — the cart isn't live yet. Enquire and we'll quote it.`)
+              }
               className="whitespace-nowrap rounded-[3px] bg-filament px-8 py-3.5 text-sm font-semibold text-ground-deep transition-colors hover:bg-filament/85"
             >
-              Enquire
+              Add to cart
             </button>
-            <span className="spec whitespace-nowrap text-muted">
+            <Link
+              to="/contact"
+              className="whitespace-nowrap rounded-[3px] border border-conduit px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:border-filament hover:text-filament"
+            >
+              Enquire
+            </Link>
+            <span className="spec w-full text-muted sm:w-auto">
               Pricing on request
             </span>
           </div>

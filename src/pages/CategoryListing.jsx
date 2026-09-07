@@ -2,11 +2,13 @@ import { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useParams, useSearchParams } from "react-router-dom";
 import {
+  getBrandsForCategory,
   getFacets,
   getProductsByCategory,
   getSubcategories,
   hasOptionValue,
 } from "../data/products.js";
+import BrandRail from "../components/BrandRail.jsx";
 import FilterPanel from "../components/FilterPanel.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 
@@ -18,7 +20,7 @@ const SORTS = [
 
 export default function CategoryListing() {
   const { categoryName } = useParams();
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
 
   const allProducts = useMemo(
     () => getProductsByCategory(categoryName),
@@ -29,15 +31,37 @@ export default function CategoryListing() {
     [categoryName],
   );
   const facets = useMemo(() => getFacets(categoryName), [categoryName]);
+  const brands = useMemo(
+    () => getBrandsForCategory(categoryName),
+    [categoryName],
+  );
 
   const [selectedSubs, setSelectedSubs] = useState(() => {
     const sub = searchParams.get("sub");
     return sub ? [sub] : [];
   });
   const [selectedFacets, setSelectedFacets] = useState(() => {
+    const initial = {};
     const tone = searchParams.get("tone");
-    return tone ? { tone: [tone] } : {};
+    if (tone) initial.tone = [tone];
+    const brand = searchParams.get("brand");
+    if (brand) initial.brand = [brand];
+    return initial;
   });
+
+  const activeBrand = selectedFacets.brand?.[0] ?? null;
+
+  const selectBrand = (slug) => {
+    setSelectedFacets((prev) => ({ ...prev, brand: slug ? [slug] : [] }));
+    setSearchParams(
+      (prev) => {
+        if (slug) prev.set("brand", slug);
+        else prev.delete("brand");
+        return prev;
+      },
+      { replace: true },
+    );
+  };
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState("featured");
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -60,6 +84,7 @@ export default function CategoryListing() {
     setSelectedSubs([]);
     setSelectedFacets({});
     setSearch("");
+    setSearchParams({}, { replace: true });
   };
 
   const activeCount =
@@ -74,6 +99,8 @@ export default function CategoryListing() {
       if (selectedSubs.length > 0 && !selectedSubs.includes(p.subcategory)) {
         return false;
       }
+
+      if (activeBrand && p.brandSlug !== activeBrand) return false;
 
       for (const facet of facets) {
         const values = selectedFacets[facet.id] ?? [];
@@ -101,7 +128,7 @@ export default function CategoryListing() {
     }
 
     return items;
-  }, [allProducts, facets, selectedFacets, selectedSubs, search, sort]);
+  }, [allProducts, activeBrand, facets, selectedFacets, selectedSubs, search, sort]);
 
   const filterProps = {
     subcategories,
@@ -130,9 +157,11 @@ export default function CategoryListing() {
         </div>
       </header>
 
+      <BrandRail brands={brands} active={activeBrand} onSelect={selectBrand} />
+
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-[230px_1fr] lg:gap-12">
         <aside className="hidden lg:block">
-          <div className="sticky top-24 max-h-[calc(100vh-8rem)] overflow-y-auto pr-2">
+          <div className="thin-scroll sticky top-24 max-h-[calc(100vh-8rem)] overflow-y-auto pr-2">
             <FilterPanel {...filterProps} />
           </div>
         </aside>
@@ -210,7 +239,7 @@ export default function CategoryListing() {
               onClick={() => setFiltersOpen(false)}
             />
             <motion.div
-              className="fixed inset-x-0 bottom-0 z-50 max-h-[86vh] overflow-y-auto rounded-t-[6px] border-t border-conduit bg-ground p-6 lg:hidden"
+              className="thin-scroll fixed inset-x-0 bottom-0 z-50 max-h-[86vh] overflow-y-auto rounded-t-[6px] border-t border-conduit bg-ground p-6 lg:hidden"
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               exit={{ y: "100%" }}
