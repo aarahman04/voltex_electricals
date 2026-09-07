@@ -35,6 +35,18 @@ body {
   line-height: 0.95;
 }
 
+/* The second half of the lockup: same cut and width, lighter, opened up —
+   the way a maker's name and the word "ELECTRICALS" sit on a real
+   distribution-board plate. */
+.nameplate-sub {
+  font-family: var(--font-display);
+  font-variation-settings: "wdth" 125;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  line-height: 0.95;
+}
+
 /* Tariff-sheet register: specs, counts, codes. */
 .spec {
   font-family: var(--font-mono);
@@ -54,6 +66,27 @@ body {
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+/* A scrollbar that belongs to the dark panel it sits in, not the OS. Used on
+   the filter sidebar and the mobile filter sheet. */
+.thin-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-conduit) transparent;
+}
+.thin-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.thin-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.thin-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-conduit);
+  border-radius: 9999px;
+}
+.thin-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted);
 }
 
 /* Range inputs read as instrument tracks, not OS widgets. */

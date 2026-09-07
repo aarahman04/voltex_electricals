@@ -2,16 +2,22 @@ import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
+  getBrands,
+  getBrandsForCategory,
   getCategories,
   getCategoryFeature,
-  getHeroFeature,
   getProductsByCategory,
+  getShowcaseProducts,
   getSubcategories,
   products,
 } from "../data/products.js";
 import { cdnImage } from "../lib/image.js";
-import { kelvinToCss } from "../lib/kelvin.js";
+import { kelvinToCss, nearestTone } from "../lib/kelvin.js";
 import KelvinBar from "../components/KelvinBar.jsx";
+import CylinderCarousel from "../components/CylinderCarousel.jsx";
+
+const showcase = getShowcaseProducts().slice(0, 12);
+const brands = getBrands();
 
 export default function Home() {
   const categories = getCategories();
@@ -22,7 +28,11 @@ export default function Home() {
 
   return (
     <div>
-      <Hero modelCount={products.length} typeCount={typeCount} />
+      <Hero
+        modelCount={products.length}
+        typeCount={typeCount}
+        brandCount={brands.length}
+      />
 
       <section className="mx-auto max-w-[1400px] px-5 py-16 sm:px-8 sm:py-24">
         <div className="grid gap-5 md:grid-cols-2">
@@ -32,129 +42,68 @@ export default function Home() {
         </div>
       </section>
 
+      <BrandStrip />
+
+      <LightingBand />
+
       {categories.map((category) => (
         <SubcategoryRow key={category} category={category} />
       ))}
-
-      <footer className="mt-12 border-t border-conduit">
-        <div className="mx-auto flex max-w-[1400px] flex-col gap-2 px-5 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-8">
-          <span className="nameplate text-base text-ivory">Voltex Electricals</span>
-          <span className="spec text-muted">
-            Orient Electric range · {products.length} models · Prices on enquiry
-          </span>
-        </div>
-      </footer>
     </div>
   );
 }
 
-function Hero({ modelCount, typeCount }) {
-  const [kelvin, setKelvin] = useState(2700);
-  const { product: feature, image: featureImage } = getHeroFeature();
-  const light = kelvinToCss(kelvin);
-
+function Hero({ modelCount, typeCount, brandCount }) {
   return (
     <section className="relative overflow-hidden border-b border-conduit bg-ground-deep">
       <div
-        className="pointer-events-none absolute inset-0 transition-[background] duration-500"
+        className="pointer-events-none absolute inset-0"
         style={{
-          background: `radial-gradient(120% 90% at 78% 18%, ${kelvinToCss(kelvin, 0.22)} 0%, transparent 62%)`,
+          background:
+            "radial-gradient(120% 80% at 50% 0%, rgba(242,166,59,0.14) 0%, transparent 60%)",
         }}
       />
+      <motion.div
+        initial={{ opacity: 0, y: 14 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+        className="relative mx-auto max-w-[1400px] px-5 pt-20 sm:px-8 lg:pt-28"
+      >
+        <p className="spec mb-7 text-filament">
+          {modelCount} models · {typeCount} types · {brandCount} brands
+        </p>
 
-      <div className="relative mx-auto grid max-w-[1400px] items-center gap-14 px-5 py-20 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:py-28">
-        <div>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
-            className="spec mb-7 text-filament"
-          >
-            Orient Electric range · {modelCount} models · {typeCount} types
-          </motion.p>
+        <h1 className="nameplate text-[2rem] text-ivory min-[420px]:text-[2.4rem] sm:text-[3.5rem] lg:text-[4.4rem]">
+          Everything that
+          <br />
+          moves air or
+          <br />
+          makes light
+        </h1>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 18 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
-            className="nameplate text-[2.15rem] text-ivory min-[420px]:text-[2.5rem] sm:text-[3.6rem] lg:text-[4.4rem]"
-          >
-            Everything that
-            <br />
-            moves air or
-            <br />
-            <span style={{ color: light }} className="transition-colors duration-500">
-              makes light
-            </span>
-          </motion.h1>
+        <p className="mt-7 max-w-md text-[15px] leading-relaxed text-ivory/75">
+          Browse the full range by sweep, wattage, finish and light tone. Every
+          model, every variant, straight from the catalogue.
+        </p>
+      </motion.div>
 
-          <motion.p
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-7 max-w-md text-[15px] leading-relaxed text-ivory/75"
-          >
-            Browse the full range by sweep, wattage, finish and light tone.
-            Every model, every variant, straight from the catalogue.
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.32 }}
-            className="mt-12"
-          >
-            <KelvinBar kelvin={kelvin} onChange={setKelvin} />
-          </motion.div>
-        </div>
-
-        {feature && (
-          <motion.div
-            initial={{ opacity: 0, scale: 0.97 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-            className="relative mx-auto w-full max-w-[520px]"
-          >
-            <div
-              className="pointer-events-none absolute -inset-10 rounded-full blur-3xl transition-[background] duration-500"
-              style={{ background: kelvinToCss(kelvin, 0.18) }}
-            />
-            <Link
-              to={`/product/${feature.id}`}
-              className="group relative block overflow-hidden rounded-[4px] bg-plate-dim"
-            >
-              <img
-                src={cdnImage(featureImage, 800)}
-                alt={feature.title}
-                className="aspect-square w-full object-contain mix-blend-multiply p-12 transition-transform duration-700 group-hover:scale-[1.03]"
-              />
-              {/* The showroom light falling on an enamel surface. */}
-              <div
-                className="pointer-events-none absolute inset-0 mix-blend-multiply transition-[background] duration-500"
-                style={{ background: kelvinToCss(kelvin, 0.32) }}
-              />
-              <div className="absolute inset-x-0 bottom-0 flex items-baseline justify-between gap-4 bg-ground-deep/90 px-5 py-4 backdrop-blur-sm">
-                <span className="text-sm font-medium text-ivory">
-                  {feature.title}
-                </span>
-                <span className="spec text-[9px] text-filament opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  View →
-                </span>
-              </div>
-            </Link>
-          </motion.div>
-        )}
+      <div className="relative mt-14 pb-16 lg:mt-8">
+        <CylinderCarousel products={showcase} />
+        <p className="spec mt-3 text-center text-muted/60">
+          Spin or swipe through the range
+        </p>
       </div>
     </section>
   );
 }
 
 // A lit display case: the goods on enamel, the plate below naming them.
-// The catalogue photographs everything as a cut-out on white, so nothing
-// here crops — the product is shown whole, the way a showroom shows it.
 function CategoryTile({ category, index }) {
   const items = getProductsByCategory(category);
   const types = getSubcategories(category).length;
+  const brandCount = getBrandsForCategory(category).filter(
+    (b) => b.status === "stocked",
+  ).length;
   const { image: showcaseImage } = getCategoryFeature(category);
 
   return (
@@ -189,7 +138,8 @@ function CategoryTile({ category, index }) {
           <div>
             <h2 className="nameplate text-3xl text-ivory sm:text-4xl">{category}</h2>
             <p className="spec mt-2 text-muted">
-              {items.length} models · {types} types
+              {items.length} models · {types} types ·{" "}
+              {brandCount} {brandCount === 1 ? "brand" : "brands"}
             </p>
           </div>
           <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-conduit text-ivory transition-all duration-300 group-hover:border-filament group-hover:bg-filament group-hover:text-ground-deep">
@@ -198,6 +148,81 @@ function CategoryTile({ category, index }) {
         </div>
       </Link>
     </motion.div>
+  );
+}
+
+function BrandStrip() {
+  return (
+    <section className="mx-auto max-w-[1400px] px-5 pb-8 sm:px-8">
+      <div className="mb-6 flex items-baseline justify-between border-b border-conduit pb-3">
+        <h3 className="nameplate text-xl text-ivory">Who we carry</h3>
+        <Link
+          to="/brands"
+          className="spec text-muted transition-colors hover:text-filament"
+        >
+          All brands →
+        </Link>
+      </div>
+      <div className="flex flex-wrap gap-2.5">
+        {brands.map((brand) =>
+          brand.status === "stocked" ? (
+            <Link
+              key={brand.slug}
+              to={`/brand/${brand.slug}`}
+              className="rounded-[3px] border border-conduit px-4 py-2 text-sm text-ivory transition-colors hover:border-filament hover:text-filament"
+            >
+              {brand.name}
+              <span className="spec ml-2 text-[9px] text-muted">{brand.count}</span>
+            </Link>
+          ) : (
+            <span
+              key={brand.slug}
+              className="rounded-[3px] border border-dashed border-conduit px-4 py-2 text-sm text-muted/60"
+            >
+              {brand.name}
+            </span>
+          ),
+        )}
+      </div>
+    </section>
+  );
+}
+
+function LightingBand() {
+  const [kelvin, setKelvin] = useState(2700);
+  const tone = nearestTone(kelvin);
+
+  return (
+    <section className="relative my-16 overflow-hidden border-y border-conduit bg-ground-deep">
+      <div
+        className="pointer-events-none absolute inset-0 transition-[background] duration-500"
+        style={{
+          background: `radial-gradient(90% 120% at 15% 30%, ${kelvinToCss(kelvin, 0.24)} 0%, transparent 62%)`,
+        }}
+      />
+      <div className="relative mx-auto grid max-w-[1400px] items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-2 lg:py-20">
+        <div>
+          <p className="spec mb-5 text-filament">Lighting</p>
+          <h2 className="nameplate text-[2rem] text-ivory sm:text-[2.6rem]">
+            Pick a white,
+            <br />
+            <span
+              style={{ color: kelvinToCss(kelvin) }}
+              className="transition-colors duration-500"
+            >
+              see the room change
+            </span>
+          </h2>
+          <p className="mt-5 max-w-md text-[15px] leading-relaxed text-ivory/75">
+            The catalogue sells light by colour temperature. Slide from warm to
+            cool and jump straight to the {tone.name.toLowerCase()} range.
+          </p>
+        </div>
+        <div className="w-full max-w-md lg:justify-self-end">
+          <KelvinBar kelvin={kelvin} onChange={setKelvin} />
+        </div>
+      </div>
+    </section>
   );
 }
 
