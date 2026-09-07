@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Archivo", system-ui, sans-serif;
+  --font-sans: "Hanken Grotesk", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+
+  /* A dim showroom: graphite walls, enamel goods, one filament. */
+  --color-ground: #262c2e;
+  --color-ground-deep: #1b2022;
+  --color-ground-lift: #2e3639;
+  --color-conduit: #3a4245;
+  --color-plate: #faf7f2;
+  --color-plate-dim: #ece7de;
+  --color-ink: #14181a;
+  --color-ivory: #e7e2d9;
+  --color-muted: #98a1a1;
+  --color-filament: #f2a63b;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-ground);
+  color: var(--color-ivory);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Stamped motor-plate lettering: the widest cut of Archivo, set tight. */
+.nameplate {
+  font-family: var(--font-display);
+  font-variation-settings: "wdth" 125;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.015em;
+  line-height: 0.95;
+}
+
+/* Tariff-sheet register: specs, counts, codes. */
+.spec {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-filament);
+  outline-offset: 2px;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Range inputs read as instrument tracks, not OS widgets. */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  height: 20px;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 2px;
+  background: var(--color-conduit);
+}
+input[type="range"]::-moz-range-track {
+  height: 2px;
+  background: var(--color-conduit);
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  margin-top: -6px;
+  border-radius: 9999px;
+  background: var(--color-filament);
+  box-shadow: 0 0 0 3px rgba(242, 166, 59, 0.2);
+  cursor: grab;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border: none;
+  border-radius: 9999px;
+  background: var(--color-filament);
+  box-shadow: 0 0 0 3px rgba(242, 166, 59, 0.2);
+  cursor: grab;
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  cursor: grabbing;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
