@@ -1,0 +1,3824 @@
+[
+ {
+  "id": "fluero-mini",
+  "title": "Fluero Mini",
+  "vendor": "Atomberg",
+  "tags": [
+   "Personal Fan"
+  ],
+  "priceMin": 2900,
+  "priceMax": 2900,
+  "variants": [
+   {
+    "options": {
+     "Color": "Snow White"
+    },
+    "sku": "FG1435",
+    "price": 2900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/Fluero_Mini_Fan_PLIs_1.jpg?v=1787750770",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/Fluero_Mini_Fan_PLIs_1.jpg?v=1787750770"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/fluero-mini",
+  "description": "A tomberg Fluero Mini | 145 mm BLDC Personal Fan | 4000mAh Battery | 15 Hours runtime | Rechargeable | Type-C charging | Silent fan | Home, Office | 5W | 2 Yrs Warranty | Snow White",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Table Fans",
+  "rawSubcategory": "Personal Fan"
+ },
+ {
+  "id": "erica-artesta-ceiling-fan",
+  "title": "Erica Artesta Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "All Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Designer Fans"
+  ],
+  "priceMin": 3499,
+  "priceMax": 3499,
+  "variants": [
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1230mm"
+    },
+    "sku": "FG0872",
+    "price": 3499
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artestawhite1200mm_1.jpg?v=1783437037",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artestawhite1200mm_1.jpg?v=1783437037",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artestamidnightblack1200mm_1.jpg?v=1783437037"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/erica-artesta-ceiling-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-renesa-prime-crest-ceiling-fan",
+  "title": "Renesa Prime Crest",
+  "vendor": "Atomberg",
+  "tags": [
+   "All Fans",
+   "Ceiling Fans",
+   "Renesa Series Ceiling Fans"
+  ],
+  "priceMin": 3499,
+  "priceMax": 4449,
+  "variants": [
+   {
+    "options": {
+     "Color": "Seasand Ivory",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1467",
+    "price": 3649
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1297-1",
+    "price": 4449
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1470",
+    "price": 4199
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "900mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1480",
+    "price": 4099
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "600mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1477",
+    "price": 3999
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1297-1-1",
+    "price": 3949
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1464",
+    "price": 3699
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "900mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1478",
+    "price": 3599
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "600mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1476",
+    "price": 3499
+   },
+   {
+    "options": {
+     "Color": "Copper Haze",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1297-1-1-2",
+    "price": 4449
+   },
+   {
+    "options": {
+     "Color": "Copper Haze",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1474",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1297-1-1-3-1-1-1",
+    "price": 3949
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1466",
+    "price": 3699
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "900mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1479",
+    "price": 3599
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "600mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1475",
+    "price": 3499
+   },
+   {
+    "options": {
+     "Color": "Dark Walnut",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1297-1-1-3",
+    "price": 4449
+   },
+   {
+    "options": {
+     "Color": "Misty Teal",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1297-1-1-1",
+    "price": 3949
+   },
+   {
+    "options": {
+     "Color": "Nordic Ashwood",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1297-1-1-3-1",
+    "price": 4449
+   },
+   {
+    "options": {
+     "Color": "Desert Pearl",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1297-1-1-3-1-1",
+    "price": 3949
+   },
+   {
+    "options": {
+     "Color": "Gloss White & Black",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1494",
+    "price": 3699
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_1_black_7.png?v=1783437242",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_1_black_7.png?v=1783437242",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_1_white_7.png?v=1783437242",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_4_walnut_9.png?v=1783437242",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_10_3_1.png?v=1783437242",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_1_honey_7.png?v=1783437242",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_1_cop_7_728fda28-2af2-473f-8ff3-62c679b25038.png?v=1784204872",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_1_ashwood_7_e4798b94-5f1d-46a5-930b-6d57ae9fbcca.png?v=1784204877",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_1_desert_7_e708f732-4dda-4112-8bd7-6f3d39694f15.png?v=1784204881",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01A_8c19f735-266d-4e53-8cef-4e27ca6f369b.png?v=1787740747",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01A_6b4ca2d9-eea8-4ffd-b6c3-32195c58ed3b.png?v=1787742661",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_c2b69f0c-283a-4ce1-b03d-2ae8398ce696.png?v=1787743016",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_ff8662fe-3943-4d25-bfe7-952227955e6d.png?v=1787744374",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_d9b73219-a944-40e7-ac15-7275582728e8.png?v=1787745749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_5451f62e-eb63-42a7-83e6-cc038b846840.png?v=1787745684",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_64d0258a-ab32-4428-b3a1-214e6b24ef2c.png?v=1787747032",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_6ef4a0d5-3f4c-4949-b5fa-cd1622f1603f.png?v=1787747905",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_40f75e8d-c389-438d-8cbd-772ab321a294.png?v=1787748412",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_0fb53b87-e46b-4f5e-896e-c33a8e8d4992.png?v=1787748465",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_cf3ffb13-f02a-400b-9a2b-9de3c8b1183e.png?v=1787748706",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_1df07cfb-0d3e-46d5-b10c-da573dc8a65b.png?v=1787749353",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_a6dafcb0-c2c1-474d-a921-a6f4d24377af.png?v=1787749627",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_04ea3bdb-124d-438e-abec-ff71ba04f23d.png?v=1787749943"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-renesa-prime-crest-ceiling-fan",
+  "description": "Value For Money-Saves Up To ₹ 1500/Year Compatible With Regulator Contemporary Design With A Sleek Body",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-emperion-magna-ceiling-fan",
+  "title": "Emperion Magna Smart",
+  "vendor": "Atomberg",
+  "tags": [
+   "All Fans",
+   "Ceiling Fans"
+  ],
+  "priceMin": 19999,
+  "priceMax": 19999,
+  "variants": [
+   {
+    "options": {
+     "Color": "Amber Light Teak (Wooden)",
+     "Sweep Size": "1280mm"
+    },
+    "sku": "FG1050",
+    "price": 19999
+   },
+   {
+    "options": {
+     "Color": "Lava Grey (Gloss Metallic)",
+     "Sweep Size": "1280mm"
+    },
+    "sku": "FG1049",
+    "price": 19999
+   },
+   {
+    "options": {
+     "Color": "Pearl White (Matte Metallic)",
+     "Sweep Size": "1280mm"
+    },
+    "sku": "FG0943",
+    "price": 19999
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/emperion_magna_plis_amber_light_teak-06_1.jpg?v=1783437233",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/emperion_magna_plis_amber_light_teak-06_1.jpg?v=1783437233",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/emperion_magna_plis_pearl_white-06.jpg?v=1783437233",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/emperion_magna_plis_lava_grey-06.jpg?v=1783437233"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-emperion-magna-ceiling-fan",
+  "description": "Value For Money-Saves Up To ₹ 1500/Year Compatible With Regulator Contemporary Design With A Sleek Body",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-ikano-stylique-ceiling-fan",
+  "title": "Ikano Stylique",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "Ceiling Fans",
+   "Classic Fans",
+   "Designer Fans",
+   "Living Room Ceiling Fans"
+  ],
+  "priceMin": 3499,
+  "priceMax": 3499,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1319",
+    "price": 3499
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1020",
+    "price": 3499
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1023",
+    "price": 3499
+   },
+   {
+    "options": {
+     "Color": "Seasand Ivory",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1022",
+    "price": 3499
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ikano_stylique_pli_black-05.jpg?v=1783437218",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ikano_stylique_pli_black-05.jpg?v=1783437218",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ikano_stylique_pli_gloss_white-05.jpg?v=1783437217",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ikano_stylique_pli_pebble_grey-05.jpg?v=1783437217",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ikano_stylique_pli_seasand_ivory-05_1.jpg?v=1783482913"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-ikano-stylique-ceiling-fan",
+  "description": "Value For Money-Saves Up To ₹ 1500/Year Compatible With Regulator Contemporary Design With A Sleek Body",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-renesa-epoque-ceiling-fan",
+  "title": "Renesa Epoque",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "Ceiling Fans",
+   "Living Room Ceiling Fans",
+   "Renesa Series Ceiling Fans"
+  ],
+  "priceMin": 3599,
+  "priceMax": 3599,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1297",
+    "price": 3599
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1043",
+    "price": 3599
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1298",
+    "price": 3599
+   },
+   {
+    "options": {
+     "Color": "Sangria Brown",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1300",
+    "price": 3599
+   },
+   {
+    "options": {
+     "Color": "Gloss Earth Brown",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1299",
+    "price": 3599
+   },
+   {
+    "options": {
+     "Color": "Seasand Ivory",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1357",
+    "price": 3599
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1_12.png?v=1783437209",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1_12.png?v=1783437209",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/2_5.png?v=1783437209",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1_15.png?v=1783437209",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1_16.png?v=1783437209",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1_17.png?v=1783437209",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/Artboard_100_2f71d0f7-537d-4ee1-9b65-cec697141ac6.png?v=1788518475"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-renesa-epoque-ceiling-fan",
+  "description": "Value For Money-Saves Up To ₹ 1500/Year Compatible With Regulator Contemporary Design With A Sleek Body",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-studio-ventra-ceiling-fan",
+  "title": "Studio Ventra Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "Ceiling Fans",
+   "Designer Fans",
+   "Living Room Ceiling Fans",
+   "Smart Fans"
+  ],
+  "priceMin": 4599,
+  "priceMax": 4599,
+  "variants": [
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "1250mm"
+    },
+    "sku": "FG1025",
+    "price": 4599
+   },
+   {
+    "options": {
+     "Color": "Blaze Brown",
+     "Sweep Size": "1250mm"
+    },
+    "sku": "FG1286",
+    "price": 4599
+   },
+   {
+    "options": {
+     "Color": "Urban Chrome",
+     "Sweep Size": "1250mm"
+    },
+    "sku": "FG1284",
+    "price": 4599
+   },
+   {
+    "options": {
+     "Color": "Creme Brulee",
+     "Sweep Size": "1250mm"
+    },
+    "sku": "FG1285",
+    "price": 4599
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_ventra_pli_snow_white-05.png?v=1783437198",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_ventra_pli_snow_white-05.png?v=1783437198",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_ventra_pli_blaze_brown-05.png?v=1783437198",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_ventra_pli_urban_chrome-05.png?v=1783437198",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_ventra_pli_creme_brulee-05.png?v=1783437198"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-studio-ventra-ceiling-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-razon-ceiling-fan",
+  "title": "Razon Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "Ceiling Fans",
+   "Living Room Ceiling Fans",
+   "Sleek Fans"
+  ],
+  "priceMin": 4149,
+  "priceMax": 4149,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0739",
+    "price": 4149
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1279",
+    "price": 4149
+   },
+   {
+    "options": {
+     "Color": "Misty Teal",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1281",
+    "price": 4149
+   },
+   {
+    "options": {
+     "Color": "Sangria Brown",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1283",
+    "price": 4149
+   },
+   {
+    "options": {
+     "Color": "Urban Chrome",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1280",
+    "price": 4149
+   },
+   {
+    "options": {
+     "Color": "Creme Brulee",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1282",
+    "price": 4149
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/razon_white_26_mar_5.png?v=1783437181",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/razon_white_26_mar_5.png?v=1783437181",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/rzn_mb_23_mar_5.png?v=1783437180",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/rzn_mt_23_mar_5.png?v=1783437180",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/rzn_sb_23_mar_5.png?v=1783437180",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/rzn_uc_23_mar_5.png?v=1783437180",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/rzn_cb_23_mar_5.png?v=1783437180"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-razon-ceiling-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "erica-signature-ceiling-fan",
+  "title": "Erica Signature Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "Ceiling Fans",
+   "Living Room Ceiling Fans",
+   "Regulator Fans"
+  ],
+  "priceMin": 3849,
+  "priceMax": 3849,
+  "variants": [
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1230mm"
+    },
+    "sku": "FG1207",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "1230mm"
+    },
+    "sku": "FG1012",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Blaze Brown",
+     "Sweep Size": "1230mm"
+    },
+    "sku": "FG1208",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Seasand Ivory",
+     "Sweep Size": "1230mm"
+    },
+    "sku": "FG1209",
+    "price": 3849
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_signature_plis_midnight_black_reg-05.png?v=1783437162",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_signature_plis_midnight_black_reg-05.png?v=1783437162",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_signature_plis_snow_white_reg-05.png?v=1783437162",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_signature_plis_blaze_brown_reg-05.png?v=1783437162",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_signature_plis_seasand_ivory_reg-05.png?v=1783437162"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/erica-signature-ceiling-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-silenceaire-hi-speed-pedestal-fan",
+  "title": "SilenceAire Hi-Speed Pedestal Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "Pedestal Fans"
+  ],
+  "priceMin": 4249,
+  "priceMax": 4249,
+  "variants": [
+   {
+    "options": {
+     "Color": "Aegean Blue",
+     "Sweep Size": "400mm",
+     "Variant": "Swing"
+    },
+    "sku": "FG1290",
+    "price": 4249
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "400mm",
+     "Variant": "Swing"
+    },
+    "sku": "FG0953",
+    "price": 4249
+   },
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "400mm",
+     "Variant": "Swing"
+    },
+    "sku": "FG1289",
+    "price": 4249
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/silenceaire_pedestal_400_blue_pli_1.jpg?v=1783437153",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/silenceaire_pedestal_400_blue_pli_1.jpg?v=1783437153",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/silenceaire_pedestal_400_black_pli_1__1.jpg?v=1783437153",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/silenceaire_pedestal_400_white_pli_1__1.jpg?v=1783437153"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-silenceaire-hi-speed-pedestal-fan",
+  "description": "Super Energy-Efficient BLDC Motor Double Ball Bearings For Longer Life And Less Noise Separate Motor For Oscillation Function Remote Control Operated",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "rawSubcategory": "Pedestal Fans"
+ },
+ {
+  "id": "atomberg-metallion-18-metal-wall-fan",
+  "title": "Metallion 18  Metal Wall Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "Renesa Series",
+   "Wall Fans"
+  ],
+  "priceMin": 4399,
+  "priceMax": 4399,
+  "variants": [
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "450mm"
+    },
+    "sku": "FG0949",
+    "price": 4399
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/hyena_wall_fan_plis_black_13_feb_1__1_c73b2549-bc86-4eb6-a94d-ac11924b14d7.jpg?v=1783437146",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/hyena_wall_fan_plis_black_13_feb_1__1_c73b2549-bc86-4eb6-a94d-ac11924b14d7.jpg?v=1783437146"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-metallion-18-metal-wall-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "rawSubcategory": "Wall Fans"
+ },
+ {
+  "id": "silenceaire-hi-speed-plastic-wall-fan",
+  "title": "SilenceAire Hi-Speed Wall fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "Wall Fans"
+  ],
+  "priceMin": 3899,
+  "priceMax": 3899,
+  "variants": [
+   {
+    "options": {
+     "Color": "Aegean Blue",
+     "Sweep Size": "400mm"
+    },
+    "sku": "FG1293",
+    "price": 3899
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "400mm"
+    },
+    "sku": "FG0994",
+    "price": 3899
+   },
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "400mm"
+    },
+    "sku": "FG1292",
+    "price": 3899
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/silenceaire_wall_fan_plis_blue_13_feb_1.jpg?v=1783437139",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/silenceaire_wall_fan_plis_blue_13_feb_1.jpg?v=1783437139",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/silenceaire_wall_fan_plis_black_13_feb_1__1.jpg?v=1783437139",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/silenceaire_wall_fan_plis_white_13_feb_1.jpg?v=1783437139"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/silenceaire-hi-speed-plastic-wall-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "rawSubcategory": "Wall Fans"
+ },
+ {
+  "id": "atomberg-efficio-orb-exhaust-fan",
+  "title": "Efficio Orb Exhaust Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "Efficio Series Exhaust Fans",
+   "Exhaust Fans"
+  ],
+  "priceMin": 1249,
+  "priceMax": 1249,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG1030",
+    "price": 1249
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG1029",
+    "price": 1249
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficio_orb_150_mm_black_pli_1.jpg?v=1783437131",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficio_orb_150_mm_black_pli_1.jpg?v=1783437131",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficio_orb_150_mm_white_pli_1.jpg?v=1783437131"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-efficio-orb-exhaust-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "rawSubcategory": "Exhaust Fans"
+ },
+ {
+  "id": "shop-ceiling-fans-atomberg-efficio-prime-bldc-motor-with-remote-3-blade-ceiling-fan-black-srilanka",
+  "title": "Atomberg Efficio Prime Black",
+  "vendor": "Atomberg",
+  "tags": [
+   "Best Energy-Efficient Fans in Sri Lanka"
+  ],
+  "priceMin": 19900,
+  "priceMax": 19900,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG0798",
+    "price": 19900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficio_prime_plis_black-01.jpg?v=1783437116",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficio_prime_plis_black-01.jpg?v=1783437116"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/shop-ceiling-fans-atomberg-efficio-prime-bldc-motor-with-remote-3-blade-ceiling-fan-black-srilanka",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled Compact Motor Design LED Indication For Speed This model is available in Matt Finish.",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Best Energy-Efficient Fans in Sri Lanka"
+ },
+ {
+  "id": "shop-ceiling-fans-atomberg-efficio-prime-bldc-motor-with-remote-3-blade-ceiling-fan-white-srilanka-1",
+  "title": "Atomberg Efficio Prime White",
+  "vendor": "Atomberg",
+  "tags": [
+   "Best Energy-Efficient Fans in Sri Lanka"
+  ],
+  "priceMin": 19900,
+  "priceMax": 19900,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG0800",
+    "price": 19900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficio_prime_plis-01.jpg?v=1783437110",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficio_prime_plis-01.jpg?v=1783437110"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/shop-ceiling-fans-atomberg-efficio-prime-bldc-motor-with-remote-3-blade-ceiling-fan-white-srilanka-1",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled Compact Motor Design LED Indication For Speed This model is available in Matt Finish.",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Best Energy-Efficient Fans in Sri Lanka"
+ },
+ {
+  "id": "shop-ceiling-fans-atomberg-renesa-bldc-motor-with-remote-3-blade-ceiling-fan-black-srilanka",
+  "title": "Atomberg Renesa Black",
+  "vendor": "Atomberg",
+  "tags": [
+   "Best Energy-Efficient Fans in Sri Lanka"
+  ],
+  "priceMin": 20900,
+  "priceMax": 20900,
+  "variants": [
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG0756",
+    "price": 20900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_midnight_black_plis-01.jpg?v=1783437103",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_midnight_black_plis-01.jpg?v=1783437103"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/shop-ceiling-fans-atomberg-renesa-bldc-motor-with-remote-3-blade-ceiling-fan-black-srilanka",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled Compact Motor Design LED Indication For Speed This model is available in Matt Finish.",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Best Energy-Efficient Fans in Sri Lanka"
+ },
+ {
+  "id": "atomberg-pedestal-fan-renesa-bldc-motor-energy-saving-pedestal-fan-400mm-with-remote-control-black-srilanka",
+  "title": "Atomberg Renesa Pedestal Black",
+  "vendor": "Atomberg",
+  "tags": [
+   "Best Energy-Efficient Fans in Sri Lanka"
+  ],
+  "priceMin": 23900,
+  "priceMax": 23900,
+  "variants": [
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "400mm",
+     "Variant": "Swing"
+    },
+    "sku": "FG0647",
+    "price": 23900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/black.jpg?v=1783437097",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/black.jpg?v=1783437097"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-pedestal-fan-renesa-bldc-motor-energy-saving-pedestal-fan-400mm-with-remote-control-black-srilanka",
+  "description": "Super Energy-Efficient BLDC Motor Double Ball Bearings For Longer Life And Less Noise Separate Motor For Oscillation Function Remote Control Operated",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Best Energy-Efficient Fans in Sri Lanka"
+ },
+ {
+  "id": "atomberg-renesa-plus-bldc-motor-with-remote-3-blade-ceiling-fan-srilanka",
+  "title": "Atomberg Renesa+ Golden Oakwood",
+  "vendor": "Atomberg",
+  "tags": [
+   "Best Energy-Efficient Fans in Sri Lanka"
+  ],
+  "priceMin": 24900,
+  "priceMax": 24900,
+  "variants": [
+   {
+    "options": {
+     "Color": "Golden Oakwood",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG0797",
+    "price": 24900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pli-01.jpg?v=1783437091",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pli-01.jpg?v=1783437091"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-renesa-plus-bldc-motor-with-remote-3-blade-ceiling-fan-srilanka",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled Dust Resistant Coating With Metallic Finish Compact Motor Design LED Indication For Speed",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Best Energy-Efficient Fans in Sri Lanka"
+ },
+ {
+  "id": "atomberg-pedestal-fan-renesa-bldc-motor-energy-saving-pedestal-fan-400mm-with-remote-control-white-srilanka",
+  "title": "Atomberg Renesa Pedestal White",
+  "vendor": "Atomberg",
+  "tags": [
+   "Best Energy-Efficient Fans in Sri Lanka"
+  ],
+  "priceMin": 23900,
+  "priceMax": 23900,
+  "variants": [
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "400mm",
+     "Variant": "Swing"
+    },
+    "sku": "FG0212-srilanka",
+    "price": 23900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/white.jpg?v=1783437084",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/white.jpg?v=1783437084"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-pedestal-fan-renesa-bldc-motor-energy-saving-pedestal-fan-400mm-with-remote-control-white-srilanka",
+  "description": "Super Energy-Efficient BLDC Motor Double Ball Bearings For Longer Life And Less Noise Separate Motor For Oscillation Function Remote Control Operated",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Best Energy-Efficient Fans in Sri Lanka"
+ },
+ {
+  "id": "shop-ceiling-fans-atomberg-renesa-bldc-motor-with-remote-3-blade-ceiling-fan-white-srilanka",
+  "title": "Atomberg Renesa White",
+  "vendor": "Atomberg",
+  "tags": [
+   "Best Energy-Efficient Fans in Sri Lanka"
+  ],
+  "priceMin": 20900,
+  "priceMax": 20900,
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG0799",
+    "price": 20900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_gloss_white_plis-01.jpg?v=1783437077",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_gloss_white_plis-01.jpg?v=1783437077"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/shop-ceiling-fans-atomberg-renesa-bldc-motor-with-remote-3-blade-ceiling-fan-white-srilanka",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled Compact Motor Design LED Indication For Speed This model is available in Matt Finish.",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Best Energy-Efficient Fans in Sri Lanka"
+ },
+ {
+  "id": "atomberg-studio-nexus-bldc-motor-3-blade-ceiling-fan",
+  "title": "Studio Nexus",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "1400 mm Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "Ceiling Fans",
+   "Designer Fans",
+   "Living Room Ceiling Fans",
+   "Smart Fans"
+  ],
+  "priceMin": 4599,
+  "priceMax": 5699,
+  "variants": [
+   {
+    "options": {
+     "Color": "Pearl White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1232",
+    "price": 4999
+   },
+   {
+    "options": {
+     "Color": "Pearl White",
+     "Sweep Size": "900mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1245",
+    "price": 4899
+   },
+   {
+    "options": {
+     "Color": "Pearl White",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1249",
+    "price": 5199
+   },
+   {
+    "options": {
+     "Color": "Dark Walnut",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1243",
+    "price": 5499
+   },
+   {
+    "options": {
+     "Color": "Dark Walnut",
+     "Sweep Size": "900mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1248",
+    "price": 5399
+   },
+   {
+    "options": {
+     "Color": "Dark Walnut",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1252",
+    "price": 5699
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Nexus"
+    },
+    "sku": "FG1238",
+    "price": 4599
+   },
+   {
+    "options": {
+     "Color": "Rose Gold",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1242",
+    "price": 4999
+   },
+   {
+    "options": {
+     "Color": "Rose Gold",
+     "Sweep Size": "900mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1247",
+    "price": 4899
+   },
+   {
+    "options": {
+     "Color": "Rose Gold",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1251",
+    "price": 5199
+   },
+   {
+    "options": {
+     "Color": "Ritz Blue",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1241",
+    "price": 4999
+   },
+   {
+    "options": {
+     "Color": "Ritz Blue",
+     "Sweep Size": "900mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG0682",
+    "price": 4899
+   },
+   {
+    "options": {
+     "Color": "Ritz Blue",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Nexus Smart"
+    },
+    "sku": "FG1250",
+    "price": 5199
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Nexus"
+    },
+    "sku": "FG1244",
+    "price": 4599
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Nexus"
+    },
+    "sku": "FG1240",
+    "price": 4599
+   },
+   {
+    "options": {
+     "Color": "Blaze Brown",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Nexus"
+    },
+    "sku": "FG0685",
+    "price": 4599
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_sm_1200_pw_pli_21_mar_1.png?v=1783437026",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_sm_1200_pw_pli_21_mar_1.png?v=1783437026",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_1400_pw_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_900_pw_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_ns_1200_gw_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_1400_rg_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_900_rg_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_sm_1200_rg_pli_21_mar_1.png?v=1783437026",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_ns_1200_mb_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_sm_1200_dw_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_1400_dw_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_900_dw_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_ns_1200_pg_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_ns_1200_bbb_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_sm_1200_rb_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_1400_rb_pli_21_mar_1.png?v=1783437025",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_900_rb_pli_21_mar_1.png?v=1783437025"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-studio-nexus-bldc-motor-3-blade-ceiling-fan",
+  "description": "Value For Money-Saves Up To ₹ 1500/Year Compatible With Regulator Contemporary Design With A Sleek Body",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "erica-meta-ceiling-fan",
+  "title": "Erica Meta Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Designer Fans",
+   "Living Room Ceiling Fans"
+  ],
+  "priceMin": 3499,
+  "priceMax": 3499,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss Seasand Ivory",
+     "Sweep Size": "1230mm"
+    },
+    "sku": "FG0814",
+    "price": 3499
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1230mm"
+    },
+    "sku": "FG0812",
+    "price": 3499
+   },
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "1230mm"
+    },
+    "sku": "FG0749",
+    "price": 3499
+   },
+   {
+    "options": {
+     "Color": "Blaze Brown",
+     "Sweep Size": "1230mm"
+    },
+    "sku": "FG0813",
+    "price": 3499
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ericameta_ssivory_2703_6.jpg?v=1783437006",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ericameta_ssivory_2703_6.jpg?v=1783437006",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_meta_ns_black_2703_6.jpg?v=1783437006",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_meta_non_smart_pli-06.jpg?v=1783437006",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ericameta_blzbrwn_2703_6.jpg?v=1783437007"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/erica-meta-ceiling-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "erica-nuvo-ceiling-fan",
+  "title": "Erica Nuvo Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Designer Fans",
+   "Living Room Ceiling Fans",
+   "Regulator Fans"
+  ],
+  "priceMin": 4299,
+  "priceMax": 4549,
+  "variants": [
+   {
+    "options": {
+     "Color": "Umber Brown",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1255",
+    "price": 4549
+   },
+   {
+    "options": {
+     "Color": "Lotus Pink",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1254",
+    "price": 4549
+   },
+   {
+    "options": {
+     "Color": "Aegean Blue",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1256",
+    "price": 4549
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG0727",
+    "price": 4549
+   },
+   {
+    "options": {
+     "Color": "Misty Teal",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG0968",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1253",
+    "price": 4549
+   },
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG0967",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Blaze Brown",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG0970",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Seasand Ivory",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG0969",
+    "price": 4299
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_nuvo_plis-06.jpg?v=1783436997",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_nuvo_plis-06.jpg?v=1783436997",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_nuvo_plis_lotus_pink-06.jpg?v=1783436997",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_atomberg_fan_erica_nuvo_plis_aegean_blue_aw-05.jpg?v=1783436998",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_nuvo_plis_black-06.jpg?v=1783436997",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_nuvo_regulator_1200_teal_pli_09_jan_5.jpg?v=1783436997",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_atomberg_fan_erica_nuvo_plis_snow_white_aw-05.jpg?v=1783436997",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_nuvo_regulator_1200_white_pli_09_jan_5.jpg?v=1783436997",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_nuvo_regulator_1200_brown_pli_09_jan_5.jpg?v=1783436998",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/erica_nuvo_regulator_1200_ivory_pli_09_jan_5.jpg?v=1783436997"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/erica-nuvo-ceiling-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "renesa-table-fan",
+  "title": "Renesa Table Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "Table Fans"
+  ],
+  "priceMin": 3149,
+  "priceMax": 3149,
+  "variants": [
+   {
+    "options": {
+     "Color": "Black"
+    },
+    "sku": "FG0732",
+    "price": 3149
+   },
+   {
+    "options": {
+     "Color": "Snow White"
+    },
+    "sku": "FG0731",
+    "price": 3149
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_table_fan_plis_1_1.jpg?v=1783436977",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_table_fan_plis_1_1.jpg?v=1783436977",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pedestal_fan_plis_7_sw_2.jpg?v=1783436977"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/renesa-table-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Table Fans",
+  "rawSubcategory": "Table Fans"
+ },
+ {
+  "id": "atomberg-renesa-halo-bldc-motor-3-blade-ceiling-fan",
+  "title": "Renesa Halo",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "1400 mm Ceiling Fans",
+   "600 mm Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "Ceiling Fans",
+   "Living Room Ceiling Fans",
+   "Sleek Fans",
+   "Small Fans",
+   "Smart Fans"
+  ],
+  "priceMin": 4099,
+  "priceMax": 4499,
+  "variants": [
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1110",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG1136",
+    "price": 4099
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1129",
+    "price": 4199
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG1121",
+    "price": 4499
+   },
+   {
+    "options": {
+     "Color": "Misty Teal",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1112",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Misty Teal",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG1137",
+    "price": 4099
+   },
+   {
+    "options": {
+     "Color": "Misty Teal",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1131",
+    "price": 4199
+   },
+   {
+    "options": {
+     "Color": "Misty Teal",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG1122",
+    "price": 4499
+   },
+   {
+    "options": {
+     "Color": "Blaze Brown",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1119",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Blaze Brown",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG1140",
+    "price": 4099
+   },
+   {
+    "options": {
+     "Color": "Blaze Brown",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1135",
+    "price": 4199
+   },
+   {
+    "options": {
+     "Color": "Blaze Brown",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG1128",
+    "price": 4499
+   },
+   {
+    "options": {
+     "Color": "White and Rose Gold",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG1139",
+    "price": 4099
+   },
+   {
+    "options": {
+     "Color": "White and Rose Gold",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1134",
+    "price": 4199
+   },
+   {
+    "options": {
+     "Color": "White and Rose Gold",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG1127",
+    "price": 4499
+   },
+   {
+    "options": {
+     "Color": "Gloss Seasand Ivory",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1115",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Gloss Seasand Ivory",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1133",
+    "price": 4199
+   },
+   {
+    "options": {
+     "Color": "Gloss Seasand Ivory",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG1124",
+    "price": 4499
+   },
+   {
+    "options": {
+     "Color": "Aegean Blue",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1120",
+    "price": 4249
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1113",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "White and Champagne Gold",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1118",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Spring Green",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1114",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Copper Haze",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1111",
+    "price": 4249
+   },
+   {
+    "options": {
+     "Color": "Seasand Ivory and Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1116",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Matte Brown and Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0816",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "White and Black",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG0831",
+    "price": 4099
+   },
+   {
+    "options": {
+     "Color": "White and Black",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG0846",
+    "price": 4199
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/matt_brown-01.jpg?v=1783436969",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/matt_brown-01.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_halo_600bnw_1.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo900mmwnb_1.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_10_3.png?v=1783436970",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/seasand_ivory-07.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahaloseasandivory1400_7.jpg?v=1783436970",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo900mmseasandivory_1.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/midnight_black-07.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_halo_smart_pli_600mm-01.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo1400mmmidnightblack_1.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo900mmmidnightblack_1.jpg?v=1783436970",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalomistyteal900mm_1.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/misty_teal-07.jpg?v=1783436970",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/mistytealrenesahalo1400mm_1.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_halo_misty_teal600mm_1.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/pebble_grey-07.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo1400mmbrown_1.jpg?v=1783436970",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo900mmblazebrown_1_25925e4b-3cd0-439a-89c1-4d525d7f3642.jpg?v=1783436970",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_halo600brown_1.jpg?v=1783436970",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/blaze_brown-07.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/seasand_ivory_black-07.jpg?v=1783436970",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/gloss_white_rose_gold-07.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/900_gloss_white_rose_gold-06.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalowhiterg1400mm_1.jpg?v=1783436970",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo600mmwhiterg_1.jpg?v=1783436969",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_10_2_992aa18d-ad72-4e5e-b02f-4706bb938a22.png?v=1784204718",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_10_1_6ad9a4a4-51db-48e3-9cf2-27e0a4306b8a.png?v=1784205846"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-renesa-halo-bldc-motor-3-blade-ceiling-fan",
+  "description": "Value For Money-Saves Up To ₹ 1500/Year Compatible With Regulator Contemporary Design With A Sleek Body",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-renesa-elite-bldc-motor-3-blade-ceiling-fan",
+  "title": "Renesa Elite",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "1400 mm Ceiling Fans",
+   "600 mm Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "Ceiling Fans",
+   "Living Room Ceiling Fans",
+   "Premium Fans",
+   "Sleek Fans",
+   "Smart Fans"
+  ],
+  "priceMin": 4599,
+  "priceMax": 5699,
+  "variants": [
+   {
+    "options": {
+     "Color": "Sand Grey",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1036",
+    "price": 4999
+   },
+   {
+    "options": {
+     "Color": "Sand Grey",
+     "Sweep Size": "600mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1069",
+    "price": 4799
+   },
+   {
+    "options": {
+     "Color": "Sand Grey",
+     "Sweep Size": "900mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG0793",
+    "price": 4899
+   },
+   {
+    "options": {
+     "Color": "Sand Grey",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1057",
+    "price": 5199
+   },
+   {
+    "options": {
+     "Color": "Pearl White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1033",
+    "price": 4999
+   },
+   {
+    "options": {
+     "Color": "Pearl White",
+     "Sweep Size": "600mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1066",
+    "price": 4799
+   },
+   {
+    "options": {
+     "Color": "Pearl White",
+     "Sweep Size": "900mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1060",
+    "price": 4899
+   },
+   {
+    "options": {
+     "Color": "Pearl White",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1054",
+    "price": 5199
+   },
+   {
+    "options": {
+     "Color": "Golden Oakwood",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1037",
+    "price": 5499
+   },
+   {
+    "options": {
+     "Color": "Golden Oakwood",
+     "Sweep Size": "600mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1070",
+    "price": 5299
+   },
+   {
+    "options": {
+     "Color": "Golden Oakwood",
+     "Sweep Size": "900mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG0805",
+    "price": 5399
+   },
+   {
+    "options": {
+     "Color": "Golden Oakwood",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1058",
+    "price": 5699
+   },
+   {
+    "options": {
+     "Color": "Dark Walnut",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1038",
+    "price": 5499
+   },
+   {
+    "options": {
+     "Color": "Dark Walnut",
+     "Sweep Size": "600mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1071",
+    "price": 5299
+   },
+   {
+    "options": {
+     "Color": "Dark Walnut",
+     "Sweep Size": "900mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1065",
+    "price": 5399
+   },
+   {
+    "options": {
+     "Color": "Dark Walnut",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1059",
+    "price": 5699
+   },
+   {
+    "options": {
+     "Color": "Earth Brown",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG0640",
+    "price": 4999
+   },
+   {
+    "options": {
+     "Color": "Earth Brown",
+     "Sweep Size": "600mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1067",
+    "price": 4799
+   },
+   {
+    "options": {
+     "Color": "Earth Brown",
+     "Sweep Size": "900mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG0790",
+    "price": 4899
+   },
+   {
+    "options": {
+     "Color": "Earth Brown",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1055",
+    "price": 5199
+   },
+   {
+    "options": {
+     "Color": "Regal Indigo",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1035",
+    "price": 4999
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite"
+    },
+    "sku": "FG1040",
+    "price": 4599
+   },
+   {
+    "options": {
+     "Color": "Ritz Blue",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG0700",
+    "price": 4999
+   },
+   {
+    "options": {
+     "Color": "Ritz Blue",
+     "Sweep Size": "600mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1068",
+    "price": 4799
+   },
+   {
+    "options": {
+     "Color": "Ritz Blue",
+     "Sweep Size": "900mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1062",
+    "price": 4899
+   },
+   {
+    "options": {
+     "Color": "Ritz Blue",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG1056",
+    "price": 5199
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite"
+    },
+    "sku": "FG1041",
+    "price": 4599
+   },
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite"
+    },
+    "sku": "FG1039",
+    "price": 4599
+   },
+   {
+    "options": {
+     "Color": "Blaze Brown",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite"
+    },
+    "sku": "FG1042",
+    "price": 4599
+   },
+   {
+    "options": {
+     "Color": "Pearl White: Pearl White Ring",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG0981",
+    "price": 4699
+   },
+   {
+    "options": {
+     "Color": "Pearl White: Fiona Copper Ring",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG0982",
+    "price": 4699
+   },
+   {
+    "options": {
+     "Color": "Pearl White: Aurora Green Ring",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Elite Smart"
+    },
+    "sku": "FG0983",
+    "price": 4699
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_rsand_grey-07900.jpg?v=1783436936",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_rsand_grey-07900.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_sand-grey.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_rsand_grey-07.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_rsand-grey_1.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_earth_brown-07_2.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_earth-brown.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_earth_brown-07_1.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_earth-brown_1.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_pearl_white_gloss-07_1.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_pearl-white-gloss.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_pearl_white_gloss-07_2.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_pearl-white-gloss_1.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_golden-oakwood_1.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_golden_oakwood-07900.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_golden_oakwood-07_1_1.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_golden_oakwood-07_1.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/export-07.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_dark_walnut-07_1.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_dark_walnut-07_2.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_dark-walnut.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_dark-walnut_1.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_pebble_grey-07.jpg?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_snow_white-07.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_blaze_brown-07.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_ritz_blue_matte-07_2.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_ritz-blue-matte_1.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_ritz_blue_matte-07_1.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_ritz-blue.jpg?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_smart_1200_pw_white_ring_22_oct_2.png?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_smart_1200_pw_copper_ring_22_oct_1.png?v=1783436935",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_smart_1200_pw_green_ring_22_oct_2.png?v=1783436936",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_10_3_2.png?v=1786979466"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-renesa-elite-bldc-motor-3-blade-ceiling-fan",
+  "description": "Value For Money-Saves Up To ₹ 1500/Year Compatible With Regulator Contemporary Design With A Sleek Body",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "aris-countour-ceiling-fan",
+  "title": "Aris Contour Smart Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Aris Ceiling Fan Series",
+   "Bedroom Ceiling Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Living Room Ceiling Fans",
+   "Premium Fans",
+   "Smart Fans"
+  ],
+  "priceMin": 7099,
+  "priceMax": 8099,
+  "variants": [
+   {
+    "options": {
+     "Color": "Marble White",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1179",
+    "price": 7099
+   },
+   {
+    "options": {
+     "Color": "Marble White",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG0925",
+    "price": 7099
+   },
+   {
+    "options": {
+     "Color": "Regent Grey",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1181",
+    "price": 7099
+   },
+   {
+    "options": {
+     "Color": "Regent Grey",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG0927",
+    "price": 7099
+   },
+   {
+    "options": {
+     "Color": "Umber Brown",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1183",
+    "price": 7099
+   },
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1180",
+    "price": 7099
+   },
+   {
+    "options": {
+     "Color": "Smoke Wood",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1262",
+    "price": 8099
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_contour-_1200-_brown-03_feb_1.jpg?v=1783436908",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_contour-_1200-_brown-03_feb_1.jpg?v=1783436908",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_contour-_1200-_white-03_feb_1.jpg?v=1783436907",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_contour-_900-_white-03_feb_1.png?v=1783436907",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_contour-_1200-_black-03_feb_1.jpg?v=1783436908",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_contour-_1200-grey-03_feb_1.jpg?v=1783436907",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_contour-_900-grey-03_feb_1.png?v=1783436907",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1a.png?v=1783483046"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/aris-countour-ceiling-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "shop-ceiling-fans-atomberg-efficio-alpha-bldc-motor-with-remote-3-blade-ceiling-fan",
+  "title": "Efficio Alpha Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Classic Fans",
+   "Living Room Ceiling Fans"
+  ],
+  "priceMin": 2849,
+  "priceMax": 2849,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0455",
+    "price": 2849
+   },
+   {
+    "options": {
+     "Color": "Gloss Brown",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0456",
+    "price": 2849
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0454",
+    "price": 2849
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1001",
+    "price": 2849
+   },
+   {
+    "options": {
+     "Color": "Seasand Ivory",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0666",
+    "price": 2849
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficioalpha_gb_pli_6.jpg?v=1783436841",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficioalpha_gb_pli_6.jpg?v=1783436841",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/brown_efficio_alpha_pli-06.jpg?v=1783436841",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/white_efficio_alpha_pli-06.jpg?v=1783436841",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficio_alpha_1200_grey_25_aug_6.jpg?v=1783436841",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ivory_efficio_alpha_pli-06.jpg?v=1783436841"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/shop-ceiling-fans-atomberg-efficio-alpha-bldc-motor-with-remote-3-blade-ceiling-fan",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled Compact Motor Design LED Indication For Speed",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-renesa-enzel-bldc-motor-3-blade-ceiling-fan",
+  "title": "Renesa Enzel",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "1400 mm Ceiling Fans",
+   "600 mm Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "Ceiling Fans",
+   "Living Room Ceiling Fans",
+   "Renesa Series Ceiling Fans",
+   "Sleek Fans"
+  ],
+  "priceMin": 3649,
+  "priceMax": 4549,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1195",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG1167",
+    "price": 3649
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1190",
+    "price": 3749
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG1203",
+    "price": 4049
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1194",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG1166",
+    "price": 3649
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1188",
+    "price": 3749
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG1202",
+    "price": 4049
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1201",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG1169",
+    "price": 3649
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1192",
+    "price": 3749
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG0944",
+    "price": 4049
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1199",
+    "price": 4349
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG1168",
+    "price": 4149
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1191",
+    "price": 4249
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG1204",
+    "price": 4549
+   },
+   {
+    "options": {
+     "Color": "Gloss Brown",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1196",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Gloss Seasand Ivory",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1197",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Dark Walnut",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1198",
+    "price": 4349
+   },
+   {
+    "options": {
+     "Color": "Misty Teal",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG1200",
+    "price": 3849
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_enzel_plis_gloss_black_1200mm_aw-06.jpg?v=1783436830",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_enzel_plis_gloss_black_1200mm_aw-06.jpg?v=1783436830",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_600mm_black_pli_09_jan_3.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_1400_black_22-aug_6.jpg?v=1783436830",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_900_black_22_aug_6.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_enzel_plis_gloss_brown_1200mm-06.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_600mm_white_pli_09_jan_3.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_1400_white_22-aug_6.jpg?v=1783436830",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_900_white_22_aug_6.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_enzel_plis_gloss_white_1200mm-06.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_enzel_plis_seasand_ivory_1200mm-06.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/enzel_plis-06.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_enzel_plis_misty_teal_1200mm-06.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_900_grey_22_aug_6.jpg?v=1783436830",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_enzel_plis_pebble_grey_1200mm-06.jpg?v=1783436830",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_1400_grey_22-aug_6.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_600mm_grey_pli_09_jan_6.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_900_maplewood_22_aug_6.jpg?v=1783436830",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_enzel_plis_honey_maplewood_1200mm-06.jpg?v=1783436830",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_1400_maplewood_22-aug_6.jpg?v=1783436829",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_enzel_600mm_maplewood_pli_09_jan_2.jpg?v=1783436830"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-renesa-enzel-bldc-motor-3-blade-ceiling-fan",
+  "description": "Value For Money-Saves Up To ₹ 1500/Year Compatible With Regulator Contemporary Design With A Sleek Body",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-renesa-prime-bldc-motor-3-blade-ceiling-fan",
+  "title": "Renesa Prime",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "1400 mm Ceiling Fans",
+   "600 mm Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "Ceiling Fans",
+   "Living Room Ceiling Fans",
+   "Regulator Fans",
+   "Renesa Series Ceiling Fans",
+   "Sleek Fans"
+  ],
+  "priceMin": 3499,
+  "priceMax": 4549,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1095",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1099",
+    "price": 3699
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "600mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1085",
+    "price": 3649
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "600mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1236",
+    "price": 3499
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "900mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1072",
+    "price": 3749
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "900mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1265",
+    "price": 3599
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1141",
+    "price": 4049
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1080",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1103",
+    "price": 3699
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "600mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1084",
+    "price": 3649
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "600mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1237",
+    "price": 3499
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "900mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1075",
+    "price": 3749
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "900mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1266",
+    "price": 3599
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1081",
+    "price": 4049
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1098",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "600mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1086",
+    "price": 3649
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "900mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1079",
+    "price": 3749
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1083",
+    "price": 4049
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1269",
+    "price": 4349
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1104",
+    "price": 4199
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "600mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1087",
+    "price": 4149
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "600mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1261",
+    "price": 3999
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "900mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1078",
+    "price": 4249
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "900mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1267",
+    "price": 4099
+   },
+   {
+    "options": {
+     "Color": "Honey Maplewood",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1082",
+    "price": 4549
+   },
+   {
+    "options": {
+     "Color": "Gloss Seasand Ivory",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1097",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Gloss Seasand Ivory",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1105",
+    "price": 3699
+   },
+   {
+    "options": {
+     "Color": "Gloss Seasand Ivory",
+     "Sweep Size": "900mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1338",
+    "price": 3749
+   },
+   {
+    "options": {
+     "Color": "Dark Walnut",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1074",
+    "price": 4349
+   },
+   {
+    "options": {
+     "Color": "Gloss Brown",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1270",
+    "price": 3849
+   },
+   {
+    "options": {
+     "Color": "Gloss Brown",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Regulator"
+    },
+    "sku": "FG1101",
+    "price": 3699
+   },
+   {
+    "options": {
+     "Color": "Misty Teal",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Remote"
+    },
+    "sku": "FG1077",
+    "price": 3849
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_600_black_pli_14_oct_1.png?v=1783436780",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_600_black_pli_14_oct_1.png?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_1400_black_22_aug_1.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1_1_3.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_900_black_22_aug_5.jpg?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pr_rg_600_gb_2.png?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pr_rg_900_gb_1.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_prime_remote_plis_gloss_black_1200mm_aw-05.jpg?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1_1_5.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_prime_remote_plis_gloss_brown_1200mm-06.jpg?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_prime_remote_plis_gloss_white_1200mm-06.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pr_rg_900_gw_1.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_900_white_22_aug_5.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1_1_9.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_1400_white_22_aug_5.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pr_rg_600_gw_2.png?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_600_white_pli_14_oct_1.png?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_prime_remote_plis_seasand_ivory_1200mm-06.jpg?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_prime_remote_pli_dark_walnut_5.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_prime_remote_plis_misty_teal_1200mm-06.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_prime_remote_plis_pebble_grey_1200mm-06.jpg?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_900_grey_22_aug_5.jpg?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_1400_grey_22_aug_5.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_600_grey_pli_14_oct_1.png?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_900_honey_mw_22_aug_5.jpg?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_600_honey_mw_pli_14_oct_1.png?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_remote_1400_maplewood_22_aug_5.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_prime_homey_maplewood_1200_14-08_1.jpg?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/atom001_renesa_prime_remote_plis_honey_maplewood_1200mm-06.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1_1_7.jpg?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pr_rg_600_hmw_2.png?v=1783436781",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pr_rg_900_hmw_2.png?v=1783436780",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/050.png?v=1786979595"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-renesa-prime-bldc-motor-3-blade-ceiling-fan",
+  "description": "Value For Money-Saves Up To ₹ 1500/Year Compatible With Regulator Contemporary Design With A Sleek Body",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "aris-ceiling-fan",
+  "title": "Aris Smart Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "1400 MM Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Aris Ceiling Fan Series",
+   "Bedroom Ceiling Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Living Room Ceiling Fans",
+   "Premium Fans",
+   "Smart Fans",
+   "Underlight Fans"
+  ],
+  "priceMin": 7199,
+  "priceMax": 11449,
+  "variants": [
+   {
+    "options": {
+     "Color": "Sand Grey",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Aris Gladius"
+    },
+    "sku": "FG1185",
+    "price": 7199
+   },
+   {
+    "options": {
+     "Color": "Sand Grey",
+     "Sweep Size": "900mm",
+     "Fan Type": "Aris Gladius"
+    },
+    "sku": "FG0964",
+    "price": 7199
+   },
+   {
+    "options": {
+     "Color": "Pearl White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Aris Gladius"
+    },
+    "sku": "FG1184",
+    "price": 7199
+   },
+   {
+    "options": {
+     "Color": "Pearl White",
+     "Sweep Size": "900mm",
+     "Fan Type": "Aris Gladius"
+    },
+    "sku": "FG0963",
+    "price": 7199
+   },
+   {
+    "options": {
+     "Color": "Dark Teakwood",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Aris Starlight"
+    },
+    "sku": "FG1173",
+    "price": 10999
+   },
+   {
+    "options": {
+     "Color": "Dark Teakwood",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Aris"
+    },
+    "sku": "FG0359",
+    "price": 10249
+   },
+   {
+    "options": {
+     "Color": "Dark Teakwood",
+     "Sweep Size": "900mm",
+     "Fan Type": "Aris Starlight"
+    },
+    "sku": "FG1171",
+    "price": 10999
+   },
+   {
+    "options": {
+     "Color": "Dark Teakwood",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Aris Starlight"
+    },
+    "sku": "FG0966",
+    "price": 11449
+   },
+   {
+    "options": {
+     "Color": "Marble White",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Aris Starlight"
+    },
+    "sku": "FG1172",
+    "price": 8999
+   },
+   {
+    "options": {
+     "Color": "Marble White",
+     "Sweep Size": "900mm",
+     "Fan Type": "Aris Starlight"
+    },
+    "sku": "FG1170",
+    "price": 8999
+   },
+   {
+    "options": {
+     "Color": "Marble White",
+     "Sweep Size": "1400mm",
+     "Fan Type": "Aris Starlight"
+    },
+    "sku": "FG0965",
+    "price": 9449
+   },
+   {
+    "options": {
+     "Color": "Umber Brown",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Aris Starlight"
+    },
+    "sku": "FG1176",
+    "price": 8999
+   },
+   {
+    "options": {
+     "Color": "Stellar Black",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Aris Starlight"
+    },
+    "sku": "FG1174",
+    "price": 8999
+   },
+   {
+    "options": {
+     "Color": "Tuscan Gold",
+     "Sweep Size": "1200mm",
+     "Fan Type": "Aris Starlight"
+    },
+    "sku": "FG1175",
+    "price": 8999
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_starlight_1200_ub_25_mar_1.png?v=1783436749",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_starlight_1200_ub_25_mar_1.png?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_gladius_900_sg_pli_09_mar_5__1.png?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_gladius_900_sg_pli_09_mar_1.png?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_gladius_900_pw_pli_09_mar_2__1_1.png?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_gladius_900_pw_pli_09_mar_1__1.png?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_starlight_1200_dtw_25_mar_1.png?v=1783436748",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_1200_mm_dark_teakwood__01_dec_2.png?v=1783436748",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_starlight_900_dtw_25_mar_2.png?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_starlight_1400_mm_teakwood_pli_20_jan_1.jpg?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_starlight_1200_mw_25_mar_1.png?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_starlight_900_mw_25_mar_1.png?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_starlight_1400_mm_white_pli_20_jan_1.jpg?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_starlight_1200_sb_25_mar_1.png?v=1783436749",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_starlight_1200_tg_25_mar_1.png?v=1783436749"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/aris-ceiling-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "renesa-wall-mounted-fan",
+  "title": "Renesa Wall Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "Renesa Series",
+   "Wall Fans"
+  ],
+  "priceMin": 3699,
+  "priceMax": 3699,
+  "variants": [
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "400mm"
+    },
+    "sku": "FG0215",
+    "price": 3699
+   },
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "400mm"
+    },
+    "sku": "FG0214",
+    "price": 3699
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_wall_fan_plis_1_1_1.jpg?v=1783436705",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_wall_fan_plis_1_1_1.jpg?v=1783436705",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_wall_fan_plis_1_1.jpg?v=1783436705"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/renesa-wall-mounted-fan",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "rawSubcategory": "Wall Fans"
+ },
+ {
+  "id": "shop-ceiling-fans-atomberg-ameza-bldc-motor-with-remote-3-blade-ceiling-fan-2",
+  "title": "Ameza Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "All Fans",
+   "Ameza Series Ceiling Fans",
+   "Bedroom Ceiling Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Classic Fans",
+   "Living Room Ceiling Fans"
+  ],
+  "priceMin": 2699,
+  "priceMax": 2699,
+  "variants": [
+   {
+    "options": {
+     "Color": "Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0354",
+    "price": 2699
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0353",
+    "price": 2699
+   },
+   {
+    "options": {
+     "Color": "Gloss Brown",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0355",
+    "price": 2699
+   },
+   {
+    "options": {
+     "Color": "Seasand Ivory",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0665",
+    "price": 2699
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_black_1_1.jpg?v=1783436698",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_black_1_1.jpg?v=1783436698",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/06.jpg?v=1783436697",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_gb_1.jpg?v=1783436697",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_si.jpg?v=1783436697"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/shop-ceiling-fans-atomberg-ameza-bldc-motor-with-remote-3-blade-ceiling-fan-2",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled Compact Motor Design LED Indication For Speed This model is available in Matt Finish.",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "shop-ceiling-fans-atomberg-ikano-bldc-motor-with-remote-3-blade-ceiling-fan-1",
+  "title": "Ikano Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "1400 mm Ceiling Fans",
+   "600 mm Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Classic Fans",
+   "Ikano Series Ceiling Fans",
+   "Large Fans",
+   "Living Room Ceiling Fans"
+  ],
+  "priceMin": 2899,
+  "priceMax": 3249,
+  "variants": [
+   {
+    "options": {
+     "Color": "Gloss Brown",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0232",
+    "price": 3249
+   },
+   {
+    "options": {
+     "Color": "Gloss Brown",
+     "Sweep Size": "650mm"
+    },
+    "sku": "FG0974",
+    "price": 2899
+   },
+   {
+    "options": {
+     "Color": "Gloss Brown",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1125",
+    "price": 2999
+   },
+   {
+    "options": {
+     "Color": "Gloss Brown",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG0413",
+    "price": 3249
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0231",
+    "price": 3249
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "650mm"
+    },
+    "sku": "FG0973",
+    "price": 2899
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1126",
+    "price": 2999
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG0412",
+    "price": 3249
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0230",
+    "price": 3249
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "650mm"
+    },
+    "sku": "FG0960",
+    "price": 2899
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG0407",
+    "price": 2999
+   },
+   {
+    "options": {
+     "Color": "Gloss White",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG0411",
+    "price": 3249
+   },
+   {
+    "options": {
+     "Color": "Gloss Ivory",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0664",
+    "price": 3249
+   },
+   {
+    "options": {
+     "Color": "Gloss Ivory",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG1117",
+    "price": 2999
+   },
+   {
+    "options": {
+     "Color": "Gloss Ivory",
+     "Sweep Size": "1400mm"
+    },
+    "sku": "FG0672",
+    "price": 3249
+   },
+   {
+    "options": {
+     "Color": "Pebble Grey",
+     "Sweep Size": "1200mm"
+    },
+    "sku": "FG0526",
+    "price": 3249
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_ikano1200_black.jpg?v=1783436683",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_ikano1200_black.jpg?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_ikano_900.jpg?v=1783436684",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/06_4.jpg?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ikano_650_black_25_aug_6.png?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_ikano1200_gb_1.jpg?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/06_2.jpg?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/06_5.jpg?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ikano_650_brown_25_aug_6.png?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_ikano1200_si.jpg?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ivory2_2.jpg?v=1783436684",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ikano_1400_pli_ivory2.jpg?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_ikano1200_white_1.jpg?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/06_3.jpg?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/06_6.jpg?v=1783436683",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ikano_650_white_25_aug_6.png?v=1783436684",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/ikano_1200_mm_pebble_grey_19-08_6.jpg?v=1783436683"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/shop-ceiling-fans-atomberg-ikano-bldc-motor-with-remote-3-blade-ceiling-fan-1",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled Compact Motor Design LED Indication For Speed This model is available in Matt Finish.",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-pedestal-fan-renesa-bldc-motor-energy-saving-pedestal-fan-400mm-with-remote-control",
+  "title": "Renesa Pedestal Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "Pedestal Fans",
+   "Renesa series Pedestal Fans"
+  ],
+  "priceMin": 3699,
+  "priceMax": 3699,
+  "variants": [
+   {
+    "options": {
+     "Color": "Midnight Black",
+     "Sweep Size": "400mm",
+     "Variant": "Swing"
+    },
+    "sku": "FG0213",
+    "price": 3699
+   },
+   {
+    "options": {
+     "Color": "Snow White",
+     "Sweep Size": "400mm",
+     "Variant": "Swing"
+    },
+    "sku": "FG0212",
+    "price": 3699
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pedestal_fan_plis_1_1.jpg?v=1783436574",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pedestal_fan_plis_1_1.jpg?v=1783436574",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_pedestal_fan_plis_1_1_1.jpg?v=1783436574"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-pedestal-fan-renesa-bldc-motor-energy-saving-pedestal-fan-400mm-with-remote-control",
+  "description": "Super Energy-Efficient BLDC Motor Double Ball Bearings For Longer Life And Less Noise Separate Motor For Oscillation Function Remote Control Operated",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "rawSubcategory": "Pedestal Fans"
+ },
+ {
+  "id": "atomberg-efficio-energy-saving-exhaust-fan-with-bldc-motor",
+  "title": "Efficio Exhaust Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "Efficio Series Exhaust Fans",
+   "Exhaust Fans"
+  ],
+  "priceMin": 1499,
+  "priceMax": 1649,
+  "variants": [
+   {
+    "options": {
+     "Color": "Black",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0483",
+    "price": 1499
+   },
+   {
+    "options": {
+     "Color": "Umber Brown",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0484",
+    "price": 1499
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0482",
+    "price": 1499
+   },
+   {
+    "options": {
+     "Color": "Black",
+     "Sweep Size": "200mm"
+    },
+    "sku": "FG0495",
+    "price": 1649
+   },
+   {
+    "options": {
+     "Color": "Umber Brown",
+     "Sweep Size": "200mm"
+    },
+    "sku": "FG0496",
+    "price": 1649
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sweep Size": "200mm"
+    },
+    "sku": "FG0494",
+    "price": 1649
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/black_150_mm_efficio_exhaust_plis_1_1.jpg?v=1783436545",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/black_150_mm_efficio_exhaust_plis_1_1.jpg?v=1783436545",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficio_exhaust_plis_1_1.jpg?v=1783436545",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/brown_150_mm_efficio_exhaust_plis_1_1.jpg?v=1783436545",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/200_brown_efficio_exhaust_plis_1_1.jpg?v=1783436545",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/white_150_efficio_exhaust_plis_1_1.jpg?v=1783436545",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/white_efficio_exhaust_plis_1_1.jpg?v=1783436545"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-efficio-energy-saving-exhaust-fan-with-bldc-motor",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "rawSubcategory": "Exhaust Fans"
+ },
+ {
+  "id": "atomberg-studio-plus-energy-saving-exhaust-fan-with-bldc-motor",
+  "title": "Studio+ Exhaust Fans",
+  "vendor": "Atomberg",
+  "tags": [
+   "Exhaust Fans",
+   "Studio Series Exhaust Fan",
+   "Studio Series Exhaust Fans"
+  ],
+  "priceMin": 2099,
+  "priceMax": 2249,
+  "variants": [
+   {
+    "options": {
+     "Color": "Black",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0491",
+    "price": 2099
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0490",
+    "price": 2099
+   },
+   {
+    "options": {
+     "Color": "Brushed Steel",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0512",
+    "price": 2249
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_plus_exhaust_black_150_mm_plis_1_1__1.png?v=1783436536",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_plus_exhaust_black_150_mm_plis_1_1__1.png?v=1783436536",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_1.png?v=1783436536",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_plus_exhaust_steel_150_mm_12_feb_plis_1.png?v=1783436536"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-studio-plus-energy-saving-exhaust-fan-with-bldc-motor",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "rawSubcategory": "Exhaust Fans"
+ },
+ {
+  "id": "atomberg-studio-exhaust-fan-with-bldc-motor",
+  "title": "Studio Exhaust Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "Exhaust Fans",
+   "Studio Series Exhaust Fan"
+  ],
+  "priceMin": 1799,
+  "priceMax": 1899,
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0535",
+    "price": 1799
+   },
+   {
+    "options": {
+     "Color": "Matte Black",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG1305",
+    "price": 1899
+   },
+   {
+    "options": {
+     "Color": "Gloss Black",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0379",
+    "price": 1799
+   },
+   {
+    "options": {
+     "Color": "Gloss Brown",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0380",
+    "price": 1799
+   },
+   {
+    "options": {
+     "Color": "Brushed Steel",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0381",
+    "price": 1899
+   },
+   {
+    "options": {
+     "Color": "Dark Wood",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG0489",
+    "price": 1899
+   },
+   {
+    "options": {
+     "Color": "Orion Gold",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG1400",
+    "price": 1899
+   },
+   {
+    "options": {
+     "Color": "Brushed Rose Gold",
+     "Sweep Size": "150mm"
+    },
+    "sku": "FG1401",
+    "price": 1899
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_white_150_mm_plis_12_feb_1.jpg?v=1783436529",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_white_150_mm_plis_12_feb_1.jpg?v=1783436529",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_matte_black_pli_03_04_1.png?v=1783436529",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_black_150_mm_plis_12_feb_1.jpg?v=1783436529",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_brown_150_mm_plis_12_feb_1.jpg?v=1783436529",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_steel_150_mm_plis_12_feb_1.jpg?v=1783436529",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_wooden_150_mm_plis_12_feb_1.jpg?v=1783436529",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_rose_gold_150_mm_plis_1_1.jpg?v=1783483118",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_gold_150_mm_plis_1_1.jpg?v=1783483118"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-studio-exhaust-fan-with-bldc-motor",
+  "description": "",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "rawSubcategory": "Exhaust Fans"
+ },
+ {
+  "id": "atomberg-studio-plus-bldc-motor-with-remote-3-blade-ceiling-fan",
+  "title": "Studio + Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "1200 mm Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Designer Fans",
+   "Living Room Ceiling Fans",
+   "Premium Fans",
+   "Studio Series Ceiling Fans"
+  ],
+  "priceMin": 5249,
+  "priceMax": 5249,
+  "variants": [
+   {
+    "options": {
+     "Color": "Sand Grey",
+     "Sweep Size": "950mm",
+     "Fan Type": "Plus"
+    },
+    "sku": "FG0801",
+    "price": 5249
+   },
+   {
+    "options": {
+     "Color": "Earth Brown",
+     "Sweep Size": "950mm",
+     "Fan Type": "Plus"
+    },
+    "sku": "FG0802",
+    "price": 5249
+   },
+   {
+    "options": {
+     "Color": "Marble White",
+     "Sweep Size": "950mm",
+     "Fan Type": "Plus"
+    },
+    "sku": "FG0803",
+    "price": 5249
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_950_sand_grey_19-08_6.png?v=1783436459",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_950_sand_grey_19-08_6.png?v=1783436459",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_950_earth_brown_19-08_6.png?v=1783436459",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_950_marble_white_19-08_6.png?v=1783436459"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-studio-plus-bldc-motor-with-remote-3-blade-ceiling-fan",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled LED Indication For Speed Wooden Finish For Bottom Liquid Coated With Wider Blades Contemporary design with wide blades",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "atomberg-renesa-plus-bldc-motor-with-remote-3-blade-ceiling-fan",
+  "title": "Renesa + Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "600 mm Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Large Fans",
+   "Living Room Ceiling Fans",
+   "Premium Fans",
+   "Renesa Series Ceiling Fans",
+   "Sleek Fans",
+   "Small Fans"
+  ],
+  "priceMin": 4299,
+  "priceMax": 4299,
+  "variants": [
+   {
+    "options": {
+     "Color": "Earth Brown",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG0650",
+    "price": 4299
+   },
+   {
+    "options": {
+     "Color": "Pearl White",
+     "Sweep Size": "600mm"
+    },
+    "sku": "FG0652",
+    "price": 4299
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/sandgrey2.jpg?v=1783436435",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/sandgrey2.jpg?v=1783436435",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/brown2_1_1.jpg?v=1783436435",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/white2_1_2.jpg?v=1783436434"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/atomberg-renesa-plus-bldc-motor-with-remote-3-blade-ceiling-fan",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled Dust Resistant Coating With Metallic Finish Compact Motor Design LED Indication For Speed",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "shop-ceiling-fans-atomberg-renesa-bldc-motor-with-remote-3-blade-ceiling-fan",
+  "title": "Renesa Ceiling Fan",
+  "vendor": "Atomberg",
+  "tags": [
+   "600 mm Ceiling Fans",
+   "900 mm Ceiling Fans",
+   "All Fans",
+   "Bedroom Ceiling Fans",
+   "BLDC Ceiling Fans",
+   "Ceiling Fans",
+   "Large Fans",
+   "Living Room Ceiling Fans",
+   "Renesa Series Ceiling Fans",
+   "Sleek Fans",
+   "Small Fans"
+  ],
+  "priceMin": 3799,
+  "priceMax": 3799,
+  "variants": [
+   {
+    "options": {
+     "Color": "Matt Brown",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG0421",
+    "price": 3799
+   },
+   {
+    "options": {
+     "Color": "Matte Brown and Black",
+     "Sweep Size": "900mm"
+    },
+    "sku": "FG0384",
+    "price": 3799
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/brown2_1.jpg?v=1783436425",
+   "gallery": [
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/brown2_1.jpg?v=1783436425",
+    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/brownblack2_1.jpg?v=1783436424"
+   ]
+  },
+  "sourceUrl": "https://atomberg.com/products/shop-ceiling-fans-atomberg-renesa-bldc-motor-with-remote-3-blade-ceiling-fan",
+  "description": "Value For Money- Saves Up To ₹ 1500/Year Smart Remote Controlled Compact Motor Design LED Indication For Speed This model is available in Matt Finish.",
+  "specs": [],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ }
+]
