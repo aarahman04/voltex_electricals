@@ -1,6 +1,6 @@
-// The brands that stock this category, as a row of enamel chips. Stocked
-// brands filter the grid; the rest are shown greyed with a "Soon" tag so the
-// range we're building toward is visible from the category page.
+// The brands that stock this category, as a row of chips. Stocked brands
+// filter the grid; the rest are shown greyed with a "Soon" tag so the range
+// we're building toward is visible from the listing page.
 export default function BrandRail({ brands, active, onSelect }) {
   if (brands.length <= 1) return null;
 
@@ -18,16 +18,16 @@ export default function BrandRail({ brands, active, onSelect }) {
             onClick={() => onSelect(brand.slug)}
           >
             {brand.name}
-            <span className="spec ml-1.5 text-[9px] opacity-60">{brand.count}</span>
+            <span className="spec ml-1.5 opacity-60">{brand.count}</span>
           </Chip>
         ) : (
           <span
             key={brand.slug}
             title={`${brand.name} — coming soon`}
-            className="flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-[3px] border border-dashed border-conduit px-3 py-1.5 text-xs text-muted/60"
+            className="flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-[7px] border border-dashed border-seam px-3 py-1.5 text-xs text-ink-muted/50"
           >
             {brand.name}
-            <span className="spec text-[8px] text-muted/50">Soon</span>
+            <span className="spec text-ink-muted/50">Soon</span>
           </span>
         ),
       )}
@@ -41,10 +41,10 @@ function Chip({ active, onClick, children }) {
       type="button"
       onClick={onClick}
       aria-pressed={active}
-      className={`flex shrink-0 items-center whitespace-nowrap rounded-[3px] border px-3 py-1.5 text-xs font-medium transition-colors ${
+      className={`flex shrink-0 items-center whitespace-nowrap rounded-[7px] border px-3 py-1.5 text-xs font-medium transition-colors ${
         active
-          ? "border-filament bg-filament/15 text-filament"
-          : "border-conduit text-muted hover:border-muted hover:text-ivory"
+          ? "border-amber bg-amber-tint text-ink"
+          : "border-seam text-ink-muted hover:border-seam-strong hover:text-ink"
       }`}
     >
       {children}

@@ -25,6 +25,12 @@ export function getProductsByCategory(category) {
   );
 }
 
+export function getProductsBySubcategory(category, subcategory) {
+  return getProductsByCategory(category).filter(
+    (p) => p.subcategory?.toLowerCase() === String(subcategory).toLowerCase(),
+  );
+}
+
 // Unique subcategories for a category, each paired with a model count and
 // a representative image. Whichever model in the type photographs best
 // stands for it — the first one listed is often a carton or a poster.
@@ -71,12 +77,31 @@ export function getProductById(idOrUid) {
   );
 }
 
-// 4 other products sharing a subcategory with `product`.
+// Other products sharing a subcategory with `product`, other brands first so
+// the row doesn't read as one brand's shelf.
 export function getRelatedProducts(product, count = 4) {
   if (!product) return [];
   return products
     .filter(
       (p) => p.uid !== product.uid && p.subcategory === product.subcategory,
+    )
+    .sort(
+      (a, b) =>
+        (a.brandSlug === product.brandSlug) - (b.brandSlug === product.brandSlug),
+    )
+    .slice(0, count);
+}
+
+// Other products from the same brand, nearest category first.
+export function getMoreFromBrand(product, count = 4) {
+  if (!product) return [];
+  return products
+    .filter((p) => p.uid !== product.uid && p.brandSlug === product.brandSlug)
+    .sort(
+      (a, b) =>
+        (b.subcategory === product.subcategory) -
+          (a.subcategory === product.subcategory) ||
+        (b.category === product.category) - (a.category === product.category),
     )
     .slice(0, count);
 }
@@ -117,6 +142,64 @@ export function getProductsByBrand(brandSlug) {
   return products.filter((p) => p.brandSlug === brandSlug);
 }
 
+// Model count per published category, computed — never write a literal.
+export function getCategoryCounts() {
+  const counts = {};
+  for (const p of products) counts[p.category] = (counts[p.category] ?? 0) + 1;
+  return counts;
+}
+
+// --- Search ---------------------------------------------------------------
+
+function searchHaystack(p) {
+  return [
+    p.title,
+    p.brand,
+    p.category,
+    p.subcategory,
+    ...(p.tags ?? []),
+    ...(p.variants ?? []).flatMap((v) => [
+      v.sku,
+      ...Object.values(v.options ?? {}),
+    ]),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
+// Every query token must appear somewhere in the product. Results are ranked
+// so a hit in the name beats a hit in a tag or a variant code.
+export function searchProducts(query, limit = 60) {
+  const tokens = String(query ?? "")
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean);
+  if (tokens.length === 0) return [];
+
+  const scored = [];
+  for (const p of products) {
+    const haystack = searchHaystack(p);
+    if (!tokens.every((t) => haystack.includes(t))) continue;
+
+    const title = p.title.toLowerCase();
+    const brand = p.brand.toLowerCase();
+    let score = 0;
+    for (const t of tokens) {
+      if (title.startsWith(t)) score += 5;
+      else if (title.includes(t)) score += 3;
+      if (brand.includes(t)) score += 2;
+      if (p.subcategory.toLowerCase().includes(t)) score += 1;
+    }
+    scored.push({ p, score });
+  }
+
+  return scored
+    .sort((a, b) => b.score - a.score || a.p.title.localeCompare(b.p.title))
+    .slice(0, limit)
+    .map((s) => s.p);
+}
+
 // --- Facets ---------------------------------------------------------------
 
 const TONE_NAMES = TONES.map((t) => t.name);
@@ -151,6 +234,23 @@ function leadingNumber(value) {
 export function getFacets(category) {
   const items = getProductsByCategory(category);
   const facets = [];
+
+  if (!category) {
+    const catCounts = new Map();
+    for (const p of items)
+      catCounts.set(p.category, (catCounts.get(p.category) ?? 0) + 1);
+    if (catCounts.size > 1) {
+      facets.push({
+        key: "__category",
+        id: "category",
+        label: "Category",
+        kind: "chip",
+        values: [...catCounts.entries()]
+          .sort((a, b) => b[1] - a[1])
+          .map(([value, count]) => ({ value, count })),
+      });
+    }
+  }
 
   const brandCounts = brandModelCounts(items);
   if (brandCounts.size > 1) {
@@ -217,6 +317,7 @@ export function getFacets(category) {
 
 export function hasOptionValue(product, key, value) {
   if (key === "__brand") return product.brandSlug === value;
+  if (key === "__category") return product.category === value;
   const wanted = normalizeOption(value);
   return (product.variants ?? []).some(
     (v) => v.options?.[key] && normalizeOption(v.options[key]) === wanted,
@@ -265,9 +366,9 @@ export function getCategoryFeature(category) {
 }
 
 // One well-photographed model per subcategory, across whatever brands exist,
-// for the homepage hero. Ordered so fans and lighting interleave rather than
-// clumping.
-export function getShowcaseProducts() {
+// for the homepage's featured row. Ordered so fans and lighting interleave
+// rather than clumping.
+export function getFeaturedProducts(limit) {
   const byType = new Map();
   for (const p of products) {
     if (!p.subcategory || !getProductImage(p)) continue;
@@ -289,5 +390,5 @@ export function getShowcaseProducts() {
     if (fans[i]) interleaved.push(fans[i]);
     if (lighting[i]) interleaved.push(lighting[i]);
   }
-  return interleaved;
+  return limit ? interleaved.slice(0, limit) : interleaved;
 }

@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "data:build": "node scripts/normalize.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/normalize.mjs",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"

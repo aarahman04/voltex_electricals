@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
-import { getBrands, getCategories, getProductImage, products } from "../data/products.js";
+import { getBrands, getProductImage, products } from "../data/products.js";
+import { PUBLISHED } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
-
-const categories = getCategories();
+import BrandMark from "../components/BrandMark.jsx";
 
 function brandCard(brand) {
   const own = products.filter((p) => p.brandSlug === brand.slug);
-  const breakdown = categories
-    .map((name) => ({ name, count: own.filter((p) => p.category === name).length }))
-    .filter((c) => c.count > 0);
+  const breakdown = PUBLISHED.map((name) => ({
+    name,
+    count: own.filter((p) => p.category === name).length,
+  })).filter((c) => c.count > 0);
   const cover = own.find((p) => getProductImage(p));
   return { ...brand, breakdown, cover: cover ? getProductImage(cover) : null };
 }
@@ -20,58 +21,66 @@ export default function Brands() {
 
   return (
     <div className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8 sm:py-20">
-      <header className="mb-12 border-b border-conduit pb-6">
-        <p className="spec mb-3 text-filament">Brands</p>
+      <header className="mb-12 border-b border-seam pb-6">
+        <p className="spec mb-3 text-amber">Brands</p>
         <div className="flex flex-wrap items-baseline justify-between gap-4">
-          <h1 className="nameplate text-4xl text-ivory sm:text-5xl">
-            Who we carry
+          <h1 className="nameplate text-4xl text-ink sm:text-5xl">
+            Brands we carry
           </h1>
-          <p className="spec text-muted">
+          <p className="spec text-ink-muted">
             {stocked.length} live · {soon.length} coming soon
           </p>
         </div>
       </header>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {stocked.map((brand) => (
           <Link
             key={brand.slug}
             to={`/brand/${brand.slug}`}
-            className="group flex flex-col overflow-hidden rounded-[4px] bg-plate transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[0_22px_50px_-22px_rgba(242,166,59,0.5)]"
+            className="group flex flex-col overflow-hidden rounded-[12px] border border-seam bg-surface transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:shadow-[0_18px_44px_-22px_rgba(19,26,36,0.3)]"
           >
-            <div className="relative aspect-[16/10] overflow-hidden bg-plate-dim">
+            <div className="relative aspect-[16/10] overflow-hidden bg-surface">
               {brand.cover && (
                 <img
                   src={cdnImage(brand.cover, 640)}
                   alt=""
                   loading="lazy"
-                  className="h-full w-full object-contain mix-blend-multiply p-8 transition-transform duration-500 group-hover:scale-105"
+                  className="h-full w-full object-contain mix-blend-multiply p-8 transition-transform duration-300 group-hover:scale-105"
                 />
               )}
+              <span className="absolute left-4 top-4">
+                <BrandMark slug={brand.slug} name={brand.name} size="sm" />
+              </span>
             </div>
-            <div className="flex flex-1 flex-col gap-1 border-t border-ink/10 px-5 py-5">
-              <h2 className="nameplate text-2xl text-ink">{brand.name}</h2>
-              <p className="spec text-ink/50">
-                {brand.count} models · {brand.breakdown.map((c) => `${c.count} ${c.name}`).join(" · ")}
+            <div className="flex flex-1 flex-col gap-1 border-t border-seam px-5 py-4">
+              <h2 className="nameplate text-xl text-ink">{brand.name}</h2>
+              <p className="spec text-ink-muted">
+                {brand.count} models ·{" "}
+                {brand.breakdown.map((c) => `${c.count} ${c.name}`).join(" · ")}
               </p>
             </div>
           </Link>
         ))}
       </div>
 
-      <h2 className="spec mt-16 mb-5 border-b border-conduit pb-3 text-muted">
-        Coming soon
-      </h2>
-      <div className="flex flex-wrap gap-2.5">
-        {soon.map((brand) => (
-          <span
-            key={brand.slug}
-            className="rounded-[3px] border border-dashed border-conduit px-4 py-2 text-sm text-muted/70"
-          >
-            {brand.name}
-          </span>
-        ))}
-      </div>
+      {soon.length > 0 && (
+        <>
+          <h2 className="spec mb-5 mt-16 border-b border-seam pb-3 text-ink-muted">
+            Coming soon
+          </h2>
+          <div className="flex flex-wrap gap-2.5">
+            {soon.map((brand) => (
+              <span
+                key={brand.slug}
+                className="rounded-[7px] border border-dashed border-seam px-4 py-2 text-sm text-ink-muted/70"
+              >
+                {brand.name}
+              </span>
+            ))}
+          </div>
+        </>
+      )}
     </div>
   );
 }

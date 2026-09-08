@@ -10,30 +10,28 @@ export default function Toggle({ checked, onChange, label, meta }) {
     >
       <span
         aria-hidden="true"
-        className={`relative h-5 w-9 shrink-0 rounded-[3px] border transition-colors duration-200 ${
+        className={`relative h-5 w-9 shrink-0 rounded-[4px] border transition-colors duration-150 ${
           checked
-            ? "border-filament/60 bg-filament/25"
-            : "border-conduit bg-ground-deep group-hover:border-muted/60"
+            ? "border-amber bg-amber-tint"
+            : "border-seam bg-surface group-hover:border-seam-strong"
         }`}
       >
         <span
-          className={`absolute top-[2px] h-[14px] w-[14px] rounded-[2px] transition-all duration-200 ${
+          className={`absolute top-[2px] h-[14px] w-[14px] rounded-[3px] transition-all duration-150 ${
             checked
-              ? "left-[19px] bg-filament shadow-[0_0_10px_rgba(242,166,59,0.55)]"
-              : "left-[2px] bg-muted/60 group-hover:bg-muted"
+              ? "left-[19px] bg-amber shadow-[0_0_8px_rgba(238,122,27,0.5)]"
+              : "left-[2px] bg-seam-strong group-hover:bg-ink-muted"
           }`}
         />
       </span>
       <span
         className={`flex-1 text-sm transition-colors ${
-          checked ? "text-ivory" : "text-muted group-hover:text-ivory"
+          checked ? "text-ink" : "text-ink-muted group-hover:text-ink"
         }`}
       >
         {label}
       </span>
-      {meta != null && (
-        <span className="spec text-[10px] text-muted/70">{meta}</span>
-      )}
+      {meta != null && <span className="spec text-ink-muted/70">{meta}</span>}
     </button>
   );
 }
