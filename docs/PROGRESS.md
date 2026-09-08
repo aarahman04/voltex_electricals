@@ -1,27 +1,49 @@
-# Voltex Redesign v2 — Progress
+# Voltex — Progress
 
 **This is the handoff file.** A new session resumes by reading this top-to-bottom.
 
-- **Branch:** `redesign-v2` (forked from `multi-brand-catalog`, *not* `main`)
-- **Last commit:** _Phase 8 — PR opened (#2); docs_
-- **PR:** [#2 redesign-v2 → main](https://github.com/aarahman04/voltex_electricals/pull/2) — open, not merged
-- **Plan:** `~/.claude/plans/firstly-we-will-be-glittery-peacock.md` (full detail)
+- **Branch:** `fix-404-and-phase-a-d` (forked from `origin/main`, post-PR#2)
+- **Plan:** `~/.claude/plans/velvet-baking-lollipop.md` — Phase 0 (deploy 404) then A–D. Carries `~/.claude/plans/pr-2-merged-one-synthetic-hinton.md` for the A–D file:line detail.
 - **Brief:** `website_redesign_prompt.md` (the client requirements)
 
 ## Start here next session
+
+**PR #2 is merged.** `origin/main` is the bright multi-brand Modular Plate catalogue.
+
+Current work, in order — one commit per phase:
+
+| # | Phase | Status |
+|---|---|---|
+| 0 | Deploy 404 — `vercel.json` SPA rewrite, `robots.txt`, encoded category paths | ✅ done |
+| A | Mobile menu portal, hero lamp, lockup, structural motif, KelvinBar bulb | ⬜ next |
+| B | Taxonomy — Backlight, Philips COB, derived Metal/Industrial Fans | ⬜ |
+| C | Brand logos into `public/brands/` | ⬜ |
+| D | Verify, docs, PR to `main` | ⬜ |
+
+**Phase 0 — what and why.** The deployed site returned Vercel's own `404: NOT_FOUND` on any inner URL opened directly or refreshed (clicking through worked). Cause: a `BrowserRouter` SPA served as static files with no rewrite, so `/c/Fans` matched no file on disk and the app's JS never loaded. Fixed by `vercel.json` (`/(.*)` → `/index.html`, plus immutable `/assets/*` caching and three security headers) and `public/robots.txt`. Also added `categoryPath()` / `subcategoryPath()` to `src/data/taxonomy.js` and routed all 18 `/c/…` link builders through them, because category names are display strings with spaces and `&`. See D16/D17 in `decisions.md`.
+
+**Two Vercel/GitHub settings still need a human** — neither is code, both can silently defeat the fix:
+1. GitHub's default branch is `multi-brand-catalog`, 8 commits behind `main`. If Vercel's Production Branch follows it, merging to `main` changes nothing in production. Confirm Vercel → Settings → Git points at `main` (and consider making `main` the GitHub default, so `gh pr create` stops guessing the wrong base).
+2. Confirm the Vercel project's framework preset is Vite, output dir `dist`.
+
+The 404 is only reproducible on a real deploy — `vite preview` already rewrites to `index.html`, so it cannot show the bug. Verify on this branch's Vercel preview URL.
+
+---
+
+## Previously (redesign v2, PR #2)
 
 Phases 0–7 done. The whole UI is rebuilt on the Modular Plate light system. `npm run build` and `npm run lint` are clean. Every route renders against real multi-brand data.
 
 **Phases 4–7 landed as one commit, not four.** `App.jsx` routes reference every new page, so no smaller subset builds on its own; splitting would have produced broken intermediate commits. The per-phase deliverables are listed under "What shipped" below and the docs are current, which is what a resume actually needs.
 
-**PR #2 is open.** What's left is the visual QA that couldn't run this session (Chrome extension was offline):
+**PR #2 has since merged.** The visual QA below never ran (Chrome extension was offline); it is folded into Phase D:
 1. `npm run dev`, then at 360 / 768 / 1440: Home → Products mega-menu → Fans hub ("Choose your fan") → Ceiling Fans → filter by brand → product → Add to enquiry → `/enquiry` → Contact. Check a **thin** product (Havells/Polycab — no variants/specs: page must not show empty sections) and a **rich** one (Orient COB downlighter).
 2. Keyboard pass — visible amber focus rings through header, mega-menu, filters, grid; mobile drawer trap.
 3. `prefers-reduced-motion` on — LED power-up + card transforms suppressed.
 4. Sanity-check the `/search?q=bldc` link behind the "Energy-efficient fans" need tile actually returns results.
-5. Then merge PR #2. Consider the `roadmap.md` items (list windowing, data-chunk split, real brand logos).
+5. Consider the `roadmap.md` items (list windowing, data-chunk split).
 
-## Phase status
+## Phase status — redesign v2
 
 | # | Phase | Status | Commit |
 |---|---|---|---|

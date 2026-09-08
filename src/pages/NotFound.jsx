@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { PUBLISHED } from "../data/taxonomy.js";
+import { PUBLISHED, categoryPath } from "../data/taxonomy.js";
 
 export default function NotFound() {
   return (
@@ -19,7 +19,7 @@ export default function NotFound() {
         {PUBLISHED.map((name) => (
           <Link
             key={name}
-            to={`/c/${name}`}
+            to={categoryPath(name)}
             className="switch-btn switch-btn--ghost text-sm"
           >
             {name}

@@ -59,7 +59,7 @@ export default function BrandPage() {
           <div className="mb-6 flex items-baseline justify-between border-b border-seam pb-3">
             <h2 className="nameplate text-xl text-ink">{group.name}</h2>
             <Link
-              to={`/products?category=${group.name}&brand=${brand.slug}`}
+              to={`/products?category=${encodeURIComponent(group.name)}&brand=${brand.slug}`}
               className="spec text-ink-muted transition-colors hover:text-amber"
             >
               All {group.items.length} →

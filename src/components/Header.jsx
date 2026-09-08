@@ -2,7 +2,12 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link, NavLink } from "react-router-dom";
 import { getCategoryCounts, getSubcategories } from "../data/products.js";
-import { PUBLISHED, orderedSubcategories } from "../data/taxonomy.js";
+import {
+  PUBLISHED,
+  categoryPath,
+  orderedSubcategories,
+  subcategoryPath,
+} from "../data/taxonomy.js";
 import { useEnquiry } from "../context/enquiry.js";
 import SearchOverlay from "./SearchOverlay.jsx";
 
@@ -197,7 +202,7 @@ function MegaMenu() {
             <div className="mb-4 flex items-center gap-2.5">
               <span className="led" data-on />
               <Link
-                to={`/c/${category.name}`}
+                to={categoryPath(category.name)}
                 className="nameplate text-xl text-ink transition-colors hover:text-amber"
               >
                 {category.name}
@@ -214,7 +219,7 @@ function MegaMenu() {
                     </span>
                   ) : (
                     <Link
-                      to={`/c/${category.name}/${sub.name}`}
+                      to={subcategoryPath(category.name, sub.name)}
                       className="flex items-baseline justify-between gap-2 py-1 text-sm text-ink-muted transition-colors hover:text-ink"
                     >
                       {sub.name}
@@ -289,7 +294,7 @@ function MobileNav({ onClose }) {
           {active ? (
             <>
               <Link
-                to={`/c/${active.name}`}
+                to={categoryPath(active.name)}
                 onClick={onClose}
                 className="nameplate flex items-baseline justify-between border-b border-seam py-4 text-2xl text-ink"
               >
@@ -308,7 +313,7 @@ function MobileNav({ onClose }) {
                 ) : (
                   <Link
                     key={sub.name}
-                    to={`/c/${active.name}/${sub.name}`}
+                    to={subcategoryPath(active.name, sub.name)}
                     onClick={onClose}
                     className="flex items-baseline justify-between border-b border-seam py-3.5 text-[15px] text-ink"
                   >

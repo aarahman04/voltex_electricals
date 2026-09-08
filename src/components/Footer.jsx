@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { getBrands, products } from "../data/products.js";
-import { PUBLISHED } from "../data/taxonomy.js";
+import { PUBLISHED, categoryPath } from "../data/taxonomy.js";
 
 const brands = getBrands();
 const stocked = brands.filter((b) => b.status === "stocked");
@@ -33,7 +33,7 @@ export default function Footer() {
 
           <FooterColumn title="Products">
             {PUBLISHED.map((name) => (
-              <FooterLink key={name} to={`/c/${name}`}>
+              <FooterLink key={name} to={categoryPath(name)}>
                 {name}
               </FooterLink>
             ))}

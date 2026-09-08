@@ -23,6 +23,7 @@ In rough priority order. None of this blocks the redesign.
 
 ## Platform
 - **Data bundle size** — `catalog.js` uses an eager `import.meta.glob`, so all normalized JSON (~2 MB, 467 KB gzip) is in the main chunk. Fine at 1,438 products; at 5,000+ split it per category with a lazy glob + an async query API, or move to a fetched endpoint (the `products.js` comment already anticipates this).
-- **Deploy** — `vercel.json`, `robots.txt`, custom domain + DNS. Phase 8 stub only.
+- **Deploy** — `vercel.json` (SPA rewrite, asset caching, security headers) and `robots.txt` are in. Still open: custom domain + DNS, and a CSP (the app pulls Google Fonts and product images from brand CDNs, so it needs its own pass).
+- **Slug-based category routes** — `/c/:category/:subcategory` matches on the raw display name (`/c/Lighting/Downlighters%20%26%20Spotlights`). Links are encoded via `categoryPath()`/`subcategoryPath()`, but real slugs (`/c/lighting/downlighters-and-spotlights`) with a slug↔name lookup in `taxonomy.js` would be cleaner. Deferred: it changes every category URL.
 - **OG image** — meta tags exist, no image asset.
 - **Sitemap** — none.

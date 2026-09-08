@@ -101,6 +101,15 @@ const ALIASES = {
   "home art light": "Home Art Lights",
 };
 
+// Category and subcategory names are display strings, not slugs — several
+// carry spaces or "&" ("Downlighters & Spotlights", "COB LED"). Every link
+// that builds a /c/… path goes through these so the segments are always
+// percent-encoded; useParams() decodes on the way back, so the case-insensitive
+// matching in products.js is unaffected.
+export const categoryPath = (category) => `/c/${encodeURIComponent(category)}`;
+export const subcategoryPath = (category, subcategory) =>
+  `${categoryPath(category)}/${encodeURIComponent(subcategory)}`;
+
 export function canonicalSubcategory(raw) {
   if (!raw) return raw;
   const key = String(raw).trim();

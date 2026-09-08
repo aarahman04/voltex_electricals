@@ -10,7 +10,7 @@ import {
   getSubcategories,
   products,
 } from "../data/products.js";
-import { PUBLISHED } from "../data/taxonomy.js";
+import { PUBLISHED, categoryPath } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 import { nearestTone } from "../lib/kelvin.js";
 import KelvinBar from "../components/KelvinBar.jsx";
@@ -153,7 +153,7 @@ function Hero({ modelCount, typeCount, brandCount }) {
             {PUBLISHED.map((category, i) => (
               <Link
                 key={category}
-                to={`/c/${category}`}
+                to={categoryPath(category)}
                 data-interactive
                 className="module group flex items-center gap-3 p-5"
               >
@@ -225,7 +225,7 @@ function CategoryCard({ category }) {
 
   return (
     <Link
-      to={`/c/${category}`}
+      to={categoryPath(category)}
       className="group block overflow-hidden rounded-[14px] border border-seam bg-surface transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:shadow-[0_24px_56px_-28px_rgba(19,26,36,0.32)]"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-surface">

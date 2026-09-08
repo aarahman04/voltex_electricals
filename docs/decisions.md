@@ -4,6 +4,18 @@ Append-only. Newest first. Each entry: the choice, the reason, and what it rules
 
 ---
 
+## 2026-09-09 — Deploy fix (Phase 0)
+
+### D17 — SPA rewrite over prerendering; soft 404 accepted
+`vercel.json` rewrites `/(.*)` → `/index.html`. Every URL now returns HTTP 200 and the client renders `NotFound` for a path that matches nothing.
+**Why:** the deployed site returned Vercel's own `NOT_FOUND` on any direct hit or refresh of an inner URL — a `BrowserRouter` app served as static files has no `index.html` fallback, so `src/pages/NotFound.jsx` was unreachable on a cold load. Vercel resolves real files before rewrites, so `/assets/*` still serves. **Rules out:** correct 404 status codes for missing products, and any SEO that depends on them — fixing that means prerendering or a framework move, which is not worth it for a browse-only catalogue behind an enquiry flow.
+
+### D16 — Category paths encoded through one helper, not slugified
+All `/c/…` links go through `categoryPath()` / `subcategoryPath()` in `src/data/taxonomy.js`.
+**Why:** `category` and `subcategory` are display strings, not slugs — `"Downlighters & Spotlights"`, `"COB LED"`, `"Metal Fans"` — and 18 call sites interpolated them raw, emitting literal spaces and `&` in the path. `useParams()` decodes on the way back, so matching is untouched. **Rules out:** nothing yet; real slug routing stays open (see `docs/roadmap.md`) but would change every category URL.
+
+---
+
 ## 2026-09-08 — Implementation (Phases 3–7)
 
 ### D14 — Phases 4–7 shipped as one commit, not four
