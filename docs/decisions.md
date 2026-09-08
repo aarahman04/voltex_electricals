@@ -4,6 +4,14 @@ Append-only. Newest first. Each entry: the choice, the reason, and what it rules
 
 ---
 
+## 2026-09-09 — Brand logos (Phase C)
+
+### D22 — Real logos sit on the same tint plate as the wordmark chips
+`<BrandMark>` always renders the tinted plate; a logo goes inside it, `object-contain`, capped height and width.
+**Why:** only 3 of 14 brands have art, and their aspect ratios disagree — Crompton is a 2.3:1 wordmark, Havells 1.8:1, Philips a 1:1 badge. Dropped in bare next to eleven fixed-height chips they read as ragged. On the plate all fourteen marks are one shape, and the eleventh logo can arrive without a reflow. **Rules out:** per-brand sizing tweaks. Note `Havells_Logo.png` was actually an SVG — served as `image/png` the browser rejects it, so it is `havells.svg` now; the 4500px Crompton PNG was downscaled to 900px (123 KB → 30 KB).
+
+---
+
 ## 2026-09-09 — Taxonomy (Phase B)
 
 ### D20 — Metal Fans and Industrial Fans are attributes, not subcategories

@@ -17,7 +17,7 @@ Current work, in order — one commit per phase:
 | 0 | Deploy 404 — `vercel.json` SPA rewrite, `robots.txt`, encoded category paths | ✅ done |
 | A | Mobile menu portal, hero lamp, lockup, structural motif, KelvinBar bulb | ✅ done |
 | B | Taxonomy — Backlight, Philips COB, derived Metal/Industrial Fans | ✅ done |
-| C | Brand logos into `public/brands/` | ⬜ |
+| C | Brand logos into `public/brands/` | ✅ done |
 | D | Verify, docs, PR to `main` | ⬜ |
 
 **Phase 0 — what and why.** The deployed site returned Vercel's own `404: NOT_FOUND` on any inner URL opened directly or refreshed (clicking through worked). Cause: a `BrowserRouter` SPA served as static files with no rewrite, so `/c/Fans` matched no file on disk and the app's JS never loaded. Fixed by `vercel.json` (`/(.*)` → `/index.html`, plus immutable `/assets/*` caching and three security headers) and `public/robots.txt`. Also added `categoryPath()` / `subcategoryPath()` to `src/data/taxonomy.js` and routed all 18 `/c/…` link builders through them, because category names are display strings with spaces and `&`. See D16/D17 in `decisions.md`.
@@ -50,6 +50,8 @@ Counts after `npm run data:build`, all confirmed against `report.md`:
 | **Published / parked** | 1,438 / 412 | **1,438 / 412** |
 
 COB came out higher than the plan's ~26 because Crompton had the same misfile as Philips — nine "…Led COB" models typed `Ceiling Lights`. Spot-checks pass: the Polycab *Aerobliss Metal Wall Fan* is still under Wall Fans (43 models) **and** under Metal Fans; Philips' *TV Backlight Strip* stayed in Smart Lighting; no Build/Duty option leaked onto a non-fan. `COMING_SOON` is now just `Lighting: ["Elevation LED"]`.
+
+**Phase C — what shipped.** `logos/` is gone; `public/brands/` holds `crompton.png` (downscaled 4500 → 900px, 123 KB → 30 KB), `havells.svg` (the file was named `.png` but was always an SVG — served as `image/png` the browser rejects it) and `philips.png`. `brand.logo` set for those three in `brands.js`. `<BrandMark>` now keeps the tint plate behind real logos so all 14 marks are one shape — see D22.
 
 **Not yet verified visually.** The Chrome extension was offline again this session, so the 360/768/1440 pass and the keyboard/reduced-motion checks in Phase D still need a human or a working browser tool.
 
