@@ -3,7 +3,8 @@
 **This is the handoff file.** A new session resumes by reading this top-to-bottom.
 
 - **Branch:** `redesign-v2` (forked from `multi-brand-catalog`, *not* `main`)
-- **Last commit:** _Phases 4–7 — full UI rebuild on Modular Plate_
+- **Last commit:** _Phase 8 — PR opened (#2); docs_
+- **PR:** [#2 redesign-v2 → main](https://github.com/aarahman04/voltex_electricals/pull/2) — open, not merged
 - **Plan:** `~/.claude/plans/firstly-we-will-be-glittery-peacock.md` (full detail)
 - **Brief:** `website_redesign_prompt.md` (the client requirements)
 
@@ -13,12 +14,12 @@ Phases 0–7 done. The whole UI is rebuilt on the Modular Plate light system. `n
 
 **Phases 4–7 landed as one commit, not four.** `App.jsx` routes reference every new page, so no smaller subset builds on its own; splitting would have produced broken intermediate commits. The per-phase deliverables are listed under "What shipped" below and the docs are current, which is what a resume actually needs.
 
-**Next is Phase 8 — verify + PR.**
-1. Manual pass at 360 / 768 / 1440 (browser extension wasn't connected this session, so this is still unverified visually): Home → Products mega-menu → Fans hub ("Choose your fan") → Ceiling Fans → filter by brand → product → Add to enquiry → `/enquiry` → Contact. Check a **thin** product (Havells/Polycab — no variants, no specs: page must not show empty sections) and a **rich** one (Orient COB downlighter).
-2. Keyboard pass — visible amber focus rings through header, mega-menu, filters, grid.
-3. `prefers-reduced-motion` — LED power-up + card transforms suppressed.
-4. Consider splitting the 2.3 MB `products` data chunk (currently its own lazy chunk, 362 KB gzip — acceptable but large). See `roadmap.md`.
-5. Open the PR: `redesign-v2` → `main`. It carries **everything since `a204be4`** (multi-brand-catalog was never merged).
+**PR #2 is open.** What's left is the visual QA that couldn't run this session (Chrome extension was offline):
+1. `npm run dev`, then at 360 / 768 / 1440: Home → Products mega-menu → Fans hub ("Choose your fan") → Ceiling Fans → filter by brand → product → Add to enquiry → `/enquiry` → Contact. Check a **thin** product (Havells/Polycab — no variants/specs: page must not show empty sections) and a **rich** one (Orient COB downlighter).
+2. Keyboard pass — visible amber focus rings through header, mega-menu, filters, grid; mobile drawer trap.
+3. `prefers-reduced-motion` on — LED power-up + card transforms suppressed.
+4. Sanity-check the `/search?q=bldc` link behind the "Energy-efficient fans" need tile actually returns results.
+5. Then merge PR #2. Consider the `roadmap.md` items (list windowing, data-chunk split, real brand logos).
 
 ## Phase status
 
@@ -32,7 +33,7 @@ Phases 0–7 done. The whole UI is rebuilt on the Modular Plate light system. `n
 | 5 | Home — new hero, Shop by Category, brand strip, remove `CylinderCarousel` | ✅ done | _this commit_ |
 | 6 | Category hub `/c/:category` ("Choose your fan") + listing rewrite | ✅ done | _this commit_ |
 | 7 | Product detail, Brands pages, Search | ✅ done | _this commit_ |
-| 8 | Verify (360/768/1440 + a11y + reduced-motion), open PR to `main` | ⬜ not started | |
+| 8 | Verify + PR to `main` | 🟡 PR #2 open; visual QA still pending | _this commit_ |
 
 ## What shipped so far
 
