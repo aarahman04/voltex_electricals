@@ -1,6 +1,6 @@
 // The brands that stock this category, as a row of chips. Stocked brands
-// filter the grid; the rest are shown greyed with a "Soon" tag so the range
-// we're building toward is visible from the listing page.
+// filter the grid and carry a live indicator; the rest show the same
+// indicator unlit, so "in catalogue" reads the same here as on /brands.
 export default function BrandRail({ brands, active, onSelect }) {
   if (brands.length <= 1) return null;
 
@@ -17,6 +17,7 @@ export default function BrandRail({ brands, active, onSelect }) {
             active={active === brand.slug}
             onClick={() => onSelect(brand.slug)}
           >
+            <span className="led mr-2 shrink-0" data-live />
             {brand.name}
             <span className="spec ml-1.5 opacity-60">{brand.count}</span>
           </Chip>
@@ -24,10 +25,10 @@ export default function BrandRail({ brands, active, onSelect }) {
           <span
             key={brand.slug}
             title={`${brand.name} — coming soon`}
-            className="flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-[7px] border border-dashed border-seam px-3 py-1.5 text-xs text-ink-muted/50"
+            className="flex shrink-0 items-center gap-2 whitespace-nowrap rounded-[7px] border border-seam px-3 py-1.5 text-xs text-ink-muted/50"
           >
+            <span className="led shrink-0" />
             {brand.name}
-            <span className="spec text-ink-muted/50">Soon</span>
           </span>
         ),
       )}

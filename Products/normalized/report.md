@@ -1,6 +1,6 @@
 # Data build report
 
-_2026-09-08T08:49:03.755Z_
+_2026-09-08T19:17:28.287Z_
 
 - Orient Electric: fans.json -> 100 products
 - Orient Electric: lighting.json -> 99 products
@@ -28,16 +28,17 @@ _2026-09-08T08:49:03.755Z_
 - **Fans / Table Fans** — 48  (orient 20, atomberg 2, crompton 7, havells 8, polycab 11)
 - **Fans / Tower Fans** — 1  (orient 1)
 - **Fans / Wall Fans** — 43  (orient 6, atomberg 3, crompton 7, havells 15, polycab 12)
+- **Lighting / Backlight** — 4  (orient 4)
 - **Lighting / Battens** — 72  (crompton 17, philips 27, havells 17, polycab 11)
-- **Lighting / COB LED** — 16  (havells 4, polycab 12)
-- **Lighting / Ceiling Lights** — 153  (crompton 95, philips 58)
+- **Lighting / COB LED** — 42  (crompton 9, philips 17, havells 4, polycab 12)
+- **Lighting / Ceiling Lights** — 127  (crompton 86, philips 41)
 - **Lighting / Chandeliers** — 23  (philips 23)
 - **Lighting / Curtain & String Lights** — 8  (orient 8)
 - **Lighting / Downlighters & Spotlights** — 41  (orient 17, havells 12, polycab 12)
 - **Lighting / Home Art Lights** — 16  (havells 16)
 - **Lighting / LED Bulbs & Lamps** — 123  (orient 8, crompton 54, philips 13, havells 36, polycab 12)
 - **Lighting / Lamps & Lanterns** — 27  (orient 5, crompton 1, philips 21)
-- **Lighting / Panel Lights** — 21  (orient 9, polycab 12)
+- **Lighting / Panel Lights** — 17  (orient 5, polycab 12)
 - **Lighting / Pendant Lights** — 25  (philips 25)
 - **Lighting / Portable Lighting** — 30  (crompton 7, philips 7, havells 16)
 - **Lighting / Professional & Commercial Lighting** — 81  (orient 33, crompton 48)

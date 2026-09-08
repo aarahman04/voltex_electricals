@@ -3,10 +3,16 @@ import { Link, useParams, useSearchParams } from "react-router-dom";
 import {
   getBrandsForCategory,
   getFacets,
+  getProductsByDerived,
   getProductsBySubcategory,
   getSubcategories,
 } from "../data/products.js";
-import { isPublished } from "../data/taxonomy.js";
+import {
+  categoryPath,
+  derivedTile,
+  isPublished,
+  subcategoryPath,
+} from "../data/taxonomy.js";
 import BrandRail from "../components/BrandRail.jsx";
 import Listing from "../components/Listing.jsx";
 
@@ -16,11 +22,21 @@ export default function CategoryListing() {
 
   const data = useMemo(() => {
     if (!isPublished(category)) return null;
-    const items = getProductsBySubcategory(category, subcategory);
+    // Metal Fans and Industrial Fans are attributes, not subcategories, so
+    // they select on a derived variant option instead. Same route, same
+    // breadcrumb, same shared <Listing> — a metal wall fan appears here and
+    // stays under Wall Fans.
+    const derived = derivedTile(category, subcategory);
+    const items = derived
+      ? getProductsByDerived(category, derived)
+      : getProductsBySubcategory(category, subcategory);
     if (items.length === 0) return { items };
     return {
       items,
-      facets: getFacets(category).filter((f) => f.id !== "category"),
+      // The tile you're already standing in shouldn't also be a filter chip.
+      facets: getFacets(category).filter(
+        (f) => f.id !== "category" && (!derived || f.key !== derived.facet),
+      ),
       siblings: getSubcategories(category),
       brands: getBrandsForCategory(category),
     };
@@ -45,7 +61,7 @@ export default function CategoryListing() {
           No models in this type yet. It may be a line we’re still adding.
         </p>
         <Link
-          to={`/c/${category}`}
+          to={categoryPath(category)}
           className="spec mt-6 inline-block border-b border-amber/50 pb-0.5 text-amber"
         >
           ← Back to {category}
@@ -61,7 +77,7 @@ export default function CategoryListing() {
           Products
         </Link>
         <span aria-hidden="true">/</span>
-        <Link to={`/c/${category}`} className="transition-colors hover:text-amber">
+        <Link to={categoryPath(category)} className="transition-colors hover:text-amber">
           {category}
         </Link>
         <span aria-hidden="true">/</span>
@@ -98,7 +114,7 @@ function SiblingTypes({ category, current, siblings }) {
         {others.map((s) => (
           <Link
             key={s.name}
-            to={`/c/${category}/${s.name}`}
+            to={subcategoryPath(category, s.name)}
             className="rounded-[7px] border border-seam px-3 py-1.5 text-xs text-ink-muted transition-colors hover:border-seam-strong hover:text-ink"
           >
             {s.name}

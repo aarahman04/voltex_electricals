@@ -6,14 +6,15 @@
 // `tint` is a near-white wash for the <BrandMark> wordmark chip. It is NOT
 // the brand's real colour — the site stays brand-neutral (brief) and the
 // real logos are trademarked. Tints only need to be distinguishable.
-// `logo` is null until a real asset lands in public/brands/<slug>.svg;
-// <BrandMark> renders the asset when present and the chip otherwise.
+// `logo` is null until a real asset lands in public/brands/<slug>.{svg,png};
+// <BrandMark> renders the asset on the same tinted plate, so a wordmark and a
+// text chip are the same shape in a grid.
 export const BRANDS = [
   { slug: "orient", name: "Orient Electric", tint: "#F4ECDE", logo: null },
   { slug: "wipro", name: "Wipro", tint: "#F0EDE4", logo: null },
-  { slug: "philips", name: "Philips", tint: "#E4EDF4", logo: null },
-  { slug: "crompton", name: "Crompton", tint: "#EDE8F0", logo: null },
-  { slug: "havells", name: "Havells", tint: "#F5E8E6", logo: null },
+  { slug: "philips", name: "Philips", tint: "#E4EDF4", logo: "/brands/philips.png" },
+  { slug: "crompton", name: "Crompton", tint: "#EDE8F0", logo: "/brands/crompton.png" },
+  { slug: "havells", name: "Havells", tint: "#F5E8E6", logo: "/brands/havells.svg" },
   { slug: "atomberg", name: "Atomberg", tint: "#E8EEE9", logo: null },
   { slug: "almonard", name: "Almonard", tint: "#F2E9E4", logo: null },
   { slug: "starlight", name: "Starlight", tint: "#ECEAF2", logo: null },

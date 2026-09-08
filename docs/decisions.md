@@ -4,6 +4,50 @@ Append-only. Newest first. Each entry: the choice, the reason, and what it rules
 
 ---
 
+## 2026-09-09 — Brand logos (Phase C)
+
+### D22 — Real logos sit on the same tint plate as the wordmark chips
+`<BrandMark>` always renders the tinted plate; a logo goes inside it, `object-contain`, capped height and width.
+**Why:** only 3 of 14 brands have art, and their aspect ratios disagree — Crompton is a 2.3:1 wordmark, Havells 1.8:1, Philips a 1:1 badge. Dropped in bare next to eleven fixed-height chips they read as ragged. On the plate all fourteen marks are one shape, and the eleventh logo can arrive without a reflow. **Rules out:** per-brand sizing tweaks. Note `Havells_Logo.png` was actually an SVG — served as `image/png` the browser rejects it, so it is `havells.svg` now; the 4500px Crompton PNG was downscaled to 900px (123 KB → 30 KB).
+
+---
+
+## 2026-09-09 — Taxonomy (Phase B)
+
+### D20 — Metal Fans and Industrial Fans are attributes, not subcategories
+`DERIVED` in `taxonomy.js` + `Build`/`Duty` variant options derived in the ETL + one conditional in `CategoryListing`. They render as ordinary live tiles on `/c/Fans`.
+**Why:** no brand files a "Metal Fans" product type. The nine fans whose names say metal are already correctly Wall, Exhaust, Ceiling and Pedestal fans — as a subcategory the product would have to pick one, and a metal wall fan would vanish from Wall Fans. As an attribute it appears in both, counted once in each. Costs no new route, no new breadcrumb and no change to the shared `<Listing>`. **Rules out:** ever writing "Metal Fans" into `subcategory`; the tiles' own facet is hidden on their page, since you're already standing in it.
+
+### D21 — Backlight and COB promoted in the ETL, Elevation LED left alone
+`reclassify()` promotes 4 Orient "Backlit/Backlite … Recess Panel" models out of Panel Lights; a schema-B rule moves 26 COB downlights out of Ceiling Lights.
+**Why:** all three read "Coming soon" while their products sat under other labels — the site was hiding stock it has. `Product_Catalog.md` §1.1 lists Backlight as a sibling of Panel, and Philips/Crompton file COB downlights under `product_type: "Ceiling light"` while their own handles and tags say COB. Elevation LED stays "Coming soon" because it genuinely has zero data — honest, and the tile still shows intended breadth (D7). **Rules out:** matching `/backlight/i`, which would drag in Philips' TV Backlight Strip (a TV bias light, correctly Smart Lighting); and touching parked rows — promotions relabel only, so totals stay 1,438/412.
+
+---
+
+## 2026-09-09 — Lamp, lockup, motif (Phase A)
+
+### D19 — The motif marks state, and light is one of the states
+Two hooks activated (`.led[data-live]` = in catalogue, `.module[data-active]` = the category you're in) and three places that render real light: the hero lamp on hover/focus, the KelvinBar bulb tracking the slider, and lighting cards glowing in the tone they're sold in.
+**Why:** the brief forbids a "gimmicky electricity themed website", but it does not forbid showing a value — and colour temperature is a value nobody can picture from "4000K". Every lit thing is bound to state the user is setting, buying, or standing in. **Rules out:** decorative bulbs, fake screws, wiring graphics, ambient glow; and indicators in places with no state — `data-active` is set once, in the mega-menu, because that is the only place the state exists.
+
+### D18 — Overlays portal to `<body>`
+`MobileNav` and `SearchOverlay` render through `Portal`.
+**Why:** `<header>` carries `backdrop-blur-md`. A `backdrop-filter` makes that element the containing block for every `position: fixed` descendant, so both overlays resolved `fixed inset-0` against the 64px header box — the drawer opened as an empty, see-through sliver in production. Each is now one keyed `motion` child of its `AnimatePresence`; a bare Fragment gave framer-motion nothing to track, so exit animations never ran. **Rules out:** dropping the header's blur (the sticky header needs it), and z-index patching — the portal also settles the latent fight with `Toast`.
+
+---
+
+## 2026-09-09 — Deploy fix (Phase 0)
+
+### D17 — SPA rewrite over prerendering; soft 404 accepted
+`vercel.json` rewrites `/(.*)` → `/index.html`. Every URL now returns HTTP 200 and the client renders `NotFound` for a path that matches nothing.
+**Why:** the deployed site returned Vercel's own `NOT_FOUND` on any direct hit or refresh of an inner URL — a `BrowserRouter` app served as static files has no `index.html` fallback, so `src/pages/NotFound.jsx` was unreachable on a cold load. Vercel resolves real files before rewrites, so `/assets/*` still serves. **Rules out:** correct 404 status codes for missing products, and any SEO that depends on them — fixing that means prerendering or a framework move, which is not worth it for a browse-only catalogue behind an enquiry flow.
+
+### D16 — Category paths encoded through one helper, not slugified
+All `/c/…` links go through `categoryPath()` / `subcategoryPath()` in `src/data/taxonomy.js`.
+**Why:** `category` and `subcategory` are display strings, not slugs — `"Downlighters & Spotlights"`, `"COB LED"`, `"Metal Fans"` — and 18 call sites interpolated them raw, emitting literal spaces and `&` in the path. `useParams()` decodes on the way back, so matching is untouched. **Rules out:** nothing yet; real slug routing stays open (see `docs/roadmap.md`) but would change every category URL.
+
+---
+
 ## 2026-09-08 — Implementation (Phases 3–7)
 
 ### D14 — Phases 4–7 shipped as one commit, not four

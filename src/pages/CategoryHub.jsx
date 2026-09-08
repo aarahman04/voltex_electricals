@@ -2,10 +2,17 @@ import { useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
   getBrandsForCategory,
+  getDerivedSubcategories,
   getProductsByCategory,
   getSubcategories,
 } from "../data/products.js";
-import { PUBLISHED, isPublished, orderedSubcategories } from "../data/taxonomy.js";
+import {
+  PUBLISHED,
+  categoryPath,
+  isPublished,
+  orderedSubcategories,
+  subcategoryPath,
+} from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 
 const NOUN = { Fans: "fan", Lighting: "light" };
@@ -18,7 +25,11 @@ export default function CategoryHub() {
     const items = getProductsByCategory(category);
     return {
       items,
-      subs: orderedSubcategories(category, getSubcategories(category)),
+      subs: orderedSubcategories(
+        category,
+        getSubcategories(category),
+        getDerivedSubcategories(category),
+      ),
       brands: getBrandsForCategory(category).filter((b) => b.status === "stocked"),
     };
   }, [category]);
@@ -32,7 +43,11 @@ export default function CategoryHub() {
         </p>
         <div className="mt-6 flex gap-3">
           {PUBLISHED.map((name) => (
-            <Link key={name} to={`/c/${name}`} className="switch-btn switch-btn--ghost text-sm">
+            <Link
+              key={name}
+              to={categoryPath(name)}
+              className="switch-btn switch-btn--ghost text-sm"
+            >
               {name}
             </Link>
           ))}
@@ -78,7 +93,7 @@ export default function CategoryHub() {
           ) : (
             <Link
               key={sub.name}
-              to={`/c/${category}/${sub.name}`}
+              to={subcategoryPath(category, sub.name)}
               data-interactive
               className="module group flex flex-col p-4"
             >

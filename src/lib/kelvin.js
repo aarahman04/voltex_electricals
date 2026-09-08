@@ -35,6 +35,21 @@ export function kelvinToCss(kelvin, alpha = 1) {
   return alpha === 1 ? `rgb(${r} ${g} ${b})` : `rgb(${r} ${g} ${b} / ${alpha})`;
 }
 
+// The colour temperature a lighting model is actually sold in, read off its
+// variant options — products name their tone ("Warm White"), they don't carry
+// a number. Returns null for fans, and for a model offered in several tones:
+// there is no single temperature to show, so nothing is shown.
+export function productTone(product) {
+  if (product?.category !== "Lighting") return null;
+  const found = new Set();
+  for (const variant of product.variants ?? []) {
+    for (const value of Object.values(variant.options ?? {})) {
+      if (TONES.some((t) => t.name === value)) found.add(value);
+    }
+  }
+  return found.size === 1 ? TONES.find((t) => t.name === [...found][0]) : null;
+}
+
 export function nearestTone(kelvin) {
   return TONES.reduce((best, tone) =>
     Math.abs(tone.kelvin - kelvin) < Math.abs(best.kelvin - kelvin) ? tone : best,

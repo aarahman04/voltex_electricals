@@ -3,7 +3,7 @@ import { getProductImage } from "../data/products.js";
 import { cdnImage } from "../lib/image.js";
 import { displayTitle } from "../lib/specSummary.js";
 import { useEnquiry } from "../context/enquiry.js";
-import { PUBLISHED } from "../data/taxonomy.js";
+import { PUBLISHED, categoryPath } from "../data/taxonomy.js";
 import BrandMark from "../components/BrandMark.jsx";
 
 export default function Enquiry() {
@@ -23,7 +23,11 @@ export default function Enquiry() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             {PUBLISHED.map((name) => (
-              <Link key={name} to={`/c/${name}`} className="switch-btn switch-btn--ghost text-sm">
+              <Link
+                key={name}
+                to={categoryPath(name)}
+                className="switch-btn switch-btn--ghost text-sm"
+              >
                 Browse {name}
               </Link>
             ))}

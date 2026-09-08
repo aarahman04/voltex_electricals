@@ -64,4 +64,12 @@ Deleted: `CylinderCarousel`, `Skeleton`, `Cart`.
 
 ## Build / deploy
 
-Not yet configured. Phase 8 adds `vercel.json` (SPA rewrite, asset caching, security headers) + `public/robots.txt`. Listing pages must paginate or window past ~200 items — Crompton lighting alone is ~320.
+Vercel, from the GitHub app — no `.vercel/` link and no Actions workflow in the repo. `npm run build` runs `prebuild` (`scripts/normalize.mjs`) first, so a clean checkout regenerates `Products/normalized/` from the tracked raw brand data before Vite builds.
+
+`vercel.json` carries the **SPA rewrite** — `/(.*)` → `/index.html`. Without it every deep link 404s at the edge: the app is a `BrowserRouter` (`src/main.jsx:9`) and Vercel serves `dist/` statically, so `/c/Fans` matches no file. Vercel resolves real files before applying rewrites, so `/assets/*` and `/favicon.svg` are untouched. Also sets immutable caching on the content-hashed `/assets/*` and three baseline security headers. `public/robots.txt` allows all; no sitemap yet.
+
+Consequence: every URL now returns 200 and the client renders `NotFound` for a missing product — a soft 404, accepted (D17).
+
+Category and subcategory route segments are display strings, not slugs, so all `/c/…` links are built through `categoryPath()` / `subcategoryPath()` in `src/data/taxonomy.js` to keep spaces and `&` percent-encoded.
+
+Listing pages must paginate or window past ~200 items — Crompton lighting alone is ~320.

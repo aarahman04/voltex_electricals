@@ -6064,21 +6064,24 @@
   "variants": [
    {
     "options": {
-     "Color": "Black"
+     "Color": "Black",
+     "Duty": "Industrial"
     },
     "sku": "2121806817110",
     "price": 4605
    },
    {
     "options": {
-     "Color": "Chrome"
+     "Color": "Chrome",
+     "Duty": "Industrial"
     },
     "sku": "2121806810900",
     "price": 4915
    },
    {
     "options": {
-     "Color": "Gunmetal"
+     "Color": "Gunmetal",
+     "Duty": "Industrial"
     },
     "sku": "2121806817050",
     "price": 4209.7
@@ -6122,21 +6125,24 @@
   "variants": [
    {
     "options": {
-     "Color": "Black"
+     "Color": "Black",
+     "Duty": "Industrial"
     },
     "sku": "2121806617110",
     "price": 5020
    },
    {
     "options": {
-     "Color": "Chrome"
+     "Color": "Chrome",
+     "Duty": "Industrial"
     },
     "sku": "2121806610800",
     "price": 5342
    },
    {
     "options": {
-     "Color": "Gunmetal"
+     "Color": "Gunmetal",
+     "Duty": "Industrial"
     },
     "sku": "2121806617050",
     "price": 4581.07
@@ -6450,14 +6456,16 @@
   "variants": [
    {
     "options": {
-     "Color": "Electric Blue"
+     "Color": "Electric Blue",
+     "Duty": "Industrial"
     },
     "sku": "2121601614711",
     "price": 3063
    },
    {
     "options": {
-     "Color": "Slate Grey"
+     "Color": "Slate Grey",
+     "Duty": "Industrial"
     },
     "sku": "2121601617111",
     "price": 3063

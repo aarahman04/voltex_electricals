@@ -779,7 +779,8 @@
    {
     "options": {
      "Color": "Midnight Black",
-     "Sweep Size": "450mm"
+     "Sweep Size": "450mm",
+     "Build": "Metal"
     },
     "sku": "FG0949",
     "price": 4399

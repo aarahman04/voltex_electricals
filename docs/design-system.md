@@ -17,7 +17,7 @@ Implemented in `src/index.css` (Tailwind v4, `@theme` block — there is no `tai
 --live       #12B76A   "in catalogue" indicator dot only
 ```
 
-Kelvin gradient — `#FFD9A0` (2700K) → `#FFFFFF` (4000K) → `#CFE6FF` (6500K) — reserved for lighting contexts only, via the existing `src/lib/kelvin.js` math. Amber is never a background wash.
+Colour temperature is **not** a token. It lives entirely in `src/lib/kelvin.js` — `TONES` (`#ffb45e` 2700K → `#ffe3bd` 4000K → `#d4e8ff` 6500K), `kelvinToCss()` for any point between them, and `productTone(product)` for the tone a lighting model is sold in. It is continuous, so a set of CSS steps could only disagree with the JS, and did; the `--tone-*` tokens are gone. Reserved for lighting contexts only. Amber is never a background wash.
 
 ## Type
 
@@ -45,6 +45,38 @@ Retained utilities: `.nameplate` (retuned for light — was `wdth 125 / 800` on 
 ```
 
 Buttons are switch-inspired, not skeuomorphic: primary is an ink fill that lights a small amber indicator at its leading edge on hover and lifts 1px. `.switch-btn`.
+
+### The indicator states, and where each is real
+
+The LED only ever marks something true. Both hooks are now driven from JSX:
+
+| State | Meaning | Set by |
+|---|---|---|
+| `.led[data-on]` | this circuit exists | mega-menu category heads |
+| `.led[data-live]` | **in catalogue** — green | stocked brands on `/brands` and in `BrandRail`; unlit for coming-soon, which replaced the old dashed border + "Soon" tag |
+| `.module[data-active]` | the category you are currently inside | `MegaMenu`, from the pathname (`Header` sits outside `<Routes>`, so `useParams()` is empty there). Amber-tint fill + amber leading edge |
+
+`data-active` is set in exactly one place because that is the only place the state exists. `CategoryListing`'s sibling-type row already excludes the current type, so there is nothing there to mark — adding an indicator would be decoration, which the brief rules out.
+
+### Light as state
+
+Two places render actual light. Both are bound to a value the user is setting or buying, never ambient:
+
+- **The hero lamp** (`.lamp` / `.lamp-glow` / `.lamp-photo`, `HeroLamp` in `Home.jsx`). At rest the bloom sits at 0.12; hover or keyboard focus takes it to 0.34 and scales it 1.22 over 450ms — a lamp warming, not a button flicking. Colour is `kelvinToCss(2700)`, real warm white, not the amber accent. The photo picks up a matching drop-shadow so the fixture reads as emitting. It is a `<Link>` to its own product, which also gives the glow a keyboard trigger.
+- **The Kelvin bulb** (`.bulb`, inside `KelvinBar`). A lit disc whose fill and halo track the slider continuously via `kelvinToCss(kelvin)`. The one bulb on the site; it earns its place by showing a number nobody can picture. No filament, no screw base, no clip-art.
+- **Lighting product cards** warm in their own tone on hover (`productTone()`). Fans, and lighting sold in several tones, keep the plain lift — there is no single temperature to show.
+
+Selected tone swatches bloom in their own Kelvin colour in **both** `FilterPanel` and `VariantSelector`. Finish swatches keep the amber ring: a finish has no colour temperature.
+
+### The lockup
+
+`Lockup` (`src/components/Lockup.jsx`) is the single source for the header, the mobile drawer and the footer — it was re-implemented three times. Hovering or focusing the mark warms "ELECTRICALS" to amber with a soft text-glow over 180ms; "Voltex" stays ink. Behaviour is one rule, `.lockup-sub`.
+
+### Overlays
+
+`MobileNav` and `SearchOverlay` render through `Portal` into `<body>`. They must: `<header>` carries `backdrop-blur-md`, and a `backdrop-filter` makes an element the containing block for every `position: fixed` descendant — so both overlays were clamped to the 64px header box and the drawer opened as an empty, see-through sliver. Each is now a single keyed `motion` child of its `AnimatePresence` (a bare Fragment gave framer-motion nothing to track, so exits never ran) at `z-[85]`, above `Toast`'s `z-[80]`.
+
+Sort is a segmented switch, not a `<select>` — it was the last native OS widget in the app, and with three options it reads better in the same chip language the filters use.
 
 ## Motion
 

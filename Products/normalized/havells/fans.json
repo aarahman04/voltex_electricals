@@ -624,7 +624,9 @@
   "priceMax": 0,
   "variants": [
    {
-    "options": {},
+    "options": {
+     "Build": "Metal"
+    },
     "sku": null,
     "price": 0
    }
@@ -2920,7 +2922,9 @@
   "priceMax": 0,
   "variants": [
    {
-    "options": {},
+    "options": {
+     "Build": "Metal"
+    },
     "sku": null,
     "price": 0
    }
@@ -3788,7 +3792,9 @@
   "priceMax": 0,
   "variants": [
    {
-    "options": {},
+    "options": {
+     "Build": "Metal"
+    },
     "sku": null,
     "price": 0
    }

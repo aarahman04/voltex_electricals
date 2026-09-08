@@ -1,27 +1,94 @@
-# Voltex Redesign v2 — Progress
+# Voltex — Progress
 
 **This is the handoff file.** A new session resumes by reading this top-to-bottom.
 
-- **Branch:** `redesign-v2` (forked from `multi-brand-catalog`, *not* `main`)
-- **Last commit:** _Phase 8 — PR opened (#2); docs_
-- **PR:** [#2 redesign-v2 → main](https://github.com/aarahman04/voltex_electricals/pull/2) — open, not merged
-- **Plan:** `~/.claude/plans/firstly-we-will-be-glittery-peacock.md` (full detail)
+- **Branch:** `fix-404-and-phase-a-d` (forked from `origin/main`, post-PR#2)
+- **Plan:** `~/.claude/plans/velvet-baking-lollipop.md` — Phase 0 (deploy 404) then A–D. Carries `~/.claude/plans/pr-2-merged-one-synthetic-hinton.md` for the A–D file:line detail.
 - **Brief:** `website_redesign_prompt.md` (the client requirements)
 
 ## Start here next session
+
+**PR #2 is merged.** `origin/main` is the bright multi-brand Modular Plate catalogue.
+
+Current work, in order — one commit per phase:
+
+| # | Phase | Status |
+|---|---|---|
+| 0 | Deploy 404 — `vercel.json` SPA rewrite, `robots.txt`, encoded category paths | ✅ done |
+| A | Mobile menu portal, hero lamp, lockup, structural motif, KelvinBar bulb | ✅ done |
+| B | Taxonomy — Backlight, Philips COB, derived Metal/Industrial Fans | ✅ done |
+| C | Brand logos into `public/brands/` | ✅ done |
+| D | Verify, docs, PR to `main` | ✅ done |
+
+**Phase 0 — what and why.** The deployed site returned Vercel's own `404: NOT_FOUND` on any inner URL opened directly or refreshed (clicking through worked). Cause: a `BrowserRouter` SPA served as static files with no rewrite, so `/c/Fans` matched no file on disk and the app's JS never loaded. Fixed by `vercel.json` (`/(.*)` → `/index.html`, plus immutable `/assets/*` caching and three security headers) and `public/robots.txt`. Also added `categoryPath()` / `subcategoryPath()` to `src/data/taxonomy.js` and routed all 18 `/c/…` link builders through them, because category names are display strings with spaces and `&`. See D16/D17 in `decisions.md`.
+
+**Two Vercel/GitHub settings still need a human** — neither is code, both can silently defeat the fix:
+1. GitHub's default branch is `multi-brand-catalog`, 8 commits behind `main`. If Vercel's Production Branch follows it, merging to `main` changes nothing in production. Confirm Vercel → Settings → Git points at `main` (and consider making `main` the GitHub default, so `gh pr create` stops guessing the wrong base).
+2. Confirm the Vercel project's framework preset is Vite, output dir `dist`.
+
+The 404 is only reproducible on a real deploy — `vite preview` already rewrites to `index.html`, so it cannot show the bug. Verify on this branch's Vercel preview URL.
+
+**Phase A — what shipped.** New: `Portal.jsx`, `Lockup.jsx`, `productTone()` in `kelvin.js`, `HeroLamp` in `Home.jsx`.
+- **A0** `MobileNav` + `SearchOverlay` portal to `<body>` and each became one keyed `motion` child — see D18.
+- **A1** the hero photo is a `<Link>` to its product and warms in `kelvinToCss(2700)` on hover/focus.
+- **A2** one `Lockup` for header, drawer and footer; "ELECTRICALS" lights amber.
+- **A3** `.led[data-live]` on stocked brands (`/brands`, `BrandRail`), `.module[data-active]` on the mega-menu, sort `<select>` replaced with a segmented switch, lighting cards glow in their own tone, tone-swatch bloom unified across `FilterPanel` and `VariantSelector`, search fields share one focus treatment.
+- **A4** the KelvinBar bulb.
+- Housekeeping: favicon replaced (was Vite's purple bolt), `public/icons.svg` deleted, `--tone-*` tokens dropped — `kelvin.js` is the single source.
+
+**Phase B — what shipped.** `reclassify()` in `scripts/normalize.mjs` (runs per brand, after the adapter, before dedupe), `DERIVED` + `derivedTile()` in `taxonomy.js`, `getProductsByDerived()` + `getDerivedSubcategories()` + a Build/Duty facet in `products.js`, one conditional in `CategoryListing`.
+
+Counts after `npm run data:build`, all confirmed against `report.md`:
+
+| | before | after |
+|---|---|---|
+| Lighting / Backlight | 0 (coming soon) | **4** (orient) |
+| Lighting / Panel Lights | 21 | **17** |
+| Lighting / COB LED | 16 | **42** (philips 17 + crompton 9 joined havells 4 + polycab 12) |
+| Fans / Metal Fans | 0 (coming soon) | **9**, derived |
+| Fans / Industrial Fans | 0 (coming soon) | **5**, derived |
+| **Published / parked** | 1,438 / 412 | **1,438 / 412** |
+
+COB came out higher than the plan's ~26 because Crompton had the same misfile as Philips — nine "…Led COB" models typed `Ceiling Lights`. Spot-checks pass: the Polycab *Aerobliss Metal Wall Fan* is still under Wall Fans (43 models) **and** under Metal Fans; Philips' *TV Backlight Strip* stayed in Smart Lighting; no Build/Duty option leaked onto a non-fan. `COMING_SOON` is now just `Lighting: ["Elevation LED"]`.
+
+**Phase C — what shipped.** `logos/` is gone; `public/brands/` holds `crompton.png` (downscaled 4500 → 900px, 123 KB → 30 KB), `havells.svg` (the file was named `.png` but was always an SVG — served as `image/png` the browser rejects it) and `philips.png`. `brand.logo` set for those three in `brands.js`. `<BrandMark>` now keeps the tint plate behind real logos so all 14 marks are one shape — see D22.
+
+**Phase D — what was verified, and what wasn't.**
+
+Verified mechanically:
+- `rm -rf Products/normalized && npm run data:build` reproduces the committed JSON byte-for-byte (only `report.md`'s timestamp differs) — the ETL is deterministic. **1,438 published / 412 parked**, unchanged.
+- `npm run lint` and `npm run build` clean.
+- Served `dist/` and checked routing: `/`, `/c/Fans`, `/c/Fans/Metal%20Fans`, `/c/Fans/Industrial%20Fans`, `/c/Lighting/COB%20LED`, `/c/Lighting/Downlighters%20%26%20Spotlights`, `/brands`, `/products` and a bogus `/c/Nonsense` all return 200 and serve `index.html` — the SPA fallback `vercel.json` now provides in production.
+- Static assets are **not** swallowed by the rewrite: `/favicon.svg` → `image/svg+xml`, `/robots.txt` → `text/plain`, `/brands/havells.svg` → `image/svg+xml` (the point of the rename), `/brands/crompton.png` → `image/png`.
+- No dead references to `--tone-*`, `icons.svg`, `logos/` or `heroImage`; no import cycle (`taxonomy.js` imports nothing).
+
+**Still unverified — needs a human with a browser.** No Chrome extension and no headless browser in this environment, so nothing below has been seen rendered:
+1. **360 / 768 / 1440.** Especially the mobile drawer (A0) — the whole point is that it now opens full-height and opaque with its nav links visible. This is the one change most worth looking at.
+2. Hero lamp warms on hover **and** keyboard focus, and Enter opens the product.
+3. "ELECTRICALS" lights amber in the header, the footer, and the drawer.
+4. The KelvinBar bulb sweeps warm→cool as the slider moves.
+5. `/c/Fans` — Metal Fans and Industrial Fans are live tiles with counts (9 and 5), not dimmed; Elevation LED is the only dimmed tile left, on `/c/Lighting`.
+6. Hover a lighting card (warm glow) vs a fan card (plain lift).
+7. `/brands` — green live dots, and the three real logos sitting at the same size as the eleven chips.
+8. Keyboard-only pass; `prefers-reduced-motion: reduce`.
+9. **The 404 fix itself**, on the Vercel preview URL — it is not reproducible locally, because `vite preview` already does the fallback.
+
+---
+
+## Previously (redesign v2, PR #2)
 
 Phases 0–7 done. The whole UI is rebuilt on the Modular Plate light system. `npm run build` and `npm run lint` are clean. Every route renders against real multi-brand data.
 
 **Phases 4–7 landed as one commit, not four.** `App.jsx` routes reference every new page, so no smaller subset builds on its own; splitting would have produced broken intermediate commits. The per-phase deliverables are listed under "What shipped" below and the docs are current, which is what a resume actually needs.
 
-**PR #2 is open.** What's left is the visual QA that couldn't run this session (Chrome extension was offline):
+**PR #2 has since merged.** The visual QA below never ran (Chrome extension was offline); it is folded into Phase D:
 1. `npm run dev`, then at 360 / 768 / 1440: Home → Products mega-menu → Fans hub ("Choose your fan") → Ceiling Fans → filter by brand → product → Add to enquiry → `/enquiry` → Contact. Check a **thin** product (Havells/Polycab — no variants/specs: page must not show empty sections) and a **rich** one (Orient COB downlighter).
 2. Keyboard pass — visible amber focus rings through header, mega-menu, filters, grid; mobile drawer trap.
 3. `prefers-reduced-motion` on — LED power-up + card transforms suppressed.
 4. Sanity-check the `/search?q=bldc` link behind the "Energy-efficient fans" need tile actually returns results.
-5. Then merge PR #2. Consider the `roadmap.md` items (list windowing, data-chunk split, real brand logos).
+5. Consider the `roadmap.md` items (list windowing, data-chunk split).
 
-## Phase status
+## Phase status — redesign v2
 
 | # | Phase | Status | Commit |
 |---|---|---|---|

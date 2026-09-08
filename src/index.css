@@ -22,12 +22,13 @@
   --color-amber: #ee7a1b; /* accent: active, primary action, LED glow */
   --color-amber-tint: #fdf2e4; /* selected-filter fill, soft highlight */
   --color-live: #12b76a; /* "in catalogue" indicator only */
-
-  /* Kelvin wash — lighting contexts only, via src/lib/kelvin.js */
-  --tone-warm: #ffd9a0;
-  --tone-neutral: #ffffff;
-  --tone-cool: #cfe6ff;
 }
+
+/* No --tone-* tokens here on purpose. Colour temperature is continuous, not
+   three steps, and it is already owned by TONES/kelvinToCss() in
+   src/lib/kelvin.js — the lamp, the KelvinBar bulb and the tone swatches all
+   interpolate from there. A second set of hexes in CSS could only disagree
+   with it, and did. */
 
 html {
   background-color: var(--color-paper);
@@ -61,6 +62,22 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.22em;
   line-height: 1;
+}
+
+/* The lockup's quiet half is the only part that lights. Hovering or focusing
+   the mark warms "ELECTRICALS" to amber; "Voltex" stays ink. One rule, so the
+   header, the mobile drawer and the footer can't drift apart. */
+.lockup-sub {
+  color: var(--color-ink-muted);
+  transition:
+    color 0.18s ease,
+    text-shadow 0.18s ease;
+}
+.lockup:hover .lockup-sub,
+a:hover .lockup-sub,
+a:focus-visible .lockup-sub {
+  color: var(--color-amber);
+  text-shadow: 0 0 14px color-mix(in srgb, var(--color-amber) 50%, transparent);
 }
 
 /* Tariff-sheet register: specs, counts, model codes, small labels. */
@@ -100,6 +117,12 @@ body {
 }
 .module[data-coming-soon] {
   background: #f1f0ec;
+}
+/* The module you are currently inside: switched on, with the amber running up
+   its leading edge. Marks position in the catalogue, nothing else. */
+.module[data-active] {
+  background: var(--color-amber-tint);
+  box-shadow: inset 2px 0 0 var(--color-amber);
 }
 
 /* The indicator LED. Off by default; amber with a soft bloom when the
@@ -141,6 +164,65 @@ body {
 .power-up > .led {
   animation: power-up 0.28s ease forwards;
   animation-delay: calc(var(--i, 0) * 60ms);
+}
+
+/* ------------------------------------------------------------- the lamp */
+
+/* The hero fixture. --lamp is set from kelvinToCss(2700) in JSX, so the bloom
+   is real warm-white lamplight rather than the amber UI accent. At rest it is
+   barely there; reaching for it — pointer or keyboard — warms it up over
+   450ms, the pace of a lamp rather than a button. */
+.lamp {
+  position: relative;
+  display: block;
+}
+.lamp-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(58% 54% at 58% 38%, var(--lamp) 0%, transparent 72%);
+  opacity: 0.12;
+  transform-origin: 58% 38%;
+  transition:
+    opacity 0.45s ease-out,
+    transform 0.45s ease-out;
+}
+.lamp:hover .lamp-glow,
+.lamp:focus-visible .lamp-glow {
+  opacity: 0.34;
+  transform: scale(1.22);
+}
+
+/* So the fixture reads as emitting, not as lit from somewhere off-frame. */
+.lamp-photo {
+  transition: filter 0.45s ease-out;
+}
+.lamp:hover .lamp-photo,
+.lamp:focus-visible .lamp-photo {
+  filter: drop-shadow(0 0 26px color-mix(in srgb, var(--lamp) 60%, transparent));
+}
+
+/* The Kelvin readout: a lit disc whose colour and halo are the value the
+   slider is holding, fed from kelvinToCss() as --light. A glowing circle, not
+   a drawing of a bulb — the only one on the site, and it earns its place by
+   showing a number nobody can picture. */
+.bulb {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 50% 42%,
+    #fff 0%,
+    var(--light) 46%,
+    color-mix(in srgb, var(--light) 72%, #8a7f72) 100%
+  );
+  box-shadow:
+    0 0 34px 6px color-mix(in srgb, var(--light) 55%, transparent),
+    0 0 90px 26px color-mix(in srgb, var(--light) 26%, transparent),
+    inset 0 -6px 14px color-mix(in srgb, var(--light) 60%, #6b6157);
+  transition:
+    background 0.2s ease-out,
+    box-shadow 0.2s ease-out;
 }
 
 /* -------------------------------------------------------------- controls */
