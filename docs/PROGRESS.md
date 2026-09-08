@@ -2,31 +2,36 @@
 
 **This is the handoff file.** A new session resumes by reading this top-to-bottom.
 
-- **Branch:** `fix-404-and-phase-a-d` (forked from `origin/main`, post-PR#2)
-- **Plan:** `~/.claude/plans/velvet-baking-lollipop.md` — Phase 0 (deploy 404) then A–D. Carries `~/.claude/plans/pr-2-merged-one-synthetic-hinton.md` for the A–D file:line detail.
+- **Branch:** work from **`main`** — it is current and deployed. Branch off it for new work.
+- **Live site:** https://voltex-electricals-psi.vercel.app
 - **Brief:** `website_redesign_prompt.md` (the client requirements)
+- **Plans (historical):** `~/.claude/plans/velvet-baking-lollipop.md` (Phase 0 + A–D), `~/.claude/plans/pr-2-merged-one-synthetic-hinton.md` (A–D file:line detail)
+
+> **Branch trap.** GitHub's *default* branch is `multi-brand-catalog`, which is far behind. Real work merges to **`main`**, and Vercel's production branch is `main`. Always pass `--base main` to `gh pr create` — it guesses wrong otherwise.
 
 ## Start here next session
 
-**PR #2 is merged.** `origin/main` is the bright multi-brand Modular Plate catalogue.
+**PR #2 and PR #3 are both merged.** `main` (`7825a78`) is the live site: the multi-brand Modular Plate catalogue, with the deploy fix and Phases A–D on top.
 
-Current work, in order — one commit per phase:
+Everything below is a record of what shipped. **The one outstanding task is visual QA** — see the end of this section.
 
 | # | Phase | Status |
 |---|---|---|
-| 0 | Deploy 404 — `vercel.json` SPA rewrite, `robots.txt`, encoded category paths | ✅ done |
-| A | Mobile menu portal, hero lamp, lockup, structural motif, KelvinBar bulb | ✅ done |
-| B | Taxonomy — Backlight, Philips COB, derived Metal/Industrial Fans | ✅ done |
-| C | Brand logos into `public/brands/` | ✅ done |
-| D | Verify, docs, PR to `main` | ✅ done |
+| 0 | Deploy 404 — `vercel.json` SPA rewrite, `robots.txt`, encoded category paths | ✅ shipped |
+| A | Mobile menu portal, hero lamp, lockup, structural motif, KelvinBar bulb | ✅ shipped |
+| B | Taxonomy — Backlight, COB, derived Metal/Industrial Fans | ✅ shipped |
+| C | Brand logos into `public/brands/` | ✅ shipped |
+| D | Verify, docs, PR to `main` | ✅ shipped (PR #3) |
 
 **Phase 0 — what and why.** The deployed site returned Vercel's own `404: NOT_FOUND` on any inner URL opened directly or refreshed (clicking through worked). Cause: a `BrowserRouter` SPA served as static files with no rewrite, so `/c/Fans` matched no file on disk and the app's JS never loaded. Fixed by `vercel.json` (`/(.*)` → `/index.html`, plus immutable `/assets/*` caching and three security headers) and `public/robots.txt`. Also added `categoryPath()` / `subcategoryPath()` to `src/data/taxonomy.js` and routed all 18 `/c/…` link builders through them, because category names are display strings with spaces and `&`. See D16/D17 in `decisions.md`.
 
-**Two Vercel/GitHub settings still need a human** — neither is code, both can silently defeat the fix:
-1. GitHub's default branch is `multi-brand-catalog`, 8 commits behind `main`. If Vercel's Production Branch follows it, merging to `main` changes nothing in production. Confirm Vercel → Settings → Git points at `main` (and consider making `main` the GitHub default, so `gh pr create` stops guessing the wrong base).
-2. Confirm the Vercel project's framework preset is Vite, output dir `dist`.
+**Confirmed fixed in production** (2026-09-09, after PR #3 merged). Vercel's production branch is `main`, so the merge deployed. Checked against the live URL:
 
-The 404 is only reproducible on a real deploy — `vite preview` already rewrites to `index.html`, so it cannot show the bug. Verify on this branch's Vercel preview URL.
+- `/`, `/c/Fans`, `/c/Fans/Metal%20Fans`, `/c/Lighting/COB%20LED`, `/c/Lighting/Downlighters%20%26%20Spotlights`, `/brands`, `/products`, `/enquiry` and a bogus `/c/Nonsense` — all **200**, all serving `index.html`. The bogus path now renders the app's own `NotFound`, which was unreachable before.
+- Headers present on a deep link: `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`, `X-Frame-Options: DENY`. `/assets/*` carries `Cache-Control: public, max-age=31536000, immutable`.
+- Static files are not swallowed by the rewrite: `/favicon.svg` → `image/svg+xml`, `/robots.txt` → `text/plain`, `/brands/havells.svg` → `image/svg+xml` (the point of the rename), `/brands/crompton.png` → `image/png`.
+
+Note the 404 is **not reproducible locally** — `vite preview` already falls back to `index.html`, so it can never show the bug. Test against the deployed URL.
 
 **Phase A — what shipped.** New: `Portal.jsx`, `Lockup.jsx`, `productTone()` in `kelvin.js`, `HeroLamp` in `Home.jsx`.
 - **A0** `MobileNav` + `SearchOverlay` portal to `<body>` and each became one keyed `motion` child — see D18.
@@ -58,11 +63,11 @@ COB came out higher than the plan's ~26 because Crompton had the same misfile as
 Verified mechanically:
 - `rm -rf Products/normalized && npm run data:build` reproduces the committed JSON byte-for-byte (only `report.md`'s timestamp differs) — the ETL is deterministic. **1,438 published / 412 parked**, unchanged.
 - `npm run lint` and `npm run build` clean.
-- Served `dist/` and checked routing: `/`, `/c/Fans`, `/c/Fans/Metal%20Fans`, `/c/Fans/Industrial%20Fans`, `/c/Lighting/COB%20LED`, `/c/Lighting/Downlighters%20%26%20Spotlights`, `/brands`, `/products` and a bogus `/c/Nonsense` all return 200 and serve `index.html` — the SPA fallback `vercel.json` now provides in production.
-- Static assets are **not** swallowed by the rewrite: `/favicon.svg` → `image/svg+xml`, `/robots.txt` → `text/plain`, `/brands/havells.svg` → `image/svg+xml` (the point of the rename), `/brands/crompton.png` → `image/png`.
 - No dead references to `--tone-*`, `icons.svg`, `logos/` or `heroImage`; no import cycle (`taxonomy.js` imports nothing).
 
-**Still unverified — needs a human with a browser.** No Chrome extension and no headless browser in this environment, so nothing below has been seen rendered:
+Verified against the **live deployment** after merge (see Phase 0 above for the routing and header results). Also confirmed the new build is the one serving: the deployed `/assets/products-*.js` chunk contains 4 `"Backlight"` and 42 `"COB LED"` entries and still carries the Aerobliss metal wall fan, and the deployed stylesheet contains `.bulb`, `.lamp-glow`, `.lockup-sub` and `data-live`.
+
+**Still unverified — needs a human with a browser.** The Chrome extension has been offline in *every* session on this project, and there is no headless browser installed, so **nothing below has ever been seen rendered.** Everything verified above is behaviour and data, never appearance. Don't plan work that depends on the agent seeing the page.
 1. **360 / 768 / 1440.** Especially the mobile drawer (A0) — the whole point is that it now opens full-height and opaque with its nav links visible. This is the one change most worth looking at.
 2. Hero lamp warms on hover **and** keyboard focus, and Enter opens the product.
 3. "ELECTRICALS" lights amber in the header, the footer, and the drawer.
@@ -71,7 +76,8 @@ Verified mechanically:
 6. Hover a lighting card (warm glow) vs a fan card (plain lift).
 7. `/brands` — green live dots, and the three real logos sitting at the same size as the eleven chips.
 8. Keyboard-only pass; `prefers-reduced-motion: reduce`.
-9. **The 404 fix itself**, on the Vercel preview URL — it is not reproducible locally, because `vite preview` already does the fallback.
+
+(The 404 fix itself is no longer on this list — it was confirmed against the live site after PR #3 merged.)
 
 ---
 
