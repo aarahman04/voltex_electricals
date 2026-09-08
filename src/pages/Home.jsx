@@ -10,19 +10,28 @@ import {
   getSubcategories,
   products,
 } from "../data/products.js";
-import { PUBLISHED, categoryPath } from "../data/taxonomy.js";
+import { PUBLISHED, categoryPath, subcategoryPath } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
-import { nearestTone } from "../lib/kelvin.js";
+import { kelvinToCss, nearestTone } from "../lib/kelvin.js";
+import { displayTitle } from "../lib/specSummary.js";
 import KelvinBar from "../components/KelvinBar.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 
 const brands = getBrands();
 const stocked = brands.filter((b) => b.status === "stocked");
 const featured = getFeaturedProducts(8);
-const heroImage = getHeroFeature().image;
+const hero = getHeroFeature();
+
+// The hero fixture glows in real 2700K lamplight rather than the amber UI
+// accent — warm white is what that lamp actually emits.
+const LAMP_KELVIN = 2700;
 
 const NEEDS = [
-  { label: "Cooling", to: "/c/Fans", hint: "Ceiling, pedestal, wall & exhaust fans" },
+  {
+    label: "Cooling",
+    to: categoryPath("Fans"),
+    hint: "Ceiling, pedestal, wall & exhaust fans",
+  },
   {
     label: "Energy-efficient fans",
     to: "/search?q=bldc",
@@ -30,12 +39,12 @@ const NEEDS = [
   },
   {
     label: "Everyday lighting",
-    to: "/c/Lighting/LED Bulbs & Lamps",
+    to: subcategoryPath("Lighting", "LED Bulbs & Lamps"),
     hint: "Bulbs, battens & panels",
   },
   {
     label: "Commercial & outdoor",
-    to: "/c/Lighting/Street & Outdoor Lights",
+    to: subcategoryPath("Lighting", "Street & Outdoor Lights"),
     hint: "Street, flood & high-bay",
   },
 ];
@@ -177,22 +186,37 @@ function Hero({ modelCount, typeCount, brandCount }) {
           </div>
         </div>
 
-        <div className="relative order-first lg:order-none">
-          <div
-            className="pointer-events-none absolute inset-0 -z-0"
-            style={{
-              background:
-                "radial-gradient(60% 55% at 60% 38%, rgba(238,122,27,0.12) 0%, transparent 72%)",
-            }}
-          />
-          <img
-            src={cdnImage(heroImage, 1000)}
-            alt=""
-            className="relative mx-auto max-h-[440px] w-full object-contain mix-blend-multiply"
-          />
-        </div>
+        <HeroLamp />
       </div>
     </section>
+  );
+}
+
+// The largest picture on the page, and until now the only thing on it that
+// did nothing. It is the product's own photo, so it links to the product, and
+// reaching for it — pointer or keyboard — warms the lamp.
+function HeroLamp() {
+  const lamplight = kelvinToCss(LAMP_KELVIN);
+  const photo = (
+    <>
+      <span className="lamp-glow" style={{ "--lamp": lamplight }} aria-hidden="true" />
+      <img
+        src={cdnImage(hero.image, 1000)}
+        alt={hero.product ? displayTitle(hero.product) : ""}
+        className="lamp-photo relative mx-auto max-h-[440px] w-full object-contain mix-blend-multiply"
+        style={{ "--lamp": lamplight }}
+      />
+    </>
+  );
+
+  if (!hero.product) {
+    return <div className="lamp order-first lg:order-none">{photo}</div>;
+  }
+
+  return (
+    <Link to={`/product/${hero.product.uid}`} className="lamp order-first lg:order-none">
+      {photo}
+    </Link>
   );
 }
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { getCategoryCounts, getSubcategories } from "../data/products.js";
 import {
   PUBLISHED,
@@ -9,6 +9,8 @@ import {
   subcategoryPath,
 } from "../data/taxonomy.js";
 import { useEnquiry } from "../context/enquiry.js";
+import Lockup from "./Lockup.jsx";
+import Portal from "./Portal.jsx";
 import SearchOverlay from "./SearchOverlay.jsx";
 
 const categoryCounts = getCategoryCounts();
@@ -27,17 +29,6 @@ const COMPANY = [
   { label: "About", to: "/about" },
   { label: "Contact", to: "/contact" },
 ];
-
-function Lockup({ className = "text-[17px]" }) {
-  return (
-    <span className="flex items-baseline gap-[0.45em] whitespace-nowrap">
-      <span className={`nameplate ${className} text-ink`}>Voltex</span>
-      <span className={`nameplate-sub ${className} text-ink-muted`}>
-        Electricals
-      </span>
-    </span>
-  );
-}
 
 export default function Header() {
   const [menu, setMenu] = useState(false);
@@ -163,9 +154,7 @@ export default function Header() {
         )}
       </AnimatePresence>
 
-      <AnimatePresence>
-        {mobile && <MobileNav onClose={() => setMobile(false)} />}
-      </AnimatePresence>
+      <MobileNav open={mobile} onClose={() => setMobile(false)} />
 
       <SearchOverlay open={search} onClose={() => setSearch(false)} />
     </header>
@@ -194,11 +183,25 @@ function EnquiryLink() {
 }
 
 function MegaMenu() {
+  // The module for the category you are currently inside reads as the live
+  // circuit — that is exactly what .module[data-active] was written for.
+  // Header sits outside <Routes>, so read the path rather than useParams().
+  const { pathname } = useLocation();
+  const segments = pathname.split("/");
+  const current =
+    segments[1] === "c" && segments[2]
+      ? decodeURIComponent(segments[2]).toLowerCase()
+      : null;
+
   return (
     <div className="mx-auto max-w-[1400px] px-5 py-8 sm:px-8">
       <div className="plate grid-cols-1 md:grid-cols-2">
         {categoryTree.map((category) => (
-          <div key={category.name} className="module p-6">
+          <div
+            key={category.name}
+            className="module p-6"
+            data-active={current === category.name.toLowerCase() || undefined}
+          >
             <div className="mb-4 flex items-center gap-2.5">
               <span className="led" data-on />
               <Link
@@ -246,117 +249,140 @@ function MegaMenu() {
   );
 }
 
-function MobileNav({ onClose }) {
+// Portalled to <body>: rendered in place it would inherit the header's
+// backdrop-filter as its containing block and open as a clipped, transparent
+// sliver. One keyed motion child so AnimatePresence can actually track the
+// exit — exit propagates down to the panel's own slide.
+function MobileNav({ open, onClose }) {
   const [category, setCategory] = useState(null);
   const active = categoryTree.find((c) => c.name === category);
 
-  return (
-    <>
-      <motion.div
-        className="fixed inset-0 z-50 bg-ink/30 md:hidden"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        onClick={onClose}
-      />
-      <motion.aside
-        className="thin-scroll fixed inset-y-0 right-0 z-50 flex w-[86%] max-w-sm flex-col overflow-y-auto bg-paper md:hidden"
-        initial={{ x: "100%" }}
-        animate={{ x: 0 }}
-        exit={{ x: "100%" }}
-        transition={{ type: "tween", duration: 0.26, ease: [0.16, 1, 0.3, 1] }}
-      >
-        <div className="flex h-16 shrink-0 items-center justify-between border-b border-seam px-5">
-          {active ? (
-            <button
-              type="button"
-              onClick={() => setCategory(null)}
-              className="flex items-center gap-2 text-sm text-ink-muted"
-            >
-              <span aria-hidden="true">←</span> All products
-            </button>
-          ) : (
-            <Lockup className="text-[15px]" />
-          )}
-          <button
-            type="button"
-            aria-label="Close menu"
-            onClick={onClose}
-            className="flex h-9 w-9 items-center justify-center text-ink-muted hover:text-ink"
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" d="M6 6l12 12M18 6L6 18" />
-            </svg>
-          </button>
-        </div>
+  // The drawer stays mounted, so closing it has to drop the drilldown too —
+  // otherwise it reopens two levels deep.
+  const close = () => {
+    setCategory(null);
+    onClose();
+  };
 
-        <nav className="flex flex-col p-5">
-          {active ? (
-            <>
-              <Link
-                to={categoryPath(active.name)}
-                onClick={onClose}
-                className="nameplate flex items-baseline justify-between border-b border-seam py-4 text-2xl text-ink"
-              >
-                All {active.name}
-                <span className="spec text-ink-muted">{active.count}</span>
-              </Link>
-              {active.subs.map((sub) =>
-                sub.comingSoon ? (
-                  <span
-                    key={sub.name}
-                    className="flex items-baseline justify-between border-b border-seam py-3.5 text-[15px] text-ink-muted/50"
+  return (
+    <Portal>
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            key="mobile-nav"
+            className="fixed inset-0 z-[85] md:hidden"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+          >
+            <div
+              className="absolute inset-0 bg-ink/40"
+              onClick={close}
+              aria-hidden="true"
+            />
+            <motion.aside
+              aria-label="Menu"
+              className="thin-scroll absolute inset-y-0 right-0 flex w-[86%] max-w-sm flex-col overflow-y-auto bg-paper shadow-[0_0_60px_-12px_rgba(19,26,36,0.45)]"
+              initial={{ x: "100%" }}
+              animate={{ x: 0 }}
+              exit={{ x: "100%" }}
+              transition={{ type: "tween", duration: 0.26, ease: [0.16, 1, 0.3, 1] }}
+            >
+              <div className="flex h-16 shrink-0 items-center justify-between border-b border-seam px-5">
+                {active ? (
+                  <button
+                    type="button"
+                    onClick={() => setCategory(null)}
+                    className="flex items-center gap-2 text-sm text-ink-muted"
                   >
-                    {sub.name}
-                    <span className="spec text-[9px]">Soon</span>
-                  </span>
+                    <span aria-hidden="true">←</span> All products
+                  </button>
                 ) : (
-                  <Link
-                    key={sub.name}
-                    to={subcategoryPath(active.name, sub.name)}
-                    onClick={onClose}
-                    className="flex items-baseline justify-between border-b border-seam py-3.5 text-[15px] text-ink"
-                  >
-                    {sub.name}
-                    <span className="spec text-ink-muted">{sub.count}</span>
-                  </Link>
-                ),
-              )}
-            </>
-          ) : (
-            <>
-              {categoryTree.map((c) => (
+                  <Lockup className="text-[15px]" />
+                )}
                 <button
-                  key={c.name}
                   type="button"
-                  onClick={() => setCategory(c.name)}
-                  className="nameplate flex items-center justify-between border-b border-seam py-4 text-2xl text-ink"
+                  aria-label="Close menu"
+                  onClick={close}
+                  className="flex h-9 w-9 items-center justify-center text-ink-muted hover:text-ink"
                 >
-                  {c.name}
-                  <span aria-hidden="true" className="text-ink-muted">→</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" d="M6 6l12 12M18 6L6 18" />
+                  </svg>
                 </button>
-              ))}
-              <Link
-                to="/products"
-                onClick={onClose}
-                className="nameplate border-b border-seam py-4 text-2xl text-ink"
-              >
-                All products
-              </Link>
-              {COMPANY.map((item) => (
-                <NavLink
-                  key={item.label}
-                  to={item.to}
-                  onClick={onClose}
-                  className="nameplate border-b border-seam py-4 text-2xl text-ink"
-                >
-                  {item.label}
-                </NavLink>
-              ))}
-            </>
-          )}
-        </nav>
-      </motion.aside>
-    </>
+              </div>
+
+              <nav className="flex flex-col p-5">
+                {active ? (
+                  <>
+                    <Link
+                      to={categoryPath(active.name)}
+                      onClick={close}
+                      className="nameplate flex items-baseline justify-between border-b border-seam py-4 text-2xl text-ink"
+                    >
+                      All {active.name}
+                      <span className="spec text-ink-muted">{active.count}</span>
+                    </Link>
+                    {active.subs.map((sub) =>
+                      sub.comingSoon ? (
+                        <span
+                          key={sub.name}
+                          className="flex items-baseline justify-between border-b border-seam py-3.5 text-[15px] text-ink-muted/50"
+                        >
+                          {sub.name}
+                          <span className="spec text-[9px]">Soon</span>
+                        </span>
+                      ) : (
+                        <Link
+                          key={sub.name}
+                          to={subcategoryPath(active.name, sub.name)}
+                          onClick={close}
+                          className="flex items-baseline justify-between border-b border-seam py-3.5 text-[15px] text-ink"
+                        >
+                          {sub.name}
+                          <span className="spec text-ink-muted">{sub.count}</span>
+                        </Link>
+                      ),
+                    )}
+                  </>
+                ) : (
+                  <>
+                    {categoryTree.map((c) => (
+                      <button
+                        key={c.name}
+                        type="button"
+                        onClick={() => setCategory(c.name)}
+                        className="nameplate flex items-center justify-between border-b border-seam py-4 text-2xl text-ink"
+                      >
+                        {c.name}
+                        <span aria-hidden="true" className="text-ink-muted">→</span>
+                      </button>
+                    ))}
+                    <Link
+                      to="/products"
+                      onClick={close}
+                      className="nameplate border-b border-seam py-4 text-2xl text-ink"
+                    >
+                      All products
+                    </Link>
+                    {COMPANY.map((item) => (
+                      <NavLink
+                        key={item.label}
+                        to={item.to}
+                        onClick={close}
+                        className="nameplate border-b border-seam py-4 text-2xl text-ink"
+                      >
+                        {item.label}
+                      </NavLink>
+                    ))}
+                  </>
+                )}
+              </nav>
+            </motion.aside>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </Portal>
   );
 }

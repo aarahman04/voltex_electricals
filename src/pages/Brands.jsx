@@ -54,8 +54,13 @@ export default function Brands() {
               </span>
             </div>
             <div className="flex flex-1 flex-col gap-1 border-t border-seam px-5 py-4">
-              <h2 className="nameplate text-xl text-ink">{brand.name}</h2>
-              <p className="spec text-ink-muted">
+              <h2 className="nameplate flex items-center gap-2.5 text-xl text-ink">
+                {/* Green means in catalogue — the meaning .led[data-live] was
+                    written for. */}
+                <span className="led shrink-0" data-live />
+                {brand.name}
+              </h2>
+              <p className="spec pl-[18px] text-ink-muted">
                 {brand.count} models ·{" "}
                 {brand.breakdown.map((c) => `${c.count} ${c.name}`).join(" · ")}
               </p>
@@ -73,8 +78,10 @@ export default function Brands() {
             {soon.map((brand) => (
               <span
                 key={brand.slug}
-                className="rounded-[7px] border border-dashed border-seam px-4 py-2 text-sm text-ink-muted/70"
+                className="flex items-center gap-2.5 rounded-[7px] border border-seam px-4 py-2 text-sm text-ink-muted/70"
               >
+                {/* Unlit: same indicator, not yet in the catalogue. */}
+                <span className="led shrink-0" />
                 {brand.name}
               </span>
             ))}

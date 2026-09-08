@@ -151,22 +151,33 @@ export default function Listing({
               {filtered.length} of {baseProducts.length}
             </p>
 
-            <div className="ml-auto flex items-center gap-3">
-              <label htmlFor="sort" className="spec hidden text-ink-muted sm:block">
+            {/* Was the last native <select> in the app. Three options, so it
+                reads better as the same switch the filters use than as an OS
+                dropdown. */}
+            <div className="ml-auto flex items-center gap-2.5">
+              <span id="sort-label" className="spec hidden text-ink-muted sm:block">
                 Sort
-              </label>
-              <select
-                id="sort"
-                value={sort}
-                onChange={(e) => setSort(e.target.value)}
-                className="rounded-[8px] border border-seam bg-surface px-3 py-2.5 text-sm text-ink focus:border-amber focus:outline-none"
+              </span>
+              <div
+                aria-labelledby="sort-label"
+                className="flex gap-1 rounded-[8px] border border-seam bg-surface p-1"
               >
                 {SORTS.map((s) => (
-                  <option key={s.value} value={s.value}>
+                  <button
+                    key={s.value}
+                    type="button"
+                    aria-pressed={sort === s.value}
+                    onClick={() => setSort(s.value)}
+                    className={`whitespace-nowrap rounded-[5px] px-2.5 py-1.5 text-xs font-medium transition-colors ${
+                      sort === s.value
+                        ? "bg-amber-tint text-ink"
+                        : "text-ink-muted hover:text-ink"
+                    }`}
+                  >
                     {s.label}
-                  </option>
+                  </button>
                 ))}
-              </select>
+              </div>
             </div>
           </div>
 

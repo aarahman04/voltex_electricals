@@ -30,6 +30,10 @@ export default function VariantSelector({ variants, selected, onSelect }) {
                 const color = isColor ? (tone?.hex ?? swatchColor(value)) : null;
 
                 if (color) {
+                  // A selected light tone blooms in its own Kelvin colour, the
+                  // way FilterPanel's tone swatches already do — same state,
+                  // one language. Finishes have no colour temperature to show,
+                  // so they keep the amber "selected" ring.
                   return (
                     <button
                       key={value}
@@ -40,10 +44,15 @@ export default function VariantSelector({ variants, selected, onSelect }) {
                       onClick={() => onSelect(key, value)}
                       className={`h-10 w-10 rounded-full transition-all duration-150 ${
                         active
-                          ? "ring-2 ring-amber ring-offset-2 ring-offset-paper"
+                          ? tone
+                            ? "ring-2 ring-seam-strong"
+                            : "ring-2 ring-amber ring-offset-2 ring-offset-paper"
                           : "ring-1 ring-seam hover:ring-seam-strong"
                       }`}
-                      style={{ backgroundColor: color }}
+                      style={{
+                        backgroundColor: color,
+                        boxShadow: active && tone ? `0 0 14px 2px ${tone.hex}` : undefined,
+                      }}
                     />
                   );
                 }

@@ -15,7 +15,7 @@ Current work, in order — one commit per phase:
 | # | Phase | Status |
 |---|---|---|
 | 0 | Deploy 404 — `vercel.json` SPA rewrite, `robots.txt`, encoded category paths | ✅ done |
-| A | Mobile menu portal, hero lamp, lockup, structural motif, KelvinBar bulb | ⬜ next |
+| A | Mobile menu portal, hero lamp, lockup, structural motif, KelvinBar bulb | ✅ done |
 | B | Taxonomy — Backlight, Philips COB, derived Metal/Industrial Fans | ⬜ |
 | C | Brand logos into `public/brands/` | ⬜ |
 | D | Verify, docs, PR to `main` | ⬜ |
@@ -27,6 +27,16 @@ Current work, in order — one commit per phase:
 2. Confirm the Vercel project's framework preset is Vite, output dir `dist`.
 
 The 404 is only reproducible on a real deploy — `vite preview` already rewrites to `index.html`, so it cannot show the bug. Verify on this branch's Vercel preview URL.
+
+**Phase A — what shipped.** New: `Portal.jsx`, `Lockup.jsx`, `productTone()` in `kelvin.js`, `HeroLamp` in `Home.jsx`.
+- **A0** `MobileNav` + `SearchOverlay` portal to `<body>` and each became one keyed `motion` child — see D18.
+- **A1** the hero photo is a `<Link>` to its product and warms in `kelvinToCss(2700)` on hover/focus.
+- **A2** one `Lockup` for header, drawer and footer; "ELECTRICALS" lights amber.
+- **A3** `.led[data-live]` on stocked brands (`/brands`, `BrandRail`), `.module[data-active]` on the mega-menu, sort `<select>` replaced with a segmented switch, lighting cards glow in their own tone, tone-swatch bloom unified across `FilterPanel` and `VariantSelector`, search fields share one focus treatment.
+- **A4** the KelvinBar bulb.
+- Housekeeping: favicon replaced (was Vite's purple bolt), `public/icons.svg` deleted, `--tone-*` tokens dropped — `kelvin.js` is the single source.
+
+**Not yet verified visually.** The Chrome extension was offline again this session, so the 360/768/1440 pass and the keyboard/reduced-motion checks in Phase D still need a human or a working browser tool.
 
 ---
 

@@ -4,6 +4,18 @@ Append-only. Newest first. Each entry: the choice, the reason, and what it rules
 
 ---
 
+## 2026-09-09 — Lamp, lockup, motif (Phase A)
+
+### D19 — The motif marks state, and light is one of the states
+Two hooks activated (`.led[data-live]` = in catalogue, `.module[data-active]` = the category you're in) and three places that render real light: the hero lamp on hover/focus, the KelvinBar bulb tracking the slider, and lighting cards glowing in the tone they're sold in.
+**Why:** the brief forbids a "gimmicky electricity themed website", but it does not forbid showing a value — and colour temperature is a value nobody can picture from "4000K". Every lit thing is bound to state the user is setting, buying, or standing in. **Rules out:** decorative bulbs, fake screws, wiring graphics, ambient glow; and indicators in places with no state — `data-active` is set once, in the mega-menu, because that is the only place the state exists.
+
+### D18 — Overlays portal to `<body>`
+`MobileNav` and `SearchOverlay` render through `Portal`.
+**Why:** `<header>` carries `backdrop-blur-md`. A `backdrop-filter` makes that element the containing block for every `position: fixed` descendant, so both overlays resolved `fixed inset-0` against the 64px header box — the drawer opened as an empty, see-through sliver in production. Each is now one keyed `motion` child of its `AnimatePresence`; a bare Fragment gave framer-motion nothing to track, so exit animations never ran. **Rules out:** dropping the header's blur (the sticky header needs it), and z-index patching — the portal also settles the latent fight with `Toast`.
+
+---
+
 ## 2026-09-09 — Deploy fix (Phase 0)
 
 ### D17 — SPA rewrite over prerendering; soft 404 accepted

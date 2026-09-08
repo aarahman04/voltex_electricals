@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { getProductImage } from "../data/products.js";
 import { cdnImage } from "../lib/image.js";
 import { displayTitle, specSummary } from "../lib/specSummary.js";
+import { productTone } from "../lib/kelvin.js";
 import { useEnquiry } from "../context/enquiry.js";
 import BrandMark from "./BrandMark.jsx";
 import SwatchRow from "./SwatchRow.jsx";
@@ -13,6 +14,7 @@ export default function ProductCard({ product }) {
   const spec = specSummary(product);
   const title = displayTitle(product);
   const added = has(product.uid);
+  const tone = productTone(product);
 
   return (
     <article className="group relative flex flex-col overflow-hidden rounded-[12px] border border-seam bg-surface transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:shadow-[0_16px_36px_-20px_rgba(19,26,36,0.35)]">
@@ -22,6 +24,19 @@ export default function ProductCard({ product }) {
       >
         <div className="relative aspect-square overflow-hidden bg-surface p-5">
           {!loaded && <div className="absolute inset-0 animate-pulse bg-paper" />}
+          {/* Lighting cards warm in the colour temperature that model is sold
+              in, so the hover tells you what you'd be buying. Fans have no
+              tone; neither does a model offered in several. Both keep the
+              plain lift. */}
+          {tone && (
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-[0.45]"
+              style={{
+                background: `radial-gradient(58% 58% at 50% 45%, ${tone.hex} 0%, transparent 70%)`,
+              }}
+            />
+          )}
           <img
             src={cdnImage(getProductImage(product), 500)}
             alt={title}

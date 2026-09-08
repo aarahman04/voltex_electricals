@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { getBrands, products } from "../data/products.js";
 import { PUBLISHED, categoryPath } from "../data/taxonomy.js";
+import Lockup from "./Lockup.jsx";
 
 const brands = getBrands();
 const stocked = brands.filter((b) => b.status === "stocked");
@@ -12,12 +13,7 @@ export default function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
           <div>
             <Link to="/" aria-label="Voltex Electricals, home">
-              <span className="flex items-baseline gap-[0.45em]">
-                <span className="nameplate text-lg text-ink">Voltex</span>
-                <span className="nameplate-sub text-lg text-ink-muted">
-                  Electricals
-                </span>
-              </span>
+              <Lockup className="text-lg" />
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-muted">
               A multi-brand catalogue of fans and lighting. Browse the full
