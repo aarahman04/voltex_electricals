@@ -18,7 +18,7 @@ Current work, in order — one commit per phase:
 | A | Mobile menu portal, hero lamp, lockup, structural motif, KelvinBar bulb | ✅ done |
 | B | Taxonomy — Backlight, Philips COB, derived Metal/Industrial Fans | ✅ done |
 | C | Brand logos into `public/brands/` | ✅ done |
-| D | Verify, docs, PR to `main` | ⬜ |
+| D | Verify, docs, PR to `main` | ✅ done |
 
 **Phase 0 — what and why.** The deployed site returned Vercel's own `404: NOT_FOUND` on any inner URL opened directly or refreshed (clicking through worked). Cause: a `BrowserRouter` SPA served as static files with no rewrite, so `/c/Fans` matched no file on disk and the app's JS never loaded. Fixed by `vercel.json` (`/(.*)` → `/index.html`, plus immutable `/assets/*` caching and three security headers) and `public/robots.txt`. Also added `categoryPath()` / `subcategoryPath()` to `src/data/taxonomy.js` and routed all 18 `/c/…` link builders through them, because category names are display strings with spaces and `&`. See D16/D17 in `decisions.md`.
 
@@ -53,7 +53,25 @@ COB came out higher than the plan's ~26 because Crompton had the same misfile as
 
 **Phase C — what shipped.** `logos/` is gone; `public/brands/` holds `crompton.png` (downscaled 4500 → 900px, 123 KB → 30 KB), `havells.svg` (the file was named `.png` but was always an SVG — served as `image/png` the browser rejects it) and `philips.png`. `brand.logo` set for those three in `brands.js`. `<BrandMark>` now keeps the tint plate behind real logos so all 14 marks are one shape — see D22.
 
-**Not yet verified visually.** The Chrome extension was offline again this session, so the 360/768/1440 pass and the keyboard/reduced-motion checks in Phase D still need a human or a working browser tool.
+**Phase D — what was verified, and what wasn't.**
+
+Verified mechanically:
+- `rm -rf Products/normalized && npm run data:build` reproduces the committed JSON byte-for-byte (only `report.md`'s timestamp differs) — the ETL is deterministic. **1,438 published / 412 parked**, unchanged.
+- `npm run lint` and `npm run build` clean.
+- Served `dist/` and checked routing: `/`, `/c/Fans`, `/c/Fans/Metal%20Fans`, `/c/Fans/Industrial%20Fans`, `/c/Lighting/COB%20LED`, `/c/Lighting/Downlighters%20%26%20Spotlights`, `/brands`, `/products` and a bogus `/c/Nonsense` all return 200 and serve `index.html` — the SPA fallback `vercel.json` now provides in production.
+- Static assets are **not** swallowed by the rewrite: `/favicon.svg` → `image/svg+xml`, `/robots.txt` → `text/plain`, `/brands/havells.svg` → `image/svg+xml` (the point of the rename), `/brands/crompton.png` → `image/png`.
+- No dead references to `--tone-*`, `icons.svg`, `logos/` or `heroImage`; no import cycle (`taxonomy.js` imports nothing).
+
+**Still unverified — needs a human with a browser.** No Chrome extension and no headless browser in this environment, so nothing below has been seen rendered:
+1. **360 / 768 / 1440.** Especially the mobile drawer (A0) — the whole point is that it now opens full-height and opaque with its nav links visible. This is the one change most worth looking at.
+2. Hero lamp warms on hover **and** keyboard focus, and Enter opens the product.
+3. "ELECTRICALS" lights amber in the header, the footer, and the drawer.
+4. The KelvinBar bulb sweeps warm→cool as the slider moves.
+5. `/c/Fans` — Metal Fans and Industrial Fans are live tiles with counts (9 and 5), not dimmed; Elevation LED is the only dimmed tile left, on `/c/Lighting`.
+6. Hover a lighting card (warm glow) vs a fan card (plain lift).
+7. `/brands` — green live dots, and the three real logos sitting at the same size as the eleven chips.
+8. Keyboard-only pass; `prefers-reduced-motion: reduce`.
+9. **The 404 fix itself**, on the Vercel preview URL — it is not reproducible locally, because `vite preview` already does the fallback.
 
 ---
 
