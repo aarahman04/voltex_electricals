@@ -3,15 +3,15 @@
 **This is the handoff file.** A new session resumes by reading this top-to-bottom.
 
 - **Branch:** `redesign-v2` (forked from `multi-brand-catalog`, *not* `main`)
-- **Last commit:** _Phase 2 — data layer rewired to normalized data_
+- **Last commit:** _Phase 3 — design system (Modular Plate tokens, fonts, primitives)_
 - **Plan:** `~/.claude/plans/firstly-we-will-be-glittery-peacock.md` (full detail)
 - **Brief:** `website_redesign_prompt.md` (the client requirements)
 
 ## Start here next session
 
-Phases 0–2 done. The app now loads all **1,438 products across 6 brands** — `npm run dev`, every route returns 200, `npm run build` and `npm run lint` are clean. The UI is still the old dark `multi-brand-catalog` design; it just has real multi-brand data flowing through it now.
+Phases 0–3 done. `src/index.css` is now the Modular Plate light system (tokens, `.plate` / `.module` / `.led` / `.switch-btn`, `@keyframes power-up`); `index.html` loads Archivo + Instrument Sans + IBM Plex Mono. `npm run build` is clean. **The existing components still reference the old dark Tailwind classes (`text-ivory`, `bg-ground`, `border-conduit`, …) which no longer exist — the app renders mostly unstyled until Phases 4–7 rebuild each component.** That is expected.
 
-**Next is Phase 3 — the design system.** Rewrite `src/index.css`: replace the dark `@theme` with the Modular Plate tokens (see `docs/design-system.md`), swap the Google Fonts `<link>` in `index.html` to Archivo + Instrument Sans + IBM Plex Mono, add the `.plate` / `.led` / `.switch-btn` primitives and `@keyframes power-up`. This commit will make the existing components look broken (dark classes on light tokens) — that is expected; Phases 4–7 rebuild them. Keep `.nameplate` and `.spec` (retune `.nameplate` for light).
+**Next is Phase 4 — chrome.** Rewrite `Header.jsx` (logo + Products mega-menu / Categories / Brands / About / Contact — no Fans/Lighting top-level), `Footer.jsx` (light), add a search overlay, rename `Cart.jsx` → `Enquiry.jsx` with a localStorage-backed `EnquiryContext`. Add `BrandMark.jsx` (tinted wordmark chip). Update `App.jsx` routes.
 
 ## Phase status
 
@@ -20,7 +20,7 @@ Phases 0–2 done. The app now loads all **1,438 products across 6 brands** — 
 | 0 | `docs/` scaffold + track raw `Products/` data | ✅ done | `a90d20e` |
 | 1 | ETL — `scripts/normalize.mjs` → `Products/normalized/` | ✅ done | `fbb871b` |
 | 2 | Data layer — `taxonomy.js`, `brands.js`, `catalog.js` glob, `products.js` | ✅ done | _this commit_ |
-| 3 | Design system — `index.css` Modular Plate tokens, fonts, plate/LED primitives | ⬜ not started | |
+| 3 | Design system — `index.css` Modular Plate tokens, fonts, plate/LED primitives | ✅ done | _this commit_ |
 | 4 | Chrome — `Header` (new nav + mega-menu), `Footer`, search overlay, `Enquiry` | ⬜ not started | |
 | 5 | Home — new hero, Shop by Category, brand strip, remove `CylinderCarousel` | ⬜ not started | |
 | 6 | Category hub `/c/:category` ("Choose your fan") + listing rewrite | ⬜ not started | |
