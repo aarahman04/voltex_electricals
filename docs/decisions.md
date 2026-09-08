@@ -4,6 +4,30 @@ Append-only. Newest first. Each entry: the choice, the reason, and what it rules
 
 ---
 
+## 2026-09-08 — Implementation (Phases 3–7)
+
+### D14 — Phases 4–7 shipped as one commit, not four
+`App.jsx` imports every new page; no phase-sized subset compiles alone, so four commits would mean three broken ones. The resume aid is `docs/PROGRESS.md` + the `docs/*.md` set, and those are kept current — that is what D9 was actually protecting.
+**Why:** a green `npm run build` at every commit matters more than commit granularity. **Rules out:** bisecting the UI rebuild by commit; use the file list in `PROGRESS.md` instead.
+
+### D13 — Header nav: Products (mega-menu) / Brands / About / Contact — no "Categories"
+The brief's sample nav lists "Categories" *and* "Products". The Products mega-menu already *is* the category explorer (every published category + its subcategories as a plate), so a separate "Categories" link would point at the same place.
+**Why:** the brief's overriding instruction is "much cleaner navigation" and "not a massive list". One door into the taxonomy, not two. **Rules out:** a dedicated `/categories` index page (none exists).
+
+### D12 — One shared `<Listing>` for every product grid
+`CategoryListing`, `AllProducts` and `Search` are the same filtered/sorted/URL-synced grid over a different starting set + facet list. Filters live entirely in the querystring (`brand`, `tone`, `wattage`, `size`, `category`, `sub`, `q`, `sort`) so every filtered view is linkable and back/forward works.
+**Why:** the brief wants filtering, sorting and search to feel like one system; three copies would drift. **Rules out:** per-page filter state; deep-links like KelvinBar's `/products?category=Lighting&tone=Warm White` depend on this.
+
+### D11 — Motion budget: the LED power-up, card lift, image scale, menu fades — nothing else
+`power-up` runs once on the hero category plate and the CategoryHub subcategory plate. Everything else is a ≤200ms transition. `prefers-reduced-motion` kills the power-up and all transforms (already in `index.css`).
+**Why:** brief — "prioritise product discovery over decorative animation", "avoid constant movement". **Rules out:** scroll-triggered reveals, stagger-in grids, the old `whileInView` on every card (also a perf win on 300-item lists).
+
+### D10 — Enquiry list is `localStorage` only, ids not objects
+`voltex:enquiry` holds an array of `uid` strings; products are re-resolved on read via `getProductById`. No backend.
+**Why:** there is no backend and the catalogue is the source of truth — storing snapshots would go stale when data rebuilds. **Rules out:** cross-device sync, persistence of models that later leave the catalogue.
+
+---
+
 ## 2026-09-08 — Redesign v2 kickoff
 
 ### D9 — Delivery: one branch, phased commits, docs updated per phase

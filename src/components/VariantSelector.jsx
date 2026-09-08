@@ -18,9 +18,9 @@ export default function VariantSelector({ variants, selected, onSelect }) {
 
         return (
           <div key={key}>
-            <div className="mb-3 flex items-baseline justify-between border-b border-conduit pb-2">
-              <h4 className="spec text-muted">{key}</h4>
-              <span className="text-sm text-ivory">{selected[key]}</span>
+            <div className="mb-3 flex items-baseline justify-between border-b border-seam pb-2">
+              <h4 className="spec text-ink-muted">{key}</h4>
+              <span className="text-sm text-ink">{selected[key]}</span>
             </div>
 
             <div className="flex flex-wrap gap-2">
@@ -38,10 +38,10 @@ export default function VariantSelector({ variants, selected, onSelect }) {
                       aria-label={value}
                       aria-pressed={active}
                       onClick={() => onSelect(key, value)}
-                      className={`h-10 w-10 rounded-full transition-all duration-200 ${
+                      className={`h-10 w-10 rounded-full transition-all duration-150 ${
                         active
-                          ? "ring-2 ring-filament ring-offset-2 ring-offset-ground"
-                          : "ring-1 ring-conduit hover:ring-muted"
+                          ? "ring-2 ring-amber ring-offset-2 ring-offset-paper"
+                          : "ring-1 ring-seam hover:ring-seam-strong"
                       }`}
                       style={{ backgroundColor: color }}
                     />
@@ -54,10 +54,10 @@ export default function VariantSelector({ variants, selected, onSelect }) {
                     type="button"
                     aria-pressed={active}
                     onClick={() => onSelect(key, value)}
-                    className={`rounded-[3px] border px-4 py-2.5 text-sm font-medium transition-colors ${
+                    className={`rounded-[7px] border px-4 py-2.5 text-sm font-medium transition-colors ${
                       active
-                        ? "border-filament bg-filament/15 text-filament"
-                        : "border-conduit text-muted hover:border-muted hover:text-ivory"
+                        ? "border-amber bg-amber-tint text-ink"
+                        : "border-seam text-ink-muted hover:border-seam-strong hover:text-ink"
                     }`}
                   >
                     {value}
