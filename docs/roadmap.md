@@ -22,6 +22,7 @@ In rough priority order. None of this blocks the redesign.
 - **Brand logos** — none in the repo; `<BrandMark/>` uses tinted wordmark chips. Drop real logos into `public/brands/<slug>.svg` and set `brand.logo` — the component upgrades with no layout change.
 
 ## Platform
+- **Data bundle size** — `catalog.js` uses an eager `import.meta.glob`, so all normalized JSON (~2 MB, 467 KB gzip) is in the main chunk. Fine at 1,438 products; at 5,000+ split it per category with a lazy glob + an async query API, or move to a fetched endpoint (the `products.js` comment already anticipates this).
 - **Deploy** — `vercel.json`, `robots.txt`, custom domain + DNS. Phase 8 stub only.
 - **OG image** — meta tags exist, no image asset.
 - **Sitemap** — none.

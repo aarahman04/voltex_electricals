@@ -117,6 +117,64 @@ export function getProductsByBrand(brandSlug) {
   return products.filter((p) => p.brandSlug === brandSlug);
 }
 
+// Model count per published category, computed — never write a literal.
+export function getCategoryCounts() {
+  const counts = {};
+  for (const p of products) counts[p.category] = (counts[p.category] ?? 0) + 1;
+  return counts;
+}
+
+// --- Search ---------------------------------------------------------------
+
+function searchHaystack(p) {
+  return [
+    p.title,
+    p.brand,
+    p.category,
+    p.subcategory,
+    ...(p.tags ?? []),
+    ...(p.variants ?? []).flatMap((v) => [
+      v.sku,
+      ...Object.values(v.options ?? {}),
+    ]),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
+// Every query token must appear somewhere in the product. Results are ranked
+// so a hit in the name beats a hit in a tag or a variant code.
+export function searchProducts(query, limit = 60) {
+  const tokens = String(query ?? "")
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean);
+  if (tokens.length === 0) return [];
+
+  const scored = [];
+  for (const p of products) {
+    const haystack = searchHaystack(p);
+    if (!tokens.every((t) => haystack.includes(t))) continue;
+
+    const title = p.title.toLowerCase();
+    const brand = p.brand.toLowerCase();
+    let score = 0;
+    for (const t of tokens) {
+      if (title.startsWith(t)) score += 5;
+      else if (title.includes(t)) score += 3;
+      if (brand.includes(t)) score += 2;
+      if (p.subcategory.toLowerCase().includes(t)) score += 1;
+    }
+    scored.push({ p, score });
+  }
+
+  return scored
+    .sort((a, b) => b.score - a.score || a.p.title.localeCompare(b.p.title))
+    .slice(0, limit)
+    .map((s) => s.p);
+}
+
 // --- Facets ---------------------------------------------------------------
 
 const TONE_NAMES = TONES.map((t) => t.name);
