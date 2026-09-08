@@ -1,0 +1,27 @@
+# Roadmap — deliberately not built yet
+
+In rough priority order. None of this blocks the redesign.
+
+## Data enrichment
+- **Thin brands (Havells, Polycab)** carry only name + image + URL. Raw HTML page dumps exist locally at `Products/{havells_output,polycab_output}/debug_html/` (gitignored) — a future scraper pass can extract specs, variants, and model numbers from them.
+- **Polycab scrape is capped at 12 products per category** — near-uniform counts prove it's partial. Re-scrape for the full range.
+- **Philips option keys are case-fragmented** in the source (`Watt`/`Wattage`/`wattage`). The ETL folds them; the underlying scrape should be cleaned.
+- **Structured specs**: only Philips carries any (`<table>` in `body_html`, ~10–18% of products). No brand has a features list or PDF/document links.
+
+## Catalogue expansion
+- **Parked categories** (`_parked.json`): Appliances, Pumps, Water Heating, Kitchen — ~400 Crompton items, already normalized. Publish by adding to `PUBLISHED` in `taxonomy.js` + a category card. Only Crompton stocks them today.
+- **Electrical category** (switches, sockets, MCB, wiring) — in the brief's mega-menu example, no data yet.
+- **"Shop by Need"** discovery section (Cooling / Lighting / Home Electrical / Commercial / Industrial) — build once the catalogue spans enough categories to make it meaningful.
+
+## Commerce
+- **Prices** are normalized and stored but not rendered (decision D4). A single flag flips them on when Voltex has its own pricing.
+- **Enquiry submission** is not wired to a backend — `/enquiry` and `/contact` are previews. Needs a form endpoint / email integration.
+- Accounts, real cart, checkout — not in scope.
+
+## Brand assets
+- **Brand logos** — none in the repo; `<BrandMark/>` uses tinted wordmark chips. Drop real logos into `public/brands/<slug>.svg` and set `brand.logo` — the component upgrades with no layout change.
+
+## Platform
+- **Deploy** — `vercel.json`, `robots.txt`, custom domain + DNS. Phase 8 stub only.
+- **OG image** — meta tags exist, no image asset.
+- **Sitemap** — none.

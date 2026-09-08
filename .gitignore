@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Scraper page-dump cache — not source data; CSVs in the same folder are the input.
+Products/*/debug_html/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
