@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { getCategoryCounts, getSubcategories } from "../data/products.js";
+import {
+  getCategoryCounts,
+  getDerivedSubcategories,
+  getSubcategories,
+} from "../data/products.js";
 import {
   PUBLISHED,
   categoryPath,
@@ -21,7 +25,11 @@ const categoryCounts = getCategoryCounts();
 const categoryTree = PUBLISHED.map((category) => ({
   name: category,
   count: categoryCounts[category] ?? 0,
-  subs: orderedSubcategories(category, getSubcategories(category)),
+  subs: orderedSubcategories(
+    category,
+    getSubcategories(category),
+    getDerivedSubcategories(category),
+  ),
 }));
 
 const COMPANY = [

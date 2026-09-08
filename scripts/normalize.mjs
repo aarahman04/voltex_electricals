@@ -279,6 +279,15 @@ function adaptB(brand, report) {
       record.category = mapped[0];
       record.subcategory = mapped[1];
       record.rawSubcategory = type;
+      // Philips files its COB downlights under product_type "Ceiling light",
+      // so TYPE_MAP buried ~17 of them in Ceiling Lights. The brand's own
+      // handles and category tags say COB; trust those. Checked here rather
+      // than in the shared pass below because `Categories_*` tags are stripped
+      // out of the record a few lines up. Scoped to Ceiling Lights so a smart
+      // COB stays in Smart Lighting, where it belongs.
+      if (record.subcategory === "Ceiling Lights" && isCob(record.id, p.tags)) {
+        record.subcategory = "COB LED";
+      }
       published.push(record);
     } else {
       record.category = "Parked";
@@ -333,6 +342,52 @@ function adaptC(brand, report) {
   return { published, parked: [] };
 }
 
+/* --------------------------------------------------- derived classification */
+
+// A COB downlight, by the brand's own handle or category tag. Takes raw tags
+// because the record's tags have already had `Categories_*` stripped.
+function isCob(handle, rawTags = []) {
+  return (
+    /led-cob|-cob$/.test(handle ?? "") ||
+    rawTags.some((t) => /^(categories_cob light|cob-lights)$/i.test(t))
+  );
+}
+
+// Runs on every adapter's output, before dedupe, so one rule covers all three
+// schemas. Relabels only — it never creates, drops or moves a row between the
+// published and parked sets, so the totals are invariant across this pass.
+function reclassify(published) {
+  for (const p of published) {
+    // Orient sells four "Backlit / Backlite … Recess Panel" models that landed
+    // in Panel Lights. Product_Catalog.md lists Backlight as a sibling of
+    // Panel, not a child. Matching backlit|backlite and NOT backlight is
+    // deliberate: /backlight/i would drag in Philips' "TV Backlight Strip",
+    // which is a TV bias light and correctly Smart Lighting.
+    if (p.category === "Lighting" && /backlit|backlite/i.test(p.title)) {
+      p.subcategory = "Backlight";
+    }
+
+    // Two attributes on fans, not two subcategories. A metal wall fan is a
+    // Wall Fan that happens to be metal — it has to stay findable under Wall
+    // Fans and also appear under Metal Fans. Written into every variant's
+    // options so getFacets/hasOptionValue pick them up with no new plumbing;
+    // VariantSelector skips any key with a single value, so they don't show
+    // up as a fake choice on the product page.
+    if (p.category !== "Fans") continue;
+    const haystack = `${p.title} ${(p.tags ?? []).join(" ")}`;
+    const derived = {};
+    // Scoped to Fans so Havells' "LTS Metallique Metal Torch" — a light —
+    // and Crompton's Cromdeco metal pendants can't leak in.
+    if (/\bmetal(lic|lique|lion)?\b/i.test(p.title)) derived.Build = "Metal";
+    if (/semi[-\s]?industrial|industrial/i.test(haystack)) {
+      derived.Duty = "Industrial";
+    }
+    if (Object.keys(derived).length === 0) continue;
+    for (const v of p.variants ?? []) Object.assign(v.options, derived);
+  }
+  return published;
+}
+
 /* ------------------------------------------------------------------ run */
 
 rmSync(OUT, { recursive: true, force: true });
@@ -347,6 +402,7 @@ let publishedTotal = 0;
 for (const brand of BRANDS) {
   const adapt = brand.schema === "A" ? adaptA : brand.schema === "B" ? adaptB : adaptC;
   const { published, parked } = adapt(brand, report);
+  reclassify(published);
 
   // Dedupe by uid — scraped CSVs list some products in more than one section.
   const unique = [];

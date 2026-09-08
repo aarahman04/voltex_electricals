@@ -2753,7 +2753,8 @@
   "variants": [
    {
     "options": {
-     "Color": "Grey"
+     "Color": "Grey",
+     "Duty": "Industrial"
     },
     "sku": "EXHD380-4-1-ALPHA",
     "price": 6249
@@ -2790,7 +2791,8 @@
   "variants": [
    {
     "options": {
-     "Color": "Grey"
+     "Color": "Grey",
+     "Duty": "Industrial"
     },
     "sku": "EXHD600-6-1",
     "price": 15499

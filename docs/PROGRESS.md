@@ -16,7 +16,7 @@ Current work, in order — one commit per phase:
 |---|---|---|
 | 0 | Deploy 404 — `vercel.json` SPA rewrite, `robots.txt`, encoded category paths | ✅ done |
 | A | Mobile menu portal, hero lamp, lockup, structural motif, KelvinBar bulb | ✅ done |
-| B | Taxonomy — Backlight, Philips COB, derived Metal/Industrial Fans | ⬜ |
+| B | Taxonomy — Backlight, Philips COB, derived Metal/Industrial Fans | ✅ done |
 | C | Brand logos into `public/brands/` | ⬜ |
 | D | Verify, docs, PR to `main` | ⬜ |
 
@@ -35,6 +35,21 @@ The 404 is only reproducible on a real deploy — `vite preview` already rewrite
 - **A3** `.led[data-live]` on stocked brands (`/brands`, `BrandRail`), `.module[data-active]` on the mega-menu, sort `<select>` replaced with a segmented switch, lighting cards glow in their own tone, tone-swatch bloom unified across `FilterPanel` and `VariantSelector`, search fields share one focus treatment.
 - **A4** the KelvinBar bulb.
 - Housekeeping: favicon replaced (was Vite's purple bolt), `public/icons.svg` deleted, `--tone-*` tokens dropped — `kelvin.js` is the single source.
+
+**Phase B — what shipped.** `reclassify()` in `scripts/normalize.mjs` (runs per brand, after the adapter, before dedupe), `DERIVED` + `derivedTile()` in `taxonomy.js`, `getProductsByDerived()` + `getDerivedSubcategories()` + a Build/Duty facet in `products.js`, one conditional in `CategoryListing`.
+
+Counts after `npm run data:build`, all confirmed against `report.md`:
+
+| | before | after |
+|---|---|---|
+| Lighting / Backlight | 0 (coming soon) | **4** (orient) |
+| Lighting / Panel Lights | 21 | **17** |
+| Lighting / COB LED | 16 | **42** (philips 17 + crompton 9 joined havells 4 + polycab 12) |
+| Fans / Metal Fans | 0 (coming soon) | **9**, derived |
+| Fans / Industrial Fans | 0 (coming soon) | **5**, derived |
+| **Published / parked** | 1,438 / 412 | **1,438 / 412** |
+
+COB came out higher than the plan's ~26 because Crompton had the same misfile as Philips — nine "…Led COB" models typed `Ceiling Lights`. Spot-checks pass: the Polycab *Aerobliss Metal Wall Fan* is still under Wall Fans (43 models) **and** under Metal Fans; Philips' *TV Backlight Strip* stayed in Smart Lighting; no Build/Duty option leaked onto a non-fan. `COMING_SOON` is now just `Lighting: ["Elevation LED"]`.
 
 **Not yet verified visually.** The Chrome extension was offline again this session, so the 360/768/1440 pass and the keyboard/reduced-motion checks in Phase D still need a human or a working browser tool.
 

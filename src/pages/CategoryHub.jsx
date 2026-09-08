@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
   getBrandsForCategory,
+  getDerivedSubcategories,
   getProductsByCategory,
   getSubcategories,
 } from "../data/products.js";
@@ -24,7 +25,11 @@ export default function CategoryHub() {
     const items = getProductsByCategory(category);
     return {
       items,
-      subs: orderedSubcategories(category, getSubcategories(category)),
+      subs: orderedSubcategories(
+        category,
+        getSubcategories(category),
+        getDerivedSubcategories(category),
+      ),
       brands: getBrandsForCategory(category).filter((b) => b.status === "stocked"),
     };
   }, [category]);

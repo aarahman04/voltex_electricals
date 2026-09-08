@@ -4,6 +4,18 @@ Append-only. Newest first. Each entry: the choice, the reason, and what it rules
 
 ---
 
+## 2026-09-09 — Taxonomy (Phase B)
+
+### D20 — Metal Fans and Industrial Fans are attributes, not subcategories
+`DERIVED` in `taxonomy.js` + `Build`/`Duty` variant options derived in the ETL + one conditional in `CategoryListing`. They render as ordinary live tiles on `/c/Fans`.
+**Why:** no brand files a "Metal Fans" product type. The nine fans whose names say metal are already correctly Wall, Exhaust, Ceiling and Pedestal fans — as a subcategory the product would have to pick one, and a metal wall fan would vanish from Wall Fans. As an attribute it appears in both, counted once in each. Costs no new route, no new breadcrumb and no change to the shared `<Listing>`. **Rules out:** ever writing "Metal Fans" into `subcategory`; the tiles' own facet is hidden on their page, since you're already standing in it.
+
+### D21 — Backlight and COB promoted in the ETL, Elevation LED left alone
+`reclassify()` promotes 4 Orient "Backlit/Backlite … Recess Panel" models out of Panel Lights; a schema-B rule moves 26 COB downlights out of Ceiling Lights.
+**Why:** all three read "Coming soon" while their products sat under other labels — the site was hiding stock it has. `Product_Catalog.md` §1.1 lists Backlight as a sibling of Panel, and Philips/Crompton file COB downlights under `product_type: "Ceiling light"` while their own handles and tags say COB. Elevation LED stays "Coming soon" because it genuinely has zero data — honest, and the tile still shows intended breadth (D7). **Rules out:** matching `/backlight/i`, which would drag in Philips' TV Backlight Strip (a TV bias light, correctly Smart Lighting); and touching parked rows — promotions relabel only, so totals stay 1,438/412.
+
+---
+
 ## 2026-09-09 — Lamp, lockup, motif (Phase A)
 
 ### D19 — The motif marks state, and light is one of the states

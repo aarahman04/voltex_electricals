@@ -62,9 +62,26 @@ export const SUBCATEGORY_ORDER = {
 // yet. They render as dimmed "Coming soon" tiles — the site shows its
 // intended breadth rather than hiding it (decision D7).
 export const COMING_SOON = {
-  Fans: ["Industrial Fans", "Metal Fans"],
-  Lighting: ["Backlight", "Elevation LED"],
+  Fans: [],
+  Lighting: ["Elevation LED"],
 };
+
+// Tiles backed by an attribute rather than a subcategory. A metal wall fan is
+// a Wall Fan that happens to be metal — it stays under Wall Fans and also
+// appears here, so these can't be subcategories without the product having to
+// pick one. `facet` is the variant-option key the ETL derives (see
+// scripts/normalize.mjs); CategoryListing filters on it instead of on
+// subcategory when the URL names one of these.
+export const DERIVED = {
+  Fans: [
+    { name: "Metal Fans", facet: "Build", value: "Metal" },
+    { name: "Industrial Fans", facet: "Duty", value: "Industrial" },
+  ],
+};
+
+export function derivedTile(category, name) {
+  return (DERIVED[category] ?? []).find((d) => d.name === name) ?? null;
+}
 
 // raw (lower-cased, trimmed) -> canonical. Superset of the ETL's map.
 const ALIASES = {
@@ -119,13 +136,15 @@ export function canonicalSubcategory(raw) {
 // Merge the data-backed subcategories (from products.getSubcategories) with
 // the canonical order and the coming-soon placeholders. Returns the list the
 // subcategory chooser renders, in display order.
-export function orderedSubcategories(category, dataSubs = []) {
+export function orderedSubcategories(category, dataSubs = [], derivedSubs = []) {
   const order = SUBCATEGORY_ORDER[category] ?? [];
   const rank = (name) => {
     const i = order.indexOf(name);
     return i === -1 ? order.length + 1 : i;
   };
-  const present = [...dataSubs].sort(
+  // Derived tiles sit in their existing SUBCATEGORY_ORDER positions, so
+  // nothing moves on screen when a "Coming soon" tile becomes a live one.
+  const present = [...dataSubs, ...derivedSubs].sort(
     (a, b) => rank(a.name) - rank(b.name) || a.name.localeCompare(b.name),
   );
   const presentNames = new Set(present.map((s) => s.name));
