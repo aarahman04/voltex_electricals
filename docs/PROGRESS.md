@@ -2,13 +2,28 @@
 
 **This is the handoff file.** A new session resumes by reading this top-to-bottom.
 
-- **Branch:** `ui-mobile-search-geysers` (forked from `main`, post-PR#3/#4) — once merged, work from **`main`** again.
+- **Branch:** `perf-images-and-motion` (forked from `main`, post-PR#5) — once merged, work from **`main`** again.
 - **Live site:** https://voltex-electricals-psi.vercel.app
-- **Plan:** `~/.claude/plans/okay-so-now-we-quizzical-parrot.md` — mobile viewport fix, search-on-every-page, Water Geysers category, category-agnostic copy.
+- **Plan:** none written for this pass — small, well-scoped fix requested mid-conversation; see entry below.
 - **Brief:** `website_redesign_prompt.md` (the client requirements)
-- **Plans (historical):** `~/.claude/plans/velvet-baking-lollipop.md` (Phase 0 + A–D), `~/.claude/plans/pr-2-merged-one-synthetic-hinton.md` (A–D file:line detail)
+- **Plans (historical):** `~/.claude/plans/okay-so-now-we-quizzical-parrot.md` (mobile viewport + search + Water Geysers), `~/.claude/plans/velvet-baking-lollipop.md` (Phase 0 + A–D), `~/.claude/plans/pr-2-merged-one-synthetic-hinton.md` (A–D file:line detail)
 
 > **Branch trap.** GitHub's *default* branch is `multi-brand-catalog`, which is far behind. Real work merges to **`main`**, and Vercel's production branch is `main`. Always pass `--base main` to `gh pr create` — it guesses wrong otherwise.
+
+## Latest (2026-09-12, later) — product gallery latency, route/nav motion
+
+**What and why.** Client reported the product-image swipe taking 4-5 seconds per image and the site generally feeling static — page navigation and lazy-loaded routes had no transition, so waits read as the page stalling rather than working.
+
+- **Gallery swipe latency — root cause.** The active gallery image only started its network request when it *became* active (`cdnImage(images[activeImage], 1000)` inside the rendered `<img>`), so every swipe paid for a fresh Shopify CDN request + resize before anything appeared. Fixed with `usePreloadNeighbors()` in `ProductDetail.jsx` — warms the browser's own cache for the next and previous frame (the two a swipe can actually land on) as a side effect whenever the active image changes, via a plain `new Image().src`. By the time a swipe lands on that frame, the request is already in flight or finished.
+- **`cdnImage()` now requests WebP and a device-pixel-ratio-aware width** (`src/lib/image.js`) instead of a bare `width=`. Shopify's CDN auto-negotiates format from the browser's own `Accept` header — real `<img>` tags get WebP for free (confirmed ~40% smaller: 76,508 → 46,662 bytes on a sample product photo at the same width); `curl` without an explicit `Accept: image/webp` header doesn't, which is a testing quirk, not a real-world gap. DPR-aware width means a 2x phone screen doesn't get a soft, upscaled 1x image.
+- **Gallery transition tightened**: `mode="popLayout"` (was `"wait"`) so the incoming frame starts sliding in immediately rather than waiting for the outgoing one to finish fading out first, plus a direction-aware slide (`custom={direction}`, ±40px on the axis of the swipe) instead of a plain cross-fade — reads as a swipe, not a flicker. `fetchpriority="high"` added to the active image.
+- **Route navigation now has a fade-up entrance** (`App.jsx`, `motion.div` keyed on `location.pathname`, 220ms) instead of the previous page's content just snapping to the next. No exit animation deliberately — with lazy-loaded route chunks, waiting for the outgoing page to finish leaving before the next one can even start loading would make navigation feel *slower*, the opposite of the ask.
+- **Suspense fallback replaced** — a blank `min-h-[60vh]` div during a lazy chunk's first load (only happens once per chunk, then it's cached) is now a thin amber sweep bar (`RouteLoading` in `App.jsx`), so a chunk load reads as "loading" rather than "nothing happened."
+- Header hamburger drawer, mega-menu, search overlay, mobile filter sheet and the product grid were already animated (checked, not touched) — the "everything should animate" ask was already met there; the actual gaps were the gallery and route changes.
+
+**Verified:** `npm run lint` and `npm run build` clean. Headless-Chromium smoke test (home → product detail → products → category → 404) — zero console/page errors. Screenshot of the product gallery confirms it renders and the 1/2 counter and swipe controls are intact. WebP negotiation confirmed manually with `curl -H "Accept: image/webp"` against a live Shopify CDN URL from the catalogue.
+
+**Not done, flagged for later:** the product-data JS chunk is 2.4 MB (375 KB gzipped) and loads on every route, since `products.js` is imported everywhere — this is the other real lever on load speed but is a data-layer/code-splitting change, out of scope for this pass (already tracked as a `roadmap.md` item). Havells/Polycab images come straight from their own CDNs with no resize API, but sampled at 5-10 KB already, so they weren't the bottleneck. No real iPhone/Safari test of the swipe feel (no device or Chrome extension this session) — the preload fix is structural and should hold regardless of device, but a real-phone spot-check is still worth doing.
 
 ## Latest (2026-09-12) — mobile viewport, search everywhere, Water Geysers
 

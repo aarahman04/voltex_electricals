@@ -230,18 +230,48 @@ function ProductRow({ title, items }) {
   );
 }
 
+// The full-res image at cdnImage's 1000px target only starts downloading
+// when it becomes the active slide, so every swipe used to pay for a fresh
+// request. Warming the browser's own cache for the neighbours — the two
+// frames a swipe or arrow-click can actually land on — means that request
+// is already in flight (usually already finished) by the time it's needed.
+function usePreloadNeighbors(images, activeImage) {
+  useEffect(() => {
+    if (images.length < 2) return;
+    for (const offset of [1, -1]) {
+      const i = (activeImage + offset + images.length) % images.length;
+      const img = new Image();
+      img.src = cdnImage(images[i], 1000);
+    }
+  }, [images, activeImage]);
+}
+
 function Gallery({ images, activeImage, setActiveImage, title }) {
-  const step = (delta) =>
+  // Direction drives which side the incoming frame slides in from — a
+  // swipe right should feel like it's pulling the next photo in from the
+  // right, not just cross-fading in place.
+  const [direction, setDirection] = useState(1);
+  const step = (delta) => {
+    setDirection(delta);
     setActiveImage((i) => (i + delta + images.length) % images.length);
+  };
+
+  usePreloadNeighbors(images, activeImage);
 
   return (
     <div className="flex flex-col gap-3">
       <div className="group relative aspect-square max-h-[560px] overflow-hidden rounded-[12px] border border-seam bg-surface">
-        <AnimatePresence mode="wait">
+        {/* mode="popLayout" (not "wait") so the incoming frame slides in
+            while the outgoing one is still leaving — since neighbours are
+            already preloaded, this reads as an instant swipe rather than a
+            fade-out-then-fade-in pause. */}
+        <AnimatePresence mode="popLayout" initial={false} custom={direction}>
           <motion.img
             key={images[activeImage]}
             src={cdnImage(images[activeImage], 1000)}
             alt={title}
+            fetchpriority="high"
+            decoding="async"
             drag={images.length > 1 ? "x" : false}
             dragConstraints={{ left: 0, right: 0 }}
             dragElastic={0.5}
@@ -249,10 +279,11 @@ function Gallery({ images, activeImage, setActiveImage, title }) {
               if (info.offset.x < -60) step(1);
               else if (info.offset.x > 60) step(-1);
             }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.24 }}
+            custom={direction}
+            initial={(dir) => ({ opacity: 0, x: dir * 40 })}
+            animate={{ opacity: 1, x: 0 }}
+            exit={(dir) => ({ opacity: 0, x: dir * -40 })}
+            transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
             className="h-full w-full object-contain mix-blend-multiply p-8"
           />
         </AnimatePresence>
