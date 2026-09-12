@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { getBrands, products } from "../data/products.js";
-import { PUBLISHED, categoryPath } from "../data/taxonomy.js";
+import { PUBLISHED, categoryList, categoryPath } from "../data/taxonomy.js";
 import Lockup from "./Lockup.jsx";
 
 const brands = getBrands();
@@ -16,7 +16,7 @@ export default function Footer() {
               <Lockup className="text-lg" />
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-muted">
-              A multi-brand catalogue of fans and lighting. Browse the full
+              A multi-brand catalogue of {categoryList()}. Browse the full
               range, build an enquiry list, and we quote it.
             </p>
             <Link

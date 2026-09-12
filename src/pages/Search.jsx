@@ -7,6 +7,15 @@ export default function Search() {
   const [params, setParams] = useSearchParams();
   const query = params.get("q") ?? "";
   const [draft, setDraft] = useState(query);
+  // A new search fired from elsewhere (header pill, hero) while already on
+  // this page updates the URL but not this local draft — adjust it during
+  // render (React's documented pattern) rather than in an effect, so there's
+  // no extra render pass and no risk of clobbering an in-progress edit.
+  const [syncedQuery, setSyncedQuery] = useState(query);
+  if (query !== syncedQuery) {
+    setSyncedQuery(query);
+    setDraft(query);
+  }
 
   const results = useMemo(
     () => (query.trim().length >= 2 ? searchProducts(query, 999) : []),
@@ -45,6 +54,9 @@ export default function Search() {
             placeholder="Model, brand, type — “Atomberg 1200mm”"
             className="h-12 w-full bg-transparent text-[15px] text-ink outline-none placeholder:text-ink-muted/60"
           />
+          <button type="submit" className="switch-btn shrink-0 !py-2 text-sm">
+            Search
+          </button>
         </form>
         {query.trim().length >= 2 && (
           <p className="spec mt-4 text-ink-muted">

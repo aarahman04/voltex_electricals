@@ -13,6 +13,7 @@ import {
   subcategoryPath,
 } from "../data/taxonomy.js";
 import { useEnquiry } from "../context/enquiry.js";
+import { useScrollLock } from "../lib/useScrollLock.js";
 import Lockup from "./Lockup.jsx";
 import Portal from "./Portal.jsx";
 import SearchOverlay from "./SearchOverlay.jsx";
@@ -58,18 +59,13 @@ export default function Header() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  useEffect(() => {
-    document.body.style.overflow = mobile ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [mobile]);
+  useScrollLock(mobile);
 
   return (
     <header className="sticky top-0 z-40 border-b border-seam bg-paper/90 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-6 px-5 sm:px-8">
+      <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-6 px-4 sm:px-8">
         <Link to="/" aria-label="Voltex Electricals, home">
-          <Lockup />
+          <Lockup className="text-[13px] sm:text-[17px]" />
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex">
@@ -113,18 +109,24 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="ml-auto flex items-center gap-1.5">
+        <div className="ml-auto flex items-center gap-1 sm:gap-1.5">
+          {/* An icon button on mobile (no room for a pill), a fake input on
+              md+ so search reads as present on every page, not just home —
+              it opens the same SearchOverlay rather than duplicating a field. */}
           <button
             type="button"
             onClick={() => setSearch(true)}
-            className="flex h-10 items-center gap-2 rounded-[8px] border border-seam px-3 text-sm text-ink-muted transition-colors hover:border-seam-strong hover:text-ink"
+            aria-label="Search"
+            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[8px] border border-seam text-ink-muted transition-colors hover:border-seam-strong hover:text-ink md:w-[190px] md:justify-start md:gap-2 md:px-3 md:text-sm lg:w-[240px]"
           >
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0">
               <circle cx="11" cy="11" r="7" />
               <path strokeLinecap="round" d="m20 20-3.5-3.5" />
             </svg>
-            <span className="hidden lg:inline">Search</span>
-            <kbd className="spec hidden rounded-[4px] bg-surface px-1.5 py-0.5 text-[10px] text-ink-muted ring-1 ring-seam lg:inline">
+            <span className="hidden truncate text-ink-muted/70 md:inline">
+              Search models, brands, types…
+            </span>
+            <kbd className="spec ml-auto hidden shrink-0 rounded-[4px] bg-surface px-1.5 py-0.5 text-[10px] text-ink-muted ring-1 ring-seam md:inline">
               /
             </kbd>
           </button>
@@ -203,7 +205,7 @@ function MegaMenu() {
 
   return (
     <div className="mx-auto max-w-[1400px] px-5 py-8 sm:px-8">
-      <div className="plate grid-cols-1 md:grid-cols-2">
+      <div className="plate grid-cols-1 md:grid-cols-3">
         {categoryTree.map((category) => (
           <div
             key={category.name}

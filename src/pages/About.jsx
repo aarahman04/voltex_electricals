@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { getBrands, products } from "../data/products.js";
-import { PUBLISHED } from "../data/taxonomy.js";
+import { PUBLISHED, categoryList } from "../data/taxonomy.js";
 
 const brands = getBrands();
 const stocked = brands.filter((b) => b.status === "stocked");
@@ -10,15 +10,15 @@ export default function About() {
     <div className="mx-auto max-w-[760px] px-5 py-14 sm:px-8 sm:py-20">
       <p className="spec mb-4 text-amber">About</p>
       <h1 className="nameplate text-4xl text-ink sm:text-5xl">
-        One counter for fans and light
+        One counter for everything electrical
       </h1>
 
       <div className="mt-10 flex flex-col gap-6 text-[15px] leading-relaxed text-ink-muted">
         <p>
           Voltex Electricals is a multi-brand electrical goods dealer. This site
-          is the browsing catalogue: every fan and every light we carry, laid
-          out by type, brand and specification, so you can see the whole range
-          before you ask for a price.
+          is the browsing catalogue: every {categoryList()} product we carry,
+          laid out by type, brand and specification, so you can see the whole
+          range before you ask for a price.
         </p>
         <p>
           It’s a catalogue, not a shop. There’s no cart and no checkout — you
