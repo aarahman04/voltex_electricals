@@ -4,6 +4,22 @@ Append-only. Newest first. Each entry: the choice, the reason, and what it rules
 
 ---
 
+## 2026-09-12 — Water Geysers published; mobile viewport fixes
+
+### D23 — Water Geysers published from Crompton-only data, superseding part of D5
+`PUBLISHED` gains a third category, `Water Geysers`, with subcategories Storage Water Heaters (21), Instant Water Heaters (17) and Gas Geysers (1) — all Crompton, all previously in `_parked.json` under D5. Immersion Rods (6, Crompton) stay parked: they're an accessory, not a geyser.
+**Why:** client request, ahead of a second brand carrying the category. Same Crompton-only-store risk D5 named for pumps/hobs/etc — accepted here at the client's explicit direction rather than deferred. `getFeaturedProducts` and every "Fans and Lighting"-shaped grid/copy (`Home.jsx`, `Header.jsx` mega-menu, `Footer.jsx`, `About.jsx`, `AllProducts.jsx`, `CategoryHub.jsx`) now derive from `PUBLISHED`/`taxonomy.js`'s new `categoryList()` helper instead of naming two categories, so the next category is data + copy only, not a grid-by-grid hunt. **Rules out:** publishing the rest of D5's parked Crompton appliances (pumps, hobs, coolers, etc.) — still parked, still Crompton-only, not asked for.
+
+### D24 — Mobile "zoomed out" layout traced to header overflow, not a viewport meta bug
+At ≤390px the header row (logo + search/enquiry/menu icons) was ~60px wider than the viewport with no shrink path (`whitespace-nowrap` logo, fixed-size icon buttons, no `min-width:0`), which is what forces mobile browsers to zoom the whole page out — not the `<meta viewport>` tag, which was already correct. Fixed at the source (smaller logo lockup and tighter spacing under `sm:`), not papered over with `overflow:hidden`, which would have clipped content instead of fixing the width. Added `overflow-x: clip` on `html`/`body` as a regression safety net only. Also fixed: iOS Safari's auto-zoom on any focused input under 16px (`@media (pointer: coarse)` forces 16px), and the search overlay / mobile drawer's scroll lock, which used `body{overflow:hidden}` — iOS ignores that, so the page behind a modal still panned; replaced with a `position:fixed`-at-scroll-offset lock (`src/lib/useScrollLock.js`).
+**Why:** confirmed by measuring `document.documentElement.scrollWidth` vs `innerWidth` across every route at 360/390px in headless Chromium before touching anything — every route overflowed by the same fixed amount, all traced to the header. **Rules out:** a viewport-meta fix (nothing wrong there) and a blanket `overflow-x:hidden` as the actual fix (masks symptoms, doesn't stop the zoom-out trigger on a future overflow — `clip` is the belt, the header fix is the fix).
+
+### D25 — Site search: header icon becomes an input-look pill on md+
+The header search control was an icon-only button on every screen size, so search read as a home-page-only feature (the visible field lived in the hero, not the header). It's now a wide pill with placeholder text and the `/` shortcut hint from `md` up; still an icon on mobile, where there's no room, with `aria-label="Search"`. Clicking either opens the existing `SearchOverlay` — no second input to keep in sync. `/search` also now re-syncs its draft field when the URL query changes (a new search fired while already on that page previously left the field stale) and gained an explicit Search button for mobile keyboards without a discoverable "Go" key.
+**Why:** client-reported — "search is not really everywhere... just at home". **Rules out:** a second, separately-stateful search input per page — the overlay is the one search implementation everywhere.
+
+---
+
 ## 2026-09-09 — Brand logos (Phase C)
 
 ### D22 — Real logos sit on the same tint plate as the wordmark chips

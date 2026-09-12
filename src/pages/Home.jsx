@@ -10,7 +10,7 @@ import {
   getSubcategories,
   products,
 } from "../data/products.js";
-import { PUBLISHED, categoryPath, subcategoryPath } from "../data/taxonomy.js";
+import { PUBLISHED, categoryList, categoryPath, subcategoryPath } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 import { kelvinToCss, nearestTone } from "../lib/kelvin.js";
 import { displayTitle } from "../lib/specSummary.js";
@@ -60,7 +60,7 @@ export default function Home() {
       <Hero modelCount={products.length} typeCount={typeCount} brandCount={brands.length} />
 
       <Section title="Shop by category" href="/products" hrefLabel="All products">
-        <div className="grid gap-5 md:grid-cols-2">
+        <div className="grid gap-5 md:grid-cols-3">
           {PUBLISHED.map((category) => (
             <CategoryCard key={category} category={category} />
           ))}
@@ -133,8 +133,8 @@ function Hero({ modelCount, typeCount, brandCount }) {
             One place.
           </h1>
           <p className="mt-6 max-w-md text-[15px] leading-relaxed text-ink-muted">
-            Fans and lighting from {brandCount} brands, filtered by the specs
-            that matter — sweep, wattage, finish, light tone.
+            Everything from {categoryList()} — {brandCount} brands, filtered by
+            the specs that matter — sweep, wattage, finish, light tone.
           </p>
 
           <form
@@ -158,7 +158,7 @@ function Hero({ modelCount, typeCount, brandCount }) {
             </button>
           </form>
 
-          <div className="plate power-up mt-6 grid-cols-2">
+          <div className="plate power-up mt-6 grid-cols-1 sm:grid-cols-3">
             {PUBLISHED.map((category, i) => (
               <Link
                 key={category}

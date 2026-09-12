@@ -32,6 +32,11 @@
 
 html {
   background-color: var(--color-paper);
+  /* Safety net: one overflowing element used to force the whole page wider
+     than the viewport, which mobile browsers "fix" by zooming the page out --
+     the reported symptom of blank margins and a pannable layout. `clip`, not
+     `hidden`, so the sticky header keeps working. */
+  overflow-x: clip;
 }
 
 body {
@@ -40,6 +45,18 @@ body {
   color: var(--color-ink);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+
+/* iOS Safari zooms the whole page in when a focused control's font-size is
+   under 16px -- every text input here was 15px. Coarse-pointer (touch) only,
+   so desktop keeps its smaller, denser inputs. */
+@media (pointer: coarse) {
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
 }
 
 /* -------------------------------------------------------------- type roles */

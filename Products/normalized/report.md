@@ -1,13 +1,13 @@
 # Data build report
 
-_2026-09-08T19:17:28.287Z_
+_2026-09-12T14:26:39.215Z_
 
 - Orient Electric: fans.json -> 100 products
 - Orient Electric: lighting.json -> 99 products
 - Atomberg: 61 raw -> 41 published, 20 parked
   parked types: Jars and Accessories (7), Mixer Grinder (6), Smart Locks (3), Water Purifier (1), Cold Press Juicer (1), Appliance (1), Accessories (1)
-- Crompton: 834 raw -> 446 published, 388 parked
-  parked types: Mini (43), Agricultural Pumps (40), Hobs (34), Mixers & Grinders (24), Storage Water Heaters (21), Chimneys (19), Instant Water Heaters (17), Other Cooking Appliances (17), Cooktop (16), Fabric Care Irons (13), Desert Coolers (12), 4-Inch Borewell Submersibles (11), Extension Board (10), Room Heaters (10), Blenders & Juicers (9), Cooking Appliances (8), Built In Microwaves and Ovens (8), Shallow Well Pumps (7), Air Fryer (6), Immersion Rods (6), Professional Solar (5), Personal Coolers (5), Dishwashers (5), Pressure Booster Pumps (5), Kettles (4), House Wires (4), DMB/CMB (4), Residential (3), 3-Inch Borewell Submersibles (3), Speciality Pumps (3), Chargers (2), Mosquito Racquet (2), Control Panels (2), Residential Openwell (2), Tower Coolers (2), Window Coolers (2), Power Banks (1), AC Stabilizers (1), Gas geyser (1), Circulatory In-line Pumps (1)
+- Crompton: 834 raw -> 485 published, 349 parked
+  parked types: Mini (43), Agricultural Pumps (40), Hobs (34), Mixers & Grinders (24), Chimneys (19), Other Cooking Appliances (17), Cooktop (16), Fabric Care Irons (13), Desert Coolers (12), 4-Inch Borewell Submersibles (11), Extension Board (10), Room Heaters (10), Blenders & Juicers (9), Cooking Appliances (8), Built In Microwaves and Ovens (8), Shallow Well Pumps (7), Air Fryer (6), Immersion Rods (6), Professional Solar (5), Personal Coolers (5), Dishwashers (5), Pressure Booster Pumps (5), Kettles (4), House Wires (4), DMB/CMB (4), Residential (3), 3-Inch Borewell Submersibles (3), Speciality Pumps (3), Chargers (2), Mosquito Racquet (2), Control Panels (2), Residential Openwell (2), Tower Coolers (2), Window Coolers (2), Power Banks (1), AC Stabilizers (1), Circulatory In-line Pumps (1)
 - Philips: 317 raw -> 313 published, 4 parked
   parked types: LED driver (2), (blank) (2)
 - Havells: havells_fans.csv -> 162 products (Fans)
@@ -47,9 +47,12 @@ _2026-09-08T19:17:28.287Z_
 - **Lighting / Strip & Rope Lights** — 43  (crompton 2, philips 23, havells 6, polycab 12)
 - **Lighting / Track Lights** — 22  (orient 4, philips 18)
 - **Lighting / Wall Lights** — 58  (orient 6, philips 52)
+- **Water Geysers / Gas Geysers** — 1  (crompton 1)
+- **Water Geysers / Instant Water Heaters** — 17  (crompton 17)
+- **Water Geysers / Storage Water Heaters** — 21  (crompton 21)
 
 ## Totals
 
-- Published: 1438
-- Parked: 412
+- Published: 1477
+- Parked: 373
 - duplicate uids dropped: 8

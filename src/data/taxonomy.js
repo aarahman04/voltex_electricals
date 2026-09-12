@@ -13,8 +13,18 @@
 // Categories the site actually shows. The ETL also produces a "Parked"
 // bucket (Crompton appliances, pumps, kitchen) — adding one here plus a
 // category card is all it takes to publish it. See docs/roadmap.md.
-export const PUBLISHED = ["Fans", "Lighting"];
+export const PUBLISHED = ["Fans", "Lighting", "Water Geysers"];
 export const isPublished = (category) => PUBLISHED.includes(category);
+
+// "Fans, lighting and water geysers" — for copy that used to hard-code two
+// category names. Add a category to PUBLISHED and this sentence updates
+// itself; only index.html's static <meta> tags still need a manual touch.
+export function categoryList() {
+  const names = PUBLISHED.map((c) => c.toLowerCase());
+  if (names.length <= 1) return names.join("");
+  if (names.length === 2) return names.join(" and ");
+  return `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
+}
 
 // Display order for the "Choose your …" subcategory chooser. A subcategory
 // present in the data but missing here is appended after these, in the order
@@ -56,6 +66,7 @@ export const SUBCATEGORY_ORDER = {
     "Home Art Lights",
     "Curtain & String Lights",
   ],
+  "Water Geysers": ["Storage Water Heaters", "Instant Water Heaters", "Gas Geysers"],
 };
 
 // Canonical subcategories the client carries but that have no product data
@@ -64,6 +75,7 @@ export const SUBCATEGORY_ORDER = {
 export const COMING_SOON = {
   Fans: [],
   Lighting: ["Elevation LED"],
+  "Water Geysers": [],
 };
 
 // Tiles backed by an attribute rather than a subcategory. A metal wall fan is

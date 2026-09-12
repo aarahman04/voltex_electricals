@@ -7,10 +7,10 @@ Lives in `src/data/taxonomy.js`.
 ## Published categories
 
 ```
-PUBLISHED = ["Fans", "Lighting"]
+PUBLISHED = ["Fans", "Lighting", "Water Geysers"]
 ```
 
-Everything else the ETL produces (Appliances, Pumps, Water Heating, Kitchen — all Crompton) is normalized into `_parked.json` and not shown. Adding one later = adding it to this array.
+Everything else the ETL produces (Appliances, Pumps, Kitchen, Immersion Rods — all Crompton) is normalized into `_parked.json` and not shown. Adding one later = adding it to this array.
 
 ## Canonical tree
 
@@ -38,6 +38,15 @@ Everything else the ETL produces (Appliances, Pumps, Water Heating, Kitchen — 
 | COB LED | `LED COB` (havells, polycab); crompton + philips promoted out of Ceiling Lights | yes (42) |
 | Elevation LED | — | **coming soon** |
 | _auto-adopted:_ Downlighters & Spotlights, LED Bulbs & Lamps, Lamps & Lanterns, Street & Outdoor Lights, Wall Lights, Track Lights, Curtain & String Lights, Professional & Commercial Lighting, Battens, Strip/Rope Lights | scraped, unmapped | yes |
+
+### Water Geysers
+| Canonical subcategory | Source | Data? |
+|---|---|---|
+| Storage Water Heaters | crompton | yes (21) |
+| Instant Water Heaters | crompton | yes (17) |
+| Gas Geysers | `Gas geyser` (crompton) | yes (1) |
+
+Crompton-only (decision D23) — the same single-brand risk D5 flagged for the rest of Crompton's appliance data, accepted here at the client's request. Immersion Rods (6, crompton) are deliberately **not** included; they're an accessory sold alongside a geyser, not a geyser themselves, and stay in `_parked.json`.
 
 ## Alias map (`SUBCATEGORY_ALIASES`)
 

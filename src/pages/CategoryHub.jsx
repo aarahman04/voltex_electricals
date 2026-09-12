@@ -8,6 +8,7 @@ import {
 } from "../data/products.js";
 import {
   PUBLISHED,
+  categoryList,
   categoryPath,
   isPublished,
   orderedSubcategories,
@@ -15,7 +16,7 @@ import {
 } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 
-const NOUN = { Fans: "fan", Lighting: "light" };
+const NOUN = { Fans: "fan", Lighting: "light", "Water Geysers": "geyser" };
 
 export default function CategoryHub() {
   const { category } = useParams();
@@ -39,7 +40,7 @@ export default function CategoryHub() {
       <div className="mx-auto max-w-[640px] px-5 py-28 sm:px-8">
         <h1 className="nameplate text-3xl text-ink">Category not found</h1>
         <p className="mt-3 text-ink-muted">
-          The catalogue covers {PUBLISHED.join(" and ")} for now.
+          The catalogue covers {categoryList()} for now.
         </p>
         <div className="mt-6 flex gap-3">
           {PUBLISHED.map((name) => (

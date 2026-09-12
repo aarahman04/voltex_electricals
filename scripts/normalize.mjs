@@ -45,6 +45,11 @@ const TYPE_MAP = {
   "table fans": ["Fans", "Table Fans"],
   "personal fan": ["Fans", "Table Fans"],
   "personal fans": ["Fans", "Table Fans"],
+  // --- water geysers (Crompton only for now — see decisions D5/D23;
+  // Immersion Rods deliberately left parked, they aren't geysers)
+  "storage water heaters": ["Water Geysers", "Storage Water Heaters"],
+  "instant water heaters": ["Water Geysers", "Instant Water Heaters"],
+  "gas geyser": ["Water Geysers", "Gas Geysers"],
   // --- lighting
   "ceiling light": ["Lighting", "Ceiling Lights"],
   "ceiling lights": ["Lighting", "Ceiling Lights"],
@@ -419,7 +424,8 @@ for (const brand of BRANDS) {
   for (const p of unique) (byCat[p.category] ??= []).push(p);
   mkdirSync(join(OUT, brand.slug), { recursive: true });
   for (const [cat, list] of Object.entries(byCat)) {
-    writeFileSync(join(OUT, brand.slug, `${cat.toLowerCase()}.json`), JSON.stringify(list, null, 1));
+    const filename = cat.toLowerCase().replace(/\s+/g, "-");
+    writeFileSync(join(OUT, brand.slug, `${filename}.json`), JSON.stringify(list, null, 1));
   }
   allParked.push(...parked.map((p) => ({ ...p, brand: brand.name, brandSlug: brand.slug })));
   publishedTotal += unique.length;

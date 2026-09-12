@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { getFacets, products } from "../data/products.js";
+import { categoryList } from "../data/taxonomy.js";
 import Listing from "../components/Listing.jsx";
 
 export default function AllProducts() {
@@ -14,8 +15,8 @@ export default function AllProducts() {
           <p className="spec text-ink-muted">{products.length} models</p>
         </div>
         <p className="mt-3 max-w-xl text-sm text-ink-muted">
-          Every fan and light in the catalogue, across all brands. Filter by
-          category, brand and specification.
+          Every {categoryList()} product in the catalogue, across all brands.
+          Filter by category, brand and specification.
         </p>
       </header>
 

@@ -4,12 +4,15 @@ import { useNavigate } from "react-router-dom";
 import { searchProducts } from "../data/products.js";
 import { cdnImage } from "../lib/image.js";
 import { displayTitle } from "../lib/specSummary.js";
+import { useScrollLock } from "../lib/useScrollLock.js";
 import Portal from "./Portal.jsx";
 
 export default function SearchOverlay({ open, onClose }) {
   const [query, setQuery] = useState("");
   const inputRef = useRef(null);
   const navigate = useNavigate();
+
+  useScrollLock(open);
 
   const close = () => {
     setQuery("");
@@ -32,11 +35,9 @@ export default function SearchOverlay({ open, onClose }) {
       if (e.key === "Escape") close();
     };
     window.addEventListener("keydown", onKey);
-    document.body.style.overflow = "hidden";
     return () => {
       clearTimeout(t);
       window.removeEventListener("keydown", onKey);
-      document.body.style.overflow = "";
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open]);
@@ -70,7 +71,7 @@ export default function SearchOverlay({ open, onClose }) {
               aria-hidden="true"
             />
             <motion.div
-              className="absolute inset-x-0 top-0 mx-auto max-w-2xl px-4 pt-[8vh]"
+              className="absolute inset-x-0 top-0 mx-auto max-w-2xl px-4 pt-[6dvh]"
               initial={{ y: -12 }}
               animate={{ y: 0 }}
               exit={{ y: -12 }}
@@ -99,7 +100,7 @@ export default function SearchOverlay({ open, onClose }) {
                 </form>
 
                 {query.trim().length >= 2 && (
-                  <div className="thin-scroll max-h-[52vh] overflow-y-auto">
+                  <div className="thin-scroll max-h-[52dvh] overflow-y-auto overscroll-contain">
                     {results.length === 0 ? (
                       <p className="px-5 py-8 text-sm text-ink-muted">
                         Nothing matches “{query.trim()}”. Try a brand, a model or

@@ -2,9 +2,25 @@
 
 **This is the handoff file.** A new session resumes by reading this top-to-bottom.
 
-- **Branch:** `fix-404-and-phase-a-d` (forked from `origin/main`, post-PR#2)
-- **Plan:** `~/.claude/plans/velvet-baking-lollipop.md` — Phase 0 (deploy 404) then A–D. Carries `~/.claude/plans/pr-2-merged-one-synthetic-hinton.md` for the A–D file:line detail.
+- **Branch:** `ui-mobile-search-geysers` (forked from `main`, post-PR#3/#4)
+- **Plan:** `~/.claude/plans/okay-so-now-we-quizzical-parrot.md` — mobile viewport fix, search-on-every-page, Water Geysers category, category-agnostic copy.
 - **Brief:** `website_redesign_prompt.md` (the client requirements)
+
+## Latest (2026-09-12) — mobile viewport, search everywhere, Water Geysers
+
+**What and why.** Client reported the mobile site rendering "zoomed out" with blank margins and a pannable page, search only working from the home page, and asked for a Water Geysers category from the Crompton data. See D23–D25 in `decisions.md` for the full reasoning; short version:
+
+- **Mobile zoom-out root cause found and fixed at source**: the header row (logo + search/enquiry/menu icons) was permanently ~60px wider than a 360–390px viewport with no shrink path, which is what forces mobile browsers to zoom the whole page out. Confirmed with a headless-Chromium scan of every route at 360/390/768/1280px (`document.documentElement.scrollWidth` vs `innerWidth`) before and after — all routes clean now at all four widths. Fixed: smaller logo lockup + tighter header spacing under `sm:`. Added `overflow-x: clip` on `html`/`body` as a regression safety net (not the fix itself).
+- **iOS input auto-zoom** fixed — `@media (pointer: coarse) { input,select,textarea { font-size: 16px !important } }` in `src/index.css`.
+- **Real scroll lock** — `src/lib/useScrollLock.js` (position:fixed at scroll offset) replaces the `body{overflow:hidden}` iOS ignores, used by `SearchOverlay` and the mobile drawer.
+- **Search on every page** — header search button is now a wide input-look pill with placeholder text from `md` up (still an icon on mobile); `/search` re-syncs its field when the URL query changes and gained an explicit Search button.
+- **Water Geysers published** (Crompton only: Storage 21, Instant 17, Gas 1 = 39 models; Immersion Rods intentionally left parked). `PUBLISHED` in `taxonomy.js` now has three categories; every "Fans and Lighting"-shaped grid or copy string (`Home.jsx`, `Header.jsx` mega-menu, `Footer.jsx`, `About.jsx`, `AllProducts.jsx`, `CategoryHub.jsx`) now derives from `PUBLISHED` via the new `categoryList()` helper instead of naming two categories.
+
+**Verified:** `npm run lint` and `npm run build` clean; `npm run data:build` report shows the expected Water Geysers counts and Crompton parked dropping by 39; headless-Chromium scan (360/390/768/1280px, 14 routes including the new Water Geysers ones) all `scrollWidth === innerWidth`; iPhone-13 emulation confirms `body{position:fixed}` while the search overlay is open, scroll position restored on close, and every input's computed font-size is 16px. **Not verified:** real Safari/iOS (no device or Chrome extension this session) — the headless/emulation checks above are the strongest available proxy.
+
+**Next:** merge this branch (`--base main`, not the GitHub default), then verify on the production URL the way `voltex-deploy-facts.md` describes; a real iPhone check would still be worth ten minutes if one's on hand.
+
+---
 
 ## Start here next session
 
