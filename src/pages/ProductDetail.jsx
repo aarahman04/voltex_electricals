@@ -6,7 +6,7 @@ import {
   getProductById,
   getRelatedProducts,
 } from "../data/products.js";
-import { categoryPath, subcategoryPath } from "../data/taxonomy.js";
+import { brandListingPath, categoryPath } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 import { displayTitle } from "../lib/specSummary.js";
 import { useEnquiry } from "../context/enquiry.js";
@@ -105,7 +105,7 @@ function ProductDetailView({ product }) {
           <>
             <span aria-hidden="true">/</span>
             <Link
-              to={subcategoryPath(product.category, product.subcategory)}
+              to={brandListingPath(product.category, product.brandSlug)}
               className="transition-colors hover:text-amber"
             >
               {product.subcategory}

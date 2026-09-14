@@ -132,9 +132,6 @@ a:focus-visible .lockup-sub {
   background: #fffdfa;
   box-shadow: inset 0 0 0 1px var(--color-seam-strong);
 }
-.module[data-coming-soon] {
-  background: #f1f0ec;
-}
 /* The module you are currently inside: switched on, with the amber running up
    its leading edge. Marks position in the catalogue, nothing else. */
 .module[data-active] {
@@ -143,7 +140,9 @@ a:focus-visible .lockup-sub {
 }
 
 /* The indicator LED. Off by default; amber with a soft bloom when the
-   module is hovered, active, or explicitly lit (data-on). */
+   module is hovered, active, explicitly lit (data-on), or its .led-row is
+   hovered/focused — for a row that carries its own link rather than being
+   a clickable module itself (the mega-menu category head). */
 .led {
   width: 8px;
   height: 8px;
@@ -155,6 +154,8 @@ a:focus-visible .lockup-sub {
 }
 .module[data-interactive]:hover .led,
 .module[data-active] .led,
+.led-row:hover .led,
+.led-row:focus-within .led,
 .led[data-on] {
   background: var(--color-amber);
   box-shadow: 0 0 8px 1px color-mix(in srgb, var(--color-amber) 55%, transparent);
@@ -177,7 +178,7 @@ a:focus-visible .lockup-sub {
     box-shadow: 0 0 8px 1px color-mix(in srgb, var(--color-amber) 55%, transparent);
   }
 }
-.power-up .module:not([data-coming-soon]) .led,
+.power-up .module .led,
 .power-up > .led {
   animation: power-up 0.28s ease forwards;
   animation-delay: calc(var(--i, 0) * 60ms);
@@ -368,7 +369,7 @@ input[type="range"]:active::-webkit-slider-thumb {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-  .power-up .module:not([data-coming-soon]) .led,
+  .power-up .module .led,
   .power-up > .led {
     background: var(--color-amber);
     box-shadow: 0 0 8px 1px color-mix(in srgb, var(--color-amber) 55%, transparent);

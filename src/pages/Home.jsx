@@ -10,7 +10,7 @@ import {
   getSubcategories,
   products,
 } from "../data/products.js";
-import { PUBLISHED, categoryList, categoryPath, subcategoryPath } from "../data/taxonomy.js";
+import { PUBLISHED, categoryList, categoryPath } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 import { kelvinToCss, nearestTone } from "../lib/kelvin.js";
 import { displayTitle } from "../lib/specSummary.js";
@@ -18,7 +18,6 @@ import KelvinBar from "../components/KelvinBar.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 
 const brands = getBrands();
-const stocked = brands.filter((b) => b.status === "stocked");
 const featured = getFeaturedProducts(8);
 const hero = getHeroFeature();
 
@@ -39,12 +38,12 @@ const NEEDS = [
   },
   {
     label: "Everyday lighting",
-    to: subcategoryPath("Lighting", "LED Bulbs & Lamps"),
+    to: "/search?q=led+bulb",
     hint: "Bulbs, battens & panels",
   },
   {
     label: "Commercial & outdoor",
-    to: subcategoryPath("Lighting", "Street & Outdoor Lights"),
+    to: "/search?q=outdoor",
     hint: "Street, flood & high-bay",
   },
 ];
@@ -77,7 +76,7 @@ export default function Home() {
 
       <Section title="Explore by brand" href="/brands" hrefLabel="All brands">
         <div className="flex flex-wrap gap-2.5">
-          {stocked.map((b) => (
+          {brands.map((b) => (
             <Link
               key={b.slug}
               to={`/brand/${b.slug}`}
@@ -158,15 +157,15 @@ function Hero({ modelCount, typeCount, brandCount }) {
             </button>
           </form>
 
-          <div className="plate power-up mt-6 grid-cols-1 sm:grid-cols-3">
-            {PUBLISHED.map((category, i) => (
+          <div className="plate mt-6 grid-cols-1 sm:grid-cols-3">
+            {PUBLISHED.map((category) => (
               <Link
                 key={category}
                 to={categoryPath(category)}
                 data-interactive
                 className="module group flex items-center gap-3 p-5"
               >
-                <span className="led" style={{ "--i": i }} />
+                <span className="led" />
                 <span className="flex-1">
                   <span className="nameplate block text-lg text-ink">
                     {category}
@@ -242,9 +241,7 @@ function Section({ title, href, hrefLabel, children }) {
 function CategoryCard({ category }) {
   const items = getProductsByCategory(category);
   const types = getSubcategories(category).length;
-  const brandCount = getBrandsForCategory(category).filter(
-    (b) => b.status === "stocked",
-  ).length;
+  const brandCount = getBrandsForCategory(category).length;
   const image = getCategoryFeature(category).image;
 
   return (
@@ -305,7 +302,7 @@ function WhyVoltex() {
   const points = [
     {
       title: "Many brands, one catalogue",
-      body: `${stocked.length} brands side by side — compare a Havells ceiling fan and an Atomberg one on the same page.`,
+      body: `${brands.length} brands side by side — compare a Havells ceiling fan and an Atomberg one on the same page.`,
     },
     {
       title: "No guesswork",
