@@ -1306,43 +1306,6 @@
   "rawSubcategory": "Professional Industry"
  },
  {
-  "id": "professional-lighting-trendz",
-  "title": "Trendz",
-  "vendor": "Crompton",
-  "tags": [
-   "Edu Auditoriums",
-   "Linear",
-   "product-indoor",
-   "product-linears"
-  ],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/Indoor_Trendz-ProductImage.webp?v=1787052891",
-   "gallery": [
-    "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/Indoor_Trendz-ProductImage.webp?v=1787052891",
-    "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/Indoor_Trendz-ApplicationImage.webp?v=1787052891",
-    "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PDP_Indoor-Trend1.webp?v=1787052892",
-    "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PDP_Indoor-Trend2_db49e7a6-5441-4e04-bf88-79de037d7409.webp?v=1787052892",
-    "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PDP_Indoor-Trend3_40272491-f0d2-4394-a283-2897464cbcac.webp?v=1787052892"
-   ]
-  },
-  "sourceUrl": "https://crompton.com/products/professional-lighting-trendz",
-  "description": "TRENDZ is a sleek suspended/recessed linear light designed for modern spaces. Available in various lengths, efficacies, and CCT options. It offers flexibility with standalone or continuous variants and an optional prismatic diffuser for added comfort",
-  "specs": [],
-  "quality": "rich",
-  "category": "Lighting",
-  "subcategory": "Professional & Commercial Lighting",
-  "rawSubcategory": "Professional Indoor Commercial"
- },
- {
   "id": "professional-lighting-decopole",
   "title": "Decopole",
   "vendor": "Crompton",
