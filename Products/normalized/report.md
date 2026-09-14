@@ -1,6 +1,6 @@
 # Data build report
 
-_2026-09-14T13:53:52.243Z_
+_2026-09-14T14:26:03.044Z_
 
 - Orient Electric: fans.json -> 100 products
 - Orient Electric: lighting.json -> 99 products
@@ -56,3 +56,4 @@ _2026-09-14T13:53:52.243Z_
 - Published: 1475
 - Parked: 373
 - duplicate uids dropped: 8
+- curated out: 0
