@@ -1,37 +1,5 @@
 [
  {
-  "id": "fluero-mini",
-  "title": "Fluero Mini",
-  "vendor": "Atomberg",
-  "tags": [
-   "Personal Fan"
-  ],
-  "priceMin": 2900,
-  "priceMax": 2900,
-  "variants": [
-   {
-    "options": {
-     "Color": "Snow White"
-    },
-    "sku": "FG1435",
-    "price": 2900
-   }
-  ],
-  "images": {
-   "primary": "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/Fluero_Mini_Fan_PLIs_1.jpg?v=1787750770",
-   "gallery": [
-    "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/Fluero_Mini_Fan_PLIs_1.jpg?v=1787750770"
-   ]
-  },
-  "sourceUrl": "https://atomberg.com/products/fluero-mini",
-  "description": "A tomberg Fluero Mini | 145 mm BLDC Personal Fan | 4000mAh Battery | 15 Hours runtime | Rechargeable | Type-C charging | Silent fan | Home, Office | 5W | 2 Yrs Warranty | Snow White",
-  "specs": [],
-  "quality": "rich",
-  "category": "Fans",
-  "subcategory": "Table Fans",
-  "rawSubcategory": "Personal Fan"
- },
- {
   "id": "erica-artesta-ceiling-fan",
   "title": "Erica Artesta Ceiling Fan",
   "vendor": "Atomberg",

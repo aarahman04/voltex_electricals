@@ -1,12 +1,12 @@
 # Data build report
 
-_2026-09-12T14:26:39.215Z_
+_2026-09-14T13:53:52.243Z_
 
 - Orient Electric: fans.json -> 100 products
 - Orient Electric: lighting.json -> 99 products
-- Atomberg: 61 raw -> 41 published, 20 parked
+- Atomberg: 60 raw -> 40 published, 20 parked
   parked types: Jars and Accessories (7), Mixer Grinder (6), Smart Locks (3), Water Purifier (1), Cold Press Juicer (1), Appliance (1), Accessories (1)
-- Crompton: 834 raw -> 485 published, 349 parked
+- Crompton: 833 raw -> 484 published, 349 parked
   parked types: Mini (43), Agricultural Pumps (40), Hobs (34), Mixers & Grinders (24), Chimneys (19), Other Cooking Appliances (17), Cooktop (16), Fabric Care Irons (13), Desert Coolers (12), 4-Inch Borewell Submersibles (11), Extension Board (10), Room Heaters (10), Blenders & Juicers (9), Cooking Appliances (8), Built In Microwaves and Ovens (8), Shallow Well Pumps (7), Air Fryer (6), Immersion Rods (6), Professional Solar (5), Personal Coolers (5), Dishwashers (5), Pressure Booster Pumps (5), Kettles (4), House Wires (4), DMB/CMB (4), Residential (3), 3-Inch Borewell Submersibles (3), Speciality Pumps (3), Chargers (2), Mosquito Racquet (2), Control Panels (2), Residential Openwell (2), Tower Coolers (2), Window Coolers (2), Power Banks (1), AC Stabilizers (1), Circulatory In-line Pumps (1)
 - Philips: 317 raw -> 313 published, 4 parked
   parked types: LED driver (2), (blank) (2)
@@ -25,7 +25,7 @@ _2026-09-12T14:26:39.215Z_
 - **Fans / Farrata Fans** — 6  (polycab 6)
 - **Fans / Kitchen Fans** — 4  (orient 4)
 - **Fans / Pedestal Fans** — 51  (orient 12, atomberg 2, crompton 7, havells 18, polycab 12)
-- **Fans / Table Fans** — 48  (orient 20, atomberg 2, crompton 7, havells 8, polycab 11)
+- **Fans / Table Fans** — 47  (orient 20, atomberg 1, crompton 7, havells 8, polycab 11)
 - **Fans / Tower Fans** — 1  (orient 1)
 - **Fans / Wall Fans** — 43  (orient 6, atomberg 3, crompton 7, havells 15, polycab 12)
 - **Lighting / Backlight** — 4  (orient 4)
@@ -41,7 +41,7 @@ _2026-09-12T14:26:39.215Z_
 - **Lighting / Panel Lights** — 17  (orient 5, polycab 12)
 - **Lighting / Pendant Lights** — 25  (philips 25)
 - **Lighting / Portable Lighting** — 30  (crompton 7, philips 7, havells 16)
-- **Lighting / Professional & Commercial Lighting** — 81  (orient 33, crompton 48)
+- **Lighting / Professional & Commercial Lighting** — 80  (orient 33, crompton 47)
 - **Lighting / Smart Lighting** — 24  (crompton 1, philips 17, havells 6)
 - **Lighting / Street & Outdoor Lights** — 164  (orient 9, crompton 104, philips 29, havells 10, polycab 12)
 - **Lighting / Strip & Rope Lights** — 43  (crompton 2, philips 23, havells 6, polycab 12)
@@ -53,6 +53,6 @@ _2026-09-12T14:26:39.215Z_
 
 ## Totals
 
-- Published: 1477
+- Published: 1475
 - Parked: 373
 - duplicate uids dropped: 8
