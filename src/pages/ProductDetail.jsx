@@ -1,39 +1,43 @@
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link, useParams } from "react-router-dom";
-import { getProductById, getRelatedProducts } from "../data/products.js";
+import {
+  getMoreFromBrand,
+  getProductById,
+  getRelatedProducts,
+} from "../data/products.js";
+import { categoryPath, subcategoryPath } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 import { displayTitle } from "../lib/specSummary.js";
-import { useShopNotice } from "../context/shopNotice.js";
+import { useEnquiry } from "../context/enquiry.js";
+import BrandMark from "../components/BrandMark.jsx";
 import VariantSelector from "../components/VariantSelector.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 
 export default function ProductDetail() {
-  const { id } = useParams();
-  const product = getProductById(id);
+  const { uid } = useParams();
+  const product = getProductById(uid);
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
-  }, [id]);
+  }, [uid]);
 
   if (!product) {
     return (
-      <div className="mx-auto max-w-[1400px] px-5 py-32 sm:px-8">
-        <h1 className="nameplate text-3xl text-ivory">Model not found</h1>
-        <p className="mt-3 text-muted">
-          This model is not in the catalogue.
-        </p>
+      <div className="mx-auto max-w-[640px] px-5 py-32 sm:px-8">
+        <h1 className="nameplate text-3xl text-ink">Model not found</h1>
+        <p className="mt-3 text-ink-muted">This model isn’t in the catalogue.</p>
         <Link
-          to="/"
-          className="spec mt-6 inline-block border-b border-filament/50 pb-0.5 text-filament"
+          to="/products"
+          className="spec mt-6 inline-block border-b border-amber/50 pb-0.5 text-amber"
         >
-          Back to catalogue
+          Browse all products →
         </Link>
       </div>
     );
   }
 
-  return <ProductDetailView key={product.id} product={product} />;
+  return <ProductDetailView key={product.uid} product={product} />;
 }
 
 function ProductDetailView({ product }) {
@@ -59,10 +63,6 @@ function ProductDetailView({ product }) {
   const handleSelect = (key, value) => {
     const next = { ...selected, [key]: value };
     setSelected(next);
-
-    // Display-only: infer a variant's photo by mapping its position in the
-    // variant list onto the gallery, when the gallery is long enough for
-    // that to mean anything.
     const variantIndex = product.variants.findIndex((v) =>
       Object.entries(next).every(([k, val]) => v.options?.[k] === val),
     );
@@ -71,30 +71,47 @@ function ProductDetailView({ product }) {
     }
   };
 
-  const notify = useShopNotice();
+  const { has, toggle } = useEnquiry();
+  const added = has(product.uid);
   const related = getRelatedProducts(product);
+  const more = getMoreFromBrand(product);
   const title = displayTitle(product);
-  // Drop Shopify's internal bookkeeping tags ("lable__new-arrival").
-  const tags = (product.tags ?? []).filter((tag) => !tag.includes("__"));
-  const specRows = Object.entries(selected).filter(
-    ([key, value]) => key.toLowerCase() !== "title" && value,
-  );
+  const tags = (product.tags ?? []).filter((tag) => !tag.includes("__")).slice(0, 6);
+
+  const optionRows = hasVariants
+    ? []
+    : Object.entries(selected).filter(
+        ([key, value]) => key.toLowerCase() !== "title" && value,
+      );
+  const specRows = [
+    ...(product.specs ?? []).map((s) => [s.label, s.value]),
+    ...optionRows,
+  ];
 
   return (
     <div className="mx-auto max-w-[1400px] px-5 py-8 sm:px-8 sm:py-12">
-      <nav className="spec mb-8 flex items-center gap-2 text-muted">
-        <Link to="/" className="transition-colors hover:text-filament">
-          Catalogue
+      <nav className="spec mb-8 flex flex-wrap items-center gap-2 text-ink-muted">
+        <Link to="/products" className="transition-colors hover:text-amber">
+          Products
         </Link>
         <span aria-hidden="true">/</span>
         <Link
-          to={`/category/${product.category}`}
-          className="transition-colors hover:text-filament"
+          to={categoryPath(product.category)}
+          className="transition-colors hover:text-amber"
         >
           {product.category}
         </Link>
-        <span aria-hidden="true">/</span>
-        <span className="truncate text-ivory">{product.subcategory}</span>
+        {product.subcategory && (
+          <>
+            <span aria-hidden="true">/</span>
+            <Link
+              to={subcategoryPath(product.category, product.subcategory)}
+              className="transition-colors hover:text-amber"
+            >
+              {product.subcategory}
+            </Link>
+          </>
+        )}
       </nav>
 
       <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-2 lg:gap-14">
@@ -102,27 +119,28 @@ function ProductDetailView({ product }) {
           images={gallery}
           activeImage={activeImage}
           setActiveImage={setActiveImage}
-          title={product.title}
+          title={title}
         />
 
         <div className="flex flex-col">
-          <p className="spec text-filament">{product.subcategory}</p>
-          <h1 className="nameplate mt-4 text-[1.75rem] text-ivory sm:text-[2.15rem]">
+          <Link to={`/brand/${product.brandSlug}`} className="w-fit">
+            <BrandMark slug={product.brandSlug} name={product.brand} size="md" />
+          </Link>
+          <h1 className="nameplate mt-4 text-[1.85rem] text-ink sm:text-[2.25rem]">
             {title}
           </h1>
-          <Link
-            to={`/brand/${product.brandSlug}`}
-            className="mt-3 inline-block text-sm text-muted transition-colors hover:text-filament"
-          >
-            {product.brand}
-          </Link>
+          {product.subcategory && (
+            <p className="spec mt-3 text-ink-muted">
+              {product.category} · {product.subcategory}
+            </p>
+          )}
 
           {tags.length > 0 && (
             <div className="mt-6 flex flex-wrap gap-2">
               {tags.map((tag) => (
                 <span
                   key={tag}
-                  className="rounded-[3px] border border-conduit px-2.5 py-1 text-xs text-muted"
+                  className="rounded-[6px] border border-seam px-2.5 py-1 text-xs text-ink-muted"
                 >
                   {tag}
                 </span>
@@ -131,7 +149,7 @@ function ProductDetailView({ product }) {
           )}
 
           {hasVariants && (
-            <div className="mt-10">
+            <div className="mt-9">
               <VariantSelector
                 variants={product.variants}
                 selected={selected}
@@ -140,68 +158,120 @@ function ProductDetailView({ product }) {
             </div>
           )}
 
-          <dl className="mt-10 border-t border-conduit">
-            <SpecRow label="Type" value={product.subcategory} />
-            {!hasVariants &&
-              specRows.map(([key, value]) => (
-                <SpecRow key={key} label={key} value={value} />
+          {(specRows.length > 0 || selectedVariant?.sku) && (
+            <dl className="mt-9 border-t border-seam">
+              {specRows.map(([label, value]) => (
+                <SpecRow key={label} label={label} value={value} />
               ))}
-            {selectedVariant?.sku && (
-              <SpecRow label="Model code" value={selectedVariant.sku} mono />
-            )}
-          </dl>
+              {selectedVariant?.sku && (
+                <SpecRow label="Model code" value={selectedVariant.sku} mono />
+              )}
+            </dl>
+          )}
 
-          <div className="mt-10 flex flex-wrap items-center gap-x-4 gap-y-3">
+          {product.description && (
+            <p className="mt-8 text-sm leading-relaxed text-ink-muted">
+              {product.description}
+            </p>
+          )}
+
+          <div className="mt-10 flex flex-wrap items-center gap-3">
             <button
               type="button"
-              onClick={() =>
-                notify(`"${title}" — the cart isn't live yet. Enquire and we'll quote it.`)
-              }
-              className="whitespace-nowrap rounded-[3px] bg-filament px-8 py-3.5 text-sm font-semibold text-ground-deep transition-colors hover:bg-filament/85"
+              onClick={() => toggle(product.uid)}
+              aria-pressed={added}
+              className={`switch-btn ${added ? "!bg-amber" : ""}`}
             >
-              Add to cart
+              {added ? "Added to enquiry" : "Add to enquiry"}
             </button>
-            <Link
-              to="/contact"
-              className="whitespace-nowrap rounded-[3px] border border-conduit px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:border-filament hover:text-filament"
-            >
-              Enquire
+            <Link to="/enquiry" className="switch-btn switch-btn--ghost text-sm">
+              View enquiry list
             </Link>
-            <span className="spec w-full text-muted sm:w-auto">
-              Pricing on request
+            <span className="spec w-full text-ink-muted sm:w-auto">
+              No price — quoted on enquiry
             </span>
           </div>
+
+          {product.sourceUrl && (
+            <a
+              href={product.sourceUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="spec mt-4 w-fit text-ink-muted/70 underline-offset-2 hover:text-amber hover:underline"
+            >
+              Manufacturer page ↗
+            </a>
+          )}
         </div>
       </div>
 
       {related.length > 0 && (
-        <section className="mt-24">
-          <h2 className="nameplate mb-6 border-b border-conduit pb-3 text-xl text-ivory">
-            More {product.subcategory}
-          </h2>
-          <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">
-            {related.map((p) => (
-              <ProductCard key={p.id} product={p} />
-            ))}
-          </div>
-        </section>
+        <ProductRow title={`More ${product.subcategory ?? product.category}`} items={related} />
+      )}
+      {more.length > 0 && (
+        <ProductRow title={`More from ${product.brand}`} items={more} />
       )}
     </div>
   );
 }
 
+function ProductRow({ title, items }) {
+  return (
+    <section className="mt-20">
+      <h2 className="nameplate mb-6 border-b border-seam pb-3 text-xl text-ink">
+        {title}
+      </h2>
+      <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">
+        {items.map((p) => (
+          <ProductCard key={p.uid} product={p} />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+// The full-res image at cdnImage's 1000px target only starts downloading
+// when it becomes the active slide, so every swipe used to pay for a fresh
+// request. Warming the browser's own cache for the neighbours — the two
+// frames a swipe or arrow-click can actually land on — means that request
+// is already in flight (usually already finished) by the time it's needed.
+function usePreloadNeighbors(images, activeImage) {
+  useEffect(() => {
+    if (images.length < 2) return;
+    for (const offset of [1, -1]) {
+      const i = (activeImage + offset + images.length) % images.length;
+      const img = new Image();
+      img.src = cdnImage(images[i], 1000);
+    }
+  }, [images, activeImage]);
+}
+
 function Gallery({ images, activeImage, setActiveImage, title }) {
-  const step = (delta) =>
+  // Direction drives which side the incoming frame slides in from — a
+  // swipe right should feel like it's pulling the next photo in from the
+  // right, not just cross-fading in place.
+  const [direction, setDirection] = useState(1);
+  const step = (delta) => {
+    setDirection(delta);
     setActiveImage((i) => (i + delta + images.length) % images.length);
+  };
+
+  usePreloadNeighbors(images, activeImage);
 
   return (
     <div className="flex flex-col gap-3">
-      <div className="group relative aspect-square max-h-[560px] overflow-hidden rounded-[4px] bg-plate-dim">
-        <AnimatePresence mode="wait">
+      <div className="group relative aspect-square max-h-[560px] overflow-hidden rounded-[12px] border border-seam bg-surface">
+        {/* mode="popLayout" (not "wait") so the incoming frame slides in
+            while the outgoing one is still leaving — since neighbours are
+            already preloaded, this reads as an instant swipe rather than a
+            fade-out-then-fade-in pause. */}
+        <AnimatePresence mode="popLayout" initial={false} custom={direction}>
           <motion.img
             key={images[activeImage]}
             src={cdnImage(images[activeImage], 1000)}
             alt={title}
+            fetchpriority="high"
+            decoding="async"
             drag={images.length > 1 ? "x" : false}
             dragConstraints={{ left: 0, right: 0 }}
             dragElastic={0.5}
@@ -209,10 +279,11 @@ function Gallery({ images, activeImage, setActiveImage, title }) {
               if (info.offset.x < -60) step(1);
               else if (info.offset.x > 60) step(-1);
             }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.28 }}
+            custom={direction}
+            initial={(dir) => ({ opacity: 0, x: dir * 40 })}
+            animate={{ opacity: 1, x: 0 }}
+            exit={(dir) => ({ opacity: 0, x: dir * -40 })}
+            transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
             className="h-full w-full object-contain mix-blend-multiply p-8"
           />
         </AnimatePresence>
@@ -221,7 +292,7 @@ function Gallery({ images, activeImage, setActiveImage, title }) {
           <>
             <GalleryButton side="left" onClick={() => step(-1)} />
             <GalleryButton side="right" onClick={() => step(1)} />
-            <span className="spec absolute bottom-4 right-4 text-[9px] text-ink/40">
+            <span className="spec absolute bottom-4 right-4 text-ink-muted">
               {activeImage + 1} / {images.length}
             </span>
           </>
@@ -229,7 +300,7 @@ function Gallery({ images, activeImage, setActiveImage, title }) {
       </div>
 
       {images.length > 1 && (
-        <div className="no-scrollbar flex gap-2 overflow-x-auto pb-1">
+        <div className="thin-scroll flex gap-2 overflow-x-auto pb-1">
           {images.map((src, i) => (
             <button
               key={src}
@@ -237,13 +308,18 @@ function Gallery({ images, activeImage, setActiveImage, title }) {
               aria-label={`View image ${i + 1}`}
               aria-current={activeImage === i}
               onClick={() => setActiveImage(i)}
-              className={`h-16 w-16 shrink-0 overflow-hidden rounded-[3px] bg-plate-dim transition-all duration-200 ${
+              className={`h-16 w-16 shrink-0 overflow-hidden rounded-[8px] border bg-surface transition-all duration-150 ${
                 activeImage === i
-                  ? "ring-2 ring-filament"
-                  : "opacity-55 hover:opacity-100"
+                  ? "border-amber"
+                  : "border-seam opacity-60 hover:opacity-100"
               }`}
             >
-              <img src={cdnImage(src, 160)} alt="" loading="lazy" className="h-full w-full object-contain mix-blend-multiply p-1.5" />
+              <img
+                src={cdnImage(src, 160)}
+                alt=""
+                loading="lazy"
+                className="h-full w-full object-contain mix-blend-multiply p-1.5"
+              />
             </button>
           ))}
         </div>
@@ -254,10 +330,10 @@ function Gallery({ images, activeImage, setActiveImage, title }) {
 
 function SpecRow({ label, value, mono = false }) {
   return (
-    <div className="flex items-baseline justify-between gap-6 border-b border-conduit py-3">
-      <dt className="spec shrink-0 text-muted">{label}</dt>
+    <div className="flex items-baseline justify-between gap-6 border-b border-seam py-3">
+      <dt className="spec shrink-0 text-ink-muted">{label}</dt>
       <dd
-        className={`min-w-0 break-all text-right text-sm text-ivory ${
+        className={`min-w-0 break-words text-right text-sm text-ink ${
           mono ? "font-mono" : ""
         }`}
       >
@@ -273,7 +349,7 @@ function GalleryButton({ side, onClick }) {
       type="button"
       onClick={onClick}
       aria-label={side === "left" ? "Previous image" : "Next image"}
-      className={`absolute top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-ground-deep/70 text-ivory opacity-0 transition-opacity duration-200 hover:bg-ground-deep focus-visible:opacity-100 group-hover:opacity-100 ${
+      className={`absolute top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-seam bg-paper/90 text-ink opacity-0 transition-opacity duration-150 hover:bg-paper focus-visible:opacity-100 group-hover:opacity-100 ${
         side === "left" ? "left-3" : "right-3"
       }`}
     >

@@ -1,23 +1,41 @@
 import { Link } from "react-router-dom";
-import { MAX_KELVIN, MIN_KELVIN, TONES, nearestTone } from "../lib/kelvin.js";
+import {
+  MAX_KELVIN,
+  MIN_KELVIN,
+  TONES,
+  kelvinToCss,
+  nearestTone,
+} from "../lib/kelvin.js";
 
-// The catalogue sells light by temperature, so the control that sets the
-// showroom's light is the same control that filters it.
+// The catalogue sells light by colour temperature, so the control that sets
+// the preview is the same control that filters the range.
 export default function KelvinBar({ kelvin, onChange }) {
   const tone = nearestTone(kelvin);
+  // Interpolated, not one of the three stepped TONES, so dragging the slider
+  // sweeps the bulb warm to cool continuously.
+  const light = kelvinToCss(kelvin);
 
   return (
     <div className="w-full max-w-md">
+      {/* The section talks about colour temperature and sets it; this is the
+          one place that shows it. State, not decoration — it renders the value
+          the slider below is holding. */}
+      <div
+        className="bulb mx-auto mb-8"
+        style={{ "--light": light }}
+        aria-hidden="true"
+      />
+
       <div className="mb-3 flex items-baseline justify-between">
-        <span className="spec text-muted">Showroom light</span>
-        <span className="spec text-ivory">
+        <span className="spec text-ink-muted">Light tone</span>
+        <span className="spec text-ink">
           {kelvin}K · {tone.name}
         </span>
       </div>
 
       <div className="relative">
         <div
-          className="pointer-events-none absolute inset-x-0 top-[9px] h-[2px] rounded-full"
+          className="pointer-events-none absolute inset-x-0 top-[9px] h-[3px] rounded-full"
           style={{
             background: `linear-gradient(90deg, ${TONES.map((t) => t.hex).join(", ")})`,
           }}
@@ -29,7 +47,7 @@ export default function KelvinBar({ kelvin, onChange }) {
           step={100}
           value={kelvin}
           onChange={(e) => onChange(Number(e.target.value))}
-          aria-label="Showroom light temperature in kelvin"
+          aria-label="Light temperature in kelvin"
           className="relative w-full"
         />
       </div>
@@ -40,10 +58,10 @@ export default function KelvinBar({ kelvin, onChange }) {
             key={t.name}
             type="button"
             onClick={() => onChange(t.kelvin)}
-            className={`spec text-[10px] transition-colors ${
+            className={`spec transition-colors ${
               tone.name === t.name
-                ? "text-ivory"
-                : "text-muted/70 hover:text-ivory"
+                ? "text-ink"
+                : "text-ink-muted/70 hover:text-ink"
             }`}
           >
             {t.kelvin}K
@@ -52,8 +70,8 @@ export default function KelvinBar({ kelvin, onChange }) {
       </div>
 
       <Link
-        to={`/category/Lighting?tone=${encodeURIComponent(tone.name)}`}
-        className="mt-6 inline-flex items-center gap-2 border-b border-filament/40 pb-1 text-sm font-medium text-ivory transition-colors hover:border-filament hover:text-filament"
+        to={`/products?category=Lighting&tone=${encodeURIComponent(tone.name)}`}
+        className="mt-6 inline-flex items-center gap-2 border-b border-amber/40 pb-1 text-sm font-medium text-ink transition-colors hover:border-amber hover:text-amber"
       >
         Browse {tone.name.toLowerCase()} lighting
         <span aria-hidden="true">→</span>

@@ -1,62 +1,296 @@
 @import "tailwindcss";
 
+/*
+  Voltex — "Modular Plate"
+  Identity from the Indian modular switch plate: a strict grid of modules
+  divided by hairline seams, each carrying a small indicator LED. The grid
+  does structural work; boldness is spent only on the plate and its LEDs.
+  See docs/design-system.md.
+*/
+
 @theme {
   --font-display: "Archivo", system-ui, sans-serif;
-  --font-sans: "Hanken Grotesk", system-ui, sans-serif;
-  --font-mono: "DM Mono", ui-monospace, monospace;
+  --font-sans: "Instrument Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 
-  /* A dim showroom: graphite walls, enamel goods, one filament. */
-  --color-ground: #262c2e;
-  --color-ground-deep: #1b2022;
-  --color-ground-lift: #2e3639;
-  --color-conduit: #3a4245;
-  --color-plate: #faf7f2;
-  --color-plate-dim: #ece7de;
-  --color-ink: #14181a;
-  --color-ivory: #e7e2d9;
-  --color-muted: #98a1a1;
-  --color-filament: #f2a63b;
+  --color-ink: #131a24; /* text, headings */
+  --color-ink-muted: #5a6472; /* metadata, captions, counts */
+  --color-paper: #f6f5f2; /* page ground — warm neutral, not cream */
+  --color-surface: #ffffff; /* cards, plate modules, image beds */
+  --color-seam: #e4e2dc; /* 1px seams and borders — the plate's line */
+  --color-seam-strong: #cfccc3; /* a seam that needs to be seen */
+  --color-amber: #ee7a1b; /* accent: active, primary action, LED glow */
+  --color-amber-tint: #fdf2e4; /* selected-filter fill, soft highlight */
+  --color-live: #12b76a; /* "in catalogue" indicator only */
+}
+
+/* No --tone-* tokens here on purpose. Colour temperature is continuous, not
+   three steps, and it is already owned by TONES/kelvinToCss() in
+   src/lib/kelvin.js — the lamp, the KelvinBar bulb and the tone swatches all
+   interpolate from there. A second set of hexes in CSS could only disagree
+   with it, and did. */
+
+html {
+  background-color: var(--color-paper);
+  /* Safety net: one overflowing element used to force the whole page wider
+     than the viewport, which mobile browsers "fix" by zooming the page out --
+     the reported symptom of blank margins and a pannable layout. `clip`, not
+     `hidden`, so the sticky header keeps working. */
+  overflow-x: clip;
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--color-ground);
-  color: var(--color-ivory);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
 }
 
-/* Stamped motor-plate lettering: the widest cut of Archivo, set tight. */
+/* iOS Safari zooms the whole page in when a focused control's font-size is
+   under 16px -- every text input here was 15px. Coarse-pointer (touch) only,
+   so desktop keeps its smaller, denser inputs. */
+@media (pointer: coarse) {
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* -------------------------------------------------------------- type roles */
+
+/* Stamped nameplate: the wide, heavy cut of Archivo. Headings and the logo.
+   Not forced uppercase — callers add it for the logo and the hero only. */
 .nameplate {
   font-family: var(--font-display);
-  font-variation-settings: "wdth" 125;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: -0.015em;
-  line-height: 0.95;
+  font-variation-settings: "wdth" 115;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1;
 }
 
-/* The second half of the lockup: same cut and width, lighter, opened up —
-   the way a maker's name and the word "ELECTRICALS" sit on a real
-   distribution-board plate. */
+/* The quiet half of the logo lockup — "ELECTRICALS" on a maker's plate. */
 .nameplate-sub {
   font-family: var(--font-display);
-  font-variation-settings: "wdth" 125;
+  font-variation-settings: "wdth" 115;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
-  line-height: 0.95;
+  letter-spacing: 0.22em;
+  line-height: 1;
 }
 
-/* Tariff-sheet register: specs, counts, codes. */
+/* The lockup's quiet half is the only part that lights. Hovering or focusing
+   the mark warms "ELECTRICALS" to amber; "Voltex" stays ink. One rule, so the
+   header, the mobile drawer and the footer can't drift apart. */
+.lockup-sub {
+  color: var(--color-ink-muted);
+  transition:
+    color 0.18s ease,
+    text-shadow 0.18s ease;
+}
+.lockup:hover .lockup-sub,
+a:hover .lockup-sub,
+a:focus-visible .lockup-sub {
+  color: var(--color-amber);
+  text-shadow: 0 0 14px color-mix(in srgb, var(--color-amber) 50%, transparent);
+}
+
+/* Tariff-sheet register: specs, counts, model codes, small labels. */
 .spec {
   font-family: var(--font-mono);
   font-size: 0.6875rem;
-  letter-spacing: 0.12em;
+  font-weight: 500;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
+/* -------------------------------------------------------------- the plate */
+
+.plate {
+  display: grid;
+  gap: 1px;
+  background: var(--color-seam);
+  border: 1px solid var(--color-seam);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.plate > * {
+  background: var(--color-surface);
+}
+
+/* One module of a plate. `--span` sets its width in module units. */
+.module {
+  position: relative;
+  background: var(--color-surface);
+  transition:
+    background 0.18s ease,
+    box-shadow 0.22s ease;
+}
+.module[data-interactive]:hover {
+  background: #fffdfa;
+  box-shadow: inset 0 0 0 1px var(--color-seam-strong);
+}
+.module[data-coming-soon] {
+  background: #f1f0ec;
+}
+/* The module you are currently inside: switched on, with the amber running up
+   its leading edge. Marks position in the catalogue, nothing else. */
+.module[data-active] {
+  background: var(--color-amber-tint);
+  box-shadow: inset 2px 0 0 var(--color-amber);
+}
+
+/* The indicator LED. Off by default; amber with a soft bloom when the
+   module is hovered, active, or explicitly lit (data-on). */
+.led {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-seam-strong);
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.module[data-interactive]:hover .led,
+.module[data-active] .led,
+.led[data-on] {
+  background: var(--color-amber);
+  box-shadow: 0 0 8px 1px color-mix(in srgb, var(--color-amber) 55%, transparent);
+}
+.led[data-live] {
+  background: var(--color-live);
+  box-shadow: 0 0 7px 1px color-mix(in srgb, var(--color-live) 45%, transparent);
+}
+
+/* Page-load power-up: LEDs light left to right, then hold. Applied by adding
+   .power-up to a container; children with .led animate on a per-index delay
+   set inline as --i. */
+@keyframes power-up {
+  from {
+    background: var(--color-seam-strong);
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    background: var(--color-amber);
+    box-shadow: 0 0 8px 1px color-mix(in srgb, var(--color-amber) 55%, transparent);
+  }
+}
+.power-up .module:not([data-coming-soon]) .led,
+.power-up > .led {
+  animation: power-up 0.28s ease forwards;
+  animation-delay: calc(var(--i, 0) * 60ms);
+}
+
+/* ------------------------------------------------------------- the lamp */
+
+/* The hero fixture. --lamp is set from kelvinToCss(2700) in JSX, so the bloom
+   is real warm-white lamplight rather than the amber UI accent. At rest it is
+   barely there; reaching for it — pointer or keyboard — warms it up over
+   450ms, the pace of a lamp rather than a button. */
+.lamp {
+  position: relative;
+  display: block;
+}
+.lamp-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(58% 54% at 58% 38%, var(--lamp) 0%, transparent 72%);
+  opacity: 0.12;
+  transform-origin: 58% 38%;
+  transition:
+    opacity 0.45s ease-out,
+    transform 0.45s ease-out;
+}
+.lamp:hover .lamp-glow,
+.lamp:focus-visible .lamp-glow {
+  opacity: 0.34;
+  transform: scale(1.22);
+}
+
+/* So the fixture reads as emitting, not as lit from somewhere off-frame. */
+.lamp-photo {
+  transition: filter 0.45s ease-out;
+}
+.lamp:hover .lamp-photo,
+.lamp:focus-visible .lamp-photo {
+  filter: drop-shadow(0 0 26px color-mix(in srgb, var(--lamp) 60%, transparent));
+}
+
+/* The Kelvin readout: a lit disc whose colour and halo are the value the
+   slider is holding, fed from kelvinToCss() as --light. A glowing circle, not
+   a drawing of a bulb — the only one on the site, and it earns its place by
+   showing a number nobody can picture. */
+.bulb {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 50% 42%,
+    #fff 0%,
+    var(--light) 46%,
+    color-mix(in srgb, var(--light) 72%, #8a7f72) 100%
+  );
+  box-shadow:
+    0 0 34px 6px color-mix(in srgb, var(--light) 55%, transparent),
+    0 0 90px 26px color-mix(in srgb, var(--light) 26%, transparent),
+    inset 0 -6px 14px color-mix(in srgb, var(--light) 60%, #6b6157);
+  transition:
+    background 0.2s ease-out,
+    box-shadow 0.2s ease-out;
+}
+
+/* -------------------------------------------------------------- controls */
+
+/* Switch-inspired primary action: an ink fill that lifts and lights a small
+   amber indicator at its leading edge on hover. Not skeuomorphic. */
+.switch-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.4rem;
+  background: var(--color-ink);
+  color: var(--color-surface);
+  border-radius: 10px;
+  font-weight: 600;
+  transition:
+    transform 0.16s ease,
+    box-shadow 0.16s ease;
+}
+.switch-btn::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--color-surface) 35%, transparent);
+  transition:
+    background 0.16s ease,
+    box-shadow 0.16s ease;
+}
+.switch-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px -12px rgba(19, 26, 36, 0.5);
+}
+.switch-btn:hover::before {
+  background: var(--color-amber);
+  box-shadow: 0 0 8px 1px color-mix(in srgb, var(--color-amber) 60%, transparent);
+}
+.switch-btn--ghost {
+  background: transparent;
+  color: var(--color-ink);
+  box-shadow: inset 0 0 0 1px var(--color-seam-strong);
+}
+.switch-btn--ghost:hover {
+  box-shadow: inset 0 0 0 1px var(--color-ink);
+}
+
+/* -------------------------------------------------------------- utilities */
+
 :focus-visible {
-  outline: 2px solid var(--color-filament);
+  outline: 2px solid var(--color-amber);
   outline-offset: 2px;
 }
 
@@ -68,11 +302,9 @@ body {
   display: none;
 }
 
-/* A scrollbar that belongs to the dark panel it sits in, not the OS. Used on
-   the filter sidebar and the mobile filter sheet. */
 .thin-scroll {
   scrollbar-width: thin;
-  scrollbar-color: var(--color-conduit) transparent;
+  scrollbar-color: var(--color-seam-strong) transparent;
 }
 .thin-scroll::-webkit-scrollbar {
   width: 6px;
@@ -82,11 +314,11 @@ body {
   background: transparent;
 }
 .thin-scroll::-webkit-scrollbar-thumb {
-  background: var(--color-conduit);
+  background: var(--color-seam-strong);
   border-radius: 9999px;
 }
 .thin-scroll::-webkit-scrollbar-thumb:hover {
-  background: var(--color-muted);
+  background: var(--color-ink-muted);
 }
 
 /* Range inputs read as instrument tracks, not OS widgets. */
@@ -98,11 +330,11 @@ input[type="range"] {
 }
 input[type="range"]::-webkit-slider-runnable-track {
   height: 2px;
-  background: var(--color-conduit);
+  background: var(--color-seam-strong);
 }
 input[type="range"]::-moz-range-track {
   height: 2px;
-  background: var(--color-conduit);
+  background: var(--color-seam-strong);
 }
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -111,8 +343,8 @@ input[type="range"]::-webkit-slider-thumb {
   height: 14px;
   margin-top: -6px;
   border-radius: 9999px;
-  background: var(--color-filament);
-  box-shadow: 0 0 0 3px rgba(242, 166, 59, 0.2);
+  background: var(--color-amber);
+  box-shadow: 0 0 0 3px rgba(238, 122, 27, 0.2);
   cursor: grab;
 }
 input[type="range"]::-moz-range-thumb {
@@ -120,8 +352,8 @@ input[type="range"]::-moz-range-thumb {
   height: 14px;
   border: none;
   border-radius: 9999px;
-  background: var(--color-filament);
-  box-shadow: 0 0 0 3px rgba(242, 166, 59, 0.2);
+  background: var(--color-amber);
+  box-shadow: 0 0 0 3px rgba(238, 122, 27, 0.2);
   cursor: grab;
 }
 input[type="range"]:active::-webkit-slider-thumb {
@@ -135,5 +367,10 @@ input[type="range"]:active::-webkit-slider-thumb {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+  .power-up .module:not([data-coming-soon]) .led,
+  .power-up > .led {
+    background: var(--color-amber);
+    box-shadow: 0 0 8px 1px color-mix(in srgb, var(--color-amber) 55%, transparent);
   }
 }

@@ -1,0 +1,1999 @@
+{
+  "removed": [
+    {
+      "uid": "atomberg--atomberg-renesa-epoque-ceiling-fan",
+      "title": "Atomberg Renesa Epoque"
+    },
+    {
+      "uid": "atomberg--shop-ceiling-fans-atomberg-efficio-prime-bldc-motor-with-remote-3-blade-ceiling-fan-black-srilanka",
+      "title": "Atomberg Atomberg Efficio Prime Black"
+    },
+    {
+      "uid": "atomberg--shop-ceiling-fans-atomberg-efficio-prime-bldc-motor-with-remote-3-blade-ceiling-fan-white-srilanka-1",
+      "title": "Atomberg Atomberg Efficio Prime White"
+    },
+    {
+      "uid": "atomberg--shop-ceiling-fans-atomberg-renesa-bldc-motor-with-remote-3-blade-ceiling-fan-black-srilanka",
+      "title": "Atomberg Atomberg Renesa Black"
+    },
+    {
+      "uid": "atomberg--atomberg-renesa-plus-bldc-motor-with-remote-3-blade-ceiling-fan-srilanka",
+      "title": "Atomberg Atomberg Renesa+ Golden Oakwood"
+    },
+    {
+      "uid": "atomberg--shop-ceiling-fans-atomberg-renesa-bldc-motor-with-remote-3-blade-ceiling-fan-white-srilanka",
+      "title": "Atomberg Atomberg Renesa White"
+    },
+    {
+      "uid": "atomberg--shop-ceiling-fans-atomberg-efficio-alpha-bldc-motor-with-remote-3-blade-ceiling-fan",
+      "title": "Atomberg Efficio Alpha Ceiling Fan"
+    },
+    {
+      "uid": "atomberg--atomberg-renesa-enzel-bldc-motor-3-blade-ceiling-fan",
+      "title": "Atomberg Renesa Enzel"
+    },
+    {
+      "uid": "atomberg--atomberg-renesa-prime-bldc-motor-3-blade-ceiling-fan",
+      "title": "Atomberg Renesa Prime"
+    },
+    {
+      "uid": "atomberg--aris-ceiling-fan",
+      "title": "Atomberg Aris Smart Ceiling Fan"
+    },
+    {
+      "uid": "atomberg--shop-ceiling-fans-atomberg-ameza-bldc-motor-with-remote-3-blade-ceiling-fan-2",
+      "title": "Atomberg Ameza Ceiling Fan"
+    },
+    {
+      "uid": "atomberg--shop-ceiling-fans-atomberg-ikano-bldc-motor-with-remote-3-blade-ceiling-fan-1",
+      "title": "Atomberg Ikano Ceiling Fan"
+    },
+    {
+      "uid": "atomberg--atomberg-studio-plus-bldc-motor-with-remote-3-blade-ceiling-fan",
+      "title": "Atomberg Studio + Ceiling Fan"
+    },
+    {
+      "uid": "atomberg--atomberg-renesa-plus-bldc-motor-with-remote-3-blade-ceiling-fan",
+      "title": "Atomberg Renesa + Ceiling Fan"
+    },
+    {
+      "uid": "atomberg--shop-ceiling-fans-atomberg-renesa-bldc-motor-with-remote-3-blade-ceiling-fan",
+      "title": "Atomberg Renesa Ceiling Fan"
+    },
+    {
+      "uid": "crompton--cito-pro-highspeed-2-in-1-fan-personal-fan",
+      "title": "Crompton CITO PRO Highspeed 2-in-1 Fan"
+    },
+    {
+      "uid": "crompton--cito-pro-highspeed-2-in-1-fan-wall-mounted-fan",
+      "title": "Crompton CITO PRO Highspeed 2-in-1 Fan"
+    },
+    {
+      "uid": "crompton--cito-pro-highspeed-2-in-1-fan-table-fan",
+      "title": "Crompton CITO PRO Highspeed 2-in-1 Fan"
+    },
+    {
+      "uid": "crompton--crompton-siro-rechargeable-clip-fan",
+      "title": "Crompton Crompton Siro Rechargeable Clip Fan"
+    },
+    {
+      "uid": "crompton--crompton-luxian-statement-senze-ceiling-fan",
+      "title": "Crompton Crompton Luxian Statement Senze Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-silentpro-fluido-glide-iot-ceiling-fan",
+      "title": "Crompton Crompton SilentPro Fluido Glide IOT Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-energion-roverr-bldc-ceiling-fan",
+      "title": "Crompton Crompton Energion Roverr BLDC Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-silentpro-enso-smart-bldc-ceiling-fans",
+      "title": "Crompton Crompton SilentPro Enso Smart BLDC Ceiling Fans"
+    },
+    {
+      "uid": "crompton--crompton-energion-caelum-1200mm-bldc-ceiling-fan",
+      "title": "Crompton Crompton Energion Caelum 1200mm BLDC Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-energion-elevate-1200mm-bldc-ceiling-fan",
+      "title": "Crompton Crompton Energion Elevate 1200mm BLDC Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-surebreeze-star-drift-900-mm-ceiling-fan",
+      "title": "Crompton Crompton Surebreeze Star Drift 900 MM | Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-surebreeze-star-spin-ceiling-fan",
+      "title": "Crompton Crompton Surebreeze Star Spin | Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-energion-hyperjet-bldc-ceiling-fan",
+      "title": "Crompton Crompton Energion Hyperjet BLDC Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-silentpro-fluido-wave-900mm",
+      "title": "Crompton Crompton Silent Pro Fluido Wave 900mm"
+    },
+    {
+      "uid": "crompton--crompton-silentpro-fluido-wave-1200mm",
+      "title": "Crompton Crompton Silent Pro Fluido Wave 1200mm"
+    },
+    {
+      "uid": "crompton--crompton-surebreeze-starspeed-ceiling-fan",
+      "title": "Crompton Crompton Surebreeze Starspeed| Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-surebreeze-starbriz-ceiling-fan",
+      "title": "Crompton Crompton Surebreeze Starbriz| Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-hdef-exhaust-fan-1",
+      "title": "Crompton Crompton HDEF Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-premion-avancer-prime-1-star-1-4m",
+      "title": "Crompton Crompton Premion Avancer Prime 1 Star"
+    },
+    {
+      "uid": "crompton--crompton-energion-cookie-bldc-ceiling-fan",
+      "title": "Crompton Crompton Energion Cookie BLDC Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-transair-exhaust-fan-4",
+      "title": "Crompton Crompton Transair Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-transair-exhaust-fan-3",
+      "title": "Crompton Crompton Transair Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-transair-exhaust-fan-2",
+      "title": "Crompton Crompton Transair Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-transair-exhaust-fan-1",
+      "title": "Crompton Crompton Transair Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-transair-exhaust-fan",
+      "title": "Crompton Crompton Transair Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-driftair-antidust-exhaust-fan-2",
+      "title": "Crompton Crompton Driftair Antidust Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-driftair-antidust-exhaust-fan-1",
+      "title": "Crompton Crompton Driftair Antidust Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-driftair-antidust-exhaust-fan",
+      "title": "Crompton Crompton Driftair Antidust Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-driftair-exhaust-fan-2",
+      "title": "Crompton Crompton Driftair Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-driftair-exhaust-fan-1",
+      "title": "Crompton Crompton Driftair Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-driftair-exhaust-fan",
+      "title": "Crompton Crompton Driftair Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-axial-air-exhaust-fan",
+      "title": "Crompton Crompton Axial Air Exhaust Fan"
+    },
+    {
+      "uid": "crompton--crompton-high-speed-dasher-star-rated-ceiling-fan",
+      "title": "Crompton Crompton High Speed Dasher |  Star Rated Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-surebreeze-sea-wind-star-rated-ceiling-fan",
+      "title": "Crompton Crompton Surebreeze Sea Wind | Star Rated Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-hiflo-neo-pf-pedestal-fan",
+      "title": "Crompton Crompton Hiflo Neo PF Pedestal Fan"
+    },
+    {
+      "uid": "crompton--crompton-high-speed-hs-star-rated-ceiling-fan",
+      "title": "Crompton Crompton High Speed HS | Star Rated Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-high-speed-hs-star-rated-ceiling-fan-2",
+      "title": "Crompton Crompton High Speed HS | Star Rated Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-surebreeze-sea-breeze-star-rated-ceiling-fan",
+      "title": "Crompton Crompton Surebreeze Sea Breeze | Star Rated Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-energion-high-speed-bldc-ceiling-fan",
+      "title": "Crompton Crompton Energion High Speed BLDC Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-energion-riviera-regulator-bldc-ceiling-fan",
+      "title": "Crompton Crompton Energion Riviera Regulator BLDC Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-energion-groove-regulator-bldc-ceiling-fan",
+      "title": "Crompton Crompton Energion Groove Regulator BLDC Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-energion-groove-remote-bldc-ceiling-fan",
+      "title": "Crompton Crompton Energion Groove Remote BLDC Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-high-speed-riviera-star-rated-ceiling-fan",
+      "title": "Crompton Crompton High Speed Riviera | Star Rated Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-surebreeze-sea-bliss-star-rated-ceiling-fan",
+      "title": "Crompton Crompton Surebreeze Sea Bliss | Star Rated Ceiling Fan"
+    },
+    {
+      "uid": "crompton--crompton-hiflo-wave-plus-table-fan",
+      "title": "Crompton Crompton Hiflo Wave Plus Table Fan"
+    },
+    {
+      "uid": "crompton--crompton-hiflo-neo-table-fan",
+      "title": "Crompton Crompton Hiflo Neo Table Fan"
+    },
+    {
+      "uid": "crompton--crompton-hispeed-gale-plus-table-fan",
+      "title": "Crompton Crompton Hispeed Gale Plus Table Fan"
+    },
+    {
+      "uid": "crompton--professional-lighting-highmast",
+      "title": "Crompton Highmast"
+    },
+    {
+      "uid": "crompton--professional-lighting-perseus",
+      "title": "Crompton Perseus"
+    },
+    {
+      "uid": "crompton--professional-lighting-decopole",
+      "title": "Crompton Decopole"
+    },
+    {
+      "uid": "crompton--professional-lighting-pluto-pro-sports",
+      "title": "Crompton Pluto Pro Sports"
+    },
+    {
+      "uid": "crompton--professional-lighting-alpheca-120-w",
+      "title": "Crompton Alpheca 120W"
+    },
+    {
+      "uid": "crompton--professional-lighting-visualine",
+      "title": "Crompton Visualine"
+    },
+    {
+      "uid": "crompton--professional-lighting-empire",
+      "title": "Crompton Empire"
+    },
+    {
+      "uid": "crompton--professional-lighting-pluto-pro-plus",
+      "title": "Crompton Pluto Pro Plus"
+    },
+    {
+      "uid": "crompton--professional-lighting-spectacle-pro",
+      "title": "Crompton Spectacle pro"
+    },
+    {
+      "uid": "crompton--professional-lighting-spectacle",
+      "title": "Crompton Spectacle"
+    },
+    {
+      "uid": "crompton--professional-lighting-rover-eco",
+      "title": "Crompton Rover Eco"
+    },
+    {
+      "uid": "crompton--professional-lighting-rover-neo-400w",
+      "title": "Crompton Rover Neo 400W"
+    },
+    {
+      "uid": "crompton--professional-lighting-aplomado-pro-200w",
+      "title": "Crompton Aplomado Pro+ 200W"
+    },
+    {
+      "uid": "crompton--professional-lighting-aplomado-pro-150w",
+      "title": "Crompton Aplomado Pro+ 150W"
+    },
+    {
+      "uid": "crompton--professional-lighting-techlita-pro",
+      "title": "Crompton Techlita Pro"
+    },
+    {
+      "uid": "crompton--professional-lighting-techlita-neu",
+      "title": "Crompton Techlita Neu"
+    },
+    {
+      "uid": "crompton--professional-lighting-sagitta",
+      "title": "Crompton Sagitta"
+    },
+    {
+      "uid": "crompton--professional-lighting-eridanus",
+      "title": "Crompton Eridanus"
+    },
+    {
+      "uid": "crompton--professional-lighting-capricornus-pro",
+      "title": "Crompton Capricornus Pro"
+    },
+    {
+      "uid": "crompton--professional-lighting-capricornus",
+      "title": "Crompton Capricornus"
+    },
+    {
+      "uid": "crompton--professional-lighting-cleanlux",
+      "title": "Crompton Cleanlux"
+    },
+    {
+      "uid": "crompton--professional-lighting-alulite",
+      "title": "Crompton AluLite"
+    },
+    {
+      "uid": "crompton--professional-lighting-seren",
+      "title": "Crompton Seren"
+    },
+    {
+      "uid": "crompton--professional-lighting-trendz-plus",
+      "title": "Crompton Trendz+"
+    },
+    {
+      "uid": "crompton--professional-lighting-cromline",
+      "title": "Crompton Cromline"
+    },
+    {
+      "uid": "crompton--professional-lighting-aplomado-pro-300w-350w",
+      "title": "Crompton Aplomado Pro+  300W / 350W"
+    },
+    {
+      "uid": "crompton--professional-lighting-rover-neo-350w",
+      "title": "Crompton Rover Neo 350W"
+    },
+    {
+      "uid": "crompton--professional-lighting-alpheca-240-w",
+      "title": "Crompton Alpheca 240W"
+    },
+    {
+      "uid": "crompton--professional-lighting-bracket",
+      "title": "Crompton Bracket"
+    },
+    {
+      "uid": "crompton--professional-lighting-pixel-light",
+      "title": "Crompton Pixel Light"
+    },
+    {
+      "uid": "crompton--professional-lighting-flood-light",
+      "title": "Crompton Flood Light"
+    },
+    {
+      "uid": "crompton--professional-lighting-direct-view",
+      "title": "Crompton Direct View"
+    },
+    {
+      "uid": "crompton--professional-lighting-glass-globe",
+      "title": "Crompton Cromdeco - Glass GLOBE"
+    },
+    {
+      "uid": "crompton--crompton-led-1w-torch-beamer-mini",
+      "title": "Crompton Crompton Beamer Mini 1W Led Torch"
+    },
+    {
+      "uid": "crompton--crompton-power-ray-ranger-pro-3w-led-torch-rechargeable-black",
+      "title": "Crompton Crompton Power Ray Ranger Pro 3W LED Torch Rechargeable - Black"
+    },
+    {
+      "uid": "crompton--crompton-power-ray-rakshak-pro-2w-led-torch-rechageable-black",
+      "title": "Crompton Crompton Power Ray Rakshak Pro 2W LED Torch Rechageable - Black"
+    },
+    {
+      "uid": "crompton--crompton-power-ray-dual-pro-1w-led-torch-rechargeable-orange",
+      "title": "Crompton Crompton Power Ray Dual Pro 1W LED Torch Rechargeable - Orange"
+    },
+    {
+      "uid": "crompton--crompton-power-ray-fighter-1w-led-torch-dry-cell-orange",
+      "title": "Crompton Crompton Power Ray Fighter 1W LED Torch Dry-Cell - Orange"
+    },
+    {
+      "uid": "crompton--crompton-power-ray-chamak-1w-led-torch-dry-cell-blue",
+      "title": "Crompton Crompton Power Ray Chamak 1W LED Torch Dry-Cell - Blue"
+    },
+    {
+      "uid": "crompton--crompton-power-ray-beamer-1w-led-torch-dry-cell-orange",
+      "title": "Crompton Crompton Power Ray Beamer 1W LED Torch Dry-Cell - Orange"
+    },
+    {
+      "uid": "crompton--crompton-20w-slimo-batten",
+      "title": "Crompton Crompton 20W SlimO Batten"
+    },
+    {
+      "uid": "crompton--trio-panel-15w-round-c-w",
+      "title": "Crompton TRIO PANEL 15W ROUND C+W"
+    },
+    {
+      "uid": "crompton--9w-star-dura-pro-square-led-recess-panel",
+      "title": "Crompton 9W Star Dura Pro Square Led Recess Panel"
+    },
+    {
+      "uid": "crompton--6w-star-dura-pro-square-led-recess-panel",
+      "title": "Crompton 6W Star Dura Pro Square Led Recess Panel"
+    },
+    {
+      "uid": "crompton--3w-star-dura-pro-square-led-recess-panel",
+      "title": "Crompton 3W Star Dura Pro Square Led Recess Panel"
+    },
+    {
+      "uid": "crompton--9w-star-dura-pro-round-led-recess-panel",
+      "title": "Crompton 9W Star Dura Pro Round Led Recess Panel"
+    },
+    {
+      "uid": "crompton--6w-star-dura-pro-round-led-recess-panel",
+      "title": "Crompton 6W Star Dura Pro Round Led Recess Panel"
+    },
+    {
+      "uid": "crompton--3w-star-dura-pro-round-led-recess-panel",
+      "title": "Crompton 3W Star Dura Pro Round Led Recess Panel"
+    },
+    {
+      "uid": "crompton--solarion-imperial-prime-gate-lamp-plastic-with-b22-holder",
+      "title": "Crompton Solarion Imperial Prime Gate Lamp (Plastic with B22 Holder)"
+    },
+    {
+      "uid": "crompton--solarion-imperial-round-gate-lamp-plastic-with-b22-holder",
+      "title": "Crompton Solarion Imperial Round Gate Lamp (Plastic with B22 Holder)"
+    },
+    {
+      "uid": "crompton--solarion-imperial-lantern-gate-lamp-plastic-with-b22-holder",
+      "title": "Crompton Solarion Imperial Lantern Gate Lamp (Plastic with B22 Holder)"
+    },
+    {
+      "uid": "crompton--solarion-imperial-neo-gate-lamp-plastic-with-b22-holder",
+      "title": "Crompton Solarion Imperial Neo Gate Lamp (Plastic with B22 Holder)"
+    },
+    {
+      "uid": "crompton--solarion-eclipse-oval-gate-lamp-plastic-with-b22-holder",
+      "title": "Crompton Solarion Eclipse Oval Gate Lamp (Plastic with B22 Holder)"
+    },
+    {
+      "uid": "crompton--solarion-eclipse-round-gate-lamp-plastic-with-b22-holder",
+      "title": "Crompton Solarion Eclipse Round Gate Lamp (Plastic with B22 Holder)"
+    },
+    {
+      "uid": "crompton--22w-trio-batten",
+      "title": "Crompton 22W TRIO Batten"
+    },
+    {
+      "uid": "crompton--crompton-spectacle_200w",
+      "title": "Crompton Crompton Spectacle_200W"
+    },
+    {
+      "uid": "crompton--crompton-spectacle_150w",
+      "title": "Crompton Crompton Spectacle_150W"
+    },
+    {
+      "uid": "crompton--crompton-rover-plus_150w",
+      "title": "Crompton Crompton Rover Plus_150W"
+    },
+    {
+      "uid": "crompton--crompton-rover-plus_120w",
+      "title": "Crompton Crompton Rover Plus_120W"
+    },
+    {
+      "uid": "crompton--crompton-soniva_60w-1",
+      "title": "Crompton Crompton Soniva_60W"
+    },
+    {
+      "uid": "crompton--crompton-soniva_60w",
+      "title": "Crompton Crompton Soniva_60W"
+    },
+    {
+      "uid": "crompton--crompton-soniva_40w-1",
+      "title": "Crompton Crompton Soniva_40W"
+    },
+    {
+      "uid": "crompton--crompton-soniva_40w",
+      "title": "Crompton Crompton Soniva_40W"
+    },
+    {
+      "uid": "crompton--crompton-soniva_30w-1",
+      "title": "Crompton Crompton Soniva_30W"
+    },
+    {
+      "uid": "crompton--crompton-soniva_30w",
+      "title": "Crompton Crompton Soniva_30W"
+    },
+    {
+      "uid": "crompton--crompton-soniva_20w-1",
+      "title": "Crompton Crompton Soniva_20W"
+    },
+    {
+      "uid": "crompton--crompton-soniva_20w",
+      "title": "Crompton Crompton Soniva_20W"
+    },
+    {
+      "uid": "crompton--crompton-soniva_15w-1",
+      "title": "Crompton Crompton Soniva_15W"
+    },
+    {
+      "uid": "crompton--crompton-soniva_15w",
+      "title": "Crompton Crompton Soniva_15W"
+    },
+    {
+      "uid": "crompton--9w-star-deepglaze-round-led-downlighter",
+      "title": "Crompton 9W Star Deepglaze Round Led Downlighter"
+    },
+    {
+      "uid": "crompton--6w-star-deepglaze-round-led-downlighter",
+      "title": "Crompton 6W Star Deepglaze Round Led Downlighter"
+    },
+    {
+      "uid": "crompton--3w-star-deepglaze-round-led-downlighter",
+      "title": "Crompton 3W Star Deepglaze Round Led Downlighter"
+    },
+    {
+      "uid": "crompton--15w-star-deepglaze-round-led-downlighter",
+      "title": "Crompton 15W Star Deepglaze Round Led Downlighter"
+    },
+    {
+      "uid": "crompton--12w-star-deepglaze-round-led-downlighter",
+      "title": "Crompton 12W Star Deepglaze Round Led Downlighter"
+    },
+    {
+      "uid": "crompton--crompton-challenger-pro-plus_500w-1",
+      "title": "Crompton Crompton Challenger Pro Plus_500W"
+    },
+    {
+      "uid": "crompton--crompton-magpie-neo-plus_960w-1",
+      "title": "Crompton Crompton Magpie Neo Plus_960W"
+    },
+    {
+      "uid": "crompton--crompton-magpie-neo-plus_960w",
+      "title": "Crompton Crompton Magpie Neo Plus_960W"
+    },
+    {
+      "uid": "crompton--crompton-falcon_250w-1",
+      "title": "Crompton Crompton FALCON_250W"
+    },
+    {
+      "uid": "crompton--crompton-falcon_220w-1",
+      "title": "Crompton Crompton FALCON_220W"
+    },
+    {
+      "uid": "crompton--crompton-falcon_200w-1",
+      "title": "Crompton Crompton FALCON_200W"
+    },
+    {
+      "uid": "crompton--crompton-falcon_180w-1",
+      "title": "Crompton Crompton FALCON_180W"
+    },
+    {
+      "uid": "crompton--crompton-falcon_150w",
+      "title": "Crompton Crompton FALCON_150W"
+    },
+    {
+      "uid": "crompton--crompton-wanderer_30w",
+      "title": "Crompton Crompton Wanderer_30W"
+    },
+    {
+      "uid": "crompton--crompton-wanderer_25w",
+      "title": "Crompton Crompton Wanderer_25W"
+    },
+    {
+      "uid": "crompton--crompton-wanderer_20w",
+      "title": "Crompton Crompton Wanderer_20W"
+    },
+    {
+      "uid": "crompton--20w-slim-shakti-led-batten",
+      "title": "Crompton 20W Slim Shakti Led Batten"
+    },
+    {
+      "uid": "crompton--6w-rovello-led-table-lamp",
+      "title": "Crompton 6W Rovello Led Table Lamp"
+    },
+    {
+      "uid": "crompton--3w-galaxy-led-copper-light",
+      "title": "Crompton 3W Galaxy Led Copper Light"
+    },
+    {
+      "uid": "crompton--26w-b22-dynaray-led-bulb",
+      "title": "Crompton 26W B22 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--23w-b22-dynaray-led-bulb",
+      "title": "Crompton 23W B22 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--14w-e27-dynaray-led-bulb",
+      "title": "Crompton 14W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--12w-e27-dynaray-led-bulb-2",
+      "title": "Crompton 12W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--12w-e27-dynaray-led-bulb-1",
+      "title": "Crompton 12W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--12w-e27-dynaray-led-bulb",
+      "title": "Crompton 12W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--9w-e27-dynaray-led-bulb-2",
+      "title": "Crompton 9W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--9w-e27-dynaray-led-bulb-1",
+      "title": "Crompton 9W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--9w-e27-dynaray-led-bulb",
+      "title": "Crompton 9W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--7w-e27-dynaray-led-bulb-2",
+      "title": "Crompton 7W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--7w-e27-dynaray-led-bulb-1",
+      "title": "Crompton 7W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--7w-e27-dynaray-led-bulb",
+      "title": "Crompton 7W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--7w-b22-dynaray-led-bulb",
+      "title": "Crompton 7W B22 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--5w-e27-dynaray-led-bulb-2",
+      "title": "Crompton 5W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--5w-e27-dynaray-led-bulb-1",
+      "title": "Crompton 5W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--5w-e27-dynaray-led-bulb",
+      "title": "Crompton 5W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--5w-b22-dynaray-led-bulb",
+      "title": "Crompton 5W B22 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--3w-e27-dynaray-led-bulb-2",
+      "title": "Crompton 3W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--3w-e27-dynaray-led-bulb-1",
+      "title": "Crompton 3W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--3w-e27-dynaray-led-bulb",
+      "title": "Crompton 3W E27 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--3w-b22-dynaray-led-bulb",
+      "title": "Crompton 3W B22 Dynaray Led Bulb"
+    },
+    {
+      "uid": "crompton--10w-lyor-led-bulb",
+      "title": "Crompton 10W Lyor Led Bulb"
+    },
+    {
+      "uid": "crompton--18w-star-miranda-round-led-cob",
+      "title": "Crompton 18W Star Miranda Round Led COB"
+    },
+    {
+      "uid": "crompton--12w-star-miranda-round-led-cob",
+      "title": "Crompton 12W Star Miranda Round Led COB"
+    },
+    {
+      "uid": "crompton--9w-star-miranda-round-led-cob",
+      "title": "Crompton 9W Star Miranda Round Led COB"
+    },
+    {
+      "uid": "crompton--6w-star-miranda-round-led-cob",
+      "title": "Crompton 6W Star Miranda Round Led COB"
+    },
+    {
+      "uid": "crompton--3w-star-miranda-round-led-cob",
+      "title": "Crompton 3W Star Miranda Round Led COB"
+    },
+    {
+      "uid": "crompton--5w-star-cosmos-square-led-recess-panel",
+      "title": "Crompton 5W Star Cosmos Square Led Recess Panel"
+    },
+    {
+      "uid": "crompton--5w-star-cosmos-round-led-recess-panel",
+      "title": "Crompton 5W Star Cosmos Round Led Recess Panel"
+    },
+    {
+      "uid": "crompton--3w-star-slim-square-led-recesss-panel",
+      "title": "Crompton 3W Star Slim Square Led Recesss Panel"
+    },
+    {
+      "uid": "crompton--3w-star-slim-round-led-recesss-panel",
+      "title": "Crompton 3W Star Slim Round Led Recesss Panel"
+    },
+    {
+      "uid": "crompton--5w-star-lord-square-led-recess-panel",
+      "title": "Crompton 5W Star Lord Square Led Recess Panel"
+    },
+    {
+      "uid": "crompton--5w-star-lord-round-led-recess-panel",
+      "title": "Crompton 5W Star Lord Round Led Recess Panel"
+    },
+    {
+      "uid": "crompton--5w-star-lord-3-in-1-square-led-recess-panel",
+      "title": "Crompton 5W Star Lord 3-in-1 Square Led Recess Panel"
+    },
+    {
+      "uid": "crompton--9w-immensa-smart-bulb-with-music-mode-e27-base",
+      "title": "Crompton 9W Immensa Smart Bulb with Music Mode (E27 Base)"
+    },
+    {
+      "uid": "crompton--4-5-w-mushroom-shaped-e27-candle-lamp-ww",
+      "title": "Crompton 4.5 W Mushroom Shaped E27 Candle Lamp - WW"
+    },
+    {
+      "uid": "crompton--4-5-w-mushroom-shaped-e14-candle-lamp-ww",
+      "title": "Crompton 4.5 W Mushroom Shaped E14 Candle Lamp - WW"
+    },
+    {
+      "uid": "crompton--4-5w-clear-e27-candle-lamp",
+      "title": "Crompton 4.5W Clear E27 Candle Lamp"
+    },
+    {
+      "uid": "crompton--4-5w-clear-e14-candle-lamp",
+      "title": "Crompton 4.5W Clear E14 Candle Lamp"
+    },
+    {
+      "uid": "crompton--4-5w-frosted-e27-candle-lamp",
+      "title": "Crompton 4.5W Frosted E27 Candle Lamp"
+    },
+    {
+      "uid": "crompton--4-5w-frosted-e14-candle-lamp",
+      "title": "Crompton 4.5W Frosted E14 Candle Lamp"
+    },
+    {
+      "uid": "crompton--3w-frosted-e27-candle-lamp",
+      "title": "Crompton 3W Frosted E27 Candle Lamp"
+    },
+    {
+      "uid": "crompton--3w-frosted-e14-candle-lamp",
+      "title": "Crompton 3W Frosted E14 Candle Lamp"
+    },
+    {
+      "uid": "crompton--0-5w-night-buddy-lamp-charger",
+      "title": "Crompton 0.5W Night Buddy Lamp + Charger"
+    },
+    {
+      "uid": "crompton--7w-b22-colormatic-led-lamp",
+      "title": "Crompton 7W B22 Colormatic Led Lamp"
+    },
+    {
+      "uid": "crompton--crompton-radiant-dlx-water-heater",
+      "title": "Crompton Crompton Radiant DLX Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-festokwik-3000w-instant-water-heater",
+      "title": "Crompton Crompton FestoKwik, 3000W Instant Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-rapidjet-tds-2000-3000w-instant-water-heater-3-litre",
+      "title": "Crompton Crompton Rapidjet TDS 2000, 3000W Instant Water Heater 3 Litre"
+    },
+    {
+      "uid": "crompton--crompton-solarium-elite-3000w-instant-water-heater",
+      "title": "Crompton Crompton Solarium Elite, 3000W Instant Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-solarium-blaze-3000w-instant-water-heater",
+      "title": "Crompton Crompton Solarium Blaze, 3000W Instant Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-hydrajet-3-litre-3000w-instant-water-heater",
+      "title": "Crompton Crompton HydraJet 3-Litre, 3000W Instant Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-6litre-lpg-gas-water-heater",
+      "title": "Crompton Crompton 6Litre LPG Gas Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-hydrajet-5l-3000w-instant-water-heater",
+      "title": "Crompton Crompton HydraJet 5L, 3000W Instant Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-regera-storage-water-heater",
+      "title": "Crompton Crompton Regera Storage Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-juno-3-litre-3000w-instant-water-heater",
+      "title": "Crompton Crompton Juno 3-Litre, 3000W Instant Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-rapidjet-plus-6-l-5-star-rated-storage-water-heater-with-nano-polybond-technology-powerful-2000w-heating-element-rust-proof-body-and-advanced-3-level-safety-with-free-installation-and-connection-pipes-white",
+      "title": "Crompton Crompton Rapidjet Plus, 2000W Storage Water Heater - 6-L"
+    },
+    {
+      "uid": "crompton--crompton-solarium-qube-5-star-rated-storage-water-heater",
+      "title": "Crompton Crompton Solarium Qube, 2000W Storage Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-amica-classic-5-star-rated-storage-water-heater",
+      "title": "Crompton Crompton Amica Classic, 2000W Rated Storage Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-arno-supremus-5-star-rated-storage-water-heater",
+      "title": "Crompton Crompton Arno Supremus, 2000W Storage Water Heater"
+    },
+    {
+      "uid": "crompton--crompton-gracee-5-l-3000w-instant-water-heater-geyser-with-advanced-4-level-safety-and-rust-free-body-black",
+      "title": "Crompton Crompton Gracee, 3000W Instant Water Heater - 5-L"
+    },
+    {
+      "uid": "crompton--crompton-solarium-vogue-3-l-3000w-instant-water-heater-geyser-with-advanced-4-level-safety-and-rust-free-body-with-installation-pipe-white-and-turquoise-blue",
+      "title": "Crompton Crompton Solarium Vogue, 3000W Instant Water Heater - 3-L"
+    },
+    {
+      "uid": "crompton--crompton-solarium-neo-3-l-3000w-instant-water-heater-geyser-with-advanced-4-level-safety-and-rust-free-bodyivory",
+      "title": "Crompton Crompton Solarium Neo, 3000W Instant Water Heater 3-L"
+    },
+    {
+      "uid": "crompton--crompton-rapid-jet-1-l-4500w-instant-water-heater-with-advanced-4-level-safety-and-rust-free-body-white",
+      "title": "Crompton Crompton Rapid Jet, 4500W Instant Water Heater - 1-L"
+    },
+    {
+      "uid": "havells--orion-es-special-finish-ceiling-fan",
+      "title": "Havells Orion ES Special Finish Ceiling Fan"
+    },
+    {
+      "uid": "havells--octet-es-underlight-special-finish-ceiling-fan-fhcou1sbsn52",
+      "title": "Havells Octet ES Underlight Special Finish Ceiling Fan"
+    },
+    {
+      "uid": "havells--swing-lx-hs-table-fan-fhtsxhsppl16-c",
+      "title": "Havells Swing LX HS Table Fan"
+    },
+    {
+      "uid": "havells--swing-pro-hs-table-fan",
+      "title": "Havells Swing Pro HS Table Fan"
+    },
+    {
+      "uid": "havells--swing-lx-table-fan-fhtswlxwht16",
+      "title": "Havells Swing LX Table Fan"
+    },
+    {
+      "uid": "havells--swing-neo-ns-table-fan",
+      "title": "Havells Swing Neo NS Table Fan"
+    },
+    {
+      "uid": "havells--breezo-personal-fan-fhpbzstwht12",
+      "title": "Havells Breezo Personal Fan"
+    },
+    {
+      "uid": "havells--birdie-personal-fans-fhpbrstbgr09",
+      "title": "Havells Birdie Personal Fan"
+    },
+    {
+      "uid": "havells--crescent-personal-fan-fhpcrstyel10",
+      "title": "Havells Crescent Personal Fan"
+    },
+    {
+      "uid": "havells--i-cool-personal-fan-fhpicmxsbk07",
+      "title": "Havells I cool Personal Fan"
+    },
+    {
+      "uid": "havells--neutron-plus-glamtube-20-w",
+      "title": "Havells Neutron Plus Glamtube 20 W"
+    },
+    {
+      "uid": "havells--orion-plus-glamtube-20-w-6500-k-lhfaaypfnu1w020",
+      "title": "Havells Orion Plus Glamtube 20 W 6500 K"
+    },
+    {
+      "uid": "havells--rojo-led-lamp-7-w-b22",
+      "title": "Havells Rojo LED Lamp 7 W B22"
+    },
+    {
+      "uid": "havells--led-plus-9-w-e27-2s-lamp-v8i",
+      "title": "Havells LED Plus 9 W E27 CDL 2S LAMP V8i"
+    },
+    {
+      "uid": "havells--adore-led-plus-20-w-e27-v5",
+      "title": "Havells Adore LED Plus 20 W E27 CDL V5"
+    },
+    {
+      "uid": "havells--adore-led-2-8-w-e27-ww-candle-lamp",
+      "title": "Havells Adore LED 2.8 W E27 WW Candle Lamp"
+    },
+    {
+      "uid": "havells--adore-led-2-8-w-e14-ww-candle-lamp",
+      "title": "Havells Adore LED 2.8 W E14 WW Candle Lamp"
+    },
+    {
+      "uid": "havells--adore-led-28-w-b22-cdl-ball-lamp-lhldeuecml8r2x8-1",
+      "title": "Havells Adore LED 2.8 W B22 CDL Ball Lamp"
+    },
+    {
+      "uid": "havells--adore-led-28-w-e27-ww-ball-lamp-lhldeuhcmc8r2x8-1",
+      "title": "Havells Adore LED 2.8 W E27 WW Ball Lamp"
+    },
+    {
+      "uid": "havells--adore-led-2-8-w-e14-ww-ball-lamp",
+      "title": "Havells Adore LED 2.8 W E14 WW Ball Lamp"
+    },
+    {
+      "uid": "havells--nu-bulb-plus-b22-cdl-v2",
+      "title": "Havells NU Bulb Plus B22 CDL V2"
+    },
+    {
+      "uid": "havells--aura-10-w-twrgb-portable-lamp-ble-mesh-lhehdhp1nn1k010",
+      "title": "Havells Aura 10 W TW+RGB Portable Lamp BLE-MESH"
+    },
+    {
+      "uid": "havells--florid-ultra-led-lamp-36-w-b22-cdl-lhldeiedml8x36",
+      "title": "Havells Florid Ultra LED Lamp 36 W B22 CDL"
+    },
+    {
+      "uid": "havells--adore-led-28-w-b22-cdl-candle-lamp-lhldeueeml8r2x8-c",
+      "title": "Havells Adore LED Candle"
+    },
+    {
+      "uid": "havells--led-plus-5-w-e27-cdl-2s-lamp-v8i-lhldddhcib5r005",
+      "title": "Havells LED Plus 5 W E27 CDL 2S LAMP V8i"
+    },
+    {
+      "uid": "havells--nu-plus-15-w-b22-cdl-lamp-lhldeuecnl9r015",
+      "title": "Havells NU Plus 15 W B22 CDL Lamp"
+    },
+    {
+      "uid": "havells--lts-orbital-2-in-1-rechargeable-torch-4-w-lhextlp7bn1w004",
+      "title": "Havells LTS Orbital 2-IN-1 Rechargeable Torch 4 W"
+    },
+    {
+      "uid": "havells--lts-ranger-nxt-3-w-lhextmpggn1r003",
+      "title": "Havells LTS Ranger NXT 3 W"
+    },
+    {
+      "uid": "havells--lts-twin-ray-35-w-rechargeable-torch-lhexthp7bn1d3x5",
+      "title": "Havells LTS Twin Ray 3.5 W Rechargeable Torch"
+    },
+    {
+      "uid": "havells--lts-acqualite-32-w-lhexajp7cn1b3x2",
+      "title": "Havells LTS Acqualite 3.2 W"
+    },
+    {
+      "uid": "havells--lts-glow-neo-3-w-led-torch-lhextjpgnn1w003",
+      "title": "Havells LTS Glow NEO 3 W LED Torch"
+    },
+    {
+      "uid": "havells--lts-beam-mini-nxt-10-lhexaupgcn1k001",
+      "title": "Havells LTS Beam Mini NXT 10"
+    },
+    {
+      "uid": "havells--lts-sleekbeam-neo-p",
+      "title": "Havells LTS Sleekbeam NEO P 400 mm 1.5 W"
+    },
+    {
+      "uid": "havells--lts-sleekbeam-plus-l",
+      "title": "Havells LTS Sleekbeam Plus L 260 mm 1.5 W"
+    },
+    {
+      "uid": "havells--lts-metallique-3-w-metal-torch-lhextlpgcn1k003",
+      "title": "Havells LTS Metallique 3 W Metal Torch"
+    },
+    {
+      "uid": "havells--lts-pathfinder-ultra-3-w-lhextnpgcn1r003",
+      "title": "Havells LTS Pathfinder ULTRA 3 W"
+    },
+    {
+      "uid": "havells--lucento-table-lamp-45-w-lhextkp7cn1w4x5",
+      "title": "Havells Lucento Table Lamp 4.5 W"
+    },
+    {
+      "uid": "havells--lts-colorix-rechargeable-led-torch",
+      "title": "Havells LTS Colorix Rechargeable LED Torch"
+    },
+    {
+      "uid": "havells--lts-moderna-b22-lamp-base-lhfxbzn1tn1r006",
+      "title": "Havells LTS Moderna B22 Lamp Base"
+    },
+    {
+      "uid": "havells--lts-moderna-plus-3-in-1-lhexbzpncn1r006",
+      "title": "Havells LTS  Moderna Plus 3 IN 1"
+    },
+    {
+      "uid": "havells--sparkline-neo-05-w-led-torch-lhexthpgtn1b0x5",
+      "title": "Havells Sparkline Neo 0.5 W LED Torch"
+    },
+    {
+      "uid": "havells--sparkline-mini-neo-05-w-led-torch-lhexthpftn1b0x5",
+      "title": "Havells Sparkline Mini Neo 0.5 W LED Torch"
+    },
+    {
+      "uid": "havells--callux-16-w-tw-ceiling-spot-ble-mesh-lhehdhp1nn1w016",
+      "title": "Havells Callux 16 W TW Ceiling Spot BLE-MESH"
+    },
+    {
+      "uid": "havells--orion-40-w-twrgb-projector-ble-mesh-lhehdhp1nn1k040",
+      "title": "Havells Orion 40 W TW+RGB Projector BLE-MESH"
+    },
+    {
+      "uid": "havells--lumosphere-10-w-twrgb-projectorble-mesh-lhehdgp1nn1k010",
+      "title": "Havells Lumosphere 10 W TW+RGB Projectorble-MESH"
+    },
+    {
+      "uid": "havells--omniglow-25-w-twrgb-wall-light-ble-mesh-lhehdgp1nn1k2x5",
+      "title": "Havells Omniglow 2.5 W TW+RGB Wall Light BLE-MESH"
+    },
+    {
+      "uid": "orient--pooch-personal-fan",
+      "title": "Orient Electric Pooch Rechargeable Personal Table Fan"
+    },
+    {
+      "uid": "orient--lumo-personal-fan",
+      "title": "Orient Electric Lumo Personal Fan"
+    },
+    {
+      "uid": "orient--ifloat-neu-bldc-ceiling-fan",
+      "title": "Orient Electric IFloat Neu BLDC Ceiling Fan"
+    },
+    {
+      "uid": "orient--ecotech-swift-bldc-ceiling-fan-with-remote-5-star-powerful-swiftflow-380-rpm",
+      "title": "Orient Electric Ecotech Swift BLDC Ceiling Fan | 5 Star | Powerful Airflow 380 RPM |"
+    },
+    {
+      "uid": "orient--ecotech-air-bldc-ceiling-fan-with-remote-5-star-powerful-airflow-380-rpm",
+      "title": "Orient Electric Ecotech Air BLDC Ceiling Fan | 5 Star | Powerful Airflow 380 RPM |"
+    },
+    {
+      "uid": "orient--cedar-bldc-pro-ceiling-fan-with-remote",
+      "title": "Orient Electric Cedar BLDC Pro Ceiling Fan with Remote"
+    },
+    {
+      "uid": "orient--ballerina-bldc-pro-ceiling-fan-with-underlight-remote",
+      "title": "Orient Electric Ballerina BLDC Pro Ceiling Fan with Underlight & Remote"
+    },
+    {
+      "uid": "orient--quasar-ornamental-premium-ceiling-fan-4-blade-kitchen-fan-2-year-warranty",
+      "title": "Orient Electric Quasar Ornamental Premium Ceiling Fan | 4 Blade Kitchen Fan | 2 Year Warranty"
+    },
+    {
+      "uid": "orient--orient-vento-7-personal-fan-with-light-rechargeable-fan",
+      "title": "Orient Electric Orient Vento 7\" Personal Fan with Light | Rechargeable Fan"
+    },
+    {
+      "uid": "orient--orient-elfie-5-compact-size-personal-fan-chargeable-portable-fan",
+      "title": "Orient Electric Orient Elfie 5\" Compact Size Personal Fan | Chargeable Portable Fan | Mini Handheld"
+    },
+    {
+      "uid": "orient--orbis-5-personal-fan-360-degree-rotation-chargeable-portable-fan",
+      "title": "Orient Electric Orbis 5'' Personal Fan | 360 Degree Rotation | Chargeable Portable Fan"
+    },
+    {
+      "uid": "orient--400-mm-stand-35-high-speed-stand-fan",
+      "title": "Orient Electric 400 MM Stand 35 High Speed Stand Fan"
+    },
+    {
+      "uid": "orient--400-mm-stand-35-pedestal-fan",
+      "title": "Orient Electric 400 MM Stand 35 Pedestal Fan"
+    },
+    {
+      "uid": "orient--500mm-fx-ii-farrata-pedestal-fan-heavy-duty-2-year-warranty",
+      "title": "Orient Electric 500MM FX II Farrata Pedestal Fan | Heavy Duty | 2-Year Warranty"
+    },
+    {
+      "uid": "orient--aeroquiet-neu-noiseless-ceiling-fan",
+      "title": "Orient Electric Aeroquiet Neu Noiseless Ceiling Fan"
+    },
+    {
+      "uid": "orient--i-tome-pro-bldc-ceiling-fan",
+      "title": "Orient Electric I Tome Pro BLDC Ceiling Fan"
+    },
+    {
+      "uid": "orient--apex-prime-bee-star-rated-ceiling-fan",
+      "title": "Orient Electric Apex Prime Ceiling Fan | 5-Year Warranty"
+    },
+    {
+      "uid": "orient--i-tome-smart-iot-enabled-bldc-ceiling-fan",
+      "title": "Orient Electric I Tome Smart BLDC Ceiling Fan | 3-Year Warranty"
+    },
+    {
+      "uid": "orient--400mm-stand-82-high-speed-pedestal-fan",
+      "title": "Orient Electric 400MM Stand 82 High Speed Pedestal Fan"
+    },
+    {
+      "uid": "orient--1320mm-aerostorm-premium-ceiling-fan",
+      "title": "Orient Electric Aerostorm Premium Ceiling Fan | 2-year Warranty"
+    },
+    {
+      "uid": "orient--stand-37-high-speed-400mm-pedestal-fan",
+      "title": "Orient Electric Stand 37 High Speed 400MM Pedestal Fan"
+    },
+    {
+      "uid": "orient--wall-44-with-ctx-technology-wall-fan",
+      "title": "Orient Electric Wall 44 with CTX Technology Silent Wall Fan"
+    },
+    {
+      "uid": "orient--rapid-air-1200mm-high-speed-ceiling-fan",
+      "title": "Orient Electric Rapid Air High Speed Ceiling Fan | 2-Year Warranty"
+    },
+    {
+      "uid": "orient--retro-t16hs-400mm-high-speed-table-fan-rubbed-bronze",
+      "title": "Orient Electric Retro T16HS 400mm High-Speed Table Fan (Rubbed Bronze)"
+    },
+    {
+      "uid": "orient--jazz-art-1200-mm-decorative-ceiling-fan",
+      "title": "Orient Electric Jazz Art 1200 mm Decorative Ceiling Fan | 2-Year Warranty"
+    },
+    {
+      "uid": "orient--retro-t12-300mm-high-speed-table-fan-rubbed-bronze",
+      "title": "Orient Electric Retro T12 300mm High-Speed Table Fan (Rubbed Bronze)"
+    },
+    {
+      "uid": "orient--spectra-with-remote-underlight-ceiling-fan",
+      "title": "Orient Electric Spectra with Remote & Underlight Ceiling Fan"
+    },
+    {
+      "uid": "orient--arc-rechargeable-led-table-lamp",
+      "title": "Orient Electric Arc Rechargeable LED Table Lamp"
+    },
+    {
+      "uid": "orient--litpod-rechargeable-emergency-lantern",
+      "title": "Orient Electric Litpod Rechargeable Emergency Lantern"
+    },
+    {
+      "uid": "orient--litpac-emergency-rechargeable-led-lantern",
+      "title": "Orient Electric Litpac Emergency Rechargeable LED Lantern"
+    },
+    {
+      "uid": "orient--orismart-wifi-enabled-16-million-colours-led-bulb",
+      "title": "Orient Electric Orismart WiFi Enabled 16 Million Colours LED Bulb"
+    },
+    {
+      "uid": "orient--cosmos-led-desk-lamp-3-color-option",
+      "title": "Orient Electric Cosmo LED Desk Lamp (3 Color Option)"
+    },
+    {
+      "uid": "orient--prism-rainbow-cob-led-downlighter",
+      "title": "Orient Electric Prism Rainbow COB LED Downlighter"
+    },
+    {
+      "uid": "orient--flexi-led-spot-light",
+      "title": "Orient Electric Flexi LED Spot Light"
+    },
+    {
+      "uid": "orient--venus-led-downlighter-ldrvs",
+      "title": "Orient Electric Venus LED Downlighter LDRVS"
+    },
+    {
+      "uid": "orient--powerline-spxt-double-side-connection-led-tubelight",
+      "title": "Orient Electric Powerline SPXT (Double Side Connection) LED Tubelight"
+    },
+    {
+      "uid": "orient--sleekline-double-side-connection-led-tubelight",
+      "title": "Orient Electric Sleekline (Double Side Connection) LED Tubelight"
+    },
+    {
+      "uid": "orient--eternal-clear-led-candle-lamp",
+      "title": "Orient Electric Eternal Clear LED Candle Lamp"
+    },
+    {
+      "uid": "orient--eternal-pigmy-led-lamp",
+      "title": "Orient Electric Eternal Pigmy LED Lamp"
+    },
+    {
+      "uid": "orient--eternal-led-candle-lamp",
+      "title": "Orient Electric Eternal LED Candle Lamp"
+    },
+    {
+      "uid": "orient--deco-shine-led-night-lamp",
+      "title": "Orient Electric Deco Shine LED Night Lamp"
+    },
+    {
+      "uid": "orient--deco-plug-n-play-led-0-5w-night-lamp-2-pin-socket-easy-plug-in-glare-free-brightness",
+      "title": "Orient Electric Deco Plug n Play LED 0.5W Night Lamp | 2 Pin Socket Easy Plug In | Glare-free Brightness"
+    },
+    {
+      "uid": "orient--crescent-emergency-led-desk-lamp",
+      "title": "Orient Electric Crescent Emergency LED Desk Lamp"
+    },
+    {
+      "uid": "orient--joylite-crystal-led-curtain-light-for-home",
+      "title": "Orient Electric Joylite Crystal LED Curtain Light for Home"
+    },
+    {
+      "uid": "orient--joylite-kuber-yantra-ganesh-ji-curtain-light",
+      "title": "Orient Electric Joylite Kuber Yantra Ganesh Ji Curtain Light"
+    },
+    {
+      "uid": "orient--joylite-kuber-yantra-swastik-curtain-light",
+      "title": "Orient Electric Joylite Kuber Yantra Swastik Curtain Light"
+    },
+    {
+      "uid": "orient--joylite-toran-led-curtain-light-for-home",
+      "title": "Orient Electric Joylite Toran LED Curtain Light for Home"
+    },
+    {
+      "uid": "orient--joylite-mannat-ball-led-curtain-light-for-home",
+      "title": "Orient Electric Joylite Mannat Ball LED Curtain Light for Home"
+    },
+    {
+      "uid": "orient--joylite-star-led-curtain-light-for-home",
+      "title": "Orient Electric Joylite Star LED Curtain Light for Home"
+    },
+    {
+      "uid": "orient--joylite-diya-led-curtain-light-for-home",
+      "title": "Orient Electric Joylite Diya LED Curtain Light for Home"
+    },
+    {
+      "uid": "orient--joylite-rosary-10m-led-string-light-for-home-decoration",
+      "title": "Orient Electric Joylite Rosary 10M LED String Light for Home Decoration"
+    },
+    {
+      "uid": "philips--philips-astra-line-led-tube-light-copy",
+      "title": "Philips Philips Astra Line 9W LED Batten"
+    },
+    {
+      "uid": "philips--philips-panache-pendant-light",
+      "title": "Philips Philips Panache Pendant Light"
+    },
+    {
+      "uid": "philips--philips-smart-earthview-led-surface-downlight",
+      "title": "Philips Philips Smart EarthView LED Surface Downlight"
+    },
+    {
+      "uid": "philips--philips-neos-wall-light",
+      "title": "Philips Philips neos wall light"
+    },
+    {
+      "uid": "philips--philips-voyager-rechargeable-lantern-copy",
+      "title": "Philips Philips Rover Mini Rechargeable Lantern"
+    },
+    {
+      "uid": "philips--philips-phoebus-solar-rechargeable-lantern-copy",
+      "title": "Philips Philips Voyager Rechargeable Lantern"
+    },
+    {
+      "uid": "philips--philips-smart-moonview-led-surface-downlight",
+      "title": "Philips Philips Smart MoonView LED Surface Downlight"
+    },
+    {
+      "uid": "philips--philips-eyecomfort-led-desk-lamp",
+      "title": "Philips Philips EyeComfort Sky LED Desk Lamp"
+    },
+    {
+      "uid": "philips--philips-eyecomfort-orbit-led-desk-lamp-copy",
+      "title": "Philips Philips EyeComfort Orbit LED Desk Lamp"
+    },
+    {
+      "uid": "philips--philips-foreglow-led-wall-light",
+      "title": "Philips Philips ForeGlow LED Wall Light"
+    },
+    {
+      "uid": "philips--philips-smart-wi-fi-led-vega-wall-light",
+      "title": "Philips Philips Smart Wi-Fi LED Vega Wall Light"
+    },
+    {
+      "uid": "philips--philips-wi-fi-ebony-pro-rgbic-gradient-wall-light",
+      "title": "Philips Philips Wi-Fi Ebony Pro RGBIC Gradient Wall Light"
+    },
+    {
+      "uid": "philips--philips-filament-led-bulb-e27-base-a60-bulb",
+      "title": "Philips Philips Filament LED Bulb (E27 base, A60 bulb)"
+    },
+    {
+      "uid": "philips--philips-wi-fi-remote-control-with-batteries",
+      "title": "Philips Philips Wi-Fi Remote Control with Batteries"
+    },
+    {
+      "uid": "philips--philips-striker-table-lamp",
+      "title": "Philips Philips Striker Table Lamp"
+    },
+    {
+      "uid": "philips--philips-smart-wifi-squire-table-lamp-wiz-connected",
+      "title": "Philips Philips Smart WiFi Esquire table lamp (Wiz Connected)"
+    },
+    {
+      "uid": "philips--philips-smart-wifi-led-hero-desk-lamp",
+      "title": "Philips Philips Smart WiFi LED Hero Desk lamp (Wiz Connected)"
+    },
+    {
+      "uid": "philips--philips-icicle-table-lamp",
+      "title": "Philips Philips Icicle Table Lamp"
+    },
+    {
+      "uid": "philips--philips-ceramique-3-head-table-lamp",
+      "title": "Philips Philips Ceramique 3 Head Table Lamp"
+    },
+    {
+      "uid": "philips--philips-gaze-table-lamp",
+      "title": "Philips Philips Gaze Table Lamp"
+    },
+    {
+      "uid": "philips--philips-marathon-rope-light-accessory-gen-3",
+      "title": "Philips Philips Marathon Rope Light Accessory – Gen 3"
+    },
+    {
+      "uid": "philips--philips-picture-light",
+      "title": "Philips Philips Picture light"
+    },
+    {
+      "uid": "philips--philips-webber-hanging-kit",
+      "title": "Philips Philips Webber Magnetic Track Hanging Kit"
+    },
+    {
+      "uid": "philips--philips-webber-connection-kit",
+      "title": "Philips Philips Webber Connection Kit"
+    },
+    {
+      "uid": "philips--philips-stellar-bright-led-t-bulb",
+      "title": "Philips Philips Stellar Bright LED T-Bulb"
+    },
+    {
+      "uid": "philips--philips-delight-wall-light",
+      "title": "Philips Philips Delight Wall light"
+    },
+    {
+      "uid": "philips--philips-ceilingsecure-led-downlight",
+      "title": "Philips Philips CeilingSecure LED Downlight"
+    },
+    {
+      "uid": "philips--philips-twinglow-downlighter",
+      "title": "Philips Philips TwinGlow LED Downlight"
+    },
+    {
+      "uid": "philips--philips-twin-glow-smart-wi-fi-led-downlights",
+      "title": "Philips Philips Twin Glow Smart Wi-Fi LED Downlights"
+    },
+    {
+      "uid": "philips--philips-superslim-wiz-smart-ceiling-light",
+      "title": "Philips Philips SuperSlim WiZ Smart Ceiling Light"
+    },
+    {
+      "uid": "philips--philips-rune-wiz-smart-ceiling-light",
+      "title": "Philips Philips Rune WiZ Smart Ceiling Light"
+    },
+    {
+      "uid": "philips--philips-wi-fi-gradient-light-bars",
+      "title": "Philips Philips Wi-Fi Gradient Light Bars"
+    },
+    {
+      "uid": "philips--philips-ujjwal-plus-rechargeable-emergency-light",
+      "title": "Philips Philips Ujjwal Plus Rechargeable Emergency light"
+    },
+    {
+      "uid": "philips--philips-slimray-rechargeable-emergency-light",
+      "title": "Philips Philips SlimRay Rechargeable Emergency light"
+    },
+    {
+      "uid": "philips--philips-cyra-rechargeable-emergency-light",
+      "title": "Philips Philips Cyra Rechargeable Emergency light"
+    },
+    {
+      "uid": "philips--philips-wiz-floor-lamp",
+      "title": "Philips Philips Smart Wi-Fi Floor Lamp"
+    },
+    {
+      "uid": "philips--philips-moonglade-picture-light",
+      "title": "Philips Philips Moonglade Picture Light"
+    },
+    {
+      "uid": "philips--philips-g9-led-bulb",
+      "title": "Philips Philips G9 LED light bulb"
+    },
+    {
+      "uid": "philips--philips-wiz-smart-plug",
+      "title": "Philips Philips Wiz Smart Plug"
+    },
+    {
+      "uid": "philips--philips-icicle-chandelier",
+      "title": "Philips Philips Icicle Chandelier"
+    },
+    {
+      "uid": "philips--philips-wifi-light-theatre-kit",
+      "title": "Philips Philips WiFi LightTheatre Kit"
+    },
+    {
+      "uid": "philips--philips-air-desk-light",
+      "title": "Philips Philips Air Desk light"
+    },
+    {
+      "uid": "philips--philips-muziris-picture-light",
+      "title": "Philips Philips Muziris Picture light"
+    },
+    {
+      "uid": "philips--philips-skyy-desk-light",
+      "title": "Philips Philips Skyy Rechargeable Desk light"
+    },
+    {
+      "uid": "philips--philips-spark-emergency-light",
+      "title": "Philips Philips Spark Rechargeable Emergency light"
+    },
+    {
+      "uid": "polycab--p-53979",
+      "title": "Polycab SP06 600mm Sweep 4 Aluminium Blades Brown"
+    },
+    {
+      "uid": "polycab--p-53971",
+      "title": "Polycab SP01 1200mm Sweep 3 Aluminium Blades Antique Copper Rosewood"
+    },
+    {
+      "uid": "polycab--p-53972",
+      "title": "Polycab SP01 1200mm Sweep 3 Aluminium Blades Antique Brass Darkwood"
+    },
+    {
+      "uid": "polycab--p-53973",
+      "title": "Polycab SP01 1200mm Sweep 3 Aluminium Blades White"
+    },
+    {
+      "uid": "polycab--p-53837",
+      "title": "Polycab Aery HS Table Fan 400mm Sweep 3 Blades White (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53838",
+      "title": "Polycab Aery HS Table Fan 400mm Sweep 3 Blades Sky Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53842",
+      "title": "Polycab Aery HS Table Fan 400mm Sweep 3 Blades Turquoise Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53843",
+      "title": "Polycab Aery HS Table Fan 400mm Sweep 3 Blades Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53834",
+      "title": "Polycab Aery Table Fan 400mm Sweep 3 Blades Sky Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53835",
+      "title": "Polycab Aery Table Fan 400mm Sweep 3 Blades White (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53841",
+      "title": "Polycab Aery Table Fan 400mm Sweep 3 Blades Turquoise Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53844",
+      "title": "Polycab Aery Table Fan 400mm Sweep 3 Blades Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53832",
+      "title": "Polycab Elanza 400mm Sweep 5 Blades White Grey (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53854",
+      "title": "Polycab Aery HS Wall Fan 400mm Sweep 3 Blades Turquoise Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53856",
+      "title": "Polycab Aery HS Wall Fan 400mm Sweep 3 Blades Sky Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53857",
+      "title": "Polycab Aery HS Wall Fan 400mm Sweep 3 Blades Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53850",
+      "title": "Polycab Aery Wall Fan 400mm Sweep 3 Blades White (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53853",
+      "title": "Polycab Aery Wall Fan 400mm Sweep 3 Blades Turquoise Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53855",
+      "title": "Polycab Aery Wall Fan 400mm Sweep 3 Blades Sky Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53860",
+      "title": "Polycab Aery Wall Fan 400mm Sweep 3 Blades Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53777",
+      "title": "Polycab Marvo Anti-Mosquito Pedestal Fan 400mm Sweep 3 Blades Sky Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53769",
+      "title": "Polycab Aery HS Pedestal Fan 400mm Sweep 3 Blades Turquoise Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53770",
+      "title": "Polycab Aery HS Pedestal Fan 400mm Sweep 3 Blades Sky Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53771",
+      "title": "Polycab Aery HS Pedestal Fan 400mm Sweep 3 Blades Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53765",
+      "title": "Polycab Aery Pedestal Fan 400mm Sweep 3 Blades Sky Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53774",
+      "title": "Polycab Aery Pedestal Fan 400mm Sweep 3 Blades Blue (With Copper Motor)"
+    },
+    {
+      "uid": "polycab--p-53801",
+      "title": "Polycab Heavy Duty Exhaust 450mm Sweep Silver Grey Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-53802",
+      "title": "Polycab Heavy Duty Exhaust 380mm Sweep Silver Grey Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-53803",
+      "title": "Polycab Heavy Duty Exhaust 300mm Sweep Silver Grey Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-53806",
+      "title": "Polycab Freshner ES Metal 225mm Sweep Gold Black Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-60749",
+      "title": "Polycab PRIME BLDC 150mm Sweep Classic White Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-60751",
+      "title": "Polycab PRIME PREMIUM 150mm Sweep Classic White Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-53805",
+      "title": "Polycab Freshner ES Metal 300mm Sweep Gold Black Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-53793",
+      "title": "Polycab PRIME 150mm Sweep Wood Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-53824",
+      "title": "Polycab PRIME 150mm Sweep Steel Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-53809",
+      "title": "Polycab Freshner ES Metal 150mm Sweep Gold Black Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-53808",
+      "title": "Polycab Freshner ES Metal Reversible 225mm Sweep Gold Black Exhaust Fan"
+    },
+    {
+      "uid": "polycab--p-53759",
+      "title": "Polycab Superb Air Circulator Pedestal Fan 450mm Sweep 3 Blades"
+    },
+    {
+      "uid": "polycab--p-53789",
+      "title": "Polycab FARRATA Fan 500mm Sweep 3 Blades Black Chrome"
+    },
+    {
+      "uid": "polycab--p-60753",
+      "title": "Polycab NEO Fan 500mm Sweep 3 Blades Grey"
+    },
+    {
+      "uid": "polycab--p-53783",
+      "title": "Polycab FARRATA BLACK CHROME II Fan 500mm Sweep 3 Blades Black Chrome"
+    },
+    {
+      "uid": "polycab--p-53791",
+      "title": "Polycab NEO Fan 400mm Sweep 3 Blades Black"
+    },
+    {
+      "uid": "polycab--p-54200",
+      "title": "Polycab Aelius Nxt-G LED T-Lamp 60 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54191",
+      "title": "Polycab Aelius Nxt-G LED T-Lamp 50 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54192",
+      "title": "Polycab Aelius Nxt-G LED T-Lamp 50 Wattage 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54190",
+      "title": "Polycab Aelius Nxt-G LED T-Lamp 40 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54203",
+      "title": "Polycab Aelius Dimmable Emergency LED Bulb 12 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54202",
+      "title": "Polycab Aelius Dimmable Emergency LED Bulb 9 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54189",
+      "title": "Polycab Aelius Nxt-G LED T-Lamp 30 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54194",
+      "title": "Polycab Aelius Nxt-G LED T-Lamp 23 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54198",
+      "title": "Polycab Aelius Nxt-G LED T-Lamp 23 Wattage 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54199",
+      "title": "Polycab Aelius Nxt-G LED T-Lamp 20 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54218",
+      "title": "Polycab NXT-G LED BULB 23 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54195",
+      "title": "Polycab Aelius Nxt-G LED T-Lamp 18 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54089",
+      "title": "Polycab Pearl COB Swivel LED Downlight 36 Wattage Round 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54090",
+      "title": "Polycab Pearl COB Swivel LED Downlight 36 Wattage Round 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54091",
+      "title": "Polycab Pearl COB Swivel LED Downlight 36 Wattage Round 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54086",
+      "title": "Polycab Pearl COB Swivel LED Downlight 24 Wattage Round 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54087",
+      "title": "Polycab Pearl COB Swivel LED Downlight 24 Wattage Round 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54088",
+      "title": "Polycab Pearl COB Swivel LED Downlight 24 Wattage Round 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54083",
+      "title": "Polycab Pearl COB Swivel LED Downlight 18 Wattage Round 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54084",
+      "title": "Polycab Pearl COB Swivel LED Downlight 18 Wattage Round 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54085",
+      "title": "Polycab Pearl COB Swivel LED Downlight 18 Wattage Round 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54080",
+      "title": "Polycab Pearl COB Swivel LED Downlight 15 Wattage Round 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54081",
+      "title": "Polycab Pearl COB Swivel LED Downlight 15 Wattage Round 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54082",
+      "title": "Polycab Pearl COB Swivel LED Downlight 15 Wattage Round 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54466",
+      "title": "Polycab Polycab Deep Drawn 2*2 LED Panel 36 Wattage Square 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54469",
+      "title": "Polycab Polycab Deep Drawn 2*2 LED Panel 36 Wattage Square 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54439",
+      "title": "Polycab Polycab Scintillate Slim Aluminium LED Panel Light 22 Wattage Square 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54440",
+      "title": "Polycab Polycab Scintillate Slim Aluminium LED Panel Light 22 Wattage Round 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54442",
+      "title": "Polycab Polycab Scintillate Slim Aluminium LED Panel Light 22 Wattage Round 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54443",
+      "title": "Polycab Polycab Scintillate Slim Aluminium LED Panel Light 22 Wattage Round 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54449",
+      "title": "Polycab Polycab Scintillate Slim Aluminium LED Panel Light 22 Wattage Square 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54451",
+      "title": "Polycab Polycab Scintillate Slim Aluminium LED Panel Light 22 Wattage Square 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54387",
+      "title": "Polycab Polycab 3-in-1 CCT Tri-color Panel LED Light 20 Wattage Square 3-in-1 CCT"
+    },
+    {
+      "uid": "polycab--p-54388",
+      "title": "Polycab Polycab 3-in-1 CCT Tri-color Panel LED Light 20 Wattage Round 3-in-1 CCT"
+    },
+    {
+      "uid": "polycab--p-54318",
+      "title": "Polycab Polycab Scintillate PC Frameless LED Panel 24 Wattage Round 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54322",
+      "title": "Polycab Polycab Scintillate PC Frameless LED Panel 24 Wattage Square 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54161",
+      "title": "Polycab High Wattage LED Batten 40 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54160",
+      "title": "Polycab High Wattage LED Batten 30 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54156",
+      "title": "Polycab 3-in-1 CCT LED Batten 20 Wattage 3-in-1 CCT, Cool White/Warm White/Daylight White"
+    },
+    {
+      "uid": "polycab--p-54158",
+      "title": "Polycab High Wattage LED Batten 24 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54159",
+      "title": "Polycab High Wattage LED Batten 24 Wattage 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54152",
+      "title": "Polycab Neo Slim Batten 20 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54153",
+      "title": "Polycab Neo Slim Batten 20 Wattage 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54154",
+      "title": "Polycab Neo Slim Batten 20 Wattage 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54163",
+      "title": "Polycab Neo Slim LED Batten , 2ft 20 Wattage 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54164",
+      "title": "Polycab Neo Slim LED Batten , 2ft 20 Wattage 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54165",
+      "title": "Polycab Neo Slim LED Batten , 2ft 20 Wattage 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54256",
+      "title": "Polycab Gleer LED Flood Light 100 Wattage Surface Mount Type 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54257",
+      "title": "Polycab Gleer LED Flood Light 100 Wattage Surface Mount Type 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54258",
+      "title": "Polycab Gleer LED Flood Light 100 Wattage Surface Mount Type 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54253",
+      "title": "Polycab Gleer LED Flood Light 50 Wattage Surface Mount Type 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54254",
+      "title": "Polycab Gleer LED Flood Light 50 Wattage Surface Mount Type 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54255",
+      "title": "Polycab Gleer LED Flood Light 50 Wattage Surface Mount Type 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54244",
+      "title": "Polycab Vigaro Opal LED Gate Light 24 Wattage Pole Mount Type 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54245",
+      "title": "Polycab Vigaro Opal LED Gate Light 24 Wattage Pole Mount Type 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54246",
+      "title": "Polycab Vigaro Opal LED Gate Light 24 Wattage Pole Mount Type 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54274",
+      "title": "Polycab 120 LED ROPE LIGHT 360 Wattage Surface Mount Type 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54275",
+      "title": "Polycab 120 LED ROPE LIGHT 360 Wattage Surface Mount Type 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54276",
+      "title": "Polycab 120 LED ROPE LIGHT 360 Wattage Surface Mount Type 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-54277",
+      "title": "Polycab 120 LED ROPE LIGHT 360 Wattage Surface Mount Type Red"
+    },
+    {
+      "uid": "polycab--p-54278",
+      "title": "Polycab 120 LED ROPE LIGHT 360 Wattage Surface Mount Type Green"
+    },
+    {
+      "uid": "polycab--p-54279",
+      "title": "Polycab 120 LED ROPE LIGHT 360 Wattage Surface Mount Type Blue"
+    },
+    {
+      "uid": "polycab--p-54280",
+      "title": "Polycab 120 LED ROPE LIGHT 360 Wattage Surface Mount Type Pink"
+    },
+    {
+      "uid": "polycab--p-54281",
+      "title": "Polycab 120 LED ROPE LIGHT 360 Wattage Surface Mount Type Amber"
+    },
+    {
+      "uid": "polycab--p-54282",
+      "title": "Polycab 120 LED ROPE LIGHT 360 Wattage Surface Mount Type Ice Blue"
+    },
+    {
+      "uid": "polycab--p-54283",
+      "title": "Polycab 120 LED ROPE LIGHT 200 Wattage Surface Mount Type 6500K, Cool White"
+    },
+    {
+      "uid": "polycab--p-54284",
+      "title": "Polycab 120 LED ROPE LIGHT 200 Wattage Surface Mount Type 4000K, Daylight/Neutral White"
+    },
+    {
+      "uid": "polycab--p-54285",
+      "title": "Polycab 120 LED ROPE LIGHT 200 Wattage Surface Mount Type 3000K, Warm White"
+    },
+    {
+      "uid": "polycab--p-64514",
+      "title": "Polycab Gliss COB Surface Spot Light RD (BLACK HSG & RG REFLTR)"
+    },
+    {
+      "uid": "crompton--crompton-trio-bulb",
+      "title": "Crompton Crompton Trio Bulb"
+    },
+    {
+      "uid": "orient--stallion-1320mm-wide-tipped-and-electroplated-finish-blades-ceiling-fan",
+      "title": "Orient Electric Stallion 4 Blade Ceiling Fan"
+    }
+  ],
+  "removedImages": {
+    "crompton--crompton-high-speed-hs-ceiling-fan": [
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MBROWNPL2.jpg?v=1772789665",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MBROWNPL5.jpg?v=1772789664",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MIVORYPL5_9fb8443b-614d-4cda-8999-6a2f59b9d0b1.jpg?v=1772789665",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MIVORYPL3_415853a0-98fe-49f8-86a0-fd5ae62eadfc.jpg?v=1772789665",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MIVORYPL2.jpg?v=1772789664",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MIVORYPL4_e6d9599a-9ceb-4f5b-99ee-19e7a2298b19.jpg?v=1772789664",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MIVORYPL1.jpg?v=1772789665",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MOPALWHITEPL4.jpg?v=1772789664",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MOPALWHITEPL5_074b44bc-5d31-4836-939a-e3187317f425.jpg?v=1772789664",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MOPALWHITEPL3_ff7cff89-b858-4ffc-be3d-6d3f261b72f7.jpg?v=1772789665",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MOPALWHITEPL2_ea77596f-a598-48d6-97fd-3e467e307e08.jpg?v=1772789664",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MOPALWHITEPL1_1c291fb4-3b61-422a-a1e9-dc5355bb0402.jpg?v=1772789664",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MBROWNPL4_db899b9c-dd58-4e15-af32-cb0239320d07.jpg?v=1772789664",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MBROWNPL3_0530df97-7637-483e-86df-89c31b7e3c63.jpg?v=1772789665",
+      "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/HISPEEDHS1.2MBROWNPL1.jpg?v=1772789665"
+    ],
+    "atomberg--atomberg-renesa-prime-crest-ceiling-fan": [
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01A_8c19f735-266d-4e53-8cef-4e27ca6f369b.png?v=1787740747",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01A_6b4ca2d9-eea8-4ffd-b6c3-32195c58ed3b.png?v=1787742661",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_c2b69f0c-283a-4ce1-b03d-2ae8398ce696.png?v=1787743016",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_ff8662fe-3943-4d25-bfe7-952227955e6d.png?v=1787744374",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_6ef4a0d5-3f4c-4949-b5fa-cd1622f1603f.png?v=1787747905",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_64d0258a-ab32-4428-b3a1-214e6b24ef2c.png?v=1787747032",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_d9b73219-a944-40e7-ac15-7275582728e8.png?v=1787745749",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_5451f62e-eb63-42a7-83e6-cc038b846840.png?v=1787745684",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_40f75e8d-c389-438d-8cbd-772ab321a294.png?v=1787748412",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_0fb53b87-e46b-4f5e-896e-c33a8e8d4992.png?v=1787748465",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_cf3ffb13-f02a-400b-9a2b-9de3c8b1183e.png?v=1787748706",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_1df07cfb-0d3e-46d5-b10c-da573dc8a65b.png?v=1787749353",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_04ea3bdb-124d-438e-abec-ff71ba04f23d.png?v=1787749943",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/01_a6dafcb0-c2c1-474d-a921-a6f4d24377af.png?v=1787749627"
+    ],
+    "atomberg--atomberg-studio-nexus-bldc-motor-3-blade-ceiling-fan": [
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_1400_pw_pli_21_mar_1.png?v=1783437025",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_900_pw_pli_21_mar_1.png?v=1783437025",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_ns_1200_gw_pli_21_mar_1.png?v=1783437025",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_1400_rg_pli_21_mar_1.png?v=1783437025",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_sm_1200_rg_pli_21_mar_1.png?v=1783437026",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_ns_1200_mb_pli_21_mar_1.png?v=1783437025",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_sm_1200_dw_pli_21_mar_1.png?v=1783437025",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_900_dw_pli_21_mar_1.png?v=1783437025",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_sm_1200_rb_pli_21_mar_1.png?v=1783437025",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_900_rb_pli_21_mar_1.png?v=1783437025",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/st_nx_1400_rb_pli_21_mar_1.png?v=1783437025"
+    ],
+    "atomberg--atomberg-renesa-halo-bldc-motor-3-blade-ceiling-fan": [
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_halo_600bnw_1.jpg?v=1783436969",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo900mmwnb_1.jpg?v=1783436969",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_10_3.png?v=1783436970",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahaloseasandivory1400_7.jpg?v=1783436970",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/seasand_ivory-07.jpg?v=1783436969",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/midnight_black-07.jpg?v=1783436969",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_halo_smart_pli_600mm-01.jpg?v=1783436969",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo900mmmidnightblack_1.jpg?v=1783436970",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalomistyteal900mm_1.jpg?v=1783436969",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/misty_teal-07.jpg?v=1783436970",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_halo_misty_teal600mm_1.jpg?v=1783436969",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo1400mmbrown_1.jpg?v=1783436970",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_halo600brown_1.jpg?v=1783436970",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/blaze_brown-07.jpg?v=1783436969",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/900_gloss_white_rose_gold-06.jpg?v=1783436969",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalowhiterg1400mm_1.jpg?v=1783436970",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesahalo600mmwhiterg_1.jpg?v=1783436969"
+    ],
+    "atomberg--atomberg-renesa-elite-bldc-motor-3-blade-ceiling-fan": [
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_rsand_grey-07900.jpg?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_rsand-grey_1.jpg?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_earth_brown-07_2.jpg?v=1783436935",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_earth-brown.jpg?v=1783436935",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_earth_brown-07_1.jpg?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_pearl_white_gloss-07_1.jpg?v=1783436935",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_pearl-white-gloss.jpg?v=1783436935",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_pearl_white_gloss-07_2.jpg?v=1783436935",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_golden-oakwood_1.jpg?v=1783436935",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_golden_oakwood-07900.jpg?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_golden_oakwood-07_1_1.jpg?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_dark_walnut-07_1.jpg?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_dark_walnut-07_2.jpg?v=1783436935",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_dark-walnut.jpg?v=1783436935",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_ritz_blue_matte-07_2.jpg?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_ritz-blue-matte_1.jpg?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_ritz_blue_matte-07_1.jpg?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa-elite_ritz-blue.jpg?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_smart_1200_pw_copper_ring_22_oct_1.png?v=1783436935",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/renesa_elite_smart_1200_pw_green_ring_22_oct_2.png?v=1783436936",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/artboard_10_3_2.png?v=1786979466"
+    ],
+    "atomberg--aris-countour-ceiling-fan": [
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_contour-_900-grey-03_feb_1.png?v=1783436907",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/aris_contour-_1200-_white-03_feb_1.jpg?v=1783436907",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/1a.png?v=1783483046"
+    ],
+    "atomberg--atomberg-efficio-energy-saving-exhaust-fan-with-bldc-motor": [
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/white_efficio_exhaust_plis_1_1.jpg?v=1783436545",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/200_brown_efficio_exhaust_plis_1_1.jpg?v=1783436545",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/efficio_exhaust_plis_1_1.jpg?v=1783436545"
+    ],
+    "atomberg--atomberg-studio-exhaust-fan-with-bldc-motor": [
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_rose_gold_150_mm_plis_1_1.jpg?v=1783483118",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_gold_150_mm_plis_1_1.jpg?v=1783483118",
+      "https://cdn.shopify.com/s/files/1/0712/5159/1221/files/studio_exhaust_brown_150_mm_plis_12_feb_1.jpg?v=1783436529"
+    ],
+    "orient--aerosilent-bldc-pro-ceiling-fan-with-remote": [
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image2_8d170813-a678-43b9-8a5b-c2b4b941c588.jpg?v=1777957892",
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image1_df3f4b21-f6ed-448e-8769-455b08faba0a.jpg?v=1777957892",
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image3_cf0bab3c-708c-4a24-b8ec-183cd086a914.jpg?v=1777957892",
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image_6_0a3cf853-61bb-4c47-a5d1-9439aa37f3de.jpg?v=1777957915"
+    ],
+    "orient--luna-high-speed-decorative-ceiling-fan-2-year-warranty": [
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/White_5.png?v=1769071367",
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Blue6.png?v=1769071367",
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Blue5.png?v=1769071367",
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/blue4.png?v=1769071367"
+    ],
+    "orient--falcon-deco-high-speed-ceiling-fan": [
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image1_77d80a68-33d8-4dc0-af89-724a4faca4e2.jpg?v=1749796560",
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image1-copy-1_7591020c-b0d8-4fbb-829f-d34557a62622.jpg?v=1749796560",
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image1-copy-2_4d9a9cdc-6f8a-46bc-9c48-2f0873cab494.jpg?v=1749796560",
+      "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image1-copy-3_86c55b15-1a03-46e2-98f0-5973abc70635.jpg?v=1749796560"
+    ]
+  }
+}
