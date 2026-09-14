@@ -20,6 +20,19 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = join(ROOT, "Products");
 const OUT = join(SRC, "normalized");
+const CURATION_PATH = join(SRC, "curation.json");
+
+function loadCuration() {
+  try {
+    const raw = JSON.parse(readFileSync(CURATION_PATH, "utf8"));
+    return {
+      removed: new Set((raw.removed ?? []).map((r) => r.uid)),
+      removedImages: raw.removedImages ?? {},
+    };
+  } catch {
+    return { removed: new Set(), removedImages: {} };
+  }
+}
 
 /* ------------------------------------------------------------------ config */
 
@@ -403,6 +416,9 @@ const allParked = [];
 const seenUid = new Map();
 let dupesTotal = 0;
 let publishedTotal = 0;
+const curation = loadCuration();
+let curatedOutTotal = 0;
+const seenCurationUids = new Set();
 
 for (const brand of BRANDS) {
   const adapt = brand.schema === "A" ? adaptA : brand.schema === "B" ? adaptB : adaptC;
@@ -420,16 +436,40 @@ for (const brand of BRANDS) {
   }
   if (dupes) { report.push(`  deduped: ${dupes} duplicate uid(s) dropped`); dupesTotal += dupes; }
 
+  // Curation: drop rows an admin removed via /curate, and trim rows' galleries
+  // to only the images an admin kept. See Products/curation.json.
+  const curated = [];
+  let curatedOut = 0;
+  for (const p of unique) {
+    const uid = `${brand.slug}--${p.id}`;
+    if (curation.removed.has(uid)) {
+      seenCurationUids.add(uid);
+      curatedOut++;
+      continue;
+    }
+    const removedImages = curation.removedImages[uid];
+    if (removedImages) {
+      seenCurationUids.add(uid);
+      const gallery = (p.images.gallery ?? []).filter((url) => !removedImages.includes(url));
+      p.images = { primary: gallery[0] ?? null, gallery };
+    }
+    curated.push(p);
+  }
+  if (curatedOut) { report.push(`  curated out: ${curatedOut} product(s) removed via /curate`); curatedOutTotal += curatedOut; }
+
   const byCat = {};
-  for (const p of unique) (byCat[p.category] ??= []).push(p);
+  for (const p of curated) (byCat[p.category] ??= []).push(p);
   mkdirSync(join(OUT, brand.slug), { recursive: true });
   for (const [cat, list] of Object.entries(byCat)) {
     const filename = cat.toLowerCase().replace(/\s+/g, "-");
     writeFileSync(join(OUT, brand.slug, `${filename}.json`), JSON.stringify(list, null, 1));
   }
   allParked.push(...parked.map((p) => ({ ...p, brand: brand.name, brandSlug: brand.slug })));
-  publishedTotal += unique.length;
+  publishedTotal += curated.length;
 }
+
+const staleCurationUids = [...curation.removed, ...Object.keys(curation.removedImages)]
+  .filter((uid) => !seenCurationUids.has(uid));
 
 writeFileSync(join(OUT, "_parked.json"), JSON.stringify(allParked, null, 1));
 
@@ -457,9 +497,13 @@ report.push(
   `- Published: ${publishedTotal}`,
   `- Parked: ${allParked.length}`,
   `- duplicate uids dropped: ${dupesTotal}`,
+  `- curated out: ${curatedOutTotal}`,
 );
+if (staleCurationUids.length) {
+  report.push(`- stale curation uid(s) (no longer in raw data): ${staleCurationUids.join(", ")}`);
+}
 
 writeFileSync(join(OUT, "report.md"), report.join("\n") + "\n");
 
-console.log(`data:build — ${publishedTotal} published, ${allParked.length} parked, ${dupesTotal} dupes dropped`);
+console.log(`data:build — ${publishedTotal} published, ${allParked.length} parked, ${dupesTotal} dupes dropped, ${curatedOutTotal} curated out`);
 console.log(`see ${join("Products", "normalized", "report.md")}`);

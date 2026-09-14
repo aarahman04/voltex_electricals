@@ -18,6 +18,10 @@ const Enquiry = lazy(() => import("./pages/Enquiry.jsx"));
 const About = lazy(() => import("./pages/About.jsx"));
 const Contact = lazy(() => import("./pages/Contact.jsx"));
 const NotFound = lazy(() => import("./pages/NotFound.jsx"));
+// Dev-only bulk product removal tool; talks to the /__curate endpoint that
+// vite.config.js registers only for `vite dev`, so this route is harmless
+// (404s) in production even though it's still bundled.
+const Curate = import.meta.env.DEV ? lazy(() => import("./pages/Curate.jsx")) : null;
 
 export default function App() {
   const location = useLocation();
@@ -63,6 +67,7 @@ export default function App() {
                     <Route path="/enquiry" element={<Enquiry />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
+                    {Curate && <Route path="/curate" element={<Curate />} />}
                     <Route path="*" element={<NotFound />} />
                   </Routes>
                 </motion.div>
