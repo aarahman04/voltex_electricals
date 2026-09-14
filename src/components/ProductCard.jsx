@@ -6,7 +6,6 @@ import { displayTitle, specSummary } from "../lib/specSummary.js";
 import { productTone } from "../lib/kelvin.js";
 import { useEnquiry } from "../context/enquiry.js";
 import BrandMark from "./BrandMark.jsx";
-import SwatchRow from "./SwatchRow.jsx";
 
 export default function ProductCard({ product }) {
   const [loaded, setLoaded] = useState(false);
@@ -54,13 +53,12 @@ export default function ProductCard({ product }) {
           <h3 className="line-clamp-2 text-sm font-medium leading-snug text-ink">
             {title}
           </h3>
-          <div className="mt-auto flex items-center justify-between gap-3 pt-1">
+          <div className="mt-auto pt-1">
             {spec ? (
               <span className="spec text-ink-muted">{spec}</span>
             ) : (
               <span className="spec text-ink-muted/50">{product.subcategory}</span>
             )}
-            <SwatchRow variants={product.variants} max={4} />
           </div>
         </div>
       </Link>

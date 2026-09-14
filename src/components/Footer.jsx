@@ -4,7 +4,6 @@ import { PUBLISHED, categoryList, categoryPath } from "../data/taxonomy.js";
 import Lockup from "./Lockup.jsx";
 
 const brands = getBrands();
-const stocked = brands.filter((b) => b.status === "stocked");
 
 export default function Footer() {
   return (
@@ -38,14 +37,11 @@ export default function Footer() {
           </FooterColumn>
 
           <FooterColumn title={`Brands · ${brands.length}`}>
-            {stocked.map((brand) => (
+            {brands.map((brand) => (
               <FooterLink key={brand.slug} to={`/brand/${brand.slug}`}>
                 {brand.name}
               </FooterLink>
             ))}
-            <span className="spec text-ink-muted/60">
-              +{brands.length - stocked.length} more coming soon
-            </span>
           </FooterColumn>
 
           <FooterColumn title="Company">

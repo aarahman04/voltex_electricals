@@ -9,7 +9,7 @@ import Home from "./pages/Home.jsx";
 
 const AllProducts = lazy(() => import("./pages/AllProducts.jsx"));
 const CategoryHub = lazy(() => import("./pages/CategoryHub.jsx"));
-const CategoryListing = lazy(() => import("./pages/CategoryListing.jsx"));
+const BrandListing = lazy(() => import("./pages/BrandListing.jsx"));
 const ProductDetail = lazy(() => import("./pages/ProductDetail.jsx"));
 const Brands = lazy(() => import("./pages/Brands.jsx"));
 const BrandPage = lazy(() => import("./pages/BrandPage.jsx"));
@@ -57,8 +57,8 @@ export default function App() {
                     <Route path="/products" element={<AllProducts />} />
                     <Route path="/c/:category" element={<CategoryHub />} />
                     <Route
-                      path="/c/:category/:subcategory"
-                      element={<CategoryListing />}
+                      path="/c/:category/:brandSlug"
+                      element={<BrandListing />}
                     />
                     <Route path="/product/:uid" element={<ProductDetail />} />
                     <Route path="/brands" element={<Brands />} />

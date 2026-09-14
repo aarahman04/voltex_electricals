@@ -1,5 +1,4 @@
 import { TONES } from "../lib/kelvin.js";
-import { swatchColor } from "./swatchColors.js";
 
 export default function VariantSelector({ variants, selected, onSelect }) {
   const optionKeys = Object.keys(variants[0]?.options ?? {}).filter(
@@ -14,7 +13,6 @@ export default function VariantSelector({ variants, selected, onSelect }) {
           ...new Set(variants.map((v) => v.options?.[key]).filter(Boolean)),
         ];
         if (values.length <= 1) return null;
-        const isColor = key.toLowerCase() === "color";
 
         return (
           <div key={key}>
@@ -26,14 +24,13 @@ export default function VariantSelector({ variants, selected, onSelect }) {
             <div className="flex flex-wrap gap-2">
               {values.map((value) => {
                 const active = selected[key] === value;
+                // Only a light tone has a real colour to show — it's measured
+                // from Kelvin, not guessed from the name. A finish name like
+                // "Metallic Bronze Copper" has no such source of truth, so it
+                // stays a plain text button like every other spec.
                 const tone = TONES.find((t) => t.name === value);
-                const color = isColor ? (tone?.hex ?? swatchColor(value)) : null;
 
-                if (color) {
-                  // A selected light tone blooms in its own Kelvin colour, the
-                  // way FilterPanel's tone swatches already do — same state,
-                  // one language. Finishes have no colour temperature to show,
-                  // so they keep the amber "selected" ring.
+                if (tone) {
                   return (
                     <button
                       key={value}
@@ -43,15 +40,11 @@ export default function VariantSelector({ variants, selected, onSelect }) {
                       aria-pressed={active}
                       onClick={() => onSelect(key, value)}
                       className={`h-10 w-10 rounded-full transition-all duration-150 ${
-                        active
-                          ? tone
-                            ? "ring-2 ring-seam-strong"
-                            : "ring-2 ring-amber ring-offset-2 ring-offset-paper"
-                          : "ring-1 ring-seam hover:ring-seam-strong"
+                        active ? "ring-2 ring-seam-strong" : "ring-1 ring-seam hover:ring-seam-strong"
                       }`}
                       style={{
-                        backgroundColor: color,
-                        boxShadow: active && tone ? `0 0 14px 2px ${tone.hex}` : undefined,
+                        backgroundColor: tone.hex,
+                        boxShadow: active ? `0 0 14px 2px ${tone.hex}` : undefined,
                       }}
                     />
                   );
