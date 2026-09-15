@@ -11,8 +11,30 @@ export default function Contact() {
 
   const submit = (event) => {
     event.preventDefault();
-    setSent(true);
-    notify("This form is a preview — nothing was sent. Phone and email go here once the catalogue is public.");
+    const formData = new FormData(event.currentTarget);
+    const name = formData.get("name");
+    const contact = formData.get("email");
+    const message = formData.get("message");
+    const selectedProducts = items.length
+      ? `\n\nProducts in enquiry list:\n${items
+          .map((product) => `- ${displayTitle(product)} (${product.brand})`)
+          .join("\n")}`
+      : "";
+    const whatsappMessage = [
+      "Hello, I would like to make an enquiry.",
+      `Name: ${name}`,
+      `Email or phone: ${contact}`,
+      `Request:\n${message}${selectedProducts}`,
+    ].join("\n\n");
+    const whatsappUrl = `https://wa.me/916309933720?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappWindow = window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+
+    if (whatsappWindow) {
+      setSent(true);
+      notify("WhatsApp opened with your enquiry ready to send.");
+    } else {
+      notify("Please allow pop-ups to open WhatsApp and send your enquiry.");
+    }
   };
 
   return (
@@ -74,7 +96,7 @@ export default function Contact() {
             Send enquiry
           </button>
           <span className="spec text-ink-muted">
-            {sent ? "Preview only — nothing was sent" : "Preview form"}
+            {sent ? "WhatsApp message ready to send" : "Opens WhatsApp"}
           </span>
         </div>
       </form>

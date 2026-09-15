@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { getBrandBySlug } from "../data/brands.js";
 import { getProductsByBrand } from "../data/products.js";
-import { PUBLISHED } from "../data/taxonomy.js";
+import { PUBLISHED, brandListingPath } from "../data/taxonomy.js";
 import BrandMark from "../components/BrandMark.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 
@@ -58,18 +58,21 @@ export default function BrandPage() {
         <section key={group.name} className="mb-16">
           <div className="mb-6 flex items-baseline justify-between border-b border-seam pb-3">
             <h2 className="nameplate text-xl text-ink">{group.name}</h2>
-            <Link
-              to={`/products?category=${encodeURIComponent(group.name)}&brand=${brand.slug}`}
-              className="spec text-ink-muted transition-colors hover:text-amber"
-            >
-              All {group.items.length} →
-            </Link>
+            <span className="spec text-ink-muted">{group.items.length} models</span>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
             {group.items.slice(0, 8).map((product) => (
               <ProductCard key={product.uid} product={product} />
             ))}
           </div>
+          {group.items.length > 8 && (
+            <Link
+              to={brandListingPath(group.name, brand.slug)}
+              className="switch-btn switch-btn--ghost mt-6 w-full justify-center text-sm"
+            >
+              See all {group.items.length} {group.name} →
+            </Link>
+          )}
         </section>
       ))}
     </div>

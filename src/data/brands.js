@@ -7,22 +7,36 @@
 // the brand's real colour — the site stays brand-neutral (brief) and the
 // real logos are trademarked. Tints only need to be distinguishable.
 // `logo` is null until a real asset lands in public/brands/<slug>.{svg,png};
-// <BrandMark> renders the asset on the same tinted plate, so a wordmark and a
-// text chip are the same shape in a grid.
+// <BrandMark> draws it bare, capped to a shared box so every mark occupies
+// the same footprint in a grid.
+// `logoScale` corrects a logo that reads smaller than the rest at the same
+// box height. Two different causes so far:
+// - Dead canvas: the source file has built-in padding a tight crop removes.
+//   Philips shipped a full artboard rect around a wordmark filling 18% of
+//   its height; Havells' original SVG was an off-centre 59%-height crop.
+//   Both public/brands/*.{svg,png} are now cropped tight to the actual ink
+//   (measured by rendering each asset and comparing its opaque,
+//   non-background-white pixel bounding box to its canvas) — Havells since
+//   replaced with a cleaner source PNG entirely. No scale needed once tight.
+// - Shape: a compact icon+wordmark lockup (Havells) or a square badge
+//   (Philips, before its crop) has less area than a wide text-only wordmark
+//   (Crompton, Polycab) at the same height, so it still reads small next to
+//   them even fully cropped. `logoScale` closes that gap by eye.
+// Omit for anything that already matches by eye.
 export const BRANDS = [
-  { slug: "orient", name: "Orient Electric", tint: "#F4ECDE", logo: null },
+  { slug: "orient", name: "Orient Electric", tint: "#F4ECDE", logo: "/brands/orient.webp" },
   { slug: "wipro", name: "Wipro", tint: "#F0EDE4", logo: null },
-  { slug: "philips", name: "Philips", tint: "#E4EDF4", logo: "/brands/philips.png" },
-  { slug: "crompton", name: "Crompton", tint: "#EDE8F0", logo: "/brands/crompton.png" },
-  { slug: "havells", name: "Havells", tint: "#F5E8E6", logo: "/brands/havells.svg" },
-  { slug: "atomberg", name: "Atomberg", tint: "#E8EEE9", logo: null },
+  { slug: "philips", name: "Philips", tint: "#E4EDF4", logo: "/brands/philips.svg" },
+  { slug: "crompton", name: "Crompton", tint: "#EDE8F0", logo: "/brands/crompton.svg" },
+  { slug: "havells", name: "Havells", tint: "#F5E8E6", logo: "/brands/havells.png", logoScale: 1.3 },
+  { slug: "atomberg", name: "Atomberg", tint: "#E8EEE9", logo: "/brands/atomberg.jpg" },
   { slug: "almonard", name: "Almonard", tint: "#F2E9E4", logo: null },
   { slug: "starlight", name: "Starlight", tint: "#ECEAF2", logo: null },
   { slug: "ace-pro", name: "ACE Pro", tint: "#E6EEF0", logo: null },
   { slug: "multifar", name: "Multifar", tint: "#EFEAE2", logo: null },
   { slug: "elite", name: "Elite", tint: "#E9ECEF", logo: null },
   { slug: "kuhl", name: "Kuhl", tint: "#E4EFEF", logo: null },
-  { slug: "polycab", name: "Polycab", tint: "#EAEEE6", logo: null },
+  { slug: "polycab", name: "Polycab", tint: "#EAEEE6", logo: "/brands/polycab.png" },
   { slug: "gold-medal", name: "Gold Medal", tint: "#F3EEDF", logo: null },
 ];
 

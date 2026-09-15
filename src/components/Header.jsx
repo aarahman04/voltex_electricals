@@ -1,17 +1,8 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import {
-  getCategoryCounts,
-  getDerivedSubcategories,
-  getSubcategories,
-} from "../data/products.js";
-import {
-  PUBLISHED,
-  categoryPath,
-  orderedSubcategories,
-  subcategoryPath,
-} from "../data/taxonomy.js";
+import { getBrandsForCategory, getCategoryCounts } from "../data/products.js";
+import { PUBLISHED, brandListingPath, categoryPath } from "../data/taxonomy.js";
 import { useEnquiry } from "../context/enquiry.js";
 import { useScrollLock } from "../lib/useScrollLock.js";
 import Lockup from "./Lockup.jsx";
@@ -20,17 +11,12 @@ import SearchOverlay from "./SearchOverlay.jsx";
 
 const categoryCounts = getCategoryCounts();
 
-// Built once: every published category with its subcategory list in canonical
-// order, coming-soon entries included. Drives the mega-menu and the mobile
-// drilldown both.
+// Built once: every published category with the brands that stock it. Drives
+// the mega-menu and the mobile drilldown both.
 const categoryTree = PUBLISHED.map((category) => ({
   name: category,
   count: categoryCounts[category] ?? 0,
-  subs: orderedSubcategories(
-    category,
-    getSubcategories(category),
-    getDerivedSubcategories(category),
-  ),
+  brands: getBrandsForCategory(category),
 }));
 
 const COMPANY = [
@@ -209,11 +195,11 @@ function MegaMenu() {
         {categoryTree.map((category) => (
           <div
             key={category.name}
-            className="module p-6"
+            className="module led-row p-6"
             data-active={current === category.name.toLowerCase() || undefined}
           >
             <div className="mb-4 flex items-center gap-2.5">
-              <span className="led" data-on />
+              <span className="led" />
               <Link
                 to={categoryPath(category.name)}
                 className="nameplate text-xl text-ink transition-colors hover:text-amber"
@@ -223,24 +209,17 @@ function MegaMenu() {
               <span className="spec text-ink-muted">{category.count}</span>
             </div>
             <ul className="grid grid-cols-2 gap-x-6 gap-y-1.5">
-              {category.subs.map((sub) => (
-                <li key={sub.name}>
-                  {sub.comingSoon ? (
-                    <span className="flex items-baseline justify-between gap-2 py-1 text-sm text-ink-muted/50">
-                      {sub.name}
-                      <span className="spec text-[9px]">Soon</span>
+              {category.brands.map((brand) => (
+                <li key={brand.slug}>
+                  <Link
+                    to={brandListingPath(category.name, brand.slug)}
+                    className="flex items-baseline justify-between gap-2 py-1 text-sm text-ink-muted transition-colors hover:text-ink"
+                  >
+                    {brand.name}
+                    <span className="spec text-[9px] text-ink-muted/60">
+                      {brand.count}
                     </span>
-                  ) : (
-                    <Link
-                      to={subcategoryPath(category.name, sub.name)}
-                      className="flex items-baseline justify-between gap-2 py-1 text-sm text-ink-muted transition-colors hover:text-ink"
-                    >
-                      {sub.name}
-                      <span className="spec text-[9px] text-ink-muted/60">
-                        {sub.count}
-                      </span>
-                    </Link>
-                  )}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -334,27 +313,17 @@ function MobileNav({ open, onClose }) {
                       All {active.name}
                       <span className="spec text-ink-muted">{active.count}</span>
                     </Link>
-                    {active.subs.map((sub) =>
-                      sub.comingSoon ? (
-                        <span
-                          key={sub.name}
-                          className="flex items-baseline justify-between border-b border-seam py-3.5 text-[15px] text-ink-muted/50"
-                        >
-                          {sub.name}
-                          <span className="spec text-[9px]">Soon</span>
-                        </span>
-                      ) : (
-                        <Link
-                          key={sub.name}
-                          to={subcategoryPath(active.name, sub.name)}
-                          onClick={close}
-                          className="flex items-baseline justify-between border-b border-seam py-3.5 text-[15px] text-ink"
-                        >
-                          {sub.name}
-                          <span className="spec text-ink-muted">{sub.count}</span>
-                        </Link>
-                      ),
-                    )}
+                    {active.brands.map((brand) => (
+                      <Link
+                        key={brand.slug}
+                        to={brandListingPath(active.name, brand.slug)}
+                        onClick={close}
+                        className="flex items-baseline justify-between border-b border-seam py-3.5 text-[15px] text-ink"
+                      >
+                        {brand.name}
+                        <span className="spec text-ink-muted">{brand.count}</span>
+                      </Link>
+                    ))}
                   </>
                 ) : (
                   <>

@@ -3,7 +3,6 @@ import { getBrands, products } from "../data/products.js";
 import { PUBLISHED, categoryList } from "../data/taxonomy.js";
 
 const brands = getBrands();
-const stocked = brands.filter((b) => b.status === "stocked");
 
 export default function About() {
   return (
@@ -34,16 +33,15 @@ export default function About() {
       </dl>
 
       <p className="mt-8 text-sm text-ink-muted">
-        Live now:{" "}
-        {stocked.map((b, i) => (
+        Brands carried:{" "}
+        {brands.map((b, i) => (
           <span key={b.slug}>
             <Link to={`/brand/${b.slug}`} className="text-ink hover:text-amber">
               {b.name}
             </Link>
-            {i < stocked.length - 1 ? ", " : ". "}
+            {i < brands.length - 1 ? ", " : "."}
           </span>
         ))}
-        The rest are on the way.
       </p>
 
       <div className="mt-12 flex flex-wrap items-center gap-x-6 gap-y-3">
