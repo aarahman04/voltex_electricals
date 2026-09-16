@@ -223,6 +223,7 @@ Phases 0–7 done. The whole UI is rebuilt on the Modular Plate light system. `n
 - **Not visually verified.** The Chrome extension was offline this session — Phase 8 still needs the responsive/keyboard/reduced-motion pass.
 - `multi-brand-catalog` was never merged to `main`. The eventual PR merges *everything* since `a204be4`.
 - Prices exist in some scraped data but are **not rendered** — enquiry-only. See `decisions.md`.
-- Data chunk is 2.3 MB (362 KB gzip) in its own lazy chunk. Fine for now; windowing/pagination for >200-item lists is still a `roadmap.md` item (Crompton lighting ≈ 320).
+- ~~Data chunk is 2.3 MB (362 KB gzip)...~~ **Fixed** (perf pass, 2026-09-16): `catalog.js` now eager-bundles only a "lite" per-product record (id/title/brand/category/subcategory/tags/variants/primary image); description/specs/full gallery are lazy-loaded per brand file via `getProductDetail(uid)` only when `ProductDetail.jsx` mounts. Eager chunk dropped from 1.87 MB/291 KB gzip to ~677 KB/89 KB gzip. `Listing.jsx` also gained pagination (24/page, "Load more") for the windowing item below.
+- ~~windowing/pagination for >200-item lists~~ **Fixed** alongside the above — `Listing.jsx` renders 24 at a time with a "Load more" button instead of the full filtered set.
 - `Home` "Shop by need" tile "Energy-efficient fans" links to `/search?q=bldc` — depends on "bldc" appearing in product text; verify it returns results.
 - Brand logos are all `null` — `<BrandMark>` renders wordmark chips everywhere. Drop real SVGs at `public/brands/<slug>.svg` + set `logo` in `brands.js` when available.

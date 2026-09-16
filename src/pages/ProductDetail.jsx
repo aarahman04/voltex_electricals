@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import {
   getMoreFromBrand,
   getProductById,
+  getProductDetail,
   getRelatedProducts,
 } from "../data/products.js";
 import { brandListingPath, categoryPath } from "../data/taxonomy.js";
@@ -40,7 +41,21 @@ export default function ProductDetail() {
   return <ProductDetailView key={product.uid} product={product} />;
 }
 
-function ProductDetailView({ product }) {
+function ProductDetailView({ product: liteProduct }) {
+  const [detail, setDetail] = useState(null);
+  useEffect(() => {
+    let cancelled = false;
+    getProductDetail(liteProduct.uid).then((d) => {
+      if (!cancelled) setDetail(d);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [liteProduct.uid]);
+
+  const product = detail ? { ...liteProduct, ...detail } : liteProduct;
+  const detailLoading = !detail;
+
   const gallery = product.images?.gallery?.length
     ? product.images.gallery
     : [product.images?.primary].filter(Boolean);
@@ -120,6 +135,7 @@ function ProductDetailView({ product }) {
           activeImage={activeImage}
           setActiveImage={setActiveImage}
           title={title}
+          loading={detailLoading}
         />
 
         <div className="flex flex-col">
@@ -246,7 +262,7 @@ function usePreloadNeighbors(images, activeImage) {
   }, [images, activeImage]);
 }
 
-function Gallery({ images, activeImage, setActiveImage, title }) {
+function Gallery({ images, activeImage, setActiveImage, title, loading }) {
   // Direction drives which side the incoming frame slides in from — a
   // swipe right should feel like it's pulling the next photo in from the
   // right, not just cross-fading in place.
@@ -299,6 +315,17 @@ function Gallery({ images, activeImage, setActiveImage, title }) {
         )}
       </div>
 
+      {loading && images.length <= 1 && (
+        <div className="flex gap-2">
+          {[0, 1, 2, 3].map((i) => (
+            <div
+              key={i}
+              className="h-16 w-16 shrink-0 animate-pulse rounded-[8px] bg-paper"
+            />
+          ))}
+        </div>
+      )}
+
       {images.length > 1 && (
         <div className="thin-scroll flex gap-2 overflow-x-auto pb-1">
           {images.map((src, i) => (
@@ -318,6 +345,7 @@ function Gallery({ images, activeImage, setActiveImage, title }) {
                 src={cdnImage(src, 160)}
                 alt=""
                 loading="lazy"
+                decoding="async"
                 className="h-full w-full object-contain mix-blend-multiply p-1.5"
               />
             </button>

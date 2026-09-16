@@ -274,6 +274,7 @@ function CategoryCard({ category }) {
           src={cdnImage(image, 900)}
           alt=""
           loading="lazy"
+          decoding="async"
           className="h-full w-full object-contain mix-blend-multiply p-12 transition-transform duration-300 group-hover:scale-[1.04]"
         />
       </div>

@@ -1,0 +1,825 @@
+[
+ {
+  "id": "crompton-solarium-dlx-water-heater",
+  "title": "Crompton Solarium DLX Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "Storage Water Heaters",
+   "type-storage-geysers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Black and White",
+     "Capacity": "10-L"
+    },
+    "sku": "ASWH 6810",
+    "price": 13000
+   },
+   {
+    "options": {
+     "Color": "Black and White",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH 6815",
+    "price": 14300
+   },
+   {
+    "options": {
+     "Color": "Black and White",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH 6825",
+    "price": 16300
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/SolariumDLX-WaterHeater____29-06-26______1X1__1.png?v=1784263760"
+  }
+ },
+ {
+  "id": "crompton-versa-dlx-water-heater",
+  "title": "Crompton Versa DLX Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "Storage Water Heaters",
+   "type-storage-geysers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "6-L"
+    },
+    "sku": "ASWH 6706",
+    "price": 10700
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "10-L"
+    },
+    "sku": "ASWH 6710",
+    "price": 11500
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH 6715",
+    "price": 12500
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH 6725",
+    "price": 14500
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/VersaDLX__1080x1080__1-removebg-preview-removebg-preview.png?v=1783933686"
+  }
+ },
+ {
+  "id": "crompton-regera-hz-rhs-water-heater",
+  "title": "Crompton Regera HZ RHS Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "Storage Water Heaters",
+   "type-storage-geysers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "10-L"
+    },
+    "sku": "ASWH-5710",
+    "price": 10700
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH-5715",
+    "price": 11700
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH-5725",
+    "price": 13700
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/CopyofRegeraRHSWaterHeaterPL.png?v=1783058753"
+  }
+ },
+ {
+  "id": "crompton-acenza-plus-water-heater",
+  "title": "Crompton Acenza Plus Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "Storage Water Heaters",
+   "type-storage-geysers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "6-L"
+    },
+    "sku": "ASWH-6106",
+    "price": 8900
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "10-L"
+    },
+    "sku": "ASWH-6110",
+    "price": 9700
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH-6115",
+    "price": 10700
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH-6125",
+    "price": 12700
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/CopyofAcenzaPlus_PL.png?v=1783058751"
+  }
+ },
+ {
+  "id": "crompton-solarium-pls-3000w-instant-water-heater-3l",
+  "title": "Crompton Solarium PLS, 3000W Instant Water Heater - 3L",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Instant Water Heaters",
+  "tags": [
+   "Instant Water Heater"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White"
+    },
+    "sku": "AIWH-3LSOLPLSWHT5Y",
+    "price": 5999
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PLBanner1_67f800d4-46a2-41c3-9f5d-2f70bb91eaf2.png?v=1769598204"
+  }
+ },
+ {
+  "id": "crompton-rapid-jet-plus-2000w-storage-water-heater",
+  "title": "Crompton Rapid Jet Plus, 2000W Storage Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "Storage Water Heaters"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Sizes": "15-L"
+    },
+    "sku": "ASWH-15LRPDJT2KW",
+    "price": 12500
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sizes": "10-L"
+    },
+    "sku": "ASWH-10LRPDJT2KW",
+    "price": 11200
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sizes": "6-L"
+    },
+    "sku": "ASWH-6LRPDJT2KW",
+    "price": 10000
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PLBanner1_c902e70c-f97a-45cd-b21b-33e6aca6d6c6.png?v=1769598202"
+  }
+ },
+ {
+  "id": "crompton-rapidjet-neo-instant-water-heater",
+  "title": "Crompton RapidJet Neo Instant Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Instant Water Heaters",
+  "tags": [
+   "Instant Water Heater"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White"
+    },
+    "sku": "AIWH-3LRPJCLX3KW5Y",
+    "price": 5999
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PLBanner1_6b6454c2-add2-458c-9071-54597842c9ec.png?v=1769598198"
+  }
+ },
+ {
+  "id": "crompton-classic-dlx-2000w-storage-water-heater",
+  "title": "Crompton Classic DLX, 2000W Storage Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "Storage Water Heaters"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Sizes": "25-L"
+    },
+    "sku": "ASWH-5325",
+    "price": 13100
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sizes": "15-L"
+    },
+    "sku": "ASWH-5315",
+    "price": 11100
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sizes": "10-L"
+    },
+    "sku": "ASWH-5310",
+    "price": 10100
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sizes": "6-L"
+    },
+    "sku": "ASWH-5306",
+    "price": 9300
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PLBanner1_acc1deb9-ef3f-42a0-bd57-fff80f19813f.png?v=1768460864"
+  }
+ },
+ {
+  "id": "crompton-versa-hz-rhs-2000w-horizontal-storage-water-heater",
+  "title": "Crompton Versa HZ RHS, 2000W Horizontal Storage Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "Storage Water Heaters"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Sizes": "25-L"
+    },
+    "sku": "ASWH-4125RHS",
+    "price": 11900
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sizes": "15-L"
+    },
+    "sku": "ASWH-4115RHS",
+    "price": 12900
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Sizes": "10-L"
+    },
+    "sku": "ASWH-4110RHS",
+    "price": 13900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PLBanner1_cc5819fe-b871-4996-bd13-0c084e8c16c2.png?v=1767683683"
+  }
+ },
+ {
+  "id": "crompton-rapidjet-dlx-3-litre-3000w-instant-water-heater",
+  "title": "Crompton Rapidjet Dlx 3-Litre, 3000W Instant Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Instant Water Heaters",
+  "tags": [
+   "Instant Water Heater"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White"
+    },
+    "sku": "AIWH-3LRPDJTDLX3KW",
+    "price": 4800
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PLRapidjetDLX_0.png?v=1727953499"
+  }
+ },
+ {
+  "id": "crompton-solarium-neo-5-litre-3000w-instant-water-heater",
+  "title": "Crompton Solarium Neo 5-Litre, 3000W Instant Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Instant Water Heaters",
+  "tags": [
+   "Instant Water Heater"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White"
+    },
+    "sku": "AIWH-5LSOLNEO3KW5Y",
+    "price": 7299
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PLSolariumNeo_0.png?v=1727693361"
+  }
+ },
+ {
+  "id": "crompton-versa-storage-water-heater",
+  "title": "Crompton Versa Storage Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "Storage Water Heaters",
+   "type-storage-geysers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "6-L"
+    },
+    "sku": "ASWH-3506",
+    "price": 9500
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "10-L"
+    },
+    "sku": "ASWH-3510",
+    "price": 10700
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH-3515",
+    "price": 11900
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH-3525",
+    "price": 13200
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PLheaterVersa0.png?v=1727695641"
+  }
+ },
+ {
+  "id": "crompton-rapidjet-5-litre-3000w-instant-water-heater",
+  "title": "Crompton Rapidjet 5-Litre, 3000W Instant Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Instant Water Heaters",
+  "tags": [
+   "Instant Water Heater"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White"
+    },
+    "sku": "AIWH-5LRPIDJT3KW5Y",
+    "price": 7299
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PLrapidjet_0.png?v=1727690607"
+  }
+ },
+ {
+  "id": "crompton-solarium-clx-2000w-storage-water-heater",
+  "title": "Crompton Solarium CLX, 2000W Storage Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "Storage Water Heaters"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White & Purple",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH-4925",
+    "price": 14200
+   },
+   {
+    "options": {
+     "Color": "White & Purple",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH-4915",
+    "price": 12900
+   },
+   {
+    "options": {
+     "Color": "White & Purple",
+     "Capacity": "10-L"
+    },
+    "sku": "ASWH-4910",
+    "price": 11700
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/PLBanner1_d0f9a122-06c4-4c4e-87cf-7964be8cfbb2.png?v=1769598197"
+  }
+ },
+ {
+  "id": "crompton-amica-pro-5-star-rated-storage-water-heater",
+  "title": "Crompton Amica Pro, 5 Star Rated Storage Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "Storage Water Heaters",
+   "type-storage-geysers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White and Blue",
+     "Capacity": "10-L"
+    },
+    "sku": "ASWH-5210",
+    "price": 10900
+   },
+   {
+    "options": {
+     "Color": "White and Blue",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH-5215",
+    "price": 12000
+   },
+   {
+    "options": {
+     "Color": "White and Blue",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH-5225",
+    "price": 13200
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/Untitled-2_794fca91-f597-4ce5-9170-20d64f32b4bc.png?v=1717390564"
+  }
+ },
+ {
+  "id": "crompton-rapid-jet-3000w-instant-water-heater",
+  "title": "Crompton Rapid Jet, 3000W Instant Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Instant Water Heaters",
+  "tags": [
+   "8026 Water Heaters",
+   "feature-bath-modes",
+   "feature-energy-efficient",
+   "feature-smart-water-heaters",
+   "feature-tanks-with-polymer",
+   "Instant Water Heater",
+   "location-kitchen",
+   "location-small-bathroom",
+   "members-g3",
+   "members-l3",
+   "type-instant-geysers",
+   "weather-cool",
+   "weather-pleasant"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "1-L"
+    },
+    "sku": "AIWH-1LRPIDJT3KW5Y",
+    "price": 4200
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "3-L"
+    },
+    "sku": "AIWH-3LRPIDJT3KW5Y",
+    "price": 4600
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/RapidJetIWHShot4_afcc9ec4-ccaa-4f59-84f9-e62fe13d52b9.png?v=1690788857"
+  }
+ },
+ {
+  "id": "crompton-rapidjet-plus-turbo-6-l-5-star-rated-storage-water-heater-with-nano-polybond-technology-powerful-3000w-heating-element-rust-proof-body-and-advanced-3-level-safety-with-free-installation-and-connection-pipes-white",
+  "title": "Crompton Rapidjet Plus Turbo , 3000W Storage Water Heater - 6-L",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "feature-bath-modes",
+   "feature-energy-efficient",
+   "feature-smart-water-heaters",
+   "feature-tanks-with-polymer",
+   "location-bathroom",
+   "location-bathroom-wfc",
+   "location-lobby",
+   "members-g3",
+   "members-g5",
+   "Storage Water Heaters",
+   "type-storage-geysers",
+   "weather-cool",
+   "weather-pleasant"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White"
+    },
+    "sku": "ASWH-6LRPDJT3KW",
+    "price": 9500
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/RapidJetPlus6LturboFrontPerspective.png?v=1692181444"
+  }
+ },
+ {
+  "id": "crompton-solarium-care-5-star-rated-storage-water-heater",
+  "title": "Crompton Solarium Care, 2000W Storage Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "8026 Water Heaters",
+   "feature-bath-modes",
+   "feature-energy-efficient",
+   "feature-smart-water-heaters",
+   "feature-tanks-with-polymer",
+   "location-bathroom",
+   "location-bathroom-wfc",
+   "location-lobby",
+   "members-g3",
+   "members-g5",
+   "Storage Water Heaters",
+   "type-storage-geysers",
+   "weather-cool",
+   "weather-pleasant"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "10-L"
+    },
+    "sku": "ASWH-3910",
+    "price": 12500
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH-3915",
+    "price": 13500
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH-3925",
+    "price": 14800
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/Untitled-1_aecb7b7a-9f88-44a6-9b2a-b80c604e7f9c.png?v=1694780411"
+  }
+ },
+ {
+  "id": "crompton-solarium-qube-iot-5-star-rated-storage-water-heater",
+  "title": "Crompton Solarium Qube IOT, 2000W Storage Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "8026 Water Heaters",
+   "feature-bath-modes",
+   "feature-energy-efficient",
+   "feature-smart-water-heaters",
+   "feature-tanks-with-polymer",
+   "location-bathroom",
+   "location-bathroom-wfc",
+   "location-lobby",
+   "members-g3",
+   "members-g5",
+   "Storage Water Heaters",
+   "type-storage-geysers",
+   "weather-cool",
+   "weather-pleasant"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH-3315",
+    "price": 17000
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH-3325",
+    "price": 18500
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/SolariumQubeIOTFrontView.png?v=1690356981"
+  }
+ },
+ {
+  "id": "crompton-arno-neo-5-star-rated-storage-water-heater",
+  "title": "Crompton Arno Neo,  2000W Storage Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "8026 Water Heaters",
+   "feature-bath-modes",
+   "feature-energy-efficient",
+   "feature-smart-water-heaters",
+   "feature-tanks-with-polymer",
+   "location-bathroom",
+   "location-bathroom-wfc",
+   "location-lobby",
+   "members-g3",
+   "members-g5",
+   "Storage Water Heaters",
+   "type-storage-geysers",
+   "weather-cool",
+   "weather-pleasant"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Grey",
+     "Capacity": "6-L"
+    },
+    "sku": "ASWH-3006",
+    "price": 8100
+   },
+   {
+    "options": {
+     "Color": "Grey",
+     "Capacity": "10-L"
+    },
+    "sku": "ASWH-3010",
+    "price": 9200
+   },
+   {
+    "options": {
+     "Color": "Grey",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH-3015",
+    "price": 10400
+   },
+   {
+    "options": {
+     "Color": "Grey",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH-3025",
+    "price": 11700
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/ArnoNeo6L2022PackagingFrontView_1.png?v=1690284697"
+  }
+ },
+ {
+  "id": "crompton-solarium-neo-5-star-rated-storage-water-heater",
+  "title": "Crompton Solarium Neo, 2000W Storage Water Heater",
+  "vendor": "Crompton",
+  "category": "Water Geysers",
+  "subcategory": "Storage Water Heaters",
+  "tags": [
+   "8026 Water Heaters",
+   "feature-bath-modes",
+   "feature-energy-efficient",
+   "feature-smart-water-heaters",
+   "feature-tanks-with-polymer",
+   "location-bathroom",
+   "location-bathroom-wfc",
+   "location-lobby",
+   "members-g3",
+   "members-g5",
+   "Storage Water Heaters",
+   "type-storage-geysers",
+   "weather-cool",
+   "weather-pleasant"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Ivory",
+     "Capacity": "10-L"
+    },
+    "sku": "ASWH1610",
+    "price": 12500
+   },
+   {
+    "options": {
+     "Color": "Ivory",
+     "Capacity": "15-L"
+    },
+    "sku": "ASWH1615",
+    "price": 13500
+   },
+   {
+    "options": {
+     "Color": "Ivory",
+     "Capacity": "25-L"
+    },
+    "sku": "ASWH1625",
+    "price": 14500
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0715/1704/5040/files/1_4_a9a07e79-3745-40a3-b33a-08594d8c3343.png?v=1692352569"
+  }
+ }
+]

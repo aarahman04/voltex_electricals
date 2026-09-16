@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { memo, useState } from "react";
 import { Link } from "react-router-dom";
 import { getProductImage } from "../data/products.js";
 import { cdnImage } from "../lib/image.js";
@@ -7,7 +7,7 @@ import { productTone } from "../lib/kelvin.js";
 import { useEnquiry } from "../context/enquiry.js";
 import BrandMark from "./BrandMark.jsx";
 
-export default function ProductCard({ product }) {
+function ProductCard({ product }) {
   const [loaded, setLoaded] = useState(false);
   const { has, toggle } = useEnquiry();
   const spec = specSummary(product);
@@ -87,3 +87,5 @@ export default function ProductCard({ product }) {
     </article>
   );
 }
+
+export default memo(ProductCard);

@@ -1,0 +1,86 @@
+[
+ {
+  "id": "pedestal-air-circulators",
+  "title": "Pedestal Air Circulator",
+  "vendor": "Almonard",
+  "category": "Fans",
+  "subcategory": "Industrial Fans",
+  "tags": [
+   "industrial"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "450mm",
+     "Color": "Green",
+     "Duty": "Industrial"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Size": "600mm",
+     "Color": "Green",
+     "Duty": "Industrial"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Size": "750mm",
+     "Color": "Green",
+     "Duty": "Industrial"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "/products/almonard/pedestal-1.webp"
+  }
+ },
+ {
+  "id": "wall-air-circulators",
+  "title": "Wall Air Circulator",
+  "vendor": "Almonard",
+  "category": "Fans",
+  "subcategory": "Industrial Fans",
+  "tags": [
+   "industrial"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "450mm",
+     "Color": "Green",
+     "Duty": "Industrial"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Size": "600mm",
+     "Color": "Green",
+     "Duty": "Industrial"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Size": "750mm",
+     "Color": "Green",
+     "Duty": "Industrial"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "/products/almonard/wall-air-1.webp"
+  }
+ }
+]

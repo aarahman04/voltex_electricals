@@ -1,11 +1,11 @@
 import { useMemo, useState } from "react";
 import {
-  products,
   getBrands,
   getCategories,
   getSubcategories,
-  searchProducts,
+  matchesQuery,
 } from "../data/products.js";
+import { catalogFull as products } from "../data/catalogFull.js";
 import { cdnImage } from "../lib/image.js";
 
 // Dev-only bulk removal tool. Reads/writes Products/curation.json through
@@ -48,7 +48,9 @@ export default function Curate() {
   );
 
   const visible = useMemo(() => {
-    let list = query.trim() ? searchProducts(query, 2000) : products;
+    let list = query.trim()
+      ? products.filter((p) => matchesQuery(p, query))
+      : products;
     if (brand) list = list.filter((p) => p.brandSlug === brand);
     if (category) list = list.filter((p) => p.category === category);
     if (subcategory) list = list.filter((p) => p.subcategory === subcategory);
