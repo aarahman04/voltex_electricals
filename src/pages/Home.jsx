@@ -6,11 +6,12 @@ import {
   getCategoryFeature,
   getFeaturedProducts,
   getHeroFeature,
+  getIndustrialPicks,
   getProductsByCategory,
   getSubcategories,
   products,
 } from "../data/products.js";
-import { PUBLISHED, categoryList, categoryPath } from "../data/taxonomy.js";
+import { PUBLISHED, brandListingPath, categoryList, categoryPath } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 import { kelvinToCss, nearestTone } from "../lib/kelvin.js";
 import { displayTitle } from "../lib/specSummary.js";
@@ -19,6 +20,7 @@ import ProductCard from "../components/ProductCard.jsx";
 
 const brands = getBrands();
 const featured = getFeaturedProducts(8);
+const industrial = getIndustrialPicks(4);
 const hero = getHeroFeature();
 
 // The hero fixture glows in real 2700K lamplight rather than the amber UI
@@ -73,6 +75,21 @@ export default function Home() {
           ))}
         </div>
       </Section>
+
+      {industrial.length > 0 && (
+        <Section
+          title="Built for industry"
+          blurb="Heavy-duty air circulators and high-bay luminaires for factories, warehouses and sheds."
+          href={brandListingPath("Fans", "almonard")}
+          hrefLabel="Industrial fans"
+        >
+          <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">
+            {industrial.map((p) => (
+              <ProductCard key={p.uid} product={p} />
+            ))}
+          </div>
+        </Section>
+      )}
 
       <Section title="Explore by brand" href="/brands" hrefLabel="All brands">
         <div className="flex flex-wrap gap-2.5">
@@ -219,11 +236,14 @@ function HeroLamp() {
   );
 }
 
-function Section({ title, href, hrefLabel, children }) {
+function Section({ title, blurb, href, hrefLabel, children }) {
   return (
     <section className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8 sm:py-16">
       <div className="mb-7 flex items-baseline justify-between gap-4 border-b border-seam pb-3">
-        <h2 className="nameplate text-2xl text-ink">{title}</h2>
+        <div>
+          <h2 className="nameplate text-2xl text-ink">{title}</h2>
+          {blurb && <p className="mt-1.5 max-w-lg text-sm text-ink-muted">{blurb}</p>}
+        </div>
         {href && (
           <Link
             to={href}

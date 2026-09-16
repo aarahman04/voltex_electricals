@@ -353,6 +353,44 @@ const FEATURED = {
   lighting: { id: "raya-candle-wall-light", frame: 0 },
 };
 
+// A fixed showcase for the "Built for industry" homepage row: Almonard's two
+// air circulators plus two of Wipro's industrial luminaires. Falls back to
+// any other Industrial-duty fan or Professional & Commercial Lighting model
+// if a named uid is ever removed, so the row never renders fewer than it can.
+const INDUSTRIAL_PICKS = [
+  "almonard--pedestal-air-circulators",
+  "almonard--wall-air-circulators",
+  "wipro--xpressbay-pro",
+  "wipro--stormx",
+];
+
+export function getIndustrialPicks(limit = 4) {
+  const picks = INDUSTRIAL_PICKS.map(getProductById).filter(Boolean);
+  const used = new Set(picks.map((p) => p.uid));
+
+  if (picks.length < limit) {
+    const industrialFans = getProductsByCategory("Fans").filter(
+      (p) => !used.has(p.uid) && hasOptionValue(p, "Duty", "Industrial"),
+    );
+    for (const p of industrialFans) {
+      if (picks.length >= limit) break;
+      picks.push(p);
+      used.add(p.uid);
+    }
+  }
+  if (picks.length < limit) {
+    const commercial = getProductsByCategory("Lighting").filter(
+      (p) => !used.has(p.uid) && p.subcategory === "Professional & Commercial Lighting",
+    );
+    for (const p of commercial) {
+      if (picks.length >= limit) break;
+      picks.push(p);
+      used.add(p.uid);
+    }
+  }
+  return picks.slice(0, limit);
+}
+
 function resolveFeatured(slot, fallbackCategory) {
   const pick = FEATURED[slot];
   const product = pick && getProductById(pick.id);
