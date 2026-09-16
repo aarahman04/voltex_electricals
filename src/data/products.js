@@ -1,4 +1,4 @@
-import { catalog } from "./catalog.js";
+import { catalog, loadProductDetail } from "./catalog.js";
 import { BRANDS } from "./brands.js";
 import { TONES } from "../lib/kelvin.js";
 import { PUBLISHED } from "./taxonomy.js";
@@ -68,6 +68,13 @@ export function getSubcategories(category, brandSlug) {
 // from a real product shot.
 export function getProductImage(product) {
   return product?.images?.primary;
+}
+
+// Fetches the description/specs/full image gallery for one product, lazily
+// (see catalog.js) — everything else about the product is already available
+// synchronously via getProductById.
+export function getProductDetail(uid) {
+  return loadProductDetail(uid);
 }
 
 // Accepts a uid ("orient--linea-tower-fan"); still resolves a bare raw id
@@ -164,6 +171,23 @@ function searchHaystack(p) {
     .toLowerCase();
 }
 
+// Every query token must appear somewhere in the product — shared by
+// searchProducts (the /search page's full-corpus scan) and Listing's own
+// "refine within results" box, so a result found by one is never dropped by
+// the other. Also checked against a space-stripped haystack, so a token
+// typed as one word ("streetlight") still matches fields that spell it as
+// two ("Street Light").
+export function matchesQuery(p, query) {
+  const tokens = String(query ?? "")
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean);
+  if (tokens.length === 0) return true;
+  const haystack = searchHaystack(p);
+  const tight = haystack.replace(/\s+/g, "");
+  return tokens.every((t) => haystack.includes(t) || tight.includes(t));
+}
+
 // Every query token must appear somewhere in the product. Results are ranked
 // so a hit in the name beats a hit in a tag or a variant code.
 export function searchProducts(query, limit = 60) {
@@ -175,8 +199,7 @@ export function searchProducts(query, limit = 60) {
 
   const scored = [];
   for (const p of products) {
-    const haystack = searchHaystack(p);
-    if (!tokens.every((t) => haystack.includes(t))) continue;
+    if (!matchesQuery(p, query)) continue;
 
     const title = p.title.toLowerCase();
     const brand = p.brand.toLowerCase();
@@ -352,6 +375,44 @@ const FEATURED = {
   },
   lighting: { id: "raya-candle-wall-light", frame: 0 },
 };
+
+// A fixed showcase for the "Built for industry" homepage row: Almonard's two
+// air circulators plus two of Wipro's industrial luminaires. Falls back to
+// any other Industrial-duty fan or Professional & Commercial Lighting model
+// if a named uid is ever removed, so the row never renders fewer than it can.
+const INDUSTRIAL_PICKS = [
+  "almonard--pedestal-air-circulators",
+  "almonard--wall-air-circulators",
+  "wipro--xpressbay-pro",
+  "wipro--stormx",
+];
+
+export function getIndustrialPicks(limit = 4) {
+  const picks = INDUSTRIAL_PICKS.map(getProductById).filter(Boolean);
+  const used = new Set(picks.map((p) => p.uid));
+
+  if (picks.length < limit) {
+    const industrialFans = getProductsByCategory("Fans").filter(
+      (p) => !used.has(p.uid) && hasOptionValue(p, "Duty", "Industrial"),
+    );
+    for (const p of industrialFans) {
+      if (picks.length >= limit) break;
+      picks.push(p);
+      used.add(p.uid);
+    }
+  }
+  if (picks.length < limit) {
+    const commercial = getProductsByCategory("Lighting").filter(
+      (p) => !used.has(p.uid) && p.subcategory === "Professional & Commercial Lighting",
+    );
+    for (const p of commercial) {
+      if (picks.length >= limit) break;
+      picks.push(p);
+      used.add(p.uid);
+    }
+  }
+  return picks.slice(0, limit);
+}
 
 function resolveFeatured(slot, fallbackCategory) {
   const pick = FEATURED[slot];

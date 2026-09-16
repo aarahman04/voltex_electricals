@@ -1,6 +1,6 @@
 # Data build report
 
-_2026-09-14T20:19:18.979Z_
+_2026-09-16T12:19:41.400Z_
 
 - Orient Electric: fans.json -> 100 products
 - Orient Electric: lighting.json -> 99 products
@@ -21,43 +21,52 @@ _2026-09-14T20:19:18.979Z_
 - Polycab: polycab_fans.csv -> 71 products (Fans)
 - Polycab: polycab_lighting.csv -> 83 products (Lighting)
   curated out: 111 product(s) removed via /curate
+- Almonard: fans.json -> 2 products
+- Multifab: multtifabled-indoor-light.csv -> 69 rows, 61 products
+- Multifab: multtifabled-outdoor.csv -> 43 rows, 37 products
+  deduped: 2 duplicate uid(s) dropped
+- AO Smith: aosmithindia_gysers.csv -> 36 products (Water Geysers)
+- Wipro: wiprolighting.csv -> 119 products (Lighting)
 
 ## Published subcategory census
 
-- **Fans / Air Circulators** — 5  (polycab 5)
-- **Fans / Ceiling Fans** — 191  (orient 34, atomberg 15, crompton 43, havells 91, polycab 8)
-- **Fans / Decorative Fans** — 1  (orient 1)
-- **Fans / Exhaust Fans** — 56  (orient 9, atomberg 4, crompton 14, havells 28, polycab 1)
-- **Fans / Farrata Fans** — 2  (polycab 2)
-- **Fans / Kitchen Fans** — 2  (orient 2)
-- **Fans / Pedestal Fans** — 39  (orient 7, atomberg 2, crompton 6, havells 18, polycab 6)
-- **Fans / Table Fans** — 17  (orient 13, atomberg 1, crompton 1, polycab 2)
-- **Fans / Tower Fans** — 1  (orient 1)
-- **Fans / Wall Fans** — 34  (orient 5, atomberg 3, crompton 6, havells 15, polycab 5)
-- **Lighting / Backlight** — 4  (orient 4)
-- **Lighting / Battens** — 55  (crompton 14, philips 26, havells 15)
-- **Lighting / COB LED** — 36  (crompton 4, philips 17, havells 4, polycab 11)
-- **Lighting / Ceiling Lights** — 101  (crompton 67, philips 34)
-- **Lighting / Chandeliers** — 22  (philips 22)
-- **Lighting / Downlighters & Spotlights** — 26  (orient 14, havells 12)
-- **Lighting / Home Art Lights** — 16  (havells 16)
-- **Lighting / LED Bulbs & Lamps** — 55  (orient 5, crompton 20, philips 8, havells 22)
-- **Lighting / Lamps & Lanterns** — 10  (philips 10)
-- **Lighting / Panel Lights** — 5  (orient 5)
-- **Lighting / Pendant Lights** — 24  (philips 24)
-- **Lighting / Portable Lighting** — 3  (philips 3)
-- **Lighting / Professional & Commercial Lighting** — 61  (orient 28, crompton 33)
-- **Lighting / Smart Lighting** — 16  (crompton 1, philips 13, havells 2)
-- **Lighting / Street & Outdoor Lights** — 104  (orient 9, crompton 53, philips 29, havells 10, polycab 3)
-- **Lighting / Strip & Rope Lights** — 30  (crompton 2, philips 22, havells 6)
-- **Lighting / Track Lights** — 20  (orient 4, philips 16)
-- **Lighting / Wall Lights** — 50  (orient 6, philips 44)
-- **Water Geysers / Instant Water Heaters** — 6  (crompton 6)
-- **Water Geysers / Storage Water Heaters** — 15  (crompton 15)
+- **Fans / Air Circulators** — 10  (polycab 10)
+- **Fans / Ceiling Fans** — 382  (orient 68, atomberg 30, crompton 86, havells 182, polycab 16)
+- **Fans / Decorative Fans** — 2  (orient 2)
+- **Fans / Exhaust Fans** — 112  (orient 18, atomberg 8, crompton 28, havells 56, polycab 2)
+- **Fans / Farrata Fans** — 4  (polycab 4)
+- **Fans / Industrial Fans** — 4  (almonard 4)
+- **Fans / Kitchen Fans** — 4  (orient 4)
+- **Fans / Pedestal Fans** — 78  (orient 14, atomberg 4, crompton 12, havells 36, polycab 12)
+- **Fans / Table Fans** — 34  (orient 26, atomberg 2, crompton 2, polycab 4)
+- **Fans / Tower Fans** — 2  (orient 2)
+- **Fans / Wall Fans** — 68  (orient 10, atomberg 6, crompton 12, havells 30, polycab 10)
+- **Lighting / Backlight** — 8  (orient 8)
+- **Lighting / Battens** — 112  (crompton 28, philips 52, havells 30, multifab 2)
+- **Lighting / COB LED** — 72  (crompton 8, philips 34, havells 8, polycab 22)
+- **Lighting / Ceiling Lights** — 202  (crompton 134, philips 68)
+- **Lighting / Chandeliers** — 44  (philips 44)
+- **Lighting / Downlighters & Spotlights** — 124  (orient 28, havells 24, multifab 60, wipro 12)
+- **Lighting / Home Art Lights** — 32  (havells 32)
+- **Lighting / LED Bulbs & Lamps** — 110  (orient 10, crompton 40, philips 16, havells 44)
+- **Lighting / Lamps & Lanterns** — 20  (philips 20)
+- **Lighting / Linear Lights** — 36  (multifab 6, wipro 30)
+- **Lighting / Panel Lights** — 36  (orient 10, multifab 12, wipro 14)
+- **Lighting / Pendant Lights** — 88  (philips 48, wipro 40)
+- **Lighting / Portable Lighting** — 6  (philips 6)
+- **Lighting / Professional & Commercial Lighting** — 184  (orient 56, crompton 66, wipro 62)
+- **Lighting / Smart Lighting** — 32  (crompton 2, philips 26, havells 4)
+- **Lighting / Street & Outdoor Lights** — 360  (orient 18, crompton 106, philips 58, havells 20, polycab 6, multifab 72, wipro 80)
+- **Lighting / Strip & Rope Lights** — 60  (crompton 4, philips 44, havells 12)
+- **Lighting / Surface Lights** — 24  (multifab 24)
+- **Lighting / Track Lights** — 46  (orient 8, philips 32, multifab 6)
+- **Lighting / Wall Lights** — 110  (orient 12, philips 88, multifab 10)
+- **Water Geysers / Instant Water Heaters** — 40  (crompton 12, ao-smith 28)
+- **Water Geysers / Storage Water Heaters** — 74  (crompton 30, ao-smith 44)
 
 ## Totals
 
-- Published: 1007
+- Published: 1260
 - Parked: 373
-- duplicate uids dropped: 8
+- duplicate uids dropped: 10
 - curated out: 468

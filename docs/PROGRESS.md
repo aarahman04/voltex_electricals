@@ -10,6 +10,19 @@
 
 > **Branch trap, corrected.** The previous note here said `main` was current and `multi-brand-catalog` was stale — as of this session it's the other way round: `multi-brand-catalog` (`6bfeed7`) carries the merged curation-tool work (PR #9) that `main` (`6770be8`, PR #8 only) doesn't have yet. **Check both `origin/main` and `origin/multi-brand-catalog` logs before assuming either is current** — this has flipped once already and will again once someone merges one into the other.
 
+## Latest (2026-09-16) — four new brands (Multifab, AO Smith, Almonard, Wipro)
+
+**What and why.** Client dropped raw scraped data for four new brands into `Products/<brand>/` plus their logos into `Logos/`, and asked for them wired in exactly like the existing six: Multifab and Wipro under Lighting, AO Smith under Water Geysers, Almonard under Fans (as Industrial Fans) — with the brand-first flow (category → brand → listing) working unchanged, and a new homepage row for industrial products.
+
+- **Three new ETL adapters** in `scripts/normalize.mjs` (`adaptMultifab`, `adaptAoSmith`, `adaptWipro`), one per raw scrape shape — see `docs/data-model.md` for the full column-mapping detail of each. Almonard's two products were transcribed by hand into `Products/almonard/fans.json` (schema A) since its CSV scrape was page fragments with no usable columns, not a product table.
+- **Two new lighting subcategories**: `Surface Lights` and `Linear Lights` added to `SUBCATEGORY_ORDER.Lighting` (`src/data/taxonomy.js`) — Multifab's surface-mount and linear-batten fixtures didn't fit any existing bucket without being misleading.
+- **Brand entries** (`src/data/brands.js`): fixed the pre-existing `multifar` typo/slug to `multifab` (was a stub with no logo), gave `wipro` and `almonard` real logos (were `logo: null` text-chip stubs), added a new `ao-smith` entry. Logos copied from `Logos/` into `public/brands/` — `almonard.png` (236×29) and `AOSmith-logo.png` (200×70) are low-res for the brand-chooser's `xl` slot (up to 144px tall); flagged, not fixed, pending a higher-res source from the client.
+- **Homepage**: new "Built for industry" section under "Popular across the range" (`Home.jsx`) — Almonard's 2 air circulators + 2 Wipro high-bay/wellglass luminaires, via `getIndustrialPicks()` (`src/data/products.js`), which backfills from any other Industrial-duty fan or Professional & Commercial Lighting product if a named model is ever removed, so the row can't silently shrink or misrepresent stock. `Section` gained an optional `blurb` line under its title (used here only).
+- **No price/SKU/description in Multifab and Wipro's raw data** — both scrapes are name+image(+spec-table for Multifab) only, same "thin" `quality` treatment as Havells/Polycab.
+- Note on naming: the client referred to this brand verbally as "Elmonard," but the files, logo, and the brand's real name are all **Almonard** — used the real name.
+
+**Verified:** `npm run data:build` — 253 new products published, **zero** parked and **zero** auto-adopted subcategories from any of the four new brands (report census confirms: Fans/Industrial Fans +2, Lighting subcategories across Multifab/Wipro, Water Geysers/Instant+Storage split for AO Smith). A script checked every one of the 253 new records has a non-empty title, a primary image, and a subcategory that exists in `SUBCATEGORY_ORDER`. `npm run lint` and `npm run build` both clean. **Not verified: appearance** — no browser this session (per client instruction: they're checking manually and will flag anything wrong).
+
 ## Latest (2026-09-15) — brand-first browsing, accurate counts, logo fixes
 
 **What and why.** Client removed ~468 unavailable products via the curation tool (down to 1,007 live models across 6 brands), leaving the site's brand list, "coming soon" tiles and stats stale/inaccurate. Separately asked for the browse flow to go category → brand → filtered listing instead of category → subcategory grid, since a shopper who knows they want a Havells fan had no direct path to just Havells' fans.
@@ -210,6 +223,7 @@ Phases 0–7 done. The whole UI is rebuilt on the Modular Plate light system. `n
 - **Not visually verified.** The Chrome extension was offline this session — Phase 8 still needs the responsive/keyboard/reduced-motion pass.
 - `multi-brand-catalog` was never merged to `main`. The eventual PR merges *everything* since `a204be4`.
 - Prices exist in some scraped data but are **not rendered** — enquiry-only. See `decisions.md`.
-- Data chunk is 2.3 MB (362 KB gzip) in its own lazy chunk. Fine for now; windowing/pagination for >200-item lists is still a `roadmap.md` item (Crompton lighting ≈ 320).
+- ~~Data chunk is 2.3 MB (362 KB gzip)...~~ **Fixed** (perf pass, 2026-09-16): `catalog.js` now eager-bundles only a "lite" per-product record (id/title/brand/category/subcategory/tags/variants/primary image); description/specs/full gallery are lazy-loaded per brand file via `getProductDetail(uid)` only when `ProductDetail.jsx` mounts. Eager chunk dropped from 1.87 MB/291 KB gzip to ~677 KB/89 KB gzip. `Listing.jsx` also gained pagination (24/page, "Load more") for the windowing item below.
+- ~~windowing/pagination for >200-item lists~~ **Fixed** alongside the above — `Listing.jsx` renders 24 at a time with a "Load more" button instead of the full filtered set.
 - `Home` "Shop by need" tile "Energy-efficient fans" links to `/search?q=bldc` — depends on "bldc" appearing in product text; verify it returns results.
 - Brand logos are all `null` — `<BrandMark>` renders wordmark chips everywhere. Drop real SVGs at `public/brands/<slug>.svg` + set `logo` in `brands.js` when available.

@@ -13,7 +13,7 @@
  * on the record but the app never renders them (decision D4).
  */
 
-import { readFileSync, writeFileSync, readdirSync, mkdirSync, rmSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, rmSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -43,6 +43,16 @@ const BRANDS = [
   { slug: "philips", name: "Philips", schema: "B", dir: "philips", raw: "philips_all_products_raw.json" },
   { slug: "havells", name: "Havells", schema: "C", dir: "havells_output", csv: ["havells_fans.csv", "havells_lighting.csv"] },
   { slug: "polycab", name: "Polycab", schema: "C", dir: "polycab_output", csv: ["polycab_fans.csv", "polycab_lighting.csv"] },
+  { slug: "almonard", name: "Almonard", schema: "A", dir: "almonard" },
+  {
+    slug: "multifab",
+    name: "Multifab",
+    schema: "multifab",
+    dir: "multifab",
+    csv: { indoor: "multtifabled-indoor-light.csv", outdoor: "multtifabled-outdoor.csv" },
+  },
+  { slug: "ao-smith", name: "AO Smith", schema: "aosmith", dir: "ao smith", csv: "aosmithindia_gysers.csv" },
+  { slug: "wipro", name: "Wipro", schema: "wipro", dir: "wipro", csv: "wiprolighting.csv" },
 ];
 
 // Schema B: product_type (lowercased) -> [category, subcategory].
@@ -238,7 +248,9 @@ const priceInt = (v) => {
 function adaptA(brand, report) {
   const out = [];
   for (const file of ["fans.json", "lighting.json"]) {
-    const rows = JSON.parse(readFileSync(join(SRC, brand.dir, file), "utf8"));
+    const path = join(SRC, brand.dir, file);
+    if (!existsSync(path)) continue;
+    const rows = JSON.parse(readFileSync(path, "utf8"));
     for (const p of rows) {
       out.push({
         ...p,
@@ -360,6 +372,252 @@ function adaptC(brand, report) {
   return { published, parked: [] };
 }
 
+// Schema "multifab" — CSV scrape with generic column names (x-el, x-el 2, …).
+// Same product name repeated at different wattages is one product with
+// several variants, not several products, so rows are grouped by the raw
+// name before anything else.
+const MULTIFAB_TAGLINE_MAP = [
+  [/junction|downlight|spotlight/i, "Downlighters & Spotlights"],
+  [/panel/i, "Panel Lights"],
+  [/surface/i, "Surface Lights"],
+  [/track/i, "Track Lights"],
+  [/mirror|wall spotlight/i, "Wall Lights"],
+  [/batten/i, "Battens"],
+  [/linear/i, "Linear Lights"],
+];
+
+function multifabTitleCaseWord(word) {
+  const upper = word.toUpperCase();
+  if (["LED", "RGB", "COB", "CCT", "PGB"].includes(upper)) return upper;
+  if (/\d/.test(word) || /-/.test(word)) return upper;
+  return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+}
+
+function multifabTitle(raw) {
+  const cleaned = raw
+    .trim()
+    .replace(/ADUJSTABLE/gi, "ADJUSTABLE")
+    .replace(/\bWAL\b/gi, "WALL")
+    .replace(/\(/g, " (")
+    .replace(/\s+/g, " ")
+    .trim();
+  return cleaned
+    .split(" ")
+    .map((word) => {
+      const paren = word.startsWith("(") && word.endsWith(")");
+      const core = paren ? word.slice(1, -1) : word;
+      const cased = multifabTitleCaseWord(core);
+      return paren ? `(${cased})` : cased;
+    })
+    .join(" ");
+}
+
+function multifabUpscale(url) {
+  return url.replace(/rs=w:388,h:194/, "rs=w:1200,h:600");
+}
+
+// A wattage/size spec line like "1W  38x23  31  100" zipped against the
+// header "Watt|Size (mm)|Cut Size(mm)|Std.Pkg" — one variant plus one spec
+// row per line, so multiple wattages of the same fixture stay distinguishable.
+function multifabParseSpecLine(headers, line) {
+  const tokens = line.trim().split(/\s{2,}/).filter(Boolean);
+  const wattage = tokens[0];
+  if (!wattage) return null;
+  const options = { Wattage: wattage };
+  const rest = [];
+  for (let i = 1; i < headers.length; i++) {
+    const header = (headers[i] ?? "").trim();
+    const value = tokens[i];
+    if (!header || !value || value === "-") continue;
+    const isSize = /size/i.test(header);
+    const unit = /\(mm\)/i.test(header) ? " mm" : "";
+    if (isSize && !options.Size) options.Size = `${value}${unit}`;
+    const label = header.replace(/\s*\([^)]*\)/, "").trim();
+    rest.push(`${label} ${value}${unit}`);
+  }
+  return {
+    variant: { options, sku: null, price: 0 },
+    spec: rest.length ? { label: wattage, value: rest.join(" · ") } : null,
+  };
+}
+
+function multifabClassifyExtra(headers, value, variants, specs) {
+  const v = value.trim();
+  if (!v) return;
+  if (/^\d[\d.]*(\+\d+)?(x\d+)?w\b/i.test(v)) {
+    const parsed = multifabParseSpecLine(headers, v);
+    if (parsed) {
+      variants.push(parsed.variant);
+      if (parsed.spec) specs.push(parsed.spec);
+    }
+    return;
+  }
+  if (/^cct/i.test(v)) {
+    specs.push({ label: "Colour temperature", value: v.replace(/^cct\s*&\s*colors?:\s*/i, "").trim() });
+    return;
+  }
+  if (/^(blue|green|red|pink|yellow|purple|amber|rgb|3in1|tiranga|color available)/i.test(v)) {
+    specs.push({ label: "Colours", value: v.replace(/^color available in\s*/i, "").trim() });
+    return;
+  }
+  if (/^(model:|also available)/i.test(v)) {
+    specs.push({ label: "Note", value: v });
+    return;
+  }
+  // "Watt| Size…" header text, "Features", "Send an Enquiry", mailto/http
+  // links and blanks carry no product data — deliberately dropped.
+}
+
+function adaptMultifab(brand, report) {
+  const published = [];
+  const EXCLUDE = new Set(["x-el", "x-el 2", "x-el 3", "x-el src", "x-el 4", "x-el 14", "x-el 15", "x-el href"]);
+  const files = [
+    { key: "indoor", subcategory: null },
+    { key: "outdoor", subcategory: "Street & Outdoor Lights" },
+  ];
+
+  for (const { key, subcategory: fixedSub } of files) {
+    const csvFile = brand.csv[key];
+    const rows = parseCsv(readFileSync(join(SRC, brand.dir, csvFile), "utf8"));
+    const groups = new Map();
+    for (const row of rows) {
+      const name = row["x-el"]?.trim();
+      if (!name) continue;
+      if (!groups.has(name)) groups.set(name, []);
+      groups.get(name).push(row);
+    }
+
+    for (const [name, groupRows] of groups) {
+      const headers = (groupRows[0]["x-el 4"] || "")
+        .split("|")
+        .map((h) => h.trim());
+      const variants = [];
+      const specs = [];
+      const images = [];
+      let tagline = "";
+
+      for (const row of groupRows) {
+        const img = multifabUpscale((row["x-el src"] || "").trim());
+        if (img && !images.includes(img)) images.push(img);
+        if (row["x-el 14"]?.trim()) tagline = row["x-el 14"].trim();
+        for (const col of Object.keys(row)) {
+          if (EXCLUDE.has(col)) continue;
+          multifabClassifyExtra(headers, row[col] || "", variants, specs);
+        }
+      }
+
+      let subcategory = fixedSub;
+      if (!subcategory) {
+        const match = MULTIFAB_TAGLINE_MAP.find(([re]) => re.test(tagline));
+        if (!match) throw new Error(`Multifab: no subcategory mapping for tagline "${tagline}" (product "${name}")`);
+        subcategory = match[1];
+      }
+
+      published.push({
+        id: slugify(name),
+        title: multifabTitle(name),
+        vendor: brand.name,
+        tags: [],
+        priceMin: 0,
+        priceMax: 0,
+        variants: variants.length ? variants : [{ options: {}, sku: null, price: 0 }],
+        images: { primary: images[0] ?? null, gallery: images },
+        sourceUrl: "https://multtifabled.co.in",
+        category: "Lighting",
+        subcategory,
+        rawSubcategory: tagline || subcategory,
+        description: "",
+        specs,
+        quality: variants.length ? "rich" : "thin",
+      });
+    }
+    report.push(`- ${brand.name}: ${csvFile} -> ${rows.length} rows, ${groups.size} products`);
+  }
+
+  return { published, parked: [] };
+}
+
+// Schema "aosmith" — WooCommerce grid scrape. Thin: name + image + price.
+function adaptAoSmith(brand, report) {
+  const rows = parseCsv(readFileSync(join(SRC, brand.dir, brand.csv), "utf8"));
+  const published = [];
+  for (const r of rows) {
+    const name = r["woocommerce-loop-product_title"]?.trim();
+    if (!name) continue;
+    const href = r["view-detail href"]?.trim();
+    const id = href?.split("/").filter(Boolean).pop() || slugify(name);
+    const isInstant = /insta|ews|fast-?on|forcenxt|minibot|zip/i.test(name);
+    const badge = r["acoplw-blockText"]?.trim();
+    const price = priceInt(r["woocommerce-Price-amount"]);
+    published.push({
+      id,
+      title: name,
+      vendor: brand.name,
+      tags: badge ? [badge] : [],
+      priceMin: price,
+      priceMax: price,
+      variants: [{ options: {}, sku: null, price: 0 }],
+      images: { primary: r["attachment-woocommerce_thumbnail src"] || null, gallery: [r["attachment-woocommerce_thumbnail src"]].filter(Boolean) },
+      sourceUrl: href || undefined,
+      category: "Water Geysers",
+      subcategory: isInstant ? "Instant Water Heaters" : "Storage Water Heaters",
+      rawSubcategory: "geyser",
+      description: r["col-sm-3"]?.trim() || "",
+      specs: [],
+      quality: "thin",
+    });
+  }
+  report.push(`- ${brand.name}: ${brand.csv} -> ${rows.length} products (Water Geysers)`);
+  return { published, parked: [] };
+}
+
+// Schema "wipro" — index scrape: name + image + product URL only. Subcategory
+// is read off the URL's own section path, which is the only classification
+// the raw data carries.
+const WIPRO_SECTION_MAP = [
+  [/^modern-workspaces\/2x2$/, "Panel Lights"],
+  [/^modern-workspaces\/downlight$/, "Downlighters & Spotlights"],
+  [/^modern-workspaces\/linear$/, "Linear Lights"],
+  [/^modern-workspaces\/collaborative-range$/, "Pendant Lights"],
+  [/^modern-workspaces\/(architectual-solution|acoustic-solution)$/, "Professional & Commercial Lighting"],
+  [/^indoor-workspaces\/modern-work-spaces$/, "Professional & Commercial Lighting"],
+  [/^outdoor\//, "Street & Outdoor Lights"],
+  [/^industrial-solutions\//, "Professional & Commercial Lighting"],
+];
+
+function adaptWipro(brand, report) {
+  const rows = parseCsv(readFileSync(join(SRC, brand.dir, brand.csv), "utf8"));
+  const published = [];
+  for (const r of rows) {
+    const name = r.name?.trim();
+    const href = r["proBx href"]?.trim();
+    if (!name || !href) continue;
+    const parts = href.split("/products/")[1]?.split("/") ?? [];
+    const sectionKey = parts.slice(0, 2).join("/");
+    const match = WIPRO_SECTION_MAP.find(([re]) => re.test(sectionKey));
+    if (!match) throw new Error(`Wipro: no subcategory mapping for section "${sectionKey}" (product "${name}")`);
+    published.push({
+      id: parts[parts.length - 1] || slugify(name),
+      title: name,
+      vendor: brand.name,
+      tags: [],
+      priceMin: 0,
+      priceMax: 0,
+      variants: [{ options: {}, sku: null, price: 0 }],
+      images: { primary: r["lazy src"] || null, gallery: [r["lazy src"]].filter(Boolean) },
+      sourceUrl: href,
+      category: "Lighting",
+      subcategory: match[1],
+      rawSubcategory: sectionKey,
+      description: "",
+      specs: [],
+      quality: "thin",
+    });
+  }
+  report.push(`- ${brand.name}: ${brand.csv} -> ${rows.length} products (Lighting)`);
+  return { published, parked: [] };
+}
+
 /* --------------------------------------------------- derived classification */
 
 // A COB downlight, by the brand's own handle or category tag. Takes raw tags
@@ -420,8 +678,17 @@ const curation = loadCuration();
 let curatedOutTotal = 0;
 const seenCurationUids = new Set();
 
+const ADAPTERS = {
+  A: adaptA,
+  B: adaptB,
+  C: adaptC,
+  multifab: adaptMultifab,
+  aosmith: adaptAoSmith,
+  wipro: adaptWipro,
+};
+
 for (const brand of BRANDS) {
-  const adapt = brand.schema === "A" ? adaptA : brand.schema === "B" ? adaptB : adaptC;
+  const adapt = ADAPTERS[brand.schema];
   const { published, parked } = adapt(brand, report);
   reclassify(published);
 
@@ -463,6 +730,21 @@ for (const brand of BRANDS) {
   for (const [cat, list] of Object.entries(byCat)) {
     const filename = cat.toLowerCase().replace(/\s+/g, "-");
     writeFileSync(join(OUT, brand.slug, `${filename}.json`), JSON.stringify(list, null, 1));
+    // "Lite" sibling: only the fields list/search/facet pages ever read.
+    // catalog.js eager-bundles this one; ProductDetail lazy-loads the full
+    // file above for description/specs/full gallery, so those heavy fields
+    // never ship to browsers just browsing the catalogue.
+    const lite = list.map((p) => ({
+      id: p.id,
+      title: p.title,
+      vendor: p.vendor,
+      category: p.category,
+      subcategory: p.subcategory,
+      tags: p.tags,
+      variants: p.variants,
+      images: { primary: p.images?.primary ?? null },
+    }));
+    writeFileSync(join(OUT, brand.slug, `${filename}.lite.json`), JSON.stringify(lite, null, 1));
   }
   allParked.push(...parked.map((p) => ({ ...p, brand: brand.name, brandSlug: brand.slug })));
   publishedTotal += curated.length;

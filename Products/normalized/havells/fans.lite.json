@@ -1,0 +1,2744 @@
+[
+ {
+  "id": "inveno-lx-bldc-ceiling-fan",
+  "title": "Inveno LX BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcil5ssab48_2__1_1.jpg"
+  }
+ },
+ {
+  "id": "crista-under-light-ceiling-fan",
+  "title": "Crista Under Light Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhccg5splc48.jpg"
+  }
+ },
+ {
+  "id": "elio-bldc-ceiling-fan",
+  "title": "Elio BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhce15sbnc48_1_.jpg"
+  }
+ },
+ {
+  "id": "inox-under-light-bldc-ceiling-fan-fhcid5smeg48",
+  "title": "Inox Under Light BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcid5smeg48_remote.jpg"
+  }
+ },
+ {
+  "id": "fhcbi5smpw48-c",
+  "title": "Stealth Prime BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcbi5smpw48_5_star_1.jpg"
+  }
+ },
+ {
+  "id": "fhce15spmb48-c",
+  "title": "Elio Prime BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhce15spmb48_star_1.jpg"
+  }
+ },
+ {
+  "id": "neon-underlight-bldc-ceiling-fan",
+  "title": "Neon Underlight BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcnue5mtw48_base_1.jpg"
+  }
+ },
+ {
+  "id": "inveno-luxury-lx-bldc-ceiling-fan",
+  "title": "Inveno Luxury (LX) BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcil5ssab48_2__1_2_1.jpg"
+  }
+ },
+ {
+  "id": "florette-ul-bldc-smartsense-ceiling-fan-fhclae4sbw52",
+  "title": "Florette UL BLDC Smartsense Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcla5ssbw52_base_1.jpg"
+  }
+ },
+ {
+  "id": "epic-signia-bldc-ceiling-fan",
+  "title": "Epic Signia BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcps5sbiv48_1__1_1_1_1.jpg"
+  }
+ },
+ {
+  "id": "cera-underlight-bldc-ceiling-fan",
+  "title": "Cera Underlight BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/h/a/havells_cera_champange_cf_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "elio-plus-rr-bldc-dual-control-ceiling-fan-fhcipe5pwt48",
+  "title": "Elio Plus R&R BLDC (Dual Control) Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcip5spwt48_1__1.jpg"
+  }
+ },
+ {
+  "id": "fab-bldc-ceiling-fan",
+  "title": "Fab BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcfwe5wht48e_5_1_1.jpg"
+  }
+ },
+ {
+  "id": "neoma-underlight-bldc-ceiling-fan",
+  "title": "Neoma Underlight BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcnme5mbn48_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "epic-rr-bldc-ceiling-fan-fhcpue5sbw48",
+  "title": "Epic+ R&R BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcpue5sbw48_base_1.jpg"
+  }
+ },
+ {
+  "id": "epic-voice-bldc-ceiling-fans",
+  "title": "Epic Voice BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/h/a/havells_epic_odv_pro_voice-smoke_brown_1__2_1.jpg"
+  }
+ },
+ {
+  "id": "epic-underlight-bldc-ceiling-fans",
+  "title": "Epic Underlight BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/e/p/epic_ul_cocoa_brown_cf_1__2_1.jpg"
+  }
+ },
+ {
+  "id": "enticer-rr-bldc-prime-dual-control-ceiling-fan",
+  "title": "Enticer R&R BLDC Prime (Dual Control) Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcpee5bcc48_base_1.jpg"
+  }
+ },
+ {
+  "id": "elio-bldc-ceiling-fans",
+  "title": "Elio BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcpp5swht48_1_1_1__1_1_1.jpg"
+  }
+ },
+ {
+  "id": "crista-bldc-ceiling-fan",
+  "title": "Crista BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhccbe5gml48_1.jpg"
+  }
+ },
+ {
+  "id": "xpress-hs-regular-ceiling-fan",
+  "title": "Xpress HS Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcxee1wht48_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "victoris-regular-ceiling-fan",
+  "title": "Victoris Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcvse1mist48_b_1.jpg"
+  }
+ },
+ {
+  "id": "ss-390-hs-metallic-regular-ceiling-fan",
+  "title": "SS 390 HS Metallic Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Build": "Metal"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcsse1piv48_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "quickair-neo-regular-ceiling-fan",
+  "title": "Quickair Neo Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcqae1deg48_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "festiva-hs-decorative-ceiling-fan",
+  "title": "Festiva HS Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcfee1pcu48_2__1_1.jpg"
+  }
+ },
+ {
+  "id": "enticer-art-hs-decorative-ceiling-fan",
+  "title": "Enticer Art HS Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhceae1flb48_base_2_1.jpg"
+  }
+ },
+ {
+  "id": "andria-neo-decorative-ceiling-fan",
+  "title": "Andria Neo Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcade1sls48_base_1.jpg"
+  }
+ },
+ {
+  "id": "samraat-neo-regular-ceiling-fan",
+  "title": "Samraat Neo Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/s/a/samraat_ew_base_1_1_1.jpg"
+  }
+ },
+ {
+  "id": "thrill-decor-regular-ceiling-fan",
+  "title": "Thrill Decor Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/t/h/thrill_brown_1.jpg"
+  }
+ },
+ {
+  "id": "epic-underlight-bldc-ceiling-fan",
+  "title": "EPIC Underlight BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/e/p/epic_ul_denim_blue_cf_1__1.jpg"
+  }
+ },
+ {
+  "id": "ep-trendy-es-special-finish-ceiling-fan",
+  "title": "EP Trendy ES Special Finish Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhctr1sabr48_star_1_1.jpg"
+  }
+ },
+ {
+  "id": "amaya-bldc-ceiling-fan-fhcaye5wht56",
+  "title": "Amaya BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcaye5wht56.jpg"
+  }
+ },
+ {
+  "id": "stealth-bldc-ceiling-fan-fhcbhe5cpg48",
+  "title": "Stealth BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcbhe5cpg48_1_.jpg"
+  }
+ },
+ {
+  "id": "albus-ul-bldc-smartsense-ceiling-fan-fhclle4sbw52",
+  "title": "Albus UL BLDC Smartsense Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcll5ssbw52_base_1.jpg"
+  }
+ },
+ {
+  "id": "orion-es-regular-ceiling-fan-fhcore1bsn48",
+  "title": "Orion ES Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcor1sbsn48_star_2.jpg"
+  }
+ },
+ {
+  "id": "ambrose-neo-regular-ceiling-fan",
+  "title": "Ambrose Neo Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcnae1mbu48_base_1.jpg"
+  }
+ },
+ {
+  "id": "epic-pro-wood-bldc-ceiling-fan-fhcppe5pmb48",
+  "title": "Epic Pro Wood BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/e/p/epic_pro_pinewood_2__1_1.jpg"
+  }
+ },
+ {
+  "id": "ambrose-decor-ceiling-fan",
+  "title": "Ambrose Décor Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcdme1ivw48_base_1.jpg"
+  }
+ },
+ {
+  "id": "epic-signia-bldc-ceiling-fan-fhcps5sstg48-c",
+  "title": "Epic Signia BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcps5sstg48_1__1_2.jpg"
+  }
+ },
+ {
+  "id": "epic-pro-bldc-ceiling-fan",
+  "title": "Epic Pro BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcpp5smbl48_base_1.jpg"
+  }
+ },
+ {
+  "id": "epic-bldc-ceiling-fan",
+  "title": "Epic BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcpi5stbr48_base_1.jpg"
+  }
+ },
+ {
+  "id": "florette-all-weather-bldc-ceiling-fan-fhcwhe4sbw52",
+  "title": "Florette All Weather BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/b/a/base_1__4.jpg"
+  }
+ },
+ {
+  "id": "epic-bldc-ceiling-fans",
+  "title": "Epic BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcpi5swht48_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "epic-voice-bldc-ceiling-fan",
+  "title": "Epic Voice BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/h/a/havells_epic_odv_pro_voice-smoke_brown_1__1.jpg"
+  }
+ },
+ {
+  "id": "stealth-air-bldc-voice-ceiling-fan-fhcvce5pwt48",
+  "title": "Stealth Air BLDC+ Voice Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/s/t/stealth_air_bldc_base.jpg"
+  }
+ },
+ {
+  "id": "octet-underlight-special-finish-ceiling-fan-fhcoue1bsn52",
+  "title": "Octet Underlight Special Finish Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcoue1bsn52_base.jpg"
+  }
+ },
+ {
+  "id": "quickair-decorative-ceiling-fan",
+  "title": "Quickair Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/b/l/blue.jpg"
+  }
+ },
+ {
+  "id": "octet-special-finish-ceiling-fan-fhcoue1aww52",
+  "title": "Octet Special Finish Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcoue1aww52_.jpg"
+  }
+ },
+ {
+  "id": "stealth-air-bldc-ceiling-fan-fhcbhe5pwt36p",
+  "title": "Stealth Air BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcbhe5pwt36p.jpg"
+  }
+ },
+ {
+  "id": "florette-bldc-ceiling-fan-fhcfve5sbw52",
+  "title": "Florette BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcfve5sbw52_base.jpg"
+  }
+ },
+ {
+  "id": "stealth-slim-underlight-bldc-ceiling-fan",
+  "title": "Stealth Slim Underlight BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhchbe5stg48_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "stealth-underlight-bldc-ceiling-fan",
+  "title": "Stealth Underlight BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcuae5pwt48_base_1.jpg"
+  }
+ },
+ {
+  "id": "neon-bldc-ceiling-fan",
+  "title": "Neon BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcnoe5wht48_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "stealth-slim-bldc-ceiling-fan",
+  "title": "Stealth Slim BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhchce5grp48_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "ambrose-bldc-ceiling-fan",
+  "title": "Ambrose BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcob5sgmw48e_1.jpg"
+  }
+ },
+ {
+  "id": "elio-plus-bldc-ceiling-fan",
+  "title": "Elio Plus BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcip5sdub48_2__1_1.jpg"
+  }
+ },
+ {
+  "id": "cera-underlight-bldc-ceiling-fan-fhcct5smist48-c",
+  "title": "Cera Underlight BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/h/a/havells_cera_slate_cf_base.jpg"
+  }
+ },
+ {
+  "id": "amaya-bldc-ceiling-fan",
+  "title": "Amaya BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcaystwht56_5_star_1.jpg"
+  }
+ },
+ {
+  "id": "florette-underlight-smart-bldc-ceiling-fan-fhcla5ssbw52",
+  "title": "Florette Underlight Smart BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcla5ssbw52_base.jpg"
+  }
+ },
+ {
+  "id": "fhccb5schl48-c",
+  "title": "Crista BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhccb5splc48_2.jpg"
+  }
+ },
+ {
+  "id": "stealth-neo-bldc-ceiling-fan",
+  "title": "Stealth Neo BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcbg5swpw48_5_star_1.jpg"
+  }
+ },
+ {
+  "id": "stealth-air-bldc-ceiling-fan",
+  "title": "Stealth Air BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcbhe5ibl48_base_1.jpg"
+  }
+ },
+ {
+  "id": "fhceo5sbnc48-c",
+  "title": "Efficiencia DX BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhceo5sbrn48.jpg"
+  }
+ },
+ {
+  "id": "enticer-prime-bldc-ceiling-fan",
+  "title": "Enticer Prime BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/p/e/pearl_white_chrome_2__2.jpg"
+  }
+ },
+ {
+  "id": "albus-underlight-smart-bldc-ceiling-fan-fhcll5ssbw52",
+  "title": "Albus Underlight Smart BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcll5ssbw52_base.jpg"
+  }
+ },
+ {
+  "id": "stealth-air-bldc-ceiling-fan-fhcbhe5pwt48p",
+  "title": "Stealth Air BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcbhe5pwt48p.jpg"
+  }
+ },
+ {
+  "id": "trinity-bldc-ceiling-fan-fhcyb5sdlc48",
+  "title": "Trinity BLDC+ Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcyb5sdlc48_1_.jpg"
+  }
+ },
+ {
+  "id": "ambrose-es-decorative-ceiling-fans",
+  "title": "Ambrose HS Decorative Ceiling Fans",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcam1schm48e_1_1.jpg"
+  }
+ },
+ {
+  "id": "fhcea2sebr48-c",
+  "title": "Enticer Art Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcea2smbk48.jpg"
+  }
+ },
+ {
+  "id": "nicola-es-decorative-ceiling-fan",
+  "title": "Nicola ES Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcni1sbcu56_star_1.jpg"
+  }
+ },
+ {
+  "id": "fhcad2sebr48-c",
+  "title": "Andria ES Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/a/n/andria_es.jpg"
+  }
+ },
+ {
+  "id": "leganza-4b-es-decorative-ceiling-fan",
+  "title": "Leganza 4B ES Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhclg1sbgl48_star.jpg"
+  }
+ },
+ {
+  "id": "ss-390-regular-ceiling-fan",
+  "title": "SS 390 Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcss1swht48_1_1.jpg"
+  }
+ },
+ {
+  "id": "samraat-es-regular-ceiling-fan",
+  "title": "Samraat Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcsv1sbrn36_star_1.jpg"
+  }
+ },
+ {
+  "id": "speedster-hs-regular-ceiling-fan-fhcsrhswht36",
+  "title": "Speedster HS Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcsrhswht36_b.jpg"
+  }
+ },
+ {
+  "id": "fusion-decorative-ceiling-fan-fhcfue1bbr48",
+  "title": "Fusion Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcfue1bbr48_base_1.jpg"
+  }
+ },
+ {
+  "id": "exter-decorative-ceiling-fan",
+  "title": "Exter Neo Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcxt1sgry48_1.jpg"
+  }
+ },
+ {
+  "id": "florence-special-finish-ceiling-fan",
+  "title": "Florence Special Finish Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcfc1sbab48_star_1.jpg"
+  }
+ },
+ {
+  "id": "enticer-decorative-ceiling-fan",
+  "title": "Enticer HS Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcen1sibh48_1.jpg"
+  }
+ },
+ {
+  "id": "samraat-regular-ceiling-fan",
+  "title": "Samraat Regular Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcsv1swht42_star_1.jpg"
+  }
+ },
+ {
+  "id": "fusion-decorative-ceiling-fan-fhcfu2sbbr48",
+  "title": "Fusion Decorative Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcfu2sbbr48_base.jpg"
+  }
+ },
+ {
+  "id": "yorker-es-special-finish-ceiling-fan",
+  "title": "Yorker ES Special Finish Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhcyoe1bsn52_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "unnovate-bldc-ceiling-fan",
+  "title": "Unnovate BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/r/e/reo_energex_fan-_matte_black_1_remote_1_1.jpg"
+  }
+ },
+ {
+  "id": "energex-bldc-ceiling-fans",
+  "title": "Energex BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/r/e/reo_energex_fan-_cocoa_brown_1_remote_1_1.jpg"
+  }
+ },
+ {
+  "id": "energex-bldc-ceiling-fan",
+  "title": "Energex BLDC Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/r/e/reo_energex_fan-_stone_grey_1__1.jpg"
+  }
+ },
+ {
+  "id": "reo-vaayu-ceiling-fan",
+  "title": "Vaayu Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/v/a/vayu-brown_n_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "reo-tejas-es-ceiling-fan",
+  "title": "Tejas Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/r/frctj1ssmb48_1.jpg"
+  }
+ },
+ {
+  "id": "reo-utsav-es-ceiling-fan",
+  "title": "Utsav Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/r/frcut1sbrn48_1200.jpg"
+  }
+ },
+ {
+  "id": "reo-utsav-es-ceiling-fan-600-mm",
+  "title": "Utsav Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/u/t/utsav_4b_brown_star.jpg"
+  }
+ },
+ {
+  "id": "ventilair-dx-plastic-domestic-exhaust-fan-fhvvedxowh06-c",
+  "title": "Ventilair DX Plastic Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/fans/FHVVEDXOWH06_1.jpg"
+  }
+ },
+ {
+  "id": "ventilair-lx-domestic-exhaust-fan-fhvvelxwht06",
+  "title": "Ventilair LX Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/l/x/lx_base.jpg"
+  }
+ },
+ {
+  "id": "ventilair-zx-domestic-exhaust-fan-fhvhlzxwht06",
+  "title": "Ventilair ZX Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/z/x/zx_base.jpg"
+  }
+ },
+ {
+  "id": "dsp-ventilation-domestic-exhaust-fan-fhvvemtbrn12-c",
+  "title": "DSP Ventilation Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/d/s/dsp_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "turboforce-exhaust-fan",
+  "title": "Turboforce Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhehdtpdb180_b_1__2.jpg"
+  }
+ },
+ {
+  "id": "turboforce-dx-hd-exhaust-fan",
+  "title": "Turboforce DX HD Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhehddxgry12_b_1_1.jpg"
+  }
+ },
+ {
+  "id": "turboforce-dx-hd-exhaust-fan-fhehdnxgry18",
+  "title": "Turboforce DX HD Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/b/a/base_8.jpg"
+  }
+ },
+ {
+  "id": "thrill-air-dlx-domestic-exhaust-fan",
+  "title": "Thrill Air DLX Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhvtadlwht06_base.jpg"
+  }
+ },
+ {
+  "id": "turboforce-plus-exhaust-fan-fhehdplgry18",
+  "title": "Turboforce Plus Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/b/a/base_9.jpg"
+  }
+ },
+ {
+  "id": "thrill-air-dx-domestic-exhaust-fan-fhvtadxwht12",
+  "title": "Thrill Air DX Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/b/a/base_2__4.jpg"
+  }
+ },
+ {
+  "id": "fhvzxdrivr06",
+  "title": "Ventilair ZXR Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/z/x/zxr_base.jpg"
+  }
+ },
+ {
+  "id": "ventilair-lx-domestic-exhaust-fan-fhvvelxwht08",
+  "title": "Ventilair LX Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/l/x/lx_base_1.jpg"
+  }
+ },
+ {
+  "id": "ventilair-dxz-neo-domestic-exhaust-fan-fhvdxneblk06",
+  "title": "Ventilair DXZ Neo Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/d/x/dxz_base.jpg"
+  }
+ },
+ {
+  "id": "ventilair-db-metal-domestic-exhaust-fan-fhvvemtdbb12-c",
+  "title": "Ventilair DB Metal Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Build": "Metal"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/fans/FHVVEMTDBB12_1.jpg"
+  }
+ },
+ {
+  "id": "ventilair-dxz-neo-domestic-exhaust-fan-fhvvidzwht06",
+  "title": "Ventilair DXZ Neo Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/d/x/dxz_white_base.jpg"
+  }
+ },
+ {
+  "id": "hush-ventilation-domestic-exhaust-fan-fhvvehuwht04",
+  "title": "Hush Ventilation Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhvvehuwht04_1.jpg"
+  }
+ },
+ {
+  "id": "ventilair-dx-domestic-exhaust-fan-fhvvedxblk08",
+  "title": "Ventilair DX Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/v/e/ventilair_dx_base_3.jpg"
+  }
+ },
+ {
+  "id": "ventilair-dx-domestic-exhaust-fan-fhvvedxblk06",
+  "title": "Ventilair DX Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/v/e/ventilair_dx_base_1.jpg"
+  }
+ },
+ {
+  "id": "ventilair-zxc-roof-mounting-domestic-exhaust-fan-fhvvedcwht04",
+  "title": "Ventilair ZXC Roof Mounting Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/w/a/wall_fan_base.jpg"
+  }
+ },
+ {
+  "id": "ventilair-hush-domestic-exhaust-fan-fhvhuststf06",
+  "title": "Ventilair Hush Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/h/u/hush_base_1__2.jpg"
+  }
+ },
+ {
+  "id": "ventilair-hush-domestic-exhaust-fan-fhvhustaww06",
+  "title": "Ventilair Hush Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/h/u/hush_base.jpg"
+  }
+ },
+ {
+  "id": "ventilair-dx-high-speed-domestic-exhaust-fan-fhvdxhswht08",
+  "title": "Ventilair DX High Speed Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/v/e/ventilair_dx_high_speed_domestic_exhaust_fan_base_1__1.jpg"
+  }
+ },
+ {
+  "id": "ventilair-dx-high-speed-domestic-exhaust-fan-fhvdxhswht06",
+  "title": "Ventilair DX High Speed Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/v/e/ventilair_dx_high_speed_domestic_exhaust_fan_base_1_.jpg"
+  }
+ },
+ {
+  "id": "ventilair-ds-hs-reversible-domestic-exhaust-fan-fhvdsrepsg12",
+  "title": "Ventilair DS (HS) Reversible Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/d/s/ds_base_1.jpg"
+  }
+ },
+ {
+  "id": "ventilair-ds-hs-reversible-domestic-exhaust-fan-fhvdsrepsg09",
+  "title": "Ventilair DS (HS) Reversible Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/d/s/ds_base.jpg"
+  }
+ },
+ {
+  "id": "ventil-air-hush-plastic-domestic-exhaust-fan-fhvvehuwht06",
+  "title": "Ventil Air Hush Plastic Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/fans/FHVVEHUWHT06.jpg"
+  }
+ },
+ {
+  "id": "dsp-ventilation-domestic-exhaust-fan",
+  "title": "DSP Ventilation Domestic Exhaust Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhvdspmgry12_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "reo-fresh-air-plastic-ventilation-fans-white",
+  "title": "Fresh Air Plastic Ventilation Fans",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/v/e/ventilair_dx_250_mm_vendor-white_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "sprint-pedestal-fan-fhspcnswhy16",
+  "title": "Sprint Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhspcnswhy16_base.jpg"
+  }
+ },
+ {
+  "id": "trendy-pedestal-fan-fhstrhswhy16",
+  "title": "Trendy Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhstrhswhy16_base.jpg"
+  }
+ },
+ {
+  "id": "500-mm-windstorm-lx-pedestal-fan-fhswslxblk20",
+  "title": "Windstorm Ultra Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhtswnswgr16_b_1__1.jpg"
+  }
+ },
+ {
+  "id": "turbo-force-ac-pedestal-fan",
+  "title": "Turbo Force AC Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhacpstgry18_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "swing-neo-ns-pedestal-fan",
+  "title": "Swing Neo NS Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhsswnsibl16_b_1_1.jpg"
+  }
+ },
+ {
+  "id": "celeste-pedestal-fan-fhsc1nswor16",
+  "title": "Celeste Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhsc1nswor16_base_1.jpg"
+  }
+ },
+ {
+  "id": "v2-ultra-pedestal-fan",
+  "title": "V2 Ultra Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhsveulmbl18_b_1_1.jpg"
+  }
+ },
+ {
+  "id": "windstorm-ultra-oxy-pedestal-fan-fhswxulgry20",
+  "title": "Windstorm Ultra Oxy Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhswxulgry20_b.jpg"
+  }
+ },
+ {
+  "id": "windstrom-ultra-plus-pedestal-fan-fhswslxgry20",
+  "title": "Windstrom Ultra Plus Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhswslxgry20.jpg"
+  }
+ },
+ {
+  "id": "windstorm-pro-oxy-pedestal-fan-fhswxprgry20",
+  "title": "Windstorm Pro Oxy Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhswxprgry20_1__1.jpg"
+  }
+ },
+ {
+  "id": "swing-pro-hs-pedestal-fan",
+  "title": "Swing Pro HS Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhsswprwht16_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "windstorm-pro-pedestal-fan-fhswsprgry20",
+  "title": "Windstorm Pro Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/w/i/windstorm_pro_base_1.jpg"
+  }
+ },
+ {
+  "id": "swing-high-speed-pedestal-fan-fhsswhswht16",
+  "title": "Swing High Speed Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhsswhswht16_1.jpg"
+  }
+ },
+ {
+  "id": "swing-high-speed-pedestal-fan-fhsswhsblk16",
+  "title": "Swing High Speed Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhsswhsblk16_1.jpg"
+  }
+ },
+ {
+  "id": "swing-pedestal-fan-fhssw3sblk16",
+  "title": "Swing Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhssw3sblk16_1.jpg"
+  }
+ },
+ {
+  "id": "windstorm-oxy-gry-pedestal-fan-fhswxstgry16",
+  "title": "Windstorm Oxy Gry Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhswxstgry16_1.jpg"
+  }
+ },
+ {
+  "id": "trendy-metallic-pedestal-fan-fhstrmtblk16",
+  "title": "Trendy Metallic Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Build": "Metal"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhstrmtblk16.jpg"
+  }
+ },
+ {
+  "id": "sprint-18-high-speed-pedestal-fan-fhssphswht18",
+  "title": "Sprint 18 High Speed Pedestal Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/fans/FHSSPHSWHT18.jpg"
+  }
+ },
+ {
+  "id": "candy-hs-wall-fan",
+  "title": "Candy HS Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhwcahsblr09_1.jpg"
+  }
+ },
+ {
+  "id": "dzire-high-speed-wall-fan-fhwswhslgr12",
+  "title": "Dzire High Speed Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/fans/FHWSWHSLGR12.jpg"
+  }
+ },
+ {
+  "id": "sameera-plastic-wall-fan-fhwsustwht16",
+  "title": "Sameera Plastic Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/fans/FHWSUSTWHT16.jpg"
+  }
+ },
+ {
+  "id": "platina-bldc-wall-fan-fhwpcptwhy16",
+  "title": "Platina BLDC Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhwpcptwhy16_2.jpg"
+  }
+ },
+ {
+  "id": "girik-gold-wall-fan-fhwggstwlg16",
+  "title": "Girik Gold Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhwggstwlg16_2_.jpg"
+  }
+ },
+ {
+  "id": "swing-hs-wall-fan",
+  "title": "Swing HS Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhwswhswht16_1_1.jpg"
+  }
+ },
+ {
+  "id": "v2-ultra-wall-fan",
+  "title": "V2 Ultra Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhwveulmbl18_b_1_1.jpg"
+  }
+ },
+ {
+  "id": "turbo-force-ac-wall-fan",
+  "title": "Turbo Force AC Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhacwstgry18_b_1.jpg"
+  }
+ },
+ {
+  "id": "celeste-wall-fan-fhwc1nswor16",
+  "title": "Celeste Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhwc1nswor16_base_1.jpg"
+  }
+ },
+ {
+  "id": "swing-pro-hs-wall-fan",
+  "title": "Swing Pro HS Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhwswprwht16_base_1_1.jpg"
+  }
+ },
+ {
+  "id": "airboll-high-speed-wall-fan-fhwabhswht18",
+  "title": "Airboll High Speed Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhwabhswht18_base.jpg"
+  }
+ },
+ {
+  "id": "aindrila-wall-fan-fhwagpmbrb16",
+  "title": "Aindrila Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/fans/FHWAGPMBRB16.jpg"
+  }
+ },
+ {
+  "id": "swing-wall-fan",
+  "title": "Swing Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/fans/FHWSWSTIVR12_1.jpg"
+  }
+ },
+ {
+  "id": "platina-wall-fan-fhwptrcwht16",
+  "title": "Platina Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/import/fans/FHWPTRCWHT16.jpg"
+  }
+ },
+ {
+  "id": "girik-neo-wall-fan-fhwgnstblk16",
+  "title": "Girik Neo Wall Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhwgnstblk16_1_1.jpg"
+  }
+ },
+ {
+  "id": "ciera-high-speedcabin-fan-fhpcistivr12",
+  "title": "Ciera High Speed Cabin Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/c/i/ciera_base_1.jpg"
+  }
+ },
+ {
+  "id": "airwynn-cabin-ceiling-fan-fhbawstwht12",
+  "title": "Airwynn Cabin Ceiling Fan",
+  "vendor": "Havells",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://havells.com/media/catalog/product/cache/bebb556ccaa04236261d8ba5676ddf4d/f/h/fhbawstwht12_1_.jpg"
+  }
+ }
+]

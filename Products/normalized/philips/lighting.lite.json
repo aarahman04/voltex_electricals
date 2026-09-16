@@ -1,0 +1,8571 @@
+[
+ {
+  "id": "philips-round-dimmable-ultraglow-led-downlighter",
+  "title": "Philips Round Dimmable UltraGlow LED Downlighter",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "bestselling_ceiling_lights",
+   "clearance_sale",
+   "downlights",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Warm white"
+    },
+    "sku": "929003814201",
+    "price": 249
+   },
+   {
+    "options": {
+     "Light Color": "Cool day light"
+    },
+    "sku": "929003814401",
+    "price": 249
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003814201.jpg?v=1786517608"
+  }
+ },
+ {
+  "id": "philips-star-surface-round-led-downlight",
+  "title": "Philips Star Surface Round LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "bestselling_ceiling_lights",
+   "clearance_sale",
+   "Collection_Smart Downlight",
+   "downlights",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929001951616",
+    "price": 758
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/61onN_G5skL._SL1500.jpg?v=1785403897"
+  }
+ },
+ {
+  "id": "philips-decobright-led-spot-light",
+  "title": "Philips DecoBright LED Spot Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "clearance_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "18W",
+     "Body Color": "White",
+     "Light Color": "Warm white"
+    },
+    "sku": "929003844001",
+    "price": 413
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Body Color": "White",
+     "Light Color": "Cool day light"
+    },
+    "sku": "929003844201",
+    "price": 413
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Body Color": "Chrome",
+     "Light Color": "Cool day light"
+    },
+    "sku": "929004581101",
+    "price": 413
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/61mVG222PoL._SL1080.jpg?v=1785400789"
+  }
+ },
+ {
+  "id": "philips-rimless-surface-led-light",
+  "title": "Philips Rimless Surface LED Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "bestselling_ceiling_lights",
+   "clearance_sale",
+   "main_ceiling Lights",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Warm White"
+    },
+    "sku": "929003768501",
+    "price": 463
+   },
+   {
+    "options": {
+     "Light Color": "Cool day light"
+    },
+    "sku": "929003768701",
+    "price": 463
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003768701.jpg?v=1786517801"
+  }
+ },
+ {
+  "id": "philips-hexastyle-led-downlight",
+  "title": "Philips HexaStyle LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "clearance_sale",
+   "Collection_Smart Downlight",
+   "downlights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929003529601",
+    "price": 125
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Light Color": "Cool day light"
+    },
+    "sku": "929003529801",
+    "price": 125
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Light Color": "Natural white"
+    },
+    "sku": "929003529701",
+    "price": 125
+   },
+   {
+    "options": {
+     "Wattage": "8W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929003146301",
+    "price": 188
+   },
+   {
+    "options": {
+     "Wattage": "8W",
+     "Light Color": "Natural white"
+    },
+    "sku": "929003146401",
+    "price": 188
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929003155001",
+    "price": 256
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Light Color": "Natural white"
+    },
+    "sku": "929003155101",
+    "price": 256
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929003146601",
+    "price": 288
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Light Color": "Natural white"
+    },
+    "sku": "929003146701",
+    "price": 288
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsHexaStyleLEDDownlight1.png?v=1747311595"
+  }
+ },
+ {
+  "id": "philips-7w-garden-spike",
+  "title": "Philips Garden Spike light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "clearance_sale",
+   "new_arrivals",
+   "outdoor_lights_suggested",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Light Color": "Red"
+    },
+    "sku": "919215851088",
+    "price": 500
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Light Color": "Blue"
+    },
+    "sku": "919215851090",
+    "price": 500
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Light Color": "amber"
+    },
+    "sku": "919215851091",
+    "price": 500
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Light Color": "Natural white"
+    },
+    "sku": "919215850979",
+    "price": 425
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/GardenSpike-1_bb3a468b-2bd2-463b-948b-dcea476fc29e.png?v=1769836972"
+  }
+ },
+ {
+  "id": "philips-lineasharp-cob-recessed-led-downlight",
+  "title": "Philips LineaSharp COB Recessed LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "bestselling_ceiling_lights",
+   "cob-lights",
+   "downlights",
+   "main_ceiling Lights",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch",
+   "Newly added"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Light Color": "Natural white"
+    },
+    "sku": "929002682801",
+    "price": 1379
+   },
+   {
+    "options": {
+     "Wattage": "3W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929002682701",
+    "price": 1379
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Light Color": "Natural white"
+    },
+    "sku": "929002683101",
+    "price": 2049
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929002683001",
+    "price": 2049
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Light Color": "Natural white"
+    },
+    "sku": "929002683401",
+    "price": 3169
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929002683301",
+    "price": 3169
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Light Color": "Natural white"
+    },
+    "sku": "929002683701",
+    "price": 7929
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929002683601",
+    "price": 7929
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Light Color": "Natural white"
+    },
+    "sku": "929002684001",
+    "price": 10099
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929002683901",
+    "price": 10099
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/6WLineaSharp.jpg?v=1783577250"
+  }
+ },
+ {
+  "id": "philips-wiz-embrace-smart-wi-fi-led-ceiling-light",
+  "title": "Philips WiZ Embrace Smart Wi-Fi LED Ceiling Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "Collection_Smart",
+   "Collection_Smart Downlight",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch",
+   "Newly added",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006600301",
+    "price": 21990
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_019277c6-7ed6-412d-87e8-aab7513bf7cd.png?v=1785134545"
+  }
+ },
+ {
+  "id": "philips-curvy-led-t-bulb",
+  "title": "Philips Curvy LED T-Bulb",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "2 star"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003512213",
+    "price": 375
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003512213.png?v=1784702580"
+  }
+ },
+ {
+  "id": "philips-wiz-pearl-smart-wi-fi-led-ceiling-light",
+  "title": "Philips WiZ Pearl Smart Wi-Fi LED Ceiling Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "Collection_Smart",
+   "Collection_Smart Downlight",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch",
+   "Newly added",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006600201",
+    "price": 9800
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard8_bc4acd81-42cf-4440-949d-3a563677cb13.png?v=1785134603"
+  }
+ },
+ {
+  "id": "philips-magnifiq-9-head-chandelier",
+  "title": "Philips Magnifiq 9 head Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "decorative_lights_suggested",
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_dining_table",
+   "hanging_lights_for_staircase",
+   "Newly added",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Head": "9 head",
+     "Color": "Matte Black & Cognac"
+    },
+    "sku": "919215851402",
+    "price": 55625
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard3_ead90272-dcf7-4c27-a611-521d9b3f08ad.jpg?v=1747311353"
+  }
+ },
+ {
+  "id": "philips-surface-plus-cob-spotlight-copy",
+  "title": "Philips Deco Surface Plus LED COB Spotlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "bestselling_ceiling_lights",
+   "cob-lights",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Black",
+     "Light Color": "Warm white"
+    },
+    "sku": "915006360001",
+    "price": 1729
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Black",
+     "Light Color": "Natural white"
+    },
+    "sku": "915006359601",
+    "price": 1729
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Rose Gold",
+     "Light Color": "Warm white"
+    },
+    "sku": "915006360201",
+    "price": 1729
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Rose Gold",
+     "Light Color": "Natural white"
+    },
+    "sku": "915006359801",
+    "price": 1729
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Black",
+     "Light Color": "Warm white"
+    },
+    "sku": "915006361201",
+    "price": 2279
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Black",
+     "Light Color": "Natural white"
+    },
+    "sku": "915006360801",
+    "price": 2279
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Rose Gold",
+     "Light Color": "Warm white"
+    },
+    "sku": "915006361401",
+    "price": 2279
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Rose Gold",
+     "Light Color": "Natural white"
+    },
+    "sku": "915006361001",
+    "price": 2279
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Body Color": "Black",
+     "Light Color": "Warm white"
+    },
+    "sku": "915006362401",
+    "price": 3169
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Body Color": "Black",
+     "Light Color": "Natural white"
+    },
+    "sku": "915006362001",
+    "price": 3169
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Body Color": "Rose Gold",
+     "Light Color": "Warm white"
+    },
+    "sku": "915006362601",
+    "price": 3169
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Body Color": "Rose Gold",
+     "Light Color": "Natural white"
+    },
+    "sku": "915006362201",
+    "price": 3169
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsSurfaceDecoLEDCOBlight.png?v=1769410346"
+  }
+ },
+ {
+  "id": "philips-corona-dining-chandelier",
+  "title": "Philips Corona Dining Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_E27",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "crystal-chandeliers",
+   "main_chandeliers"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851328",
+    "price": 40095
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/2_da911e41-11a0-4e90-a30b-e2cbf2c949e6.png?v=1784624320"
+  }
+ },
+ {
+  "id": "philips-brass-flex-surface-led-cob",
+  "title": "Philips Brass Flex Surface LED COB",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "bestselling_ceiling_lights",
+   "cob-lights",
+   "downlights",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Light Color": "Natural white"
+    },
+    "sku": "915006383501",
+    "price": 3209
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929003826701",
+    "price": 3209
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Light Color": "Natural white"
+    },
+    "sku": "915006383601",
+    "price": 3879
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929003826801",
+    "price": 3879
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_7336c236-b3bb-4261-adf9-27c1be7278eb.png?v=1784099129"
+  }
+ },
+ {
+  "id": "philips-profileshine-led-strip-light-with-driver",
+  "title": "Philips ProfileShine LED Strip Light (with driver)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "main_light Strips"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Warm white"
+    },
+    "sku": "915006401201",
+    "price": 1768
+   },
+   {
+    "options": {
+     "Light Color": "Natural white"
+    },
+    "sku": "915006401301",
+    "price": 1768
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_f1b2fba5-85a5-4188-804d-e1859a7485b4.png?v=1782378146"
+  }
+ },
+ {
+  "id": "philips-profileshine-led-strip-light",
+  "title": "Philips ProfileShine LED Strip Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "main_light Strips"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Warm white"
+    },
+    "sku": "915006398101",
+    "price": 1294
+   },
+   {
+    "options": {
+     "Light Color": "Natural white"
+    },
+    "sku": "915006398201",
+    "price": 1294
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_5a51b94b-d6cc-4de3-94d1-8a56dffee0b6.png?v=1782379009"
+  }
+ },
+ {
+  "id": "philips-flairis-crystal-chandelier",
+  "title": "Philips Flairis Crystal Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chan",
+   "chandelier_bulb_type_E14",
+   "crystal-chandeliers",
+   "main_chandeliers",
+   "modern-chandeliers"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006349566",
+    "price": 91631
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/915006349566.png?v=1784530833"
+  }
+ },
+ {
+  "id": "philips-majeste-5-head-crystal-chandelier",
+  "title": "Philips Majesté 5 Head Crystal Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_E14",
+   "chandelier_living_room",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "crystal-chandeliers",
+   "main_chandeliers",
+   "modern-chandeliers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Head": "5 head"
+    },
+    "sku": "915006349565",
+    "price": 32686
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/915006349565.png?v=1784530731"
+  }
+ },
+ {
+  "id": "philips-majeste-6-head-crystal-chandelier",
+  "title": "Philips Majesté 6 Head Crystal Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_E14",
+   "chandelier_living_room",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "crystal-chandeliers",
+   "main_chandeliers",
+   "modern-chandeliers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Head": "6 head"
+    },
+    "sku": "915006349564",
+    "price": 29909
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/915006349564.png?v=1784530657"
+  }
+ },
+ {
+  "id": "philips-majeste-12-head-crystal-chandelier",
+  "title": "Philips Majesté 12 Head Crystal Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_E14",
+   "chandelier_living_room",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "crystal-chandeliers",
+   "main_chandeliers",
+   "modern-chandeliers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Head": "12 head"
+    },
+    "sku": "915006349562",
+    "price": 46689
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/915006349562.png?v=1784530457"
+  }
+ },
+ {
+  "id": "philips-sunstead-cosmic-modular-wall-light-copy",
+  "title": "Philips Yarixa Solar Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "main_wall Lights",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003364201",
+    "price": 3069
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003364201.png?v=1784714566"
+  }
+ },
+ {
+  "id": "philips-sunstead-bask-pedestal-light-copy",
+  "title": "Philips SunStead Cosmic Modular Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "main_wall Lights",
+   "outdoor_wall_lights_suggested",
+   "pedestal light"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006349546",
+    "price": 1939
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/915006349546.png?v=1784714500"
+  }
+ },
+ {
+  "id": "philips-sunstead-bask-gate-light-copy",
+  "title": "Philips SunStead Bask Pedestal Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "pedestal light"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006349545",
+    "price": 6229
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/915006349545.png?v=1784703692"
+  }
+ },
+ {
+  "id": "philips-sunstead-bask-wall-light-copy",
+  "title": "Philips SunStead Bask Gate Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006349544",
+    "price": 4219
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/915006349544.png?v=1784703727"
+  }
+ },
+ {
+  "id": "philips-sunstead-cosmic-wall-light-copy",
+  "title": "Philips SunStead Bask Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "main_wall Lights",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006349543",
+    "price": 4219
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/915006349543.png?v=1784713108"
+  }
+ },
+ {
+  "id": "philips-sunstead-cosmic-wall-light",
+  "title": "Philips SunStead Cosmic Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "main_wall Lights",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006349542",
+    "price": 1759
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/915006349542.png?v=1784712749"
+  }
+ },
+ {
+  "id": "philips-sunstead-flare-wall-light",
+  "title": "Philips SunStead Flare Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "main_wall Lights",
+   "outdoor_solar_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "1.5W"
+    },
+    "sku": "915006349540",
+    "price": 1529
+   },
+   {
+    "options": {
+     "Wattage": "4W"
+    },
+    "sku": "915006349541",
+    "price": 3409
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/915006349540.png?v=1784712567"
+  }
+ },
+ {
+  "id": "philips-rover-mini-rechargeable-lantern-copy",
+  "title": "Philips Rover Rechargeable Lantern",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "emergency_lights_suggested",
+   "outdoor_solar_lights_suggested",
+   "rechargable"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006349585",
+    "price": 1111
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_7960f700-fb2a-4f28-9fab-69ede70a618e.png?v=1782901832"
+  }
+ },
+ {
+  "id": "philips-phoebus-solar-rechargeable-lantern",
+  "title": "Philips Phoebus Solar Rechargeable Lantern",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "emergency_lights_suggested",
+   "outdoor_solar_lights_suggested",
+   "rechargable"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006349579",
+    "price": 1770
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_b47fc1e8-c388-431b-8f38-f94c8432e54b.png?v=1782901657"
+  }
+ },
+ {
+  "id": "philips-mini-marathon-led-rope-light-72-leds-20-meter",
+  "title": "Philips Mini Marathon LED Rope light (Blue)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "clearance_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Blue"
+    },
+    "sku": "929003159801",
+    "price": 1095
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/61gRSIE9klL._SL1500.jpg?v=1788425449"
+  }
+ },
+ {
+  "id": "philips-starbright-wide-nxt-led-tube-light",
+  "title": "Philips StarBright Wide Nxt LED Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006558001",
+    "price": 680
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/1_ee35ded0-b389-4a89-a10c-5ee95eb2b3a0.png?v=1779362306"
+  }
+ },
+ {
+  "id": "philips-smart-wi-fi-pro-led-bulb",
+  "title": "Philips Smart Wi-Fi Pro LED Bulb",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "bulb",
+   "bulb_E27",
+   "Collection_Smart",
+   "Collection_Smart Bulb",
+   "main_bulbs"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "9W",
+     "Bulb Type": "E27"
+    },
+    "sku": "915006602401",
+    "price": 549
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Bulb Type": "B22"
+    },
+    "sku": "915006602301",
+    "price": 549
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Bulb Type": "E27"
+    },
+    "sku": "915006602601",
+    "price": 579
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Bulb Type": "B22"
+    },
+    "sku": "915006602501",
+    "price": 579
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Bulb Type": "E27"
+    },
+    "sku": "915006602801",
+    "price": 649
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Bulb Type": "B22"
+    },
+    "sku": "915006602701",
+    "price": 649
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard_1_4134af43-8227-409d-bd12-b42bf1af098b.png?v=1782895252"
+  }
+ },
+ {
+  "id": "philips-smart-wi-fi-aquila-rgb-ceiling-light-copy",
+  "title": "Philips Smart Wi-Fi T-Beamer LED Bulb",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "Collection_Smart",
+   "Collection_Smart Downlight",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch",
+   "Newly added",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006305701",
+    "price": 699
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/ChatGPTImageJul27_2026_12_47_46PM.png?v=1785136697"
+  }
+ },
+ {
+  "id": "philips-smart-wideglow-led-surface-downlight",
+  "title": "Philips Smart WideGlow LED Surface Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "Collection_Smart",
+   "Collection_Smart Downlight",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch",
+   "Newly added",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006612301",
+    "price": 4590
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_0a6f0e37-fce4-49cd-8381-72ca135dce72.png?v=1782895978"
+  }
+ },
+ {
+  "id": "philips-ultraglow-nextgen-3-in-1-led-downlight",
+  "title": "Philips UltraGlow NextGen 3-in-1 LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "bestselling_ceiling_lights",
+   "downlights",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006368101",
+    "price": 1009
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/51sQxdtUYOL._SL1200.jpg?v=1782899825"
+  }
+ },
+ {
+  "id": "philips-smart-wi-fi-tunable-white-led-strip",
+  "title": "Philips Smart Wi-Fi Tunable White LED Strip",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "Collection_Smart",
+   "Collection_Smart light strip",
+   "main_light Strips"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003551501",
+    "price": 4889
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003551501.jpg?v=1784718273"
+  }
+ },
+ {
+  "id": "philips-smart-wi-fi-led-batten",
+  "title": "Philips Smart Wi-Fi LED Batten",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Tunable white"
+    },
+    "sku": "915006603001",
+    "price": 749
+   },
+   {
+    "options": {
+     "Light Color": "16 Million Colors"
+    },
+    "sku": "929003861701",
+    "price": 1299
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_9db6eaa8-ff02-44c9-834e-21b6cc6a7685.png?v=1782896245"
+  }
+ },
+ {
+  "id": "philips-deco-bright-led-tube-light",
+  "title": "Philips Deco Bright LED Tube light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "clearance_sale",
+   "Kitchen_lights_suggested",
+   "wall_lights_sitting_room_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "25W",
+     "Color": "Warm White"
+    },
+    "sku": "929004650201",
+    "price": 275
+   },
+   {
+    "options": {
+     "Wattage": "25W",
+     "Color": "Cool Day light"
+    },
+    "sku": "929004650301",
+    "price": 275
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsDecoBright-TubeLight.png?v=1747311476"
+  }
+ },
+ {
+  "id": "philips-gold-series-led-tube-light",
+  "title": "Philips GoldPerform LED Tube light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "bedroom_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "25W",
+     "Color": "Warm White"
+    },
+    "sku": "929004650001",
+    "price": 295
+   },
+   {
+    "options": {
+     "Wattage": "25W",
+     "Color": "Cool Day Light"
+    },
+    "sku": "929004650101",
+    "price": 295
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsGoldPerformLEDTubelight.png?v=1747311499"
+  }
+ },
+ {
+  "id": "philips-slimline-super-bright-led-tube-light",
+  "title": "Philips Slimline Super Bright LED Tube light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "junesale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "25W",
+     "Color": "Cool Day light"
+    },
+    "sku": "919415920162",
+    "price": 299
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Color": "Cool Day light"
+    },
+    "sku": "919515816145",
+    "price": 420
+   },
+   {
+    "options": {
+     "Wattage": "36W",
+     "Color": "Cool Day light"
+    },
+    "sku": "919515816462",
+    "price": 750
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsSlimlineSuperBrightLEDTubelight.png?v=1747311653"
+  }
+ },
+ {
+  "id": "philips-astra-line-20w-led-batten-light",
+  "title": "Philips Astra Line LED Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Length": "2ft."
+    },
+    "sku": "919215850487",
+    "price": 260
+   },
+   {
+    "options": {
+     "Length": "4ft."
+    },
+    "sku": "919215850488",
+    "price": 355
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/41mCLqzsSvL._SL1446.jpg?v=1778575764"
+  }
+ },
+ {
+  "id": "philips-motion-sensing-led-tube-light",
+  "title": "Philips Motion Sensing LED Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "Collection_Motion Sensor",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch",
+   "Newly added"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W"
+    },
+    "sku": "929003847301",
+    "price": 575
+   },
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": "929003847401",
+    "price": 775
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/51zOvaxQSAL._SL1200.jpg?v=1779360436"
+  }
+ },
+ {
+  "id": "philips-archglow-mirror-light",
+  "title": "Philips ArchGlow Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "bathroom_lights_suggested",
+   "bestseller",
+   "bestsellerQ2",
+   "decorative_lights_suggested",
+   "sale",
+   "summersale26"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Warm white"
+    },
+    "sku": "929004658101",
+    "price": 555
+   },
+   {
+    "options": {
+     "Light Color": "Cool day light"
+    },
+    "sku": "929004658201",
+    "price": 555
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_e293a25f-f065-4731-b6a5-4195243a0a91.png?v=1778670429"
+  }
+ },
+ {
+  "id": "philips-crownglow-led-tube-light",
+  "title": "Philips CrownGlow LED Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "bestselling_wall_lights",
+   "main_wall Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Cool day light"
+    },
+    "sku": "929004650701",
+    "price": 525
+   },
+   {
+    "options": {
+     "Light Color": "Warm white"
+    },
+    "sku": "929004650801",
+    "price": 525
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_145dc2e1-dc6a-4dea-bf40-fea0e4ce8701.png?v=1778749317"
+  }
+ },
+ {
+  "id": "philips-3-in-1-led-tube-light",
+  "title": "Philips 3 in 1 LED Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": "915006555101",
+    "price": 580
+   },
+   {
+    "options": {
+     "Wattage": "36W"
+    },
+    "sku": "915006555201",
+    "price": 800
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/30W.png?v=1778752444"
+  }
+ },
+ {
+  "id": "philips-slimline-advance-plus-led-tube-light",
+  "title": "Philips Slimline Advance Plus LED Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "60W"
+    },
+    "sku": "915006557101",
+    "price": 950
+   },
+   {
+    "options": {
+     "Wattage": "80W"
+    },
+    "sku": "915006558401",
+    "price": 1150
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_4a101958-c819-47bc-836d-2a6188a9e9fe.png?v=1778756183"
+  }
+ },
+ {
+  "id": "philips-starbright-wide-plus-led-tube-light",
+  "title": "Philips StarBright Wide Plus LED Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": "915006556101",
+    "price": 1060
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/1_ec43d15a-a728-4c38-b007-eaa2e6946bc7.png?v=1778831571"
+  }
+ },
+ {
+  "id": "philips-starbright-wide-nxt-3-in-1-led-tube-light",
+  "title": "Philips StarBright Wide Nxt 3 in 1 LED Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": "915006558601",
+    "price": 620
+   },
+   {
+    "options": {
+     "Wattage": "50W"
+    },
+    "sku": "915006558501",
+    "price": 1050
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/1_01ad3cea-e907-467a-a0aa-200086297cd2.png?v=1778830638"
+  }
+ },
+ {
+  "id": "philips-slimline-elite-led-tube-light",
+  "title": "Philips SlimLine Elite LED Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "25W",
+     "Light Color": "Cool day light"
+    },
+    "sku": "929004657201",
+    "price": 280
+   },
+   {
+    "options": {
+     "Wattage": "25W",
+     "Light Color": "Natural white"
+    },
+    "sku": "915006558701",
+    "price": 280
+   },
+   {
+    "options": {
+     "Wattage": "25W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929004657301",
+    "price": 280
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Light Color": "Cool day light"
+    },
+    "sku": "929004657401",
+    "price": 410
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929004657501",
+    "price": 410
+   },
+   {
+    "options": {
+     "Wattage": "36W",
+     "Light Color": "Cool day light"
+    },
+    "sku": "929004657601",
+    "price": 490
+   },
+   {
+    "options": {
+     "Wattage": "36W",
+     "Light Color": "Natural white"
+    },
+    "sku": "915006558801",
+    "price": 490
+   },
+   {
+    "options": {
+     "Wattage": "36W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929004657701",
+    "price": 490
+   },
+   {
+    "options": {
+     "Wattage": "50W",
+     "Light Color": "Cool day light"
+    },
+    "sku": "915006556201",
+    "price": 690
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_93a80d0e-f6b4-4a03-a2ac-f7a022f937ff.png?v=1778830340"
+  }
+ },
+ {
+  "id": "philips-smart-wifi-led-tube-light",
+  "title": "Philips Smart Wi-Fi LED Tube light (Wiz Connected)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "bathroom_lights_suggested",
+   "bedroom_lights_suggested",
+   "Festive-Offer",
+   "ipl2025",
+   "junesale",
+   "Kitchen_lights_suggested",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "24W",
+     "Color": "Tunable White",
+     "Pack Size": "Pack of 1"
+    },
+    "sku": "929004238001",
+    "price": 999
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/51mPUOef90L._SL1200.jpg?v=1778148579"
+  }
+ },
+ {
+  "id": "philips-dual-glow-led-batten-ww-cdl",
+  "title": "Philips Dual Glow LED Batten",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Warm white + Cool day light"
+    },
+    "sku": "915006553101",
+    "price": 1100
+   },
+   {
+    "options": {
+     "Light Color": "Warm white + Warm white"
+    },
+    "sku": "915006553001",
+    "price": 1100
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Dual_Glow_LED_Batten_-WW_WW.png?v=1776768174"
+  }
+ },
+ {
+  "id": "philips-gleam-glow-led-batten",
+  "title": "Philips Gleam Glow LED Batten",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Warm white + Cool day light"
+    },
+    "sku": "915006552901",
+    "price": 1100
+   },
+   {
+    "options": {
+     "Light Color": "Warm white + Warm white"
+    },
+    "sku": "915006552801",
+    "price": 1100
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Gleam_Glow_LED_Batten.png?v=1776768089"
+  }
+ },
+ {
+  "id": "philips-ultra-shine-led-downlight",
+  "title": "Philips Ultra Shine LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "bestselling_ceiling_lights",
+   "Collection_Smart Downlight",
+   "downlights",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Warm white",
+     "Shape": "Round"
+    },
+    "sku": "915006388401",
+    "price": 454
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Warm white",
+     "Shape": "Round"
+    },
+    "sku": "915006389001",
+    "price": 519
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Warm white",
+     "Shape": "Round"
+    },
+    "sku": "915006389601",
+    "price": 649
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Color": "Warm white",
+     "Shape": "Round"
+    },
+    "sku": "915006390201",
+    "price": 1050
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Cool day light",
+     "Shape": "Round"
+    },
+    "sku": "915006388601",
+    "price": 454
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Natural White",
+     "Shape": "Round"
+    },
+    "sku": "915006388501",
+    "price": 454
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Cool day light",
+     "Shape": "Round"
+    },
+    "sku": "915006389201",
+    "price": 661
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Natural White",
+     "Shape": "Round"
+    },
+    "sku": "915006389101",
+    "price": 661
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Cool day light",
+     "Shape": "Round"
+    },
+    "sku": "915006389801",
+    "price": 649
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Natural White",
+     "Shape": "Round"
+    },
+    "sku": "915006389701",
+    "price": 832
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Color": "Cool day light",
+     "Shape": "Round"
+    },
+    "sku": "915006390401",
+    "price": 1339
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Color": "Natural White",
+     "Shape": "Round"
+    },
+    "sku": "915006390301",
+    "price": 1339
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Warm white",
+     "Shape": "Square"
+    },
+    "sku": "915006388701",
+    "price": 360
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Cool day light",
+     "Shape": "Square"
+    },
+    "sku": "915006388901",
+    "price": 454
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Natural White",
+     "Shape": "Square"
+    },
+    "sku": "915006388801",
+    "price": 360
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Warm white",
+     "Shape": "Square"
+    },
+    "sku": "915006389301",
+    "price": 519
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Cool day light",
+     "Shape": "Square"
+    },
+    "sku": "915006389501",
+    "price": 661
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Natural White",
+     "Shape": "Square"
+    },
+    "sku": "915006389401",
+    "price": 519
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Warm white",
+     "Shape": "Square"
+    },
+    "sku": "915006389901",
+    "price": 649
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Cool day light",
+     "Shape": "Square"
+    },
+    "sku": "915006390101",
+    "price": 832
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Natural White",
+     "Shape": "Square"
+    },
+    "sku": "915006390001",
+    "price": 649
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Color": "Warm white",
+     "Shape": "Square"
+    },
+    "sku": "915006390501",
+    "price": 1050
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Color": "Cool day light",
+     "Shape": "Square"
+    },
+    "sku": "915006390601",
+    "price": 1050
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Color": "Natural White",
+     "Shape": "Square"
+    },
+    "sku": "915006390701",
+    "price": 1339
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/0.1_ae3a2ff1-970e-40a1-bd22-d75ae2102541.png?v=1773055587"
+  }
+ },
+ {
+  "id": "philips-led-cob-pro-cob-light-copy-copy",
+  "title": "Philips LED COB Pro COB light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "cob-lights",
+   "independencesale",
+   "junesale",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "2W",
+     "Color": "Warm White"
+    },
+    "sku": "929003692801",
+    "price": 219
+   },
+   {
+    "options": {
+     "Wattage": "2W",
+     "Color": "Natural White"
+    },
+    "sku": "929003692901",
+    "price": 219
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Warm White"
+    },
+    "sku": "929001951936",
+    "price": 1550
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Natural White"
+    },
+    "sku": "929001951938",
+    "price": 1550
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "929001951939",
+    "price": 2033
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "929001951941",
+    "price": 2033
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Warm White"
+    },
+    "sku": "929001951942",
+    "price": 3044
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Natural White"
+    },
+    "sku": "929001951944",
+    "price": 3044
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Color": "Warm White"
+    },
+    "sku": "929001951945",
+    "price": 3550
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Color": "Natural White"
+    },
+    "sku": "929001951947",
+    "price": 3550
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929001951944.jpg?v=1784717848"
+  }
+ },
+ {
+  "id": "philips-stepshine-3w-led-step-light-ip65",
+  "title": "Philips StepShine 3W LED Step Light (IP65)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "outdoor_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Black",
+     "Shape": "Rectangular"
+    },
+    "sku": "915006349505",
+    "price": 645
+   },
+   {
+    "options": {
+     "Color": "Black",
+     "Shape": "Drop"
+    },
+    "sku": "915006349506",
+    "price": 645
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Shape": "Curvy"
+    },
+    "sku": "915006349508",
+    "price": 645
+   },
+   {
+    "options": {
+     "Color": "White",
+     "Shape": "Vertical"
+    },
+    "sku": "915006349507",
+    "price": 645
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_df918f5b-5473-4dfe-aa63-88e0859179e1.png?v=1770629867"
+  }
+ },
+ {
+  "id": "philips-fullglow-surface-light-with-sensor",
+  "title": "Philips Full Glow LED Surface light with Motion sensor technology",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "2025holisale",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "915006363901",
+    "price": 1552
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsFullGlowLEDSurfacelightwithMotionsensortechnology.png?v=1747311841"
+  }
+ },
+ {
+  "id": "philips-dewdrop-pendant-light",
+  "title": "Philips Dewdrop Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "bedroom_lights_suggested",
+   "FESTIVE2025",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Brass body & amber glass",
+     "Bulb Type": "E27"
+    },
+    "sku": "919215851394",
+    "price": 3933
+   },
+   {
+    "options": {
+     "Color": "Black body & smoky glass",
+     "Bulb Type": "E27"
+    },
+    "sku": "919215851395",
+    "price": 3933
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard4_df5f0f9c-f55a-4bed-a13a-fc9e3675499f.png?v=1775471954"
+  }
+ },
+ {
+  "id": "philips-mirolta-pro-tube-light",
+  "title": "Philips Mirolta Pro LED Tube light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "junesale",
+   "monsoon_mega_sale",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "30W",
+     "Color": "Pack of 1",
+     "Pack Size": "Tunable white with remote"
+    },
+    "sku": "919515813542",
+    "price": 2600
+   },
+   {
+    "options": {
+     "Wattage": "36W",
+     "Color": "Cool Day light",
+     "Pack Size": "Pack of 1"
+    },
+    "sku": "919515813703",
+    "price": 1400
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/919515813703_73f3a69d-c4c8-4335-9519-ea791755d167.png?v=1770012209"
+  }
+ },
+ {
+  "id": "philips-wi-fi-magnetic-ad-spot-blade",
+  "title": "Philips Wi-Fi Magnetic Ad Spot Blade",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "LED Track Light",
+   "Magnetic Track Lighting",
+   "main_ceiling Lights",
+   "track_type_track_spot_light"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003861901",
+    "price": 9975
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/51KM7micxOL._SL1080_2488ff51-d9d3-4af5-bdc8-b5a6ce28b63f.jpg?v=1763574480"
+  }
+ },
+ {
+  "id": "philips-flagship-wall-light",
+  "title": "Philips Flagship Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "main_wall Lights",
+   "monsoon_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "Small",
+     "Body Color": "White & Gold"
+    },
+    "sku": "919215851016",
+    "price": 2599
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsFlagshipWalllightcopy.png?v=1747311797"
+  }
+ },
+ {
+  "id": "philips-naica-wall-light",
+  "title": "Philips Naica Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "main_wall Lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851008",
+    "price": 7269
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Naica_581966_App1.jpg?v=1747311797"
+  }
+ },
+ {
+  "id": "philips-gladius-wall-light",
+  "title": "Philips Gladius Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "junesale",
+   "main_wall Lights",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851020",
+    "price": 8213
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Gladius_581978_App2.jpg?v=1747311794"
+  }
+ },
+ {
+  "id": "philips-grace-wall-light",
+  "title": "Philips Grace Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "main_wall Lights",
+   "wall_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215850005",
+    "price": 1429
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/34303-_Grace.png?v=1769883843"
+  }
+ },
+ {
+  "id": "philips-stylo-wall-light",
+  "title": "Philips Stylo Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "2025holisale",
+   "festive_2024",
+   "junesale",
+   "main_wall Lights",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215850004",
+    "price": 1298
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Stylo_34302_Closeup.jpg?v=1747311782"
+  }
+ },
+ {
+  "id": "philips-nero-wall-light",
+  "title": "Philips Nero Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "festive_2024",
+   "junesale",
+   "main_wall Lights",
+   "wall_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Down",
+     "Body Color": "Smoky Black"
+    },
+    "sku": "919215851221",
+    "price": 3037
+   },
+   {
+    "options": {
+     "Shape": "Up",
+     "Body Color": "Black & Brass"
+    },
+    "sku": "919215851220",
+    "price": 2509
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Nero_582085_Closeup_1.jpg?v=1769883690"
+  }
+ },
+ {
+  "id": "philips-sense-of-style-wall-light",
+  "title": "Philips Sense of Style Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "junesale",
+   "main_wall Lights",
+   "monsoon_mega_sale",
+   "wall_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215850131",
+    "price": 2415
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/919215850131_2-Photoroom.png?v=1769883574"
+  }
+ },
+ {
+  "id": "philips-trendo-wall-light",
+  "title": "Philips Trendo Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "main_wall Lights",
+   "wall_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215850012",
+    "price": 2423
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/919215850131_2-Photoroom_1.png?v=1747311779"
+  }
+ },
+ {
+  "id": "philips-marvel-wall-light",
+  "title": "Philips Marvel Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "main_wall Lights",
+   "walllight_bulb_type_E27"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Single Head",
+     "Body Color": "Chrome"
+    },
+    "sku": "919215851022",
+    "price": 3839
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Marvel_582012_Closeup.jpg?v=1769883416"
+  }
+ },
+ {
+  "id": "philips-motif-wall-light",
+  "title": "Philips Motif Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "main_wall Lights",
+   "wall_lights_livingroom_suggested",
+   "walllight_bulb_type_E27"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Single Head",
+     "Body Color": "Chrome & Copper"
+    },
+    "sku": "919215851026",
+    "price": 4028
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/DSC00969.jpg?v=1769883317"
+  }
+ },
+ {
+  "id": "philips-ebony-wall-light",
+  "title": "Philips Ebony Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "2025holisale",
+   "main_wall Lights",
+   "wall_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Warm White"
+    },
+    "sku": "919215851207",
+    "price": 3650
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Ebony-2_75368a21-2710-4bab-b028-e780f128045f.png?v=1769883237"
+  }
+ },
+ {
+  "id": "philips-duo-wall-light",
+  "title": "Philips Duo Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bulb_type_In-build",
+   "junesale",
+   "main_wall Lights",
+   "monsoon_mega_sale",
+   "wall_lights_livingroom_suggested",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215850805",
+    "price": 4028
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Duo-2.png?v=1747311759"
+  }
+ },
+ {
+  "id": "philips-caesar-wall-light",
+  "title": "Philips Caesar Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "junesale",
+   "main_wall Lights",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215850832",
+    "price": 7945
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Caesar_581865_App1.jpg?v=1747311795"
+  }
+ },
+ {
+  "id": "philips-comet-wall-light",
+  "title": "Philips Comet Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "IndependenceDay_Sale",
+   "junesale",
+   "main_wall Lights",
+   "walllight_type_functional"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "23W",
+     "Body Color": "White"
+    },
+    "sku": "919215850070",
+    "price": 374
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Comet-Photoroom_eda8077f-7462-4f2f-bed7-e606aa98608c.png?v=1769883037"
+  }
+ },
+ {
+  "id": "philips-sigma-wall-light",
+  "title": "Philips Sigma Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "IndependenceDay_Sale",
+   "main_wall Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "23W",
+     "Body Color": "White"
+    },
+    "sku": "919215850328",
+    "price": 374
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Sigma_48028_Closeup.jpg?v=1769882954"
+  }
+ },
+ {
+  "id": "philips-ultron-wall-light",
+  "title": "Philips Ultron Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "in_stock",
+   "IndependenceDay_Sale",
+   "junesale",
+   "main_wall Lights",
+   "monsoon_mega_sale",
+   "walllight_type_functional"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "17W",
+     "Body Color": "Grey",
+     "Color": "Cool White"
+    },
+    "sku": "919215850332",
+    "price": 1395
+   },
+   {
+    "options": {
+     "Wattage": "17W",
+     "Body Color": "Grey",
+     "Color": "Warm White"
+    },
+    "sku": "919215850331",
+    "price": 1395
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard5_25e70162-43ad-47e9-880d-276e9eb93472.png?v=1781174222"
+  }
+ },
+ {
+  "id": "philips-lucidus-wall-light",
+  "title": "Philips Lucidus Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "2025holisale",
+   "bestselling_wall_lights",
+   "festive_2024",
+   "in_stock",
+   "junesale",
+   "main_wall Lights",
+   "monsoon_mega_sale",
+   "Republic_Day_Sale_2025",
+   "wall_lights_livingroom_suggested",
+   "walllight_bulb_type_E27",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Antique Brass",
+     "Shape": "Up"
+    },
+    "sku": "919215851232",
+    "price": 2989
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/418SoJIoyFL._SL1200.jpg?v=1769879596"
+  }
+ },
+ {
+  "id": "philips-muziris-wall-light",
+  "title": "Philips Muziris Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "in_stock",
+   "Republic_Day_Sale_2025",
+   "wall_lights_livingroom_suggested",
+   "walllight_bulb_type_E27",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Laminar 1 head"
+    },
+    "sku": "919215850188",
+    "price": 2502
+   },
+   {
+    "options": {
+     "Shape": "1 head"
+    },
+    "sku": "919215850073",
+    "price": 2690
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/31434-_Muziris.png?v=1769879723"
+  }
+ },
+ {
+  "id": "philips-idyllic-wall-light",
+  "title": "Philips Idyllic Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bedroom_lights_suggested",
+   "bestselling_wall_lights",
+   "wall_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Bulb Type": "E27",
+     "Color": "Painted imitation gold with frosted glass"
+    },
+    "sku": "919215851296",
+    "price": 4382
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsIdyllicWalllight.png?v=1747311576"
+  }
+ },
+ {
+  "id": "philips-celestial-3head-wall-light",
+  "title": "Philips Celestial 3 head Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "festive_2024"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Bulb Type": "G9",
+     "Color": "French Gold"
+    },
+    "sku": "919215851337",
+    "price": 9566
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard6_9cff4bb5-6b65-49b8-ab43-a5b8b273890b.png?v=1779700489"
+  }
+ },
+ {
+  "id": "philips-divine-wall-light-french-gold",
+  "title": "Philips Divine 1-head Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "chandelier_bulb_type_G9",
+   "festive_2024",
+   "in_stock",
+   "wall_lights_livingroom_suggested",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Bulb Type": "G9",
+     "Color": "Black & French Gold"
+    },
+    "sku": "919215851332",
+    "price": 4925
+   },
+   {
+    "options": {
+     "Bulb Type": "G9",
+     "Color": "French Gold"
+    },
+    "sku": "919215851347",
+    "price": 5452
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Divine-1head-Wall_light.png?v=1769879207"
+  }
+ },
+ {
+  "id": "philips-divine-3head-wall-light",
+  "title": "Philips Divine 3-head Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bedroom_lights_suggested",
+   "decorative_lights_suggested",
+   "festive_2024",
+   "in_stock",
+   "junesale",
+   "monsoon_mega_sale",
+   "wall_lights_livingroom_suggested",
+   "walllight_bulb_type_G9",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Bulb Type": "G9",
+     "Color": "French Gold"
+    },
+    "sku": "919215851336",
+    "price": 10707
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Divine3headwalllight-2_40c22679-aaeb-47fb-a8a3-2e2c2fc7fb52.png?v=1769874739"
+  }
+ },
+ {
+  "id": "philips-glow-wall-light",
+  "title": "Philips Glow Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bestselling_wall_lights",
+   "festive_2024",
+   "in_stock",
+   "junesale",
+   "livingroom_lights_suggested",
+   "monsoon_mega_sale",
+   "Republic_Day_Sale_2025",
+   "wall_lights_livingroom_suggested",
+   "walllight_bulb_type_E27",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Matte-nickel"
+    },
+    "sku": "919215851391",
+    "price": 1023
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsGlowWalllight.png?v=1747311518"
+  }
+ },
+ {
+  "id": "philips-divine-frg-blk-wall-light",
+  "title": "Philips Divine Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bedroom_lights_suggested",
+   "decorative_lights_suggested",
+   "junesale",
+   "main_wall Lights",
+   "monsoon_mega_sale",
+   "walllight_bulb_type_G9",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851381",
+    "price": 11399
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/4_22a6a70e-3e0e-4394-9d21-73090c0d02d6.png?v=1769873599"
+  }
+ },
+ {
+  "id": "philips-trumpet-wall-light",
+  "title": "Philips Trumpet Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "2025holisale",
+   "bestselling_wall_lights",
+   "festive_2024",
+   "junesale",
+   "livingroom_lights_suggested",
+   "monsoon_mega_sale",
+   "New-Arrival",
+   "wall_lights_livingroom_suggested",
+   "walllight_bulb_type_E27",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Matte-nickel"
+    },
+    "sku": "919215851390",
+    "price": 1023
+   },
+   {
+    "options": {
+     "Body Color": "Black and brass"
+    },
+    "sku": "919215851392",
+    "price": 1023
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsTrumpetWalllight.png?v=1747311521"
+  }
+ },
+ {
+  "id": "philips-dawn-wall-light",
+  "title": "Philips Dawn wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "main_wall Lights",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851414",
+    "price": 694
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_e8fd22c1-e0ca-469c-b266-9b40e0984a74.png?v=1769872768"
+  }
+ },
+ {
+  "id": "philips-petal-white-glass-wall-light",
+  "title": "Philips Petal Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "decorative_lights_suggested",
+   "livingroom_lights_suggested",
+   "main_wall Lights",
+   "wall_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Glass Color": "Cognac/amber glass"
+    },
+    "sku": "919215851383",
+    "price": 11533
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/19.png?v=1747311412"
+  }
+ },
+ {
+  "id": "philips-leaf-wall-light",
+  "title": "Philips Leaf Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "decorative_lights_suggested",
+   "in_stock",
+   "main_wall Lights",
+   "outdoor_wall_lights_suggested",
+   "wall_lights_livingroom_suggested",
+   "wall_lights_sitting_room",
+   "wall_lights_sitting_room_suggested",
+   "walllight_bulb_type_E14",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "French Gold"
+    },
+    "sku": "919215851419",
+    "price": 10856
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_ff4f68c3-4df7-42a6-9523-ad0d9704ba2c.jpg?v=1772444288"
+  }
+ },
+ {
+  "id": "philips-flash-outdoor-wall-washer",
+  "title": "Philips Flash Outdoor 2 Way Wall Washer",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bestsellerQ2",
+   "monsoon_mega_sale",
+   "outdoor_lights_suggested",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851457",
+    "price": 396
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/51hBeki6sCL._SL1080.jpg?v=1763577547"
+  }
+ },
+ {
+  "id": "philips-sparkle-wall-light",
+  "title": "Philips Sparkle Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "decorative_lights_suggested",
+   "main_wall Lights",
+   "wall_lights_livingroom_suggested",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Head": "2 head"
+    },
+    "sku": "919215851416",
+    "price": 18314
+   },
+   {
+    "options": {
+     "Head": "3 head"
+    },
+    "sku": "919215851417",
+    "price": 23010
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/800167-Lit.png?v=1769871516"
+  }
+ },
+ {
+  "id": "philips-fyve-solar-wall-light",
+  "title": "Philips FYVE Solar Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "outdoor_solar_lights_suggested",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Black"
+    },
+    "sku": "929003364901",
+    "price": 2059
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/2_fa172ea6-62b3-40c0-a1c9-6c6c72834efb.png?v=1769871289"
+  }
+ },
+ {
+  "id": "philips-svelte-wall-light",
+  "title": "Philips Svelte Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "main_wall Lights",
+   "wall_lights_livingroom_suggested",
+   "walllight_bulb_type_G9",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851460",
+    "price": 10510
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/2_0717f79e-53b7-4778-907f-6a038c346553.png?v=1769871169"
+  }
+ },
+ {
+  "id": "philips-divine-wall-light",
+  "title": "Philips Divine 1-head Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "main_wall Lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851469",
+    "price": 9070
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/2_c0c71b0d-bd72-4184-a62c-910f0ba8fbef.png?v=1769870330"
+  }
+ },
+ {
+  "id": "philips-soul-wall-light",
+  "title": "Philips Soul wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "decorative_lights_suggested",
+   "main_wall Lights",
+   "Newly added",
+   "outdoor_wall_lights_suggested",
+   "wall_lights_livingroom_suggested",
+   "wall_lights_sitting_room",
+   "wall_lights_sitting_room_suggested",
+   "walllight_bulb_type_E14",
+   "walllight_type_decorative"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "French Gold"
+    },
+    "sku": "919215851426",
+    "price": 7694
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/800177PhilipsSOULwalllightE14_2copy.png?v=1772444354"
+  }
+ },
+ {
+  "id": "philips-bloom-wall-light",
+  "title": "Philips Bloom Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "main_wall Lights",
+   "wall_lights_sitting_room",
+   "wall_lights_sitting_room_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851461",
+    "price": 12075
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/2_53215701-42bc-45d2-8db8-987453e41c56.png?v=1769870642"
+  }
+ },
+ {
+  "id": "philips-twinglow-led-tube-light",
+  "title": "Philips TwinGlow LED Tube light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "2025holisale",
+   "bestseller",
+   "bestsellerQ2",
+   "Festive-Offer",
+   "IndependenceDay_Sale",
+   "junesale",
+   "monsoon_mega_sale",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "20W",
+     "Color": "Tunable White",
+     "Pack Size": "Pack of 1"
+    },
+    "sku": "919515813875",
+    "price": 1250
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/919515815099_5ad539bc-f5d1-4f2f-a7b2-b4e17626347a.png?v=1769861598"
+  }
+ },
+ {
+  "id": "philips-slimline-advance-led-tube-light",
+  "title": "Philips Slimline Advance LED tube light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "junesale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "25W",
+     "Color": "Cool Day light"
+    },
+    "sku": "919515813187",
+    "price": 515
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Color": "Cool day light"
+    },
+    "sku": "919515813387",
+    "price": 575
+   },
+   {
+    "options": {
+     "Wattage": "36W",
+     "Color": "Cool Day light"
+    },
+    "sku": "919515813613",
+    "price": 750
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/919515813387.png?v=1779361957"
+  }
+ },
+ {
+  "id": "philips-astra-line-led-tube-light",
+  "title": "Philips Astra Line LED Tube light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Cool Day light"
+    },
+    "sku": "919215850549",
+    "price": 235
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/919215850570.png?v=1786517839"
+  }
+ },
+ {
+  "id": "philips-blazeline-led-tubelight",
+  "title": "Philips Blazeline Compact LED Tube light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919615898282",
+    "price": 225
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsBlazelineCompactLEDTubelight.png?v=1747311654"
+  }
+ },
+ {
+  "id": "philips-starbright-led-tubelight",
+  "title": "Philips StarBright LED Tube light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Title": "20W"
+    },
+    "sku": "915006550101",
+    "price": 550
+   },
+   {
+    "options": {
+     "Title": "40W"
+    },
+    "sku": "915006550201",
+    "price": 830
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsStarBrightLEDTubelightcopy.png?v=1747311655"
+  }
+ },
+ {
+  "id": "philips-slimline-ultra-led-tubelight",
+  "title": "Philips Slimline Ultra LED Tube light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "bathroom_lights_suggested",
+   "Kitchen_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Cool Day Light"
+    },
+    "sku": "919615898491",
+    "price": 150
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Natural White"
+    },
+    "sku": "919615898492",
+    "price": 150
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Warm White"
+    },
+    "sku": "919615898493",
+    "price": 150
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Cool Day Light"
+    },
+    "sku": "919615898494",
+    "price": 155
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Natural White"
+    },
+    "sku": "919615898495",
+    "price": 155
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Warm White"
+    },
+    "sku": "919615898496",
+    "price": 155
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Color": "Cool Day Light"
+    },
+    "sku": "915006551701",
+    "price": 180
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/1_94fe496c-9644-421a-8aad-e77d8a75e606.jpg?v=1769860226"
+  }
+ },
+ {
+  "id": "motion-sensing-step-dim",
+  "title": "Motion Sensing LED Tube Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "outdoor_lights_suggested",
+   "wall_lights_sitting_room"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": "929003847201",
+    "price": 675
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard6_5ee8cb46-e31a-4b3f-b446-f62c7143ffe3.png?v=1769859689"
+  }
+ },
+ {
+  "id": "philips-reserve-plus-inverter-led-batten",
+  "title": "Philips Reserve Plus Inverter LED Batten",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "tags": [
+   "emergency_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": "929003842401",
+    "price": 799
+   },
+   {
+    "options": {
+     "Wattage": "10W"
+    },
+    "sku": "929003842301",
+    "price": 485
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003842301.jpg?v=1784712127"
+  }
+ },
+ {
+  "id": "philips-stanchion-track-light",
+  "title": "Philips Stanchion Track light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "30W",
+   "IndependenceDay_Sale",
+   "junesale",
+   "Magnetic Track Lighting"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851044",
+    "price": 2863
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsStanchionTracklight1.png?v=1747311873"
+  }
+ },
+ {
+  "id": "philips-stanchion-track-light-gu10",
+  "title": "Philips Stanchion GU10 Track light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "Magnetic Track Lighting"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215850733",
+    "price": 1754
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsStanchionGU10Tracklight-1.png?v=1747311874"
+  }
+ },
+ {
+  "id": "philips-wi-fi-tunable-white-led-track-light",
+  "title": "Philips Wi-Fi Tunable White LED Track Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "LED Track Light",
+   "Magnetic Track Lighting",
+   "Magnetic track lights",
+   "monsoon_mega_sale",
+   "track_type_LED_fixtures"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "15W"
+    },
+    "sku": "929004240101",
+    "price": 4590
+   },
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": "929004240201",
+    "price": 5490
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_122c0b4a-be8a-4035-ad97-27dfcf383133.png?v=1769857378"
+  }
+ },
+ {
+  "id": "philips-ornate-table-lamps",
+  "title": "Philips Ornate Table lamps",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Lamps & Lanterns",
+  "tags": [
+   "festive_2024",
+   "main_table Lamps",
+   "table_lamp_for_living_room"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Natural Wood Finish"
+    },
+    "sku": "919215851036",
+    "price": 3587
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Ornate_1.png?v=1747311739"
+  }
+ },
+ {
+  "id": "philips-smart-wifi-led-strip-light",
+  "title": "Philips Smart WiFi LED Strip light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "bedroom_lights_suggested",
+   "IndependenceDay_Sale",
+   "junesale",
+   "kitchen_lights",
+   "main_light Strips",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003575901",
+    "price": 8101
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003575901_ae6350ae-6504-4a51-a278-615cc3e80498.png?v=1769855639"
+  }
+ },
+ {
+  "id": "philips-linear-led-light",
+  "title": "Philips Linear LED Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "bathroom_lights_suggested",
+   "junesale",
+   "kitchen_lights",
+   "Kitchen_lights_suggested",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "929003565001",
+    "price": 411
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Natural White"
+    },
+    "sku": "929003565101",
+    "price": 411
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "929003565301",
+    "price": 627
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "929003565401",
+    "price": 627
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsLinearLEDLight.png?v=1747311691"
+  }
+ },
+ {
+  "id": "philips-cove-glow-led-strip-light",
+  "title": "Philips Cove Glow LED Strip light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "bedroom_lights_suggested",
+   "junesale",
+   "kitchen_lights",
+   "Kitchen_lights_suggested",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "25W",
+     "Color": "Warm White"
+    },
+    "sku": "929001957203",
+    "price": 573
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsCoveGlowLEDStriplight.png?v=1747311690"
+  }
+ },
+ {
+  "id": "philips-evenglow-led-strip-light",
+  "title": "Philips EvenGlow LED Strip light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "2025holisale",
+   "independencesale",
+   "junesale",
+   "kitchen_lights",
+   "monsoon_mega_sale",
+   "monsoon_sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003605601",
+    "price": 795
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsEvenGlowLEDStriplightcopy3.png?v=1747311686"
+  }
+ },
+ {
+  "id": "philips-profile-shine-led-strip-light",
+  "title": "Philips Profile Shine LED Strip light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "junesale",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Cool day light"
+    },
+    "sku": "929003591801",
+    "price": 1294
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_f979dbac-acc5-4458-9826-772fa77c5b02.png?v=1747725399"
+  }
+ },
+ {
+  "id": "philips-marathon-led-rope-light",
+  "title": "Philips Marathon LED Rope light (72 LEDs, 50 meter)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "2025holisale",
+   "Festive-Offer",
+   "outdoor_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "929001957276",
+    "price": 5538
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard_1_5e651c88-798a-4bac-b248-a6518e9afbab.png?v=1769854948"
+  }
+ },
+ {
+  "id": "philips-colour-magic-led-strip-light",
+  "title": "Philips Color Magic LED Strip light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "clearance_sale",
+   "kitchen_lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003081701",
+    "price": 900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsColorMagicLEDStriplight_2colorsin1lightstrip.png?v=1747311684"
+  }
+ },
+ {
+  "id": "philips-mini-marathon-led-rope-light",
+  "title": "Philips Mini Marathon LED Rope light (72 LEDs, 20 meter)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "clearance_sale",
+   "Festive-Offer",
+   "outdoor_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Warm White"
+    },
+    "sku": "929003159401",
+    "price": 2378
+   },
+   {
+    "options": {
+     "Color": "Red"
+    },
+    "sku": "929003159601",
+    "price": 1095
+   },
+   {
+    "options": {
+     "Color": "Green"
+    },
+    "sku": "929003159701",
+    "price": 2378
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003159601.png?v=1784718137"
+  }
+ },
+ {
+  "id": "philips-color-magic-led-strip-light",
+  "title": "Philips Color Magic LED Strip light (Tunable White)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Tunable white"
+    },
+    "sku": "929003514001",
+    "price": 2737
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/ColorMagic3in1-1-PhotoRoom.png?v=1747311677"
+  }
+ },
+ {
+  "id": "philips-marathon-ultra-led-rope-light",
+  "title": "Philips Marathon Ultra LED Rope light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "2025holisale",
+   "outdoor_lights_suggested",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Warm White"
+    },
+    "sku": "929003159101",
+    "price": 5980
+   },
+   {
+    "options": {
+     "Color": "Blue"
+    },
+    "sku": "929003159301",
+    "price": 5980
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/5136Er1A9GL._SX679.jpg?v=1748327985"
+  }
+ },
+ {
+  "id": "philips-sky-cove-led-strip-light",
+  "title": "Philips Sky Cove LED Strip light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003701501",
+    "price": 892
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_2223f804-aa26-4da1-9476-c4d211884866.png?v=1747311674"
+  }
+ },
+ {
+  "id": "philips-slim-edge-led-profile-strip-light",
+  "title": "Philips Slim Edge LED Profile Strip light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "independencesale",
+   "junesale",
+   "kitchen_lights",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Warm White"
+    },
+    "sku": "929003514101",
+    "price": 1810
+   },
+   {
+    "options": {
+     "Color": "Natural White"
+    },
+    "sku": "929003514201",
+    "price": 1810
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003514101.png?v=1784718038"
+  }
+ },
+ {
+  "id": "philips-smart-wi-fi-led-diy-tv-strip",
+  "title": "Philips Smart Wi-Fi LED DIY TV Strip",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "bestsellerQ2",
+   "Collection_Smart light strip",
+   "main_light Strips",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "43 inch"
+    },
+    "sku": "929004238301",
+    "price": 2790
+   },
+   {
+    "options": {
+     "Size": "55 inch"
+    },
+    "sku": "929004238401",
+    "price": 4490
+   },
+   {
+    "options": {
+     "Size": "65 inch"
+    },
+    "sku": "929004238501",
+    "price": 5490
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_7590d05e-efe2-43cf-8ff4-4e147f86968d.png?v=1769853113"
+  }
+ },
+ {
+  "id": "philips-proglow-nxt-led-strip-light",
+  "title": "Philips ProGlow Nxt LED strip light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "independencesale",
+   "main_light Strips"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Natural white"
+    },
+    "sku": "929003592001",
+    "price": 1583
+   },
+   {
+    "options": {
+     "Light Color": "Warm white"
+    },
+    "sku": "929003591901",
+    "price": 1583
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003591901.jpg?v=1784718096"
+  }
+ },
+ {
+  "id": "philips-smart-wi-fi-led-strip-light-rgb",
+  "title": "Philips Smart Wi-Fi LED Strip Light (RGB)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "main_light Strips"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003575801",
+    "price": 6299
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_b4f220e2-5ff0-4dbe-a4d0-75da14a89039.png?v=1752055712"
+  }
+ },
+ {
+  "id": "philips-led-strip-profile-shine-with-driver",
+  "title": "Philips LED Strip Profile Shine (with driver)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "independencesale",
+   "main_light Strips"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Warm White"
+    },
+    "sku": "929004252501",
+    "price": 1768
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_3b2d261a-4a56-4b1c-a154-dd38b6d93d37.png?v=1769410361"
+  }
+ },
+ {
+  "id": "philips-profile-shine-led-strip-light-without-driver",
+  "title": "Philips Profile Shine LED Strip light ( without driver)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "main_light Strips"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Natural white"
+    },
+    "sku": "915006369001",
+    "price": 1294
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_98799c50-2943-41c3-8a51-558745a673b2.png?v=1769673956"
+  }
+ },
+ {
+  "id": "philips-evenglow-led-strip-light-without-driver",
+  "title": "Philips EvenGlow LED Strip light (without driver)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "main_light Strips"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Warm white"
+    },
+    "sku": "915006368801",
+    "price": 681
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsEvenGlowLEDStriplight_e09cf080-73b5-487b-b564-f57ceae18a8b.png?v=1769673955"
+  }
+ },
+ {
+  "id": "philips-triglow-rope-light",
+  "title": "Philips Triglow Rope Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "IndependenceDay_Sale",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Length": "18 metre"
+    },
+    "sku": "929003536601",
+    "price": 3341
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/71IyBOA6jGL._SL1080_11716ac5-1b51-474a-9ad5-153efa13551f.jpg?v=1769843280"
+  }
+ },
+ {
+  "id": "philips-flexishine-rope-light",
+  "title": "PHILIPS Flexishine Rope Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Strip & Rope Lights",
+  "tags": [
+   "bedroom_lights_suggested",
+   "clearance_sale",
+   "junesale",
+   "Kitchen_lights_suggested",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Warm White"
+    },
+    "sku": "929003160001",
+    "price": 350
+   },
+   {
+    "options": {
+     "Color": "Blue"
+    },
+    "sku": "929003160301",
+    "price": 350
+   },
+   {
+    "options": {
+     "Color": "Green"
+    },
+    "sku": "929003160201",
+    "price": 350
+   },
+   {
+    "options": {
+     "Color": "Pink"
+    },
+    "sku": "929003160401",
+    "price": 350
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003160301.jpg?v=1786515979"
+  }
+ },
+ {
+  "id": "philips-muziris-pendant-light",
+  "title": "Philips Muziris Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "availibility_in_stock",
+   "bulb_type_E27",
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_dining_table",
+   "hanging_lights_for_staircase",
+   "head_3-head",
+   "head_single",
+   "main_pendant Lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "1 head",
+     "Color": "Gold"
+    },
+    "sku": "919215850629",
+    "price": 3037
+   },
+   {
+    "options": {
+     "Shape": "1 head",
+     "Color": "White"
+    },
+    "sku": "919215850618",
+    "price": 2675
+   },
+   {
+    "options": {
+     "Shape": "3 head",
+     "Color": "Gold"
+    },
+    "sku": "919215850630",
+    "price": 6938
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsMuzirisPendantlight.png?v=1747311891"
+  }
+ },
+ {
+  "id": "philips-vintage-cord",
+  "title": "Philips Vintage Cord Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "bulb_E27",
+   "crystal-pendant-lights",
+   "dining-room-hanging-lights",
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_staircase",
+   "head_single",
+   "IndependenceDay_Sale",
+   "main_pendant Lights",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Brushed Bronze"
+    },
+    "sku": "919215850735",
+    "price": 850
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/VintageCord_31451_App1.1.jpg?v=1747311892"
+  }
+ },
+ {
+  "id": "philips-lustre-pendant-light",
+  "title": "Philips Lustre Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "2025holisale",
+   "bulb_type_E27",
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_dining_table",
+   "head_single",
+   "kitchen_lights",
+   "main_pendant Lights",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Gold"
+    },
+    "sku": "919215851087",
+    "price": 3587
+   },
+   {
+    "options": {
+     "Body Color": "Black"
+    },
+    "sku": "919215851084",
+    "price": 3587
+   },
+   {
+    "options": {
+     "Body Color": "Chrome"
+    },
+    "sku": "919215851085",
+    "price": 3768
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard3_90343b9d-030f-4781-a9d4-274356932c4b.png?v=1775471404"
+  }
+ },
+ {
+  "id": "philips-beacon-pendant-light",
+  "title": "Philips Beacon Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "2025holisale",
+   "bulb_type_E27",
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_dining_table",
+   "head_single",
+   "junesale",
+   "main_pendant Lights",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Rosegold Silver"
+    },
+    "sku": "919215850256",
+    "price": 3406
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsBeaconPendantlight.png?v=1747311890"
+  }
+ },
+ {
+  "id": "philips-gemini-pendant-light",
+  "title": "Philips Gemini Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_dining_table",
+   "main_pendant Lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Red+Silver"
+    },
+    "sku": "919215851027",
+    "price": 5113
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsGeminiPendantlight_2f633863-b501-466b-9b75-07c84ef3a15a.png?v=1772019129"
+  }
+ },
+ {
+  "id": "philips-tawny-pendant-light",
+  "title": "Philips Tawny Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "main_pendant Lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215850386",
+    "price": 5105
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsTawnyPendantlight.png?v=1747311885"
+  }
+ },
+ {
+  "id": "philips-ritzy-pendant-light",
+  "title": "Philips Ritzy Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "2025holisale",
+   "hanging_lights_for_balcony",
+   "main_pendant Lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851056",
+    "price": 8032
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsRitzyPendantlight.png?v=1772019592"
+  }
+ },
+ {
+  "id": "philips-cornet-pendant-light",
+  "title": "Philips Cornet Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "2025holisale",
+   "FESTIVE2025",
+   "festive_2024",
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_dining_table",
+   "hanging_lights_for_staircase",
+   "main_Bed Room Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Black",
+     "Color": "Warm white"
+    },
+    "sku": "919215851307",
+    "price": 3139
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "White",
+     "Color": "Warm white"
+    },
+    "sku": "919215851308",
+    "price": 3139
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Cornet-2.png?v=1769840537"
+  }
+ },
+ {
+  "id": "philips-clarinet-pendant-light",
+  "title": "Philips Clarinet Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "bedroom_lights_suggested",
+   "bulb_type_In-build",
+   "festive_2024",
+   "hanging_lights_for_staircase",
+   "head_single",
+   "junesale",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Warm white",
+     "Body Color": "Black"
+    },
+    "sku": "919215851305",
+    "price": 3139
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsClarinetPendantlight.png?v=1747311583"
+  }
+ },
+ {
+  "id": "philips-elevate-1head-pendant-light",
+  "title": "Philips Elevate 1 head Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "decorative_lights_suggested",
+   "livingroom_lights_suggested",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851429",
+    "price": 4925
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsElevate1headPendantlight-Black-2.png?v=1769840262"
+  }
+ },
+ {
+  "id": "philips-idyllic-pendant-light",
+  "title": "Philips Idyllic Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "availibility_in_stock",
+   "bulb_type_E27",
+   "hanging_lights_for_dining_table",
+   "hanging_lights_for_staircase",
+   "head_single",
+   "junesale",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851295",
+    "price": 5373
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsIdyllicPendantlight.png?v=1747311581"
+  }
+ },
+ {
+  "id": "philips-charm-pendant-light",
+  "title": "Philips Charm Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "decorative_lights_suggested",
+   "FESTIVE2025",
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_staircase",
+   "livingroom_lights_suggested",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Glass Color": "Amber"
+    },
+    "sku": "919215851433",
+    "price": 5813
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsCharmPendantlight-Black-2.png?v=1769840107"
+  }
+ },
+ {
+  "id": "philips-belle-3head-pendant-light",
+  "title": "Philips Belle 3 head Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "2025holisale",
+   "balcony-staircase-hanging-lights",
+   "bedroom_lights_suggested",
+   "dining-room-hanging-lights",
+   "kitchen_lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851385",
+    "price": 7434
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/BellePendantlight_1_ce803f9a-9ccb-4f9a-aead-5994b899c85c.png?v=1769839859"
+  }
+ },
+ {
+  "id": "philips-elevate-3head-pendant-light",
+  "title": "Philips Elevate 3 head Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "bedroom_lights_suggested",
+   "dining_room_lights_suggested",
+   "FESTIVE2025",
+   "hanging_lights_for_dining_table",
+   "hanging_lights_for_staircase",
+   "livingroom_lights_suggested",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Glass Color": "Amber"
+    },
+    "sku": "919215851431",
+    "price": 8937
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Elevate3headpendantlight-Amber_1.png?v=1769839677"
+  }
+ },
+ {
+  "id": "philips-cage-pendant-light",
+  "title": "Philips Cage Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "crystal_pendant_lights",
+   "decorative_lights_suggested",
+   "hanging_lights_for_dining_table",
+   "main_pendant Lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851444",
+    "price": 31868
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsCagePendantlight.png?v=1772019398"
+  }
+ },
+ {
+  "id": "philips-ritzy-round-pendant-light",
+  "title": "Philips Ritzy Round Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "decorative_lights_suggested",
+   "FESTIVE2025",
+   "hanging_lights_for_dining_table",
+   "hanging_lights_for_staircase",
+   "main_pendant Lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Light antique bronze with matte white opal glass with black wire",
+     "Diameter": "250mm"
+    },
+    "sku": "919215851445",
+    "price": 9928
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard2_91741b80-1de0-4376-8544-9b84f954bb66.jpg?v=1769839319"
+  }
+ },
+ {
+  "id": "philips-motif-pendant-light",
+  "title": "Philips Motif Mesh Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_dining_table",
+   "IndependenceDay_Sale",
+   "junesale",
+   "main_pendant Lights",
+   "monsoon_mega_sale",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Globe"
+    },
+    "sku": "919215851024",
+    "price": 5373
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsMotifMeshPendantlight.png?v=1747311883"
+  }
+ },
+ {
+  "id": "philips-ritzy-4-head-pendant",
+  "title": "Philips Ritzy 4-head Pendant",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "decorative_lights_suggested",
+   "FESTIVE2025",
+   "hanging_lights_for_dining_table",
+   "head_4-head",
+   "main_pendant Lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851447",
+    "price": 36808
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard4_cc68f977-70cf-4ece-b101-19eac7794007.png?v=1779707816"
+  }
+ },
+ {
+  "id": "philips-leaf-pendant-light",
+  "title": "Philips Leaf Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "chandelier_bulb_type_E14",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "decorative_lights_suggested",
+   "hanging_lights_for_dining_table",
+   "in_stock",
+   "main_pendant Lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Diameter": "600mm"
+    },
+    "sku": "919215851421",
+    "price": 56884
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard2_aa953e12-4a49-45f5-b889-1db5b91a6df6.jpg?v=1769838950"
+  }
+ },
+ {
+  "id": "philips-diffused-pendant-light",
+  "title": "Philips Diffused Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "decorative_lights_suggested",
+   "FESTIVE2025",
+   "hanging_lights_for_dining_table",
+   "junesale",
+   "kitchen_lights",
+   "Kitchen_lights_suggested",
+   "main_pendant Lights",
+   "monsoon_mega_sale",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851438",
+    "price": 3139
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard2_834d343f-7854-40e4-a976-858be20e2229.jpg?v=1769838840"
+  }
+ },
+ {
+  "id": "philips-magnifiq-34h-pendant-light",
+  "title": "Philips Magnifiq 34H Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "chandelier_bulb_type_G9",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "decorative_lights_suggested",
+   "hanging_lights_for_dining_table",
+   "in_stock",
+   "main_pendant Lights",
+   "Newly added",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Shiny Gold with Matte White Opal Glass",
+     "Size": "34 head"
+    },
+    "sku": "919215851443",
+    "price": 115624
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard3_50d68172-a001-40b7-986c-444c85eec404.jpg?v=1769838664"
+  }
+ },
+ {
+  "id": "philips-gaze-bronze-pendant-light",
+  "title": "Philips Gaze Bronze Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "bulb_E27",
+   "chandelier_bulb_type_E27",
+   "crystal_pendant_light",
+   "decorative_lights_suggested",
+   "main_chandeliers",
+   "main_pendant Lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851464",
+    "price": 10000
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/2_9db27bef-1493-4856-9056-4d5ac1fd07fd.png?v=1769410362"
+  }
+ },
+ {
+  "id": "philips-vivid-pendant-light-1",
+  "title": "Philips Vivid Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Pendant Lights",
+  "tags": [
+   "decorative_lights_suggested",
+   "dining-room-hanging-lights",
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_staircase",
+   "main_pendant Lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Matt white"
+    },
+    "sku": "919215851277",
+    "price": 3745
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsVividPendantlight.png?v=1747311889"
+  }
+ },
+ {
+  "id": "philips-radiant-wall-light",
+  "title": "Philips Radiant outdoor wall washer",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Size": "1 Way",
+     "Color": "Warm White",
+     "Body Color": "Black"
+    },
+    "sku": "919215851093",
+    "price": 2329
+   },
+   {
+    "options": {
+     "Size": "2  Way",
+     "Color": "Warm White",
+     "Body Color": "Black"
+    },
+    "sku": "919215851094",
+    "price": 3320
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Radiant-2.png?v=1769837107"
+  }
+ },
+ {
+  "id": "philips-cormorant-wall-light",
+  "title": "Philips Cormorant Outdoor Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851266",
+    "price": 4248
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Cormorantwalllight.png?v=1769836199"
+  }
+ },
+ {
+  "id": "philips-octave-wall-light",
+  "title": "Philips Octave Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "2025holisale",
+   "festive_2024",
+   "IndependenceDay_Sale",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851228",
+    "price": 349
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Octave_1f167d44-fb0d-4aba-846f-67355763c4b0.png?v=1769837273"
+  }
+ },
+ {
+  "id": "philips-garden-spike",
+  "title": "Philips Garden Spike",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "new_arrivals",
+   "outdoor_lights_suggested",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215850754",
+    "price": 2030
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/GardenSpike-1_bb3a468b-2bd2-463b-948b-dcea476fc29e.png?v=1769836972"
+  }
+ },
+ {
+  "id": "philips-sterling-pedestal-light",
+  "title": "Philips Sterling Pedestal light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "919215851273",
+    "price": 8048
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/sterling-2_41ef7820-6701-4e45-9d6d-96746062f8bd.png?v=1769836912"
+  }
+ },
+ {
+  "id": "philips-sterling-outdoor-post-light",
+  "title": "Philips Sterling Gate light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "new_arrivals",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "919215851274",
+    "price": 5373
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/SterlingGateLight____Application_1_-Photoroom.jpg?v=1769836326"
+  }
+ },
+ {
+  "id": "philips-zenith-outdoor-wall-light",
+  "title": "Philips Zenith Outdoor Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Bulb Type": "E27",
+     "Color": "Gold + Amber"
+    },
+    "sku": "919215851265",
+    "price": 4862
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Zenith-2-Photoroom-Photoroom.jpg?v=1769836047"
+  }
+ },
+ {
+  "id": "philips-serene-pendant-light",
+  "title": "Philips Serene Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "2025holisale",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Style": "Milky",
+     "Bulb Type": "E27"
+    },
+    "sku": "919215851293",
+    "price": 5994
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/2.png?v=1775471701"
+  }
+ },
+ {
+  "id": "philips-cormorant-pendant-light",
+  "title": "Philips Cormorant Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851343",
+    "price": 5113
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/ApplicationImage-CormorantPendant-Photoroom.jpg?v=1747311585"
+  }
+ },
+ {
+  "id": "philips-serene-wall-light",
+  "title": "Philips Serene Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "2025holisale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851292",
+    "price": 4657
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/SERENEClearWallLight-Application_5121c37e-437a-4f20-904e-0c8f470a353b.jpg?v=1769833572"
+  }
+ },
+ {
+  "id": "philips-shine-10w-wall-light",
+  "title": "Philips Shine LED Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "2025holisale",
+   "bestsellerQ2",
+   "festive_2024",
+   "IndependenceDay_Sale",
+   "junesale",
+   "monsoon_mega_sale",
+   "outdoor_lights_suggested",
+   "outdoor_wall_lights_suggested",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Cool white",
+     "Body Color": "Anthracite Grey"
+    },
+    "sku": "919215851348",
+    "price": 449
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard_4.png?v=1747311575"
+  }
+ },
+ {
+  "id": "philips-chalet-gate-light",
+  "title": "Philips Chalet Gate light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "2025holisale",
+   "outdoor_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Black",
+     "Bulb Type": "E27"
+    },
+    "sku": "919215851396",
+    "price": 5184
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Chaletgatelight___application-Photoroom.jpg?v=1769410525"
+  }
+ },
+ {
+  "id": "philips-stride-step-light",
+  "title": "Philips Stride Step light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "White",
+     "Wattage": "3W"
+    },
+    "sku": "919215851351",
+    "price": 1440
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Stridesteplight-01.png?v=1769833011"
+  }
+ },
+ {
+  "id": "philips-fabula-outdoor-wall-light",
+  "title": "Philips Fabula outdoor wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "outdoor_lights_suggested",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851399",
+    "price": 4972
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/FabulaOutdoorwalllight-1.png?v=1769410522"
+  }
+ },
+ {
+  "id": "philips-gamma-1-way-wall-washer",
+  "title": "Philips Gamma 1-way Wall washer",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "2025holisale",
+   "junesale",
+   "monsoon_mega_sale",
+   "outdoor_lights_suggested",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Color": "Warm White"
+    },
+    "sku": "919215851222",
+    "price": 1794
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Gamma_582088_Closeup_0a743dae-2b1c-4583-925a-4b278d85d0ca.jpg?v=1747311469"
+  }
+ },
+ {
+  "id": "philips-vibe-pedestal-light-round-shaped",
+  "title": "Philips Vibe Pedestal light (Round shaped)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "outdoor_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "919215851224",
+    "price": 9833
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Vibe-Round-2_6a410100-593d-4bf7-84ce-196a7dd31a57.png?v=1747311467"
+  }
+ },
+ {
+  "id": "philips-vynce-rd-solar-wall-light",
+  "title": "Philips VYNCE Rd Solar Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "emergency_lights_suggested",
+   "outdoor_lights_suggested",
+   "outdoor_solar_lights_suggested",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Black"
+    },
+    "sku": "929004066101",
+    "price": 2009
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/a39cc350-4dc6-408f-bfa3-5b80287e3cd4.jpg?v=1769832018"
+  }
+ },
+ {
+  "id": "philips-vynce-rd-solar-pedestal-light",
+  "title": "Philips VYNCE Rd Solar Pedestal Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "outdoor_lights_suggested",
+   "outdoor_solar_lights_suggested",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Black"
+    },
+    "sku": "929004066201",
+    "price": 2269
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/1bf4aed1-1049-4b94-87d4-5a432a25a63b.jpg?v=1769410401"
+  }
+ },
+ {
+  "id": "philips-vapora-solar-wall-light",
+  "title": "Philips VAPORA Solar Wall Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "outdoor_lights_suggested",
+   "outdoor_solar_lights_suggested",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Black"
+    },
+    "sku": "929004066501",
+    "price": 2139
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/3fff21b3-635c-494e-bcc2-703a103572d4.jpg?v=1769410399"
+  }
+ },
+ {
+  "id": "philips-vapora-solar-pedestal-light",
+  "title": "Philips VAPORA Solar Pedestal Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "outdoor_lights_suggested",
+   "outdoor_solar_lights_suggested",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Black"
+    },
+    "sku": "929004066601",
+    "price": 2249
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/7cb933a0-72bd-4e2a-aac6-917ac62bac4f.jpg?v=1769410398"
+  }
+ },
+ {
+  "id": "philips-fyve-solar-pedestal-light",
+  "title": "Philips FYVE Solar Pedestal Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "outdoor_lights_suggested",
+   "outdoor_solar_lights_suggested",
+   "outdoor_wall_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Black"
+    },
+    "sku": "929004066001",
+    "price": 2749
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/a12f707f-31ac-4dce-b2f7-25f9b672cf71.jpg?v=1769831473"
+  }
+ },
+ {
+  "id": "philips-webber-independent-led-driver",
+  "title": "Philips Webber Independent LED Driver",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "Magnetic Track Lighting",
+   "track_type_drivers"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851172",
+    "price": 3933
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/ExternalDriver-Photoroom_59315c33-cc41-4c38-b066-d667035ddd73.png?v=1769830707"
+  }
+ },
+ {
+  "id": "philips-webber-inbuilt-driver",
+  "title": "Philips Webber Inbuilt Driver (48V)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "2025holisale",
+   "Magnetic Track Lighting",
+   "track_type_drivers"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851179",
+    "price": 5184
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard2_e2254311-4e89-45fb-910a-e7f1c48b5950.png?v=1769830619"
+  }
+ },
+ {
+  "id": "philips-micro-surface-suspended-track",
+  "title": "Philips Micro Surface & Suspended Track for Webber Magnetic Track",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "Magnetic Track Lighting",
+   "track_type_track_ for_true_ceiling"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851370",
+    "price": 5248
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/582042PHILIPSMicroSurface_SuspTrack1M-Photoroom_b2cd5f02-3624-4b9f-a015-62d427c072c5.png?v=1769830232"
+  }
+ },
+ {
+  "id": "philips-webber-tiltable-spot-blade",
+  "title": "Philips Webber Tiltable Spot Blade",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "LED Fixture",
+   "Magnetic Track Lighting",
+   "track_type_LED_fixtures",
+   "track_type_track_spot_light"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Light Color": "Warm White"
+    },
+    "sku": "919215851195",
+    "price": 1652
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_1680c8ad-63a2-4c15-a008-fd25a08eec1e.png?v=1769829428"
+  }
+ },
+ {
+  "id": "philips-webber-spot-blade",
+  "title": "Philips Webber Spot Blade",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "LED Track Light",
+   "Magnetic Track Lighting",
+   "track_type_LED_fixtures"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851116",
+    "price": 2069
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/6WSpotblade-2.png?v=1769830133"
+  }
+ },
+ {
+  "id": "philips-webber-diffused-blade",
+  "title": "Philips Webber Diffused Blade",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "LED Fixture",
+   "Magnetic Track Lighting",
+   "track_type_LED_fixtures"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851104",
+    "price": 2045
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard4_27919fee-b56f-4933-9b7a-16fe65db0a02.png?v=1769830006"
+  }
+ },
+ {
+  "id": "philips-webber-lshaped-diffused-blade",
+  "title": "Philips Webber L-shaped Diffused Blade",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "LED Fixture",
+   "LED Track Light",
+   "Magnetic Track Lighting",
+   "track_type_LED_fixtures"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851111",
+    "price": 4146
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_f08e7cbb-d4e0-4213-8d21-24d7d188ac53.png?v=1769829650"
+  }
+ },
+ {
+  "id": "philips-webber-zoom-spot",
+  "title": "Philips Webber Zoom Spot",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "2025holisale",
+   "Kitchen_lights_suggested",
+   "LED Fixture",
+   "Magnetic Track Lighting",
+   "track_type_LED_fixtures",
+   "track_type_track_spot_light",
+   "wall_lights_sitting_room_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851315",
+    "price": 4476
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_1c63a5c9-1cbe-4e8f-8a2c-8f783e471560.png?v=1769829230"
+  }
+ },
+ {
+  "id": "philips-webber-clair-pendant-light",
+  "title": "Philips Webber Clair Pendant light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "hanging_lights_for_balcony",
+   "hanging_lights_for_dining_table",
+   "hanging_lights_for_staircase",
+   "Kitchen_lights_suggested",
+   "Magnetic Track Lighting",
+   "main_pendant Lights",
+   "track_type_hanging_lights",
+   "track_type_LED_fixtures"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851313",
+    "price": 4342
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard6_0d88b352-78d7-4dbc-8e31-ec9c7d3cfbf7.png?v=1770188033"
+  }
+ },
+ {
+  "id": "philips-webber-trimless-corner",
+  "title": "Philips Webber Trimless Corner 90 degree for Magnetic Track",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "2025holisale",
+   "Magnetic Track Lighting",
+   "track_type_corner_for_false_ceiling"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851356",
+    "price": 1447
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/582032PHILIPSWebberTrimlessCorner90_In-SPP_jpg-Photoroom.jpg?v=1769828489"
+  }
+ },
+ {
+  "id": "philips-webber-recessed-trimless-track",
+  "title": "Philips Webber Recessed Trimless Track 2m",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "Magnetic Track Lighting",
+   "track_type_LED_fixtures",
+   "track_type_track_ for_false_ceiling"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851368",
+    "price": 5900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/582040RecessedTrimlessTrack1M12NC919215851168_2986eb91-8142-435d-93ad-b72ac28aa62d.jpg?v=1769828062"
+  }
+ },
+ {
+  "id": "philips-webber-recessed-track",
+  "title": "Philips Webber Recessed Track",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "Magnetic Track Lighting",
+   "track_type_LED_fixtures"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851369",
+    "price": 5900
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/582041PHILIPSWebberRecessedTrack1M-SPP_jpg.jpg?v=1769827734"
+  }
+ },
+ {
+  "id": "philips-smart-wi-fi-9w-led-bulb-pack-of-2",
+  "title": "Philips Smart Wi-Fi LED Bulb (Pack of 2)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "bulb",
+   "Collection_Smart Bulb",
+   "ipl2025",
+   "main_bulbs"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003726422",
+    "price": 980
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/61i815jk6xL._SL1500_94f49498-f6a3-4e7c-b03c-e628d9df8b7e.jpg?v=1769779341"
+  }
+ },
+ {
+  "id": "philips-smart-wi-fi-bulb-50w",
+  "title": "Philips Smart WiFi LED Filament Bulb",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "bulb",
+   "Collection_Smart Bulb",
+   "main_bulbs"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003017921",
+    "price": 1937
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/smartfilamentbulb.png?v=1752044598"
+  }
+ },
+ {
+  "id": "philips-stellarbright-t-bulb-curvy-12w-led-bulb-1260lm-6500k-b22-base-new-led-bulb-12nc-3-cool-day-light",
+  "title": "Philips Stellar Bright T-Bulb Curvy",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "2 star"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "shape": "B22",
+     "Color": "Cool Day light"
+    },
+    "sku": "929003008713",
+    "price": 336
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/1_eca872f4-227e-47bc-a04e-a4f50e6fead0.jpg?v=1769410776"
+  }
+ },
+ {
+  "id": "philips-ornate-floor-lamp",
+  "title": "Philips Ornate Floor lamp",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Lamps & Lanterns",
+  "tags": [
+   "2025holisale",
+   "junesale",
+   "main_floor Lamps",
+   "monsoon_mega_sale",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851218",
+    "price": 8299
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Ornate-2.png?v=1769772431"
+  }
+ },
+ {
+  "id": "philips-ebony-flood-lamp",
+  "title": "Philips Ebony Floor lamp",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Lamps & Lanterns",
+  "tags": [
+   "FESTIVE2025",
+   "main_floor Lamps"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "24W",
+     "Color": "Warm White",
+     "Body Color": "Matte Black"
+    },
+    "sku": "919215851208",
+    "price": 9291
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/wizfloorlamp-2_1d69c0c8-bbfe-4cdf-ab3d-aa085bdb7a27.png?v=1769772358"
+  }
+ },
+ {
+  "id": "philips-celestial-5head-floor-lamp",
+  "title": "Philips Celestial 5 head Floor lamp",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Lamps & Lanterns",
+  "tags": [
+   "2025holisale",
+   "decorative_lights_suggested",
+   "FESTIVE2025",
+   "Floor_lamp_living_room_suggested",
+   "junesale",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Bulb Type": "G9",
+     "Color": "Matte black"
+    },
+    "sku": "919215851330",
+    "price": 14561
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_7fefe6e7-35fb-4120-b1c6-33c74cf7bda8.jpg?v=1781171602"
+  }
+ },
+ {
+  "id": "philips-divine-5head-floor-lamp",
+  "title": "Philips Divine 5 head Floor lamp",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Lamps & Lanterns",
+  "tags": [
+   "Floor_lamp_living_room_suggested",
+   "livingroom_lights_suggested",
+   "New-Arrival",
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Bulb Type": "G9",
+     "Color": "French Gold"
+    },
+    "sku": "919215851329",
+    "price": 20925
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Divine-5head-floor-lamp1200x1200_521d7265-215b-4583-b3e2-e51f00c7093d.png?v=1769771960"
+  }
+ },
+ {
+  "id": "philips-bloom-floor-lamp",
+  "title": "Philips Bloom Floor Lamp",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Lamps & Lanterns",
+  "tags": [
+   "decorative_lights_suggested",
+   "Floor_lamp_living_room_suggested",
+   "main_floor Lamps"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851463",
+    "price": 27140
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard6_231979da-8362-40b1-93d0-2c8a00a6275c.png?v=1781171285"
+  }
+ },
+ {
+  "id": "philips-meraki-wall-light",
+  "title": "Philips Meraki Bathroom light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Rectangular",
+     "Wattage": "10W"
+    },
+    "sku": "919215851242",
+    "price": 2242
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "20W"
+    },
+    "sku": "919215851236",
+    "price": 2683
+   },
+   {
+    "options": {
+     "Shape": "Rectangular",
+     "Wattage": "20W"
+    },
+    "sku": "919215851238",
+    "price": 2683
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Meraki-1238.png?v=1769769005"
+  }
+ },
+ {
+  "id": "philips-artizy-wall-light",
+  "title": "Philips Artizy Wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "2025holisale",
+   "employee-offer",
+   "festive_2024",
+   "IndependenceDay_Sale",
+   "junesale",
+   "monsoon_mega_sale",
+   "monsoon_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Vertical",
+     "Color": "Warm White"
+    },
+    "sku": "919215851098",
+    "price": 999
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artizy_582004_Closeup.jpg?v=1769768799"
+  }
+ },
+ {
+  "id": "philips-photon-mirror-light",
+  "title": "Philips Photon Mirror Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "bathroom_lights_suggested",
+   "IndependenceDay_Sale",
+   "junesale",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "32W",
+     "Color": "Cool White"
+    },
+    "sku": "919215850968",
+    "price": 649
+   },
+   {
+    "options": {
+     "Wattage": "32W",
+     "Color": "Warm White"
+    },
+    "sku": "919215850969",
+    "price": 649
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Photon10W__ProductImage__Coloured_1fd3915d-28af-44f4-8f4a-bebfd8c81488.jpg?v=1769768537"
+  }
+ },
+ {
+  "id": "philips-saturn-ceiling-light",
+  "title": "Philips Saturn Ceiling light (IP44 rating)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "2025holisale",
+   "bestsellerQ2",
+   "bestselling_ceiling_lights",
+   "festive_2024",
+   "IndependenceDay_Sale",
+   "junesale",
+   "monsoon_mega_sale",
+   "monsoon_sale",
+   "New-Arrival",
+   "Republic_Day_Sale_2025",
+   "sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Warm White",
+     "Body Color": "Brown"
+    },
+    "sku": "919215851065",
+    "price": 2250
+   },
+   {
+    "options": {
+     "Wattage": "24W",
+     "Color": "Warm White",
+     "Body Color": "Gold"
+    },
+    "sku": "919215851077",
+    "price": 2250
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/919215851077.jpg?v=1786433387"
+  }
+ },
+ {
+  "id": "philips-ultraglow-downlight-tunable-white",
+  "title": "Philips Ultra Glow 3-in-1 LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "2025holisale",
+   "bathroom_lights_suggested",
+   "bestselling_ceiling_lights",
+   "downlights",
+   "independencesale",
+   "junesale",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Square"
+    },
+    "sku": "929003566201",
+    "price": 802
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round"
+    },
+    "sku": "929003566101",
+    "price": 802
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsUltraGlow3-in-1LEDDownlight1.png?v=1769766320"
+  }
+ },
+ {
+  "id": "philips-astra-max-plus-downlight",
+  "title": "Philips Astra Max Plus LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929001951860",
+    "price": 1033
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/WhatsAppImage2025-05-06at10.17.41_0375aec1.jpg?v=1747311866"
+  }
+ },
+ {
+  "id": "philips-star-fit-downlight",
+  "title": "Philips StarFit LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "clearance_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Warm White"
+    },
+    "sku": "929003637501",
+    "price": 78
+   },
+   {
+    "options": {
+     "Light Color": "Natural white"
+    },
+    "sku": "929003637601",
+    "price": 242
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsStarFitLEDDownlight3.png?v=1747311864"
+  }
+ },
+ {
+  "id": "philips-astra-mini-led-cob",
+  "title": "Philips Astra Mini LED COB light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "cob-lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "1W",
+     "Color": "Warm White"
+    },
+    "sku": "929003635601",
+    "price": 189
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/1_2e346e6c-4834-4213-af2c-e7b229de47cf.jpg?v=1769765574"
+  }
+ },
+ {
+  "id": "philips-astraspot-gen-2",
+  "title": "Philips Astra Spot (Generation 2, integrated)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "cob-lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929001957303",
+    "price": 153
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsAstraSpot_Generation2_integrated.png?v=1747311859"
+  }
+ },
+ {
+  "id": "philips-astraspot-tiltable-led-cob",
+  "title": "Philips Astra Spot Tiltable LED COB light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "cob-lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Color": "Natural White"
+    },
+    "sku": "919215850766",
+    "price": 608
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsAstraSpotTiltableLEDCOBlight.png?v=1747311853"
+  }
+ },
+ {
+  "id": "philips-fullglow-3in1-surface-light",
+  "title": "Philips Full Glow 3-in-1 Surface light (Tunable)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "2025holisale",
+   "bestseller",
+   "bestsellerQ2",
+   "bestselling_ceiling_lights",
+   "independencesale",
+   "kitchen_lights",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round"
+    },
+    "sku": "929003682801",
+    "price": 1457
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/FullGlow-3in1-12W-PhotoRoom_0cd130a1-71cc-41fb-8cdd-2170203f29cd.png?v=1769764973"
+  }
+ },
+ {
+  "id": "philips-hexa-rimless-surface-light",
+  "title": "Philips Hexa Rimless LED Surface light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "2025holisale",
+   "bestseller",
+   "bestsellerQ2",
+   "bestselling_ceiling_lights",
+   "festive_2024",
+   "independencesale",
+   "junesale",
+   "kitchen_lights",
+   "monsoon_mega_sale",
+   "Republic_Day_Sale_2025",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003529501",
+    "price": 1888
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsHexaRimlessLEDSurfacelight.png?v=1747311840"
+  }
+ },
+ {
+  "id": "philips-ultraglow-downlight",
+  "title": "Philips Prime Plus Ultra Glow LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "2025holisale",
+   "bathroom_lights_suggested",
+   "bestseller",
+   "bestsellerQ2",
+   "bestselling_ceiling_lights",
+   "downlights",
+   "junesale",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929002627701",
+    "price": 584
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929002627901",
+    "price": 584
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Natural white"
+    },
+    "sku": "929002627801",
+    "price": 584
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Square",
+     "Color": "Natural White"
+    },
+    "sku": "929002628101",
+    "price": 584
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Square",
+     "Color": "Cool Day light"
+    },
+    "sku": "929002628201",
+    "price": 584
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsUltraGlowLEDDownlight_0bf4781a-be5f-422d-b259-622765a83679.png?v=1747311835"
+  }
+ },
+ {
+  "id": "philips-astra-sleek-downlight",
+  "title": "Philips Astra Sleek LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929003654601",
+    "price": 378
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929003654701",
+    "price": 378
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929003655201",
+    "price": 490
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929003655301",
+    "price": 490
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929003655101",
+    "price": 490
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929003655801",
+    "price": 679
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929003655901",
+    "price": 679
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929003655701",
+    "price": 679
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Square",
+     "Color": "Natural White"
+    },
+    "sku": "929003656101",
+    "price": 679
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Astra-Sleek-Natural-White-ATF---Product-with-Packaging_4a3c2aa8-dcfd-43b5-8b84-52e39d5f748b.png?v=1769764154"
+  }
+ },
+ {
+  "id": "philips-fullglow-striker-surface-light",
+  "title": "Philips Full Glow Striker LED Surface light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "bathroom_lights_suggested",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929003726801",
+    "price": 230
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsFullGlowStrikerLEDSurfacelight.png?v=1747311830"
+  }
+ },
+ {
+  "id": "philips-glidespot-led-cob",
+  "title": "Philips GlideSpot LED COB light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Rose Gold",
+     "Color": "Warm White"
+    },
+    "sku": "929003640101",
+    "price": 1180
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Rose Gold",
+     "Color": "Natural White"
+    },
+    "sku": "929003640201",
+    "price": 1180
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Silver",
+     "Color": "Warm White"
+    },
+    "sku": "929003640301",
+    "price": 1180
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Silver",
+     "Color": "Natural White"
+    },
+    "sku": "929003640401",
+    "price": 1180
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Black",
+     "Color": "Warm White"
+    },
+    "sku": "929003640501",
+    "price": 1180
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Black",
+     "Color": "Natural White"
+    },
+    "sku": "929003640601",
+    "price": 1180
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Chrome",
+     "Color": "Natural White"
+    },
+    "sku": "929003640801",
+    "price": 1180
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Chrome",
+     "Color": "Warm White"
+    },
+    "sku": "929003640701",
+    "price": 1180
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Rose Gold",
+     "Color": "Warm White"
+    },
+    "sku": "929003640901",
+    "price": 1569
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Rose Gold",
+     "Color": "Natural White"
+    },
+    "sku": "929003641001",
+    "price": 1569
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Silver",
+     "Color": "Warm White"
+    },
+    "sku": "929003641101",
+    "price": 1569
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Silver",
+     "Color": "Natural White"
+    },
+    "sku": "929003641201",
+    "price": 1569
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Black",
+     "Color": "Natural White"
+    },
+    "sku": "929003641401",
+    "price": 1569
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Chrome",
+     "Color": "Warm White"
+    },
+    "sku": "929003641501",
+    "price": 1569
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929003640701.png?v=1784717025"
+  }
+ },
+ {
+  "id": "philips-aura-styledge-downlight",
+  "title": "Philips Aura Styledge LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "downlights",
+   "independencesale",
+   "junesale",
+   "monsoon_mega_sale",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929001951805",
+    "price": 1404
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929001951807",
+    "price": 1404
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Shape": "Round",
+     "Color": "Natural white"
+    },
+    "sku": "929001951806",
+    "price": 1404
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929001951808",
+    "price": 1707
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929001951809",
+    "price": 1707
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929001951810",
+    "price": 1707
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929001951812",
+    "price": 2010
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929001951813",
+    "price": 2010
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsAuraStyledgeLEDDownlight.png?v=1747311826"
+  }
+ },
+ {
+  "id": "philips-decobright-led-cob",
+  "title": "Philips DecoBright LED COB light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "bestselling_ceiling_lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Black",
+     "Color": "Natural White"
+    },
+    "sku": "929003843501",
+    "price": 944
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Black Rose Gold",
+     "Color": "Warm White"
+    },
+    "sku": "929004580001",
+    "price": 944
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/7W-Deco-Spotlight-Black-CDL-ATF---Product-with-Packaging_fc73b786-ac3d-45eb-857a-32b37813e5db.png?v=1769761747"
+  }
+ },
+ {
+  "id": "philips-low-glare-cob",
+  "title": "Philips Low Glare LED COB light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Body Color": "Rose Gold",
+     "Color": "Natural White"
+    },
+    "sku": "929003594601",
+    "price": 2279
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsLowGlareLEDCOBlight.png?v=1747311818"
+  }
+ },
+ {
+  "id": "philips-thin-trim-cob-deep-recessed",
+  "title": "Philips Deep recessed Thin Trim COB light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "cob-lights",
+   "independencesale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Warm White"
+    },
+    "sku": "929001951966",
+    "price": 1954
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Natural White"
+    },
+    "sku": "929001951967",
+    "price": 1954
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "929001951969",
+    "price": 2606
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "929001951970",
+    "price": 2606
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/ThinTrim-Deeprecessed-PhotoRoom_708b949c-fdfb-4f3d-9da7-4426183400a3.png?v=1769763252"
+  }
+ },
+ {
+  "id": "philips-deco-led-cob",
+  "title": "Philips Deco LED COB light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "cob-lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929002632601",
+    "price": 2024
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsDecoLEDCOBlight-Photoroom_1.jpg?v=1769763148"
+  }
+ },
+ {
+  "id": "philips-surface-cob",
+  "title": "Philips LED Surface COB light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929001951948",
+    "price": 1623
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsLEDSurfaceCOBlight.png?v=1747311810"
+  }
+ },
+ {
+  "id": "philips-thin-trim-deep-led-cob",
+  "title": "Philips Thin Trim Deep (24D) LED COB light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "cob-lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Type": "Non-dimmable",
+     "Color": "Natural White"
+    },
+    "sku": "929003606401",
+    "price": 2319
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Philips_Thin_Trim_Deep_Recessed_Dimmable_7W_Luminaire-CPI_f6bd4d8e-ba76-419e-861e-ed0540859ee4-Photoroom.jpg?v=1769761988"
+  }
+ },
+ {
+  "id": "philips-starfit-3in1-dowlighter",
+  "title": "PHILIPS Starfit 3in1 JB Downlighter",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "bathroom_lights_suggested",
+   "bedroom_lights_suggested",
+   "downlights",
+   "Kitchen_lights_suggested",
+   "New-Arrival",
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003770201",
+    "price": 315
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/1_586e397b-e750-4f29-9743-940ae83553d2.jpg?v=1769760889"
+  }
+ },
+ {
+  "id": "decobright-jb-cob-spotlight",
+  "title": "PHILIPS DecoBright JB Spotlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Light Color": "Warm White",
+     "Reflector Color": "Rose Gold"
+    },
+    "sku": "929003833501",
+    "price": 354
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/decobright_7w_jb_rosegold_spotlight_1_7716d36b-2a38-4d84-a798-7510bda9585f.png?v=1769761607"
+  }
+ },
+ {
+  "id": "philips-surface-synthetic-spotlight",
+  "title": "PHILIPS Surface Synthetic LED Spot",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "bedroom_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003747501",
+    "price": 1446
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/01_78d4a295-b067-49bd-8d57-13139e751b7d.jpg?v=1769760033"
+  }
+ },
+ {
+  "id": "dimmable-ultraglow-led-downlight",
+  "title": "Dimmable UltraGlow LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "downlights",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003814301",
+    "price": 670
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/WhatsAppImage2025-06-23at12.43.44_2ed7c662.jpg?v=1769759828"
+  }
+ },
+ {
+  "id": "philips-wi-fi-dim-deco-led-cob",
+  "title": "Philips Wi-Fi Dimmable Deco LED COB",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "cob-lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929004239001",
+    "price": 2359
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_ca28b68e-bd7d-4e94-8c0f-fe803a55eb7c.png?v=1751437432"
+  }
+ },
+ {
+  "id": "philips-wi-fi-dim-tilt-led-cob",
+  "title": "Philips Wi-Fi Dimmable Tiltable LED COB",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "COB LED",
+  "tags": [
+   "cob-lights",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929004239301",
+    "price": 2213
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_6883902a-c1c0-4bc0-9a00-c07b13df6685.png?v=1769759437"
+  }
+ },
+ {
+  "id": "philips-slim-surface-led-downlight",
+  "title": "Philips Slim Surface LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "downlights",
+   "independencesale",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "12W",
+     "Light Color": "Natural white"
+    },
+    "sku": "929004651101",
+    "price": 773
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "12W",
+     "Light Color": "Warm white"
+    },
+    "sku": "929004651001",
+    "price": 773
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "12W",
+     "Light Color": "Cool day light"
+    },
+    "sku": "929004651201",
+    "price": 773
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "18W",
+     "Light Color": "Cool day light"
+    },
+    "sku": "929004651801",
+    "price": 1086
+   },
+   {
+    "options": {
+     "Shape": "Square",
+     "Wattage": "12W",
+     "Light Color": "Cool day light"
+    },
+    "sku": "929004651501",
+    "price": 773
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929004651501.jpg?v=1784717989"
+  }
+ },
+ {
+  "id": "philips-starfit-next-gen4-led-downlight",
+  "title": "Philips StarFit Next Gen4 LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "downlights",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003473802",
+    "price": 254
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/61h9cudFbKL._SL1500.jpg?v=1769758236"
+  }
+ },
+ {
+  "id": "philips-ap-plus-ultraglow-led-downlight",
+  "title": "Philips AP Plus UltraGlow LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "downlights",
+   "main_ceiling Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Round",
+     "Color": "Cool day light"
+    },
+    "sku": "929003660501",
+    "price": 785
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Color": "Natural white"
+    },
+    "sku": "929003660401",
+    "price": 785
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsUltraGlowLEDDownlight_0bf4781a-be5f-422d-b259-622765a83679.webp?v=1767768196"
+  }
+ },
+ {
+  "id": "philips-flexspot-led-spot-light",
+  "title": "Philips Flex Spot LED Spot light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Body Color": "White",
+     "Color": "Natural White"
+    },
+    "sku": "929003635101",
+    "price": 3439
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Body Color": "White",
+     "Color": "Warm White"
+    },
+    "sku": "929003635001",
+    "price": 3439
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Body Color": "Black",
+     "Color": "Natural White"
+    },
+    "sku": "929003634801",
+    "price": 3439
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Flexspot.png?v=1769410737"
+  }
+ },
+ {
+  "id": "philips-prime-neo-recessed-led-downlight-copy",
+  "title": "Philips Prime Neo Recessed LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "downlights",
+   "independencesale",
+   "junesale",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Shape": "Round",
+     "Color": "Red"
+    },
+    "sku": "929003530201",
+    "price": 171
+   },
+   {
+    "options": {
+     "Wattage": "3W",
+     "Shape": "Round",
+     "Color": "Green"
+    },
+    "sku": "929003530301",
+    "price": 171
+   },
+   {
+    "options": {
+     "Wattage": "3W",
+     "Shape": "Round",
+     "Color": "Blue"
+    },
+    "sku": "929003530401",
+    "price": 171
+   },
+   {
+    "options": {
+     "Wattage": "3W",
+     "Shape": "Round",
+     "Color": "Pink"
+    },
+    "sku": "929003530501",
+    "price": 171
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsPrimeNeoRecessedLEDDownlight.png?v=1747311868"
+  }
+ },
+ {
+  "id": "philips-full-glow-led-surface-light-copy",
+  "title": "Philips Full Glow LED Surface light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "2025holisale",
+   "bestsellerQ2",
+   "bestselling_ceiling_lights",
+   "independencesale",
+   "junesale",
+   "kitchen_lights",
+   "monsoon_mega_sale",
+   "Republic_Day_Sale_2025",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929003092901",
+    "price": 708
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929003638001",
+    "price": 897
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Round",
+     "Color": "Natural white"
+    },
+    "sku": "929003637901",
+    "price": 897
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Square",
+     "Color": "Warm White"
+    },
+    "sku": "929003638101",
+    "price": 897
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929003695701",
+    "price": 1009
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Natural white"
+    },
+    "sku": "929003695601",
+    "price": 1009
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Square",
+     "Color": "Warm White"
+    },
+    "sku": "929003695801",
+    "price": 1009
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929003094101",
+    "price": 1269
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929003094301",
+    "price": 1269
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929003094201",
+    "price": 1269
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Shape": "Square",
+     "Color": "CDL"
+    },
+    "sku": "929003094601",
+    "price": 1269
+   },
+   {
+    "options": {
+     "Wattage": "24W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929003512601",
+    "price": 1699
+   },
+   {
+    "options": {
+     "Wattage": "24W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929003512801",
+    "price": 1699
+   },
+   {
+    "options": {
+     "Wattage": "24W",
+     "Shape": "Round",
+     "Color": "Natural white"
+    },
+    "sku": "929003512701",
+    "price": 1699
+   },
+   {
+    "options": {
+     "Wattage": "24W",
+     "Shape": "Square",
+     "Color": "Cool Day light"
+    },
+    "sku": "929003513101",
+    "price": 1699
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsFullGlowLEDSurfacelight6W.png?v=1747311845"
+  }
+ },
+ {
+  "id": "philips-ultra-glow-led-downlight-copy",
+  "title": "Philips Ultra Glow LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "2025holisale",
+   "bathroom_lights_suggested",
+   "bestseller",
+   "bestsellerQ2",
+   "bestselling_ceiling_lights",
+   "downlights",
+   "junesale",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929002627201",
+    "price": 395
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Shape": "Square",
+     "Color": "Natural White"
+    },
+    "sku": "929002627501",
+    "price": 395
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsUltraGlowLEDDownlight_0bf4781a-be5f-422d-b259-622765a83679.png?v=1747311835"
+  }
+ },
+ {
+  "id": "philips-full-glow-led-metal-surface-light-copy-copy",
+  "title": "Philips Full Glow LED Metal Surface light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "bestselling_ceiling_lights",
+   "independencesale",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929003683801",
+    "price": 1360
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929003683901",
+    "price": 1360
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929003671101",
+    "price": 2028
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929003671201",
+    "price": 2028
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsFullGlowLEDMetalSurfacelight.png?v=1747311819"
+  }
+ },
+ {
+  "id": "philips-dura-slim-led-downlight-copy",
+  "title": "Philips Dura Slim LED Downlight",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [
+   "2025holisale",
+   "bestsellerQ2",
+   "bestselling_ceiling_lights",
+   "downlights",
+   "independencesale",
+   "junesale",
+   "monsoon_mega_sale",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929001951814",
+    "price": 859
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929001951815",
+    "price": 859
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929001951816",
+    "price": 859
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929001951820",
+    "price": 1079
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929001951821",
+    "price": 1079
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929001951822",
+    "price": 1079
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Square",
+     "Color": "Natural White"
+    },
+    "sku": "929001951824",
+    "price": 1079
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Warm White"
+    },
+    "sku": "929001951826",
+    "price": 1379
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929001951827",
+    "price": 1379
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929001951828",
+    "price": 1379
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Shape": "Round",
+     "Color": "Natural White"
+    },
+    "sku": "929001951839",
+    "price": 2179
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Shape": "Round",
+     "Color": "Cool Day light"
+    },
+    "sku": "929001951840",
+    "price": 2179
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/929001951828.png?v=1784717937"
+  }
+ },
+ {
+  "id": "philips-tetris-wall-washer",
+  "title": "Philips Tetris Outdoor Wall washer",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "festive_2024",
+   "new_arrivals",
+   "outdoor_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Warm White"
+    },
+    "sku": "919215851297",
+    "price": 3847
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/tetris-walllight.png?v=1769833984"
+  }
+ },
+ {
+  "id": "philips-gladius-chandelier",
+  "title": "Philips Gladius ceiling Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "crystal-chandeliers",
+   "main_chandeliers"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851018",
+    "price": 48443
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsGladiusceilingChandelier.jpg?v=1770183452"
+  }
+ },
+ {
+  "id": "philips-lucidus-pendant-light",
+  "title": "Philips Lucidus Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "2025holisale",
+   "bestsellerQ2",
+   "bulb_type_E27",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "festive_2024",
+   "in_stock",
+   "junesale",
+   "main_chandeliers",
+   "monsoon_mega_sale",
+   "new_arrivals",
+   "Republic_Day_Sale_2025",
+   "sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Down"
+    },
+    "sku": "919215851209",
+    "price": 11383
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/41Joc2EHmpL.jpg?v=1769685584"
+  }
+ },
+ {
+  "id": "philips-striker-cabinet-light",
+  "title": "Philips Striker surface light (ideal for Cabinets, wardrobes)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Ceiling Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929001951609",
+    "price": 195
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Striker-Surface.png?v=1769765229"
+  }
+ },
+ {
+  "id": "philips-tesni-rechargeable-emergency-light",
+  "title": "Philips Tesni Rechargeable Emergency light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Portable Lighting",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Cool White",
+     "Body Color": "Red Copper"
+    },
+    "sku": "919215850993",
+    "price": 992
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/71Mm8z_C_aL._SL1500_-Photoroom.jpg?v=1769771293"
+  }
+ },
+ {
+  "id": "philips-celestial-chandelier",
+  "title": "Philips Celestial 8 head Chandelier (Matte Black)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_G9",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "festive_2024",
+   "in_stock",
+   "junesale",
+   "main_chandeliers",
+   "modern-chandeliers",
+   "monsoon_mega_sale",
+   "New-Arrival",
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851256",
+    "price": 20855
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsCelestial8headChandelier_MatteBlack.jpg?v=1770183658"
+  }
+ },
+ {
+  "id": "philips-divine-9-head-chandelier-french-gold",
+  "title": "Philips Divine 9 head chandelier (French Gold)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_G9",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "festive_2024",
+   "in_stock",
+   "junesale",
+   "main_chandeliers",
+   "modern-chandeliers",
+   "monsoon_mega_sale",
+   "New-Arrival",
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "9 Head",
+     "Color": "Black & French Gold"
+    },
+    "sku": "919215851254",
+    "price": 31868
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsDivine9headchandelier_FrenchGold.jpg?v=1770183701"
+  }
+ },
+ {
+  "id": "philips-celestial-12-head-chandelier-french-gold",
+  "title": "Philips Celestial 12 head Chandelier (French Gold)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_G9",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "festive_2024",
+   "in_stock",
+   "main_chandeliers",
+   "modern-chandeliers",
+   "New-Arrival",
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851255",
+    "price": 35959
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Celestial-12head-1_1.png?v=1769684710"
+  }
+ },
+ {
+  "id": "philips-stepglow-steplight",
+  "title": "Philips StepGlow Step light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "IndependenceDay_Sale",
+   "New-Arrival",
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "2W",
+     "Color": "Warm White"
+    },
+    "sku": "919215851047",
+    "price": 600
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/1_1e87f5e1-d080-474f-8649-43b4121d22c9.jpg?v=1769836712"
+  }
+ },
+ {
+  "id": "philips-fillip-steplight",
+  "title": "Philips Fillip Sensor Step light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "2W",
+     "Body Color": "Grey",
+     "Color": "Warm White"
+    },
+    "sku": "919215851245",
+    "price": 1306
+   },
+   {
+    "options": {
+     "Wattage": "2W",
+     "Body Color": "White",
+     "Color": "Warm White"
+    },
+    "sku": "919215851246",
+    "price": 1306
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/800002PhilipsFILLIPSensorStep2WWhite-MAP-Photoroom.jpg?v=1769836659"
+  }
+ },
+ {
+  "id": "philips-lucent-wall-washer",
+  "title": "Philips Lucent Wall Washer",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "2025holisale",
+   "bestsellerQ2",
+   "festive_2024",
+   "junesale",
+   "monsoon_mega_sale",
+   "new_arrivals",
+   "outdoor_lights_suggested"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Warm White",
+     "Type": "2-way Round"
+    },
+    "sku": "919215851303",
+    "price": 1548
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Warm White",
+     "Type": "2-way Vertical"
+    },
+    "sku": "919215851298",
+    "price": 1480
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Warm White",
+     "Type": "2-way"
+    },
+    "sku": "919215851319",
+    "price": 1404
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Lucent_5W_wall_washer_Product_with_Packaging_f29ec2c0-ca43-4628-b3a7-d2b0be626577.png?v=1769834292"
+  }
+ },
+ {
+  "id": "philips-smart-wifi-neo-led-downlight",
+  "title": "Philips Wiz Neo Smart WiFi LED Downlight (Wiz Connected)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "bathroom_lights_suggested",
+   "bedroom_lights_suggested",
+   "Collection_Smart Downlight",
+   "Color_Tunable White",
+   "downlights",
+   "IndependenceDay_Sale",
+   "junesale",
+   "Kitchen_lights_suggested",
+   "monsoon_mega_sale",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Tunable White"
+    },
+    "sku": "929003824301",
+    "price": 1740
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Shape": "Round",
+     "Color": "Tunable White"
+    },
+    "sku": "929003824501",
+    "price": 1990
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/wiz_neo_15w_dl-Photoroom.jpg?v=1769706293"
+  }
+ },
+ {
+  "id": "philips-wiz-surface-cob-spot-light",
+  "title": "PHILIPS Wiz Surface COB Spotlight (Wiz Connected)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "cob-lights",
+   "Kitchen_lights_suggested",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003771101",
+    "price": 5449
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsSmartWi-FiSurfaceCOBSpotlight-Photoroom.png?v=1769705974"
+  }
+ },
+ {
+  "id": "philips-wiz-rimless-surface-downlighter",
+  "title": "PHILIPS Wiz Rimless Surface Downlighter (Wiz Connected)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "Collection_Smart Downlight",
+   "Color_Tunable White",
+   "junesale",
+   "kitchen_lights",
+   "Kitchen_lights_suggested",
+   "monsoon_mega_sale",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch",
+   "Republic_Day_Sale_2025",
+   "surface-lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "15W",
+     "Light Color": "Tunable White"
+    },
+    "sku": "929003824201",
+    "price": 2290
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/WiZSensorSurface-15W___3Drender_245a0c58-161a-4a82-9fe6-e5754d28a779.jpg?v=1769705493"
+  }
+ },
+ {
+  "id": "philips-celestial-7h-suspended-chandelier",
+  "title": "Philips Celestial 7-head Suspended Chandelier (Black)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "2025holisale",
+   "chandelier_bulb_type_G9",
+   "chandelier_living_room",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_dining room",
+   "decorative_lights_suggested",
+   "festive_2024",
+   "in_stock",
+   "livingroom_lights_suggested",
+   "modern-chandeliers",
+   "New-Arrival",
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Bulb Type": "G9",
+     "Color": "Matte black"
+    },
+    "sku": "919215851346",
+    "price": 18400
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsCelestial7-headSuspendedChandelier_Black_f4d91bd6-32ba-43e2-b267-2dc881040089.jpg?v=1770183759"
+  }
+ },
+ {
+  "id": "philips-divine-6head-chandelier",
+  "title": "Philips Divine 6-head Chandelier (French Gold)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_G9",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "festive_2024",
+   "in_stock",
+   "modern-chandeliers",
+   "New-Arrival",
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Bulb Type": "G9",
+     "Color": "French Gold"
+    },
+    "sku": "919215851338",
+    "price": 25504
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsDivine6-headChandelier_FrenchGold_77da264e-1a14-4bcc-aa3e-1abcd915976c.jpg?v=1770183815"
+  }
+ },
+ {
+  "id": "philips-divine-7head-ceiling-chandelier",
+  "title": "Philips Divine 7-head ceiling Chandelier (French Gold)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "festive_2024",
+   "modern-chandeliers",
+   "New-Arrival",
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Bulb Type": "G9",
+     "Color": "French Gold"
+    },
+    "sku": "919215851335",
+    "price": 22758
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsDivine7-headceilingChandelier_FrenchGold_0ef7c1a6-4d8c-4de4-ae7e-2bf337265edb.jpg?v=1770183849"
+  }
+ },
+ {
+  "id": "philips-trek-emergency-light",
+  "title": "Philips Trek Rechargeable Emergency light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Portable Lighting",
+  "tags": [
+   "emergency_lights_suggested",
+   "festive_2024"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Body Color": "Black & White"
+    },
+    "sku": "919215851407",
+    "price": 1385
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/TREKREL-3DRenderofPackaging-Photoroom_8132cd3e-39b0-4673-b0a5-e4d754de9d02.png?v=1769770622"
+  }
+ },
+ {
+  "id": "philips-hiker-emergency-light",
+  "title": "Philips Hiker Rechargeable Emergency light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Portable Lighting",
+  "tags": [
+   "emergency_lights_suggested",
+   "festive_2024",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851411",
+    "price": 1793
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/HIKERREL-3DRenderPackaging-Photoroom_aa5041be-9412-4030-a20f-339e0838f53c.png?v=1769770265"
+  }
+ },
+ {
+  "id": "philips-parasol-chandelier",
+  "title": "Philips Parasol Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_G9",
+   "chandelier_living_room",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "decorative_lights_suggested",
+   "dining_room_lights_suggested",
+   "in_stock",
+   "kitchen_lights",
+   "Kitchen_lights_suggested",
+   "livingroom_lights_suggested",
+   "main_chandeliers",
+   "modern-chandeliers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Shiny Gold with Cognac Glass"
+    },
+    "sku": "919215851448",
+    "price": 50433
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard2_ab321e0d-66d9-4843-9764-7c146fe52d0d.jpg?v=1769684104"
+  }
+ },
+ {
+  "id": "philips-burst-chandelier",
+  "title": "Philips Burst Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_G9",
+   "chandelier_living_room",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "decorative_lights_suggested",
+   "in_stock",
+   "main_chandeliers",
+   "modern-chandeliers",
+   "Newly added"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Body Color": "Brass-colored body with clear glass",
+     "Diameter": "650"
+    },
+    "sku": "919215851422",
+    "price": 39459
+   },
+   {
+    "options": {
+     "Body Color": "Brass-colored body with clear glass",
+     "Diameter": "800"
+    },
+    "sku": "919215851423",
+    "price": 56160
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsBurstChandelier.jpg?v=1770184269"
+  }
+ },
+ {
+  "id": "philips-soul-chandelier",
+  "title": "Philips Soul Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_E14",
+   "chandelier_living_room",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "decorative_lights_suggested",
+   "in_stock",
+   "main_chandeliers",
+   "modern-chandeliers"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Diameter": "450"
+    },
+    "sku": "919215851424",
+    "price": 23702
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard3_6c38b16f-7925-4c60-9c6b-59117c3feae7.jpg?v=1769683139"
+  }
+ },
+ {
+  "id": "philips-wi-fi-gradient-floor-lamp",
+  "title": "Philips Wi-Fi Gradient Floor Lamp",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "bestsellerQ2",
+   "Collection_Smart",
+   "LIGHTTHEATRE",
+   "monsoon_mega_sale",
+   "New-Arrival",
+   "new_arrivals",
+   "New_launch",
+   "Newly added"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Color": "Full Color"
+    },
+    "sku": "915006601101",
+    "price": 9850
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/1_24073960-a4dc-4893-8423-18f82d2091b1.png?v=1769687517"
+  }
+ },
+ {
+  "id": "philips-ceramique-pendant-light",
+  "title": "Philips Ceramique Pendant Light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_G9",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "decorative_lights_suggested",
+   "main_chandeliers",
+   "modern-chandeliers"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851458",
+    "price": 144361
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/2_97edc312-636b-4cb2-b1c8-431493f22d89.png?v=1769682973"
+  }
+ },
+ {
+  "id": "philips-gaze-expresso-3-head-suspended-chandelier",
+  "title": "Philips Gaze Expresso 3 Head Suspended Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_dining room",
+   "decorative_lights_suggested",
+   "main_chandeliers",
+   "main_pendant Lights",
+   "pendant_lights_livingroom_suggested"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851466",
+    "price": 27887
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/2_80ac33f9-c331-451f-8cdc-a7499bf25502.png?v=1769678510"
+  }
+ },
+ {
+  "id": "philips-allweather-led-surface-light",
+  "title": "Philips All Weather Surface light (IP65)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Cool Day light"
+    },
+    "sku": "929001951610",
+    "price": 2339
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/61HQTq19qFL._SX679_a96a2cf0-0622-41d6-a000-d9fbb84e83f7.jpg?v=1769410716"
+  }
+ },
+ {
+  "id": "philips-motion-sensing-lamp",
+  "title": "Philips Motion Sensing Bulb",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "Collection_Motion Sensor",
+   "Collection_Smart Bulb",
+   "main_bulbs"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "9W"
+    },
+    "sku": "929003546414",
+    "price": 279
+   },
+   {
+    "options": {
+     "Wattage": "14W"
+    },
+    "sku": "929003816801",
+    "price": 979
+   },
+   {
+    "options": {
+     "Wattage": "10W"
+    },
+    "sku": "915006307501",
+    "price": 250
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsMotionSensingBulb.png?v=1769679029"
+  }
+ },
+ {
+  "id": "philips-smart-wi-fi-led-bulbs-decorative-series",
+  "title": "Philips Smart Wi-Fi Bulb",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "Collection_Smart Bulb"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "929003017621",
+    "price": 1233
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/candlebulb.png?v=1752044324"
+  }
+ },
+ {
+  "id": "philips-wi-fi-hdmi-sync-box-tv-backlight-strip",
+  "title": "Philips Wi-Fi HDMI Sync Box + TV Backlight Strip",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "bestsellerQ2",
+   "Collection_Smart",
+   "Collection_Smart light strip",
+   "LIGHTTHEATRE",
+   "New-Arrival",
+   "New_launch",
+   "offer-smartbulb"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Light Strip Size for TV": "55\"-65\""
+    },
+    "sku": "915006600801",
+    "price": 13990
+   },
+   {
+    "options": {
+     "Light Strip Size for TV": "75\"-85\""
+    },
+    "sku": "915006600901",
+    "price": 14490
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/0_d1e6e0ae-93a3-4686-97a5-d2875b15480e.png?v=1769688424"
+  }
+ },
+ {
+  "id": "philips-smart-wi-fi-mirror",
+  "title": "Philips Smart Wi-Fi Mirror",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "independencesale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Type": "Round",
+     "Color": "16 Million colors"
+    },
+    "sku": "929003659101",
+    "price": 26645
+   },
+   {
+    "options": {
+     "Type": "Square",
+     "Color": "Dual light mode"
+    },
+    "sku": "929003659201",
+    "price": 35530
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_7d91e79c-93a3-4799-86c5-fbba3f30efaa.png?v=1769705117"
+  }
+ },
+ {
+  "id": "philips-smart-wifi-led-downlight",
+  "title": "Philips Smart WiFi LED Downlight (Wiz Connected)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "bedroom_lights_suggested",
+   "downlights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Shape": "Round",
+     "Color": "Full Color"
+    },
+    "sku": "929003552801",
+    "price": 3990
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/WizDL-1-PhotoRoom.png?v=1747311650"
+  }
+ },
+ {
+  "id": "philips-smart-wifi-deco-led-cob-light-wiz-connected",
+  "title": "Philips Smart WiFi Deco LED COB light (Wiz Connected)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "cob-lights",
+   "livingroom_lights_suggested",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Rose Gold",
+     "Light Color": "Tunable White"
+    },
+    "sku": "929003612701",
+    "price": 4590
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Body Color": "Silver",
+     "Light Color": "Tunable White"
+    },
+    "sku": "929003612801",
+    "price": 4590
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Body Color": "Rose Gold",
+     "Light Color": "Full Colour"
+    },
+    "sku": "929004581701",
+    "price": 4890
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsSmartWiFiDecoLEDCOBlight_WizConnected.png?v=1747311541"
+  }
+ },
+ {
+  "id": "philips-bedside-wall-light",
+  "title": "Philips Bedside wall light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Lamps & Lanterns",
+  "tags": [
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "2W",
+     "Color": "Grey"
+    },
+    "sku": "919215850141",
+    "price": 1479
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/30975.png?v=1747311599"
+  }
+ },
+ {
+  "id": "philips-divine-12-head-chandelier-french-gold",
+  "title": "Philips Divine 12 head chandelier (French Gold)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "festive_2024",
+   "main_chandeliers",
+   "modern-chandeliers",
+   "new_arrivals"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851253",
+    "price": 35046
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsDivine12headchandelier_FrenchGold.jpg?v=1747311630"
+  }
+ },
+ {
+  "id": "philips-smart-wifi-aura-led-downlight",
+  "title": "Philips Smart WiFi Aura LED Downlight (Wiz Connected)",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Smart Lighting",
+  "tags": [
+   "bathroom_lights_suggested",
+   "bedroom_lights_suggested",
+   "downlights",
+   "Kitchen_lights_suggested",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Tunable White"
+    },
+    "sku": "929003667501",
+    "price": 2950
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Tunable White"
+    },
+    "sku": "929003667601",
+    "price": 3235
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsSmartWiFiAuraLEDDownlight_WizConnected.png?v=1747311718"
+  }
+ },
+ {
+  "id": "philips-cosmos-desk-light",
+  "title": "Philips Cosmos Desk light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Lamps & Lanterns",
+  "tags": [
+   "festive_2024",
+   "IndependenceDay_Sale",
+   "main_table Lamps",
+   "Republic_Day_Sale_2025"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Cool White",
+     "Body Color": "White"
+    },
+    "sku": "919215850920",
+    "price": 1584
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Artboard1_c0fa357a-c9bb-480f-94ed-0a2df251b37c.jpg?v=1781170737"
+  }
+ },
+ {
+  "id": "philips-orbit-desk-light",
+  "title": "Philips Orbit Desk light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Lamps & Lanterns",
+  "tags": [
+   "festive_2024",
+   "IndependenceDay_Sale",
+   "main_table Lamps"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Tunable White",
+     "Body Color": "White"
+    },
+    "sku": "919215850922",
+    "price": 1424
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/Orbit_desk_light.png?v=1747311743"
+  }
+ },
+ {
+  "id": "philips-bedside-light",
+  "title": "Philips Bedside light",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Lamps & Lanterns",
+  "tags": [],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Body Color": "Black",
+     "Color": "Warm White"
+    },
+    "sku": "919215850324",
+    "price": 1833
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/BlackBedside_48042_Closeup.jpg?v=1747311761"
+  }
+ },
+ {
+  "id": "philips-gladius-pendant-light",
+  "title": "Philips Gladius suspended Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_E14",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_bedroom",
+   "chandelier_room_type_dining room",
+   "chandelier_room_type_living Room",
+   "crystal-chandeliers",
+   "in_stock",
+   "junesale",
+   "main_chandeliers",
+   "monsoon_mega_sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215851019",
+    "price": 49749
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsGladiussuspendedChandelier.jpg?v=1747311896"
+  }
+ },
+ {
+  "id": "philips-caesar-pendant-light",
+  "title": "Philips Caesar suspended Chandelier",
+  "vendor": "Philips",
+  "category": "Lighting",
+  "subcategory": "Chandeliers",
+  "tags": [
+   "chandelier_bulb_type_G9",
+   "chandelier_mounting_style_suspended",
+   "chandelier_room_type_living Room",
+   "crystal-chandeliers",
+   "in_stock",
+   "main_chandeliers"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": "919215850831",
+    "price": 32623
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0563/0532/0126/files/PhilipsCaesarsuspendedChandelier_a8ec6006-4f2f-4806-a4ef-05ad3eb8cf97.jpg?v=1747311899"
+  }
+ }
+]

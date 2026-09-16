@@ -1,0 +1,5183 @@
+[
+ {
+  "id": "dot-led-mini-spotlight",
+  "title": "Dot LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "1W",
+     "Size": "38x23 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-b43d255.png/:/cr=t:22.27%25,l:0%25,w:100%25,h:55.46%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-b43d255.png/:/cr=t:22.27%25,l:0%25,w:100%25,h:55.46%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "1W",
+    "value": "Size 38x23 mm · Cut Size 31 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "crystal-led-mini-spotlight",
+  "title": "Crystal LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "1W",
+     "Size": "33x23 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "45x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d82a941.png/:/cr=t:21.58%25,l:0%25,w:100%25,h:56.84%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d82a941.png/:/cr=t:21.58%25,l:0%25,w:100%25,h:56.84%25/rs=w:1200,h:600,cg:true",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-76a767b.png/:/cr=t:28.24%25,l:2.83%25,w:94.34%25,h:46.99%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "1W",
+    "value": "Size 33x23 mm · Cut Size 25 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink"
+   },
+   {
+    "label": "3W",
+    "value": "Size 45x35 mm · Cut Size 35 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "eagon-led-mini-spotlight",
+  "title": "Eagon LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "45x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/untitled.140.png/:/cr=t:24.03%25,l:17.53%25,w:64.94%25,h:51.95%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/untitled.140.png/:/cr=t:24.03%25,l:17.53%25,w:64.94%25,h:51.95%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 45x35 mm · Cut Size 35 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "crystal-led-mini-spotlight-adujstable",
+  "title": "Crystal LED Mini Spotlight (Adjustable)",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "1W",
+     "Size": "45x28 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ff92f9d.png/:/cr=t:22.11%25,l:0%25,w:100%25,h:55.77%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ff92f9d.png/:/cr=t:22.11%25,l:0%25,w:100%25,h:55.77%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "1W",
+    "value": "Size 45x28 mm · Cut Size 35 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "karizma-led-mini-spotlight",
+  "title": "Karizma LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "45x28 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d44d5b6.png/:/cr=t:24.4%25,l:0%25,w:100%25,h:58.29%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d44d5b6.png/:/cr=t:24.4%25,l:0%25,w:100%25,h:58.29%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 45x28 mm · Cut Size 38 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "karizma-deep-led-mini-spotlight",
+  "title": "Karizma Deep LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "45x28 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-4123e37.png/:/cr=t:28.19%25,l:7.63%25,w:84.75%25,h:43.89%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-4123e37.png/:/cr=t:28.19%25,l:7.63%25,w:84.75%25,h:43.89%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 45x28 mm · Cut Size 38 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "jelly-acrylic-led-mini-spotlight",
+  "title": "Jelly Acrylic LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "45x28 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d95372d.png/:/cr=t:26.14%25,l:6.13%25,w:89.29%25,h:47.7%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d95372d.png/:/cr=t:26.14%25,l:6.13%25,w:89.29%25,h:47.7%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 45x28 mm · Cut Size 35 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "RGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "jelly-crystal-led-mini-spotlight",
+  "title": "Jelly Crystal LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "45x28 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-88cb246.png/:/cr=t:25.67%25,l:13.24%25,w:73.53%25,h:48.66%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-88cb246.png/:/cr=t:25.67%25,l:13.24%25,w:73.53%25,h:48.66%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 45x28 mm · Cut Size 35 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "RGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "craxa-led-mini-spotlight",
+  "title": "Craxa LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "1W",
+     "Size": "33x23 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "45x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-64c45d8.png/:/cr=t:21.58%25,l:0%25,w:100%25,h:56.84%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-64c45d8.png/:/cr=t:21.58%25,l:0%25,w:100%25,h:56.84%25/rs=w:1200,h:600,cg:true",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-76a767b.png/:/cr=t:27.51%25,l:5.36%25,w:89.29%25,h:44.47%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "1W",
+    "value": "Size 33x23 mm · Cut Size 25 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink"
+   },
+   {
+    "label": "3W",
+    "value": "Size 45x35 mm · Cut Size 35 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "bloom-led-mini-spotlight",
+  "title": "Bloom LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "33x23 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-dbbe3f6.png/:/cr=t:14.21%25,l:18.04%25,w:53.46%25,h:76.92%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-dbbe3f6.png/:/cr=t:14.21%25,l:18.04%25,w:53.46%25,h:76.92%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 33x23 mm · Cut Size 25 mm · Std.Pkg 200"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "aura-led-deep-downlight",
+  "title": "Aura LED Deep Downlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "33x23 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/AURA.png/:/cr=t:4.12%25,l:0%25,w:100%25,h:91.75%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/AURA.png/:/cr=t:4.12%25,l:0%25,w:100%25,h:91.75%25/rs=w:388,h:291.72932330827064,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 33x23 mm · Cut Size 25 mm · Std.Pkg 100"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "m-one-led-mini-spotlight",
+  "title": "M-ONE LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "1W",
+     "Size": "30x30 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "38x30 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-1b94092.png/:/cr=t:14.84%25,l:0%25,w:100%25,h:60.15%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-1b94092.png/:/cr=t:14.84%25,l:0%25,w:100%25,h:60.15%25/rs=w:1200,h:600,cg:true",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-2aec6bc.png/:/cr=t:20.21%25,l:0%25,w:100%25,h:54.51%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "1W",
+    "value": "Size 30x30 mm · Cut Size 25 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "3W",
+    "value": "Size 38x30 mm · Cut Size 35 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "ferxo-led-mini-spotlight",
+  "title": "Ferxo LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "1W",
+     "Size": "30x30 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "38x30 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-1b94092.png/:/cr=t:14.84%25,l:0%25,w:100%25,h:60.15%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-1b94092.png/:/cr=t:14.84%25,l:0%25,w:100%25,h:60.15%25/rs=w:1200,h:600,cg:true",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-190af6d.png/:/cr=t:22.58%25,l:0%25,w:100%25,h:54.51%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "1W",
+    "value": "Size 30x30 mm · Cut Size 25 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "3W",
+    "value": "Size 38x30 mm · Cut Size 35 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "moon-led-mini-spotlight",
+  "title": "Moon LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "70x45 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Size": "110x60 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-9fb5a2c.png/:/cr=t:30.68%25,l:0%25,w:100%25,h:39.43%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-9fb5a2c.png/:/cr=t:30.68%25,l:0%25,w:100%25,h:39.43%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 70x45 mm · Cut Size 52 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink,3in1"
+   },
+   {
+    "label": "7W",
+    "value": "Size 110x60 mm · Cut Size 70 mm · Std.Pkg 100"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "era-led-mini-spotlight",
+  "title": "Era LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "75x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "90x45 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-b47699a.png/:/cr=t:30.58%25,l:0%25,w:100%25,h:42.54%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-b47699a.png/:/cr=t:30.58%25,l:0%25,w:100%25,h:42.54%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 75x35 mm · Cut Size 52 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "6W",
+    "value": "Size 90x45 mm · Cut Size 75 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink,3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "crystal-led-spotlight",
+  "title": "Crystal LED Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "70x50 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Size": "85x56 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "16W",
+     "Size": "110x75 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "24W",
+     "Size": "140x90 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "85x56 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Size": "160x110 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/14.png/:/cr=t:18.47%25,l:0%25,w:100%25,h:63.05%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/14.png/:/cr=t:18.47%25,l:0%25,w:100%25,h:63.05%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 70x50 mm · Cut Size 55 mm · Std.Pkg 100"
+   },
+   {
+    "label": "9W",
+    "value": "Size 85x56 mm · Cut Size 75 mm · Std.Pkg 50"
+   },
+   {
+    "label": "16W",
+    "value": "Size 110x75 mm · Cut Size 100 mm · Std.Pkg 10"
+   },
+   {
+    "label": "Colours",
+    "value": "3W -"
+   },
+   {
+    "label": "24W",
+    "value": "Size 140x90 mm · Cut Size 130 mm · Std.Pkg 10"
+   },
+   {
+    "label": "6W",
+    "value": "Size 85x56 mm · Cut Size 75 mm · Std.Pkg 50"
+   },
+   {
+    "label": "30W",
+    "value": "Size 160x110 mm · Cut Size 150 mm · Std.Pkg 10"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "verve-led-spotlight",
+  "title": "Verve LED Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Size": "68x56 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Size": "100x105 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "85x80 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-911ae70.png/:/cr=t:21.75%25,l:0%25,w:100%25,h:49.04%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-911ae70.png/:/cr=t:21.75%25,l:0%25,w:100%25,h:49.04%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "7W",
+    "value": "Size 68x56 mm · Cut Size 63 mm · Std.Pkg 50"
+   },
+   {
+    "label": "18W",
+    "value": "Size 100x105 mm · Cut Size 80 mm · Std.Pkg 20"
+   },
+   {
+    "label": "12W",
+    "value": "Size 85x80 mm · Cut Size 75 mm · Std.Pkg 40"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K, 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "circle-led-spotlight",
+  "title": "Circle LED Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Size": "65x53 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Size": "95x95 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "80x75 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ab71554.png/:/cr=t:28.08%25,l:7.63%25,w:84.75%25,h:42.37%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ab71554.png/:/cr=t:28.08%25,l:7.63%25,w:84.75%25,h:42.37%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "7W",
+    "value": "Size 65x53 mm · Cut Size 63 mm · Std.Pkg 50"
+   },
+   {
+    "label": "18W",
+    "value": "Size 95x95 mm · Cut Size 85 mm · Std.Pkg 30"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K, 3in1"
+   },
+   {
+    "label": "12W",
+    "value": "Size 80x75 mm · Cut Size 75 mm · Std.Pkg 40"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "i-power-led-spotlight",
+  "title": "I-POWER LED Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "65x50 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Size": "100x55 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "16W",
+     "Size": "130x65 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "80x55 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d1bfd78.png/:/cr=t:0%25,l:0.78%25,w:99.22%25,h:100%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d1bfd78.png/:/cr=t:0%25,l:0.78%25,w:99.22%25,h:100%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 65x50 mm · Cut Size 55 mm · Std.Pkg 100"
+   },
+   {
+    "label": "9W",
+    "value": "Size 100x55 mm · Cut Size 85 mm · Std.Pkg 50"
+   },
+   {
+    "label": "16W",
+    "value": "Size 130x65 mm · Cut Size 115 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink, Amber"
+   },
+   {
+    "label": "6W",
+    "value": "Size 80x55 mm · Cut Size 70 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "nexa-led-mini-spotlight",
+  "title": "Nexa LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "70x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-2c0d97c.png/:/cr=t:18.63%25,l:7.63%25,w:84.75%25,h:62.74%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-2c0d97c.png/:/cr=t:18.63%25,l:7.63%25,w:84.75%25,h:62.74%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 70x35 mm · Cut Size 52 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "i-ball-led-mini-spotlight",
+  "title": "I Ball LED Mini Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "67x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-dd41be7.png/:/cr=t:22.5%25,l:17.53%25,w:64.94%25,h:55.01%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-dd41be7.png/:/cr=t:22.5%25,l:17.53%25,w:64.94%25,h:55.01%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 67x35 mm · Cut Size 45 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "jet-i-surface-mounted",
+  "title": "JET-I Surface Mounted",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "34x60 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Size": "55x75 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Size": "95x110 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "73x90 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-5fd5467.png/:/cr=t:6.54%25,l:26.61%25,w:61.23%25,h:67.57%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-5fd5467.png/:/cr=t:6.54%25,l:26.61%25,w:61.23%25,h:67.57%25/rs=w:1200,h:600,cg:true,m",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-b419a84.png/:/cr=t:17.65%25,l:14.79%25,w:70.42%25,h:64.71%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 34x60 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "5W",
+    "value": "Size 55x75 mm · Std.Pkg 50"
+   },
+   {
+    "label": "20W",
+    "value": "Size 95x110 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "12W",
+    "value": "Size 73x90 mm · Std.Pkg 40"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "rangoli-led-spotlight",
+  "title": "Rangoli LED Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "75x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ae19395.png/:/cr=t:30.72%25,l:9.68%25,w:80.65%25,h:38.56%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ae19395.png/:/cr=t:30.72%25,l:9.68%25,w:80.65%25,h:38.56%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 75x35 mm · Cut Size 52 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow , 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "colours-led-spotlight",
+  "title": "Colours LED Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Size": "75x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ae19395.png/:/cr=t:30.72%25,l:9.68%25,w:80.65%25,h:38.56%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ae19395.png/:/cr=t:30.72%25,l:9.68%25,w:80.65%25,h:38.56%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "7W",
+    "value": "Size 75x35 mm · Cut Size 52 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow , 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "eva-led-spotlight",
+  "title": "Eva LED Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "10W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/eva.png/:/cr=t:9.68%25,l:25.17%25,w:66.82%25,h:80.65%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/eva.png/:/cr=t:9.68%25,l:25.17%25,w:66.82%25,h:80.65%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Std.Pkg 100"
+   },
+   {
+    "label": "10W",
+    "value": "Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "6W",
+    "value": "Std.Pkg 100"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "quick-led-junction-light",
+  "title": "Quick LED Junction Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "8X8W",
+     "Size": "111x45 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/quick.png/:/cr=t:13.63%25,l:23.55%25,w:63.73%25,h:76.92%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/quick.png/:/cr=t:13.63%25,l:23.55%25,w:63.73%25,h:76.92%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Junction Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "8X8W",
+    "value": "Size 111x45 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K/PGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "loop-led-downlight",
+  "title": "Loop LED Downlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3X2W",
+     "Size": "111x45 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "5X2W",
+     "Size": "164x45 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-08ae789.png/:/cr=t:13.63%25,l:35.12%25,w:53.32%25,h:60.24%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-08ae789.png/:/cr=t:13.63%25,l:35.12%25,w:53.32%25,h:60.24%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Downlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3X2W",
+    "value": "Size 111x45 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "5X2W",
+    "value": "Size 164x45 mm · Std.Pkg 50"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "super-saver-led-panel-light",
+  "title": "Super Saver LED Panel Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "85x20 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "174x20 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Size": "225x20 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Size": "300x20 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "120x20 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ea24097.png/:/cr=t:24.73%25,l:14.79%25,w:70.42%25,h:50.53%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ea24097.png/:/cr=t:24.73%25,l:14.79%25,w:70.42%25,h:50.53%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "rawSubcategory": "Premium LED Panel Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "4W",
+    "value": "Size 85x20 mm · Cut Size 75 mm · Std.Pkg 100"
+   },
+   {
+    "label": "15W",
+    "value": "Size 174x20 mm · Cut Size 150 mm · Std.Pkg 40"
+   },
+   {
+    "label": "22W",
+    "value": "Size 225x20 mm · Cut Size 200 mm · Std.Pkg 30"
+   },
+   {
+    "label": "30W",
+    "value": "Size 300x20 mm · Cut Size 270 mm · Std.Pkg 10"
+   },
+   {
+    "label": "8W",
+    "value": "Size 120x20 mm · Cut Size 75 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K, 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "prime-series-led-panel-light",
+  "title": "Prime Series LED Panel Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "85x20 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "174x20 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Size": "225x20 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Size": "300x20 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "120x20 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ea24097.png/:/cr=t:25.76%25,l:16.22%25,w:67.57%25,h:48.48%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ea24097.png/:/cr=t:25.76%25,l:16.22%25,w:67.57%25,h:48.48%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "rawSubcategory": "Premium LED Panel Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "4W",
+    "value": "Size 85x20 mm · Cut Size 75 mm · Std.Pkg 50"
+   },
+   {
+    "label": "15W",
+    "value": "Size 174x20 mm · Cut Size 150 mm · Std.Pkg 40"
+   },
+   {
+    "label": "22W",
+    "value": "Size 225x20 mm · Cut Size 200 mm · Std.Pkg 30"
+   },
+   {
+    "label": "30W",
+    "value": "Size 300x20 mm · Cut Size 270 mm · Std.Pkg 10"
+   },
+   {
+    "label": "8W",
+    "value": "Size 120x20 mm · Cut Size 100 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K, 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "maxbright-led-panel-light",
+  "title": "Maxbright LED Panel Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "90x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Size": "170x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "145x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-58dec79.png/:/cr=t:0%25,l:2.13%25,w:95.75%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-58dec79.png/:/cr=t:0%25,l:2.13%25,w:95.75%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "rawSubcategory": "Premium LED Panel Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "8W",
+    "value": "Size 90x10 mm · Cut Size 75 mm · Std.Pkg 50"
+   },
+   {
+    "label": "22W",
+    "value": "Size 170x10 mm · Cut Size 155 mm · Std.Pkg 20"
+   },
+   {
+    "label": "15W",
+    "value": "Size 145x10 mm · Cut Size 125 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "trio-led-panel-light",
+  "title": "Trio LED Panel Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "115x38 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "165x38 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/TRIO.png/:/cr=t:5.87%25,l:16.5%25,w:74.08%25,h:89.28%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/TRIO.png/:/cr=t:5.87%25,l:16.5%25,w:74.08%25,h:89.28%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "rawSubcategory": "Premium LED Panel Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "8W",
+    "value": "Size 115x38 mm · Cut Size 101 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K/ 3in1"
+   },
+   {
+    "label": "15W",
+    "value": "Size 165x38 mm · Cut Size 155 mm · Std.Pkg 40"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "air-led-panel-light",
+  "title": "Air LED Panel Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "115x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Size": "220x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "165x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/4-d564d4a.png/:/cr=t:14.12%25,l:0%25,w:100%25,h:71.75%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/4-d564d4a.png/:/cr=t:14.12%25,l:0%25,w:100%25,h:71.75%25/rs=w:388,h:291.72932330827064,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "rawSubcategory": "Premium LED Panel Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "8W",
+    "value": "Size 115x35 mm · Cut Size 100 mm · Std.Pkg 50"
+   },
+   {
+    "label": "22W",
+    "value": "Size 220x35 mm · Cut Size 205 mm · Std.Pkg 30"
+   },
+   {
+    "label": "15W",
+    "value": "Size 165x35 mm · Cut Size 150 mm · Std.Pkg 40"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K /3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "satrangi-led-panel-light",
+  "title": "Satrangi LED Panel Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3+3W",
+     "Size": "105x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12+6W",
+     "Size": "190x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6+6W",
+     "Size": "140x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-4068b52.png/:/cr=t:13.24%25,l:25.77%25,w:48.48%25,h:73.53%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-4068b52.png/:/cr=t:13.24%25,l:25.77%25,w:48.48%25,h:73.53%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "rawSubcategory": "Premium LED Panel Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "3+3W",
+    "value": "Size 105x10 mm · Cut Size 75 mm · Std.Pkg 100"
+   },
+   {
+    "label": "12+6W",
+    "value": "Size 190x10 mm · Cut Size 155 mm · Std.Pkg 40"
+   },
+   {
+    "label": "6+6W",
+    "value": "Size 140x10 mm · Cut Size 125 mm · Std.Pkg 40"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "Yellow, Blue, Green, Pink, PGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "luna-led-panel-light",
+  "title": "Luna LED Panel Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6+6W",
+     "Size": "140x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12+6W",
+     "Size": "190x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6+6W",
+     "Size": "140x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12+6W",
+     "Size": "190x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/LUNA-d6663bd.jpg/:/cr=t:0%25,l:7.12%25,w:80.18%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/LUNA-d6663bd.jpg/:/cr=t:0%25,l:7.12%25,w:80.18%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/luna%20surfACE-d37af3c.png/:/cr=t:11.37%25,l:21.14%25,w:60.92%25,h:73.53%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6+6W",
+    "value": "Size 140x10 mm · Cut Size 110 mm · Std.Pkg 40"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "Yellow, Blue, Green, Pink, PGB"
+   },
+   {
+    "label": "12+6W",
+    "value": "Size 190x10 mm · Cut Size 155 mm · Std.Pkg 40"
+   },
+   {
+    "label": "6+6W",
+    "value": "Size 140x10 mm · Cut Size 40 mm"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "12+6W",
+    "value": "Size 190x10 mm · Cut Size 40 mm"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "satrangi-surface-panel",
+  "title": "Satrangi Surface Panel",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3+3W",
+     "Size": "105x32 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12+6W",
+     "Size": "190x32 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6+6W",
+     "Size": "140x32 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-815903d.png/:/cr=t:10.74%25,l:27.22%25,w:49.48%25,h:76.93%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-815903d.png/:/cr=t:10.74%25,l:27.22%25,w:49.48%25,h:76.93%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "3+3W",
+    "value": "Size 105x32 mm · Std.Pkg 100"
+   },
+   {
+    "label": "12+6W",
+    "value": "Size 190x32 mm · Std.Pkg 30"
+   },
+   {
+    "label": "6+6W",
+    "value": "Size 140x32 mm · Std.Pkg 40"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "Yellow, Blue, Green, Pink, PGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "super-saver-surface-panel",
+  "title": "Super Saver Surface Panel",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "120x32 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Size": "210x32 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "170x32 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d6383b0.png/:/cr=t:9.68%25,l:20.46%25,w:59.08%25,h:80.65%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d6383b0.png/:/cr=t:9.68%25,l:20.46%25,w:59.08%25,h:80.65%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "8W",
+    "value": "Size 120x32 mm · Std.Pkg 50"
+   },
+   {
+    "label": "22W",
+    "value": "Size 210x32 mm · Std.Pkg 30"
+   },
+   {
+    "label": "15W",
+    "value": "Size 170x32 mm · Std.Pkg 40"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K, 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "maxbright-surface-panel",
+  "title": "Maxbright Surface Panel",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "90x28 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Size": "170x28 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "145x28 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-5987aa6.png/:/cr=t:17.9%25,l:22.06%25,w:50.59%25,h:58.14%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-5987aa6.png/:/cr=t:17.9%25,l:22.06%25,w:50.59%25,h:58.14%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "8W",
+    "value": "Size 90x28 mm · Std.Pkg 50"
+   },
+   {
+    "label": "22W",
+    "value": "Size 170x28 mm · Std.Pkg 20"
+   },
+   {
+    "label": "15W",
+    "value": "Size 145x28 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "ultramax-mini-surface-light",
+  "title": "Ultramax Mini Surface Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "60x10 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "151X19 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "100x19 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-a00a278.png/:/cr=t:0%25,l:6.62%25,w:86.76%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-a00a278.png/:/cr=t:0%25,l:6.62%25,w:86.76%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 60x10 mm · Std.Pkg 100"
+   },
+   {
+    "label": "15W",
+    "value": "Size 151X19 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "8W",
+    "value": "Size 100x19 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colours",
+    "value": "Yellow, Blue, Green, Pink, Red 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "ocular-mini-surface-light",
+  "title": "Ocular Mini Surface Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "60x15 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Size": "74x15 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-4419dd9.png/:/cr=t:14.79%25,l:20.66%25,w:58.69%25,h:70.42%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-4419dd9.png/:/cr=t:14.79%25,l:20.66%25,w:58.69%25,h:70.42%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 60x15 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "5W",
+    "value": "Size 74x15 mm · Std.Pkg 100"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "alpha-mini-surface-light",
+  "title": "Alpha Mini Surface Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "75x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/alpha.png/:/cr=t:9.68%25,l:21.26%25,w:66.86%25,h:80.65%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/alpha.png/:/cr=t:9.68%25,l:21.26%25,w:66.86%25,h:80.65%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 75x35 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "RGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "coin-mini-surface-light",
+  "title": "Coin Mini Surface Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "60x15 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-cc94991.png/:/cr=t:0.51%25,l:0%25,w:100%25,h:87.92%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-cc94991.png/:/cr=t:0.51%25,l:0%25,w:100%25,h:87.92%25/rs=w:388,h:291.72932330827064,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 60x15 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "alexa-led-surface-light",
+  "title": "Alexa LED Surface Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Size": "64x18 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-e26588b.png/:/cr=t:8.14%25,l:17.19%25,w:78.37%25,h:84.75%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-e26588b.png/:/cr=t:8.14%25,l:17.19%25,w:78.37%25,h:84.75%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "5W",
+    "value": "Size 64x18 mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Yellow, Blue, Green, Pink, Red, 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "twist-led-surface-light",
+  "title": "Twist LED Surface Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Size": "85x50 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "140x50 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Size": "115x50 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-5a87ddf.png/:/cr=t:15.46%25,l:10.71%25,w:89.29%25,h:76.12%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-5a87ddf.png/:/cr=t:15.46%25,l:10.71%25,w:89.29%25,h:76.12%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "7W",
+    "value": "Size 85x50 mm · Std.Pkg 50"
+   },
+   {
+    "label": "15W",
+    "value": "Size 140x50 mm · Std.Pkg 40"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "9W",
+    "value": "Size 115x50 mm · Std.Pkg 40"
+   },
+   {
+    "label": "Colours",
+    "value": "Yellow, Blue, Green, Pink, Red, 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "zero-edge-led-surface-light",
+  "title": "Zero Edge LED Surface Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "85x50 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "22W",
+     "Size": "140x50 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "115x50 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-64b181f.png/:/cr=t:20.15%25,l:15.25%25,w:84.75%25,h:61.95%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-64b181f.png/:/cr=t:20.15%25,l:15.25%25,w:84.75%25,h:61.95%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "8W",
+    "value": "Size 85x50 mm · Std.Pkg 50"
+   },
+   {
+    "label": "22W",
+    "value": "Size 140x50 mm · Std.Pkg 40"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K / 3in1"
+   },
+   {
+    "label": "15W",
+    "value": "Size 115x50 mm · Std.Pkg 40"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "power-led-mini-surface-light",
+  "title": "Power LED Mini Surface Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "65x25h mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-85e69c2.png/:/cr=t:28.14%25,l:20.72%25,w:73.53%25,h:53.75%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-85e69c2.png/:/cr=t:28.14%25,l:20.72%25,w:73.53%25,h:53.75%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Surface Lights",
+  "rawSubcategory": "Premium LED Surface Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 65x25h mm · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K / 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "pro-series-track-light",
+  "title": "Pro Series Track Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Size": "118x144x64 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Size": "158x172x88 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Size": "138x162x79 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-89ff65f.png/:/cr=t:12.46%25,l:0%25,w:100%25,h:75.07%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-89ff65f.png/:/cr=t:12.46%25,l:0%25,w:100%25,h:75.07%25/rs=w:388,h:291.72932330827064,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "rawSubcategory": "Premium LED Track Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "10W",
+    "value": "Size 118x144x64 mm · Std.Pkg 30"
+   },
+   {
+    "label": "30W",
+    "value": "Size 158x172x88 mm · Std.Pkg 20"
+   },
+   {
+    "label": "20W",
+    "value": "Size 138x162x79 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "pilot-track-light",
+  "title": "Pilot Track Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Size": "118x144x64 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Size": "158x172x88 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Size": "138x162x79 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/PILOT.jpg/:/cr=t:14.82%25,l:12.76%25,w:73.53%25,h:68.3%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/PILOT.jpg/:/cr=t:14.82%25,l:12.76%25,w:73.53%25,h:68.3%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "rawSubcategory": "Premium LED Track Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "10W",
+    "value": "Size 118x144x64 mm · Std.Pkg 30"
+   },
+   {
+    "label": "30W",
+    "value": "Size 158x172x88 mm · Std.Pkg 20"
+   },
+   {
+    "label": "20W",
+    "value": "Size 138x162x79 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "pro-series-wall-spotlight",
+  "title": "Pro Series Wall Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Size": "118x144x64 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Size": "158x172x88 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Size": "138x162x79 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-44188f0.png/:/cr=t:20.35%25,l:16.9%25,w:76.92%25,h:57.75%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-44188f0.png/:/cr=t:20.35%25,l:16.9%25,w:76.92%25,h:57.75%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Wall spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "10W",
+    "value": "Size 118x144x64 mm · Std.Pkg 30"
+   },
+   {
+    "label": "30W",
+    "value": "Size 158x172x88 mm · Std.Pkg 20"
+   },
+   {
+    "label": "20W",
+    "value": "Size 138x162x79 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "zoom-series-wall-spotlight",
+  "title": "Zoom Series Wall Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "71x105 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "16W",
+     "Size": "101x128 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "24W",
+     "Size": "115x138 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "30W",
+     "Size": "125x148 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "94x115 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ff2a8c2.png/:/cr=t:16.16%25,l:0%25,w:100%25,h:75.54%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ff2a8c2.png/:/cr=t:16.16%25,l:0%25,w:100%25,h:75.54%25/rs=w:388,h:291.72932330827064,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Wall spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 71x105 mm · Std.Pkg 50"
+   },
+   {
+    "label": "16W",
+    "value": "Size 101x128 mm · Std.Pkg 50"
+   },
+   {
+    "label": "24W",
+    "value": "Size 115x138 mm · Std.Pkg 10"
+   },
+   {
+    "label": "30W",
+    "value": "Size 125x148 mm · Std.Pkg 10"
+   },
+   {
+    "label": "6W",
+    "value": "Size 94x115 mm · Std.Pkg 50"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "focus-series-wall-spotlight",
+  "title": "Focus Series Wall Spotlight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "55x115 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-1fbfe7f.png/:/cr=t:0%25,l:10.69%25,w:89.31%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-1fbfe7f.png/:/cr=t:0%25,l:10.69%25,w:89.31%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "rawSubcategory": "Premium LED Wall spotlight",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Size 55x115 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K /3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "signature-track-light",
+  "title": "Signature Track Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Size": "192x46 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Size": "384x46 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/signature.png/:/cr=t:0%25,l:8.61%25,w:82.78%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/signature.png/:/cr=t:0%25,l:8.61%25,w:82.78%25,h:100%25/rs=w:388,h:291.72932330827064,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "rawSubcategory": "Premium LED Track Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "10W",
+    "value": "Size 192x46 mm · Std.Pkg 50"
+   },
+   {
+    "label": "20W",
+    "value": "Size 384x46 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "led-mirror-light",
+  "title": "LED Mirror Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "311x172 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-698f9ce.png/:/cr=t:13.24%25,l:30.45%25,w:31.71%25,h:73.54%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-698f9ce.png/:/cr=t:13.24%25,l:30.45%25,w:31.71%25,h:73.54%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "rawSubcategory": "Premium LED Mirror Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "12W",
+    "value": "Size 311x172 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Blue, 3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "curve-led-mirror-light",
+  "title": "Curve LED Mirror Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "75x85x40 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "500x51x107 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/69.png/:/cr=t:13.99%25,l:0%25,w:100%25,h:72.02%25/rs=w:388,h:291.72932330827064,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/69.png/:/cr=t:13.99%25,l:0%25,w:100%25,h:72.02%25/rs=w:388,h:291.72932330827064,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "rawSubcategory": "Premium LED Mirror Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Size 75x85x40 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Blue, 3in1"
+   },
+   {
+    "label": "12W",
+    "value": "Size 500x51x107 mm · Std.Pkg 20"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "unicorn-led-mirror-light",
+  "title": "Unicorn LED Mirror Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "325x185 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-508848c.png/:/cr=t:14.32%25,l:40.61%25,w:20.6%25,h:73.53%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-508848c.png/:/cr=t:14.32%25,l:40.61%25,w:20.6%25,h:73.53%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "rawSubcategory": "Premium LED Mirror Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Size 325x185 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/6500K,3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "milan-led-mirror-light",
+  "title": "Milan LED Mirror Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "325x185 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-fc6b847.png/:/cr=t:24.67%25,l:41.61%25,w:9.44%25,h:49.5%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-fc6b847.png/:/cr=t:24.67%25,l:41.61%25,w:9.44%25,h:49.5%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "rawSubcategory": "Premium LED Mirror Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Size 325x185 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/6500K,3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "promax-led-mirror-light",
+  "title": "Promax LED Mirror Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "335x107 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ddbca3a.png/:/cr=t:12.75%25,l:20.76%25,w:64.06%25,h:70.42%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-ddbca3a.png/:/cr=t:12.75%25,l:20.76%25,w:64.06%25,h:70.42%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "rawSubcategory": "Premium LED Mirror Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "12W",
+    "value": "Size 335x107 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/6500K,3in1"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "smart-line-next-led-batten",
+  "title": "Smart Line Next LED Batten",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "22W",
+     "Size": "4 Feet"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "40W",
+     "Size": "4 Feet"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/tube%20lightt.png/:/cr=t:26%25,l:25.25%25,w:49.5%25,h:48%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/tube%20lightt.png/:/cr=t:26%25,l:25.25%25,w:49.5%25,h:48%25/rs=w:1200,h:600,cg:true,m",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/BLUE.jpg/:/cr=t:32.1%25,l:13.3%25,w:62.5%25,h:47.18%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Battens",
+  "rawSubcategory": "Premium LED Batten Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "22W",
+    "value": "Size 4 Feet · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Yellow, Blue, Green, Pink, 3in1, Tiranga"
+   },
+   {
+    "label": "40W",
+    "value": "Size 4 Feet · Std.Pkg 30"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "ultra-slim-led-linear-light",
+  "title": "Ultra Slim LED Linear Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "1 Feet"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "3 Feet"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "4 Feet"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "2 Feet"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/15-f346e82.png/:/cr=t:16.65%25,l:0%25,w:100%25,h:75.47%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/15-f346e82.png/:/cr=t:16.65%25,l:0%25,w:100%25,h:75.47%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Linear Lights",
+  "rawSubcategory": "Premium LED Linear Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "4W",
+    "value": "Size 1 Feet · Std.Pkg 100"
+   },
+   {
+    "label": "12W",
+    "value": "Size 3 Feet · Std.Pkg 60"
+   },
+   {
+    "label": "12W",
+    "value": "Size 4 Feet · Std.Pkg 40"
+   },
+   {
+    "label": "8W",
+    "value": "Size 2 Feet · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "ultra-slim-led-linear-light-sensor",
+  "title": "Ultra Slim LED Linear Light (Sensor)",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "1 Feet"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "3 Feet"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "4 Feet"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "8W",
+     "Size": "2 Feet"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/ULTRA%20SLIM.png/:/cr=t:22.21%25,l:0%25,w:100%25,h:55.58%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/ULTRA%20SLIM.png/:/cr=t:22.21%25,l:0%25,w:100%25,h:55.58%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Linear Lights",
+  "rawSubcategory": "Premium LED Linear Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "4W",
+    "value": "Size 1 Feet · Std.Pkg 100"
+   },
+   {
+    "label": "12W",
+    "value": "Size 3 Feet · Std.Pkg 60"
+   },
+   {
+    "label": "12W",
+    "value": "Size 4 Feet · Std.Pkg 40"
+   },
+   {
+    "label": "8W",
+    "value": "Size 2 Feet · Std.Pkg 100"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "netris-led-linear-light",
+  "title": "Netris LED Linear Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "44W",
+     "Size": "4 Feet"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "44W",
+     "Size": "4 Feet"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-0ed038c.png/:/cr=t:26.38%25,l:0%25,w:100%25,h:41.3%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-0ed038c.png/:/cr=t:26.38%25,l:0%25,w:100%25,h:41.3%25/rs=w:1200,h:600,cg:true",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-c19a3c0.png/:/cr=t:10.65%25,l:0%25,w:100%25,h:57.65%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Linear Lights",
+  "rawSubcategory": "Premium LED Linear Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "44W",
+    "value": "Size 4 Feet"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "44W",
+    "value": "Size 4 Feet"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "xylo-led-wall-light",
+  "title": "Xylo LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "70x80x40 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "120x85x40 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Size": "170x80x40 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-398f885.png/:/cr=t:0%25,l:0.42%25,w:96.8%25,h:100%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-398f885.png/:/cr=t:0%25,l:0.42%25,w:96.8%25,h:100%25/rs=w:1200,h:600,cg:true",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-2b5409d.png/:/cr=t:0%25,l:0%25,w:100%25,h:79.65%25/rs=w:1200,h:600,cg:true",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-0a8d32a.png/:/cr=t:0%25,l:10.87%25,w:76.92%25,h:74.2%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Size 70x80x40 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow ,Purple"
+   },
+   {
+    "label": "12W",
+    "value": "Size 120x85x40 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow ,Purple"
+   },
+   {
+    "label": "18W",
+    "value": "Size 170x80x40 mm · Std.Pkg 30"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow ,Purple"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "ciaz-led-wall-light",
+  "title": "Ciaz LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "95 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-5c6c1ac.png/:/cr=t:28.79%25,l:16.4%25,w:64.94%25,h:52.24%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-5c6c1ac.png/:/cr=t:28.79%25,l:16.4%25,w:64.94%25,h:52.24%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "12W",
+    "value": "Size 95 mm · Std.Pkg 30"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow ,Purple, RGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "eco-led-wall-light",
+  "title": "Eco LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "95 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-6005972.png/:/cr=t:25.08%25,l:11.54%25,w:76.92%25,h:49.83%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-6005972.png/:/cr=t:25.08%25,l:11.54%25,w:76.92%25,h:49.83%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Size 95 mm · Std.Pkg 30"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow ,Purple"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "starz-led-wall-light",
+  "title": "Starz LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "15W",
+     "Size": "95 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-6005972.png/:/cr=t:25.08%25,l:11.54%25,w:76.92%25,h:49.83%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-6005972.png/:/cr=t:25.08%25,l:11.54%25,w:76.92%25,h:49.83%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "15W",
+    "value": "Size 95 mm · Std.Pkg 30"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow ,Purple"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "dzire-led-wall-light",
+  "title": "Dzire LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "70 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-dedb1cd.png/:/cr=t:15.78%25,l:16.22%25,w:67.57%25,h:65.77%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-dedb1cd.png/:/cr=t:15.78%25,l:16.22%25,w:67.57%25,h:65.77%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "4W",
+    "value": "Size 70 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow, RGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "camry-led-wall-light",
+  "title": "Camry LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "2W",
+     "Size": "90x60x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "2W",
+     "Size": "90x60x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-8be6f8b.png/:/cr=t:15.4%25,l:22.26%25,w:60.85%25,h:70.42%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-8be6f8b.png/:/cr=t:15.4%25,l:22.26%25,w:60.85%25,h:70.42%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "2W",
+    "value": "Size 90x60x35 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "2W",
+    "value": "Size 90x60x35 mm · Std.Pkg 50"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "s-cross-led-wall-light",
+  "title": "S-CROSS LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "90x60x35 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-eca7554.png/:/cr=t:33.55%25,l:23.58%25,w:70.42%25,h:45.41%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-eca7554.png/:/cr=t:33.55%25,l:23.58%25,w:70.42%25,h:45.41%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "4W",
+    "value": "Size 90x60x35 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "elantra-led-wall-light",
+  "title": "Elantra LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "100x100x100 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-fb2df05.png/:/cr=t:26.84%25,l:11.54%25,w:76.92%25,h:44.32%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-fb2df05.png/:/cr=t:26.84%25,l:11.54%25,w:76.92%25,h:44.32%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Size 100x100x100 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "alto-led-wall-light",
+  "title": "Alto LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Size": "233x168x30 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-e9712bd.png/:/cr=t:0%25,l:8.09%25,w:83.83%25,h:100%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-e9712bd.png/:/cr=t:0%25,l:8.09%25,w:83.83%25,h:100%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "5W",
+    "value": "Size 233x168x30 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "ignis-led-wall-light",
+  "title": "Ignis LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "155x155x30 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/48.png/:/cr=t:25.39%25,l:0%25,w:100%25,h:60.87%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/48.png/:/cr=t:25.39%25,l:0%25,w:100%25,h:60.87%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "12W",
+    "value": "Size 155x155x30 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red, Pink ,Yellow, RGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "accent-led-wall-light",
+  "title": "Accent LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Size": "170x150x45 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/4.4.png/:/cr=t:25%25,l:0%25,w:100%25,h:50%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/4.4.png/:/cr=t:25%25,l:0%25,w:100%25,h:50%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "10W",
+    "value": "Size 170x150x45 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "tigor-led-wall-light",
+  "title": "Tigor LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "58x58 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-034d16e.png/:/cr=t:25%25,l:0%25,w:100%25,h:50%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-034d16e.png/:/cr=t:25%25,l:0%25,w:100%25,h:50%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Size 58x58 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "xylo-gold-led-wall-light",
+  "title": "Xylo Gold LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "2W",
+     "Size": "58x58 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "58x58 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-8357b1d.png/:/cr=t:23.58%25,l:21.04%25,w:73.53%25,h:54.75%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-8357b1d.png/:/cr=t:23.58%25,l:21.04%25,w:73.53%25,h:54.75%25/rs=w:1200,h:600,cg:true,m",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/new%20wall%20Light.6.png/:/cr=t:12.77%25,l:0%25,w:100%25,h:74.46%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "2W",
+    "value": "Size 58x58 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "4W",
+    "value": "Size 58x58 mm · Std.Pkg 5O"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "major-led-wall-light",
+  "title": "Major LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "125X85X41 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "125X85X41 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/2.4.png/:/cr=t:25%25,l:0%25,w:100%25,h:50%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/2.4.png/:/cr=t:25%25,l:0%25,w:100%25,h:50%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 125X85X41 mm · Std.Pkg 20"
+   },
+   {
+    "label": "4W",
+    "value": "Size 125X85X41 mm · Std.Pkg 20"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "thar-led-wall-light",
+  "title": "Thar LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "75x85x40 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-20bfa0d.png/:/cr=t:25%25,l:0%25,w:100%25,h:50%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-20bfa0d.png/:/cr=t:25%25,l:0%25,w:100%25,h:50%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Size 75x85x40 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "BLUE, GREEN, PINK"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "compass-led-wall-light",
+  "title": "Compass LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Size": "75x85x40 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Size": "75x85x40 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/3.1.png/:/cr=t:27.17%25,l:0%25,w:100%25,h:50%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/3.1.png/:/cr=t:27.17%25,l:0%25,w:100%25,h:50%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "7W",
+    "value": "Size 75x85x40 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "9W",
+    "value": "Size 75x85x40 mm · Std.Pkg 20"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "altroz-led-wal-light",
+  "title": "Altroz LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "75x85x40 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "75x85x40 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-311d85c.png/:/cr=t:20.24%25,l:0%25,w:100%25,h:70.56%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-311d85c.png/:/cr=t:20.24%25,l:0%25,w:100%25,h:70.56%25/rs=w:1200,h:600,cg:true",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/SOLAR%20LED%20WALL%20LIGHT%203WAY%20LIGHT.32.png/:/cr=t:11.05%25,l:25.1%25,w:70.42%25,h:63.48%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Solar Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "4W",
+    "value": "Size 75x85x40 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/ RGB"
+   },
+   {
+    "label": "6W",
+    "value": "Size 75x85x40 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/ RGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "breeza-led-wall-light",
+  "title": "Breeza LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "170x150x45 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-f48a9fa.png/:/cr=t:20.2%25,l:11.54%25,w:76.92%25,h:59.6%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-f48a9fa.png/:/cr=t:20.2%25,l:11.54%25,w:76.92%25,h:59.6%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Size 170x150x45 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Red,"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "link-led-wall-light",
+  "title": "Link LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "58x58 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-aa83f7d.png/:/cr=t:28.95%25,l:0%25,w:100%25,h:47.77%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-aa83f7d.png/:/cr=t:28.95%25,l:0%25,w:100%25,h:47.77%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "4W",
+    "value": "Size 58x58 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "led-wall-light",
+  "title": "LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "4W",
+     "Size": "58x58 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "125X85X41 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-3e0b3a3.png/:/cr=t:30.11%25,l:4.21%25,w:80.65%25,h:40.12%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-3e0b3a3.png/:/cr=t:30.11%25,l:4.21%25,w:80.65%25,h:40.12%25/rs=w:1200,h:600,cg:true,m",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-d103445.png/:/cr=t:0%25,l:0%25,w:100%25,h:94.81%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "4W",
+    "value": "Size 58x58 mm · Std.Pkg 5O"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "6W",
+    "value": "Size 125X85X41 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "fiesta-led-wall-light",
+  "title": "Fiesta LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Size": "75x85x40 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-afb88a8.png/:/cr=t:24.2%25,l:26.9%25,w:62.5%25,h:49.88%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-afb88a8.png/:/cr=t:24.2%25,l:26.9%25,w:62.5%25,h:49.88%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "5W",
+    "value": "Size 75x85x40 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "atmos-led-wall-light",
+  "title": "Atmos LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Size": "58x119x83 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Size": "165x75x90 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-be95887.png/:/cr=t:3.66%25,l:0%25,w:100%25,h:92.69%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-be95887.png/:/cr=t:3.66%25,l:0%25,w:100%25,h:92.69%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "5W",
+    "value": "Size 58x119x83 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   },
+   {
+    "label": "10W",
+    "value": "Size 165x75x90 mm · Std.Pkg 20"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "inoiq-led-wal-light",
+  "title": "Inoiq LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/IONIQ.png/:/cr=t:17.86%25,l:16.2%25,w:80.65%25,h:67.41%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/IONIQ.png/:/cr=t:17.86%25,l:16.2%25,w:80.65%25,h:67.41%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "12W",
+    "value": "Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "s-presso-led-wal-light",
+  "title": "S-PRESSO LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-84bcc89.png/:/cr=t:21.35%25,l:21.74%25,w:76.92%25,h:64.29%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-84bcc89.png/:/cr=t:21.35%25,l:21.74%25,w:76.92%25,h:64.29%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "12W",
+    "value": "Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "jimny-led-wal-light",
+  "title": "Jimny+ LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/jimnny2.png/:/cr=t:17.18%25,l:12.98%25,w:84.75%25,h:70.83%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/jimnny2.png/:/cr=t:17.18%25,l:12.98%25,w:84.75%25,h:70.83%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "12W",
+    "value": "Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "baleno-led-wal-light",
+  "title": "Baleno LED Wall Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/baleno.png/:/cr=t:22.73%25,l:15.18%25,w:70.42%25,h:58.86%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/baleno.png/:/cr=t:22.73%25,l:15.18%25,w:70.42%25,h:58.86%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Wall Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "6W",
+    "value": "Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "aqua-led-spikelight",
+  "title": "Aqua LED Spikelight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Size": "72x74x260 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "82x135x260 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Size": "82x135x260 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Size": "72x74x260 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "82x135x260 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Size": "82x135x260 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-af8b0b4.png/:/cr=t:23.3%25,l:0%25,w:100%25,h:47.93%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-af8b0b4.png/:/cr=t:23.3%25,l:0%25,w:100%25,h:47.93%25/rs=w:1200,h:600,cg:true",
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-e2590e9.png/:/cr=t:16.43%25,l:8.34%25,w:66.64%25,h:73.53%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Spike Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "5W",
+    "value": "Size 72x74x260 mm · Std.Pkg 50"
+   },
+   {
+    "label": "12W",
+    "value": "Size 82x135x260 mm · Std.Pkg 20"
+   },
+   {
+    "label": "9W",
+    "value": "Size 82x135x260 mm · Std.Pkg 20"
+   },
+   {
+    "label": "5W",
+    "value": "Size 72x74x260 mm · Std.Pkg 50"
+   },
+   {
+    "label": "12W",
+    "value": "Size 82x135x260 mm · Std.Pkg 20"
+   },
+   {
+    "label": "9W",
+    "value": "Size 82x135x260 mm · Std.Pkg 20"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "fludex-led-spikelight",
+  "title": "Fludex LED Spikelight",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "82x135x260 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-cfff4f1.png/:/cr=t:15.94%25,l:0%25,w:100%25,h:74.94%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-cfff4f1.png/:/cr=t:15.94%25,l:0%25,w:100%25,h:74.94%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Spike Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "12W",
+    "value": "Size 82x135x260 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Pink,"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "solar-smart-spike-light",
+  "title": "Solar Smart Spike Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Size": "82x135x260 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-2d19bc4.png/:/cr=t:17.16%25,l:0%25,w:100%25,h:73.1%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-2d19bc4.png/:/cr=t:17.16%25,l:0%25,w:100%25,h:73.1%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Solar Spike Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "10W",
+    "value": "Size 82x135x260 mm · Std.Pkg 20"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "Colours",
+    "value": "Blue, Green, Pink, RGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "victor-swimming-pool-light",
+  "title": "Victor Swimming Pool Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Size": "65X100 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Size": "105x100 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Size": "85X85 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/VICTOR.png/:/cr=t:24.14%25,l:0%25,w:100%25,h:55.58%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/VICTOR.png/:/cr=t:24.14%25,l:0%25,w:100%25,h:55.58%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Pool Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "3W",
+    "value": "Size 65X100 mm · Std.Pkg 50"
+   },
+   {
+    "label": "9W",
+    "value": "Size 105x100 mm · Std.Pkg 50"
+   },
+   {
+    "label": "6W",
+    "value": "Size 85X85 mm · Std.Pkg 50"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "polo-bollard-light",
+  "title": "Polo Bollard Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Size": "160X85X40 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/polo.png/:/cr=t:38.94%25,l:36.48%25,w:42.02%25,h:35.12%25/rs=w:388,h:291.72932330827064,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/polo.png/:/cr=t:38.94%25,l:36.48%25,w:42.02%25,h:35.12%25/rs=w:388,h:291.72932330827064,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Bollard Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "12W",
+    "value": "Size 160X85X40 mm · Std.Pkg 50"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "multistar-flood-light",
+  "title": "Multistar Flood Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "30W",
+     "Size": "185x235x65 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "50W",
+     "Size": "235x 285x70 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-0a05719.png/:/cr=t:17.28%25,l:0%25,w:100%25,h:53.62%25/rs=w:1200,h:600,cg:true",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-0a05719.png/:/cr=t:17.28%25,l:0%25,w:100%25,h:53.62%25/rs=w:1200,h:600,cg:true"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Flood Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "30W",
+    "value": "Size 185x235x65 mm · Std.Pkg 10"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "RGB"
+   },
+   {
+    "label": "50W",
+    "value": "Size 235x 285x70 mm · Std.Pkg 10"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "netvue-flood-light",
+  "title": "Netvue Flood Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "30W",
+     "Size": "152x178x55 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "100W",
+     "Size": "282x247x65 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "150W",
+     "Size": "277x298x70 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "50W",
+     "Size": "226x216x55 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-4d9493a.png/:/cr=t:26.49%25,l:0%25,w:89.29%25,h:47.94%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-4d9493a.png/:/cr=t:26.49%25,l:0%25,w:89.29%25,h:47.94%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Flood Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "30W",
+    "value": "Size 152x178x55 mm · Std.Pkg 20"
+   },
+   {
+    "label": "100W",
+    "value": "Size 282x247x65 mm · Std.Pkg 20"
+   },
+   {
+    "label": "150W",
+    "value": "Size 277x298x70 mm · Std.Pkg 5"
+   },
+   {
+    "label": "50W",
+    "value": "Size 226x216x55 mm · Std.Pkg 10"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "xuv-flood-light",
+  "title": "Xuv Flood Light",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "30W",
+     "Size": "200x135 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "100W",
+     "Size": "300x200 mm"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "50W",
+     "Size": "240 x160 mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-c7eea27.png/:/cr=t:12.51%25,l:14.45%25,w:80.65%25,h:72.64%25/rs=w:1200,h:600,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-c7eea27.png/:/cr=t:12.51%25,l:14.45%25,w:80.65%25,h:72.64%25/rs=w:1200,h:600,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Flood Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "30W",
+    "value": "Size 200x135 mm · Std.Pkg 20"
+   },
+   {
+    "label": "100W",
+    "value": "Size 300x200 mm · Std.Pkg 10"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K"
+   },
+   {
+    "label": "50W",
+    "value": "Size 240 x160 mm · Std.Pkg 20"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "radial-led-gate-light-solar-based",
+  "title": "Radial LED Gate Light (solar Based)",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-223b85c.png/:/cr=t:11.08%25,l:2.05%25,w:80.65%25,h:74.45%25/rs=w:600,h:300,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-223b85c.png/:/cr=t:11.08%25,l:2.05%25,w:80.65%25,h:74.45%25/rs=w:600,h:300,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Gate Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "10W",
+    "value": "Battery 3.7V/1.8mAh · Std.Pkg 10"
+   },
+   {
+    "label": "Note",
+    "value": "Model: Round & Hexagon"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K/ RGB"
+   }
+  ],
+  "quality": "rich"
+ },
+ {
+  "id": "radial-pro-led-gate-light-solar-based",
+  "title": "Radial Pro LED Gate Light (solar Based)",
+  "vendor": "Multifab",
+  "tags": [],
+  "priceMin": 0,
+  "priceMax": 0,
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-1d1c29c.png/:/cr=t:24.85%25,l:0%25,w:73.53%25,h:62.2%25/rs=w:600,h:300,cg:true,m",
+   "gallery": [
+    "https://img1.wsimg.com/isteam/ip/3378db11-ac04-4f3b-8060-639724154194/blob-1d1c29c.png/:/cr=t:24.85%25,l:0%25,w:73.53%25,h:62.2%25/rs=w:600,h:300,cg:true,m"
+   ]
+  },
+  "sourceUrl": "https://multtifabled.co.in",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "rawSubcategory": "Premium LED Gate Light",
+  "description": "",
+  "specs": [
+   {
+    "label": "10W",
+    "value": "Battery 3.7V/1.8mAh · Std.Pkg 10"
+   },
+   {
+    "label": "Note",
+    "value": "Model: Round & Hexagon"
+   },
+   {
+    "label": "Colour temperature",
+    "value": "3000K/4000K/6500K/ RGB"
+   }
+  ],
+  "quality": "rich"
+ }
+]

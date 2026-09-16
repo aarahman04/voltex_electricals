@@ -1,10 +1,13 @@
 import { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSearchParams } from "react-router-dom";
-import { hasOptionValue } from "../data/products.js";
+import { hasOptionValue, matchesQuery } from "../data/products.js";
 import { displayTitle } from "../lib/specSummary.js";
+import { useDebouncedValue } from "../lib/useDebouncedValue.js";
 import FilterPanel from "./FilterPanel.jsx";
 import ProductCard from "./ProductCard.jsx";
+
+const PAGE_SIZE = 24;
 
 const SORTS = [
   { value: "featured", label: "Featured" },
@@ -37,6 +40,7 @@ export default function Listing({
     [params],
   );
   const search = params.get("q") ?? "";
+  const debouncedSearch = useDebouncedValue(search, 200);
   const sort = params.get("sort") ?? "featured";
   const [filtersOpen, setFiltersOpen] = useState(false);
 
@@ -80,7 +84,7 @@ export default function Listing({
     (search.trim() ? 1 : 0);
 
   const filtered = useMemo(() => {
-    const query = search.trim().toLowerCase();
+    const query = debouncedSearch.trim().toLowerCase();
     let items = baseProducts.filter((p) => {
       if (selectedSubs.length && !selectedSubs.includes(p.subcategory)) return false;
       for (const facet of facets) {
@@ -90,11 +94,7 @@ export default function Listing({
           return false;
         }
       }
-      if (query) {
-        const haystack =
-          `${p.title} ${p.brand} ${p.subcategory} ${(p.tags ?? []).join(" ")}`.toLowerCase();
-        if (!haystack.includes(query)) return false;
-      }
+      if (query && !matchesQuery(p, query)) return false;
       return true;
     });
 
@@ -108,7 +108,18 @@ export default function Listing({
       );
     }
     return items;
-  }, [baseProducts, facets, selectedFacets, selectedSubs, search, sort]);
+  }, [baseProducts, facets, selectedFacets, selectedSubs, debouncedSearch, sort]);
+
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  // A new filtered set (different filters/sort/search) pages back to the
+  // start — adjusted during render (React's documented pattern) rather than
+  // in an effect, same approach as Search.jsx's syncedQuery.
+  const [pagedFor, setPagedFor] = useState(filtered);
+  if (filtered !== pagedFor) {
+    setPagedFor(filtered);
+    setVisibleCount(PAGE_SIZE);
+  }
+  const visible = filtered.slice(0, visibleCount);
 
   const filterProps = {
     subcategories,
@@ -193,25 +204,25 @@ export default function Listing({
               </button>
             </div>
           ) : (
-            <motion.div
-              layout
-              className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4"
-            >
-              <AnimatePresence mode="popLayout">
-                {filtered.map((product) => (
-                  <motion.div
-                    key={product.uid}
-                    layout
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 0.18 }}
-                  >
-                    <ProductCard product={product} />
-                  </motion.div>
+            <>
+              <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
+                {visible.map((product) => (
+                  <ProductCard key={product.uid} product={product} />
                 ))}
-              </AnimatePresence>
-            </motion.div>
+              </div>
+
+              {visibleCount < filtered.length && (
+                <div className="mt-8 flex justify-center">
+                  <button
+                    type="button"
+                    onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
+                    className="switch-btn switch-btn--ghost"
+                  >
+                    Load more ({filtered.length - visibleCount} left)
+                  </button>
+                </div>
+              )}
+            </>
           )}
 
           {children}
