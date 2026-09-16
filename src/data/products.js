@@ -164,6 +164,23 @@ function searchHaystack(p) {
     .toLowerCase();
 }
 
+// Every query token must appear somewhere in the product — shared by
+// searchProducts (the /search page's full-corpus scan) and Listing's own
+// "refine within results" box, so a result found by one is never dropped by
+// the other. Also checked against a space-stripped haystack, so a token
+// typed as one word ("streetlight") still matches fields that spell it as
+// two ("Street Light").
+export function matchesQuery(p, query) {
+  const tokens = String(query ?? "")
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean);
+  if (tokens.length === 0) return true;
+  const haystack = searchHaystack(p);
+  const tight = haystack.replace(/\s+/g, "");
+  return tokens.every((t) => haystack.includes(t) || tight.includes(t));
+}
+
 // Every query token must appear somewhere in the product. Results are ranked
 // so a hit in the name beats a hit in a tag or a variant code.
 export function searchProducts(query, limit = 60) {
@@ -175,8 +192,7 @@ export function searchProducts(query, limit = 60) {
 
   const scored = [];
   for (const p of products) {
-    const haystack = searchHaystack(p);
-    if (!tokens.every((t) => haystack.includes(t))) continue;
+    if (!matchesQuery(p, query)) continue;
 
     const title = p.title.toLowerCase();
     const brand = p.brand.toLowerCase();
