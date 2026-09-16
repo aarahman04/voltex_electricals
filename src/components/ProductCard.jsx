@@ -21,7 +21,7 @@ export default function ProductCard({ product }) {
         to={`/product/${product.uid}`}
         className="block after:absolute after:inset-0 after:z-0 after:content-['']"
       >
-        <div className="relative aspect-square overflow-hidden bg-surface p-5">
+        <div className="relative aspect-square overflow-hidden bg-surface p-2.5 sm:p-3.5">
           {!loaded && <div className="absolute inset-0 animate-pulse bg-paper" />}
           {/* Lighting cards warm in the colour temperature that model is sold
               in, so the hover tells you what you'd be buying. Fans have no
