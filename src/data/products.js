@@ -1,4 +1,4 @@
-import { catalog } from "./catalog.js";
+import { catalog, loadProductDetail } from "./catalog.js";
 import { BRANDS } from "./brands.js";
 import { TONES } from "../lib/kelvin.js";
 import { PUBLISHED } from "./taxonomy.js";
@@ -68,6 +68,13 @@ export function getSubcategories(category, brandSlug) {
 // from a real product shot.
 export function getProductImage(product) {
   return product?.images?.primary;
+}
+
+// Fetches the description/specs/full image gallery for one product, lazily
+// (see catalog.js) — everything else about the product is already available
+// synchronously via getProductById.
+export function getProductDetail(uid) {
+  return loadProductDetail(uid);
 }
 
 // Accepts a uid ("orient--linea-tower-fan"); still resolves a bare raw id

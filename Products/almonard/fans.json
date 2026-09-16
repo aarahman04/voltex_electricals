@@ -12,7 +12,7 @@
       { "options": { "Size": "750mm", "Color": "Green" }, "sku": null, "price": 0 }
     ],
     "images": {
-      "primary": "/products/almonard/pedestal-1.png",
+      "primary": "/products/almonard/pedestal-1.webp",
       "gallery": [
         "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/FlyOmRmDqYiXlCe7MoXoiyrE2DPR1zZlmyblfUER.png",
         "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/06Ar6h3orWSoPaTN3sgzc9n6RVCfio6oG1838aMX.png",
@@ -53,11 +53,11 @@
       { "options": { "Size": "750mm", "Color": "Green" }, "sku": null, "price": 0 }
     ],
     "images": {
-      "primary": "/products/almonard/wall-air-1.png",
+      "primary": "/products/almonard/wall-air-1.webp",
       "gallery": [
-        "/products/almonard/wall-air-1.png",
-        "/products/almonard/wall-air-2.png",
-        "/products/almonard/wall-air-3.png"
+        "/products/almonard/wall-air-1.webp",
+        "/products/almonard/wall-air-2.webp",
+        "/products/almonard/wall-air-3.webp"
       ]
     },
     "sourceUrl": "https://almonard.co.in/productn?slug=air-circulators-1",

@@ -52,6 +52,7 @@ export default function BrandMark({ slug, name, size = "md", className = "" }) {
             src={brand.logo}
             alt={label}
             loading="lazy"
+            decoding="async"
             className="h-full w-auto max-w-full object-contain"
           />
         </span>
@@ -68,6 +69,7 @@ export default function BrandMark({ slug, name, size = "md", className = "" }) {
         src={brand.logo}
         alt={label}
         loading="lazy"
+        decoding="async"
         className={`w-auto object-contain ${className}`}
         style={style}
       />

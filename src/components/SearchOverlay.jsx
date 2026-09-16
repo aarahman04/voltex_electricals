@@ -122,6 +122,7 @@ export default function SearchOverlay({ open, onClose }) {
                                 src={cdnImage(p.images?.primary, 96)}
                                 alt=""
                                 loading="lazy"
+                                decoding="async"
                                 className="h-12 w-12 shrink-0 rounded-[6px] bg-surface object-contain mix-blend-multiply ring-1 ring-seam"
                               />
                               <span className="min-w-0 flex-1">

@@ -730,6 +730,21 @@ for (const brand of BRANDS) {
   for (const [cat, list] of Object.entries(byCat)) {
     const filename = cat.toLowerCase().replace(/\s+/g, "-");
     writeFileSync(join(OUT, brand.slug, `${filename}.json`), JSON.stringify(list, null, 1));
+    // "Lite" sibling: only the fields list/search/facet pages ever read.
+    // catalog.js eager-bundles this one; ProductDetail lazy-loads the full
+    // file above for description/specs/full gallery, so those heavy fields
+    // never ship to browsers just browsing the catalogue.
+    const lite = list.map((p) => ({
+      id: p.id,
+      title: p.title,
+      vendor: p.vendor,
+      category: p.category,
+      subcategory: p.subcategory,
+      tags: p.tags,
+      variants: p.variants,
+      images: { primary: p.images?.primary ?? null },
+    }));
+    writeFileSync(join(OUT, brand.slug, `${filename}.lite.json`), JSON.stringify(lite, null, 1));
   }
   allParked.push(...parked.map((p) => ({ ...p, brand: brand.name, brandSlug: brand.slug })));
   publishedTotal += curated.length;

@@ -1,0 +1,3878 @@
+[
+ {
+  "id": "prism-bloom-led-cob-downlighter",
+  "title": "Prism Bloom LED COB Downlighter",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "COB Downlighter",
+   "led_down_lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "18W",
+     "Reflector": "Rose Gold",
+     "Color": "Cool White"
+    },
+    "sku": "LED18WDL-COB6KBLRG",
+    "price": 728
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Reflector": "Rose Gold",
+     "Color": "Natural White"
+    },
+    "sku": "LED18WDL-COB4KBLRG",
+    "price": 728
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Reflector": "Rose Gold",
+     "Color": "Warm White"
+    },
+    "sku": "LED18WDL-COB3KBLRG",
+    "price": 728
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Reflector": "Gun Metal",
+     "Color": "Cool White"
+    },
+    "sku": "LED18WDL-COB6KBLGM",
+    "price": 728
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Reflector": "Gun Metal",
+     "Color": "Natural White"
+    },
+    "sku": "LED18WDL-COB4KBLGM",
+    "price": 728
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Reflector": "Gun Metal",
+     "Color": "Warm White"
+    },
+    "sku": "LED18WDL-COB3KBLGM",
+    "price": 728
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Reflector": "Rose Gold",
+     "Color": "Cool White"
+    },
+    "sku": "LED07WDL-COB6KBLRG",
+    "price": 435
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Reflector": "Rose Gold",
+     "Color": "Natural White"
+    },
+    "sku": "LED07WDL-COB4KBLRG",
+    "price": 435
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Reflector": "Rose Gold",
+     "Color": "Warm White"
+    },
+    "sku": "LED07WDL-COB3KBLRG",
+    "price": 435
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Reflector": "Gun Metal",
+     "Color": "Cool White"
+    },
+    "sku": "LED07WDL-COB6KBLGM",
+    "price": 435
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Reflector": "Gun Metal",
+     "Color": "Natural White"
+    },
+    "sku": "LED07WDL-COB4KBLGM",
+    "price": 435
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Reflector": "Gun Metal",
+     "Color": "Warm White"
+    },
+    "sku": "LED07WDL-COB3KBLGM",
+    "price": 435
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Reflector": "Rose Gold",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WDL-COB6KBLRG",
+    "price": 538
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Reflector": "Rose Gold",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WDL-COB4KBLRG",
+    "price": 538
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Reflector": "Rose Gold",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WDL-COB3KBLRG",
+    "price": 538
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Reflector": "Gun Metal",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WDL-COB6KBLGM",
+    "price": 538
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Reflector": "Gun Metal",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WDL-COB4KBLGM",
+    "price": 538
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Reflector": "Gun Metal",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WDL-COB3KBLGM",
+    "price": 538
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/image07W.png?v=1788413468"
+  }
+ },
+ {
+  "id": "prism-luna-led-cob-downlighter",
+  "title": "Prism Luna LED COB Downlighter",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "COB Downlighter",
+   "led_down_lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Warm White"
+    },
+    "sku": "LED07WDL-COB3KLUBL",
+    "price": 322
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Natural White"
+    },
+    "sku": "LED07WDL-COB4KLUBL",
+    "price": 322
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Cool White"
+    },
+    "sku": "LED07WDL-COB6KLUBL",
+    "price": 322
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WDL-COB3KLUBL",
+    "price": 445
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WDL-COB4KLUBL",
+    "price": 445
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WDL-COB6KLUBL",
+    "price": 445
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/image07W_253ca854-5af9-425d-9f04-ea7f9315033e.png?v=1788425327"
+  }
+ },
+ {
+  "id": "prism-topaz-cob-downlighter",
+  "title": "Prism Topaz COB Downlighter",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "COB Downlighter",
+   "led_down_lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Cool White"
+    },
+    "sku": "LED18WDL-COB6KTPRG",
+    "price": 1029
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Natural White"
+    },
+    "sku": "LED18WDL-COB4KTPRG",
+    "price": 1029
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Warm White"
+    },
+    "sku": "LED18WDL-COB3KTPRG",
+    "price": 1029
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Cool White"
+    },
+    "sku": "LED07WDL-COB6KTPRG",
+    "price": 665
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Natural White"
+    },
+    "sku": "LED07WDL-COB4KTPRG",
+    "price": 665
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Warm White"
+    },
+    "sku": "LED07WDL-COB3KTPRG",
+    "price": 665
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WDL-COB6KTPRG",
+    "price": 792
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WDL-COB4KTPRG",
+    "price": 792
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WDL-COB3KTPRG",
+    "price": 792
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/image07W_963e736e-f9d5-4e55-b8af-646e95ddd110.png?v=1788415335"
+  }
+ },
+ {
+  "id": "eternal-bulkhead-wall-light",
+  "title": "Eternal Bulkhead Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "Outdoor Lights",
+   "Wall Lights",
+   "Wall Mount"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WBH-65KI",
+    "price": 376
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WBH-30KI",
+    "price": 376
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Color": "Cool White"
+    },
+    "sku": "LED20WBH-65KI",
+    "price": 793
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Color": "Warm White"
+    },
+    "sku": "LED20WBH-30KI",
+    "price": 793
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Primary-Image.jpg?v=1785407019"
+  }
+ },
+ {
+  "id": "6w-deco-wall-light-6-way-wall-lamp-420-lumens-bright-light-output",
+  "title": "6W Deco Wall Light 6 Way Wall Lamp | 420 lumens Bright Light Output",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "Outdoor Light",
+   "Wall Lights",
+   "Wall Mount"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Natural White"
+    },
+    "sku": "LED06WHD-WL40K6S",
+    "price": 623
+   },
+   {
+    "options": {
+     "Color": "Cool White"
+    },
+    "sku": "LED06WHD-WL65K6S",
+    "price": 623
+   },
+   {
+    "options": {
+     "Color": "Multicolor"
+    },
+    "sku": "LED06WHD-WLRGB6S",
+    "price": 623
+   },
+   {
+    "options": {
+     "Color": "Warm White"
+    },
+    "sku": "LED06WHD-WL30K6S",
+    "price": 623
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/0_d53408b4-3f3b-4051-89ef-fdca83262ad2.jpg?v=1785323082"
+  }
+ },
+ {
+  "id": "4w-4-way-deco-ball-light",
+  "title": "4W 4 Way Deco Wall Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "Outdoor Light",
+   "Wall Lights",
+   "Wall Mount"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Natural White"
+    },
+    "sku": "LED04WHD-WL40K4SB",
+    "price": 467
+   },
+   {
+    "options": {
+     "Color": "Cool White"
+    },
+    "sku": "LED04WHD-WL65K4SB",
+    "price": 467
+   },
+   {
+    "options": {
+     "Color": "Warm White"
+    },
+    "sku": "LED04WHD-WL30K4SB",
+    "price": 467
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/4watt4waydecorationwalllight.jpg?v=1785319376"
+  }
+ },
+ {
+  "id": "4w-2-way-deco-wall-lights",
+  "title": "4W 2 Way Deco Wall Lights",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "Outdoor Light",
+   "Wall Lights",
+   "Wall Mount"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Natural White"
+    },
+    "sku": "LED04WHD-WL40K4S",
+    "price": 498
+   },
+   {
+    "options": {
+     "Color": "Multicolor"
+    },
+    "sku": "LED04WHD-WLRG4S",
+    "price": 498
+   },
+   {
+    "options": {
+     "Color": "Cool White"
+    },
+    "sku": "LED04WHD-WL65K4S",
+    "price": 498
+   },
+   {
+    "options": {
+     "Color": "Warm White"
+    },
+    "sku": "LED04WHD-WL30K4S",
+    "price": 498
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/4w2waywalllight.jpg?v=1785310895"
+  }
+ },
+ {
+  "id": "deco-wall-lights",
+  "title": "2W 2 Way Deco Wall Lights",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "Outdoor Light",
+   "Wall Lights",
+   "Wall Mount"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Green"
+    },
+    "sku": "LED02WHD-WLGRE2S",
+    "price": 389
+   },
+   {
+    "options": {
+     "Color": "Red"
+    },
+    "sku": "LED02WHD-WLRED2S",
+    "price": 389
+   },
+   {
+    "options": {
+     "Color": "Warm White"
+    },
+    "sku": "LED02WHD-WL30K2S",
+    "price": 389
+   },
+   {
+    "options": {
+     "Color": "Natural White"
+    },
+    "sku": "LED02WHD-WL40K2S",
+    "price": 389
+   },
+   {
+    "options": {
+     "Color": "Cool White"
+    },
+    "sku": "LED02WHD-WL65K2S",
+    "price": 389
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/decorwalllights.jpg?v=1785240491"
+  }
+ },
+ {
+  "id": "raya-candle-wall-light",
+  "title": "Raya Candle Wall Lights",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "Indoor Light",
+   "Lighting",
+   "Wall Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Type": "Single"
+    },
+    "sku": "LED1X1HD-RAYACANDL",
+    "price": 1212
+   },
+   {
+    "options": {
+     "Type": "Twin"
+    },
+    "sku": "LED2X1HD-RAYACTWIN",
+    "price": 2148
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Artboard1_8edb7648-409b-4d69-8182-25dba24a1e39.png?v=1784287327"
+  }
+ },
+ {
+  "id": "raya-curve-wall-light",
+  "title": "Raya Curve Wall Lights",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "Indoor Light",
+   "Lighting",
+   "Wall Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Type": "Single"
+    },
+    "sku": "LED1X1HD-RAYACRTW",
+    "price": 1304
+   },
+   {
+    "options": {
+     "Type": "Twin"
+    },
+    "sku": "LED2X1HD-RAYACURVE",
+    "price": 2454
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/LED2X1HD-RAYACRTW_1.png?v=1779168975"
+  }
+ },
+ {
+  "id": "raya-glow-wall-light",
+  "title": "Raya Glow Wall Lights",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "Indoor Light",
+   "Lighting",
+   "Wall Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Type": "Single"
+    },
+    "sku": "LED1X1HD-RAYAGLOW",
+    "price": 1381
+   },
+   {
+    "options": {
+     "Type": "Twin"
+    },
+    "sku": "LED2X1HD-RAYAGTWIN",
+    "price": 2569
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/LED1X1HD-RAYAGLOW_1.png?v=1779168797"
+  }
+ },
+ {
+  "id": "raya-neo-wall-light",
+  "title": "Raya Neo Wall Lights",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "Indoor Light",
+   "Lighting",
+   "Wall Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Type": "Single"
+    },
+    "sku": "LED1X1HD-RAYANEO",
+    "price": 951
+   },
+   {
+    "options": {
+     "Type": "Twin"
+    },
+    "sku": "LED2X1HD-RAYANTWIN",
+    "price": 1764
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Artboard_1_bd9c58a1-c880-4505-8f01-88dd435f8084.png?v=1784287099"
+  }
+ },
+ {
+  "id": "k-lite-mini-wall-light",
+  "title": "K-lite Mini Wall Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "2W",
+   "Cool White",
+   "Indoor Light",
+   "Lighting",
+   "Natural White",
+   "Wall Lights",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "2W",
+     "Color": "Warm White"
+    },
+    "sku": "LED02WHD-WL30K2K",
+    "price": 222
+   },
+   {
+    "options": {
+     "Wattage": "2W",
+     "Color": "Natural White"
+    },
+    "sku": "LED02WHD-WL40K2K",
+    "price": 222
+   },
+   {
+    "options": {
+     "Wattage": "2W",
+     "Color": "Cool White"
+    },
+    "sku": "LED02WHD-WL65K2K",
+    "price": 222
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/20260112_0004.png?v=1778839463"
+  }
+ },
+ {
+  "id": "razon-street-light",
+  "title": "Razon Street Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "Best Sellers Lighting",
+   "Cool White",
+   "Featured Products Lightings",
+   "Lighting",
+   "Outdoor Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "40W",
+     "Color": "Cool White"
+    },
+    "sku": "LED40WSL-65KIP65RZ",
+    "price": 954
+   },
+   {
+    "options": {
+     "Wattage": "50W",
+     "Color": "Cool White"
+    },
+    "sku": null,
+    "price": 1352
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image_0_d15b0a65-d669-41bd-bb25-01a39db062cb.png?v=1778751833"
+  }
+ },
+ {
+  "id": "orismart-led-panel-tunable-white-light-round",
+  "title": "Orismart LED Panel Tunable White Light Round",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "tags": [
+   "Ceiling Lights",
+   "led_panel_lights",
+   "Light",
+   "Lighting",
+   "Living Room Lights",
+   "Popular Picks Lighting",
+   "Smart Light"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "15W"
+    },
+    "sku": "LED15WPL-SMART2CR",
+    "price": 1099
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image0_0c60f299-7397-48b9-80b3-e0bd675e7d38.png?v=1764583868"
+  }
+ },
+ {
+  "id": "eyeluv-backlit-led-recess-panel",
+  "title": "EyeLuv Backlit LED Recess Panel",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Backlight",
+  "tags": [
+   "Ceiling Lights",
+   "Eye Luv",
+   "LED Recess Panel",
+   "led_panel_lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "10W",
+     "Color": "Warm White"
+    },
+    "sku": "LED10WPL-REC3KRFC",
+    "price": 245
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "10W",
+     "Color": "Natural White"
+    },
+    "sku": "LED10WPL-REC4KRFC",
+    "price": 245
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "10W",
+     "Color": "Cool White"
+    },
+    "sku": "LED10WPL-REC6KRFC",
+    "price": 245
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "15W",
+     "Color": "Warm White"
+    },
+    "sku": "LED15WPL-REC3KRFC",
+    "price": 362
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "15W",
+     "Color": "Natural White"
+    },
+    "sku": "LED15WPL-REC4KRFC",
+    "price": 362
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "15W",
+     "Color": "Cool White"
+    },
+    "sku": "LED15WPL-REC6KRFC",
+    "price": 362
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "20W",
+     "Color": "Warm White"
+    },
+    "sku": "LED20WPL-REC4KRFC",
+    "price": 537
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "20W",
+     "Color": "Natural White"
+    },
+    "sku": "LED20WPL-REC3KRFC",
+    "price": 537
+   },
+   {
+    "options": {
+     "Shape": "Round",
+     "Wattage": "20W",
+     "Color": "Cool White"
+    },
+    "sku": "LED20WPL-REC6KRFC",
+    "price": 537
+   },
+   {
+    "options": {
+     "Shape": "Square",
+     "Wattage": "10W",
+     "Color": "Warm White"
+    },
+    "sku": "LED10WPL-REC3KSFC",
+    "price": 245
+   },
+   {
+    "options": {
+     "Shape": "Square",
+     "Wattage": "10W",
+     "Color": "Natural White"
+    },
+    "sku": "LED10WPL-REC4KSFC",
+    "price": 245
+   },
+   {
+    "options": {
+     "Shape": "Square",
+     "Wattage": "10W",
+     "Color": "Cool White"
+    },
+    "sku": "LED10WPL-REC6KSFC",
+    "price": 245
+   },
+   {
+    "options": {
+     "Shape": "Square",
+     "Wattage": "15W",
+     "Color": "Warm White"
+    },
+    "sku": "LED15WPL-REC3KSFC",
+    "price": 362
+   },
+   {
+    "options": {
+     "Shape": "Square",
+     "Wattage": "15W",
+     "Color": "Natural White"
+    },
+    "sku": "LED15WPL-REC4KSFC",
+    "price": 362
+   },
+   {
+    "options": {
+     "Shape": "Square",
+     "Wattage": "15W",
+     "Color": "Cool White"
+    },
+    "sku": "LED15WPL-REC6KSFC",
+    "price": 362
+   },
+   {
+    "options": {
+     "Shape": "Square",
+     "Wattage": "20W",
+     "Color": "Warm White"
+    },
+    "sku": "LED20WPL-REC4KSFC",
+    "price": 537
+   },
+   {
+    "options": {
+     "Shape": "Square",
+     "Wattage": "20W",
+     "Color": "Natural White"
+    },
+    "sku": "LED20WPL-REC6KSFC",
+    "price": 537
+   },
+   {
+    "options": {
+     "Shape": "Square",
+     "Wattage": "20W",
+     "Color": "Cool White"
+    },
+    "sku": "LED20WPL-REC3KSFC",
+    "price": 537
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image0_79c642b8-52da-46d1-83f6-761fc6f35436.jpg?v=1762944718"
+  }
+ },
+ {
+  "id": "led-cob-spot-light",
+  "title": "LED COB Spot Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "3W",
+   "6W",
+   "9W",
+   "Adjustable / Swivel",
+   "Ceiling Lights",
+   "Cool White",
+   "Lighting",
+   "Natural White",
+   "Recessed",
+   "Round",
+   "Spot Light",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W",
+     "Color": "Warm White"
+    },
+    "sku": "LED03WDL-COB30KRDE",
+    "price": 149
+   },
+   {
+    "options": {
+     "Wattage": "3W",
+     "Color": "Natural White"
+    },
+    "sku": "LED03WDL-COB40KRDE",
+    "price": 149
+   },
+   {
+    "options": {
+     "Wattage": "3W",
+     "Color": "Cool White"
+    },
+    "sku": "LED03WDL-COB60KRDE",
+    "price": 149
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "LED06WDL-COB30KRDE",
+    "price": 190
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Natural White"
+    },
+    "sku": "LED06WDL-COB40KRDE",
+    "price": 190
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Cool White"
+    },
+    "sku": "LED06WDL-COB60KRDE",
+    "price": 190
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Color": "Warm White"
+    },
+    "sku": "LED9WDL-COB30KRDE",
+    "price": 290
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Color": "Natural White"
+    },
+    "sku": "LED9WDL-COB40KRDE",
+    "price": 290
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Color": "Cool White"
+    },
+    "sku": "LED9WDL-COB60KRDE",
+    "price": 290
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Artboard1_76312bde-dea3-4222-bc22-3f43adc5553c.png?v=1756889443"
+  }
+ },
+ {
+  "id": "prism-neo-led-cob-downlighter",
+  "title": "Prism Neo LED COB Downlighter",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "12W",
+   "1440 Lumen",
+   "18W",
+   "480 Lumen",
+   "6W",
+   "960 Lumen",
+   "Black",
+   "Ceiling Lights",
+   "COB Downlighter",
+   "Cool White",
+   "Crimson Black",
+   "Downlighter",
+   "LED Recess Panel",
+   "led_down_lights",
+   "Metallic Black Gold",
+   "Natural White",
+   "Outdoor Light",
+   "Recess Panel",
+   "Recessed",
+   "Rose Gold",
+   "Round",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Reflector": "Rose Gold",
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "LED06WDL-COB30KNRG",
+    "price": 443
+   },
+   {
+    "options": {
+     "Reflector": "Rose Gold",
+     "Wattage": "6W",
+     "Color": "Natural White"
+    },
+    "sku": "LED06WDL-COB40KNRG",
+    "price": 443
+   },
+   {
+    "options": {
+     "Reflector": "Rose Gold",
+     "Wattage": "6W",
+     "Color": "Cool White"
+    },
+    "sku": "LED06WDL-COB60KNRG",
+    "price": 443
+   },
+   {
+    "options": {
+     "Reflector": "Rose Gold",
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WDL-COB30KNRG",
+    "price": 604
+   },
+   {
+    "options": {
+     "Reflector": "Rose Gold",
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WDL-COB40KNRG",
+    "price": 604
+   },
+   {
+    "options": {
+     "Reflector": "Rose Gold",
+     "Wattage": "12W",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WDL-COB60KNRG",
+    "price": 604
+   },
+   {
+    "options": {
+     "Reflector": "Rose Gold",
+     "Wattage": "18W",
+     "Color": "Warm White"
+    },
+    "sku": "LED18WDL-COB30KNRG",
+    "price": 805
+   },
+   {
+    "options": {
+     "Reflector": "Rose Gold",
+     "Wattage": "18W",
+     "Color": "Natural White"
+    },
+    "sku": "LED18WDL-COB40KNRG",
+    "price": 805
+   },
+   {
+    "options": {
+     "Reflector": "Rose Gold",
+     "Wattage": "18W",
+     "Color": "Cool White"
+    },
+    "sku": "LED18WDL-COB60KNRG",
+    "price": 805
+   },
+   {
+    "options": {
+     "Reflector": "Black",
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "LED06WDL-COB30KNBL",
+    "price": 443
+   },
+   {
+    "options": {
+     "Reflector": "Black",
+     "Wattage": "6W",
+     "Color": "Natural White"
+    },
+    "sku": "LED06WDL-COB40KNBL",
+    "price": 443
+   },
+   {
+    "options": {
+     "Reflector": "Black",
+     "Wattage": "6W",
+     "Color": "Cool White"
+    },
+    "sku": "LED06WDL-COB60KNBL",
+    "price": 443
+   },
+   {
+    "options": {
+     "Reflector": "Black",
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WDL-COB30KNBL",
+    "price": 604
+   },
+   {
+    "options": {
+     "Reflector": "Black",
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WDL-COB40KNBL",
+    "price": 604
+   },
+   {
+    "options": {
+     "Reflector": "Black",
+     "Wattage": "12W",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WDL-COB60KNBL",
+    "price": 604
+   },
+   {
+    "options": {
+     "Reflector": "Black",
+     "Wattage": "18W",
+     "Color": "Warm White"
+    },
+    "sku": "LED18WDL-COB30KNBL",
+    "price": 805
+   },
+   {
+    "options": {
+     "Reflector": "Black",
+     "Wattage": "18W",
+     "Color": "Natural White"
+    },
+    "sku": "LED18WDL-COB40KNBL",
+    "price": 805
+   },
+   {
+    "options": {
+     "Reflector": "Black",
+     "Wattage": "18W",
+     "Color": "Cool White"
+    },
+    "sku": "LED18WDL-COB60KNBL",
+    "price": 805
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/primaryimage.png?v=1756720572"
+  }
+ },
+ {
+  "id": "led-rainbow-recess-panel-round",
+  "title": "LED Rainbow Recess Panel (Round)",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "tags": [
+   "10W-20W",
+   "12W",
+   "Blue",
+   "Ceiling Lights",
+   "Flush / Surface Mount",
+   "Green",
+   "LED Recess Panel",
+   "Lighting",
+   "Multicolour",
+   "Panels",
+   "Pink",
+   "Recess Panel",
+   "Round",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "White & Blue"
+    },
+    "sku": "LED12WPL-RECRNBWB",
+    "price": 499
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "White & Green"
+    },
+    "sku": "LED12WPL-RECRNBWG",
+    "price": 499
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "White & PGB"
+    },
+    "sku": "LED12WPL-RECRNBMC",
+    "price": 499
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "White & Warm White"
+    },
+    "sku": "LED12WPL-RECRNBWW",
+    "price": 499
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "White & Pink"
+    },
+    "sku": "LED12WPL-RECRNBWP",
+    "price": 499
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Artboard1_e24c3c06-7173-464a-bffd-23b63686684f.png?v=1756965552"
+  }
+ },
+ {
+  "id": "moon-lite-led-downlighter-mini",
+  "title": "MOON LITE LED Downlighter (Mini)",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "5W",
+   "Blue",
+   "Ceiling Lights",
+   "Downlighter",
+   "Green",
+   "led_down_lights",
+   "Less than 10W",
+   "Lighting",
+   "Natural White",
+   "Pink",
+   "Red",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Warm White"
+    },
+    "sku": "LED05WDL-MON30KMIN",
+    "price": 110
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Natural White"
+    },
+    "sku": "LED05WDL-MON40KMIN",
+    "price": 110
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Blue"
+    },
+    "sku": "LED05WDL-MONBLUMIN",
+    "price": 110
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Green"
+    },
+    "sku": "LED05WDL-MONGREMIN",
+    "price": 110
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Red"
+    },
+    "sku": "LED05WDL-MONREDMIN",
+    "price": 110
+   },
+   {
+    "options": {
+     "Wattage": "5W",
+     "Color": "Pink"
+    },
+    "sku": "LED05WDL-MONPINMIN",
+    "price": 110
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/1_1f786aff-bb2e-45b6-9a55-e57910b39599.png?v=1728973395"
+  }
+ },
+ {
+  "id": "eternal-backlit-led-recess-panel-round",
+  "title": "Eternal Backlit LED Recess Panel Round",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Backlight",
+  "tags": [
+   "10W",
+   "10W-20W",
+   "15W",
+   "Ceiling Lights",
+   "Cool White",
+   "Kitchen Lights",
+   "led_panel_lights",
+   "Natural White",
+   "Panels",
+   "Recessed",
+   "Round",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Warm White"
+    },
+    "sku": "LED10WPL-REC30KRDT",
+    "price": 222
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Natural White"
+    },
+    "sku": "LED10WPL-REC40KRDT",
+    "price": 222
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Cool White"
+    },
+    "sku": "LED10WPL-REC60KRDT",
+    "price": 222
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Warm White"
+    },
+    "sku": "LED15WPL-REC30KRDT",
+    "price": 345
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Natural White"
+    },
+    "sku": "LED15WPL-REC40KRDT",
+    "price": 345
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Cool White"
+    },
+    "sku": "LED15WPL-REC60KRDT",
+    "price": 345
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image0_dd31170b-179a-41a8-a84e-8e0f576736b0.jpg?v=1728973330"
+  }
+ },
+ {
+  "id": "eternal-backlit-led-recess-panel-square",
+  "title": "Eternal Backlit LED Recess Panel Square Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Backlight",
+  "tags": [
+   "10W",
+   "10W-20W",
+   "15W",
+   "Ceiling Lights",
+   "Cool White",
+   "LED Recess Panel",
+   "led_panel_lights",
+   "Natural White",
+   "Panels",
+   "Recess Panel",
+   "Recessed",
+   "Square",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Warm White"
+    },
+    "sku": "LED10WPL-REC30KSQT",
+    "price": 222
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Natural White"
+    },
+    "sku": "LED10WPL-REC40KSQT",
+    "price": 222
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Cool White"
+    },
+    "sku": "LED10WPL-REC60KSQT",
+    "price": 222
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Warm White"
+    },
+    "sku": "LED15WPL-REC30KSQT",
+    "price": 345
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Natural White"
+    },
+    "sku": "LED15WPL-REC40KSQT",
+    "price": 345
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Cool White"
+    },
+    "sku": "LED15WPL-REC60KSQT",
+    "price": 345
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image0_516c610c-854b-41e9-b647-a5e856eb903f.jpg?v=1728973280"
+  }
+ },
+ {
+  "id": "led-magnelite-track-light",
+  "title": "LED Magnelite Track Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "10W",
+   "10W-20W",
+   "15W",
+   "20W",
+   "7W",
+   "Ceiling Lights",
+   "Less than 10W",
+   "Lighting",
+   "Natural White",
+   "Track Light",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Warm White"
+    },
+    "sku": "LED07WDL-COB3KMAGT",
+    "price": 844
+   },
+   {
+    "options": {
+     "Wattage": "7W",
+     "Color": "Natural White"
+    },
+    "sku": "LED07WDL-COB4KMAGT",
+    "price": 844
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Warm White"
+    },
+    "sku": "LED10WDL-COB3KMAGT",
+    "price": 997
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Natural White"
+    },
+    "sku": "LED10WDL-COB4KMAGT",
+    "price": 997
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Warm White"
+    },
+    "sku": "LED15WDL-COB3KMAGT",
+    "price": 1151
+   },
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Natural White"
+    },
+    "sku": "LED15WDL-COB4KMAGT",
+    "price": 1151
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Color": "Warm White"
+    },
+    "sku": "LED20WDL-COB3KMAGT",
+    "price": 1304
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Color": "Natural White"
+    },
+    "sku": "LED20WDL-COB4KMAGT",
+    "price": 1304
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/1_2aec59c0-5fac-4c7d-b9da-3fc98c74b7c4.png?v=1728973200"
+  }
+ },
+ {
+  "id": "magnelite-linear-led-light",
+  "title": "Magnelite Linear LED Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "10W",
+   "10W-20W",
+   "20W",
+   "Ceiling Lights",
+   "Natural White",
+   "Track Light",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Warm White"
+    },
+    "sku": "LED10WDL-COB3KMAGL",
+    "price": 614
+   },
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Natural White"
+    },
+    "sku": "LED10WDL-COB4KMAGL",
+    "price": 614
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Color": "Warm White"
+    },
+    "sku": "LED20WDL-COB3KMAGL",
+    "price": 1151
+   },
+   {
+    "options": {
+     "Wattage": "20W",
+     "Color": "Natural White"
+    },
+    "sku": "LED20WDL-COB4KMAGL",
+    "price": 1151
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/1_fb1bd378-7006-418a-9f96-02f611401558.png?v=1728973188"
+  }
+ },
+ {
+  "id": "magnelite-grill-magnetic-led-track-light",
+  "title": "Magnelite Grill Magnetic LED Track Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "10W-20W",
+   "12W",
+   "18W",
+   "6W",
+   "Ceiling Lights",
+   "Less than 10W",
+   "Lighting",
+   "Track Light"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "LED06WDL-COB3KMAGG",
+    "price": 537
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Natural White"
+    },
+    "sku": "LED06WDL-COB4KMAGG",
+    "price": 537
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WDL-COB3KMAGG",
+    "price": 767
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WDL-COB4KMAGG",
+    "price": 767
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Warm White"
+    },
+    "sku": "LED18WDL-COB3KMAGG",
+    "price": 959
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Natural White"
+    },
+    "sku": "LED18WDL-COB4KMAGG",
+    "price": 959
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/1_c998c3b5-678a-4bdc-92fa-2e01ea5b58e1.png?v=1728973170"
+  }
+ },
+ {
+  "id": "magnelite-fold-magnetic-led-track-light",
+  "title": "Magnelite Fold Magnetic LED Track Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Track Lights",
+  "tags": [
+   "10W-20W",
+   "12W",
+   "18W",
+   "6W",
+   "Ceiling Lights",
+   "Less than 10W",
+   "Track Light"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "LED06WDL-COB3KMAGF",
+    "price": 805
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Natural White"
+    },
+    "sku": "LED06WDL-COB4KMAGF",
+    "price": 805
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WDL-COB3KMAGF",
+    "price": 1112
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WDL-COB4KMAGF",
+    "price": 1112
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Warm White"
+    },
+    "sku": "LED18WDL-COB3KMAGF",
+    "price": 1419
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Natural White"
+    },
+    "sku": "LED18WDL-COB4KMAGF",
+    "price": 1419
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/1_58b18eb0-3bf2-4fbe-84bc-7d478516351f.png?v=1728973151"
+  }
+ },
+ {
+  "id": "prism-surface-cob-led-downlighter-warm-white",
+  "title": "Prism Surface COB LED Downlighter Focus Light Warm White",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "10W-20W",
+   "12W",
+   "6W",
+   "Ceiling Lights",
+   "COB Downlighter",
+   "Downlighter",
+   "Flush / Surface Mount",
+   "led_down_lights",
+   "Less than 10W",
+   "Lighting",
+   "Living Room Lights",
+   "Metallic Black Gold",
+   "Round",
+   "Square",
+   "Surface Panel"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Shape": "Round"
+    },
+    "sku": "LED06WDL-COB3KRDPS",
+    "price": 652
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Round"
+    },
+    "sku": "LED12WDL-COB3KRDPS",
+    "price": 920
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Shape": "Square"
+    },
+    "sku": "LED12WDL-COB3KSQPS",
+    "price": 920
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image0_9134af71-78bc-4a51-adde-8749203a8bfb.jpg?v=1728973086"
+  }
+ },
+ {
+  "id": "prism-recess-cob-led-downlighter",
+  "title": "Prism Recess COB LED Downlighter",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "10W-20W",
+   "12W",
+   "6W",
+   "Bathroom Lights",
+   "Ceiling Lights",
+   "COB Downlighter",
+   "Downlighter",
+   "led_down_lights",
+   "Less than 10W",
+   "Lighting",
+   "Living Room Lights",
+   "Metallic Black Gold",
+   "Recessed",
+   "Round",
+   "Vanity"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "LED06WDL-COB30KRDP",
+    "price": 614
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Natural White"
+    },
+    "sku": "LED06WDL-COB40KRDP",
+    "price": 614
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Cool White"
+    },
+    "sku": "LED06WDL-COB60KRDP",
+    "price": 614
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WDL-COB30KRDP",
+    "price": 974
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WDL-COB40KRDP",
+    "price": 974
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WDL-COB30KRDP",
+    "price": 974
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image0.jpg?v=1728973044"
+  }
+ },
+ {
+  "id": "prism-deep-cob-led-downlighter-3cct",
+  "title": "Prism Deep COB LED Downlighter 3CCT",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "10W-20W",
+   "12W",
+   "5W",
+   "Bathroom Lights",
+   "Ceiling Lights",
+   "COB Downlighter",
+   "Downlighter",
+   "led_down_lights",
+   "Less than 10W",
+   "Lighting",
+   "Round",
+   "Vanity"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "5W"
+    },
+    "sku": "LED05WDL-COB3CCRPD",
+    "price": 805
+   },
+   {
+    "options": {
+     "Wattage": "12W"
+    },
+    "sku": "LED12WDL-COB3CCRPD",
+    "price": 1227
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/1_7576b9a4-735e-450a-ab30-b0b02fc9d591.png?v=1728973030"
+  }
+ },
+ {
+  "id": "prism-twist-cob-downlighter-round",
+  "title": "Prism Twist Cob LED Downlighter Round",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "10W-20W",
+   "12W",
+   "18W",
+   "6W",
+   "Ceiling Lights",
+   "COB Downlighter",
+   "Cool White",
+   "Downlighter",
+   "led_down_lights",
+   "Less than 10W",
+   "Light",
+   "Lighting",
+   "Living Room Lights",
+   "Natural White",
+   "Recessed",
+   "Round",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "LED06WDL-COB30KRPT",
+    "price": 844
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Natural White"
+    },
+    "sku": "LED06WDL-COB40KRPT",
+    "price": 844
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Cool White"
+    },
+    "sku": "LED06WDL-COB60KRPT",
+    "price": 844
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WDL-COB30KRPT",
+    "price": 997
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WDL-COB40KRPT",
+    "price": 997
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WDL-COB60KRPT",
+    "price": 997
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Warm White"
+    },
+    "sku": "LED18WDL-COB30KRPT",
+    "price": 1534
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Natural White"
+    },
+    "sku": "LED18WDL-COB40KRPT",
+    "price": 1534
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Cool White"
+    },
+    "sku": "LED18WDL-COB60KRPT",
+    "price": 1534
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/6W_01c4bb24-da66-4614-8614-8d75b0e32ecc.png?v=1756982403"
+  }
+ },
+ {
+  "id": "taskline-al-led-al-batten-lbln",
+  "title": "Taskline AL LED AL Batten LBLN",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "led_battens",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "22W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "36W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0012_Taskline-AL-_1_-v1_64713d9e-516a-4b85-836a-51a59ba22397.png?v=1728972765"
+  }
+ },
+ {
+  "id": "taskline-sq-led-pc-batten",
+  "title": "Taskline SQ LED PC Batten",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "LED Batten",
+   "led_battens",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "22W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0009_Taskline-SQ-_2.png?v=1728972763"
+  }
+ },
+ {
+  "id": "edge-surface-square-ldses",
+  "title": "Edge Surface Square LDSES",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0021_Edge-surface-Square.png?v=1728972761"
+  }
+ },
+ {
+  "id": "edge-surface-round-ldser",
+  "title": "Edge Surface Round LDSER",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0022_Edge-Surface-round.png?v=1728972759"
+  }
+ },
+ {
+  "id": "edge-recess-round-ldrer",
+  "title": "Edge Recess Round LDRER",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting",
+   "Recessed"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0024_Edge-Recess-round-_2.png?v=1728972757"
+  }
+ },
+ {
+  "id": "edge-recess-square-ldres",
+  "title": "Edge Recess square LDRES",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting",
+   "Recessed"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "12W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "24W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0023_Edge-Recess-Square.png?v=1728972754"
+  }
+ },
+ {
+  "id": "1x4-hydra-recess-led-panel-36w",
+  "title": "1x4 Hydra Recess LED Panel 36W",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Title": "Default Title"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Hydra-1X4.png?v=1728972745"
+  }
+ },
+ {
+  "id": "2x2-aqua-led-surface-panel-36w",
+  "title": "2x2 Aqua LED Surface Panel 36W",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Title": "Default Title"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/bigAqua-surface-2X2.png?v=1728972697"
+  }
+ },
+ {
+  "id": "1x4-aqua-led-surface-panel-36w",
+  "title": "1x4 Aqua LED Surface Panel 36W",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Title": "Default Title"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Aqua-Surface-1X4.png?v=1728972694"
+  }
+ },
+ {
+  "id": "xline-single-side-connection-led-tubelight",
+  "title": "Xline (Single Side Connection) LED Tubelight",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "9W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/XLINE-XT_1.png?v=1728972692"
+  }
+ },
+ {
+  "id": "xline-xtdouble-side-connection-18w-led-tubelight",
+  "title": "Xline XT(Double Side Connection) 18W LED Tubelight",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Title": "Default Title"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/XLINE-XT.png?v=1728972690"
+  }
+ },
+ {
+  "id": "powerline-sp-double-side-connection-tubelight",
+  "title": "Powerline SP (Double Side Connection) Tubelight",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "15W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Powerline-SP.png?v=1728972688"
+  }
+ },
+ {
+  "id": "dline-recess-led",
+  "title": "Dline Recess LED",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "28W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "56W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/D-line_210x170_6d86267b-96a6-4390-8864-7b9d35e72f43.png?v=1728972681"
+  }
+ },
+ {
+  "id": "dline-suspended-led",
+  "title": "Dline Suspended LED",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "14W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "28W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "54W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/D-line_Revised_1_3c7dce20-cd09-4c49-a254-2cca780463d8.png?v=1728972679"
+  }
+ },
+ {
+  "id": "deco-cabinet-light",
+  "title": "Deco Cabinet Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "Bathroom Lights",
+   "custom_switch_gear",
+   "LED Batten",
+   "led_battens",
+   "Lighting",
+   "Modern Style",
+   "Vanity"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Deco-Cabinet-Light-_1.1_-_600x400_4ae19c79-6309-47b3-b74b-b5fda55d1ef3.png?v=1728972677"
+  }
+ },
+ {
+  "id": "dline-tz-led-recess",
+  "title": "Dline TZ LED Recess",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Title": "Default Title"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Dline-TZ.png?v=1728972675"
+  }
+ },
+ {
+  "id": "udline-suspended-led-up-down-light",
+  "title": "UDline Suspended LED UP Down light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "8W+20W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "16W+40W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/D-line_Revised.png?v=1728972661"
+  }
+ },
+ {
+  "id": "led-wall-washer",
+  "title": "LED Wall Washer",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "25W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/LEDWallwasher.png?v=1728972656"
+  }
+ },
+ {
+  "id": "nucleus-recess",
+  "title": "Nucleus Recess",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "3W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "6W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "10W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "15W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "25W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "30W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/NucleusRecess.png?v=1728972654"
+  }
+ },
+ {
+  "id": "nucleus-surface",
+  "title": "Nucleus Surface",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/NucleusSurface_1.png?v=1728972651"
+  }
+ },
+ {
+  "id": "xline-led-t8-tube-light-ltxl",
+  "title": "Xline LED T8 Tube light LTXL",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "9W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0005_XLINE-_1.png?v=1728972618"
+  }
+ },
+ {
+  "id": "xline-xt-led-t8-tube-light-ltxl",
+  "title": "Xline XT LED T8 Tube light LTXL",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0000_XLINE-XT-_3.png?v=1728972616"
+  }
+ },
+ {
+  "id": "powerline-sp-led-t8-tubelight-ltps",
+  "title": "Powerline SP LED T8 Tubelight LTPS",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "20W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0019_Powerline-SP-_2.png?v=1728972614"
+  }
+ },
+ {
+  "id": "powerline-spxt-led-t8-tubelight-ltps",
+  "title": "Powerline SPXT LED T8 Tubelight LTPS",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0015_Powerline-SPXT-_3.png?v=1728972611"
+  }
+ },
+ {
+  "id": "sleekline-led-t5-tubelight-ltsl",
+  "title": "Sleekline LED T5 Tubelight LTSL",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "18W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Untitled-1_0014_Sleekline-_2.png?v=1728972541"
+  }
+ },
+ {
+  "id": "led-linear-dline-recess",
+  "title": "LED Linear Dline Recess",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "28W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "36W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "56W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "72W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/LED-Dline-Recess_600x400-4.png?v=1728972539"
+  }
+ },
+ {
+  "id": "led-linear-dline-tz",
+  "title": "LED Linear Dline TZ",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "28W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "56W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/LED_Linear_Dline_TZ_600x400-2.png?v=1728972537"
+  }
+ },
+ {
+  "id": "led-linear-dline-pendant",
+  "title": "LED Linear Dline Pendant",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Professional & Commercial Lighting",
+  "tags": [
+   "custom_switch_gear",
+   "Lighting",
+   "Professional Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "14W"
+    },
+    "sku": null,
+    "price": 0
+   },
+   {
+    "options": {
+     "Wattage": "28W"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/LED_Linear_Dline_TZ_600x400-4.png?v=1728972535"
+  }
+ },
+ {
+  "id": "eternal-shine-led-bulb",
+  "title": "Eternal Shine LED Bulb",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "30W",
+   "40W",
+   "50W",
+   "60W",
+   "All",
+   "Cool White",
+   "Indoor Light",
+   "LED",
+   "LED Bulb",
+   "LED Lamps",
+   "led_lamps",
+   "Lighting",
+   "Living Room Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Cool White",
+     "Wattage": "30W"
+    },
+    "sku": "LED30WBL-65KB22D",
+    "price": 439
+   },
+   {
+    "options": {
+     "Color": "Cool White",
+     "Wattage": "40W"
+    },
+    "sku": "LED40WBL-65KB22D",
+    "price": 602
+   },
+   {
+    "options": {
+     "Color": "Cool White",
+     "Wattage": "50W"
+    },
+    "sku": "LED50WBL-65KB22D",
+    "price": 758
+   },
+   {
+    "options": {
+     "Color": "Cool White",
+     "Wattage": "60W"
+    },
+    "sku": "LED60WBL-65KB22T",
+    "price": 814
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/file_1_85172e23-b0f7-48d3-8385-f02bcc24e73e.png?v=1728972453"
+  }
+ },
+ {
+  "id": "razor-led-flood-light-ip-65-weather-resistant-high-voltage-protection-1-year-warranty",
+  "title": "Razor LED Flood Light | IP-65 Weather Resistant | High Voltage Protection | 1-Year Warranty",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "100W",
+   "30W",
+   "50W",
+   "Flood Light",
+   "led_flood_lights",
+   "Light",
+   "Lighting",
+   "Outdoor Light",
+   "Outdoor Lights"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Cool White",
+     "Wattage": "30W"
+    },
+    "sku": "LED30WFL-6KIP65RZ",
+    "price": 825
+   },
+   {
+    "options": {
+     "Color": "Cool White",
+     "Wattage": "50W"
+    },
+    "sku": "LED50WFL-6KIP65RZ",
+    "price": 1100
+   },
+   {
+    "options": {
+     "Color": "Cool White",
+     "Wattage": "100W"
+    },
+    "sku": "LED100WFL-6KIP65RZ",
+    "price": 2150
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image_1_e08c0867-a555-4a94-898a-c8b9e7f11b3c.png?v=1728971995"
+  }
+ },
+ {
+  "id": "rimless-led-surface-panel-light-wide-voltage-operation-bis-certified",
+  "title": "Rimless LED Surface Panel Light | Wide Voltage Operation | BIS Certified",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "tags": [
+   "10W-20W",
+   "12W",
+   "18W",
+   "6W",
+   "Ceiling Lights",
+   "Cool White",
+   "Kitchen Lights",
+   "led_panel_lights",
+   "Less than 10W",
+   "Light",
+   "Lighting",
+   "Panels"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Cool White"
+    },
+    "sku": "LED06WPL-SUR60KRDT",
+    "price": 333
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WPL-SUR60KRDT",
+    "price": 439
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Cool White"
+    },
+    "sku": "LED18WPL-SUR60KRDT",
+    "price": 666
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/12W.png?v=1728972253"
+  }
+ },
+ {
+  "id": "emergency-led-bulb",
+  "title": "Emergency LED Bulb",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "12W",
+   "15W",
+   "8W",
+   "9W",
+   "All",
+   "B22",
+   "Featured Products Lightings",
+   "In-built Battery",
+   "LED",
+   "led_lamps",
+   "Offers Lighting Festival",
+   "Popular Picks Lighting"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "15W",
+     "Color": "Cool White"
+    },
+    "sku": "LED15WBL-EM65KB22",
+    "price": 325
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WBL-EM65KB22",
+    "price": 218
+   },
+   {
+    "options": {
+     "Wattage": "8W",
+     "Color": "Cool White"
+    },
+    "sku": "LED08WBL-EM65KB22",
+    "price": 185
+   },
+   {
+    "options": {
+     "Wattage": "9W",
+     "Color": "Cool White"
+    },
+    "sku": "LED09WBL-EM65KB22",
+    "price": 190
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/8W_Emergency_Bulb-Infographics.png?v=1719809618"
+  }
+ },
+ {
+  "id": "joylite-10-meter-120-led-rope-strip-light",
+  "title": "JoyLite 10-meter 120 LED Rope Strip Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "10m",
+   "120",
+   "All",
+   "Best Sellers Lighting",
+   "Blue",
+   "Contemporary Style",
+   "Decorative Lights",
+   "Green",
+   "Indoor Light",
+   "LED Strip Light",
+   "led_strip_lights",
+   "Off White",
+   "Outdoor Light",
+   "Pink",
+   "Rope Light",
+   "White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Blue"
+    },
+    "sku": "LED10LST-120LBLU",
+    "price": 708
+   },
+   {
+    "options": {
+     "Color": "Green"
+    },
+    "sku": "LED10LST-120LGRE",
+    "price": 708
+   },
+   {
+    "options": {
+     "Color": "Pink"
+    },
+    "sku": "LED10LST-120LPINK",
+    "price": 708
+   },
+   {
+    "options": {
+     "Color": "White"
+    },
+    "sku": "LED10LST-120LWHITE",
+    "price": 708
+   },
+   {
+    "options": {
+     "Color": "Warm White"
+    },
+    "sku": "LED10LST-120LWW",
+    "price": 708
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/joylite-10-meter-120-led-rope-strip-light-orient-electric-1.png?v=1707286210"
+  }
+ },
+ {
+  "id": "eyeluv-flicker-controlled-led-bulb",
+  "title": "EYELUV Flicker Controlled LED Bulb",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "9W",
+   "All",
+   "Cool White",
+   "Eye Luv",
+   "Flicker Control",
+   "IoT Enabled",
+   "LED",
+   "LED Bulb",
+   "LED Lamp",
+   "led_lamps",
+   "Less than 10W"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "9W",
+     "Color": "Cool White"
+    },
+    "sku": "LED09WBL-65KB22FC",
+    "price": 229
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image_0-1.png?v=1762942811"
+  }
+ },
+ {
+  "id": "eternal-vivid-led-spot-light",
+  "title": "Eternal Vivid LED Spot Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "Bathroom Lights",
+   "Ceiling Lights",
+   "Featured Products Lightings",
+   "Indoor Light",
+   "Less than 10W",
+   "Round",
+   "Spot Light",
+   "Vanity",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "2W",
+     "Color": "Warm White"
+    },
+    "sku": "LED02WDL-VIV30KD",
+    "price": 39
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image0_1af5aa62-0f6a-4f30-8178-d6a9d0786ed1.png?v=1756970384"
+  }
+ },
+ {
+  "id": "backlite-trim-recess-panel-led-ceiling-light",
+  "title": "Backlite Trim Recess Panel LED Ceiling Light (Round)",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Backlight",
+  "tags": [
+   "10W-20W",
+   "12W",
+   "Ceiling Lights",
+   "Cool White",
+   "Featured Products Lightings",
+   "LED Recess Panel",
+   "led_panel_lights",
+   "Less than 10W",
+   "Panels",
+   "Recess Panel",
+   "Recessed",
+   "Round"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "LED06WPL-REC3KRDTR",
+    "price": 96
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Natural White"
+    },
+    "sku": "LED06WPL-REC4KRDTR",
+    "price": 96
+   },
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Cool White"
+    },
+    "sku": "LED06WPL-REC6KRDTR",
+    "price": 96
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Warm White"
+    },
+    "sku": "LED12WPL-REC3KRDTR",
+    "price": 140
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Natural White"
+    },
+    "sku": "LED12WPL-REC4KRDTR",
+    "price": 140
+   },
+   {
+    "options": {
+     "Wattage": "12W",
+     "Color": "Cool White"
+    },
+    "sku": "LED12WPL-REC6KRDTR",
+    "price": 140
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Warm White"
+    },
+    "sku": "LED18WPL-REC3KRDTR",
+    "price": 214
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Natural White"
+    },
+    "sku": "LED18WPL-REC4KRDTR",
+    "price": 214
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Cool White"
+    },
+    "sku": "LED18WPL-REC6KRDTR",
+    "price": 214
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/backlite-trim-recess-panel-led-ceiling-light-orient-electric-1.png?v=1696835274"
+  }
+ },
+ {
+  "id": "eternal-moonlite-led-concealed-downlight",
+  "title": "Eternal Moonlite LED Concealed / Downlight",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "Ceiling Lights",
+   "Downlighter",
+   "Featured Products Lightings",
+   "Indoor Light",
+   "Less than 10W",
+   "Multicolour",
+   "Round"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "5W",
+     "Color": "Cool White"
+    },
+    "sku": "LED05WDL-MON65KMIN",
+    "price": 63
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/eternal-moonlite-led-concealed-downlight-orient-electric-1.png?v=1696835252"
+  }
+ },
+ {
+  "id": "joylite-5-meter-120-led-rope-strip-light",
+  "title": "JoyLite 5-meter 120 LED Rope Strip Profile Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Street & Outdoor Lights",
+  "tags": [
+   "120",
+   "5m",
+   "All",
+   "Blue",
+   "Contemporary Style",
+   "Decorative Lights",
+   "Green",
+   "Indoor Light",
+   "LED Strip Light",
+   "led_strip_lights",
+   "Less than 10W",
+   "Lighting",
+   "Offers All",
+   "Offers Lighting Festival",
+   "Outdoor Light",
+   "Red",
+   "Rope Light",
+   "Wall Mount",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Color": "Warm White"
+    },
+    "sku": "LED05LST-120LWW",
+    "price": 378
+   },
+   {
+    "options": {
+     "Color": "Pink"
+    },
+    "sku": "LED05LST-120LPINK",
+    "price": 378
+   },
+   {
+    "options": {
+     "Color": "Green"
+    },
+    "sku": "LED05LST-120LGRE",
+    "price": 378
+   },
+   {
+    "options": {
+     "Color": "Blue"
+    },
+    "sku": "LED05LST-120LBLU",
+    "price": 378
+   },
+   {
+    "options": {
+     "Color": "White"
+    },
+    "sku": "LED05LST-120LWHITE",
+    "price": 378
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/yellow_00000_1.png?v=1728968207"
+  }
+ },
+ {
+  "id": "eternal-shine-led-strip-light-60-leds",
+  "title": "Eternal Shine LED Strip Light 60 LEDs",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Wall Lights",
+  "tags": [
+   "60",
+   "Amber",
+   "Best Sellers Lighting",
+   "Blue",
+   "Decorative Lights",
+   "Green",
+   "Indoor Light",
+   "LED Strip Light",
+   "led_strip_lights",
+   "More than 20W",
+   "Offers Lighting",
+   "Offers Lighting Festival",
+   "Pink",
+   "Popular Picks Lighting",
+   "Red",
+   "Rope Light",
+   "Under Cabinet Lighting",
+   "Wall Mount",
+   "Warm White",
+   "White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "24W",
+     "Color": "Warm White"
+    },
+    "sku": "LED24WST-30K5MT",
+    "price": 171
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/eternal-shine-led-strip-light-60-leds-orient-electric-1.png?v=1696835049"
+  }
+ },
+ {
+  "id": "rainbow-led-recess-panel-white-warm-white-white-blue-white-green-white-pink-white-pgb",
+  "title": "Rainbow LED Recess Panel",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "tags": [
+   "6W",
+   "Ceiling Lights",
+   "False Ceiling: Low Height (<60 mm)",
+   "Featured Products Lightings",
+   "LED Recess Panel",
+   "led_panel_lights",
+   "Less than 10W",
+   "Living Room Lights",
+   "Multicolour",
+   "Panels",
+   "Recess Panel",
+   "Recessed",
+   "Round",
+   "White Blue"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "6W",
+     "Color": "White Blue"
+    },
+    "sku": "LED06WPL-RECRNBWB",
+    "price": 197
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/rainbow-led-recess-panel-orient-electric-1.png?v=1696835037"
+  }
+ },
+ {
+  "id": "motion-sensor-led-bulb",
+  "title": "Motion Sensor LED Bulb",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "10W-20W",
+   "All",
+   "Amazon Alexa",
+   "B22",
+   "Best Sellers Lighting",
+   "Cool White",
+   "Google Assistant",
+   "IoT Enabled",
+   "LED",
+   "LED Bulb",
+   "led_lamps",
+   "Motion Sensor",
+   "Offers Lighting Festival"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "10W",
+     "Color": "Cool White"
+    },
+    "sku": "LED10WBL-65KB22MS",
+    "price": 181
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Artboard2copy.png?v=1756960319"
+  }
+ },
+ {
+  "id": "moodlight-led-recess-panel-3cct-cool-white-warm-white-natural-white",
+  "title": "Moodlight LED Recess Panel 3CCT (Cool White, Warm White, Natural White)",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Panel Lights",
+  "tags": [
+   "10W",
+   "10W-20W",
+   "15W",
+   "Ceiling Lights",
+   "False Ceiling: Low Height (<60 mm)",
+   "Featured Products Lightings",
+   "Kitchen Lights",
+   "LED Recess Panel",
+   "led_panel_lights",
+   "Living Room Lights",
+   "Multicolour",
+   "Offers Lighting Festival",
+   "Panels",
+   "Recess Panel",
+   "Recessed",
+   "Round",
+   "Square",
+   "Surface Panel"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "10W",
+     "Style": "Round"
+    },
+    "sku": "LED10WPL-REC3CCTRD",
+    "price": 203
+   },
+   {
+    "options": {
+     "Size": "15W",
+     "Style": "Square"
+    },
+    "sku": "LED15WPL-REC3CCTSQ",
+    "price": 286
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/moodlight-led-recess-panel-3cct-cool-white-warm-white-natural-white-orient-electric-1.png?v=1696835037"
+  }
+ },
+ {
+  "id": "up-down-deco-led-wall-light",
+  "title": "Up Down Deco LED Wall Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "1 Light",
+   "Downlighter",
+   "Indoor Light",
+   "Less than 10W",
+   "Popular Picks Lighting",
+   "Wall Lights",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "5W",
+     "Color": "Warm White"
+    },
+    "sku": "LED05WHD-WL30K2S",
+    "price": 512
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/up-down-deco-led-wall-light-orient-electric-1.png?v=1696835037"
+  }
+ },
+ {
+  "id": "eternal-high-glo-led-bulb",
+  "title": "Eternal High Glo LED Bulb",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "LED Bulbs & Lamps",
+  "tags": [
+   "18W",
+   "9W",
+   "All",
+   "B22",
+   "Bathroom Lights",
+   "Best Sellers Lighting",
+   "Cool White",
+   "Featured Products Lightings",
+   "LED",
+   "LED Bulb",
+   "LED Lamp",
+   "led_lamps",
+   "Less than 10W",
+   "Normal",
+   "Offers Lighting",
+   "Offers Lighting Festival"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "9W",
+     "Color": "Cool White"
+    },
+    "sku": "LED09WBL-65KB22DM",
+    "price": 44
+   },
+   {
+    "options": {
+     "Wattage": "18W",
+     "Color": "Cool White"
+    },
+    "sku": "LED18WBL-65KB22D",
+    "price": 117
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/eternal-high-glo-led-bulb-orient-electric-1.png?v=1696835028"
+  }
+ },
+ {
+  "id": "k-type-2-way-deco-led-wall-light",
+  "title": "K Type 2 Way Deco LED Wall Light",
+  "vendor": "Orient Electric",
+  "category": "Lighting",
+  "subcategory": "Downlighters & Spotlights",
+  "tags": [
+   "2 Light",
+   "Best Sellers Lighting",
+   "Downlighter",
+   "Less than 10W",
+   "Lighting",
+   "Offers All",
+   "Offers Lighting Festival",
+   "Uplighter",
+   "Wall Lights",
+   "Warm White"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Wattage": "6W",
+     "Color": "Warm White"
+    },
+    "sku": "LED06WHD-WL30KKT2S",
+    "price": 346
+   }
+  ],
+  "images": {
+   "primary": "https://cdn.shopify.com/s/files/1/0568/5166/0962/files/Image0_c0363de5-6b8e-492f-8af0-08f11520590c.png?v=1756961293"
+  }
+ }
+]

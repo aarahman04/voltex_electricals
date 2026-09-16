@@ -63,6 +63,7 @@ export default function Enquiry() {
                 src={cdnImage(getProductImage(p), 120)}
                 alt=""
                 loading="lazy"
+                decoding="async"
                 className="h-16 w-16 rounded-[7px] bg-surface object-contain mix-blend-multiply ring-1 ring-seam"
               />
             </Link>
