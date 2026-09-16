@@ -57,6 +57,16 @@ body {
   textarea {
     font-size: 16px !important;
   }
+
+  /* Touch devices have no hover state to reveal the enquiry control. Keep it
+     visible on every product card and give it enough separation from product
+     photography to remain legible at a glance. */
+  .product-card-add {
+    opacity: 1;
+    border-color: var(--color-seam-strong);
+    color: var(--color-ink);
+    box-shadow: 0 2px 8px rgba(19, 26, 36, 0.12);
+  }
 }
 
 /* -------------------------------------------------------------- type roles */
