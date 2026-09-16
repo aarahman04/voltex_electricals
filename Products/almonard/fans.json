@@ -1,0 +1,83 @@
+[
+  {
+    "id": "pedestal-air-circulators",
+    "title": "Pedestal Air Circulator",
+    "vendor": "Almonard",
+    "tags": ["industrial"],
+    "priceMin": 0,
+    "priceMax": 0,
+    "variants": [
+      { "options": { "Size": "450mm", "Color": "Green" }, "sku": null, "price": 0 },
+      { "options": { "Size": "600mm", "Color": "Green" }, "sku": null, "price": 0 },
+      { "options": { "Size": "750mm", "Color": "Green" }, "sku": null, "price": 0 }
+    ],
+    "images": {
+      "primary": "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/FlyOmRmDqYiXlCe7MoXoiyrE2DPR1zZlmyblfUER.png",
+      "gallery": [
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/FlyOmRmDqYiXlCe7MoXoiyrE2DPR1zZlmyblfUER.png",
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/06Ar6h3orWSoPaTN3sgzc9n6RVCfio6oG1838aMX.png",
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/tnP0RgPn5VKQ9voBEB2QvjADGRgMO7SPikF6jSHP.png",
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/cd9Nqbyi1pCvl6XnlYIRy5voSPr0REWC6BRV2M5n.png",
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/vk5au83UuoJFUT3Vj8XMTMUroAnqCM3ASVSDIK0I.png",
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/LE3du3GgD1d5AAfjSzDtUNmYtnmFMyhiVS3wd4X5.png"
+      ]
+    },
+    "sourceUrl": "https://almonard.co.in/productn?slug=air-circulators",
+    "category": "Fans",
+    "subcategory": "Industrial Fans",
+    "description": "Almonard's air circulators are engineered to deliver powerful and efficient air circulation in industrial and commercial settings. Ideal for factories, warehouses and large commercial areas. Guaranteed for 1 year. 3-speed settings for precise airflow control, adjustable tilt for targeted air circulation, heavy-duty aluminium alloy blades, double ball-bearing motor for relentless cooling, closed mesh guard for safe operation, adjustable height, strong streamlined pedestal for greater stability.",
+    "specs": [
+      { "label": "Sweep", "value": "450mm (18\") / 600mm (24\") / 750mm (30\")" },
+      { "label": "Voltage", "value": "230 V" },
+      { "label": "Frequency", "value": "50 Hz" },
+      { "label": "Power consumption", "value": "100 W / 180 W / 250 W" },
+      { "label": "Speed", "value": "1440 RPM" },
+      { "label": "Phase", "value": "Single" },
+      { "label": "Air delivery", "value": "150 / 270 / 400 m³/min" },
+      { "label": "Blades", "value": "3" },
+      { "label": "Guarantee", "value": "1 year" },
+      { "label": "Ideal for", "value": "Factories, warehouses, large commercial areas" }
+    ],
+    "quality": "rich"
+  },
+  {
+    "id": "wall-air-circulators",
+    "title": "Wall Air Circulator",
+    "vendor": "Almonard",
+    "tags": ["industrial"],
+    "priceMin": 0,
+    "priceMax": 0,
+    "variants": [
+      { "options": { "Size": "450mm", "Color": "Green" }, "sku": null, "price": 0 },
+      { "options": { "Size": "600mm", "Color": "Green" }, "sku": null, "price": 0 },
+      { "options": { "Size": "750mm", "Color": "Green" }, "sku": null, "price": 0 }
+    ],
+    "images": {
+      "primary": "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/FlyOmRmDqYiXlCe7MoXoiyrE2DPR1zZlmyblfUER.png",
+      "gallery": [
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/FlyOmRmDqYiXlCe7MoXoiyrE2DPR1zZlmyblfUER.png",
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/06Ar6h3orWSoPaTN3sgzc9n6RVCfio6oG1838aMX.png",
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/tnP0RgPn5VKQ9voBEB2QvjADGRgMO7SPikF6jSHP.png",
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/cd9Nqbyi1pCvl6XnlYIRy5voSPr0REWC6BRV2M5n.png",
+        "https://site91188-9e4hjg.scloudsite101.com/storage/uploads/vk5au83UuoJFUT3Vj8XMTMUroAnqCM3ASVSDIK0I.png"
+      ]
+    },
+    "sourceUrl": "https://almonard.co.in/productn?slug=air-circulators-1",
+    "category": "Fans",
+    "subcategory": "Industrial Fans",
+    "description": "Almonard's air circulators are engineered to deliver powerful and efficient air circulation in industrial and commercial settings. Ideal for factories, warehouses and large commercial areas. Guaranteed for 1 year. 3-speed settings for precise airflow control, adjustable tilt for targeted air circulation, heavy-duty aluminium alloy blades, double ball-bearing motor for relentless cooling, closed mesh guard for safe operation.",
+    "specs": [
+      { "label": "Sweep", "value": "450mm (18\") / 600mm (24\") / 750mm (30\")" },
+      { "label": "Voltage", "value": "230 V" },
+      { "label": "Frequency", "value": "50 Hz" },
+      { "label": "Power consumption", "value": "100 W / 180 W / 250 W" },
+      { "label": "Speed", "value": "1440 RPM" },
+      { "label": "Phase", "value": "Single" },
+      { "label": "Air delivery", "value": "150 / 270 / 400 m³/min" },
+      { "label": "Blades", "value": "3" },
+      { "label": "Guarantee", "value": "1 year" },
+      { "label": "Ideal for", "value": "Factories, warehouses, large commercial areas" }
+    ],
+    "quality": "rich"
+  }
+]

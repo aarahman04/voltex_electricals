@@ -46,9 +46,11 @@ export const SUBCATEGORY_ORDER = {
   ],
   Lighting: [
     "Panel Lights",
+    "Surface Lights",
     "Ceiling Lights",
     "Downlighters & Spotlights",
     "Battens",
+    "Linear Lights",
     "LED Bulbs & Lamps",
     "COB LED",
     "Backlight",
