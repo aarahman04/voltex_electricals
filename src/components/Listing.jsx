@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSearchParams } from "react-router-dom";
-import { hasOptionValue } from "../data/products.js";
+import { hasOptionValue, matchesQuery } from "../data/products.js";
 import { displayTitle } from "../lib/specSummary.js";
 import FilterPanel from "./FilterPanel.jsx";
 import ProductCard from "./ProductCard.jsx";
@@ -90,11 +90,7 @@ export default function Listing({
           return false;
         }
       }
-      if (query) {
-        const haystack =
-          `${p.title} ${p.brand} ${p.subcategory} ${(p.tags ?? []).join(" ")}`.toLowerCase();
-        if (!haystack.includes(query)) return false;
-      }
+      if (query && !matchesQuery(p, query)) return false;
       return true;
     });
 
