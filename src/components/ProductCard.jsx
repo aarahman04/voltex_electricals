@@ -68,7 +68,7 @@ function ProductCard({ product }) {
         aria-label={added ? `Remove ${title} from enquiry` : `Add ${title} to enquiry`}
         aria-pressed={added}
         onClick={() => toggle(product.uid)}
-        className={`absolute right-2.5 top-2.5 z-10 flex h-8 w-8 items-center justify-center rounded-[7px] border transition-all duration-150 ${
+        className={`product-card-add absolute right-2.5 top-2.5 z-10 flex h-8 w-8 items-center justify-center rounded-[7px] border transition-all duration-150 ${
           added
             ? "border-amber bg-amber text-surface"
             : "border-seam bg-surface text-ink-muted opacity-0 hover:border-seam-strong hover:text-ink focus-visible:opacity-100 group-hover:opacity-100"
