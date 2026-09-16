@@ -16,12 +16,12 @@ export default function ProductCard({ product }) {
   const tone = productTone(product);
 
   return (
-    <article className="group relative flex flex-col overflow-hidden rounded-[12px] border border-seam bg-surface transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:shadow-[0_16px_36px_-20px_rgba(19,26,36,0.35)]">
+    <article className="group relative flex h-full flex-col overflow-hidden rounded-[12px] border border-seam bg-surface transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:shadow-[0_16px_36px_-20px_rgba(19,26,36,0.35)]">
       <Link
         to={`/product/${product.uid}`}
-        className="block after:absolute after:inset-0 after:z-0 after:content-['']"
+        className="flex h-full flex-col after:absolute after:inset-0 after:z-0 after:content-['']"
       >
-        <div className="relative aspect-square overflow-hidden bg-surface p-2.5 sm:p-3.5">
+        <div className="relative aspect-square shrink-0 overflow-hidden bg-surface p-2.5 sm:p-3.5">
           {!loaded && <div className="absolute inset-0 animate-pulse bg-paper" />}
           {/* Lighting cards warm in the colour temperature that model is sold
               in, so the hover tells you what you'd be buying. Fans have no
