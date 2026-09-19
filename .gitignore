@@ -25,3 +25,4 @@ Products/*/debug_html/
 *.njsproj
 *.sln
 *.sw?
+*.exe

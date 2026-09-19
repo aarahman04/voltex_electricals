@@ -1,0 +1,987 @@
+[
+ {
+  "id": "allura-bldc-fan",
+  "title": "ALLURA BLDC Fan",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/07/IMG-20260720-WA0010.jpg"
+  }
+ },
+ {
+  "id": "artesia",
+  "title": "ARTESIA",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/07/artesia.jpg"
+  }
+ },
+ {
+  "id": "caspia-bldc",
+  "title": "Caspia BLDC",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/10/CASPIA-BROWN-1.jpg"
+  }
+ },
+ {
+  "id": "claira",
+  "title": "CLAIRA",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/07/CLAIRA.jpg"
+  }
+ },
+ {
+  "id": "curl",
+  "title": "Curl",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/12/Curl-walnut.jpg"
+  }
+ },
+ {
+  "id": "euthopia",
+  "title": "Euthopia",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/12/EUTHOPIA.jpg"
+  }
+ },
+ {
+  "id": "marissa",
+  "title": "MARISSA",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/07/MARISSA.jpg"
+  }
+ },
+ {
+  "id": "rolex",
+  "title": "Rolex LED 48″ BLDC",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/10/ROLEX_.jpg"
+  }
+ },
+ {
+  "id": "vellura",
+  "title": "VELLURA",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Sale"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/07/Wood-VELLURA-BLDC-Fan.jpg"
+  }
+ },
+ {
+  "id": "alessa",
+  "title": "Alessa",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/07/ALESSA-GLOSSY-WHITE.jpg"
+  }
+ },
+ {
+  "id": "alina-3-blades",
+  "title": "Alina 3 Blades",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/alina-brown-1.jpg"
+  }
+ },
+ {
+  "id": "ambience",
+  "title": "AMBIENCE",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/07/ambience.jpg"
+  }
+ },
+ {
+  "id": "ambiance",
+  "title": "AMBIENCE",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/ambience-teak-wood-finish.jpg"
+  }
+ },
+ {
+  "id": "angel-24",
+  "title": "Angel 24”",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "24\""
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/10/angel-antique-brass-finish.jpg"
+  }
+ },
+ {
+  "id": "arena",
+  "title": "ARENA",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/07/ARENA.jpg"
+  }
+ },
+ {
+  "id": "classic",
+  "title": "Classic",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/classic-antique-copper-finish.jpg"
+  }
+ },
+ {
+  "id": "decora",
+  "title": "Decora",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/decore-glossy-white.jpg"
+  }
+ },
+ {
+  "id": "desire",
+  "title": "Desire",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/desire-antique-brass-wiith-out-light.jpg"
+  }
+ },
+ {
+  "id": "elegance",
+  "title": "Elegance",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/elegance-brass-housing-with-walnut-finish-blades.jpg"
+  }
+ },
+ {
+  "id": "eleque",
+  "title": "Eleque",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/08/Eleque-1.jpeg"
+  }
+ },
+ {
+  "id": "emperor",
+  "title": "Emperor",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/emperor-antique-copper-housing-with-walnut-finish-blades.jpg"
+  }
+ },
+ {
+  "id": "imperia-6-blade",
+  "title": "IMPERIA 6-BLADE",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/07/imperia.jpg"
+  }
+ },
+ {
+  "id": "legend",
+  "title": "Legend",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/12/legend-antique-brass-finish.jpg"
+  }
+ },
+ {
+  "id": "luminaire-6-blades",
+  "title": "Luminaire 6 Blades",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/10/Luminaire_ROSE-GOLD.jpg"
+  }
+ },
+ {
+  "id": "platina",
+  "title": "Platina",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/Platina-Antique-Brass-Finish-1.jpg"
+  }
+ },
+ {
+  "id": "stella",
+  "title": "Stella",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/STELLA-Pearl-brown-with-Coffee-bean-finish.jpg"
+  }
+ },
+ {
+  "id": "stevia-2",
+  "title": "Stevia",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2024/12/Stevia-1400mm-Matt-White.jpg"
+  }
+ },
+ {
+  "id": "stevia",
+  "title": "STEVIA – Launching soon",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/12/STEVIA_ANTIQUE-BRASS-WITH-WALNUT-BLADES.jpg"
+  }
+ },
+ {
+  "id": "trendz",
+  "title": "Trendz",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/Trendz-antique-copper-finish.jpg"
+  }
+ },
+ {
+  "id": "venus",
+  "title": "Venus",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/12/venus-anitque-brass-housing-with-walnut-finish-blades.jpg"
+  }
+ },
+ {
+  "id": "victor-plus",
+  "title": "Victor Plus",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2024/12/Victor-Plus-BLDC-1200mm-Brass-with-Walnut-Wood.jpg"
+  }
+ },
+ {
+  "id": "victorian",
+  "title": "Victorian",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/victorian-antique-brass-finish.jpg"
+  }
+ },
+ {
+  "id": "aira",
+  "title": "Aira",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/fd1f3998-ec0d-45a5-bead-408b7622a89b.jpg"
+  }
+ },
+ {
+  "id": "ce-vent",
+  "title": "CE Vent – 200MM",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "200MM"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/c-vent-white-side.jpg"
+  }
+ },
+ {
+  "id": "ce-vent-with-grill",
+  "title": "CE Vent with Grill",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/CE-VENT-GRILL.jpg"
+  }
+ },
+ {
+  "id": "ce-vent-with-light",
+  "title": "Ce Vent With Light",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/CE-VENT-LIGHT.jpg"
+  }
+ },
+ {
+  "id": "crown-axial-fan",
+  "title": "Crown Axial Fan",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/Crown-White.jpg"
+  }
+ },
+ {
+  "id": "fresho-axial-fan",
+  "title": "FRESHO AXIAL FAN",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2026/07/FRESHO-AXIAL-FAN.jpg"
+  }
+ },
+ {
+  "id": "klassique",
+  "title": "Klassique",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/KLASSIQUE.jpg"
+  }
+ },
+ {
+  "id": "lux-air-8",
+  "title": "Lux air 8”",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "8\""
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/12/LUXE-AIR-WHITE_SIDE.jpg"
+  }
+ },
+ {
+  "id": "regal-axial-fan",
+  "title": "Regal Axial Fan – 150MM",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "150MM"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/REGAL-WHITE-BREEZALIT.jpg"
+  }
+ },
+ {
+  "id": "vent-air",
+  "title": "Vent Air – 150mm",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "150mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/vent-air-white.jpg"
+  }
+ },
+ {
+  "id": "vent-air-glass-series",
+  "title": "Vent Air Glass Series 150mm",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "150mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/vent-air-glass-black.jpg"
+  }
+ },
+ {
+  "id": "vent-air-metallic-finish",
+  "title": "Vent Air Metallic Finish – 150 mm",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "150 mm",
+     "Build": "Metal"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/VENT-AIR-antique-brass.jpg"
+  }
+ },
+ {
+  "id": "vent-mini",
+  "title": "Vent Mini – 150mm",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "150mm"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/02/vent-mini-white.jpg"
+  }
+ },
+ {
+  "id": "ventillo-200mm",
+  "title": "Ventillo",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {},
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2025/01/ventillo-200-mm-white.jpg"
+  }
+ },
+ {
+  "id": "ventso-8-inch",
+  "title": "Ventso 8 inch",
+  "vendor": "Breezalit",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "8 inch"
+    },
+    "sku": null,
+    "price": 0
+   }
+  ],
+  "images": {
+   "primary": "https://breezalitfans.com/wp-content/uploads/2023/11/Ventso-8-inch.jpg"
+  }
+ }
+]

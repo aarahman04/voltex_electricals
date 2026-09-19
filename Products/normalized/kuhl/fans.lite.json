@@ -1,0 +1,1406 @@
+[
+ {
+  "id": "platin-d8",
+  "title": "Kühl PLATIN D8",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 14909
+   },
+   {
+    "options": {
+     "Size": "1500 mm"
+    },
+    "sku": null,
+    "price": 14909
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/platin/platin-d8/platin-d8-brown-1.webp"
+  }
+ },
+ {
+  "id": "luxus-c5",
+  "title": "Kühl LUXUS C5",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "With Light"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 14909
+   },
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 14909
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-c5/luxus-c5-brown-1.webp"
+  }
+ },
+ {
+  "id": "galaxis-g6",
+  "title": "Kühl GALAXIS G6",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 11129
+   },
+   {
+    "options": {
+     "Size": "1670 mm"
+    },
+    "sku": null,
+    "price": 11129
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/galaxis/galaxis-g6/galaxis-g6-white-1.webp"
+  }
+ },
+ {
+  "id": "glanz-f3",
+  "title": "Kühl GLANZ F3",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 7454
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/glanz/glanz-f3/glanz-f3-brown-1.webp"
+  }
+ },
+ {
+  "id": "prima-a3",
+  "title": "Kühl PRIMA A3",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2799
+   },
+   {
+    "options": {
+     "Size": "900 mm"
+    },
+    "sku": null,
+    "price": 2799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a3/prima-a3-brown-1.webp"
+  }
+ },
+ {
+  "id": "prima-a2",
+  "title": "Kühl PRIMA A2",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2499
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a2/prima-a2-brown-1.webp"
+  }
+ },
+ {
+  "id": "prima-a1",
+  "title": "Kühl PRIMA A1",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "900 mm"
+    },
+    "sku": null,
+    "price": 3300
+   },
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3300
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a1/prima-a1-brown-1.webp"
+  }
+ },
+ {
+  "id": "prima-a",
+  "title": "Kühl PRIMA A",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2399
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a/prima-a-brown-1.webp"
+  }
+ },
+ {
+  "id": "arctis-a1",
+  "title": "Kühl ARCTIS A1",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "600 mm"
+    },
+    "sku": null,
+    "price": 2799
+   },
+   {
+    "options": {
+     "Size": "900 mm"
+    },
+    "sku": null,
+    "price": 2799
+   },
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2799
+   },
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 2799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a1/arctis-a1-espresso-1.webp"
+  }
+ },
+ {
+  "id": "arctis-a4",
+  "title": "Kühl ARCTIS A4-DUO",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2899
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a4/arctis-a4-white-1.webp"
+  }
+ },
+ {
+  "id": "exzel-h1",
+  "title": "Kühl EXZEL H1",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [
+   "Pedestal Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "400 mm"
+    },
+    "sku": null,
+    "price": 6999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/exzel-h1/exzel-h1-white-1.webp"
+  }
+ },
+ {
+  "id": "inspira-p1",
+  "title": "Kühl INSPIRA P1",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [
+   "Pedestal Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "400 mm"
+    },
+    "sku": null,
+    "price": 4399
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-p1/inspira-p1-white-1.webp"
+  }
+ },
+ {
+  "id": "inspira-w1",
+  "title": "Kühl INSPIRA W1",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "tags": [
+   "Wall Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "400 mm"
+    },
+    "sku": null,
+    "price": 4099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-w1/inspira-w1-white-1.webp"
+  }
+ },
+ {
+  "id": "exzel-h2",
+  "title": "Kühl EXZEL H2",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [
+   "Pedestal Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "450 mm"
+    },
+    "sku": null,
+    "price": 6999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/exzel-h2/exzel-h2-black-1.webp"
+  }
+ },
+ {
+  "id": "brise-plus-e3",
+  "title": "Kühl BRISE PLUS E3",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 4999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-plus-e3/brise-plus-e3-brown-1.webp"
+  }
+ },
+ {
+  "id": "brise-star-e5",
+  "title": "Kühl BRISE STAR E5",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 4099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-star-e5/brise-star-e5-espresso-1.webp"
+  }
+ },
+ {
+  "id": "windzz-k3",
+  "title": "Kühl WINDZZ K3",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 7399
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/windzz/windzz-k3/windzz-k3-brown-1.webp"
+  }
+ },
+ {
+  "id": "juwel-j3",
+  "title": "Kühl JUWEL J3",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 4999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/juwel/juwel-j3/juwel-j3-espresso-1.webp"
+  }
+ },
+ {
+  "id": "exzel-h3",
+  "title": "Kühl EXZEL H3",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [
+   "Pedestal Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "400 mm"
+    },
+    "sku": null,
+    "price": 19109
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/exzel-h3/exzel-h3-black-1.webp"
+  }
+ },
+ {
+  "id": "arctis-a7",
+  "title": "Kühl ARCTIS A7",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2899
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a7/arctis-a7-white-1.webp"
+  }
+ },
+ {
+  "id": "inspira-t1",
+  "title": "Kühl INSPIRA T1",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Table Fans",
+  "tags": [
+   "Table Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "400 mm"
+    },
+    "sku": null,
+    "price": 3999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-t1/inspira-t1-white-1.webp"
+  }
+ },
+ {
+  "id": "prima-a5",
+  "title": "Kühl PRIMA A5",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a5/prima-a5-white-1.webp"
+  }
+ },
+ {
+  "id": "prima-a6",
+  "title": "Kühl PRIMA A6",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3199
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a6/prima-a6-white-1.webp"
+  }
+ },
+ {
+  "id": "prima-a7",
+  "title": "Kühl PRIMA A7",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Remote Control"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a7/prima-a7-white-1.webp"
+  }
+ },
+ {
+  "id": "twist-l3",
+  "title": "Kühl TWIST L3",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 9799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/twist/twist-l3/twist-l3-white-1.webp"
+  }
+ },
+ {
+  "id": "arctis-a8",
+  "title": "Kühl ARCTIS A8",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3699
+   },
+   {
+    "options": {
+     "Size": "600 mm"
+    },
+    "sku": null,
+    "price": 3699
+   },
+   {
+    "options": {
+     "Size": "900 mm"
+    },
+    "sku": null,
+    "price": 3699
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a8/arctis-a8-white-1.webp"
+  }
+ },
+ {
+  "id": "ritzz-r3",
+  "title": "Kühl RITZZ R3",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 7100
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/ritzz/ritzz-r3/ritzz-r3-brown-1.webp"
+  }
+ },
+ {
+  "id": "inspira-p2",
+  "title": "Kühl INSPIRA P2",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "tags": [
+   "Pedestal Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "450 mm"
+    },
+    "sku": null,
+    "price": 5099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-p2/inspira-p2-white-1.webp"
+  }
+ },
+ {
+  "id": "meridian-m1",
+  "title": "Kühl MERIDIAN M1",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 6899
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m1/meridian-m1-brown-1.webp"
+  }
+ },
+ {
+  "id": "hawaii",
+  "title": "Kühl HAWAII",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Table Fans",
+  "tags": [
+   "Table Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "165 mm"
+    },
+    "sku": null,
+    "price": 1899
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/desk/hawaii/hawaii-white-1.webp"
+  }
+ },
+ {
+  "id": "meridian-m2",
+  "title": "Kühl MERIDIAN M2",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 5399
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m2/meridian-m2-brown-1.webp"
+  }
+ },
+ {
+  "id": "fest-b1",
+  "title": "Kühl FEST B1",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Remote Control"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2649
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/fest/fest-b1/fest-b1-white-1.webp"
+  }
+ },
+ {
+  "id": "platin-star",
+  "title": "Kühl PLATIN STAR",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1550 mm"
+    },
+    "sku": null,
+    "price": 18499
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/platin/platin-star/platin-star-teak-1.webp"
+  }
+ },
+ {
+  "id": "luxus-plus",
+  "title": "Kühl LUXUS PLUS",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "With Light"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 18059
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-plus/luxus-plus-teak-1.webp"
+  }
+ },
+ {
+  "id": "meridian-m55",
+  "title": "Kühl MERIDIAN M55",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 6999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m55/meridian-m55-teak-1.webp"
+  }
+ },
+ {
+  "id": "galaxis-star-g6",
+  "title": "Kühl GALAXIS STAR G6",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 15854
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/galaxis/galaxis-star-g6/galaxis-star-g6-teak-1.webp"
+  }
+ },
+ {
+  "id": "luxus-star",
+  "title": "Kühl LUXUS STAR",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "With Light"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 17199
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-star/luxus-star-teak-1.webp"
+  }
+ },
+ {
+  "id": "luxus-twist",
+  "title": "Kühl LUXUS TWIST",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "With Light"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 18059
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-twist/luxus-twist-teak-1.webp"
+  }
+ },
+ {
+  "id": "luxus-super",
+  "title": "Kühl LUXUS SUPER",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "With Light"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 18059
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-super/luxus-super-teak-1.webp"
+  }
+ },
+ {
+  "id": "centauri-8",
+  "title": "Kühl CENTAURI 8",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1800 mm"
+    },
+    "sku": null,
+    "price": 28999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/centauri/centauri-8/centauri-8-teak-1.webp"
+  }
+ },
+ {
+  "id": "polariz-super-72",
+  "title": "Kühl POLARIZ SUPER 72",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1800 mm"
+    },
+    "sku": null,
+    "price": 18059
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/polariz/polariz-super-72/polariz-super-72-teak-1.webp"
+  }
+ },
+ {
+  "id": "centauri-6",
+  "title": "Kühl CENTAURI 6",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1670 mm"
+    },
+    "sku": null,
+    "price": 27799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/centauri/centauri-6/centauri-6-teak-1.webp"
+  }
+ },
+ {
+  "id": "polariz-gold-72",
+  "title": "Kühl POLARIZ GOLD 72",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1800 mm"
+    },
+    "sku": null,
+    "price": 20684
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/polariz/polariz-gold-72/polariz-gold-72-black-1.webp"
+  }
+ },
+ {
+  "id": "centauri-5",
+  "title": "Kühl CENTAURI 5",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 27799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/centauri/centauri-5/centauri-5-teak-1.webp"
+  }
+ },
+ {
+  "id": "polariz-star-66",
+  "title": "Kühl POLARIZ STAR 66",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1650 mm"
+    },
+    "sku": null,
+    "price": 18059
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/polariz/polariz-star-66/polariz-star-66-teak-1.webp"
+  }
+ },
+ {
+  "id": "ventis-6",
+  "title": "Kühl VENTIS 6\"",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "150 mm"
+    },
+    "sku": null,
+    "price": 1700
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/ventis/ventis-6/ventis-6-white-1.webp"
+  }
+ },
+ {
+  "id": "ventis-8",
+  "title": "Kühl VENTIS 8\"",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "tags": [
+   "Exhaust Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "200 mm"
+    },
+    "sku": null,
+    "price": 1700
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/ventis/ventis-8/ventis-8-white-1.webp"
+  }
+ },
+ {
+  "id": "arctis-a9",
+  "title": "Kühl ARCTIS A9",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 5299
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a9/arctis-a9-white-1.webp"
+  }
+ },
+ {
+  "id": "brise-star-duo-e5",
+  "title": "Kühl BRISE STAR E5-DUO",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 4099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-star-duo-e5/brise-star-duo-e5-espresso-1.webp"
+  }
+ },
+ {
+  "id": "fest-b2",
+  "title": "Kühl FEST B2",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Remote Control"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2749
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/fest/fest-b2/fest-b2-black-1.webp"
+  }
+ },
+ {
+  "id": "meridian-m3",
+  "title": "Kühl MERIDIAN M3",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 5899
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m3/meridian-m3-white-1.webp"
+  }
+ },
+ {
+  "id": "prima-duo-a1",
+  "title": "Kühl PRIMA A1-DUO",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-duo-a1/prima-duo-a1-white-1.webp"
+  }
+ },
+ {
+  "id": "prima-duo-a3",
+  "title": "Kühl PRIMA A3-DUO",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-duo-a3/prima-duo-a3-white-1.webp"
+  }
+ },
+ {
+  "id": "brise-star-duo-e3",
+  "title": "Kühl BRISE STAR E3-DUO",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3399
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-star-duo-e3/brise-star-duo-e3-white-1.webp"
+  }
+ },
+ {
+  "id": "meridian-m53",
+  "title": "Kühl MERIDIAN M53",
+  "vendor": "Kuhl",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 15000
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m53/meridian-m53-teak-1.webp"
+  }
+ }
+]

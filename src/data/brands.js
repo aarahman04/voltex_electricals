@@ -36,7 +36,8 @@ export const BRANDS = [
   { slug: "ace-pro", name: "ACE Pro", tint: "#E6EEF0", logo: null },
   { slug: "multifab", name: "Multifab", tint: "#EFEAE2", logo: "/brands/multifab.webp" },
   { slug: "elite", name: "Elite", tint: "#E9ECEF", logo: null },
-  { slug: "kuhl", name: "Kuhl", tint: "#E4EFEF", logo: null },
+  { slug: "kuhl", name: "Kuhl", tint: "#E6EDF5", logo: "/brands/kuhl.jpg", logoScale: 1.15 },
+  { slug: "breezalit", name: "Breezalit", tint: "#F6F1E7", logo: "/brands/breezalit.png" },
   { slug: "polycab", name: "Polycab", tint: "#EAEEE6", logo: "/brands/polycab.png" },
   { slug: "gold-medal", name: "Gold Medal", tint: "#F3EEDF", logo: null },
 ];
@@ -49,6 +50,13 @@ const VENDOR_ALIASES = {
   "professional lighting": "crompton",
   "philips lighting online store": "philips",
   "philips lighting online shop": "philips",
+  kuhl: "kuhl",
+  kühl: "kuhl",
+  khul: "kuhl",
+  breezalit: "breezalit",
+  "breezalit fans": "breezalit",
+  riza: "breezalit",
+  "riza led fans": "breezalit",
 };
 
 export function getBrandBySlug(slug) {

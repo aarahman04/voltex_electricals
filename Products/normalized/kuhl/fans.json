@@ -1,0 +1,2479 @@
+[
+ {
+  "id": "platin-d8",
+  "title": "Kühl PLATIN D8",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 14909,
+  "priceMax": 14909,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 14909
+   },
+   {
+    "options": {
+     "Size": "1500 mm"
+    },
+    "sku": null,
+    "price": 14909
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/platin/platin-d8/platin-d8-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/platin/platin-d8/platin-d8-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/platin-d8",
+  "description": "Kühl Platin D8 has whopping 8 blades to give a cool, refreshing airflow to interior spaces. It brings a royal touch to your décor with its trend-setting and magnificent beauty.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200/1500 mm"
+   },
+   {
+    "label": "Blades",
+    "value": "8"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "luxus-c5",
+  "title": "Kühl LUXUS C5",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "With Light"
+  ],
+  "priceMin": 14909,
+  "priceMax": 14909,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 14909
+   },
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 14909
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-c5/luxus-c5-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-c5/luxus-c5-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/luxus-c5",
+  "description": "Designed after combining style, technology, and design, Kühl LUXUS C5 has a night light & down light that makes your home more aesthetically pleasing.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200/1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "galaxis-g6",
+  "title": "Kühl GALAXIS G6",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 11129,
+  "priceMax": 11129,
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 11129
+   },
+   {
+    "options": {
+     "Size": "1670 mm"
+    },
+    "sku": null,
+    "price": 11129
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/galaxis/galaxis-g6/galaxis-g6-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/galaxis/galaxis-g6/galaxis-g6-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/galaxis-g6",
+  "description": "The luxurious design of Kühl Galaxis G6 Stylish Fan defines ‘modern elegance in motion’ as it has 6 blades and an artistically inspired appearance.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1400/1670 mm"
+   },
+   {
+    "label": "Blades",
+    "value": "6"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "glanz-f3",
+  "title": "Kühl GLANZ F3",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 7454,
+  "priceMax": 7454,
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 7454
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/glanz/glanz-f3/glanz-f3-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/glanz/glanz-f3/glanz-f3-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/glanz-f3",
+  "description": "Elevate your living spaces with Kühl Glanz F3 that showcases a harmonious fusion of artistry and engineering.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "prima-a3",
+  "title": "Kühl PRIMA A3",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "priceMin": 2799,
+  "priceMax": 2799,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2799
+   },
+   {
+    "options": {
+     "Size": "900 mm"
+    },
+    "sku": null,
+    "price": 2799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a3/prima-a3-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a3/prima-a3-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/prima-a3",
+  "description": "5-star rated Kühl PRIMA A3 is built with advanced BLDC technology and 28-watt motor that consumes up to 65% less power than regular induction fans.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200/900 mm"
+   },
+   {
+    "label": "Wattage",
+    "value": "28W"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "prima-a2",
+  "title": "Kühl PRIMA A2",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "priceMin": 2499,
+  "priceMax": 2499,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2499
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a2/prima-a2-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a2/prima-a2-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/prima-a2",
+  "description": "5-star rated Kühl PRIMA A2 has a BLDC motor that ensures low electricity consumption, lesser noise generation, and better lifespan.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "prima-a1",
+  "title": "Kühl PRIMA A1",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 3300,
+  "priceMax": 3300,
+  "variants": [
+   {
+    "options": {
+     "Size": "900 mm"
+    },
+    "sku": null,
+    "price": 3300
+   },
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3300
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a1/prima-a1-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a1/prima-a1-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/prima-a1",
+  "description": "Kühl PRIMA A1 is the next-gen ceiling fan built with innovative BLDC technology, delivering high-speed performance & saving up to 65% electricity.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "900/1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "prima-a",
+  "title": "Kühl PRIMA A",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "priceMin": 2399,
+  "priceMax": 2399,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2399
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a/prima-a-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a/prima-a-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/prima-a",
+  "description": "5-Star rated Kühl PRIMA A Fan is just 28-watt and comes with a revolutionary and super energy-efficient BLDC motor technology to save up to 65% electricity.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   },
+   {
+    "label": "Wattage",
+    "value": "28W"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "arctis-a1",
+  "title": "Kühl ARCTIS A1",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "priceMin": 2799,
+  "priceMax": 2799,
+  "variants": [
+   {
+    "options": {
+     "Size": "600 mm"
+    },
+    "sku": null,
+    "price": 2799
+   },
+   {
+    "options": {
+     "Size": "900 mm"
+    },
+    "sku": null,
+    "price": 2799
+   },
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2799
+   },
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 2799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a1/arctis-a1-espresso-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a1/arctis-a1-espresso-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/arctis-a1",
+  "description": "5-star rated Kuhl ARCTIS A1 is built with advanced BLDC technology which is also energy efficient and consumes up to 65% less power than regular induction fans.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "600/900/1200/1400 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "arctis-a4",
+  "title": "Kühl ARCTIS A4-DUO",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 2899,
+  "priceMax": 2899,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2899
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a4/arctis-a4-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a4/arctis-a4-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/arctis-a4",
+  "description": "The Kühl Arctis A4 is a BLDC fan that’s as smart as your home. Its next-gen BLDC motor delivers powerful and energy-efficient airflow helping you save up to 65% on electricity compared to ordinary fans.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "exzel-h1",
+  "title": "Kühl EXZEL H1",
+  "vendor": "Kuhl",
+  "tags": [
+   "Pedestal Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 6999,
+  "priceMax": 6999,
+  "variants": [
+   {
+    "options": {
+     "Size": "400 mm"
+    },
+    "sku": null,
+    "price": 6999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/exzel-h1/exzel-h1-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/exzel-h1/exzel-h1-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/exzel-h1",
+  "description": "Powered by a cutting-edge BLDC motor, this fan sports remarkable electricity savings, low noise operation, and fast cooling with high air flow.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "400 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "rawSubcategory": "Pedestal Fans"
+ },
+ {
+  "id": "inspira-p1",
+  "title": "Kühl INSPIRA P1",
+  "vendor": "Kuhl",
+  "tags": [
+   "Pedestal Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 4399,
+  "priceMax": 4399,
+  "variants": [
+   {
+    "options": {
+     "Size": "400 mm"
+    },
+    "sku": null,
+    "price": 4399
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-p1/inspira-p1-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-p1/inspira-p1-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/inspira-p1",
+  "description": "Style has never been defined in a better way than the Kuhl Inspira P1 Fans which not only enhances the style quotient but also makes it more awe-inspiring than ever.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "400 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "rawSubcategory": "Pedestal Fans"
+ },
+ {
+  "id": "inspira-w1",
+  "title": "Kühl INSPIRA W1",
+  "vendor": "Kuhl",
+  "tags": [
+   "Wall Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 4099,
+  "priceMax": 4099,
+  "variants": [
+   {
+    "options": {
+     "Size": "400 mm"
+    },
+    "sku": null,
+    "price": 4099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-w1/inspira-w1-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-w1/inspira-w1-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/inspira-w1",
+  "description": "Style has never been defined in a better way than the Kuhl Inspira W1 Fans which not only enhances the style quotient but also makes it more awe-inspiring than ever.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "400 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Wall Fans",
+  "rawSubcategory": "Wall Fans"
+ },
+ {
+  "id": "exzel-h2",
+  "title": "Kühl EXZEL H2",
+  "vendor": "Kuhl",
+  "tags": [
+   "Pedestal Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 6999,
+  "priceMax": 6999,
+  "variants": [
+   {
+    "options": {
+     "Size": "450 mm"
+    },
+    "sku": null,
+    "price": 6999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/exzel-h2/exzel-h2-black-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/exzel-h2/exzel-h2-black-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/exzel-h2",
+  "description": "Powered by a cutting-edge BLDC motor, this fan sports remarkable electricity savings, low noise operation, and fast cooling with high air flow.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "450 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "rawSubcategory": "Pedestal Fans"
+ },
+ {
+  "id": "brise-plus-e3",
+  "title": "Kühl BRISE PLUS E3",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 4999,
+  "priceMax": 4999,
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 4999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-plus-e3/brise-plus-e3-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-plus-e3/brise-plus-e3-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/brise-plus-e3",
+  "description": "Being an absolute trendy, Kühl Brise Plus E3 Stylish Fan features a classy combination of stylish finish and new-age design that’s sure to take your home décor.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "brise-star-e5",
+  "title": "Kühl BRISE STAR E5",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 4099,
+  "priceMax": 4099,
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 4099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-star-e5/brise-star-e5-espresso-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-star-e5/brise-star-e5-espresso-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/brise-star-e5",
+  "description": "The stylish Kuhl Brise Star E5 is a perfect piece to elevate the ambiance of your home with its sophisticated design and exceptional airflow capabilities.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "windzz-k3",
+  "title": "Kühl WINDZZ K3",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 7399,
+  "priceMax": 7399,
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 7399
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/windzz/windzz-k3/windzz-k3-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/windzz/windzz-k3/windzz-k3-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/windzz-k3",
+  "description": "Experience the essence of next gen innovation with Kuhl Windzz K3 fan. The fan not only gives a modern feel but also is energy efficient and easy to control.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "juwel-j3",
+  "title": "Kühl JUWEL J3",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "priceMin": 4999,
+  "priceMax": 4999,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 4999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/juwel/juwel-j3/juwel-j3-espresso-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/juwel/juwel-j3/juwel-j3-espresso-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/juwel-j3",
+  "description": "Keep your home décor, chic and stylish with our 5-star rated Kühl Juwel J3. Built with advanced BLDC technology, it consumes up to 65% less power than regular induction fans.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "exzel-h3",
+  "title": "Kühl EXZEL H3",
+  "vendor": "Kuhl",
+  "tags": [
+   "Pedestal Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 19109,
+  "priceMax": 19109,
+  "variants": [
+   {
+    "options": {
+     "Size": "400 mm"
+    },
+    "sku": null,
+    "price": 19109
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/exzel-h3/exzel-h3-black-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/exzel-h3/exzel-h3-black-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/exzel-h3",
+  "description": "The next gen desert cooler Kuhl Exzel H3, is designed to keep your living space cool with high air flow and strong ultrasonic mist technology with no water droplets.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "400 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "rawSubcategory": "Pedestal Fans"
+ },
+ {
+  "id": "arctis-a7",
+  "title": "Kühl ARCTIS A7",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 2899,
+  "priceMax": 2899,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2899
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a7/arctis-a7-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a7/arctis-a7-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/arctis-a7",
+  "description": "The Kühl Arctis A7 BLDC Fan takes air performance to the next level combining powerful performance with energy‑smart innovation. It saves up to 65% electricity.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "inspira-t1",
+  "title": "Kühl INSPIRA T1",
+  "vendor": "Kuhl",
+  "tags": [
+   "Table Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 3999,
+  "priceMax": 3999,
+  "variants": [
+   {
+    "options": {
+     "Size": "400 mm"
+    },
+    "sku": null,
+    "price": 3999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-t1/inspira-t1-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-t1/inspira-t1-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/inspira-t1",
+  "description": "Kuhl Inspira T1, a table fan which enhances the style quotient along with great energy efficiency. A classy combination of advanced features and aesthetic design that works on power.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "400 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Table Fans",
+  "rawSubcategory": "Table Fans"
+ },
+ {
+  "id": "prima-a5",
+  "title": "Kühl PRIMA A5",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 3099,
+  "priceMax": 3099,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a5/prima-a5-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a5/prima-a5-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/prima-a5",
+  "description": "Experience the perfect blend of powerful performance, efficiency and comfort with the Kühl Prima A5 BLDC Fan. With next-gen BLDC Technology, it delivers smooth and high airflow while consuming less energy up to 65% less than ordinary fans.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "prima-a6",
+  "title": "Kühl PRIMA A6",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "5 Star"
+  ],
+  "priceMin": 3199,
+  "priceMax": 3199,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3199
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a6/prima-a6-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a6/prima-a6-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/prima-a6",
+  "description": "Keep your home’s décor chic and stylish without burning a hole in your pocket by using the 5-star rated Kühl PRIMA A6. Built with advanced BLDC technology",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "prima-a7",
+  "title": "Kühl PRIMA A7",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Remote Control"
+  ],
+  "priceMin": 3099,
+  "priceMax": 3099,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a7/prima-a7-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-a7/prima-a7-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/prima-a7",
+  "description": "It also features unique built-in LED lights on the motor, providing a convenient indication of fan speed. You will also find a remote control",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "twist-l3",
+  "title": "Kühl TWIST L3",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 9799,
+  "priceMax": 9799,
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 9799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/twist/twist-l3/twist-l3-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/twist/twist-l3/twist-l3-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/twist-l3",
+  "description": "Experience the essence of elegant style and innovation with Kühl Twist L3 Fans, a mesmerising creation inspired by the science of windmills.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "arctis-a8",
+  "title": "Kühl ARCTIS A8",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 3699,
+  "priceMax": 3699,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3699
+   },
+   {
+    "options": {
+     "Size": "600 mm"
+    },
+    "sku": null,
+    "price": 3699
+   },
+   {
+    "options": {
+     "Size": "900 mm"
+    },
+    "sku": null,
+    "price": 3699
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a8/arctis-a8-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a8/arctis-a8-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/arctis-a8",
+  "description": "Kuhl Arctis fans, the fusion of style and functionality, introduces the Arctis A8 with a digital LED display to indicate the speed of your fan.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200/600/900 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "ritzz-r3",
+  "title": "Kühl RITZZ R3",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 7100,
+  "priceMax": 7100,
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 7100
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/ritzz/ritzz-r3/ritzz-r3-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/ritzz/ritzz-r3/ritzz-r3-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/ritzz-r3",
+  "description": "Discover the perfect blend of elegance and saving with Kühl Ritzz Fans, designed to add sophistication to your home.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "inspira-p2",
+  "title": "Kühl INSPIRA P2",
+  "vendor": "Kuhl",
+  "tags": [
+   "Pedestal Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 5099,
+  "priceMax": 5099,
+  "variants": [
+   {
+    "options": {
+     "Size": "450 mm"
+    },
+    "sku": null,
+    "price": 5099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-p2/inspira-p2-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/pedestal/inspira-p2/inspira-p2-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/inspira-p2",
+  "description": "Kuhl Inspira P2, a pedestal fan designed for your aesthetics and convenience. This 3 Aluminium blade 18” inch pedestal fan works only on 60 Watt power etc.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "450 mm"
+   },
+   {
+    "label": "Wattage",
+    "value": "60W"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Pedestal Fans",
+  "rawSubcategory": "Pedestal Fans"
+ },
+ {
+  "id": "meridian-m1",
+  "title": "Kühl MERIDIAN M1",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 6899,
+  "priceMax": 6899,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 6899
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m1/meridian-m1-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m1/meridian-m1-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/meridian-m1",
+  "description": "Transform your living space with Kühl Meridian Series Fans—where advanced technology meets elegant design.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "hawaii",
+  "title": "Kühl HAWAII",
+  "vendor": "Kuhl",
+  "tags": [
+   "Table Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 1899,
+  "priceMax": 1899,
+  "variants": [
+   {
+    "options": {
+     "Size": "165 mm"
+    },
+    "sku": null,
+    "price": 1899
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/desk/hawaii/hawaii-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/desk/hawaii/hawaii-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/hawaii",
+  "description": "Experience the Perfect Blend of Power and Portability with Kühl Hawaii.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "165 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Table Fans",
+  "rawSubcategory": "Table Fans"
+ },
+ {
+  "id": "meridian-m2",
+  "title": "Kühl MERIDIAN M2",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 5399,
+  "priceMax": 5399,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 5399
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m2/meridian-m2-brown-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m2/meridian-m2-brown-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/meridian-m2",
+  "description": "Kühl Meridian M2, a seamless blend of modern technology and elegant design.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "fest-b1",
+  "title": "Kühl FEST B1",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Remote Control"
+  ],
+  "priceMin": 2649,
+  "priceMax": 2649,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2649
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/fest/fest-b1/fest-b1-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/fest/fest-b1/fest-b1-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/fest-b1",
+  "description": "Kühl Fest Fan comes with revolutionary and super energy-efficient BLDC motor technology that saves electricity up to 65%. This Fan runs on just 28 W power at full speed and comes with Remote as well as Regulator.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "platin-star",
+  "title": "Kühl PLATIN STAR",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 18499,
+  "priceMax": 18499,
+  "variants": [
+   {
+    "options": {
+     "Size": "1550 mm"
+    },
+    "sku": null,
+    "price": 18499
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/platin/platin-star/platin-star-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/platin/platin-star/platin-star-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/platin-star",
+  "description": "Kühl Platin Star has whopping 8 blades to give a cool, refreshing airflow to interior spaces. It brings a royal touch to your décor with its trend-setting and magnificent...",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1550 mm"
+   },
+   {
+    "label": "Blades",
+    "value": "8"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "luxus-plus",
+  "title": "Kühl LUXUS PLUS",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "With Light"
+  ],
+  "priceMin": 18059,
+  "priceMax": 18059,
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 18059
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-plus/luxus-plus-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-plus/luxus-plus-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/luxus-plus",
+  "description": "Designed after combining style, technology, and design, Kühl LUXUS PLUS has a night light & down light that makes your home more aesthetically pleasing.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1400 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "meridian-m55",
+  "title": "Kühl MERIDIAN M55",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 6999,
+  "priceMax": 6999,
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 6999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m55/meridian-m55-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m55/meridian-m55-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/meridian-m55",
+  "description": "Kühl Meridian M55, a seamless blend of modern technology and elegant design.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1400 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "galaxis-star-g6",
+  "title": "Kühl GALAXIS STAR G6",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 15854,
+  "priceMax": 15854,
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 15854
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/galaxis/galaxis-star-g6/galaxis-star-g6-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/galaxis/galaxis-star-g6/galaxis-star-g6-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/galaxis-star-g6",
+  "description": "The luxurious design of Kühl Galaxis Star G6 Stylish Fan defines ‘modern elegance in motion’ as it has 6 blades and an artistically inspired appearance.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1400 mm"
+   },
+   {
+    "label": "Blades",
+    "value": "6"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "luxus-star",
+  "title": "Kühl LUXUS STAR",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "With Light"
+  ],
+  "priceMin": 17199,
+  "priceMax": 17199,
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 17199
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-star/luxus-star-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-star/luxus-star-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/luxus-star",
+  "description": "Designed after combining style, technology, and design, Kühl LUXUS  Star has a night light & down light that makes your home more aesthetically pleasing.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1400 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "luxus-twist",
+  "title": "Kühl LUXUS TWIST",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "With Light"
+  ],
+  "priceMin": 18059,
+  "priceMax": 18059,
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 18059
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-twist/luxus-twist-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-twist/luxus-twist-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/luxus-twist",
+  "description": "Designed after combining style, technology, and design, Kühl LUXUS TWIST has a night light & down light that makes your home more aesthetically pleasing.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "luxus-super",
+  "title": "Kühl LUXUS SUPER",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "With Light"
+  ],
+  "priceMin": 18059,
+  "priceMax": 18059,
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 18059
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-super/luxus-super-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/luxus/luxus-super/luxus-super-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/luxus-super",
+  "description": "Designed after combining style, technology, and design, Kühl LUXUS SUPER has a night light & down light that makes your home more aesthetically pleasing.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "centauri-8",
+  "title": "Kühl CENTAURI 8",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 28999,
+  "priceMax": 28999,
+  "variants": [
+   {
+    "options": {
+     "Size": "1800 mm"
+    },
+    "sku": null,
+    "price": 28999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/centauri/centauri-8/centauri-8-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/centauri/centauri-8/centauri-8-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/centauri-8",
+  "description": "Bring home unmatched elegance with the New Kühl Centauri 8, designed to redefine luxury and comfort.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1800 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "polariz-super-72",
+  "title": "Kühl POLARIZ SUPER 72",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 18059,
+  "priceMax": 18059,
+  "variants": [
+   {
+    "options": {
+     "Size": "1800 mm"
+    },
+    "sku": null,
+    "price": 18059
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/polariz/polariz-super-72/polariz-super-72-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/polariz/polariz-super-72/polariz-super-72-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/polariz-super-72",
+  "description": "Elevate your living space with the grandeur of New Kühl Polariz Super 72, a perfect blend of luxury design and advanced performance.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1800 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "centauri-6",
+  "title": "Kühl CENTAURI 6",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 27799,
+  "priceMax": 27799,
+  "variants": [
+   {
+    "options": {
+     "Size": "1670 mm"
+    },
+    "sku": null,
+    "price": 27799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/centauri/centauri-6/centauri-6-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/centauri/centauri-6/centauri-6-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/centauri-6",
+  "description": "Bring home unmatched elegance with the New Kühl Centauri 6, designed to redefine luxury and comfort.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1670 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "polariz-gold-72",
+  "title": "Kühl POLARIZ GOLD 72",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 20684,
+  "priceMax": 20684,
+  "variants": [
+   {
+    "options": {
+     "Size": "1800 mm"
+    },
+    "sku": null,
+    "price": 20684
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/polariz/polariz-gold-72/polariz-gold-72-black-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/polariz/polariz-gold-72/polariz-gold-72-black-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/polariz-gold-72",
+  "description": "Elevate your living space with the grandeur of New Kühl Polariz Gold 72, a perfect blend of luxury design and advanced performance.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1800 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "centauri-5",
+  "title": "Kühl CENTAURI 5",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 27799,
+  "priceMax": 27799,
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 27799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/centauri/centauri-5/centauri-5-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/centauri/centauri-5/centauri-5-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/centauri-5",
+  "description": "Bring home unmatched elegance with the New Kühl Centauri 5, designed to redefine luxury and comfort.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "polariz-star-66",
+  "title": "Kühl POLARIZ STAR 66",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 18059,
+  "priceMax": 18059,
+  "variants": [
+   {
+    "options": {
+     "Size": "1650 mm"
+    },
+    "sku": null,
+    "price": 18059
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/polariz/polariz-star-66/polariz-star-66-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/polariz/polariz-star-66/polariz-star-66-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/polariz-star-66",
+  "description": "Elevate your living space with the grandeur of New Kühl Polariz Star 66, a perfect blend of luxury design and advanced performance.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1650 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "ventis-6",
+  "title": "Kühl VENTIS 6\"",
+  "vendor": "Kuhl",
+  "tags": [
+   "Exhaust Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 1700,
+  "priceMax": 1700,
+  "variants": [
+   {
+    "options": {
+     "Size": "150 mm"
+    },
+    "sku": null,
+    "price": 1700
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/ventis/ventis-6/ventis-6-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/ventis/ventis-6/ventis-6-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/ventis-6",
+  "description": "Powered by advanced BLDC technology, New Kuhl ventis 6” restores freshness to your Kitchens and Bathroom.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "150 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "rawSubcategory": "Exhaust Fans"
+ },
+ {
+  "id": "ventis-8",
+  "title": "Kühl VENTIS 8\"",
+  "vendor": "Kuhl",
+  "tags": [
+   "Exhaust Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 1700,
+  "priceMax": 1700,
+  "variants": [
+   {
+    "options": {
+     "Size": "200 mm"
+    },
+    "sku": null,
+    "price": 1700
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/ventis/ventis-8/ventis-8-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/ventis/ventis-8/ventis-8-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/ventis-8",
+  "description": "Powered by advanced BLDC technology, New Kuhl ventis 8” restores freshness to your Kitchens and Bathrooms expelling stale air, excess moisture and unwanted odours.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Exhaust Fans",
+  "rawSubcategory": "Exhaust Fans"
+ },
+ {
+  "id": "arctis-a9",
+  "title": "Kühl ARCTIS A9",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 5299,
+  "priceMax": 5299,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 5299
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a9/arctis-a9-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/arctis/arctis-a9/arctis-a9-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/arctis-a9",
+  "description": "The Kühl Arctis A9 BLDC Fan doesn’t just circulate air, it transforms your space. Equipped with next-gen BLDC technology, it delivers powerful ...",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "brise-star-duo-e5",
+  "title": "Kühl BRISE STAR E5-DUO",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 4099,
+  "priceMax": 4099,
+  "variants": [
+   {
+    "options": {
+     "Size": "1320 mm"
+    },
+    "sku": null,
+    "price": 4099
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-star-duo-e5/brise-star-duo-e5-espresso-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-star-duo-e5/brise-star-duo-e5-espresso-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/brise-star-duo-e5",
+  "description": "Take air performance to the next level with the Kühl Brise Star E5-DUO BLDC Fan. Powered by next-gen BLDC technology, it delivers superior and steady airflow while consuming 65% less electricity than regular fans",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1320 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "fest-b2",
+  "title": "Kühl FEST B2",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans",
+   "Remote Control"
+  ],
+  "priceMin": 2749,
+  "priceMax": 2749,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2749
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/fest/fest-b2/fest-b2-black-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/fest/fest-b2/fest-b2-black-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/fest-b2",
+  "description": "Experience the perfect blend of efficiency, performance and style. The Kühl Fest B2 is the BLDC fan that works on revolutionary technology operating smoothly with both remote and regulator, giving you complete control over your comfort.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "meridian-m3",
+  "title": "Kühl MERIDIAN M3",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 5899,
+  "priceMax": 5899,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 5899
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m3/meridian-m3-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m3/meridian-m3-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/meridian-m3",
+  "description": "Transform your living space with the Kühl Meridian M3 BLDC Fan where performance meets style and energy savings. Equipped with next-gen BLDC technology...",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "prima-duo-a1",
+  "title": "Kühl PRIMA A1-DUO",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 2799,
+  "priceMax": 2799,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2799
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-duo-a1/prima-duo-a1-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-duo-a1/prima-duo-a1-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/prima-duo-a1",
+  "description": "The Kühl Prima A1‑DUO sets a new standard in BLDC Fans, delivering powerful airflow with next-gen BLDC technology while saving up to 65% electricity and providing superior cooling without compromise.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "prima-duo-a3",
+  "title": "Kühl PRIMA A3-DUO",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 2999,
+  "priceMax": 2999,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 2999
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-duo-a3/prima-duo-a3-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/prima/prima-duo-a3/prima-duo-a3-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/prima-duo-a3",
+  "description": "Cool your home instantly with the Kühl Prima A3‑DUO BLDC Fan. Its next-gen BLDC technology ensured strong and steady airflow while saving up to 65% electricity compared to ordinary fans.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "brise-star-duo-e3",
+  "title": "Kühl BRISE STAR E3-DUO",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 3399,
+  "priceMax": 3399,
+  "variants": [
+   {
+    "options": {
+     "Size": "1200 mm"
+    },
+    "sku": null,
+    "price": 3399
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-star-duo-e3/brise-star-duo-e3-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/brise/brise-star-duo-e3/brise-star-duo-e3-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/brise-star-duo-e3",
+  "description": "Bring style and energy efficiency to your home with the Kühl Brise Star E3-DUO Fan. Powered by next-gen BLDC technology it delivers strong and steady airflow with up to 65% on electricity compared to the ordinary fans.",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1200 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ },
+ {
+  "id": "meridian-m53",
+  "title": "Kühl MERIDIAN M53",
+  "vendor": "Kuhl",
+  "tags": [
+   "Ceiling Fans",
+   "BLDC",
+   "BLDC Fans"
+  ],
+  "priceMin": 15000,
+  "priceMax": 15000,
+  "variants": [
+   {
+    "options": {
+     "Size": "1400 mm"
+    },
+    "sku": null,
+    "price": 15000
+   }
+  ],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m53/meridian-m53-teak-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/meridian/meridian-m53/meridian-m53-teak-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/meridian-m53",
+  "description": "Transform your living space with the Kühl Meridian M53, a perfect fusion of sophisticated design",
+  "specs": [
+   {
+    "label": "Motor",
+    "value": "BLDC"
+   },
+   {
+    "label": "Sweep Size",
+    "value": "1400 mm"
+   }
+  ],
+  "quality": "rich",
+  "category": "Fans",
+  "subcategory": "Ceiling Fans",
+  "rawSubcategory": "Ceiling Fans"
+ }
+]

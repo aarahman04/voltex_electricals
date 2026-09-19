@@ -1,6 +1,6 @@
 # Data build report
 
-_2026-09-16T12:19:41.400Z_
+_2026-09-19T03:12:57.318Z_
 
 - Orient Electric: fans.json -> 100 products
 - Orient Electric: lighting.json -> 99 products
@@ -27,20 +27,22 @@ _2026-09-16T12:19:41.400Z_
   deduped: 2 duplicate uid(s) dropped
 - AO Smith: aosmithindia_gysers.csv -> 36 products (Water Geysers)
 - Wipro: wiprolighting.csv -> 119 products (Lighting)
+- Breezalit: 47 products across BLDC, Ceiling, and Exhaust fans
+- Kuhl: 60 rows -> 55 Fans, 5 parked
 
 ## Published subcategory census
 
 - **Fans / Air Circulators** — 10  (polycab 10)
-- **Fans / Ceiling Fans** — 382  (orient 68, atomberg 30, crompton 86, havells 182, polycab 16)
+- **Fans / Ceiling Fans** — 536  (orient 68, atomberg 30, crompton 86, havells 182, polycab 16, breezalit 64, kuhl 90)
 - **Fans / Decorative Fans** — 2  (orient 2)
-- **Fans / Exhaust Fans** — 112  (orient 18, atomberg 8, crompton 28, havells 56, polycab 2)
+- **Fans / Exhaust Fans** — 146  (orient 18, atomberg 8, crompton 28, havells 56, polycab 2, breezalit 30, kuhl 4)
 - **Fans / Farrata Fans** — 4  (polycab 4)
 - **Fans / Industrial Fans** — 4  (almonard 4)
 - **Fans / Kitchen Fans** — 4  (orient 4)
-- **Fans / Pedestal Fans** — 78  (orient 14, atomberg 4, crompton 12, havells 36, polycab 12)
-- **Fans / Table Fans** — 34  (orient 26, atomberg 2, crompton 2, polycab 4)
+- **Fans / Pedestal Fans** — 88  (orient 14, atomberg 4, crompton 12, havells 36, polycab 12, kuhl 10)
+- **Fans / Table Fans** — 38  (orient 26, atomberg 2, crompton 2, polycab 4, kuhl 4)
 - **Fans / Tower Fans** — 2  (orient 2)
-- **Fans / Wall Fans** — 68  (orient 10, atomberg 6, crompton 12, havells 30, polycab 10)
+- **Fans / Wall Fans** — 70  (orient 10, atomberg 6, crompton 12, havells 30, polycab 10, kuhl 2)
 - **Lighting / Backlight** — 8  (orient 8)
 - **Lighting / Battens** — 112  (crompton 28, philips 52, havells 30, multifab 2)
 - **Lighting / COB LED** — 72  (crompton 8, philips 34, havells 8, polycab 22)
@@ -66,7 +68,7 @@ _2026-09-16T12:19:41.400Z_
 
 ## Totals
 
-- Published: 1260
-- Parked: 373
+- Published: 1362
+- Parked: 378
 - duplicate uids dropped: 10
 - curated out: 468

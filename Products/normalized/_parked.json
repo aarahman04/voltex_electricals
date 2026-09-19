@@ -17350,5 +17350,130 @@
   "subcategory": "Unclassified",
   "brand": "Philips",
   "brandSlug": "philips"
+ },
+ {
+  "id": "brizo-rc-48-12",
+  "title": "Kühl BRIZO RC 48-12",
+  "vendor": "Kuhl",
+  "tags": [],
+  "priceMin": 7019,
+  "priceMax": 7019,
+  "variants": [],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brizo/brizo-rc-48-12/brizo-rc-48-12-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/brizo/brizo-rc-48-12/brizo-rc-48-12-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/brizo-rc-48-12",
+  "description": "Kühl Brizo DC-48-12, designed for powerful and reliable cooling. Featuring an ice chamber and honeycomb cooling pads with 48L capacity, delivers long-lasting cooling.",
+  "specs": [],
+  "quality": "rich",
+  "category": "Appliances",
+  "subcategory": "Air Coolers",
+  "rawSubcategory": "air cooler",
+  "reason": "type:air cooler",
+  "brand": "Kuhl",
+  "brandSlug": "kuhl"
+ },
+ {
+  "id": "brizo-dc-100-16",
+  "title": "Kühl BRIZO DC 100-16",
+  "vendor": "Kuhl",
+  "tags": [],
+  "priceMin": 10696,
+  "priceMax": 10696,
+  "variants": [],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brizo/brizo-dc-100-16/brizo-dc-100-16-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/brizo/brizo-dc-100-16/brizo-dc-100-16-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/brizo-dc-100-16",
+  "description": "Kuhl Brizo RC-100-16, experience powerful and dependable cooling designed for modern homes. Equipped with a dedicated ice chamber and high-efficiency",
+  "specs": [],
+  "quality": "rich",
+  "category": "Appliances",
+  "subcategory": "Air Coolers",
+  "rawSubcategory": "air cooler",
+  "reason": "type:air cooler",
+  "brand": "Kuhl",
+  "brandSlug": "kuhl"
+ },
+ {
+  "id": "brizo-dc-60-16",
+  "title": "Kühl BRIZO DC 60-16",
+  "vendor": "Kuhl",
+  "tags": [],
+  "priceMin": 10027,
+  "priceMax": 10027,
+  "variants": [],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brizo/brizo-dc-60-16/brizo-dc-60-16-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/brizo/brizo-dc-60-16/brizo-dc-60-16-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/brizo-dc-60-16",
+  "description": "Kuhl Brizo RC-60-16, experience powerful and dependable cooling designed for modern homes. Equipped with high-efficiency honeycomb cooling pads with 60L tank capacity",
+  "specs": [],
+  "quality": "rich",
+  "category": "Appliances",
+  "subcategory": "Air Coolers",
+  "rawSubcategory": "air cooler",
+  "reason": "type:air cooler",
+  "brand": "Kuhl",
+  "brandSlug": "kuhl"
+ },
+ {
+  "id": "brizo-ci-145-20",
+  "title": "Kühl BRIZO CI 145-20",
+  "vendor": "Kuhl",
+  "tags": [],
+  "priceMin": 24990,
+  "priceMax": 24990,
+  "variants": [],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brizo/brizo-ci-145-20/brizo-ci-145-20-grey-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/brizo/brizo-ci-145-20/brizo-ci-145-20-grey-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/brizo-ci-145-20",
+  "description": "Kuhl Brizo CI-145-20, experience powerful and dependable cooling designed for modern homes. Equipped with high-efficiency honeycomb cooling pads with 145L tank capacity",
+  "specs": [],
+  "quality": "rich",
+  "category": "Appliances",
+  "subcategory": "Air Coolers",
+  "rawSubcategory": "air cooler",
+  "reason": "type:air cooler",
+  "brand": "Kuhl",
+  "brandSlug": "kuhl"
+ },
+ {
+  "id": "brizo-dc-105-16",
+  "title": "Kühl BRIZO DC 105-16",
+  "vendor": "Kuhl",
+  "tags": [],
+  "priceMin": 11030,
+  "priceMax": 11030,
+  "variants": [],
+  "images": {
+   "primary": "https://d81er1momxfye.cloudfront.net/assets/images/products/brizo/brizo-dc-105-16/brizo-dc-105-16-white-1.webp",
+   "gallery": [
+    "https://d81er1momxfye.cloudfront.net/assets/images/products/brizo/brizo-dc-105-16/brizo-dc-105-16-white-1.webp"
+   ]
+  },
+  "sourceUrl": "https://www.kuhl.in/products/brizo-dc-105-16",
+  "description": "Kuhl Brizo RC-105-16, experience powerful and dependable cooling designed for modern homes. Equipped with high-efficiency honeycomb cooling pads with 105L tank capacity",
+  "specs": [],
+  "quality": "rich",
+  "category": "Appliances",
+  "subcategory": "Air Coolers",
+  "rawSubcategory": "air cooler",
+  "reason": "type:air cooler",
+  "brand": "Kuhl",
+  "brandSlug": "kuhl"
  }
 ]
