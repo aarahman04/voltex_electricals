@@ -53,6 +53,18 @@ const BRANDS = [
   },
   { slug: "ao-smith", name: "AO Smith", schema: "aosmith", dir: "ao smith", csv: "aosmithindia_gysers.csv" },
   { slug: "wipro", name: "Wipro", schema: "wipro", dir: "wipro", csv: "wiprolighting.csv" },
+  {
+    slug: "breezalit",
+    name: "Breezalit",
+    schema: "breezalit",
+    dir: "breezalit fans",
+    csv: {
+      bldc: "breezalitfans_bldc_fans.csv",
+      ceiling: "breezalitfans_ceiling_fans.csv",
+      exhaust: "breezalitfans_exhaust_fans.csv",
+    },
+  },
+  { slug: "kuhl", name: "Kuhl", schema: "kuhl", dir: "khul", csv: "kuhl_all_fans.csv" },
 ];
 
 // Schema B: product_type (lowercased) -> [category, subcategory].
@@ -618,6 +630,209 @@ function adaptWipro(brand, report) {
   return { published, parked: [] };
 }
 
+// Schema "breezalit" — WooCommerce store: BLDC, Ceiling, and Exhaust fans.
+function adaptBreezalit(brand, report) {
+  const published = [];
+  const files = [
+    { key: "bldc", subcategory: "Ceiling Fans", isBldc: true },
+    { key: "ceiling", subcategory: "Ceiling Fans", isBldc: false },
+    { key: "exhaust", subcategory: "Exhaust Fans", isBldc: false },
+  ];
+
+  let totalRows = 0;
+
+  for (const { key, subcategory, isBldc } of files) {
+    const csvFile = brand.csv[key];
+    const filePath = join(SRC, brand.dir, csvFile);
+    if (!existsSync(filePath)) continue;
+    const rows = parseCsv(readFileSync(filePath, "utf8"));
+    totalRows += rows.length;
+
+    for (const r of rows) {
+      const titleRaw = r["woocommerce-LoopProduct-link"]?.trim();
+      if (!titleRaw) continue;
+      const title = titleRaw.replace(/\s+/g, " ");
+
+      const href = r["image-fade_in_back href"]?.trim();
+      const id = href?.split("/").filter(Boolean).pop() || slugify(title);
+
+      const thumb = r["attachment-woocommerce_thumbnail src"]?.trim();
+      const hover = r["show-on-hover src"]?.trim();
+
+      const upscale = (url) => (url ? url.replace(/-\d+x\d+(\.[a-zA-Z0-9]+)$/, "$1") : null);
+      const primaryImg = upscale(thumb) || thumb || null;
+      const hoverImg = upscale(hover) || hover || null;
+      const gallery = [primaryImg, hoverImg].filter(Boolean);
+
+      const tags = [subcategory];
+      if (isBldc || /\bbldc\b/i.test(title)) {
+        tags.push("BLDC", "BLDC Fans");
+      }
+      if (r.onsale === "Sale!") {
+        tags.push("Sale");
+      }
+
+      const specs = [];
+      if (isBldc || /\bbldc\b/i.test(title)) {
+        specs.push({ label: "Motor", value: "BLDC" });
+      }
+
+      const bladeMatch = title.match(/(\d+)[-\s]*blades?/i);
+      if (bladeMatch) {
+        specs.push({ label: "Blades", value: bladeMatch[1] });
+      }
+
+      const sweepMatch = title.match(/(\d+)\s*(mm|inch|["”])/i);
+      if (sweepMatch) {
+        let sizeVal = sweepMatch[0].trim();
+        if (sizeVal.includes("”")) sizeVal = sizeVal.replace("”", '"');
+        specs.push({ label: "Sweep Size", value: sizeVal });
+      }
+
+      const variants = [{
+        options: sweepMatch ? { Size: sweepMatch[0].trim().replace("”", '"') } : {},
+        sku: null,
+        price: 0,
+      }];
+
+      published.push({
+        id,
+        title,
+        vendor: brand.name,
+        tags,
+        priceMin: 0,
+        priceMax: 0,
+        variants,
+        images: { primary: primaryImg, gallery },
+        sourceUrl: href || undefined,
+        category: "Fans",
+        subcategory,
+        rawSubcategory: subcategory,
+        description: "",
+        specs,
+        quality: specs.length ? "rich" : "thin",
+      });
+    }
+  }
+
+  report.push(`- ${brand.name}: ${totalRows} products across BLDC, Ceiling, and Exhaust fans`);
+  return { published, parked: [] };
+}
+
+// Schema "kuhl" — Kühl BLDC Stylish Fans catalogue scrape.
+function adaptKuhl(brand, report) {
+  const published = [];
+  const parked = [];
+  const rows = parseCsv(readFileSync(join(SRC, brand.dir, brand.csv), "utf8"));
+
+  for (const r of rows) {
+    const tg1 = r["theme_green"]?.trim();
+    const tg2 = r["theme_green 2"]?.trim();
+    const sweep = r["theme_green 3"]?.trim();
+    const href = r["product href"]?.trim();
+    const src = r["product src"]?.trim();
+    const desc = r["card_body"]?.trim() || "";
+    const price = priceInt(r["P_price"]);
+
+    if (!href && !tg1) continue;
+
+    const id = href?.split("/").filter(Boolean).pop() || slugify(`${tg1} ${tg2}`);
+    const title = [tg1, tg2].filter(Boolean).join(" ").replace(/\s+/g, " ");
+
+    const record = {
+      id,
+      title,
+      vendor: brand.name,
+      tags: [],
+      priceMin: price,
+      priceMax: price,
+      variants: [],
+      images: { primary: src || null, gallery: src ? [src] : [] },
+      sourceUrl: href || undefined,
+      description: desc,
+      specs: [],
+      quality: "rich",
+    };
+
+    if (/brizo/i.test(href) || /brizo/i.test(src)) {
+      record.category = "Appliances";
+      record.subcategory = "Air Coolers";
+      record.rawSubcategory = "air cooler";
+      record.reason = "type:air cooler";
+      parked.push(record);
+      continue;
+    }
+
+    let subcategory = "Ceiling Fans";
+    if (/ventis/i.test(href) || /ventis/i.test(src)) {
+      subcategory = "Exhaust Fans";
+    } else if (/inspira-w1/i.test(href)) {
+      subcategory = "Wall Fans";
+    } else if (/inspira-t1/i.test(href) || /hawaii/i.test(href)) {
+      subcategory = "Table Fans";
+    } else if (/inspira-p[12]/i.test(href) || /exzel-h[123]/i.test(href)) {
+      subcategory = "Pedestal Fans";
+    }
+
+    record.category = "Fans";
+    record.subcategory = subcategory;
+    record.rawSubcategory = subcategory;
+
+    const specs = [
+      { label: "Motor", value: "BLDC" },
+    ];
+    if (sweep) {
+      specs.push({ label: "Sweep Size", value: sweep });
+    }
+
+    const bladeMatch = desc.match(/(\d+)\s*blades?/i);
+    if (bladeMatch) {
+      specs.push({ label: "Blades", value: bladeMatch[1] });
+    }
+
+    const wattMatch = desc.match(/(\d+)[-\s]*watt/i);
+    if (wattMatch) {
+      specs.push({ label: "Wattage", value: `${wattMatch[1]}W` });
+    }
+
+    record.specs = specs;
+
+    const tags = [subcategory, "BLDC", "BLDC Fans"];
+    if (/5[-\s]?star/i.test(desc)) tags.push("5 Star");
+    if (/remote/i.test(desc)) tags.push("Remote Control");
+    if (/down\s*light|night\s*light|with\s*light/i.test(desc)) tags.push("With Light");
+    record.tags = tags;
+
+    if (sweep && sweep.includes("/")) {
+      const unitMatch = sweep.match(/[a-zA-Z]+/);
+      const unit = unitMatch ? ` ${unitMatch[0]}` : " mm";
+      const sizes = sweep.replace(/[a-zA-Z]+/g, "").split("/").map((s) => s.trim()).filter(Boolean);
+      record.variants = sizes.map((s) => ({
+        options: { Size: `${s}${unit}` },
+        sku: null,
+        price,
+      }));
+    } else if (sweep) {
+      record.variants = [{
+        options: { Size: sweep },
+        sku: null,
+        price,
+      }];
+    } else {
+      record.variants = [{
+        options: {},
+        sku: null,
+        price,
+      }];
+    }
+
+    published.push(record);
+  }
+
+  report.push(`- ${brand.name}: ${rows.length} rows -> ${published.length} Fans, ${parked.length} parked`);
+  return { published, parked };
+}
+
 /* --------------------------------------------------- derived classification */
 
 // A COB downlight, by the brand's own handle or category tag. Takes raw tags
@@ -685,6 +900,8 @@ const ADAPTERS = {
   multifab: adaptMultifab,
   aosmith: adaptAoSmith,
   wipro: adaptWipro,
+  breezalit: adaptBreezalit,
+  kuhl: adaptKuhl,
 };
 
 for (const brand of BRANDS) {
