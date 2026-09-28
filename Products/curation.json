@@ -1955,6 +1955,70 @@
     {
       "uid": "breezalit--allura-bldc-fan",
       "title": "Breezalit ALLURA BLDC Fan"
+    },
+    {
+      "uid": "breezalit--angel-24",
+      "title": "Breezalit Angel 24”"
+    },
+    {
+      "uid": "breezalit--aira",
+      "title": "Breezalit Aira"
+    },
+    {
+      "uid": "breezalit--ce-vent",
+      "title": "Breezalit CE Vent – 200MM"
+    },
+    {
+      "uid": "breezalit--ce-vent-with-grill",
+      "title": "Breezalit CE Vent with Grill"
+    },
+    {
+      "uid": "breezalit--ce-vent-with-light",
+      "title": "Breezalit Ce Vent With Light"
+    },
+    {
+      "uid": "breezalit--crown-axial-fan",
+      "title": "Breezalit Crown Axial Fan"
+    },
+    {
+      "uid": "breezalit--fresho-axial-fan",
+      "title": "Breezalit FRESHO AXIAL FAN"
+    },
+    {
+      "uid": "breezalit--klassique",
+      "title": "Breezalit Klassique"
+    },
+    {
+      "uid": "breezalit--lux-air-8",
+      "title": "Breezalit Lux air 8”"
+    },
+    {
+      "uid": "breezalit--regal-axial-fan",
+      "title": "Breezalit Regal Axial Fan – 150MM"
+    },
+    {
+      "uid": "breezalit--vent-air",
+      "title": "Breezalit Vent Air – 150mm"
+    },
+    {
+      "uid": "breezalit--vent-air-glass-series",
+      "title": "Breezalit Vent Air Glass Series 150mm"
+    },
+    {
+      "uid": "breezalit--vent-air-metallic-finish",
+      "title": "Breezalit Vent Air Metallic Finish – 150 mm"
+    },
+    {
+      "uid": "breezalit--vent-mini",
+      "title": "Breezalit Vent Mini – 150mm"
+    },
+    {
+      "uid": "breezalit--ventillo-200mm",
+      "title": "Breezalit Ventillo"
+    },
+    {
+      "uid": "breezalit--ventso-8-inch",
+      "title": "Breezalit Ventso 8 inch"
     }
   ],
   "removedImages": {
