@@ -43,6 +43,12 @@ test("admin removes selected products and preserves existing curation", async ()
     assert.deepEqual((await live.json()).removed, saved.removed);
     assert.equal((await post({ type: "remove", items: [{ uid: "brand--one", title: "One" }] }, cookie)).status, 200);
     assert.equal(saved.removed.length, 3);
+    assert.equal((await post({ type: "images", uid: "brand--two", urls: ["https://example.com/two.png"] }, cookie)).status, 200);
+    assert.deepEqual(saved.removedImages["brand--two"], ["https://example.com/two.png"]);
+    assert.equal((await post({ type: "images", uid: "brand--two", urls: [] }, cookie)).status, 200);
+    assert.equal(saved.removedImages["brand--two"], undefined);
+    assert.equal((await post({ type: "restore", uid: "brand--one" }, cookie)).status, 200);
+    assert.deepEqual(saved.removed.map((item) => item.uid), ["old--one", "brand--two"]);
   } finally {
     global.fetch = fetchBefore;
     delete process.env.CURATE_USERNAME;
