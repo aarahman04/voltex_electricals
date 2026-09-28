@@ -56,34 +56,6 @@
   "quality": "thin"
  },
  {
-  "id": "opus-led",
-  "title": "Opus LED",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/12104/Opus-LED.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/12104/Opus-LED.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/modern-workspaces/2x2/opus-led",
-  "category": "Lighting",
-  "subcategory": "Panel Lights",
-  "rawSubcategory": "modern-workspaces/2x2",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
   "id": "comet",
   "title": "Comet",
   "vendor": "Wipro",
@@ -224,62 +196,6 @@
   "quality": "thin"
  },
  {
-  "id": "nyx-bollard",
-  "title": "NYX Bollard",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/9262/wipro_nyx-bollards-1719649582-1726661400.png",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/9262/wipro_nyx-bollards-1719649582-1726661400.png"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/pathways-postops/nyx-bollard",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/pathways-postops",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "solarise-12w",
-  "title": "SolaRISE (12W)",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/12164/SolaRISE-(12W).webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/12164/SolaRISE-(12W).webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/solar-light/solarise-12w",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/solar-light",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
   "id": "lino",
   "title": "Lino",
   "vendor": "Wipro",
@@ -384,118 +300,6 @@
    ]
   },
   "sourceUrl": "https://www.wiprolighting.com/products/modern-workspaces/downlight/mollis",
-  "category": "Lighting",
-  "subcategory": "Downlighters & Spotlights",
-  "rawSubcategory": "modern-workspaces/downlight",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "fokus",
-  "title": "Fokus+",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/11989/Fokus+.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/11989/Fokus+.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/modern-workspaces/downlight/fokus",
-  "category": "Lighting",
-  "subcategory": "Downlighters & Spotlights",
-  "rawSubcategory": "modern-workspaces/downlight",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "led-gimball",
-  "title": "LED Gimball",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/10481/LED-Gimball.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/10481/LED-Gimball.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/modern-workspaces/downlight/led-gimball",
-  "category": "Lighting",
-  "subcategory": "Downlighters & Spotlights",
-  "rawSubcategory": "modern-workspaces/downlight",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "led-gimball-20w-41w",
-  "title": "LED Gimball (20W-41W)",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/10482/LED-Gimball-(20W-41W).webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/10482/LED-Gimball-(20W-41W).webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/modern-workspaces/downlight/led-gimball-20w-41w",
-  "category": "Lighting",
-  "subcategory": "Downlighters & Spotlights",
-  "rawSubcategory": "modern-workspaces/downlight",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "track-light-led",
-  "title": "Track light LED",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/10484/track-light-LED.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/10484/track-light-LED.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/modern-workspaces/downlight/track-light-led",
   "category": "Lighting",
   "subcategory": "Downlighters & Spotlights",
   "rawSubcategory": "modern-workspaces/downlight",
@@ -812,34 +616,6 @@
   "quality": "thin"
  },
  {
-  "id": "linear-wall-washer-led-20w-40w",
-  "title": "Linear Wall Washer LED (20W-40W)",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/12266/wall-washer-1538396936.png",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/12266/wall-washer-1538396936.png"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/architectural-lights/linear-wall-washer-led-20w-40w",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/architectural-lights",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
   "id": "neon-flexi-strip",
   "title": "Neon Flexi Strip",
   "vendor": "Wipro",
@@ -1000,34 +776,6 @@
    ]
   },
   "sourceUrl": "https://www.wiprolighting.com/products/outdoor/pathways-postops/vista",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/pathways-postops",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "verve",
-  "title": "Verve",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/9266/Verve.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/9266/Verve.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/pathways-postops/verve",
   "category": "Lighting",
   "subcategory": "Street & Outdoor Lights",
   "rawSubcategory": "outdoor/pathways-postops",
@@ -1283,146 +1031,6 @@
   "category": "Lighting",
   "subcategory": "Street & Outdoor Lights",
   "rawSubcategory": "outdoor/flood-light",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "solarise-15w-25w",
-  "title": "SolaRISE (15W-25W)",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/12166/SolaRISE-(15W-25W).webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/12166/SolaRISE-(15W-25W).webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/solar-light/solarise-15w-25w",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/solar-light",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "solarise-30w-40w",
-  "title": "SolaRISE (30W-40W)",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/12168/SolaRISE-(30W-40W).webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/12168/SolaRISE-(30W-40W).webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/solar-light/solarise-30w-40w",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/solar-light",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "solarise-50w-60w",
-  "title": "SolaRISE (50W-60W)",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/12170/SolaRISE-(50W-60W).webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/12170/SolaRISE-(50W-60W).webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/solar-light/solarise-50w-60w",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/solar-light",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "solarise-120w",
-  "title": "SolaRISE (120W)",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/12172/SolaRISE-(120W).webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/12172/SolaRISE-(120W).webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/solar-light/solarise-120w",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/solar-light",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "stormx",
-  "title": "StormX",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/11920/StormX.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/11920/StormX.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/industrial-solutions/wellglass/stormx",
-  "category": "Lighting",
-  "subcategory": "Professional & Commercial Lighting",
-  "rawSubcategory": "industrial-solutions/wellglass",
   "description": "",
   "specs": [],
   "quality": "thin"
@@ -2492,34 +2100,6 @@
   "quality": "thin"
  },
  {
-  "id": "strix-bollard",
-  "title": "Strix Bollard",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/9289/strix.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/9289/strix.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/bollards/strix-bollard",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/bollards",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
   "id": "radial-uno-z-hat",
   "title": "Radial UNO Z HAT",
   "vendor": "Wipro",
@@ -2543,34 +2123,6 @@
   "category": "Lighting",
   "subcategory": "Professional & Commercial Lighting",
   "rawSubcategory": "industrial-solutions/high-bay-mid-bay",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "whistling-j-bollard",
-  "title": "whistling J bollard",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/12189/J-bollard.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/12189/J-bollard.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/bollards/whistling-j-bollard",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/bollards",
   "description": "",
   "specs": [],
   "quality": "thin"
@@ -2772,34 +2324,6 @@
   "quality": "thin"
  },
  {
-  "id": "vision-teardrop",
-  "title": "Vision Teardrop",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/11944/vision+-teardrop.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/11944/vision+-teardrop.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/industrial-solutions/cleanroom-solutions/vision-teardrop",
-  "category": "Lighting",
-  "subcategory": "Professional & Commercial Lighting",
-  "rawSubcategory": "industrial-solutions/cleanroom-solutions",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
   "id": "vision-tocr",
   "title": "Vision+ TOCR",
   "vendor": "Wipro",
@@ -2904,34 +2428,6 @@
    ]
   },
   "sourceUrl": "https://www.wiprolighting.com/products/industrial-solutions/cleanroom-solutions/vision-bocr",
-  "category": "Lighting",
-  "subcategory": "Professional & Commercial Lighting",
-  "rawSubcategory": "industrial-solutions/cleanroom-solutions",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "vision-linear-dome",
-  "title": "Vision Linear Dome",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/9123/Vision-Linear-Dome.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/9123/Vision-Linear-Dome.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/industrial-solutions/cleanroom-solutions/vision-linear-dome",
   "category": "Lighting",
   "subcategory": "Professional & Commercial Lighting",
   "rawSubcategory": "industrial-solutions/cleanroom-solutions",
@@ -3164,34 +2660,6 @@
   "quality": "thin"
  },
  {
-  "id": "imperias",
-  "title": "ImperiaS",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/9145/ImperiaS.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/9145/ImperiaS.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/industrial-solutions/smart-industrial-products/imperias",
-  "category": "Lighting",
-  "subcategory": "Professional & Commercial Lighting",
-  "rawSubcategory": "industrial-solutions/smart-industrial-products",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
   "id": "skymesh-square",
   "title": "Skymesh Square",
   "vendor": "Wipro",
@@ -3299,34 +2767,6 @@
   "category": "Lighting",
   "subcategory": "Professional & Commercial Lighting",
   "rawSubcategory": "industrial-solutions/high-bay-mid-bay",
-  "description": "",
-  "specs": [],
-  "quality": "thin"
- },
- {
-  "id": "swan-bollard",
-  "title": "Swan Bollard",
-  "vendor": "Wipro",
-  "tags": [],
-  "priceMin": 0,
-  "priceMax": 0,
-  "variants": [
-   {
-    "options": {},
-    "sku": null,
-    "price": 0
-   }
-  ],
-  "images": {
-   "primary": "https://www.wiprolighting.com/storage/12416/Swan-Bollard_2.webp",
-   "gallery": [
-    "https://www.wiprolighting.com/storage/12416/Swan-Bollard_2.webp"
-   ]
-  },
-  "sourceUrl": "https://www.wiprolighting.com/products/outdoor/bollards/swan-bollard",
-  "category": "Lighting",
-  "subcategory": "Street & Outdoor Lights",
-  "rawSubcategory": "outdoor/bollards",
   "description": "",
   "specs": [],
   "quality": "thin"

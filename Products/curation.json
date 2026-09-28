@@ -1871,6 +1871,86 @@
     {
       "uid": "orient--stallion-1320mm-wide-tipped-and-electroplated-finish-blades-ceiling-fan",
       "title": "Orient Electric Stallion 4 Blade Ceiling Fan"
+    },
+    {
+      "uid": "wipro--opus-led",
+      "title": "Wipro Opus LED"
+    },
+    {
+      "uid": "wipro--nyx-bollard",
+      "title": "Wipro NYX Bollard"
+    },
+    {
+      "uid": "wipro--solarise-12w",
+      "title": "Wipro SolaRISE (12W)"
+    },
+    {
+      "uid": "wipro--fokus",
+      "title": "Wipro Fokus+"
+    },
+    {
+      "uid": "wipro--led-gimball",
+      "title": "Wipro LED Gimball"
+    },
+    {
+      "uid": "wipro--led-gimball-20w-41w",
+      "title": "Wipro LED Gimball (20W-41W)"
+    },
+    {
+      "uid": "wipro--track-light-led",
+      "title": "Wipro Track light LED"
+    },
+    {
+      "uid": "wipro--linear-wall-washer-led-20w-40w",
+      "title": "Wipro Linear Wall Washer LED (20W-40W)"
+    },
+    {
+      "uid": "wipro--verve",
+      "title": "Wipro Verve"
+    },
+    {
+      "uid": "wipro--solarise-15w-25w",
+      "title": "Wipro SolaRISE (15W-25W)"
+    },
+    {
+      "uid": "wipro--solarise-30w-40w",
+      "title": "Wipro SolaRISE (30W-40W)"
+    },
+    {
+      "uid": "wipro--solarise-50w-60w",
+      "title": "Wipro SolaRISE (50W-60W)"
+    },
+    {
+      "uid": "wipro--solarise-120w",
+      "title": "Wipro SolaRISE (120W)"
+    },
+    {
+      "uid": "wipro--stormx",
+      "title": "Wipro StormX"
+    },
+    {
+      "uid": "wipro--strix-bollard",
+      "title": "Wipro Strix Bollard"
+    },
+    {
+      "uid": "wipro--whistling-j-bollard",
+      "title": "Wipro whistling J bollard"
+    },
+    {
+      "uid": "wipro--vision-teardrop",
+      "title": "Wipro Vision Teardrop"
+    },
+    {
+      "uid": "wipro--vision-linear-dome",
+      "title": "Wipro Vision Linear Dome"
+    },
+    {
+      "uid": "wipro--imperias",
+      "title": "Wipro ImperiaS"
+    },
+    {
+      "uid": "wipro--swan-bollard",
+      "title": "Wipro Swan Bollard"
     }
   ],
   "removedImages": {

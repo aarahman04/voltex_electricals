@@ -1,6 +1,6 @@
 # Data build report
 
-_2026-09-19T03:12:57.318Z_
+_2026-09-28T12:22:55.597Z_
 
 - Orient Electric: fans.json -> 100 products
 - Orient Electric: lighting.json -> 99 products
@@ -27,6 +27,7 @@ _2026-09-19T03:12:57.318Z_
   deduped: 2 duplicate uid(s) dropped
 - AO Smith: aosmithindia_gysers.csv -> 36 products (Water Geysers)
 - Wipro: wiprolighting.csv -> 119 products (Lighting)
+  curated out: 20 product(s) removed via /curate
 - Breezalit: 47 products across BLDC, Ceiling, and Exhaust fans
 - Kuhl: 60 rows -> 55 Fans, 5 parked
 
@@ -48,17 +49,17 @@ _2026-09-19T03:12:57.318Z_
 - **Lighting / COB LED** — 72  (crompton 8, philips 34, havells 8, polycab 22)
 - **Lighting / Ceiling Lights** — 202  (crompton 134, philips 68)
 - **Lighting / Chandeliers** — 44  (philips 44)
-- **Lighting / Downlighters & Spotlights** — 124  (orient 28, havells 24, multifab 60, wipro 12)
+- **Lighting / Downlighters & Spotlights** — 116  (orient 28, havells 24, multifab 60, wipro 4)
 - **Lighting / Home Art Lights** — 32  (havells 32)
 - **Lighting / LED Bulbs & Lamps** — 110  (orient 10, crompton 40, philips 16, havells 44)
 - **Lighting / Lamps & Lanterns** — 20  (philips 20)
 - **Lighting / Linear Lights** — 36  (multifab 6, wipro 30)
-- **Lighting / Panel Lights** — 36  (orient 10, multifab 12, wipro 14)
+- **Lighting / Panel Lights** — 34  (orient 10, multifab 12, wipro 12)
 - **Lighting / Pendant Lights** — 88  (philips 48, wipro 40)
 - **Lighting / Portable Lighting** — 6  (philips 6)
-- **Lighting / Professional & Commercial Lighting** — 184  (orient 56, crompton 66, wipro 62)
+- **Lighting / Professional & Commercial Lighting** — 176  (orient 56, crompton 66, wipro 54)
 - **Lighting / Smart Lighting** — 32  (crompton 2, philips 26, havells 4)
-- **Lighting / Street & Outdoor Lights** — 360  (orient 18, crompton 106, philips 58, havells 20, polycab 6, multifab 72, wipro 80)
+- **Lighting / Street & Outdoor Lights** — 338  (orient 18, crompton 106, philips 58, havells 20, polycab 6, multifab 72, wipro 58)
 - **Lighting / Strip & Rope Lights** — 60  (crompton 4, philips 44, havells 12)
 - **Lighting / Surface Lights** — 24  (multifab 24)
 - **Lighting / Track Lights** — 46  (orient 8, philips 32, multifab 6)
@@ -68,7 +69,7 @@ _2026-09-19T03:12:57.318Z_
 
 ## Totals
 
-- Published: 1362
+- Published: 1342
 - Parked: 378
 - duplicate uids dropped: 10
-- curated out: 468
+- curated out: 488

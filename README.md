@@ -1,16 +1,28 @@
-# React + Vite
+# Voltex Electricals
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Vite/React product catalogue deployed to Vercel from the `main` branch.
 
-Currently, two official plugins are available:
+## Local development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```sh
+npm install
+npm run dev
+```
 
-## React Compiler
+`/curate` works locally through the Vite development server. Product and image removals are saved in `Products/curation.json`; the catalogue is regenerated immediately. Run `npm run build` and `npm run lint` before publishing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Live curation setup
 
-## Expanding the Oxlint configuration
+In the Vercel project, set these **Production** environment variables:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+| Name | Value |
+| --- | --- |
+| `CURATE_USERNAME` | The curator username |
+| `CURATE_PASSWORD` | The curator password |
+| `CURATION_GITHUB_TOKEN` | A GitHub fine-grained personal access token with **Contents: Read and write** permission for `aarahman04/voltex_electricals` |
+
+Keep the values in Vercel settings, not in Git. Redeploy the `main` branch after setting or changing environment variables.
+
+At `https://www.voltexelectricals.co.in/curate`, sign in, select products, and press **Remove selected**. The API commits the updated removal list to `main`. The storefront reads that list on every new page load, so selected products disappear immediately without waiting for the GitHub-triggered rebuild. The rebuild updates the static catalogue. The **Removed** tab can restore a product; restored products appear after that rebuild. Image choices also take effect after the rebuild.
+
+The curation API is at `/api/curation`. It runs as a Vercel Function. Only authenticated requests can change the removal list. The public storefront reads only removed product IDs. Remove the `/curate` route and the API when curation is finished.
