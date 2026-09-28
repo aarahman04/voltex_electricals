@@ -49,9 +49,9 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-seam bg-paper/90 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-6 px-4 sm:px-8">
+      <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-2 px-2 min-[360px]:px-4 sm:gap-6 sm:px-8">
         <Link to="/" aria-label="Voltex Electricals, home">
-          <Lockup className="text-[13px] sm:text-[17px]" />
+          <Lockup className="text-[11px] min-[360px]:text-[13px] sm:text-[17px]" />
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex">
