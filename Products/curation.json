@@ -2171,6 +2171,94 @@
     {
       "uid": "crompton--crompton-solarium-neo-5-star-rated-storage-water-heater",
       "title": "Crompton Crompton Solarium Neo, 2000W Storage Water Heater"
+    },
+    {
+      "uid": "havells--fusion-decorative-ceiling-fan-fhcfue1bbr48",
+      "title": "Havells Fusion Decorative Ceiling Fan"
+    },
+    {
+      "uid": "havells--dsp-ventilation-domestic-exhaust-fan-fhvvemtbrn12-c",
+      "title": "Havells DSP Ventilation Domestic Exhaust Fan"
+    },
+    {
+      "uid": "havells--turboforce-exhaust-fan",
+      "title": "Havells Turboforce Exhaust Fan"
+    },
+    {
+      "uid": "havells--ventilair-db-metal-domestic-exhaust-fan-fhvvemtdbb12-c",
+      "title": "Havells Ventilair DB Metal Domestic Exhaust Fan"
+    },
+    {
+      "uid": "havells--ventilair-zxc-roof-mounting-domestic-exhaust-fan-fhvvedcwht04",
+      "title": "Havells Ventilair ZXC Roof Mounting Domestic Exhaust Fan"
+    },
+    {
+      "uid": "havells--ventilair-hush-domestic-exhaust-fan-fhvhuststf06",
+      "title": "Havells Ventilair Hush Domestic Exhaust Fan"
+    },
+    {
+      "uid": "havells--ventilair-hush-domestic-exhaust-fan-fhvhustaww06",
+      "title": "Havells Ventilair Hush Domestic Exhaust Fan"
+    },
+    {
+      "uid": "havells--dsp-ventilation-domestic-exhaust-fan",
+      "title": "Havells DSP Ventilation Domestic Exhaust Fan"
+    },
+    {
+      "uid": "havells--sprint-pedestal-fan-fhspcnswhy16",
+      "title": "Havells Sprint Pedestal Fan"
+    },
+    {
+      "uid": "havells--trendy-pedestal-fan-fhstrhswhy16",
+      "title": "Havells Trendy Pedestal Fan"
+    },
+    {
+      "uid": "havells--turbo-force-ac-pedestal-fan",
+      "title": "Havells Turbo Force AC Pedestal Fan"
+    },
+    {
+      "uid": "havells--windstorm-oxy-gry-pedestal-fan-fhswxstgry16",
+      "title": "Havells Windstorm Oxy Gry Pedestal Fan"
+    },
+    {
+      "uid": "havells--sprint-18-high-speed-pedestal-fan-fhssphswht18",
+      "title": "Havells Sprint 18 High Speed Pedestal Fan"
+    },
+    {
+      "uid": "havells--candy-hs-wall-fan",
+      "title": "Havells Candy HS Wall Fan"
+    },
+    {
+      "uid": "havells--platina-bldc-wall-fan-fhwpcptwhy16",
+      "title": "Havells Platina BLDC Wall Fan"
+    },
+    {
+      "uid": "havells--girik-gold-wall-fan-fhwggstwlg16",
+      "title": "Havells Girik Gold Wall Fan"
+    },
+    {
+      "uid": "havells--aindrila-wall-fan-fhwagpmbrb16",
+      "title": "Havells Aindrila Wall Fan"
+    },
+    {
+      "uid": "havells--astral-neo-led-spotlight",
+      "title": "Havells Astral Neo LED Spotlight"
+    },
+    {
+      "uid": "havells--adore-led-lamp-0-7-w-b22",
+      "title": "Havells Adore LED Lamp 0.7 W B22"
+    },
+    {
+      "uid": "havells--lumos-10-w-twrgb-floor-lamp-ble-mesh-lhehdip1nn1w010",
+      "title": "Havells Lumos 10 W TW+RGB Floor Lamp BLE-MESH"
+    },
+    {
+      "uid": "havells--nu-bulb-plus-12-w-b22-cdl-m10-lhlajdbnl5r12",
+      "title": "Havells NU Bulb Plus 12 W B22 CDL M10"
+    },
+    {
+      "uid": "havells--nova-25-w-twrgb-ceiling-light-ble-mesh-lhehdgp1nn1k025",
+      "title": "Havells Nova 25 W TW+RGB Ceiling Light BLE-MESH"
     }
   ],
   "removedImages": {
