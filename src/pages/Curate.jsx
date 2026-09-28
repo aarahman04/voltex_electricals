@@ -12,6 +12,12 @@ import { useScrollLock } from "../lib/useScrollLock.js";
 
 const endpoint = import.meta.env.DEV ? "/__curate" : "/api/curation";
 const PAGE_SIZE = 48;
+const RECENT_KEY = "curateRecentRemoved";
+
+function readRecent() {
+  try { return new Set(JSON.parse(sessionStorage.getItem(RECENT_KEY) || "[]")); }
+  catch { return new Set(); }
+}
 
 async function fetchCuration() {
   const res = await fetch(endpoint, { cache: "no-store" });
@@ -38,6 +44,7 @@ function ProductPhoto({ url, width = 200 }) {
 export default function Curate() {
   const [query, setQuery] = useState("");
   const [removedQuery, setRemovedQuery] = useState("");
+  const [recentRemoved, setRecentRemoved] = useState(readRecent);
   const [brand, setBrand] = useState("");
   const [category, setCategory] = useState("");
   const [subcategory, setSubcategory] = useState("");
@@ -89,7 +96,10 @@ export default function Curate() {
   }, [query, brand, category, subcategory, removedIds]);
   const shownProducts = visible.slice(0, shown);
   const allShownSelected = shownProducts.length > 0 && shownProducts.every((product) => selected.has(product.uid));
-  const filteredRemoved = (curation?.removed ?? []).filter((item) =>
+  const allRemoved = curation?.removed ?? [];
+  const currentRecent = allRemoved.filter((item) => recentRemoved.has(item.uid));
+  const removedList = tab === "recent" ? currentRecent : allRemoved;
+  const filteredRemoved = removedList.filter((item) =>
     `${item.title} ${item.uid}`.toLowerCase().includes(removedQuery.trim().toLowerCase()),
   );
   const shownRemoved = filteredRemoved.slice(0, removedShown);
@@ -132,6 +142,8 @@ export default function Curate() {
     try {
       await saveCuration({ type: "login", username, password });
       setPassword("");
+      sessionStorage.removeItem(RECENT_KEY);
+      setRecentRemoved(new Set());
       setCuration(await fetchCuration());
       setStatus("");
     } catch (error) {
@@ -166,6 +178,7 @@ export default function Curate() {
       return;
     }
     if (await runAction({ type: "remove", items })) {
+      sessionStorage.setItem(RECENT_KEY, JSON.stringify([...new Set([...recentRemoved, ...items.map((item) => item.uid)])]));
       sessionStorage.setItem("curateStatus", `Removed ${items.length} products from the live catalog.`);
       window.location.reload();
     }
@@ -173,6 +186,10 @@ export default function Curate() {
 
   async function restore(uid) {
     if (await runAction({ type: "restore", uid })) {
+      const nextRecent = new Set(recentRemoved);
+      nextRecent.delete(uid);
+      setRecentRemoved(nextRecent);
+      sessionStorage.setItem(RECENT_KEY, JSON.stringify([...nextRecent]));
       setStatus("Restored. It will appear after the next site deployment.");
     }
   }
@@ -226,22 +243,32 @@ export default function Curate() {
           <p className="mt-2 text-sm text-ink-muted">Select products to remove from the live catalogue.</p>
         </div>
         {!import.meta.env.DEV && <button className="min-h-10 shrink-0 rounded-lg border border-seam bg-surface px-3 text-xs font-medium text-ink-muted" disabled={busy} onClick={async () => {
-          if (await runAction({ type: "logout" })) setCuration({ ...curation, authenticated: false });
+          if (await runAction({ type: "logout" })) {
+            sessionStorage.removeItem(RECENT_KEY);
+            setRecentRemoved(new Set());
+            setCuration({ ...curation, authenticated: false });
+          }
         }}>Sign out</button>}
       </div>
 
-      <div className="mb-5 grid grid-cols-2 gap-1 rounded-xl border border-seam bg-surface p-1 sm:max-w-sm">
+      <div className="mb-5 grid grid-cols-3 gap-1 rounded-xl border border-seam bg-surface p-1 sm:max-w-xl">
         <button
-          className={`min-h-11 rounded-lg px-3 font-medium ${tab === "browse" ? "bg-ink text-white" : "text-ink-muted"}`}
+          className={`min-h-11 rounded-lg px-1 text-xs font-medium sm:px-3 sm:text-sm ${tab === "browse" ? "bg-ink text-white" : "text-ink-muted"}`}
           onClick={() => setTab("browse")}
         >
           Browse{selected.size > 0 ? ` · ${selected.size} selected` : ""}
         </button>
         <button
-          className={`min-h-11 rounded-lg px-3 font-medium ${tab === "removed" ? "bg-ink text-white" : "text-ink-muted"}`}
-          onClick={() => setTab("removed")}
+          className={`min-h-11 rounded-lg px-1 text-xs font-medium sm:px-3 sm:text-sm ${tab === "recent" ? "bg-ink text-white" : "text-ink-muted"}`}
+          onClick={() => { setTab("recent"); setRemovedQuery(""); setRemovedShown(PAGE_SIZE); }}
         >
-          Removed · {curation.removed?.length ?? 0}
+          Recent · {currentRecent.length}
+        </button>
+        <button
+          className={`min-h-11 rounded-lg px-1 text-xs font-medium sm:px-3 sm:text-sm ${tab === "all" ? "bg-ink text-white" : "text-ink-muted"}`}
+          onClick={() => { setTab("all"); setRemovedQuery(""); setRemovedShown(PAGE_SIZE); }}
+        >
+          All removed · {allRemoved.length}
         </button>
       </div>
 
@@ -249,8 +276,9 @@ export default function Curate() {
         <div role="status" className="mb-4 rounded-lg border border-amber/30 bg-amber-tint px-4 py-3 text-sm text-ink">{status}</div>
       )}
 
-      {tab === "removed" ? (
-        <section aria-label="Removed products">
+      {tab !== "browse" ? (
+        <section aria-label={tab === "recent" ? "Recently removed products" : "All removed products"}>
+          <p className="mb-4 text-sm text-ink-muted">{tab === "recent" ? "Products removed in this browser session appear here. Sign out or close this tab to start a new list." : "Every removed product is listed here, including earlier removals."}</p>
           <div className="mb-4 grid gap-2 sm:flex sm:items-end sm:justify-between">
             <label className="block text-xs font-medium text-ink-muted sm:w-96">Find a removed product
               <input
@@ -263,7 +291,7 @@ export default function Curate() {
             </label>
             <p className="spec text-ink-muted">{filteredRemoved.length} removed</p>
           </div>
-          {filteredRemoved.length === 0 && <p className="rounded-xl border border-seam bg-surface p-5 text-ink-muted">{removedQuery ? "No removed products match your search." : "No products have been removed."}</p>}
+          {filteredRemoved.length === 0 && <p className="rounded-xl border border-seam bg-surface p-5 text-ink-muted">{removedQuery ? "No removed products match your search." : tab === "recent" ? "No new removals yet." : "No products have been removed."}</p>}
           <div className="grid gap-2 lg:grid-cols-2">
             {shownRemoved.map((r) => (
             <div key={r.uid} className="flex min-w-0 items-center justify-between gap-3 rounded-xl border border-seam bg-surface px-4 py-3">
