@@ -49,6 +49,13 @@ test("admin removes selected products and preserves existing curation", async ()
     assert.equal(saved.removedImages["brand--two"], undefined);
     assert.equal((await post({ type: "restore", uid: "brand--one" }, cookie)).status, 200);
     assert.deepEqual(saved.removed.map((item) => item.uid), ["old--one", "brand--two"]);
+
+    const longUid = "crompton--crompton-rapidjet-plus-turbo-6-l-5-star-rated-storage-water-heater-with-nano-polybond-technology-powerful-3000w-heating-element-rust-proof-body-and-advanced-3-level-safety-with-free-installation-and-connection-pipes-white";
+    assert.equal(longUid.length, 231);
+    assert.equal((await post({ type: "remove", items: [{ uid: longUid, title: "Crompton Rapidjet Plus Turbo" }] }, cookie)).status, 200);
+    assert.equal((await post({ type: "images", uid: longUid, urls: ["https://example.com/long.png"] }, cookie)).status, 200);
+    assert.equal((await post({ type: "restore", uid: longUid }, cookie)).status, 200);
+    assert.equal((await post({ type: "remove", items: [{ uid: "x".repeat(513), title: "Too long" }] }, cookie)).status, 400);
   } finally {
     global.fetch = fetchBefore;
     delete process.env.CURATE_USERNAME;
