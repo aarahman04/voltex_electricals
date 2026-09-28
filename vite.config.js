@@ -4,6 +4,7 @@ import { join } from 'node:path'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vite'
+import { updateCuration } from './src/data/curationActions.js'
 
 const ROOT = import.meta.dirname
 const CURATION_PATH = join(ROOT, 'Products', 'curation.json')
@@ -19,7 +20,7 @@ function curatePlugin() {
       server.middlewares.use('/__curate', (req, res) => {
         if (req.method === 'GET') {
           res.setHeader('Content-Type', 'application/json')
-          res.end(readFileSync(CURATION_PATH, 'utf8'))
+          res.end(JSON.stringify({ ...JSON.parse(readFileSync(CURATION_PATH, 'utf8')), authenticated: true }))
           return
         }
         if (req.method === 'POST') {
@@ -27,7 +28,7 @@ function curatePlugin() {
           req.on('data', (chunk) => { body += chunk })
           req.on('end', () => {
             try {
-              const data = JSON.parse(body)
+              const data = updateCuration(JSON.parse(readFileSync(CURATION_PATH, 'utf8')), JSON.parse(body))
               writeFileSync(CURATION_PATH, JSON.stringify(data, null, 2) + '\n')
               const output = execFileSync('node', ['scripts/normalize.mjs'], {
                 cwd: ROOT,
@@ -35,7 +36,7 @@ function curatePlugin() {
               })
               const report = output.trim().split('\n')[0] ?? ''
               res.setHeader('Content-Type', 'application/json')
-              res.end(JSON.stringify({ ok: true, report }))
+              res.end(JSON.stringify({ ...data, authenticated: true, ok: true, report }))
             } catch (err) {
               res.statusCode = 500
               res.setHeader('Content-Type', 'application/json')

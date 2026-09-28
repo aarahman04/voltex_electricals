@@ -10,9 +10,8 @@ import { normalizeOption } from "../lib/specSummary.js";
 // image, which is the default anyway.
 import imageScores from "./imageScores.json";
 
-// The whole catalogue, already normalised in catalog.js. When the live API
-// lands, swap the glob loader there for a fetch — nothing below this line,
-// nor any page, needs to change.
+// The catalogue is loaded from normalized files. The live curation list is
+// applied to this array before the app renders.
 export const products = catalog;
 
 export function getCategories() {

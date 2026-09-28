@@ -1,13 +1,8 @@
 import { resolveBrand } from "./brands.js";
 import { canonicalSubcategory } from "./taxonomy.js";
 
-// Dev-only: the full, un-split catalogue (every field, including
-// description/specs/full image gallery) for the /curate admin tool, which
-// needs galleries to let an admin pick which images to keep. This module is
-// only ever imported by pages/Curate.jsx, which App.jsx excludes from
-// production builds via an `import.meta.env.DEV` guard — so eagerly
-// bundling everything here has no production cost. See data/catalog.js for
-// the lite+lazy split every other page uses.
+// Full catalogue for /curate, loaded only when an admin opens that route.
+// Storefront pages use the lite+lazy split in catalog.js.
 const modules = import.meta.glob("/Products/normalized/*/*.json", {
   eager: true,
   import: "default",

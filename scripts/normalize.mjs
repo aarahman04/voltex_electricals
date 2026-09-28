@@ -561,6 +561,10 @@ function adaptAoSmith(brand, report) {
     const isInstant = /insta|ews|fast-?on|forcenxt|minibot|zip/i.test(name);
     const badge = r["acoplw-blockText"]?.trim();
     const price = priceInt(r["woocommerce-Price-amount"]);
+    const image = (r["attachment-woocommerce_thumbnail src"] || "").replace(
+      /^https:\/\/cdn-jmlld\.nitrocdn\.com\/.*?\/www\.aosmithindia\.com\//,
+      "https://www.aosmithindia.com/",
+    );
     published.push({
       id,
       title: name,
@@ -569,7 +573,7 @@ function adaptAoSmith(brand, report) {
       priceMin: price,
       priceMax: price,
       variants: [{ options: {}, sku: null, price: 0 }],
-      images: { primary: r["attachment-woocommerce_thumbnail src"] || null, gallery: [r["attachment-woocommerce_thumbnail src"]].filter(Boolean) },
+      images: { primary: image || null, gallery: image ? [image] : [] },
       sourceUrl: href || undefined,
       category: "Water Geysers",
       subcategory: isInstant ? "Instant Water Heaters" : "Storage Water Heaters",
