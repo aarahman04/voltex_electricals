@@ -2295,6 +2295,174 @@
     {
       "uid": "kuhl--ventis-8",
       "title": "Kuhl Kühl VENTIS 8\""
+    },
+    {
+      "uid": "multifab--dot-led-mini-spotlight",
+      "title": "Multifab Dot LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--crystal-led-mini-spotlight",
+      "title": "Multifab Crystal LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--eagon-led-mini-spotlight",
+      "title": "Multifab Eagon LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--crystal-led-mini-spotlight-adujstable",
+      "title": "Multifab Crystal LED Mini Spotlight (Adjustable)"
+    },
+    {
+      "uid": "multifab--karizma-led-mini-spotlight",
+      "title": "Multifab Karizma LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--karizma-deep-led-mini-spotlight",
+      "title": "Multifab Karizma Deep LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--jelly-acrylic-led-mini-spotlight",
+      "title": "Multifab Jelly Acrylic LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--jelly-crystal-led-mini-spotlight",
+      "title": "Multifab Jelly Crystal LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--craxa-led-mini-spotlight",
+      "title": "Multifab Craxa LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--bloom-led-mini-spotlight",
+      "title": "Multifab Bloom LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--moon-led-mini-spotlight",
+      "title": "Multifab Moon LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--era-led-mini-spotlight",
+      "title": "Multifab Era LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--crystal-led-spotlight",
+      "title": "Multifab Crystal LED Spotlight"
+    },
+    {
+      "uid": "multifab--verve-led-spotlight",
+      "title": "Multifab Verve LED Spotlight"
+    },
+    {
+      "uid": "multifab--circle-led-spotlight",
+      "title": "Multifab Circle LED Spotlight"
+    },
+    {
+      "uid": "multifab--i-power-led-spotlight",
+      "title": "Multifab I-POWER LED Spotlight"
+    },
+    {
+      "uid": "multifab--nexa-led-mini-spotlight",
+      "title": "Multifab Nexa LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--i-ball-led-mini-spotlight",
+      "title": "Multifab I Ball LED Mini Spotlight"
+    },
+    {
+      "uid": "multifab--jet-i-surface-mounted",
+      "title": "Multifab JET-I Surface Mounted"
+    },
+    {
+      "uid": "multifab--rangoli-led-spotlight",
+      "title": "Multifab Rangoli LED Spotlight"
+    },
+    {
+      "uid": "multifab--colours-led-spotlight",
+      "title": "Multifab Colours LED Spotlight"
+    },
+    {
+      "uid": "multifab--eva-led-spotlight",
+      "title": "Multifab Eva LED Spotlight"
+    },
+    {
+      "uid": "multifab--quick-led-junction-light",
+      "title": "Multifab Quick LED Junction Light"
+    },
+    {
+      "uid": "multifab--super-saver-led-panel-light",
+      "title": "Multifab Super Saver LED Panel Light"
+    },
+    {
+      "uid": "multifab--prime-series-led-panel-light",
+      "title": "Multifab Prime Series LED Panel Light"
+    },
+    {
+      "uid": "multifab--maxbright-led-panel-light",
+      "title": "Multifab Maxbright LED Panel Light"
+    },
+    {
+      "uid": "multifab--trio-led-panel-light",
+      "title": "Multifab Trio LED Panel Light"
+    },
+    {
+      "uid": "multifab--air-led-panel-light",
+      "title": "Multifab Air LED Panel Light"
+    },
+    {
+      "uid": "multifab--satrangi-led-panel-light",
+      "title": "Multifab Satrangi LED Panel Light"
+    },
+    {
+      "uid": "multifab--luna-led-panel-light",
+      "title": "Multifab Luna LED Panel Light"
+    },
+    {
+      "uid": "multifab--satrangi-surface-panel",
+      "title": "Multifab Satrangi Surface Panel"
+    },
+    {
+      "uid": "multifab--super-saver-surface-panel",
+      "title": "Multifab Super Saver Surface Panel"
+    },
+    {
+      "uid": "multifab--maxbright-surface-panel",
+      "title": "Multifab Maxbright Surface Panel"
+    },
+    {
+      "uid": "multifab--alexa-led-surface-light",
+      "title": "Multifab Alexa LED Surface Light"
+    },
+    {
+      "uid": "multifab--twist-led-surface-light",
+      "title": "Multifab Twist LED Surface Light"
+    },
+    {
+      "uid": "multifab--zero-edge-led-surface-light",
+      "title": "Multifab Zero Edge LED Surface Light"
+    },
+    {
+      "uid": "multifab--smart-line-next-led-batten",
+      "title": "Multifab Smart Line Next LED Batten"
+    },
+    {
+      "uid": "multifab--ultra-slim-led-linear-light-sensor",
+      "title": "Multifab Ultra Slim LED Linear Light (Sensor)"
+    },
+    {
+      "uid": "multifab--solar-smart-spike-light",
+      "title": "Multifab Solar Smart Spike Light"
+    },
+    {
+      "uid": "multifab--multistar-flood-light",
+      "title": "Multifab Multistar Flood Light"
+    },
+    {
+      "uid": "multifab--netvue-flood-light",
+      "title": "Multifab Netvue Flood Light"
+    },
+    {
+      "uid": "multifab--xuv-flood-light",
+      "title": "Multifab Xuv Flood Light"
     }
   ],
   "removedImages": {
