@@ -2,13 +2,28 @@
 
 **This is the handoff file.** A new session resumes by reading this top-to-bottom.
 
-- **Branch:** `brand-first-catalog-nav` (forked from `admin-curate-tool` / `multi-brand-catalog`).
+- **Current admin branch / workspace:** `admin-section` in `C:\Users\aarah\voltex_admin`. Keep the separate `C:\Users\aarah\voltex_electricals` checkout untouched.
 - **Live site:** https://voltex-electricals-psi.vercel.app
-- **Plan:** `~/.claude/plans/so-there-were-a-goofy-cascade.md` (brand-first nav restructure).
+- **Current plan / contract:** `docs/admin-plan.md` / `docs/admin-api.md`.
 - **Brief:** `website_redesign_prompt.md` (the client requirements)
 - **Plans (historical):** `~/.claude/plans/okay-so-now-we-quizzical-parrot.md` (mobile viewport + search + Water Geysers), `~/.claude/plans/velvet-baking-lollipop.md` (Phase 0 + A–D), `~/.claude/plans/pr-2-merged-one-synthetic-hinton.md` (A–D file:line detail)
 
-> **Branch trap, corrected.** The previous note here said `main` was current and `multi-brand-catalog` was stale — as of this session it's the other way round: `multi-brand-catalog` (`6bfeed7`) carries the merged curation-tool work (PR #9) that `main` (`6770be8`, PR #8 only) doesn't have yet. **Check both `origin/main` and `origin/multi-brand-catalog` logs before assuming either is current** — this has flipped once already and will again once someone merges one into the other.
+## Latest (2026-10-03) — admin frontend complete
+
+**Delivery:** frontend commits `17f757d` (API client, IndexedDB drafts and shared editor) and `44923f7` (admin screens and route) are pushed to `origin/admin-section`. No PR opened. The backend was already built; this session did not change `api/`, `scripts/`, `src/data/`, `vite.config.js` or dependencies.
+
+- Lazy `/admin` renders outside the store header/footer with `noindex`, session/login, sign out and Add / Remove / Manage tabs stored in `?tab=`. `/curate` and its page are removed.
+- Add saves drafts and photos across refresh, supports bulk photos, editing/duplication, photo ordering, new categories/types and sequential uploads before one publish request. Failures preserve drafts and show an error. Success shows “Published — live on the site in about 2 minutes”.
+- Manage searches the whole catalogue, filters admin/unbranded products, sets or clears prices, and edits/deletes admin products. Remove preserves search/filters, click/shift-click selection, removal/restoration and gallery image clean-up. API curation lists are read from `curation`.
+- The shared form and confirmation sheets use store tokens, large touch controls and phone action bars; desktop Add uses two columns. No new dependencies.
+
+**Verified:** lint, the native Node product validation check and production build pass. Build emits large catalogue chunk warnings. Browser checks at 360px and 1280px covered login; three drafts including bulk photos; refresh persistence; publishing to `Products/admin/` and `public/products/admin/`; visibility on `/products`; price change; brand assignment; edit/delete; product remove/restore; and photo hide/restore. A connection-loss publish attempt preserved its draft, and retry succeeded. Screenshots of every requested screen at both widths were reviewed and spacing/touch targets corrected. Review images: `C:\Users\aarah\.codex\visualizations\admin-ui-review`.
+
+**Cleanup:** test products, custom taxonomy, uploaded images, curation edits and generated normalized files were restored to committed seed state or deleted before source commits. The worktree was clean after pushing.
+
+**Remaining verification:** production login, GitHub commits and deployed rebuild timing after deployment; local dev checks do not establish these. The live site above has not been updated by this branch push alone.
+
+> **Historical branch note (September 2026).** `multi-brand-catalog` (`6bfeed7`) carried the merged curation-tool work (PR #9) that `main` (`6770be8`, PR #8 only) did not yet have. Check current remote logs before using these historical references.
 
 ## Latest (2026-09-16) — four new brands (Multifab, AO Smith, Almonard, Wipro)
 

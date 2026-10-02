@@ -1,5 +1,15 @@
 # Voltex Admin — add / remove / manage products on the live site
 
+## Implementation status — 2026-10-03
+
+The admin frontend is complete and pushed on `admin-section` in `17f757d` and `44923f7`. `/admin` is lazy-loaded outside the store header/footer and marked `noindex`; `/curate` is retired. Add, Remove and Manage use the existing backend contract in `docs/admin-api.md`, including the nested `curation` response. No backend, ETL, catalogue-data or Vite configuration changes were made in this frontend work.
+
+Verified locally at 360px and 1280px: login, three drafts including bulk photos, photo reordering, persistence after refresh, publishing and store visibility, price changes, brand assignment, editing/deletion, removal/restoration and image clean-up/restoration. A connection failure kept the drafts and a retry succeeded. Screenshots of Login, Add, Draft list, Publish progress, Manage, Edit and Remove were reviewed at both widths; files are in `C:\Users\aarah\.codex\visualizations\admin-ui-review`.
+
+`npm run lint`, `node --test src/lib/admin/product.test.js` and `npm run build` pass. Build still reports large catalogue chunk warnings. All test products, taxonomy entries, images, curation changes and generated catalogue files were restored or removed before committing. Production authentication, GitHub writes and the deployed rebuild remain to be verified after deployment. No PR was opened, as requested.
+
+The sections below retain the original implementation plan; the API contract is the source of truth for requests and responses.
+
 ## Context
 
 Today `/curate` (src/pages/Curate.jsx) lets a logged-in user remove products and junk gallery images on the live site. It works through `api/curation.js`, a Vercel Function that checks `CURATE_USERNAME`/`CURATE_PASSWORD`, then commits `Products/curation.json` to `main` via the GitHub Contents API using `CURATION_GITHUB_TOKEN`. `src/main.jsx` fetches `/api/curation?ids` before render and hides removed products right away. Vercel then rebuilds, and the ETL (`scripts/normalize.mjs`) bakes the removal in.
@@ -24,7 +34,7 @@ The owner now wants this renamed **Admin** at `/admin`, with the same single log
 
 Astra has uncommitted styling work in `C:\Users\aarah\voltex_electricals` (Home.jsx, ShoppableHero, RoomHotspots, App.jsx). **Don't touch that tree.**
 - `git worktree add ../voltex_admin -b admin-section origin/main` → all admin work happens in `C:\Users\aarah\voltex_admin`.
-- `npm install` there. When the PR is opened, use `--base main` (the GitHub default branch is wrong, see [[voltex-deploy-facts]]).
+- `admin-section` already exists and is pushed. Use the existing checkout and pull before starting. Current delivery instruction: commit and push directly to this branch; do not open a PR.
 - Copy this plan into the branch as `docs/admin-plan.md` (first commit) so both agents read the same spec.
 
 ## Data design
