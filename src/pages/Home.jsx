@@ -43,9 +43,9 @@ function ElectricalIcon({ kind }) {
   </svg>;
 }
 
-export default function Home() {
+export default function Home({ motionEnabled }) {
   return <div className="home-page">
-    <ShoppableHero />
+    <ShoppableHero motionEnabled={motionEnabled} />
     <Section eyebrow="The collection" title="Every room. Every need." href="/products" hrefLabel="View the catalogue">
       <div className="category-grid">{PUBLISHED.map((category) => <CategoryCard key={category} category={category} />)}</div>
     </Section>
