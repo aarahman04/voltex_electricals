@@ -346,6 +346,8 @@ body { background: #f8f7f3; }
 .product-brand { color: var(--color-amber); font-size: .59rem !important; }
 .catalog-card h3 { margin-top: 8px; font-size: .95rem; font-weight: 550; line-height: 1.45; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
 .product-spec { margin-top: auto; padding-top: 10px; font-size: .71rem; color: #72776f; line-height: 1.5; }
+.product-price { margin-top: 6px; font-size: .95rem; font-weight: 600; color: var(--color-ink); letter-spacing: 0; }
+.product-price-detail { margin-top: 28px; font-size: 1.75rem; font-weight: 600; line-height: 1.1; color: var(--color-ink); }
 .catalog-card .product-card-add { position: absolute; z-index: 2; top: 10px; right: 10px; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; border: 1px solid #d1d4cb; background: #fafaf5d9; color: var(--color-ink); box-shadow: none; transition: color .2s, background .2s, transform .2s; }
 .product-card-add:hover { background: var(--color-ink) !important; color: white !important; transform: rotate(90deg); }
 .product-card-add[aria-pressed="true"] { background: var(--color-amber) !important; border-color: var(--color-amber) !important; color: white !important; }

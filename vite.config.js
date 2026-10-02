@@ -1,52 +1,92 @@
 import { execFileSync } from 'node:child_process'
-import { readFileSync, writeFileSync } from 'node:fs'
-import { join } from 'node:path'
+import { createHash } from 'node:crypto'
+import { copyFileSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { dirname, join } from 'node:path'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vite'
-import { updateCuration } from './src/data/curationActions.js'
+import {
+  ADMIN_PATHS, AdminInputError, applyAdminAction, emptyCuration, emptyProducts, emptyTaxonomy, serialize,
+} from './src/data/adminActions.js'
 
 const ROOT = import.meta.dirname
-const CURATION_PATH = join(ROOT, 'Products', 'curation.json')
+const UPLOADS = join(ROOT, 'Products', 'admin', '.uploads')
+const EMPTY = { curation: emptyCuration, products: emptyProducts, taxonomy: emptyTaxonomy }
 
-// Dev-only: lets the /curate page read + write Products/curation.json and
-// re-run the ETL, so removals show up via HMR without a manual rebuild.
-// Not registered for `vite build` — ships nothing to production.
-function curatePlugin() {
+const readState = () => Object.fromEntries(
+  Object.entries(ADMIN_PATHS).map(([key, rel]) => {
+    const path = join(ROOT, rel)
+    return [key, existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : EMPTY[key]()]
+  }),
+)
+
+const isWebp = (bytes) => bytes.length > 12 && bytes.toString('latin1', 0, 4) === 'RIFF' && bytes.toString('latin1', 8, 12) === 'WEBP'
+
+// Dev-only twin of api/admin.js: the same applyAdminAction reducer, but it
+// writes files on disk instead of committing to GitHub, then re-runs the ETL
+// so changes show up via HMR. There is no login in dev. Not registered for
+// `vite build` — ships nothing to production.
+function adminPlugin() {
   return {
-    name: 'voltex-curate',
+    name: 'voltex-admin',
     apply: 'serve',
     configureServer(server) {
-      server.middlewares.use('/__curate', (req, res) => {
-        if (req.method === 'GET') {
+      server.middlewares.use('/__admin', (req, res) => {
+        const send = (status, data) => {
+          res.statusCode = status
           res.setHeader('Content-Type', 'application/json')
-          res.end(JSON.stringify({ ...JSON.parse(readFileSync(CURATION_PATH, 'utf8')), authenticated: true }))
-          return
+          res.end(JSON.stringify(data))
         }
-        if (req.method === 'POST') {
-          let body = ''
-          req.on('data', (chunk) => { body += chunk })
-          req.on('end', () => {
-            try {
-              const data = updateCuration(JSON.parse(readFileSync(CURATION_PATH, 'utf8')), JSON.parse(body))
-              writeFileSync(CURATION_PATH, JSON.stringify(data, null, 2) + '\n')
-              const output = execFileSync('node', ['scripts/normalize.mjs'], {
-                cwd: ROOT,
-                encoding: 'utf8',
-              })
-              const report = output.trim().split('\n')[0] ?? ''
-              res.setHeader('Content-Type', 'application/json')
-              res.end(JSON.stringify({ ...data, authenticated: true, ok: true, report }))
-            } catch (err) {
-              res.statusCode = 500
-              res.setHeader('Content-Type', 'application/json')
-              res.end(JSON.stringify({ ok: false, error: String(err) }))
+        const view = (state) => ({ authenticated: true, ...state })
+
+        if (req.method === 'GET') {
+          const state = readState()
+          if (req.url.includes('ids')) return send(200, { removed: state.curation.removed.map((item) => ({ uid: item.uid })) })
+          return send(200, view(state))
+        }
+        if (req.method !== 'POST') return send(405, { error: 'Method not allowed' })
+
+        const chunks = []
+        req.on('data', (chunk) => chunks.push(chunk))
+        req.on('end', () => {
+          try {
+            const action = JSON.parse(Buffer.concat(chunks).toString('utf8'))
+            if (action.type === 'login' || action.type === 'logout') return send(200, { ok: true })
+
+            if (action.type === 'upload') {
+              const bytes = Buffer.from(String(action.data ?? ''), 'base64')
+              if (!isWebp(bytes)) throw new AdminInputError('Invalid photo: expected a WebP image')
+              const blobSha = createHash('sha1').update(bytes).digest('hex')
+              mkdirSync(UPLOADS, { recursive: true })
+              writeFileSync(join(UPLOADS, `${blobSha}.webp`), bytes)
+              return send(200, { ok: true, blobSha })
             }
-          })
-          return
-        }
-        res.statusCode = 405
-        res.end()
+
+            const before = readState()
+            const result = applyAdminAction(before, action)
+            let changed = false
+            for (const key of Object.keys(ADMIN_PATHS)) {
+              if (JSON.stringify(result[key]) === JSON.stringify(before[key])) continue
+              mkdirSync(dirname(join(ROOT, ADMIN_PATHS[key])), { recursive: true })
+              writeFileSync(join(ROOT, ADMIN_PATHS[key]), serialize(result[key]))
+              changed = true
+            }
+            for (const file of result.files.add) {
+              const source = join(UPLOADS, `${file.blobSha}.webp`)
+              if (!existsSync(source)) throw new AdminInputError('A photo upload expired. Add the photo again.')
+              mkdirSync(dirname(join(ROOT, file.path)), { recursive: true })
+              copyFileSync(source, join(ROOT, file.path))
+              changed = true
+            }
+            for (const path of result.files.delete) rmSync(join(ROOT, path), { force: true })
+            if (changed) execFileSync('node', ['scripts/normalize.mjs'], { cwd: ROOT, encoding: 'utf8' })
+            send(200, { ok: true, changed, created: result.created, ...view(result) })
+          } catch (error) {
+            if (error instanceof AdminInputError || error.message?.startsWith('Invalid')) return send(400, { error: error.message })
+            console.error(error)
+            send(500, { error: String(error) })
+          }
+        })
       })
     },
   }
@@ -54,5 +94,5 @@ function curatePlugin() {
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(), curatePlugin()],
+  plugins: [react(), tailwindcss(), adminPlugin()],
 })

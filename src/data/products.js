@@ -127,9 +127,11 @@ function brandModelCounts(items) {
 // Every brand with a live model count, alphabetical by name. Brands with no
 // products in the data are left out entirely — never write a literal.
 export function getBrands() {
-  return brandsWithCounts(brandModelCounts(products));
+  return brandsWithCounts(brandModelCounts(products)).filter((brand) => !brand.hidden);
 }
 
+// Includes the hidden "Other brands" stand-in (listed last) so unbranded
+// /admin products stay reachable from their category.
 export function getBrandsForCategory(category) {
   return brandsWithCounts(brandModelCounts(getProductsByCategory(category)));
 }
@@ -137,7 +139,7 @@ export function getBrandsForCategory(category) {
 function brandsWithCounts(counts) {
   return BRANDS.map((brand) => ({ ...brand, count: counts.get(brand.slug) ?? 0 }))
     .filter((brand) => brand.count > 0)
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => Boolean(a.hidden) - Boolean(b.hidden) || a.name.localeCompare(b.name));
 }
 
 export function getProductsByBrand(brandSlug) {

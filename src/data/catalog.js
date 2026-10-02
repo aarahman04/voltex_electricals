@@ -32,7 +32,9 @@ export const catalog = Object.entries(liteModules).flatMap(([path, rows]) => {
   const fullPath = path.replace(/\.lite\.json$/, ".json");
   return (rows ?? []).map((raw) => {
     const brand = resolveBrand(raw.vendor, folder);
-    const uid = `${brand.slug}--${raw.id}`;
+    // /admin products keep one stable uid even if their brand is assigned or
+    // changed later, so enquiry lists and curation entries never go stale.
+    const uid = `${folder === "admin" ? "admin" : brand.slug}--${raw.id}`;
     fullSourceByUid.set(uid, { path: fullPath, id: raw.id });
     return {
       uid,
@@ -46,6 +48,8 @@ export const catalog = Object.entries(liteModules).flatMap(([path, rows]) => {
       tags: raw.tags ?? [],
       variants: raw.variants ?? [],
       images: raw.images ?? {},
+      // Only set via /admin; scraped prices never reach the lite record.
+      price: raw.price ?? null,
       // Detail-only fields: safe empty defaults so every existing `??`/`&&`
       // guard in ProductDetail.jsx keeps working before loadProductDetail
       // resolves.

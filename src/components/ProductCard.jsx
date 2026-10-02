@@ -5,10 +5,12 @@ import { cdnImage } from "../lib/image.js";
 import { displayTitle, specSummary } from "../lib/specSummary.js";
 import { productTone } from "../lib/kelvin.js";
 import { useEnquiry } from "../context/enquiry.js";
+import { formatPrice } from "../lib/price.js";
 
 function ProductCard({ product }) {
   const { has, toggle } = useEnquiry();
   const title = displayTitle(product);
+  const price = formatPrice(product.price);
   const added = has(product.uid);
   const tone = productTone(product);
 
@@ -21,9 +23,10 @@ function ProductCard({ product }) {
         <span className="product-view">View details <span aria-hidden="true">↗</span></span>
       </div>
       <div className="product-copy">
-        <span className="product-brand spec">{product.brand}</span>
+        {product.brandSlug !== "other" && <span className="product-brand spec">{product.brand}</span>}
         <h3>{title}</h3>
         <p className="product-spec">{specSummary(product) || product.subcategory}</p>
+        {price && <p className="product-price">{price}</p>}
         {added && <span className="product-saved">✓ In your enquiry list</span>}
       </div>
     </Link>

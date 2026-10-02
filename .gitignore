@@ -26,3 +26,6 @@ Products/*/debug_html/
 *.sln
 *.sw?
 *.exe
+
+# Dev-only photo uploads awaiting an /admin publish
+Products/admin/.uploads/
