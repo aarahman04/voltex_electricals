@@ -55,7 +55,7 @@ export default function App() {
                   transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
                 >
                   <Routes location={location}>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/" element={<Home motionEnabled={motionEnabled} />} />
                     <Route path="/products" element={<AllProducts />} />
                     <Route path="/c/:category" element={<CategoryHub />} />
                     <Route
