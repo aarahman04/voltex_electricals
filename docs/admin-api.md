@@ -39,7 +39,7 @@ Every successful write responds **200** with the new full state, in the same sha
 ```
 `changed` is `false` when the request was a no-op (nothing committed). `created` is only filled by `publish`. **Replace your local copy of the state with the response.**
 
-> **Shape change vs the old /curate API:** the curation lists used to be the top level of the response (`data.removed`). They are now under `data.curation` (`data.curation.removed`, `data.curation.removedImages`). `Curate.jsx` (kept for reference only, its `/api/curation` and `/__curate` endpoints no longer exist) has to be ported with that change.
+> **Shape change vs the old /curate API:** the curation lists used to be the top level of the response (`data.removed`). They are now under `data.curation` (`data.curation.removed`, `data.curation.removedImages`). `/api/curation`, `/__curate` and `Curate.jsx` no longer exist; `src/pages/admin/RemoveProducts.jsx` is the port.
 
 ### `login` / `logout`
 ```json

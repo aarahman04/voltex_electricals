@@ -2,26 +2,30 @@
 
 **This is the handoff file.** A new session resumes by reading this top-to-bottom.
 
-- **Current admin branch / workspace:** `admin-section` in `C:\Users\aarah\voltex_admin`. Keep the separate `C:\Users\aarah\voltex_electricals` checkout untouched.
-- **Live site:** https://voltex-electricals-psi.vercel.app
-- **Current plan / contract:** `docs/admin-plan.md` / `docs/admin-api.md`.
+- **Admin work:** branch `admin-section` (worktree `C:\Users\aarah\voltex_admin`), shipped to `main` as one squash-merged PR. The separate `C:\Users\aarah\voltex_electricals` checkout belongs to the storefront styling work; leave it alone.
+- **Live site:** https://www.voltexelectricals.co.in (also https://voltex-electricals-psi.vercel.app). Vercel's production branch is `main`; GitHub's default branch is not, so always `gh pr create --base main`.
+- **Admin plan / contract:** `docs/admin-plan.md` / `docs/admin-api.md`.
 - **Brief:** `website_redesign_prompt.md` (the client requirements)
 - **Plans (historical):** `~/.claude/plans/okay-so-now-we-quizzical-parrot.md` (mobile viewport + search + Water Geysers), `~/.claude/plans/velvet-baking-lollipop.md` (Phase 0 + A–D), `~/.claude/plans/pr-2-merged-one-synthetic-hinton.md` (A–D file:line detail)
 
-## Latest (2026-10-03) — admin frontend complete
+## Latest (2026-10-03) — /admin: add, remove and manage products on the live site
 
-**Delivery:** frontend commits `17f757d` (API client, IndexedDB drafts and shared editor) and `44923f7` (admin screens and route) are pushed to `origin/admin-section`. No PR opened. The backend was already built; this session did not change `api/`, `scripts/`, `src/data/`, `vite.config.js` or dependencies.
+**What and why.** The owner needed to put godown stock that no brand site lists onto the live catalogue, set prices, and keep the old remove tool — all from a phone, behind one login. `/curate` is replaced by `/admin` (Add · Remove · Manage). There is no database: every save is one commit to `main` made by `api/admin.js` through the GitHub Git Data API, and the Vercel rebuild after it publishes the change (~1–2 min). Removals still hide instantly via the `main.jsx` overlay. Full design in `docs/admin-plan.md`; request/response contract in `docs/admin-api.md`.
+
+**Backend (part 1).** `src/data/adminActions.js` is the one reducer/validator, shared by `api/admin.js` (production) and the `/__admin` Vite dev plugin (writes files, re-runs the ETL). Admin products live in `Products/admin/products.json` (+ `taxonomy.json` for admin-created categories/types), photos in `public/products/admin/`, price overrides for scraped products in `Products/curation.json` `prices`. ETL adapter `adaptAdmin`; uid `admin--<id>` never changes even when a brand is assigned later; unbranded products resolve to a hidden "Other brands" brand. Admin-created categories get `/c/<Name>` and `/products` filters but stay out of `PUBLISHED` (header/footer/home) until a developer adds them. Prices render on cards and the product page only when set. Env vars unchanged (`CURATE_*` still read; `ADMIN_*` wins if set).
+
+**Frontend (part 2, GPT).** Commits `17f757d`, `44923f7`:
 
 - Lazy `/admin` renders outside the store header/footer with `noindex`, session/login, sign out and Add / Remove / Manage tabs stored in `?tab=`. `/curate` and its page are removed.
 - Add saves drafts and photos across refresh, supports bulk photos, editing/duplication, photo ordering, new categories/types and sequential uploads before one publish request. Failures preserve drafts and show an error. Success shows “Published — live on the site in about 2 minutes”.
 - Manage searches the whole catalogue, filters admin/unbranded products, sets or clears prices, and edits/deletes admin products. Remove preserves search/filters, click/shift-click selection, removal/restoration and gallery image clean-up. API curation lists are read from `curation`.
 - The shared form and confirmation sheets use store tokens, large touch controls and phone action bars; desktop Add uses two columns. No new dependencies.
 
-**Verified:** lint, the native Node product validation check and production build pass. Build emits large catalogue chunk warnings. Browser checks at 360px and 1280px covered login; three drafts including bulk photos; refresh persistence; publishing to `Products/admin/` and `public/products/admin/`; visibility on `/products`; price change; brand assignment; edit/delete; product remove/restore; and photo hide/restore. A connection-loss publish attempt preserved its draft, and retry succeeded. Screenshots of every requested screen at both widths were reviewed and spacing/touch targets corrected. Review images: `C:\Users\aarah\.codex\visualizations\admin-ui-review`.
+**Review fixes (part 3).** `catalogFull.js` built admin uids from the brand slug (now `admin--<id>` like `catalog.js`); `api/admin.js` failed an update/delete with 502 if a photo file was already gone from the repo (deletions are now filtered against the folder listing; test added); typing a tag then tapping "Add to list" silently did nothing (blur added the chip and moved the button under the tap); the new category/type `pattern` was an invalid `v`-flag regex; a fast second add/bulk while a draft was still saving could drop a draft (form now locks while saving).
 
-**Cleanup:** test products, custom taxonomy, uploaded images, curation edits and generated normalized files were restored to committed seed state or deleted before source commits. The worktree was clean after pushing.
+**Verified (dev):** `node --test scripts/admin.test.mjs` (reducer + API against an in-memory GitHub: one commit per action, 422 retry on fresh state, missing-photo tolerance), `src/lib/admin/product.test.js`, `scripts/hero.test.mjs`, `check-catalog.mjs`, lint and build. Headless Chromium (local Playwright; the Chrome extension was offline) against `npm run dev` at 360px and 1280px: three drafts incl. bulk photos, persistence across reload, publish with per-photo progress (photos resized to ≤1600px WebP), files in `Products/admin/` + `public/products/admin/`; storefront: price on card and product page, no Model code row when blank, "Other brands" tile last on `/c/Lighting`, new `/c/Decor` page, `/curate` → NotFound, `/admin` `noindex`; Manage: set/clear price on a scraped product, "Needs a brand" → assign brand, delete with confirm; Remove: remove + restore. Test data was restored to the empty seeds afterwards.
 
-**Remaining verification:** production login, GitHub commits and deployed rebuild timing after deployment; local dev checks do not establish these. The live site above has not been updated by this branch push alone.
+**Not verified:** a real publish/update/delete against GitHub in production (needs the owner's login) and real-phone camera capture. In dev, every save re-runs the ETL and Vite hot-reloads the page — that's dev-only.
 
 > **Historical branch note (September 2026).** `multi-brand-catalog` (`6bfeed7`) carried the merged curation-tool work (PR #9) that `main` (`6770be8`, PR #8 only) did not yet have. Check current remote logs before using these historical references.
 
