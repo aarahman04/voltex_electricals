@@ -9,7 +9,7 @@ import { catalog } from "./data/catalog.js";
 
 async function start() {
   try {
-    const response = await fetch(import.meta.env.DEV ? "/__curate?ids" : "/api/curation?ids", { cache: "no-store" });
+    const response = await fetch(import.meta.env.DEV ? "/__admin?ids" : "/api/admin?ids", { cache: "no-store" });
     if (!response.ok) throw new Error(`Curation request failed: ${response.status}`);
     const { removed } = await response.json();
     const hidden = new Set((removed ?? []).map((item) => item.uid));

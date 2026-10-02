@@ -6,7 +6,7 @@ import BrandCard from "../components/BrandCard.jsx";
 export default function Brands() {
   const brands = getBrands();
   const [category, setCategory] = useState(null);
-  const visibleBrands = category ? getBrandsForCategory(category) : brands;
+  const visibleBrands = category ? getBrandsForCategory(category).filter((brand) => !brand.hidden) : brands;
   return <div className="site-width brand-directory">
     <header className="editorial-heading">
       <div><p className="eyebrow"><span className="status-light" /> The brand directory</p><h1 className="nameplate">Great brands.<br /><span>More possibilities.</span></h1></div>

@@ -10,6 +10,7 @@ import {
 import { brandListingPath, categoryPath } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 import { displayTitle } from "../lib/specSummary.js";
+import { formatPrice } from "../lib/price.js";
 import { useEnquiry } from "../context/enquiry.js";
 import BrandMark from "../components/BrandMark.jsx";
 import VariantSelector from "../components/VariantSelector.jsx";
@@ -91,6 +92,7 @@ function ProductDetailView({ product: liteProduct }) {
   const related = getRelatedProducts(product);
   const more = getMoreFromBrand(product);
   const title = displayTitle(product);
+  const price = formatPrice(product.price);
   const tags = (product.tags ?? []).filter((tag) => !tag.includes("__")).slice(0, 6);
 
   const optionRows = hasVariants
@@ -139,9 +141,11 @@ function ProductDetailView({ product: liteProduct }) {
         />
 
         <div className="product-information flex flex-col">
-          <Link to={`/brand/${product.brandSlug}`} className="w-fit">
-            <BrandMark slug={product.brandSlug} name={product.brand} size="md" />
-          </Link>
+          {product.brandSlug !== "other" && (
+            <Link to={`/brand/${product.brandSlug}`} className="w-fit">
+              <BrandMark slug={product.brandSlug} name={product.brand} size="md" />
+            </Link>
+          )}
           <h1 className="nameplate mt-4 text-[1.85rem] text-ink sm:text-[2.25rem]">
             {title}
           </h1>
@@ -191,6 +195,8 @@ function ProductDetailView({ product: liteProduct }) {
             </p>
           )}
 
+          {price && <p className="product-price-detail nameplate">{price}</p>}
+
           <div className="product-enquiry-actions mt-10 flex flex-wrap items-center gap-3">
             <button
               type="button"
@@ -204,7 +210,7 @@ function ProductDetailView({ product: liteProduct }) {
               View enquiry list
             </Link>
             <span className="spec w-full text-ink-muted sm:w-auto">
-              Pricing & availability on enquiry
+              {price ? "Availability on enquiry" : "Pricing & availability on enquiry"}
             </span>
           </div>
 

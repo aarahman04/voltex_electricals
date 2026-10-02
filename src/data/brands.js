@@ -40,6 +40,11 @@ export const BRANDS = [
   { slug: "breezalit", name: "Breezalit", tint: "#F6F1E7", logo: "/brands/breezalit.png" },
   { slug: "polycab", name: "Polycab", tint: "#EAEEE6", logo: "/brands/polycab.png" },
   { slug: "gold-medal", name: "Gold Medal", tint: "#F3EEDF", logo: null },
+  // Stand-in for products added in /admin with "No brand". `hidden` keeps it
+  // out of the brand directory, home counts and footer; it still appears in a
+  // category's brand list (getBrandsForCategory) so those products are
+  // reachable. Assigning a real brand in /admin > Manage moves them out.
+  { slug: "other", name: "Other brands", tint: "#EEECE7", logo: null, hidden: true },
 ];
 
 const BY_SLUG = new Map(BRANDS.map((b) => [b.slug, b]));
@@ -69,6 +74,9 @@ export function getBrandBySlug(slug) {
 export function resolveBrand(vendor, folderSlug) {
   const name = String(vendor ?? "").trim();
   const lower = name.toLowerCase();
+
+  // An /admin product with no brand has an empty vendor.
+  if (!lower && folderSlug === "admin") return BY_SLUG.get("other");
 
   const aliased = VENDOR_ALIASES[lower];
   if (aliased && BY_SLUG.has(aliased)) return BY_SLUG.get(aliased);

@@ -10,11 +10,21 @@
 // rawSubcategory is kept on every product, so a wrong mapping is fixed here,
 // rebuilt with `npm run data:build`, and takes effect with no re-scrape.
 
+import adminTaxonomy from "../../Products/admin/taxonomy.json";
+
 // Categories the site actually shows. The ETL also produces a "Parked"
 // bucket (Crompton appliances, pumps, kitchen) — adding one here plus a
 // category card is all it takes to publish it. See docs/roadmap.md.
 export const PUBLISHED = ["Fans", "Lighting", "Water Geysers"];
-export const isPublished = (category) => PUBLISHED.includes(category);
+
+// Categories an admin created in /admin. They get their own /c/<name> pages
+// and show on /products, but stay out of PUBLISHED — and so out of the header
+// menu, footer and home grid — until a developer adds them there.
+export const ADMIN_CATEGORIES = Object.keys(adminTaxonomy.categories).filter(
+  (name) => !PUBLISHED.includes(name),
+);
+export const isPublished = (category) =>
+  PUBLISHED.includes(category) || ADMIN_CATEGORIES.includes(category);
 
 // "Fans, lighting and water geysers" — for copy that used to hard-code two
 // category names. Add a category to PUBLISHED and this sentence updates

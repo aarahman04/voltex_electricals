@@ -18,7 +18,7 @@ const Enquiry = lazy(() => import("./pages/Enquiry.jsx"));
 const About = lazy(() => import("./pages/About.jsx"));
 const Contact = lazy(() => import("./pages/Contact.jsx"));
 const NotFound = lazy(() => import("./pages/NotFound.jsx"));
-const Curate = lazy(() => import("./pages/Curate.jsx"));
+const AdminApp = lazy(() => import("./pages/admin/AdminApp.jsx"));
 
 export default function App() {
   const location = useLocation();
@@ -30,6 +30,10 @@ export default function App() {
   useEffect(() => {
     window.scrollTo({ top: 0 });
   }, [location.pathname]);
+
+  if (location.pathname.replace(/\/$/, "") === "/admin") {
+    return <Suspense fallback={<RouteLoading />}><Routes><Route path="/admin" element={<AdminApp />} /></Routes></Suspense>;
+  }
 
   return (
     <ShopNoticeProvider>
@@ -69,7 +73,6 @@ export default function App() {
                     <Route path="/enquiry" element={<Enquiry />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/curate" element={<Curate />} />
                     <Route path="*" element={<NotFound />} />
                   </Routes>
                 </motion.div>

@@ -19,7 +19,8 @@ export const catalogFull = Object.entries(modules)
     return (rows ?? []).map((raw) => {
       const brand = resolveBrand(raw.vendor, folder);
       return {
-        uid: `${brand.slug}--${raw.id}`,
+        // Same uid rule as catalog.js: /admin products are always admin--<id>.
+        uid: `${folder === "admin" ? "admin" : brand.slug}--${raw.id}`,
         id: raw.id,
         title: raw.title,
         brand: brand.name,

@@ -9,13 +9,16 @@
  *   Products/normalized/_parked.json            (non-core: appliances, pumps, kitchen)
  *   Products/normalized/report.md               (what happened, for review)
  *
- * Node only, zero dependencies, idempotent. Prices are normalized and kept
- * on the record but the app never renders them (decision D4).
+ * Node only, zero dependencies, idempotent. Scraped prices are normalized
+ * and kept on the record but the app never renders them (decision D4); only
+ * a price set in /admin (curation.json `prices`, or an admin product's own
+ * `price`) reaches the lite record's `price` and is shown.
  */
 
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, rmSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { getBrandBySlug } from "../src/data/brands.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = join(ROOT, "Products");
@@ -28,9 +31,10 @@ function loadCuration() {
     return {
       removed: new Set((raw.removed ?? []).map((r) => r.uid)),
       removedImages: raw.removedImages ?? {},
+      prices: raw.prices ?? {},
     };
   } catch {
-    return { removed: new Set(), removedImages: {} };
+    return { removed: new Set(), removedImages: {}, prices: {} };
   }
 }
 
@@ -65,6 +69,10 @@ const BRANDS = [
     },
   },
   { slug: "kuhl", name: "Kuhl", schema: "kuhl", dir: "khul", csv: "kuhl_all_fans.csv" },
+  // Products added by hand in /admin (Products/admin/products.json). The slug
+  // only namespaces the uid (admin--<id>) and the output folder; the product's
+  // real brand, if any, travels in `vendor`.
+  { slug: "admin", name: "Admin", schema: "admin", dir: "admin" },
 ];
 
 // Schema B: product_type (lowercased) -> [category, subcategory].
@@ -837,6 +845,41 @@ function adaptKuhl(brand, report) {
   return { published, parked };
 }
 
+/* ------------------------------------------------------------------ admin */
+
+// Schema "admin" — products typed in by hand through /admin. Never parked: an
+// admin may invent a category or type the scraped brands don't have, and the
+// site shows it as written. Colour rides in variant options and the model
+// code in variants[].sku, which ProductDetail already renders as spec rows
+// (and omits when empty), so no `specs` are written here.
+function adaptAdmin(brand, report) {
+  const path = join(SRC, brand.dir, "products.json");
+  const rows = existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : [];
+  const published = rows.map((p) => {
+    const images = p.images ?? [];
+    const price = p.price ?? 0;
+    return {
+      id: p.id,
+      title: p.title,
+      vendor: (p.brand && getBrandBySlug(p.brand)?.name) || "",
+      tags: p.tags ?? [],
+      priceMin: price,
+      priceMax: price,
+      variants: [{ options: p.color ? { Color: p.color } : {}, sku: p.model ?? null, price }],
+      images: { primary: images[0] ?? null, gallery: images },
+      description: p.description ?? "",
+      specs: [],
+      quality: "rich",
+      category: p.category,
+      subcategory: canonSub(p.subcategory) || p.subcategory,
+      rawSubcategory: p.subcategory,
+      ...(price ? { price } : {}),
+    };
+  });
+  report.push(`- ${brand.name}: ${published.length} admin products`);
+  return { published, parked: [] };
+}
+
 /* --------------------------------------------------- derived classification */
 
 // A COB downlight, by the brand's own handle or category tag. Takes raw tags
@@ -906,6 +949,7 @@ const ADAPTERS = {
   wipro: adaptWipro,
   breezalit: adaptBreezalit,
   kuhl: adaptKuhl,
+  admin: adaptAdmin,
 };
 
 for (const brand of BRANDS) {
@@ -924,8 +968,9 @@ for (const brand of BRANDS) {
   }
   if (dupes) { report.push(`  deduped: ${dupes} duplicate uid(s) dropped`); dupesTotal += dupes; }
 
-  // Curation: drop rows an admin removed via /curate, and trim rows' galleries
-  // to only the images an admin kept. See Products/curation.json.
+  // Curation: drop rows an admin removed via /admin, set price overrides, and
+  // trim rows' galleries to only the images an admin kept. See
+  // Products/curation.json.
   const curated = [];
   let curatedOut = 0;
   for (const p of unique) {
@@ -935,6 +980,10 @@ for (const brand of BRANDS) {
       curatedOut++;
       continue;
     }
+    if (curation.prices[uid]) {
+      seenCurationUids.add(uid);
+      p.price = curation.prices[uid];
+    }
     const removedImages = curation.removedImages[uid];
     if (removedImages) {
       seenCurationUids.add(uid);
@@ -943,13 +992,13 @@ for (const brand of BRANDS) {
     }
     curated.push(p);
   }
-  if (curatedOut) { report.push(`  curated out: ${curatedOut} product(s) removed via /curate`); curatedOutTotal += curatedOut; }
+  if (curatedOut) { report.push(`  curated out: ${curatedOut} product(s) removed via /admin`); curatedOutTotal += curatedOut; }
 
   const byCat = {};
   for (const p of curated) (byCat[p.category] ??= []).push(p);
   mkdirSync(join(OUT, brand.slug), { recursive: true });
   for (const [cat, list] of Object.entries(byCat)) {
-    const filename = cat.toLowerCase().replace(/\s+/g, "-");
+    const filename = cat.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
     writeFileSync(join(OUT, brand.slug, `${filename}.json`), JSON.stringify(list, null, 1));
     // "Lite" sibling: only the fields list/search/facet pages ever read.
     // catalog.js eager-bundles this one; ProductDetail lazy-loads the full
@@ -964,6 +1013,7 @@ for (const brand of BRANDS) {
       tags: p.tags,
       variants: p.variants,
       images: { primary: p.images?.primary ?? null },
+      ...(p.price ? { price: p.price } : {}),
     }));
     writeFileSync(join(OUT, brand.slug, `${filename}.lite.json`), JSON.stringify(lite, null, 1));
   }
@@ -971,7 +1021,7 @@ for (const brand of BRANDS) {
   publishedTotal += curated.length;
 }
 
-const staleCurationUids = [...curation.removed, ...Object.keys(curation.removedImages)]
+const staleCurationUids = [...curation.removed, ...Object.keys(curation.removedImages), ...Object.keys(curation.prices)]
   .filter((uid) => !seenCurationUids.has(uid));
 
 writeFileSync(join(OUT, "_parked.json"), JSON.stringify(allParked, null, 1));
