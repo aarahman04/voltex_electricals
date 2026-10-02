@@ -5,7 +5,7 @@ import { BRANDS } from "../../data/brands.js";
 // when a brand changes, and edits are visible before the site rebuilds.
 export function adminCatalogue(state) {
   return [
-    ...catalogFull.filter((p) => !p.images?.primary?.startsWith("/products/admin/")),
+    ...catalogFull.filter((p) => !p.uid.startsWith("admin--")),
     ...(state.products ?? []).map((p) => ({
       ...p,
       uid: `admin--${p.id}`,
