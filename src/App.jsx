@@ -1,5 +1,5 @@
-import { Suspense, lazy, useEffect } from "react";
-import { motion, MotionConfig } from "framer-motion";
+import { Suspense, lazy, useEffect, useState } from "react";
+import { motion, MotionConfig, useReducedMotion } from "framer-motion";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
@@ -22,6 +22,10 @@ const Curate = lazy(() => import("./pages/Curate.jsx"));
 
 export default function App() {
   const location = useLocation();
+  const [motionPaused, setMotionPaused] = useState(false);
+  const reducedMotion = useReducedMotion();
+  const motionEnabled = !motionPaused && !reducedMotion;
+  const toggleMotion = () => setMotionPaused((paused) => !paused);
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
@@ -30,10 +34,11 @@ export default function App() {
   return (
     <ShopNoticeProvider>
       <EnquiryProvider>
-        <MotionConfig reducedMotion="user">
-          <div className="flex min-h-screen flex-col bg-paper">
-            <Header />
-            <main className="flex-1">
+        <MotionConfig reducedMotion={motionEnabled ? "user" : "always"}>
+          <div className="voltex-site flex min-h-screen flex-col bg-paper" data-motion={motionEnabled}>
+            <a href="#main-content" className="skip-link">Skip to content</a>
+            <Header motionEnabled={motionEnabled} toggleMotion={toggleMotion} reducedMotion={reducedMotion} />
+            <main id="main-content" tabIndex={-1} className="flex-1">
               {/* A blank div during a lazy chunk load reads as the page
                   stalling; this bar gives the wait a shape instead. */}
               <Suspense fallback={<RouteLoading />}>

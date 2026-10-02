@@ -49,7 +49,7 @@ export default function BrandListing() {
   const { brand, items, facets, subcategories } = data;
 
   return (
-    <div className="mx-auto max-w-[1400px] px-5 py-10 sm:px-8 sm:py-14">
+    <div className="site-width py-8 sm:py-12">
       <nav className="spec mb-6 flex items-center gap-2 text-ink-muted">
         <Link to="/products" className="transition-colors hover:text-amber">
           Products
@@ -62,14 +62,9 @@ export default function BrandListing() {
         <span className="text-ink">{brand.name}</span>
       </nav>
 
-      <header className="mb-8 border-b border-seam pb-6">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <div className="flex items-center gap-4">
-            <BrandMark slug={brand.slug} name={brand.name} size="lg" />
-            <h1 className="nameplate text-3xl text-ink sm:text-4xl">{category}</h1>
-          </div>
-          <p className="spec text-ink-muted">{items.length} models</p>
-        </div>
+      <header className="catalogue-heading mb-8">
+        <div><p className="eyebrow">The {brand.name} collection</p><h1 className="nameplate">{category === "Water Geysers" ? "Water heating" : category}<span>.</span></h1><p className="catalogue-description">Find your favourite. Explore the details. Make it part of your space.</p></div>
+        <div className="catalogue-brand"><BrandMark slug={brand.slug} name={brand.name} size="lg" /><span className="spec">{items.length} models to discover</span></div>
       </header>
 
       <Listing baseProducts={items} facets={facets} subcategories={subcategories}>

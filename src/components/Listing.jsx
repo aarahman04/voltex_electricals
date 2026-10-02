@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSearchParams } from "react-router-dom";
 import { hasOptionValue, matchesQuery } from "../data/products.js";
@@ -6,6 +6,8 @@ import { displayTitle } from "../lib/specSummary.js";
 import { useDebouncedValue } from "../lib/useDebouncedValue.js";
 import FilterPanel from "./FilterPanel.jsx";
 import ProductCard from "./ProductCard.jsx";
+import Portal from "./Portal.jsx";
+import { useScrollLock } from "../lib/useScrollLock.js";
 
 const PAGE_SIZE = 24;
 
@@ -43,6 +45,15 @@ export default function Listing({
   const debouncedSearch = useDebouncedValue(search, 200);
   const sort = params.get("sort") ?? "featured";
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const filterButton = useRef(null);
+  useScrollLock(filtersOpen);
+  useEffect(() => {
+    if (!filtersOpen) return;
+    const trigger = filterButton.current;
+    const closeOnEscape = (event) => { if (event.key === "Escape") setFiltersOpen(false); };
+    window.addEventListener("keydown", closeOnEscape);
+    return () => { window.removeEventListener("keydown", closeOnEscape); trigger?.focus(); };
+  }, [filtersOpen]);
 
   const patch = (mutate) =>
     setParams(
@@ -138,16 +149,19 @@ export default function Listing({
     <>
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-[240px_1fr] lg:gap-12">
         <aside className="hidden lg:block">
-          <div className="thin-scroll sticky top-24 max-h-[calc(100vh-8rem)] overflow-y-auto pr-2">
+          <div className="catalog-filters thin-scroll sticky top-24 max-h-[calc(100vh-8rem)] overflow-y-auto">
             <FilterPanel {...filterProps} />
           </div>
         </aside>
 
-        <div>
-          <div className="mb-6 flex items-center justify-between gap-3">
+        <div className="min-w-0">
+          <div className="listing-toolbar mb-6 flex flex-wrap items-center justify-between gap-3">
             <button
               type="button"
+              ref={filterButton}
               onClick={() => setFiltersOpen(true)}
+              aria-expanded={filtersOpen}
+              aria-controls="catalogue-filters"
               className="flex items-center gap-2.5 rounded-[8px] border border-seam px-4 py-2.5 text-sm text-ink transition-colors hover:border-seam-strong lg:hidden"
             >
               Filters
@@ -229,17 +243,30 @@ export default function Listing({
         </div>
       </div>
 
-      <AnimatePresence>
+      <Portal><AnimatePresence>
         {filtersOpen && (
           <>
             <motion.div
               className="fixed inset-0 z-50 bg-ink/30 lg:hidden"
+              aria-hidden="true"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setFiltersOpen(false)}
             />
             <motion.div
+              id="catalogue-filters"
+              role="dialog"
+              aria-modal="true"
+              aria-label="Product filters"
+              onKeyDown={(event) => {
+                if (event.key !== "Tab") return;
+                const controls = [...event.currentTarget.querySelectorAll('button, input, select, a[href], [tabindex="0"]')].filter((element) => !element.disabled && element.getClientRects().length);
+                const first = controls[0];
+                const last = controls.at(-1);
+                if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+                else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+              }}
               className="thin-scroll fixed inset-x-0 bottom-0 z-50 max-h-[86vh] overflow-y-auto rounded-t-[16px] border-t border-seam bg-paper p-6 lg:hidden"
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
@@ -250,6 +277,7 @@ export default function Listing({
                 <h3 className="nameplate text-xl text-ink">Filters</h3>
                 <button
                   type="button"
+                  autoFocus
                   onClick={() => setFiltersOpen(false)}
                   className="spec rounded-[7px] bg-ink px-4 py-2 text-surface"
                 >
@@ -260,7 +288,7 @@ export default function Listing({
             </motion.div>
           </>
         )}
-      </AnimatePresence>
+      </AnimatePresence></Portal>
     </>
   );
 }

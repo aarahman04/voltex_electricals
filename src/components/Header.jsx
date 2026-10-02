@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { getBrandsForCategory, getCategoryCounts } from "../data/products.js";
+import { getBrandsForCategory, getCategoryCounts, getCategoryFeature } from "../data/products.js";
+import { cdnImage } from "../lib/image.js";
 import { PUBLISHED, brandListingPath, categoryPath } from "../data/taxonomy.js";
 import { useEnquiry } from "../context/enquiry.js";
 import { useScrollLock } from "../lib/useScrollLock.js";
@@ -25,7 +26,7 @@ const COMPANY = [
   { label: "Contact", to: "/contact" },
 ];
 
-export default function Header() {
+export default function Header({ motionEnabled, toggleMotion, reducedMotion }) {
   const [menu, setMenu] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [search, setSearch] = useState(false);
@@ -48,22 +49,23 @@ export default function Header() {
   useScrollLock(mobile);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-seam bg-paper/90 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-2 px-2 min-[360px]:px-4 sm:gap-6 sm:px-8">
+    <header className="site-header sticky top-0 z-40 backdrop-blur-md" onMouseLeave={() => setMenu(false)}>
+      <div className="header-row site-width flex items-center gap-3 sm:gap-6">
         <Link to="/" aria-label="Voltex Electricals, home">
-          <Lockup className="text-[11px] min-[360px]:text-[13px] sm:text-[17px]" />
+          <Lockup className="text-[15px] sm:text-[18px]" />
         </Link>
 
-        <nav className="hidden items-center gap-7 md:flex">
+        <nav aria-label="Main navigation" className="header-nav hidden items-center gap-7 lg:flex">
           <div
             onMouseEnter={() => setMenu(true)}
-            onMouseLeave={() => setMenu(false)}
           >
-            <Link
-              to="/products"
+            <button
+              type="button"
+              aria-controls="product-megamenu"
+              onClick={() => setMenu(true)}
               className="flex items-center gap-1.5 py-2 text-sm text-ink-muted transition-colors hover:text-ink"
               aria-expanded={menu}
-              onFocus={() => setMenu(true)}
+              onKeyDown={(event) => { if (event.key === "ArrowDown") { event.preventDefault(); setMenu(true); } }}
             >
               Products
               <svg
@@ -77,13 +79,18 @@ export default function Header() {
               >
                 <path strokeLinecap="round" d="m6 9 6 6 6-6" />
               </svg>
-            </Link>
+            </button>
+            <AnimatePresence>
+              {menu && <motion.div id="product-megamenu" className="mega-panel absolute inset-x-0 top-full hidden border-b border-seam lg:block" initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} transition={{ duration: .2 }} onClick={() => setMenu(false)}><MegaMenu /></motion.div>}
+            </AnimatePresence>
           </div>
 
           {COMPANY.map((item) => (
             <NavLink
               key={item.label}
               to={item.to}
+              onMouseEnter={() => setMenu(false)}
+              onFocus={() => setMenu(false)}
               className={({ isActive }) =>
                 `text-sm transition-colors ${
                   isActive ? "text-amber" : "text-ink-muted hover:text-ink"
@@ -96,6 +103,9 @@ export default function Header() {
         </nav>
 
         <div className="ml-auto flex items-center gap-1 sm:gap-1.5">
+          <button className="motion-toggle" type="button" onClick={toggleMotion} disabled={Boolean(reducedMotion)} aria-pressed={!motionEnabled} aria-label={reducedMotion ? "Reduced motion enabled" : motionEnabled ? "Pause website motion" : "Play website motion"} title={reducedMotion ? "Your reduced motion preference is enabled" : motionEnabled ? "Pause motion" : "Play motion"}>
+            <span className="motion-bars" aria-hidden="true"><i /><i /><i /><i /></span>
+          </button>
           {/* An icon button on mobile (no room for a pill), a fake input on
               md+ so search reads as present on every page, not just home —
               it opens the same SearchOverlay rather than duplicating a field. */}
@@ -103,16 +113,16 @@ export default function Header() {
             type="button"
             onClick={() => setSearch(true)}
             aria-label="Search"
-            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[8px] border border-seam text-ink-muted transition-colors hover:border-seam-strong hover:text-ink md:w-[190px] md:justify-start md:gap-2 md:px-3 md:text-sm lg:w-[240px]"
+            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[8px] border border-seam text-ink-muted transition-colors hover:border-seam-strong hover:text-ink xl:w-[210px] xl:justify-start xl:gap-2 xl:px-3 xl:text-sm"
           >
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="shrink-0">
               <circle cx="11" cy="11" r="7" />
               <path strokeLinecap="round" d="m20 20-3.5-3.5" />
             </svg>
-            <span className="hidden truncate text-ink-muted/70 md:inline">
-              Search models, brands, types…
+            <span className="hidden truncate text-ink-muted/70 xl:inline">
+              Search the catalogue
             </span>
-            <kbd className="spec ml-auto hidden shrink-0 rounded-[4px] bg-surface px-1.5 py-0.5 text-[10px] text-ink-muted ring-1 ring-seam md:inline">
+            <kbd className="spec ml-auto hidden shrink-0 rounded-[4px] bg-surface px-1.5 py-0.5 text-[10px] text-ink-muted ring-1 ring-seam xl:inline">
               /
             </kbd>
           </button>
@@ -124,7 +134,7 @@ export default function Header() {
             aria-label="Open menu"
             aria-expanded={mobile}
             onClick={() => setMobile(true)}
-            className="flex h-10 w-10 items-center justify-center rounded-[8px] border border-seam text-ink transition-colors hover:border-seam-strong md:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-[8px] border border-seam text-ink transition-colors hover:border-seam-strong lg:hidden"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path strokeLinecap="round" d="M4 7h16M4 12h16M4 17h16" />
@@ -132,23 +142,6 @@ export default function Header() {
           </button>
         </div>
       </div>
-
-      <AnimatePresence>
-        {menu && (
-          <motion.div
-            initial={{ opacity: 0, y: -6 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -6 }}
-            transition={{ duration: 0.16, ease: "easeOut" }}
-            onMouseEnter={() => setMenu(true)}
-            onMouseLeave={() => setMenu(false)}
-            onClick={() => setMenu(false)}
-            className="absolute inset-x-0 top-16 hidden border-b border-seam bg-paper md:block"
-          >
-            <MegaMenu />
-          </motion.div>
-        )}
-      </AnimatePresence>
 
       <MobileNav open={mobile} onClose={() => setMobile(false)} />
 
@@ -163,7 +156,7 @@ function EnquiryLink() {
     <Link
       to="/enquiry"
       aria-label={`Enquiry list, ${count} ${count === 1 ? "item" : "items"}`}
-      className="relative flex h-10 items-center gap-2 rounded-[8px] px-3 text-sm text-ink-muted transition-colors hover:text-ink"
+      className="header-enquiry relative flex h-10 items-center gap-2 px-3 text-sm transition-colors"
     >
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2m-6 9 2 2 4-4" />
@@ -179,9 +172,7 @@ function EnquiryLink() {
 }
 
 function MegaMenu() {
-  // The module for the category you are currently inside reads as the live
-  // circuit — that is exactly what .module[data-active] was written for.
-  // Header sits outside <Routes>, so read the path rather than useParams().
+  // Header sits outside Routes, so read the category from the current path.
   const { pathname } = useLocation();
   const segments = pathname.split("/");
   const current =
@@ -189,53 +180,14 @@ function MegaMenu() {
       ? decodeURIComponent(segments[2]).toLowerCase()
       : null;
 
-  return (
-    <div className="mx-auto max-w-[1400px] px-5 py-8 sm:px-8">
-      <div className="plate grid-cols-1 md:grid-cols-3">
-        {categoryTree.map((category) => (
-          <div
-            key={category.name}
-            className="module led-row p-6"
-            data-active={current === category.name.toLowerCase() || undefined}
-          >
-            <div className="mb-4 flex items-center gap-2.5">
-              <span className="led" />
-              <Link
-                to={categoryPath(category.name)}
-                className="nameplate text-xl text-ink transition-colors hover:text-amber"
-              >
-                {category.name}
-              </Link>
-              <span className="spec text-ink-muted">{category.count}</span>
-            </div>
-            <ul className="grid grid-cols-2 gap-x-6 gap-y-1.5">
-              {category.brands.map((brand) => (
-                <li key={brand.slug}>
-                  <Link
-                    to={brandListingPath(category.name, brand.slug)}
-                    className="flex items-baseline justify-between gap-2 py-1 text-sm text-ink-muted transition-colors hover:text-ink"
-                  >
-                    {brand.name}
-                    <span className="spec text-[9px] text-ink-muted/60">
-                      {brand.count}
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-      <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2">
-        <Link to="/products" className="spec text-ink-muted transition-colors hover:text-amber">
-          Browse all products →
-        </Link>
-        <Link to="/brands" className="spec text-ink-muted transition-colors hover:text-amber">
-          Shop by brand →
-        </Link>
-      </div>
-    </div>
-  );
+  return <div className="site-width">
+    <div className="mega-intro"><div><p className="eyebrow">Find your everyday essentials</p><h2 className="nameplate">A little change. A better space.</h2></div><Link to="/products" className="text-link">The complete catalogue <span aria-hidden="true">↗</span></Link></div>
+    <div className="mega-grid">{categoryTree.map((category) => <div key={category.name} className="mega-category" data-active={current === category.name.toLowerCase() || undefined}>
+      <Link to={categoryPath(category.name)} className="mega-category-visual"><div><strong>{category.name === "Water Geysers" ? "Water heating" : category.name}</strong><span className="spec">{category.count} models <span aria-hidden="true">↗</span></span></div><img src={cdnImage(getCategoryFeature(category.name).image, 300)} alt="" /></Link>
+      <ul className="mega-brand-links">{category.brands.map((brand) => <li key={brand.slug}><Link to={brandListingPath(category.name, brand.slug)}>{brand.name}<span>{brand.count}</span></Link></li>)}</ul>
+    </div>)}</div>
+    <div className="mega-footer"><span>Good light. Fresh air. Everyday comfort.</span><Link to="/contact">Planning something bigger? Talk to us ↗</Link></div>
+  </div>;
 }
 
 // Portalled to <body>: rendered in place it would inherit the header's
@@ -259,7 +211,7 @@ function MobileNav({ open, onClose }) {
         {open && (
           <motion.div
             key="mobile-nav"
-            className="fixed inset-0 z-[85] md:hidden"
+            className="fixed inset-0 z-[85] lg:hidden"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

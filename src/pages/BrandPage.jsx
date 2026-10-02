@@ -37,7 +37,7 @@ export default function BrandPage() {
   })).filter((group) => group.items.length > 0);
 
   return (
-    <div className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8 sm:py-20">
+    <div className="site-width py-10 sm:py-14">
       <nav className="spec mb-8 flex items-center gap-2 text-ink-muted">
         <Link to="/brands" className="transition-colors hover:text-amber">
           Brands
@@ -46,12 +46,9 @@ export default function BrandPage() {
         <span className="text-ink">{brand.name}</span>
       </nav>
 
-      <header className="mb-12 border-b border-seam pb-6">
-        <BrandMark slug={brand.slug} name={brand.name} size="lg" />
-        <div className="mt-4 flex flex-wrap items-baseline justify-between gap-4">
-          <h1 className="nameplate text-4xl text-ink sm:text-5xl">{brand.name}</h1>
-          <p className="spec text-ink-muted">{items.length} models</p>
-        </div>
+      <header className="catalogue-heading mb-12">
+        <div><p className="eyebrow">Meet the collection</p><h1 className="nameplate">{brand.name}<span>.</span></h1><p className="catalogue-description">Explore every possibility, one essential at a time.</p></div>
+        <div className="catalogue-brand"><BrandMark slug={brand.slug} name={brand.name} size="lg" /><span className="spec">{items.length} models to discover</span></div>
       </header>
 
       {byCategory.map((group) => (

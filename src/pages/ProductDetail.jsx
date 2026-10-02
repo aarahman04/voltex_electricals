@@ -104,7 +104,7 @@ function ProductDetailView({ product: liteProduct }) {
   ];
 
   return (
-    <div className="mx-auto max-w-[1400px] px-5 py-8 sm:px-8 sm:py-12">
+    <div className="product-detail-page site-width py-8 sm:py-12">
       <nav className="spec mb-8 flex flex-wrap items-center gap-2 text-ink-muted">
         <Link to="/products" className="transition-colors hover:text-amber">
           Products
@@ -129,7 +129,7 @@ function ProductDetailView({ product: liteProduct }) {
         )}
       </nav>
 
-      <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-2 lg:gap-14">
+      <div className="product-detail-layout grid grid-cols-1 items-start gap-10 lg:grid-cols-2 lg:gap-14">
         <Gallery
           images={gallery}
           activeImage={activeImage}
@@ -138,7 +138,7 @@ function ProductDetailView({ product: liteProduct }) {
           loading={detailLoading}
         />
 
-        <div className="flex flex-col">
+        <div className="product-information flex flex-col">
           <Link to={`/brand/${product.brandSlug}`} className="w-fit">
             <BrandMark slug={product.brandSlug} name={product.brand} size="md" />
           </Link>
@@ -191,12 +191,12 @@ function ProductDetailView({ product: liteProduct }) {
             </p>
           )}
 
-          <div className="mt-10 flex flex-wrap items-center gap-3">
+          <div className="product-enquiry-actions mt-10 flex flex-wrap items-center gap-3">
             <button
               type="button"
               onClick={() => toggle(product.uid)}
               aria-pressed={added}
-              className={`switch-btn ${added ? "!bg-amber" : ""}`}
+              className={`action-button ${added ? "!bg-amber" : ""}`}
             >
               {added ? "Added to enquiry" : "Add to enquiry"}
             </button>
@@ -204,7 +204,7 @@ function ProductDetailView({ product: liteProduct }) {
               View enquiry list
             </Link>
             <span className="spec w-full text-ink-muted sm:w-auto">
-              No price — quoted on enquiry
+              Pricing & availability on enquiry
             </span>
           </div>
 
@@ -276,7 +276,7 @@ function Gallery({ images, activeImage, setActiveImage, title, loading }) {
 
   return (
     <div className="flex flex-col gap-3">
-      <div className="group relative aspect-square max-h-[560px] overflow-hidden rounded-[12px] border border-seam bg-surface">
+      <div className="product-gallery group relative aspect-square max-h-[560px] overflow-hidden border">
         {/* mode="popLayout" (not "wait") so the incoming frame slides in
             while the outgoing one is still leaving — since neighbours are
             already preloaded, this reads as an instant swipe rather than a
@@ -286,7 +286,7 @@ function Gallery({ images, activeImage, setActiveImage, title, loading }) {
             key={images[activeImage]}
             src={cdnImage(images[activeImage], 1000)}
             alt={title}
-            fetchpriority="high"
+            fetchPriority="high"
             decoding="async"
             drag={images.length > 1 ? "x" : false}
             dragConstraints={{ left: 0, right: 0 }}

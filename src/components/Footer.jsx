@@ -1,85 +1,34 @@
 import { Link } from "react-router-dom";
 import { getBrands, products } from "../data/products.js";
-import { PUBLISHED, categoryList, categoryPath } from "../data/taxonomy.js";
+import { PUBLISHED, categoryPath } from "../data/taxonomy.js";
 import Lockup from "./Lockup.jsx";
 
 const brands = getBrands();
 
 export default function Footer() {
-  return (
-    <footer className="mt-24 border-t border-seam bg-surface">
-      <div className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8">
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
-          <div>
-            <Link to="/" aria-label="Voltex Electricals, home">
-              <Lockup className="text-lg" />
-            </Link>
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-muted">
-              A multi-brand catalogue of {categoryList()}. Browse the full
-              range, build an enquiry list, and we quote it.
-            </p>
-            <Link
-              to="/enquiry"
-              className="switch-btn mt-6 text-sm"
-            >
-              Start an enquiry
-            </Link>
-          </div>
-
-          <FooterColumn title="Products">
-            {PUBLISHED.map((name) => (
-              <FooterLink key={name} to={categoryPath(name)}>
-                {name}
-              </FooterLink>
-            ))}
-            <FooterLink to="/products">All products</FooterLink>
-            <FooterLink to="/brands">All brands</FooterLink>
-          </FooterColumn>
-
-          <FooterColumn title={`Brands · ${brands.length}`}>
-            {brands.map((brand) => (
-              <FooterLink key={brand.slug} to={`/brand/${brand.slug}`}>
-                {brand.name}
-              </FooterLink>
-            ))}
-          </FooterColumn>
-
-          <FooterColumn title="Company">
-            <FooterLink to="/about">About</FooterLink>
-            <FooterLink to="/contact">Contact</FooterLink>
-            <FooterLink to="/enquiry">Enquiry list</FooterLink>
-          </FooterColumn>
+  return <footer className="site-footer">
+    <div className="site-width">
+      <div className="footer-grid">
+        <div className="footer-about">
+          <Link to="/" aria-label="Voltex Electricals, home"><Lockup className="text-xl" /></Link>
+          <p>Good light. Fresh air. Everyday comfort. Electrical essentials for the spaces you live and work in.</p>
+          <Link to="/contact" className="text-link mt-5 !text-[#ed985e]">Let’s talk about your project <span aria-hidden="true">↗</span></Link>
         </div>
-
-        <div className="mt-12 flex flex-col gap-2 border-t border-seam pt-6 sm:flex-row sm:items-center sm:justify-between">
-          <span className="spec text-ink-muted">
-            {products.length} models · prices on enquiry
-          </span>
-          <span className="spec text-ink-muted/60">
-            © {new Date().getFullYear()} Voltex Electricals
-          </span>
-        </div>
+        <div><h2 className="footer-heading">Explore</h2><div className="footer-links">
+          {PUBLISHED.map((name) => <Link key={name} to={categoryPath(name)}>{name}</Link>)}
+          <Link to="/products">All products</Link>
+        </div></div>
+        <div><h2 className="footer-heading">Our brands</h2><div className="footer-links">
+          {brands.filter((b) => ["havells", "orient", "philips", "crompton", "atomberg"].includes(b.slug)).map((b) => <Link key={b.slug} to={"/brand/" + b.slug}>{b.name}</Link>)}
+          <Link to="/brands">All {brands.length} brands ↗</Link>
+        </div></div>
+        <div><h2 className="footer-heading">Here to help</h2><div className="footer-links">
+          <Link to="/about">About Voltex</Link><Link to="/contact">Contact us</Link><Link to="/enquiry">Your enquiry list</Link>
+          <span className="mt-3 max-w-40 text-xs leading-relaxed text-[#a4ada5]">Browse. Shortlist. Enquire.<br />We’ll take it from there.</span>
+        </div></div>
       </div>
-    </footer>
-  );
-}
-
-function FooterColumn({ title, children }) {
-  return (
-    <div>
-      <h3 className="spec mb-4 text-ink-muted">{title}</h3>
-      <div className="flex flex-col gap-2.5">{children}</div>
+      <div className="footer-wordmark" aria-hidden="true">VOLTEX.</div>
+      <div className="footer-bottom"><span>© {new Date().getFullYear()} Voltex Electricals</span><span>{products.length.toLocaleString("en-IN")} models · Prices on enquiry</span></div>
     </div>
-  );
-}
-
-function FooterLink({ to, children }) {
-  return (
-    <Link
-      to={to}
-      className="w-fit text-sm text-ink-muted transition-colors hover:text-ink"
-    >
-      {children}
-    </Link>
-  );
+  </footer>;
 }

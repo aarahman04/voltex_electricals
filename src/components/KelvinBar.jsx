@@ -16,15 +16,11 @@ export default function KelvinBar({ kelvin, onChange }) {
   const light = kelvinToCss(kelvin);
 
   return (
-    <div className="w-full max-w-md">
-      {/* The section talks about colour temperature and sets it; this is the
-          one place that shows it. State, not decoration — it renders the value
-          the slider below is holding. */}
-      <div
-        className="bulb mx-auto mb-8"
-        style={{ "--light": light }}
-        aria-hidden="true"
-      />
+    <div className="kelvin-control" style={{ "--light": light }}>
+      <div className="pendant-preview" aria-hidden="true">
+        <span className="pendant-cord" /><span className="pendant-shade" />
+        <span className="pendant-light" /><span className="pendant-pool" />
+      </div>
 
       <div className="mb-3 flex items-baseline justify-between">
         <span className="spec text-ink-muted">Light tone</span>
@@ -34,20 +30,16 @@ export default function KelvinBar({ kelvin, onChange }) {
       </div>
 
       <div className="relative">
-        <div
-          className="pointer-events-none absolute inset-x-0 top-[9px] h-[3px] rounded-full"
-          style={{
-            background: `linear-gradient(90deg, ${TONES.map((t) => t.hex).join(", ")})`,
-          }}
-        />
         <input
           type="range"
           min={MIN_KELVIN}
           max={MAX_KELVIN}
           step={100}
           value={kelvin}
+          aria-valuetext={`${kelvin} kelvin, ${tone.name}`}
           onChange={(e) => onChange(Number(e.target.value))}
           aria-label="Light temperature in kelvin"
+          style={{ "--kelvin-track": `linear-gradient(90deg, ${TONES.map((t) => t.hex).join(", ")})` }}
           className="relative w-full"
         />
       </div>
@@ -58,6 +50,7 @@ export default function KelvinBar({ kelvin, onChange }) {
             key={t.name}
             type="button"
             onClick={() => onChange(t.kelvin)}
+            aria-pressed={tone.name === t.name}
             className={`spec transition-colors ${
               tone.name === t.name
                 ? "text-ink"

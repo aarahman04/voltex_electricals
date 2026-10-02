@@ -1,8 +1,9 @@
 import { useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getBrandsForCategory, getProductsByCategory } from "../data/products.js";
-import { PUBLISHED, categoryList, categoryPath, isPublished, brandListingPath } from "../data/taxonomy.js";
-import BrandMark from "../components/BrandMark.jsx";
+import { getBrandsForCategory, getCategoryFeature, getProductsByCategory } from "../data/products.js";
+import { cdnImage } from "../lib/image.js";
+import { PUBLISHED, categoryList, categoryPath, isPublished } from "../data/taxonomy.js";
+import BrandCard from "../components/BrandCard.jsx";
 
 export default function CategoryHub() {
   const { category } = useParams();
@@ -38,40 +39,24 @@ export default function CategoryHub() {
   }
 
   return (
-    <div className="mx-auto max-w-[1400px] px-5 py-12 sm:px-8 sm:py-16">
-      <header className="mb-10">
-        <p className="spec mb-3 text-amber">{category}</p>
+    <div className="site-width py-8 sm:py-12">
+      <header className="category-hub-heading page-heading mb-10">
+      <div>
+        <p className="eyebrow mb-3">Explore the collection</p>
         <h1 className="nameplate text-[2.25rem] text-ink sm:text-5xl">
-          Choose your brand
+          {category === "Water Geysers" ? "Water heating" : category}
         </h1>
         <p className="spec mt-4 text-ink-muted">
           {data.items.length} models · {data.brands.length}{" "}
           {data.brands.length === 1 ? "brand" : "brands"}
         </p>
+        <p className="mt-4 text-sm text-ink-muted">Choose a brand. Find the right fit for your space.</p>
+      </div>
+      <img src={cdnImage(getCategoryFeature(category).image, 500)} alt="" className="category-hub-image" />
       </header>
 
-      <div className="plate grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        {data.brands.map((brand) => (
-          <Link
-            key={brand.slug}
-            to={brandListingPath(category, brand.slug)}
-            data-interactive
-            className="module group flex flex-col gap-5 p-6"
-          >
-            <span className="led" />
-
-            <span className="flex h-28 items-center justify-center sm:h-36">
-              <BrandMark slug={brand.slug} name={brand.name} size="xl" />
-            </span>
-
-            <div className="flex items-baseline justify-between gap-3">
-              <span className="text-[15px] font-medium text-ink">{brand.name}</span>
-              <span className="spec shrink-0 text-ink-muted">
-                {brand.count} {brand.count === 1 ? "model" : "models"}
-              </span>
-            </div>
-          </Link>
-        ))}
+      <div className="brand-gallery">
+        {data.brands.map((brand, index) => <BrandCard key={brand.slug} brand={brand} category={category} index={index} />)}
       </div>
 
       <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
