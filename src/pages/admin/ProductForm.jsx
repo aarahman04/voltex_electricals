@@ -12,7 +12,10 @@ export default function ProductForm({ value, onChange, taxonomy, onSubmit, submi
   const [preparing, setPreparing] = useState(false);
   const [newCategory, setNewCategory] = useState(false);
   const [newType, setNewType] = useState(false);
-  const disabled = busy || preparing;
+  // Locks the form while a submit is still saving, so a quick second action
+  // (bulk photos, another Add) can't save over the list from stale state.
+  const [saving, setSaving] = useState(false);
+  const disabled = busy || preparing || saving;
   const categories = [...new Set([...getCategories(), ...Object.keys(taxonomy?.categories ?? {}), value.category].filter(Boolean))].sort();
   const types = [...new Set([...getSubcategories(value.category).map((s) => s.name), ...(taxonomy?.categories?.[value.category] ?? []), value.subcategory].filter(Boolean))].sort();
   const change = (key, next) => onChange({ ...value, [key]: next });
@@ -56,8 +59,10 @@ export default function ProductForm({ value, onChange, taxonomy, onSubmit, submi
     const tags = tag.trim() ? addTag() : value.tags;
     if (!tags) return;
     const product = { ...value, tags };
+    setSaving(true);
     try { productFields(product); await onSubmit(product); setTag(""); }
     catch (err) { setError(err.message); }
+    finally { setSaving(false); }
   }}>
     {confirmation}
     <fieldset disabled={disabled}>
@@ -77,19 +82,19 @@ export default function ProductForm({ value, onChange, taxonomy, onSubmit, submi
           <label>Category <span className="admin-required">*</span><select value={newCategory ? "+" : value.category} required onChange={(e) => { const fresh = e.target.value === "+"; setNewCategory(fresh); setNewType(false); onChange({ ...value, category: fresh ? "" : e.target.value, subcategory: "" }); }}><option value="">Choose category</option>{categories.map((c) => <option key={c}>{c}</option>)}<option value="+">+ New category</option></select></label>
           <label>Type <span className="admin-required">*</span><select value={newType ? "+" : value.subcategory} required disabled={!value.category} onChange={(e) => { const fresh = e.target.value === "+"; setNewType(fresh); change("subcategory", fresh ? "" : e.target.value); }}><option value="">Choose type</option>{types.map((t) => <option key={t}>{t}</option>)}<option value="+">+ New type</option></select></label>
         </div>
-        {newCategory && <label>New category name<input required maxLength={60} pattern="[A-Za-z0-9][A-Za-z0-9 &'(),.+-]*" value={value.category} onChange={(e) => onChange({ ...value, category: e.target.value, subcategory: "" })} /></label>}
-        {newType && <label>New type name<input required maxLength={60} pattern="[A-Za-z0-9][A-Za-z0-9 &'(),.+-]*" value={value.subcategory} onChange={(e) => change("subcategory", e.target.value)} /></label>}
+        {newCategory && <label>New category name<input required maxLength={60} pattern="[A-Za-z0-9][A-Za-z0-9 &'\(\),.+\-]*" value={value.category} onChange={(e) => onChange({ ...value, category: e.target.value, subcategory: "" })} /></label>}
+        {newType && <label>New type name<input required maxLength={60} pattern="[A-Za-z0-9][A-Za-z0-9 &'\(\),.+\-]*" value={value.subcategory} onChange={(e) => change("subcategory", e.target.value)} /></label>}
         {onBulk && <div className="admin-bulk"><label className="admin-button">Bulk photos<input type="file" accept="image/*" capture="environment" multiple aria-label="Bulk photos" onChange={(e) => choosePhotos(e, true)} /></label><p>One product per photo. Uses the brand, category and type above; add names in your list.</p></div>}
         <details className="admin-optional"><summary>Optional details <span>Price, colour & more</span></summary><div className="admin-fields">
           <label>Price in ₹ <span className="admin-muted">optional</span><input type="number" inputMode="numeric" min={1} max={10000000} step={1} value={value.price ?? ""} placeholder="Whole rupees" onChange={(e) => change("price", e.target.value)} /></label>
           <div className="admin-field-pair"><label>Colour<input value={value.color || ""} maxLength={80} onChange={(e) => change("color", e.target.value)} /></label><label>Model code<input value={value.model || ""} maxLength={80} onChange={(e) => change("model", e.target.value)} /></label></div>
-          <label>Tags<input value={tag} placeholder="e.g. crystal, living room" maxLength={200} onChange={(e) => setTag(e.target.value)} onBlur={() => { if (tag.trim()) addTag(); }} onKeyDown={(e) => { if (e.key === "Enter" || e.key === ",") { e.preventDefault(); addTag(); } }} /></label>
+          <label>Tags<input value={tag} placeholder="e.g. crystal, living room" maxLength={200} onChange={(e) => setTag(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter" || e.key === ",") { e.preventDefault(); addTag(); } }} /></label>
           <div className="admin-chips">{value.tags.map((t) => <button type="button" className="admin-chip" key={t} aria-label={`Remove tag ${t}`} onClick={async () => { if (await askConfirm(`Remove the tag “${t}”?`)) change("tags", value.tags.filter((s) => s !== t)); }}>{t} ×</button>)}</div>
           <label>Description<textarea value={value.description || ""} maxLength={2000} rows={3} onChange={(e) => change("description", e.target.value)} /></label>
         </div></details>
       </div>
     </fieldset>
     {error && <p role="alert" className="admin-banner admin-error">{error}</p>}
-    {!hideAction && <div className="admin-form-action"><button className="switch-btn" disabled={disabled}>{preparing ? "Preparing photos…" : busy ? "Saving…" : submitLabel}</button></div>}
+    {!hideAction && <div className="admin-form-action"><button className="switch-btn" disabled={disabled}>{preparing ? "Preparing photos…" : busy || saving ? "Saving…" : submitLabel}</button></div>}
   </form>;
 }
