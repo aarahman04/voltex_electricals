@@ -77,8 +77,39 @@ async function snapshot() {
   return { head, tree: commit.tree.sha, state: { curation, products, taxonomy } };
 }
 
-// One commit holding every changed file. Returns false when the ref moved
-// underneath us (someone else saved first) so the caller can retry.
+// GitHub rejects a tree that deletes a path that isn't there, so photo files
+// already gone from the repo (removed by hand, say) are dropped from the
+// delete list instead of failing the whole update. One directory listing per
+// folder; a folder at the Contents API's 1000-entry cap falls back to a
+// lookup per file.
+async function existingPaths(ref, paths) {
+  const byDir = new Map();
+  for (const path of paths) {
+    const dir = path.slice(0, path.lastIndexOf("/"));
+    byDir.set(dir, [...(byDir.get(dir) ?? []), path]);
+  }
+  const found = [];
+  for (const [dir, files] of byDir) {
+    const response = await github(`/contents/${dir}?ref=${ref}`);
+    if (response.status === 404) continue;
+    if (!response.ok) throw new GithubError(`GitHub list ${dir} failed: ${response.status}`, response.status);
+    const listing = await response.json();
+    if (Array.isArray(listing) && listing.length < 1000) {
+      const names = new Set(listing.map((entry) => entry.path));
+      found.push(...files.filter((path) => names.has(path)));
+      continue;
+    }
+    for (const path of files) {
+      const check = await github(`/contents/${path}?ref=${ref}`);
+      if (check.ok) found.push(path);
+      else if (check.status !== 404) throw new GithubError(`GitHub read ${path} failed: ${check.status}`, check.status);
+    }
+  }
+  return found;
+}
+
+// One commit holding every changed file. Returns "conflict" when the ref
+// moved underneath us (someone else saved first) so the caller can retry.
 async function commit(snap, result) {
   const entries = [];
   for (const key of ["curation", "products", "taxonomy"]) {
@@ -87,7 +118,8 @@ async function commit(snap, result) {
     }
   }
   for (const file of result.files.add) entries.push({ path: file.path, mode: "100644", type: "blob", sha: file.blobSha });
-  for (const path of result.files.delete) entries.push({ path, mode: "100644", type: "blob", sha: null });
+  const deletions = result.files.delete.length ? await existingPaths(snap.head, result.files.delete) : [];
+  for (const path of deletions) entries.push({ path, mode: "100644", type: "blob", sha: null });
   if (!entries.length) return "unchanged";
 
   const tree = await githubJson("/git/trees", { method: "POST", body: { base_tree: snap.tree, tree: entries } });

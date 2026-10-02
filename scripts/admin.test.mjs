@@ -146,9 +146,15 @@ function fakeGithub(initialFiles) {
     if (method === "GET" && path.startsWith("/git/commits/")) return respond({ tree: { sha: `t:${path.split("/").pop()}` } });
     if (method === "GET" && path.startsWith("/contents/")) {
       const [file, query] = path.slice("/contents/".length).split("?ref=");
-      assert.equal(options.headers.Accept, "application/vnd.github.raw+json");
-      const text = repo.commits[query === "main" ? repo.head : query]?.files.get(file);
-      return text === undefined ? respond({ message: "Not Found" }, 404) : new Response(text);
+      const tree = repo.commits[query === "main" ? repo.head : query]?.files ?? new Map();
+      if (options.headers.Accept === "application/vnd.github.raw+json") {
+        const text = tree.get(file);
+        return text === undefined ? respond({ message: "Not Found" }, 404) : new Response(text);
+      }
+      // Metadata: a file object, or a directory's direct children.
+      if (tree.has(file)) return respond({ type: "file", path: file });
+      const children = [...tree.keys()].filter((p) => p.startsWith(`${file}/`) && !p.slice(file.length + 1).includes("/"));
+      return children.length ? respond(children.map((p) => ({ type: "file", path: p }))) : respond({ message: "Not Found" }, 404);
     }
     if (method === "POST" && path === "/git/blobs") {
       const id = sha1(body.content);
@@ -290,6 +296,21 @@ test("admin API: login, upload, publish, update, price, delete, remove — one c
     assert.equal((await post({ type: "delete", ids: [product.id] }, cookie)).status, 200);
     assert.deepEqual(read(ADMIN_PATHS.products), []);
     assert.equal(gh.files().has(`public${product.images[0]}`), false);
+
+    // a photo file already missing from the repo doesn't block update or delete
+    const third = await (await post({ type: "upload", data: webp("three") }, cookie)).json();
+    const fourth = await (await post({ type: "upload", data: webp("four") }, cookie)).json();
+    const again = await (await post({ type: "publish", products: [{
+      title: "Lamp", brand: null, category: "Lighting", subcategory: "Table Lamps", images: [{ blobSha: third.blobSha }, { blobSha: fourth.blobSha }],
+    }] }, cookie)).json();
+    const [lamp] = again.products;
+    gh.files().delete(`public${lamp.images[1]}`); // someone removed the file by hand
+    const trimmed = await post({ type: "update", id: lamp.id, fields: {}, images: [lamp.images[0]] }, cookie);
+    assert.equal(trimmed.status, 200);
+    assert.deepEqual(read(ADMIN_PATHS.products)[0].images, [lamp.images[0]]);
+    gh.files().delete(`public${lamp.images[0]}`);
+    assert.equal((await post({ type: "delete", ids: [lamp.id] }, cookie)).status, 200);
+    assert.deepEqual(read(ADMIN_PATHS.products), []);
 
     // invalid input is a 400, not a 502
     assert.equal((await post({ type: "publish", products: [{ title: "", category: "Fans", subcategory: "Ceiling Fans", images: [] }] }, cookie)).status, 400);
