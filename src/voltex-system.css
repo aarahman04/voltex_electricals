@@ -124,3 +124,7 @@ svg.voltex-logo { display: block; height: auto; color: var(--color-ink); }
 }
 /* Photo cards carry a code at the end of the title; give it room to show. */
 .catalog-card[data-photo] h3 { -webkit-line-clamp: 3; }
+
+/* Lazy pages render after the footer: keep the footer below the fold until
+   they arrive, so it doesn't jump (was CLS 0.31 on /products). */
+#main-content { min-height: calc(100dvh - 86px); }
