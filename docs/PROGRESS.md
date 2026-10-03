@@ -246,3 +246,7 @@ Phases 0–7 done. The whole UI is rebuilt on the Modular Plate light system. `n
 - ~~windowing/pagination for >200-item lists~~ **Fixed** alongside the above — `Listing.jsx` renders 24 at a time with a "Load more" button instead of the full filtered set.
 - `Home` "Shop by need" tile "Energy-efficient fans" links to `/search?q=bldc` — depends on "bldc" appearing in product text; verify it returns results.
 - Brand logos are all `null` — `<BrandMark>` renders wordmark chips everywhere. Drop real SVGs at `public/brands/<slug>.svg` + set `logo` in `brands.js` when available.
+
+## Admin photo quality — 2026-10-03 (branch `admin-image-quality`)
+
+`resizeImage.js` now uses compressorjs (2000 px, WebP q0.80, EXIF orientation honoured, metadata/GPS stripped, 3,000,000 byte ceiling with quality/edge step-down, WebP verified by magic bytes). Photo size is shown under each thumbnail in the form. Details, measurements and the storefront-weight caveat: `docs/admin-image-quality.md`. Already-published photos are not re-encoded. Not verified: real iOS/Safari devices (only Playwright WebKit 26.5).

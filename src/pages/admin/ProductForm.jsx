@@ -5,6 +5,9 @@ import { resizeImage } from "../../lib/admin/resizeImage.js";
 import { productFields } from "../../lib/admin/product.js";
 import Photo from "./Photo.jsx";
 
+// Photos already on the site are URLs, so only fresh ones have a size to show.
+const fileSize = (bytes) => bytes < 1024 * 1024 ? `${Math.max(1, Math.round(bytes / 1024))} KB` : `${(bytes / 1024 / 1024).toFixed(1)} MB`;
+
 export default function ProductForm({ value, onChange, taxonomy, onSubmit, submitLabel = "Add to list", onBulk, busy = false, formId, hideAction = false }) {
   const { confirm: askConfirm, confirmation } = useConfirm();
   const [tag, setTag] = useState("");
@@ -71,7 +74,7 @@ export default function ProductForm({ value, onChange, taxonomy, onSubmit, submi
         <label className="admin-photo-picker"><span className="admin-camera" aria-hidden="true">＋</span><strong>Take photo / choose photos</strong><span>Main photo first · up to 12 photos</span><input type="file" accept="image/*" capture="environment" multiple aria-label="Take photo / choose photos" onChange={choosePhotos} /></label>
         {preparing && <p role="status" className="admin-banner">Preparing photos…</p>}
         {value.images.length > 0 && <div className="admin-photo-list">{value.images.map((photo, index) => <div className="admin-photo-card" key={index}>
-          <div className="admin-photo"><Photo photo={photo} /></div><span className="spec">{index === 0 ? "Main photo" : `Photo ${index + 1}`}</span>
+          <div className="admin-photo"><Photo photo={photo} /></div><span className="spec">{index === 0 ? "Main photo" : `Photo ${index + 1}`}{photo instanceof Blob && <><br />{fileSize(photo.size)}</>}</span>
           <div className="admin-photo-controls"><button type="button" aria-label={`Move photo ${index + 1} earlier`} disabled={index === 0} onClick={() => reorder(index, -1)}>←</button><button type="button" aria-label={`Move photo ${index + 1} later`} disabled={index === value.images.length - 1} onClick={() => reorder(index, 1)}>→</button><button type="button" aria-label={`Remove photo ${index + 1}`} onClick={async () => { if (await askConfirm("Remove this photo from the product?")) change("images", value.images.filter((_, i) => i !== index)); }}>Remove</button></div>
         </div>)}</div>}
       </section>

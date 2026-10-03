@@ -326,3 +326,64 @@ test("admin API: login, upload, publish, update, price, delete, remove — one c
     for (const name of ["CURATE_USERNAME", "CURATE_PASSWORD", "CURATION_GITHUB_TOKEN", "ADMIN_PASSWORD"]) delete process.env[name];
   }
 });
+
+/* ------------------------------------------------------------- photo prep */
+
+import { FALLBACK_EDGES, MAX_BYTES, MAX_EDGE, QUALITY_STEPS, fitUnderCeiling, isWebp, prepare } from "../src/lib/admin/resizeImage.js";
+
+const webpBlob = (size, type = "image/webp") => new Blob([Buffer.from("RIFF"), Buffer.alloc(4), Buffer.from("WEBP"), Buffer.alloc(Math.max(0, size - 12))], { type });
+const sized = (size) => ({ size });
+
+test("photo ceiling matches the upload endpoint: 3,000,000 bytes, base64 body under 4.2 MB", () => {
+  assert.ok(MAX_BYTES <= 3_000_000);
+  assert.ok(Math.ceil(MAX_BYTES / 3) * 4 + 1000 < 4_200_000);
+  assert.equal(MAX_EDGE, 2000);
+  assert.ok(QUALITY_STEPS.every((q, i) => i === 0 || q < QUALITY_STEPS[i - 1]), "quality steps go down");
+});
+
+test("fitUnderCeiling keeps the best settings when the photo already fits", async () => {
+  const tried = [];
+  const out = await fitUnderCeiling(async (edge, quality) => { tried.push([edge, quality]); return sized(MAX_BYTES); });
+  assert.equal(out.size, MAX_BYTES);
+  assert.deepEqual(tried, [[MAX_EDGE, QUALITY_STEPS[0]]]);
+});
+
+test("fitUnderCeiling lowers quality first, then the edge, and stops at the first fit", async () => {
+  const tried = [];
+  // Too big until the edge drops to 1600.
+  const out = await fitUnderCeiling(async (edge, quality) => { tried.push([edge, quality]); return sized(edge > 1600 ? MAX_BYTES + 1 : 1000); });
+  assert.equal(out.size, 1000);
+  const lowest = QUALITY_STEPS.at(-1);
+  assert.deepEqual(tried, [...QUALITY_STEPS.map((q) => [MAX_EDGE, q]), [1600, lowest]]);
+
+  const early = [];
+  await fitUnderCeiling(async (edge, quality) => { early.push([edge, quality]); return sized(quality > QUALITY_STEPS[1] ? MAX_BYTES + 1 : 10); });
+  assert.deepEqual(early, [[MAX_EDGE, QUALITY_STEPS[0]], [MAX_EDGE, QUALITY_STEPS[1]]]);
+});
+
+test("fitUnderCeiling gives up with a plain message after every step, never returning an oversized photo", async () => {
+  let calls = 0;
+  await assert.rejects(fitUnderCeiling(async () => { calls += 1; return sized(MAX_BYTES + 1); }), /too large to upload/);
+  assert.equal(calls, QUALITY_STEPS.length + FALLBACK_EDGES.length);
+});
+
+test("prepare returns WebP bytes, retyping a blob that lost its type", async () => {
+  assert.equal(await isWebp(webpBlob(100)), true);
+  const out = await prepare({}, async () => webpBlob(500, ""));
+  assert.equal(out.type, "image/webp");
+  assert.equal(out.size, 500);
+});
+
+test("prepare refuses a PNG or JPEG answer to a WebP request instead of uploading it", async () => {
+  const png = new Blob([Buffer.from([0x89, 0x50, 0x4e, 0x47, 0, 0, 0, 0, 0, 0, 0, 0, 0])], { type: "image/png" });
+  const jpeg = new Blob([Buffer.from([0xff, 0xd8, 0xff, 0xe0, 0, 0, 0, 0, 0, 0, 0, 0, 0])], { type: "image/webp" }); // lying type
+  const tiny = new Blob([Buffer.from("RIFF")], { type: "image/webp" });
+  for (const bad of [png, jpeg, tiny]) await assert.rejects(prepare({}, async () => bad), /can't prepare photos/);
+});
+
+test("prepare passes the shrinking options to the encoder and retries until the photo fits", async () => {
+  const seen = [];
+  const out = await prepare({}, async (_file, options) => { seen.push(options); return webpBlob(options.quality > 0.7 ? MAX_BYTES + 1 : 2000); });
+  assert.deepEqual(seen.map((o) => [o.maxWidth, o.maxHeight, o.quality]), [[2000, 2000, 0.8], [2000, 2000, 0.74], [2000, 2000, 0.68]]);
+  assert.equal(out.size, 2000);
+});

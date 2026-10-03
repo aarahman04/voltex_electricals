@@ -55,7 +55,7 @@ Send one request per photo, **before** `publish`/`update`.
 ```
 → `200 { "ok": true, "blobSha": "92d24f4cc4d2a857e7282654069b7ddfe37f10e1" }`
 
-- The photo **must be WebP** (checked by its bytes) and ≤ 3 MB decoded (the request body is capped at ~4.2 MB). Resize in the browser first: long edge ≤ 1600 px, `canvas.toBlob("image/webp", 0.82)`.
+- The photo **must be WebP** (checked by its bytes) and ≤ 3,000,000 bytes decoded (the request body is capped at ~4.2 MB; base64 adds ~33%). `src/lib/admin/resizeImage.js` prepares photos with compressorjs: long edge ≤ 2000 px, WebP quality 0.80, stepping quality and then the edge down until it fits. See `docs/admin-image-quality.md`.
 - Nothing goes live from an upload. `blobSha` is a handle you pass to `publish`/`update`. Unused uploads are harmless.
 - Errors: `400 {"error":"Invalid photo: expected a WebP image"}`, `400 "Invalid photo: too large"`.
 
