@@ -7,7 +7,7 @@ Lives in `src/data/taxonomy.js`.
 ## Published categories
 
 ```
-PUBLISHED = ["Fans", "Lighting", "Water Geysers"]
+PUBLISHED = ["Fans", "Lighting", "Chandeliers", "Water Geysers"]
 ```
 
 Everything else the ETL produces (Appliances, Pumps, Kitchen, Immersion Rods — all Crompton) is normalized into `_parked.json` and not shown. Adding one later = adding it to this array.
@@ -38,6 +38,18 @@ Everything else the ETL produces (Appliances, Pumps, Kitchen, Immersion Rods —
 | COB LED | `LED COB` (havells, polycab); crompton + philips promoted out of Ceiling Lights | yes (42) |
 | Elevation LED | — | **coming soon** |
 | _auto-adopted:_ Downlighters & Spotlights, LED Bulbs & Lamps, Lamps & Lanterns, Street & Outdoor Lights, Wall Lights, Track Lights, Curtain & String Lights, Professional & Commercial Lighting, Battens, Strip/Rope Lights | scraped, unmapped | yes |
+
+### Chandeliers
+| Canonical subcategory | Source | Data? |
+|---|---|---|
+| Crystal-Style Chandeliers | voltex-exclusive | yes (224) |
+| LED & Modern Chandeliers | voltex-exclusive | yes (156) |
+| Long Drop Chandeliers | voltex-exclusive | yes (67) |
+| Pendants & Clusters | voltex-exclusive | yes (88) |
+| Ceiling & Flush Mounts | voltex-exclusive | yes (107) |
+| Chandeliers | philips, moved from Lighting by `reclassify()` | yes (22) |
+
+"Crystal-style" describes the look in the photograph; the material isn't verified. Voltex Exclusive wall lights (213) are filed under **Lighting > Wall Lights**, not here. Lighting no longer has a Chandeliers subcategory.
 
 ### Water Geysers
 | Canonical subcategory | Source | Data? |
