@@ -6,6 +6,8 @@ All three parts are done and shipped to `main` as one squash-merged PR: backend 
 
 The sections below are the original implementation plan; `docs/admin-api.md` is the source of truth for requests and responses.
 
+> **Superseded 2026-10-03:** photo prep below (1600 px, WebP q0.82, `createImageBitmap`) was replaced by compressorjs at 2000 px / q0.80 with a 3,000,000 byte ceiling. See `docs/admin-image-quality.md`.
+
 ## Context
 
 Today `/curate` (src/pages/Curate.jsx) lets a logged-in user remove products and junk gallery images on the live site. It works through `api/curation.js`, a Vercel Function that checks `CURATE_USERNAME`/`CURATE_PASSWORD`, then commits `Products/curation.json` to `main` via the GitHub Contents API using `CURATION_GITHUB_TOKEN`. `src/main.jsx` fetches `/api/curation?ids` before render and hides removed products right away. Vercel then rebuilds, and the ETL (`scripts/normalize.mjs`) bakes the removal in.
