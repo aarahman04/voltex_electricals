@@ -13,19 +13,23 @@ function ProductCard({ product }) {
   const price = formatPrice(product.price);
   const added = has(product.uid);
   const tone = productTone(product);
+  // Local photographs (Voltex Exclusive) know their size, so the card reserves
+  // space for them; they're whole photographs, not cut-outs on white.
+  const { width, height } = product.images ?? {};
 
-  return <article className="catalog-card" data-saved={added} style={tone ? { "--product-glow": tone.hex } : undefined}>
+  return <article className="catalog-card" data-saved={added} data-photo={width ? true : undefined} style={tone ? { "--product-glow": tone.hex } : undefined}>
     <Link to={`/product/${product.uid}`} className="product-card-link">
       <div className="product-image-bed">
         <span className="product-category spec">{product.category === "Water Geysers" ? "Water heating" : product.category}</span>
         <span className="product-orbit" aria-hidden="true" />
-        <img src={cdnImage(getProductImage(product), 600)} alt={title} loading="lazy" decoding="async" />
+        <img src={cdnImage(getProductImage(product), 600)} alt={title} width={width} height={height} loading="lazy" decoding="async" />
         <span className="product-view">View details <span aria-hidden="true">↗</span></span>
       </div>
       <div className="product-copy">
         {product.brandSlug !== "other" && <span className="product-brand spec">{product.brand}</span>}
         <h3>{title}</h3>
         <p className="product-spec">{specSummary(product) || product.subcategory}</p>
+        {product.styledRoom && <p className="product-room-note">Shown in a styled room</p>}
         {price && <p className="product-price">{price}</p>}
         {added && <span className="product-saved">✓ In your enquiry list</span>}
       </div>

@@ -4,6 +4,12 @@ import { getBrandsForCategory, getCategoryFeature, getProductsByCategory } from 
 import { cdnImage } from "../lib/image.js";
 import { PUBLISHED, categoryList, categoryPath, isPublished } from "../data/taxonomy.js";
 import BrandCard from "../components/BrandCard.jsx";
+import { usePageMeta } from "../lib/usePageMeta.js";
+
+// One line under each category's heading. Factual: what's in the category.
+const HUB_COPY = {
+  Chandeliers: "Chandeliers, pendants and ceiling lights from Voltex Exclusive, our own range, and from Philips.",
+};
 
 export default function CategoryHub() {
   const { category } = useParams();
@@ -15,6 +21,13 @@ export default function CategoryHub() {
       brands: getBrandsForCategory(category),
     };
   }, [category]);
+
+  const label = category === "Water Geysers" ? "Water heating" : category;
+  const canonical = PUBLISHED.find((name) => name.toLowerCase() === category?.toLowerCase());
+  usePageMeta(
+    data ? label : "Category not found",
+    data ? HUB_COPY[canonical] ?? `${label} from ${data.brands.length} brands. Choose a brand, compare models and send an enquiry.` : null,
+  );
 
   if (!data) {
     return (
@@ -50,7 +63,7 @@ export default function CategoryHub() {
           {data.items.length} models · {data.brands.length}{" "}
           {data.brands.length === 1 ? "brand" : "brands"}
         </p>
-        <p className="mt-4 text-sm text-ink-muted">Choose a brand. Find the right fit for your space.</p>
+        <p className="mt-4 text-sm text-ink-muted">{HUB_COPY[canonical] ?? "Choose a brand. Find the right fit for your space."}</p>
       </div>
       <img src={cdnImage(getCategoryFeature(category).image, 500)} alt="" className="category-hub-image" />
       </header>

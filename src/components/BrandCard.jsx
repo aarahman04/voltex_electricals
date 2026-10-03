@@ -11,7 +11,7 @@ export default function BrandCard({ brand, category }) {
   const categories = [...new Set(items.map((product) => product.category === "Water Geysers" ? "Water heating" : product.category))];
   const href = category ? brandListingPath(category, brand.slug) : `/brand/${brand.slug}`;
 
-  return <Link className="brand-gallery-card" to={href}>
+  return <Link className="brand-gallery-card" to={href} data-own={brand.own || undefined}>
     <div className="brand-gallery-top"><span className="spec">{items.length} models to explore</span><span className="brand-gallery-arrow" aria-hidden="true">↗</span></div>
     <div className="brand-gallery-body">
       <div className="brand-gallery-copy"><BrandMark slug={brand.slug} name={brand.name} size="lg" /><h2 className="nameplate">{brand.name}</h2><p>{categories.join(" · ")}</p></div>

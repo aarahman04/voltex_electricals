@@ -1,7 +1,8 @@
 import { Link, useParams } from "react-router-dom";
 import { getBrandBySlug } from "../data/brands.js";
-import { getProductsByBrand } from "../data/products.js";
-import { PUBLISHED, brandListingPath } from "../data/taxonomy.js";
+import { getProductsByBrand, getSubcategories } from "../data/products.js";
+import { PUBLISHED, brandListingPath, orderedSubcategories } from "../data/taxonomy.js";
+import { usePageMeta } from "../lib/usePageMeta.js";
 import BrandMark from "../components/BrandMark.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 
@@ -9,6 +10,12 @@ export default function BrandPage() {
   const { brandSlug } = useParams();
   const brand = getBrandBySlug(brandSlug);
   const items = getProductsByBrand(brandSlug);
+  usePageMeta(
+    brand ? brand.name : "Brand not found",
+    brand?.own
+      ? "Voltex Exclusive: chandeliers, pendants, ceiling lights and wall lights from Voltex Electricals' own range. Browse the collection and send an enquiry."
+      : brand && items.length ? `${items.length} ${brand.name} models at Voltex Electricals. Browse by category and send an enquiry.` : null,
+  );
 
   if (!brand || items.length === 0) {
     return (
@@ -35,6 +42,8 @@ export default function BrandPage() {
     name,
     items: items.filter((p) => p.category === name),
   })).filter((group) => group.items.length > 0);
+  // Voltex Exclusive is mostly chandeliers; lead with them rather than PUBLISHED order.
+  if (brand.own) byCategory.sort((x, y) => (y.name === "Chandeliers") - (x.name === "Chandeliers"));
 
   return (
     <div className="site-width py-10 sm:py-14">
@@ -46,10 +55,10 @@ export default function BrandPage() {
         <span className="text-ink">{brand.name}</span>
       </nav>
 
-      <header className="catalogue-heading mb-12">
+      {brand.own ? <ExclusiveHeading brand={brand} items={items} groups={byCategory} /> : <header className="catalogue-heading mb-12">
         <div><p className="eyebrow">Meet the collection</p><h1 className="nameplate">{brand.name}<span>.</span></h1><p className="catalogue-description">Explore every possibility, one essential at a time.</p></div>
         <div className="catalogue-brand"><BrandMark slug={brand.slug} name={brand.name} size="lg" /><span className="spec">{items.length} models to discover</span></div>
-      </header>
+      </header>}
 
       {byCategory.map((group) => (
         <section key={group.name} className="mb-16">
@@ -73,5 +82,35 @@ export default function BrandPage() {
         </section>
       ))}
     </div>
+  );
+}
+
+// Voltex's own range: the wordmark on a brass-ruled plate, a plain statement
+// of what the range is, and a shortcut into each type.
+function ExclusiveHeading({ brand, items, groups }) {
+  const types = groups.flatMap((group) =>
+    orderedSubcategories(group.name, getSubcategories(group.name, brand.slug)).map((sub) => ({ ...sub, category: group.name })),
+  );
+  return (
+    <header className="exclusive-heading mb-12">
+      <div className="exclusive-heading-copy">
+        <BrandMark slug={brand.slug} name={brand.name} size="xl" />
+        <h1 className="nameplate">Our own range of chandeliers and wall lights.</h1>
+        <p>Voltex Exclusive is the range we source and sell ourselves. The photographs show each design as supplied, some in a styled room. Ask us for sizes, finishes and availability.</p>
+      </div>
+      <div className="exclusive-heading-types">
+        <span className="spec">{items.length} models</span>
+        <ul>
+          {types.map((type) => (
+            <li key={`${type.category}/${type.name}`}>
+              <Link to={`${brandListingPath(type.category, brand.slug)}?sub=${encodeURIComponent(type.name)}`}>
+                <span>{type.name}</span>
+                <span className="spec">{type.count}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </header>
   );
 }
