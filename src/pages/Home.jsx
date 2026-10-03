@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { motion, useReducedMotion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { motion, useInView, useReducedMotion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { getCategoryFeature, getChandelierPicks, getFeaturedProducts, getIndustrialPicks, getProductsByCategory, getProductImage, getProductById } from "../data/products.js";
 import { PUBLISHED, brandListingPath, categoryPath } from "../data/taxonomy.js";
@@ -55,10 +55,7 @@ export default function Home({ motionEnabled }) {
     <Section className="range-section" eyebrow="Discover the range" title="Good things, well chosen." blurb="A few favourites for the spaces you make your own." href="/products" hrefLabel="Explore the collection">
       <div className="range-editorial">
         <div className="range-room">
-          <figure className="shoppable-scene collection-scene">
-            <img className="shoppable-room-image" src="/images/collection-room-1440.webp" srcSet="/images/collection-room-720.webp 720w, /images/collection-room-1440.webp 1440w" sizes="(max-width: 767px) calc(100vw - 40px), 60vw" width="1440" height="960" alt="A warm living room with an Atomberg Renesa Prime Crest ceiling fan, Philips Ornate table lamp and two Orient Prism Surface COB lights. Select a marked product to explore it." loading="lazy" />
-            <RoomHotspots items={collectionPieces} />
-          </figure>
+          <CollectionScene motionEnabled={motionEnabled} />
           <div><span className="spec">See it here. Find it here.</span><h3 className="nameplate">Feel more at home.</h3><p>Explore the fan, lamp and COB lights that bring this room to life.</p>
             <ul className="collection-product-links">{collectionProducts.map((item) => <li key={item.uid}><Link to={`/product/${item.uid}`}><span><small>{item.type}</small><strong>{item.product.brand} {item.name}</strong></span><Arrow diagonal /></Link></li>)}</ul>
             <small className="collection-image-note">Illustrative room · Explore product details for finishes.</small>
@@ -105,6 +102,36 @@ function IndustrialRange() {
   </div></motion.section>;
 }
 
+// The collection room introduces its products one at a time, like the hero:
+// each marker opens its label in turn while the room is on screen. It stops
+// while the visitor points at or focuses a marker, and stays still when
+// motion is paused or reduced (markers still open on hover and focus).
+const REVEAL_MS = 2600;
+function CollectionScene({ motionEnabled }) {
+  const ref = useRef(null);
+  const inView = useInView(ref, { amount: 0.5 });
+  const reducedMotion = useReducedMotion();
+  const [active, setActive] = useState(-1);
+  const [held, setHeld] = useState(false);
+  const playing = motionEnabled && !reducedMotion && inView && !held;
+  useEffect(() => {
+    if (!playing) return;
+    const timer = window.setTimeout(() => setActive((i) => (i + 1) % collectionPieces.length), active === -1 ? 600 : REVEAL_MS);
+    return () => window.clearTimeout(timer);
+  }, [playing, active]);
+  return <figure
+    ref={ref}
+    className="shoppable-scene collection-scene"
+    onPointerEnter={() => setHeld(true)}
+    onPointerLeave={() => setHeld(false)}
+    onFocus={() => setHeld(true)}
+    onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setHeld(false); }}
+  >
+    <img className="shoppable-room-image" src="/images/collection-room-1440.webp" srcSet="/images/collection-room-720.webp 720w, /images/collection-room-1440.webp 1440w" sizes="(max-width: 767px) calc(100vw - 40px), 60vw" width="1440" height="960" alt="A warm living room with an Atomberg Renesa Prime Crest ceiling fan, Philips Ornate table lamp and two Orient Prism Surface COB lights. Select a marked product to explore it." loading="lazy" />
+    <RoomHotspots items={collectionPieces} activeIndex={held || !playing ? -1 : active} />
+  </figure>;
+}
+
 // Voltex Exclusive chandeliers. Each photograph hangs from a brass rail on a
 // fine drop line; the lines draw down once when the section comes into view.
 function ChandelierRange() {
@@ -129,7 +156,8 @@ function ChandelierRange() {
     </div>
     <div className="chandelier-layout">
       {room && <Link to={`/product/${room.uid}`} className="chandelier-room">
-        <img src={getProductImage(room)} width={room.images.width} height={room.images.height} alt={displayTitle(room)} loading="lazy" decoding="async" />
+        {/* The large tile uses the 1280 detail file; the 640 card file looks soft at this size. */}
+        <img src={getProductImage(room).replace(/-640\.webp$/, "-1280.webp")} srcSet={`${getProductImage(room)} 640w, ${getProductImage(room).replace(/-640\.webp$/, "-1280.webp")} 1280w`} sizes="(max-width: 1100px) calc(100vw - 40px), 520px" width={room.images.width} height={room.images.height} alt={displayTitle(room)} loading="lazy" decoding="async" />
         <span className="chandelier-room-foot"><span><strong>{displayTitle(room)}</strong><small>Shown in a styled room</small></span><span aria-hidden="true">↗</span></span>
       </Link>}
       <ul className="chandelier-rail">

@@ -389,7 +389,7 @@ const CHANDELIER_PICKS = [
   "voltex-exclusive--vx-ch-0138",
   "voltex-exclusive--vx-ch-0135",
 ];
-const CHANDELIER_ROOMS = ["voltex-exclusive--vx-ch-0161", "voltex-exclusive--vx-ch-0059"];
+const CHANDELIER_ROOMS = ["voltex-exclusive--vx-ch-0143"];
 
 export function getChandelierPicks() {
   return {
