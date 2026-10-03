@@ -24,6 +24,8 @@
 //   them even fully cropped. `logoScale` closes that gap by eye.
 // Omit for anything that already matches by eye.
 export const BRANDS = [
+  // Voltex's own range. Listed first wherever brands are shown in BRANDS order.
+  { slug: "voltex-exclusive", name: "Voltex Exclusive", tint: "#F3EDE1", logo: "/brands/voltex-exclusive.svg", own: true },
   { slug: "orient", name: "Orient Electric", tint: "#F4ECDE", logo: "/brands/orient.webp" },
   { slug: "wipro", name: "Wipro", tint: "#F0EDE4", logo: "/brands/wipro.svg" },
   { slug: "philips", name: "Philips", tint: "#E4EDF4", logo: "/brands/philips.svg" },

@@ -387,3 +387,35 @@ test("prepare passes the shrinking options to the encoder and retries until the 
   assert.deepEqual(seen.map((o) => [o.maxWidth, o.maxHeight, o.quality]), [[2000, 2000, 0.8], [2000, 2000, 0.74], [2000, 2000, 0.68]]);
   assert.equal(out.size, 2000);
 });
+
+/* ------------------------------------------------- chandeliers in the selects */
+
+// /admin's Brand and Category selects are built from getBrands() and
+// getCategories(), which read the catalogue. These check the inputs those
+// read: the Voltex Exclusive manifest, the brand roster and the published list.
+test("Chandeliers and Voltex Exclusive are offered in /admin's selects", async () => {
+  const { readFileSync } = await import("node:fs");
+  const { BRANDS, resolveBrand } = await import("../src/data/brands.js");
+  // taxonomy.js imports JSON without an import attribute (Vite-only), so read it as text.
+  const taxonomy = readFileSync(new URL("../src/data/taxonomy.js", import.meta.url), "utf8");
+  const PUBLISHED = JSON.parse(taxonomy.match(/export const PUBLISHED = (\[.*?\]);/)[1]);
+  const chandelierTypes = taxonomy.match(/Chandeliers: \[([^\]]*)\]/)[1];
+  const manifest = JSON.parse(readFileSync(new URL("../Products/voltex-exclusive/catalog.json", import.meta.url)));
+  const brand = BRANDS.find((b) => b.slug === "voltex-exclusive");
+  assert.ok(brand && !brand.hidden, "Voltex Exclusive is a visible brand");
+  assert.equal(resolveBrand("Voltex Exclusive", "voltex-exclusive").slug, "voltex-exclusive");
+  assert.ok(manifest.some((p) => p.category === "Chandeliers"), "the manifest gives Chandeliers products");
+  assert.ok(PUBLISHED.includes("Chandeliers"));
+  for (const p of manifest.filter((r) => r.category === "Chandeliers")) assert.ok(chandelierTypes.includes(`"${p.type}"`), p.type);
+});
+
+test("the Voltex Exclusive manifest holds only neutral fields", async () => {
+  const { readFileSync } = await import("node:fs");
+  const text = readFileSync(new URL("../Products/voltex-exclusive/catalog.json", import.meta.url), "utf8");
+  assert.doesNotMatch(text, /[㐀-鿿]/, "no CJK text");
+  assert.doesNotMatch(text, /\bALE|\bLP\s?\d|\.jpg/i, "no supplier codes, list prices or source file names");
+  for (const row of JSON.parse(text)) {
+    assert.deepEqual(Object.keys(row).sort(), ["category", "code", "finish", "images", "room", "title", "type"]);
+    assert.match(row.code, /^VX-(CH|WL)-\d{4}$/);
+  }
+});
