@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import "./design-refresh.css";
 import "./shoppable-hero.css";
+import "./voltex-system.css";
 import App from "./App.jsx";
 import { catalog } from "./data/catalog.js";
 

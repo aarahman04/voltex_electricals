@@ -15,7 +15,7 @@ import adminTaxonomy from "../../Products/admin/taxonomy.json";
 // Categories the site actually shows. The ETL also produces a "Parked"
 // bucket (Crompton appliances, pumps, kitchen) — adding one here plus a
 // category card is all it takes to publish it. See docs/roadmap.md.
-export const PUBLISHED = ["Fans", "Lighting", "Water Geysers"];
+export const PUBLISHED = ["Fans", "Lighting", "Chandeliers", "Water Geysers"];
 
 // Categories an admin created in /admin. They get their own /c/<name> pages
 // and show on /products, but stay out of PUBLISHED — and so out of the header
@@ -67,7 +67,6 @@ export const SUBCATEGORY_ORDER = {
     "Elevation LED",
     "Wall Lights",
     "Pendant Lights",
-    "Chandeliers",
     "Track Lights",
     "Strip & Rope Lights",
     "Street & Outdoor Lights",
@@ -77,6 +76,14 @@ export const SUBCATEGORY_ORDER = {
     "Lamps & Lanterns",
     "Home Art Lights",
     "Curtain & String Lights",
+  ],
+  Chandeliers: [
+    "Crystal-Style Chandeliers",
+    "LED & Modern Chandeliers",
+    "Long Drop Chandeliers",
+    "Pendants & Clusters",
+    "Ceiling & Flush Mounts",
+    "Chandeliers",
   ],
   "Water Geysers": ["Storage Water Heaters", "Instant Water Heaters", "Gas Geysers"],
 };

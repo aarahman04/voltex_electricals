@@ -11,6 +11,7 @@ import { brandListingPath, categoryPath } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 import { displayTitle } from "../lib/specSummary.js";
 import { formatPrice } from "../lib/price.js";
+import { usePageMeta } from "../lib/usePageMeta.js";
 import { useEnquiry } from "../context/enquiry.js";
 import BrandMark from "../components/BrandMark.jsx";
 import VariantSelector from "../components/VariantSelector.jsx";
@@ -94,6 +95,10 @@ function ProductDetailView({ product: liteProduct }) {
   const title = displayTitle(product);
   const price = formatPrice(product.price);
   const tags = (product.tags ?? []).filter((tag) => !tag.includes("__")).slice(0, 6);
+  usePageMeta(
+    title,
+    `${title} from ${product.brand}, in ${product.category}${product.subcategory ? ` / ${product.subcategory}` : ""}. Add it to your enquiry list for pricing and availability.`,
+  );
 
   const optionRows = hasVariants
     ? []
@@ -138,6 +143,8 @@ function ProductDetailView({ product: liteProduct }) {
           setActiveImage={setActiveImage}
           title={title}
           loading={detailLoading}
+          photo={Boolean(product.images?.width)}
+          styledRoom={product.styledRoom}
         />
 
         <div className="product-information flex flex-col">
@@ -268,7 +275,7 @@ function usePreloadNeighbors(images, activeImage) {
   }, [images, activeImage]);
 }
 
-function Gallery({ images, activeImage, setActiveImage, title, loading }) {
+function Gallery({ images, activeImage, setActiveImage, title, loading, photo, styledRoom }) {
   // Direction drives which side the incoming frame slides in from — a
   // swipe right should feel like it's pulling the next photo in from the
   // right, not just cross-fading in place.
@@ -282,7 +289,7 @@ function Gallery({ images, activeImage, setActiveImage, title, loading }) {
 
   return (
     <div className="flex flex-col gap-3">
-      <div className="product-gallery group relative aspect-square max-h-[560px] overflow-hidden border">
+      <div className="product-gallery group relative aspect-square max-h-[560px] overflow-hidden border" data-photo={photo || undefined}>
         {/* mode="popLayout" (not "wait") so the incoming frame slides in
             while the outgoing one is still leaving — since neighbours are
             already preloaded, this reads as an instant swipe rather than a
@@ -306,9 +313,10 @@ function Gallery({ images, activeImage, setActiveImage, title, loading }) {
             animate={{ opacity: 1, x: 0 }}
             exit={(dir) => ({ opacity: 0, x: dir * -40 })}
             transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
-            className="h-full w-full object-contain mix-blend-multiply p-8"
+            className={photo ? "h-full w-full object-scale-down p-3" : "h-full w-full object-contain mix-blend-multiply p-8"}
           />
         </AnimatePresence>
+        {styledRoom && <span className="product-room-note">Shown in a styled room</span>}
 
         {images.length > 1 && (
           <>

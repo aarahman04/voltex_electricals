@@ -12,6 +12,8 @@
 | **aosmith** | ao-smith | `aosmithindia_gysers.csv` — WooCommerce grid scrape (name/image/price/description) | 36 | no |
 | **wipro** | wipro | `wiprolighting.csv` — index scrape: name + image + product URL only; subcategory read off the URL's own section path | 119 | no |
 
+| **voltex** | voltex-exclusive | `Products/voltex-exclusive/catalog.json`: hand-checked manifest, one row per photograph (code, title, category, type, finish, room, image paths); local WebP images | 855 | no |
+
 Totals: **1,858 raw rows** (six original brands) + **255 rows** across the four brands added 2026-09-16. After parking non-core Crompton (~400) and fixing misclassified rows, the published catalogue is roughly **1,650** Fans + Lighting + Water Geysers products across 10 brands with data.
 
 ### Schema A shape (the target)
@@ -84,7 +86,7 @@ Adapters:
 
 ## Images
 
-All remote CDN URLs — no local product images anywhere. Hosts: `cdn.shopify.com` (orient, atomberg, crompton, philips), `havells.com/media/...`, `cms.polycab.com/media/...?format=webp`. `cdnImage(url, width)` appends `width=` only for Shopify URLs; others pass through unchanged.
+Remote CDN URLs, except /admin uploads (`public/products/admin/`) and Voltex Exclusive (`public/products/voltex-exclusive/<code>-640.webp` for cards, `-1280.webp` for the product page). Local photos carry `images.width/height` (of the 640 file) into the lite record so cards reserve their space; `styledRoom: true` marks room renders, shown as "Shown in a styled room". Older notes in this section describe the remote images.
 
 ## Options / facets observed
 

@@ -1,13 +1,15 @@
 import { useMemo } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, Navigate, useParams, useSearchParams } from "react-router-dom";
 import { getBrandBySlug } from "../data/brands.js";
 import { getFacets, getProductsByCategory, getSubcategories } from "../data/products.js";
 import { categoryPath, isPublished, orderedSubcategories } from "../data/taxonomy.js";
 import BrandMark from "../components/BrandMark.jsx";
 import Listing from "../components/Listing.jsx";
+import { usePageMeta } from "../lib/usePageMeta.js";
 
 export default function BrandListing() {
   const { category, brandSlug } = useParams();
+  const [params] = useSearchParams();
 
   const data = useMemo(() => {
     if (!isPublished(category)) return null;
@@ -24,6 +26,17 @@ export default function BrandListing() {
       subcategories: orderedSubcategories(category, getSubcategories(category, brandSlug)),
     };
   }, [category, brandSlug]);
+
+  const label = category === "Water Geysers" ? "Water heating" : category;
+  usePageMeta(
+    data?.brand ? `${data.brand.name} ${label}` : null,
+    data?.items?.length ? `${data.items.length} ${data.brand.name} models in ${label}. Filter by type, save the ones you like and send an enquiry.` : null,
+  );
+
+  // Chandeliers used to be a type under Lighting; old filtered links follow it.
+  if (category?.toLowerCase() === "lighting" && params.get("sub")?.split(",").includes("Chandeliers")) {
+    return <Navigate replace to={`${categoryPath("Chandeliers")}/${encodeURIComponent(brandSlug)}`} />;
+  }
 
   if (!data || data.items.length === 0) {
     return (

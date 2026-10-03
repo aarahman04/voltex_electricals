@@ -124,7 +124,8 @@ function brandModelCounts(items) {
   return counts;
 }
 
-// Every brand with a live model count, alphabetical by name. Brands with no
+// Every brand with a live model count: Voltex's own range first, then
+// alphabetical by name. Brands with no
 // products in the data are left out entirely — never write a literal.
 export function getBrands() {
   return brandsWithCounts(brandModelCounts(products)).filter((brand) => !brand.hidden);
@@ -139,7 +140,7 @@ export function getBrandsForCategory(category) {
 function brandsWithCounts(counts) {
   return BRANDS.map((brand) => ({ ...brand, count: counts.get(brand.slug) ?? 0 }))
     .filter((brand) => brand.count > 0)
-    .sort((a, b) => Boolean(a.hidden) - Boolean(b.hidden) || a.name.localeCompare(b.name));
+    .sort((a, b) => Boolean(a.hidden) - Boolean(b.hidden) || Boolean(b.own) - Boolean(a.own) || a.name.localeCompare(b.name));
 }
 
 export function getProductsByBrand(brandSlug) {
@@ -375,7 +376,27 @@ const FEATURED = {
     frame: 0,
   },
   lighting: { id: "raya-candle-wall-light", frame: 0 },
+  chandeliers: { id: "vx-ch-0129", frame: 0 },
 };
+
+// Homepage chandelier row: photographs checked by eye — clean backgrounds,
+// sharp, no text or cover-up boxes. The two room scenes come last.
+const CHANDELIER_PICKS = [
+  "voltex-exclusive--vx-ch-0051",
+  "voltex-exclusive--vx-ch-0009",
+  "voltex-exclusive--vx-ch-0125",
+  "voltex-exclusive--vx-ch-0066",
+  "voltex-exclusive--vx-ch-0138",
+  "voltex-exclusive--vx-ch-0135",
+];
+const CHANDELIER_ROOMS = ["voltex-exclusive--vx-ch-0143"];
+
+export function getChandelierPicks() {
+  return {
+    products: CHANDELIER_PICKS.map(getProductById).filter(Boolean),
+    rooms: CHANDELIER_ROOMS.map(getProductById).filter(Boolean),
+  };
+}
 
 // A fixed showcase for the "Built for industry" homepage row: Almonard's two
 // air circulators plus two of Wipro's industrial luminaires. Falls back to

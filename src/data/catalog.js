@@ -50,6 +50,8 @@ export const catalog = Object.entries(liteModules).flatMap(([path, rows]) => {
       images: raw.images ?? {},
       // Only set via /admin; scraped prices never reach the lite record.
       price: raw.price ?? null,
+      // Voltex Exclusive photographs taken in a styled room, not of the product alone.
+      styledRoom: raw.styledRoom ?? false,
       // Detail-only fields: safe empty defaults so every existing `??`/`&&`
       // guard in ProductDetail.jsx keeps working before loadProductDetail
       // resolves.

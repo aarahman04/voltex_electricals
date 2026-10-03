@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { getBrandsForCategory, getCategoryCounts, getCategoryFeature } from "../data/products.js";
+import { getBrands, getBrandsForCategory, getCategoryCounts, getCategoryFeature, getProductsByBrand } from "../data/products.js";
 import { cdnImage } from "../lib/image.js";
 import { PUBLISHED, brandListingPath, categoryPath } from "../data/taxonomy.js";
 import { useEnquiry } from "../context/enquiry.js";
@@ -21,13 +21,17 @@ const categoryTree = PUBLISHED.map((category) => ({
 }));
 
 const COMPANY = [
-  { label: "Brands", to: "/brands" },
   { label: "About", to: "/about" },
   { label: "Contact", to: "/contact" },
 ];
 
+// The Brands menu: Voltex's own range first, then the directory.
+const OWN_BRAND = { label: "Voltex Exclusive", to: "/brand/voltex-exclusive", count: getProductsByBrand("voltex-exclusive").length };
+const brandCount = getBrands().length;
+
 export default function Header({ motionEnabled, toggleMotion, reducedMotion }) {
   const [menu, setMenu] = useState(false);
+  const [brandsOpen, setBrandsOpen] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [search, setSearch] = useState(false);
 
@@ -49,7 +53,7 @@ export default function Header({ motionEnabled, toggleMotion, reducedMotion }) {
   useScrollLock(mobile);
 
   return (
-    <header className="site-header sticky top-0 z-40 backdrop-blur-md" onMouseLeave={() => setMenu(false)}>
+    <header className="site-header sticky top-0 z-40 backdrop-blur-md" onMouseLeave={() => { setMenu(false); setBrandsOpen(false); }}>
       <div className="header-row site-width flex items-center gap-3 sm:gap-6">
         <Link to="/" aria-label="Voltex Electricals, home">
           <Lockup className="text-[15px] sm:text-[18px]" />
@@ -57,12 +61,12 @@ export default function Header({ motionEnabled, toggleMotion, reducedMotion }) {
 
         <nav aria-label="Main navigation" className="header-nav hidden items-center gap-7 lg:flex">
           <div
-            onMouseEnter={() => setMenu(true)}
+            onMouseEnter={() => { setMenu(true); setBrandsOpen(false); }}
           >
             <button
               type="button"
               aria-controls="product-megamenu"
-              onClick={() => setMenu(true)}
+              onClick={() => { setMenu(true); setBrandsOpen(false); }}
               className="flex items-center gap-1.5 py-2 text-sm text-ink-muted transition-colors hover:text-ink"
               aria-expanded={menu}
               onKeyDown={(event) => { if (event.key === "ArrowDown") { event.preventDefault(); setMenu(true); } }}
@@ -85,12 +89,14 @@ export default function Header({ motionEnabled, toggleMotion, reducedMotion }) {
             </AnimatePresence>
           </div>
 
+          <BrandsMenu open={brandsOpen} setOpen={(open) => { setBrandsOpen(open); if (open) setMenu(false); }} />
+
           {COMPANY.map((item) => (
             <NavLink
               key={item.label}
               to={item.to}
-              onMouseEnter={() => setMenu(false)}
-              onFocus={() => setMenu(false)}
+              onMouseEnter={() => { setMenu(false); setBrandsOpen(false); }}
+              onFocus={() => { setMenu(false); setBrandsOpen(false); }}
               className={({ isActive }) =>
                 `text-sm transition-colors ${
                   isActive ? "text-amber" : "text-ink-muted hover:text-ink"
@@ -150,6 +156,87 @@ export default function Header({ motionEnabled, toggleMotion, reducedMotion }) {
   );
 }
 
+// A two-item disclosure menu. Opens on hover like Products, and on click or
+// ArrowDown; Escape closes it and returns focus to the button.
+function BrandsMenu({ open, setOpen }) {
+  const button = useRef(null);
+  const panel = useRef(null);
+  const { pathname } = useLocation();
+  const active = pathname === "/brands" || pathname.startsWith("/brand/");
+
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (event) => {
+      if (event.key !== "Escape") return;
+      setOpen(false);
+      button.current?.focus();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open, setOpen]);
+
+  const focusItem = (step) => {
+    const items = [...(panel.current?.querySelectorAll("a") ?? [])];
+    const index = items.indexOf(document.activeElement);
+    items[(index + step + items.length) % items.length]?.focus();
+  };
+
+  return (
+    <div
+      className="brands-menu"
+      onMouseEnter={() => setOpen(true)}
+      onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false); }}
+    >
+      <button
+        ref={button}
+        type="button"
+        className="brands-menu-button"
+        data-active={active || undefined}
+        aria-expanded={open}
+        aria-controls="brands-menu"
+        onClick={() => setOpen(!open)}
+        onKeyDown={(event) => {
+          if (event.key !== "ArrowDown") return;
+          event.preventDefault();
+          setOpen(true);
+          requestAnimationFrame(() => focusItem(1));
+        }}
+      >
+        Brands
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true" className={`transition-transform ${open ? "rotate-180" : ""}`}>
+          <path strokeLinecap="round" d="m6 9 6 6 6-6" />
+        </svg>
+      </button>
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            ref={panel}
+            id="brands-menu"
+            className="brands-menu-panel"
+            initial={{ opacity: 0, y: -6 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -6 }}
+            transition={{ duration: 0.18 }}
+            onKeyDown={(event) => {
+              if (event.key === "ArrowDown") { event.preventDefault(); focusItem(1); }
+              if (event.key === "ArrowUp") { event.preventDefault(); focusItem(-1); }
+            }}
+          >
+            <Link to={OWN_BRAND.to} className="brands-menu-own" onClick={() => setOpen(false)}>
+              <img src="/brands/voltex-exclusive.svg" alt="" width="120" height="36" />
+              <span><strong>{OWN_BRAND.label}</strong><small>Chandeliers and wall lights, {OWN_BRAND.count} models</small></span>
+            </Link>
+            <Link to="/brands" className="brands-menu-all" onClick={() => setOpen(false)}>
+              <span><strong>All brands</strong><small>The {brandCount} brands we carry</small></span>
+              <span aria-hidden="true">↗</span>
+            </Link>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
 function EnquiryLink() {
   const { count } = useEnquiry();
   return (
@@ -182,7 +269,7 @@ function MegaMenu() {
 
   return <div className="site-width">
     <div className="mega-intro"><div><p className="eyebrow">Find your everyday essentials</p><h2 className="nameplate">A little change. A better space.</h2></div><Link to="/products" className="text-link">The complete catalogue <span aria-hidden="true">↗</span></Link></div>
-    <div className="mega-grid">{categoryTree.map((category) => <div key={category.name} className="mega-category" data-active={current === category.name.toLowerCase() || undefined}>
+    <div className="mega-grid">{categoryTree.map((category) => <div key={category.name} className="mega-category" data-category={category.name} data-active={current === category.name.toLowerCase() || undefined}>
       <Link to={categoryPath(category.name)} className="mega-category-visual"><div><strong>{category.name === "Water Geysers" ? "Water heating" : category.name}</strong><span className="spec">{category.count} models <span aria-hidden="true">↗</span></span></div><img src={cdnImage(getCategoryFeature(category.name).image, 300)} alt="" /></Link>
       <ul className="mega-brand-links">{category.brands.map((brand) => <li key={brand.slug}><Link to={brandListingPath(category.name, brand.slug)}>{brand.name}<span>{brand.count}</span></Link></li>)}</ul>
     </div>)}</div>
@@ -296,6 +383,23 @@ function MobileNav({ open, onClose }) {
                       className="nameplate border-b border-seam py-4 text-2xl text-ink"
                     >
                       All products
+                    </Link>
+                    <p className="mobile-nav-group spec">Brands</p>
+                    <Link
+                      to={OWN_BRAND.to}
+                      onClick={close}
+                      className="flex items-baseline justify-between border-b border-seam py-3.5 text-[15px] text-ink"
+                    >
+                      {OWN_BRAND.label}
+                      <span className="spec text-ink-muted">{OWN_BRAND.count}</span>
+                    </Link>
+                    <Link
+                      to="/brands"
+                      onClick={close}
+                      className="flex items-baseline justify-between border-b border-seam py-3.5 text-[15px] text-ink"
+                    >
+                      All brands
+                      <span className="spec text-ink-muted">{brandCount}</span>
                     </Link>
                     {COMPANY.map((item) => (
                       <NavLink

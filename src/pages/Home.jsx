@@ -1,7 +1,7 @@
-import { useState } from "react";
-import { motion, useReducedMotion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { motion, useInView, useReducedMotion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { getCategoryFeature, getFeaturedProducts, getIndustrialPicks, getProductsByCategory, getProductImage, getProductById } from "../data/products.js";
+import { getCategoryFeature, getChandelierPicks, getFeaturedProducts, getIndustrialPicks, getProductsByCategory, getProductImage, getProductById } from "../data/products.js";
 import { PUBLISHED, brandListingPath, categoryPath } from "../data/taxonomy.js";
 import { cdnImage } from "../lib/image.js";
 import { kelvinToCss, nearestTone } from "../lib/kelvin.js";
@@ -13,6 +13,7 @@ import { displayTitle, specSummary } from "../lib/specSummary.js";
 
 const featured = getFeaturedProducts(4);
 const industrial = getIndustrialPicks(4);
+const chandeliers = getChandelierPicks();
 // Positions match the complete 3:2 collection photograph, including both COB fixtures.
 const collectionPieces = [
   { uid: "atomberg--atomberg-renesa-prime-crest-ceiling-fan", name: "Renesa Prime Crest", type: "Ceiling fan", x: 45, y: 17, width: 40, height: 25, side: "below" },
@@ -24,6 +25,7 @@ const collectionProducts = [...new Map(collectionPieces.map((item) => [item.uid,
 const categoryCopy = {
   Fans: { title: "A breath of fresh air.", description: "Ceiling, pedestal, wall & exhaust fans", label: "Explore fans" },
   Lighting: { title: "Set the right mood.", description: "Everyday essentials to statement lighting", label: "Explore lighting" },
+  Chandeliers: { title: "Make the ceiling count.", description: "Chandeliers, pendants & ceiling lights", label: "Explore chandeliers" },
   "Water Geysers": { title: "Comfort, on demand.", description: "Instant & storage water heaters", label: "Explore water heaters" },
 };
 const needs = [
@@ -53,10 +55,7 @@ export default function Home({ motionEnabled }) {
     <Section className="range-section" eyebrow="Discover the range" title="Good things, well chosen." blurb="A few favourites for the spaces you make your own." href="/products" hrefLabel="Explore the collection">
       <div className="range-editorial">
         <div className="range-room">
-          <figure className="shoppable-scene collection-scene">
-            <img className="shoppable-room-image" src="/images/collection-room-1440.webp" srcSet="/images/collection-room-720.webp 720w, /images/collection-room-1440.webp 1440w" sizes="(max-width: 767px) calc(100vw - 40px), 60vw" width="1440" height="960" alt="A warm living room with an Atomberg Renesa Prime Crest ceiling fan, Philips Ornate table lamp and two Orient Prism Surface COB lights. Select a marked product to explore it." loading="lazy" />
-            <RoomHotspots items={collectionPieces} />
-          </figure>
+          <CollectionScene motionEnabled={motionEnabled} />
           <div><span className="spec">See it here. Find it here.</span><h3 className="nameplate">Feel more at home.</h3><p>Explore the fan, lamp and COB lights that bring this room to life.</p>
             <ul className="collection-product-links">{collectionProducts.map((item) => <li key={item.uid}><Link to={`/product/${item.uid}`}><span><small>{item.type}</small><strong>{item.product.brand} {item.name}</strong></span><Arrow diagonal /></Link></li>)}</ul>
             <small className="collection-image-note">Illustrative room · Explore product details for finishes.</small>
@@ -66,6 +65,7 @@ export default function Home({ motionEnabled }) {
       </div>
       <div className="range-note"><span><span className="status-light" /> Find your favourites. Save products to your enquiry list.</span><span className="spec">Browse. Shortlist. Make it yours.</span></div>
     </Section>
+    {chandeliers.products.length > 0 && <ChandelierRange />}
     <section className="needs-band">
       <div className="site-width">
         <p className="eyebrow">What’s on your list?</p>
@@ -102,9 +102,80 @@ function IndustrialRange() {
   </div></motion.section>;
 }
 
+// The collection room introduces its products one at a time, like the hero:
+// each marker opens its label in turn while the room is on screen. It stops
+// while the visitor points at or focuses a marker, and stays still when
+// motion is paused or reduced (markers still open on hover and focus).
+const REVEAL_MS = 2600;
+function CollectionScene({ motionEnabled }) {
+  const ref = useRef(null);
+  const inView = useInView(ref, { amount: 0.5 });
+  const reducedMotion = useReducedMotion();
+  const [active, setActive] = useState(-1);
+  const [held, setHeld] = useState(false);
+  const playing = motionEnabled && !reducedMotion && inView && !held;
+  useEffect(() => {
+    if (!playing) return;
+    const timer = window.setTimeout(() => setActive((i) => (i + 1) % collectionPieces.length), active === -1 ? 600 : REVEAL_MS);
+    return () => window.clearTimeout(timer);
+  }, [playing, active]);
+  return <figure
+    ref={ref}
+    className="shoppable-scene collection-scene"
+    onPointerEnter={() => setHeld(true)}
+    onPointerLeave={() => setHeld(false)}
+    onFocus={() => setHeld(true)}
+    onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setHeld(false); }}
+  >
+    <img className="shoppable-room-image" src="/images/collection-room-1440.webp" srcSet="/images/collection-room-720.webp 720w, /images/collection-room-1440.webp 1440w" sizes="(max-width: 767px) calc(100vw - 40px), 60vw" width="1440" height="960" alt="A warm living room with an Atomberg Renesa Prime Crest ceiling fan, Philips Ornate table lamp and two Orient Prism Surface COB lights. Select a marked product to explore it." loading="lazy" />
+    <RoomHotspots items={collectionPieces} activeIndex={held || !playing ? -1 : active} />
+  </figure>;
+}
+
+// Voltex Exclusive chandeliers. Each photograph hangs from a brass rail on a
+// fine drop line; the lines draw down once when the section comes into view.
+function ChandelierRange() {
+  const reducedMotion = useReducedMotion();
+  const [room] = chandeliers.rooms;
+  const drop = (i) => ({
+    initial: reducedMotion ? false : { scaleY: 0 },
+    whileInView: { scaleY: 1 },
+    viewport: { once: true, amount: 0.4 },
+    transition: { duration: 0.9, delay: 0.08 * i, ease: [0.16, 1, 0.3, 1] },
+  });
+  return <section className="chandelier-section" aria-labelledby="chandelier-heading"><div className="site-width">
+    <div className="chandelier-heading">
+      <div>
+        <p className="eyebrow">Voltex Exclusive</p>
+        <h2 id="chandelier-heading" className="nameplate">Chandeliers,<br /><span>from our own range.</span></h2>
+      </div>
+      <div>
+        <p>Crystal-style, modern LED, pendant and ceiling designs. Browse the collection, save the ones you like, and ask us about any model.</p>
+        <Link to={categoryPath("Chandeliers")} className="text-link">Explore chandeliers <Arrow diagonal /></Link>
+      </div>
+    </div>
+    <div className="chandelier-layout">
+      {room && <Link to={`/product/${room.uid}`} className="chandelier-room">
+        {/* The large tile uses the 1280 detail file; the 640 card file looks soft at this size. */}
+        <img src={getProductImage(room).replace(/-640\.webp$/, "-1280.webp")} srcSet={`${getProductImage(room)} 640w, ${getProductImage(room).replace(/-640\.webp$/, "-1280.webp")} 1280w`} sizes="(max-width: 1100px) calc(100vw - 40px), 520px" width={room.images.width} height={room.images.height} alt={displayTitle(room)} loading="lazy" decoding="async" />
+        <span className="chandelier-room-foot"><span><strong>{displayTitle(room)}</strong><small>Shown in a styled room</small></span><span aria-hidden="true">↗</span></span>
+      </Link>}
+      <ul className="chandelier-rail">
+        {chandeliers.products.map((p, i) => <li key={p.uid}>
+          <motion.span className="chandelier-drop" aria-hidden="true" {...drop(i)} />
+          <Link to={`/product/${p.uid}`} className="chandelier-piece">
+            <span className="chandelier-plate"><img src={getProductImage(p)} width={p.images.width} height={p.images.height} alt="" loading="lazy" decoding="async" /></span>
+            <span className="chandelier-caption"><strong>{p.title.replace(/\s+VX-[A-Z]+-\d+$/, "")}</strong><small>{p.variants?.[0]?.sku}</small></span>
+          </Link>
+        </li>)}
+      </ul>
+    </div>
+  </div></section>;
+}
+
 function CategoryCard({ category }) {
   const copy = categoryCopy[category];
-  return <Link to={categoryPath(category)} className="category-card">
+  return <Link to={categoryPath(category)} className="category-card" data-category={category}>
     <div className="category-card-heading"><span className="eyebrow">{category}</span><span className="category-arrow"><Arrow diagonal /></span></div>
     <h3 className="nameplate">{copy.title}</h3><p>{copy.description}</p>
     <div className="category-image"><img src={cdnImage(getCategoryFeature(category).image, 700)} alt="" loading="lazy" decoding="async" /></div>

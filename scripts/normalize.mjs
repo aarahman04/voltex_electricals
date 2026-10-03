@@ -73,6 +73,9 @@ const BRANDS = [
   // only namespaces the uid (admin--<id>) and the output folder; the product's
   // real brand, if any, travels in `vendor`.
   { slug: "admin", name: "Admin", schema: "admin", dir: "admin" },
+  // Voltex's own range (Products/voltex-exclusive/catalog.json): chandeliers,
+  // plus the wall lights from the same collection, which are filed under Lighting.
+  { slug: "voltex-exclusive", name: "Voltex Exclusive", schema: "voltex", dir: "voltex-exclusive" },
 ];
 
 // Schema B: product_type (lowercased) -> [category, subcategory].
@@ -880,6 +883,38 @@ function adaptAdmin(brand, report) {
   return { published, parked: [] };
 }
 
+/* ---------------------------------------------------------- voltex exclusive */
+
+// Schema "voltex" — a hand-checked manifest, one row per photograph. Rows are
+// already in display order (best photographs first), and that order is kept.
+// Only what the photograph shows is recorded: no specs, materials, sizes or
+// prices. The code doubles as the model code (variants[].sku), so it is
+// searchable and shown on the product page.
+function adaptVoltex(brand, report) {
+  const rows = JSON.parse(readFileSync(join(SRC, brand.dir, "catalog.json"), "utf8"));
+  const published = rows.map((r) => ({
+    id: r.code.toLowerCase(),
+    title: r.title,
+    vendor: brand.name,
+    tags: [],
+    priceMin: 0,
+    priceMax: 0,
+    variants: [{ options: r.finish ? { Finish: r.finish } : {}, sku: r.code, price: 0 }],
+    images: { primary: r.images.card, gallery: [r.images.detail], width: r.images.w, height: r.images.h },
+    description: "",
+    specs: [],
+    quality: "thin",
+    category: r.category,
+    subcategory: r.type,
+    rawSubcategory: r.type,
+    ...(r.room ? { styledRoom: true } : {}),
+  }));
+  const byCat = {};
+  for (const p of published) byCat[p.category] = (byCat[p.category] ?? 0) + 1;
+  report.push(`- ${brand.name}: ${published.length} products (${Object.entries(byCat).map(([c, n]) => `${c} ${n}`).join(", ")})`);
+  return { published, parked: [] };
+}
+
 /* --------------------------------------------------- derived classification */
 
 // A COB downlight, by the brand's own handle or category tag. Takes raw tags
@@ -903,6 +938,13 @@ function reclassify(published) {
     // which is a TV bias light and correctly Smart Lighting.
     if (p.category === "Lighting" && /backlit|backlite/i.test(p.title)) {
       p.subcategory = "Backlight";
+    }
+
+    // Chandeliers is its own top-level category, so the scraped Lighting >
+    // Chandeliers rows (Philips) move under it rather than sitting in two
+    // places. Product URLs carry only the uid, so none of them change.
+    if (p.category === "Lighting" && p.subcategory === "Chandeliers") {
+      p.category = "Chandeliers";
     }
 
     // Two attributes on fans, not two subcategories. A metal wall fan is a
@@ -950,6 +992,7 @@ const ADAPTERS = {
   breezalit: adaptBreezalit,
   kuhl: adaptKuhl,
   admin: adaptAdmin,
+  voltex: adaptVoltex,
 };
 
 for (const brand of BRANDS) {
@@ -1012,8 +1055,13 @@ for (const brand of BRANDS) {
       subcategory: p.subcategory,
       tags: p.tags,
       variants: p.variants,
-      images: { primary: p.images?.primary ?? null },
+      images: {
+        primary: p.images?.primary ?? null,
+        // Local photos know their size; cards use it to reserve space.
+        ...(p.images?.width ? { width: p.images.width, height: p.images.height } : {}),
+      },
       ...(p.price ? { price: p.price } : {}),
+      ...(p.styledRoom ? { styledRoom: true } : {}),
     }));
     writeFileSync(join(OUT, brand.slug, `${filename}.lite.json`), JSON.stringify(lite, null, 1));
   }

@@ -8,6 +8,20 @@
 - **Brief:** `website_redesign_prompt.md` (the client requirements)
 - **Plans (historical):** `~/.claude/plans/okay-so-now-we-quizzical-parrot.md` (mobile viewport + search + Water Geysers), `~/.claude/plans/velvet-baking-lollipop.md` (Phase 0 + A–D), `~/.claude/plans/pr-2-merged-one-synthetic-hinton.md` (A–D file:line detail)
 
+## Latest (2026-10-03) — Chandeliers category and the Voltex Exclusive brand
+
+Branch `chandeliers-voltex-exclusive` (worktree `C:\Users\aarah\voltex_chandeliers`), PR against `main`, not merged.
+
+**What.** 855 products from the 882-photo chandelier set (27 exact duplicates dropped: byte-identical or the same frame at another size), branded **Voltex Exclusive**. 642 go in a new top-level **Chandeliers** category (Crystal-Style Chandeliers 224, LED & Modern Chandeliers 156, Ceiling & Flush Mounts 107, Pendants & Clusters 88, Long Drop Chandeliers 67); 213 wall lights go in **Lighting > Wall Lights**. Philips' 22 Lighting > Chandeliers rows move to the new category (ETL `reclassify`, uids unchanged; old `/c/Lighting/<brand>?sub=Chandeliers` links redirect).
+
+**Data.** `Products/voltex-exclusive/catalog.json` is the source (neutral fields only: code, title, category, type, finish, room flag, image paths). Titles are `<type noun> VX-CH-0001` / `VX-WL-0001`; nothing about materials, sizes, origin or price is recorded. Manifest order is display order: photographs were tiered internally (clean 200, boxed/tinted 540, screenshot/controls 41, low-res 74) and sorted clean first; the tier itself is not in the repo or the bundle. Images: `public/products/voltex-exclusive/<code>-{640,1280}.webp` (79 MB, metadata stripped, never upscaled). The one-off processing script, type labels and the private code-to-source map live in the worktree's `.review/` folder (uncommitted, because they reference supplier files). `Products/normalized/` is now in `.gitignore` for new files; regenerated output is not committed (the build regenerates it).
+
+**UI.** SVG wordmark (`VoltexWordmark.jsx`, `public/favicon.svg`, `public/brands/voltex-exclusive.svg`); header Brands menu (Voltex Exclusive, All brands; hover, click or ArrowDown, Escape) plus a mobile equivalent; four-column mega menu; homepage chandelier section; Voltex Exclusive brand page heading; brass tokens (`--color-brass*` in `index.css`, used only on Exclusive and chandelier surfaces); `src/voltex-system.css` for the scales and new surfaces; page titles and meta descriptions via `usePageMeta`.
+
+**Verified:** see the PR description (tests, lint, build, check-catalog, leak scan of `dist/`, Lighthouse before/after, /admin add, publish, price and delete in dev, screenshots at 360/768/1280 in `.review/shots/`).
+
+**Hide a product after launch:** /admin > Remove > search its code (for example `VX-CH-0123`) > tick it > Remove selected (1) > Confirm. It disappears at once, and the next rebuild drops it from the data.
+
 ## Latest (2026-10-03) — /admin: add, remove and manage products on the live site
 
 **What and why.** The owner needed to put godown stock that no brand site lists onto the live catalogue, set prices, and keep the old remove tool — all from a phone, behind one login. `/curate` is replaced by `/admin` (Add · Remove · Manage). There is no database: every save is one commit to `main` made by `api/admin.js` through the GitHub Git Data API, and the Vercel rebuild after it publishes the change (~1–2 min). Removals still hide instantly via the `main.jsx` overlay. Full design in `docs/admin-plan.md`; request/response contract in `docs/admin-api.md`.
