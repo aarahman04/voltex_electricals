@@ -1,5 +1,5 @@
 /* Voltex: inhabited spaces, warm metal, and current in motion. */
-:root { --v-stone: #efede7; --v-copper: #bb5425; --v-charcoal: #242727; --v-muted: #6c716e; }
+:root { --v-stone: #efede7; --v-copper: var(--color-copper); --v-charcoal: #242727; --v-muted: #6c716e; }
 .site-header { background: #faf9f5f2; }
 .header-row { min-height: 86px; }
 .voltex-logo { width: 166px; }

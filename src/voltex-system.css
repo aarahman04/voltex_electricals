@@ -1,0 +1,126 @@
+/* Shared scales, the SVG wordmark, and the Voltex Exclusive / chandelier
+   surfaces. Loaded last. Colour tokens live in index.css @theme; brass is used
+   only on Exclusive and chandelier surfaces. */
+:root {
+  /* Spacing: 4 8 12 16 24 32 48 72 */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 24px; --space-6: 32px; --space-7: 48px; --space-8: 72px;
+  /* Type: 14 16 18 22 28 40 56 */
+  --text-sm: .875rem; --text-base: 1rem; --text-lg: 1.125rem; --text-xl: 1.375rem;
+  --text-2xl: 1.75rem; --text-3xl: 2.5rem; --text-4xl: 3.5rem;
+  --radius-card: 10px; --radius-control: 7px;
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --brass-light: #d2b072;
+}
+
+/* Wordmark: outlined SVG, so it follows the text colour around it. */
+svg.voltex-logo { display: block; height: auto; color: var(--color-ink); }
+.voltex-contact { fill: var(--color-copper); }
+.site-footer svg.voltex-logo { filter: none; color: #f8f7ee; }
+.site-footer .voltex-contact { fill: #ec884a; }
+
+/* Header: Brands disclosure menu. */
+.brands-menu { position: relative; }
+.brands-menu-button { display: flex; align-items: center; gap: 6px; padding-block: var(--space-2); font-size: var(--text-sm); color: var(--color-ink-muted); transition: color .2s; }
+.brands-menu-button:is(:hover, [aria-expanded="true"]) { color: var(--color-ink); }
+.brands-menu-button[data-active] { color: var(--color-amber); }
+.brands-menu-panel { position: absolute; z-index: 50; top: calc(100% + 18px); left: calc(-1 * var(--space-4)); width: 304px; display: grid; gap: var(--space-1); padding: var(--space-2); background: #fffdf8; border: 1px solid var(--color-seam); border-radius: var(--radius-card); box-shadow: 0 18px 40px #19221c1f; }
+.brands-menu-panel::before { content: ""; position: absolute; inset: -20px 0 auto; height: 20px; }
+.brands-menu-own { display: grid; gap: var(--space-3); padding: var(--space-4); border-radius: var(--radius-control); background: var(--color-brass-tint); box-shadow: inset 3px 0 0 var(--color-brass); transition: background .2s; }
+.brands-menu-own:hover { background: #ece3d1; }
+.brands-menu-own img { width: 120px; height: auto; }
+.brands-menu-panel strong { display: block; font-size: var(--text-sm); font-weight: 600; color: var(--color-ink); }
+.brands-menu-panel small { display: block; margin-top: 2px; font-size: .75rem; color: var(--color-ink-muted); }
+.brands-menu-all { display: flex; justify-content: space-between; align-items: center; gap: var(--space-3); padding: var(--space-3) var(--space-4); border-radius: var(--radius-control); transition: background .2s; }
+.brands-menu-all:hover { background: #f1efe8; }
+.mobile-nav-group { padding: var(--space-5) 0 var(--space-1); color: var(--color-ink-muted); }
+
+/* Four published categories: tints follow the category, not its position. */
+.mega-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-5); }
+.mega-category + .mega-category { padding-left: var(--space-5); }
+.mega-category[data-category="Lighting"] .mega-category-visual { background: #f0e6d7; border-color: #e6d9c5; }
+.mega-category[data-category="Water Geysers"] .mega-category-visual { background: #e4eae7; border-color: #d5ded8; }
+.mega-category[data-category="Chandeliers"] .mega-category-visual { background: var(--color-brass-tint); border-color: #e5d9c2; }
+.category-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.category-card[data-category="Lighting"] { background: #f0e7da; border-color: #e4d9c8; }
+.category-card[data-category="Water Geysers"] { background: #e5eae9; border-color: #d6dfdc; }
+.category-card[data-category="Chandeliers"] { background: var(--color-brass-tint); border-color: #e5d9c2; }
+.category-card[data-category="Fans"] { background: #eaece7; border-color: #dedfd8; }
+.category-card h3 { font-size: clamp(1.75rem, 2.4vw, 2.25rem); }
+
+/* Homepage: Voltex Exclusive chandeliers, hung from a brass rail. */
+.chandelier-section { position: relative; margin: 25px 16px 75px; padding-block: 80px; border-radius: 12px; background: #1f2221; color: #f6f3ec; overflow: hidden; }
+.chandelier-section :focus-visible { outline-color: var(--brass-light); }
+.chandelier-heading { display: grid; grid-template-columns: 1.2fr 1fr; gap: var(--space-7); align-items: end; margin-bottom: var(--space-7); }
+.chandelier-heading .eyebrow { color: var(--brass-light); }
+.chandelier-heading h2 { margin-top: var(--space-4); font-size: clamp(2.4rem, 4.2vw, 3.9rem); font-weight: 500; letter-spacing: -.048em; }
+.chandelier-heading h2 span { color: var(--brass-light); }
+.chandelier-heading p { max-width: 440px; color: #c9c6bc; font-size: .95rem; line-height: 1.7; }
+.chandelier-heading .text-link { margin-top: var(--space-3); color: #f6f3ec; }
+.chandelier-heading .text-link:hover { color: var(--brass-light); }
+.chandelier-layout { display: grid; grid-template-columns: 1fr 1.3fr; gap: var(--space-6); align-items: start; }
+.chandelier-room { position: relative; display: block; aspect-ratio: 4 / 5; border-radius: var(--radius-card); overflow: hidden; background: #2a2d2b; }
+.chandelier-room img { width: 100%; height: 100%; object-fit: cover; transition: transform .9s var(--ease-out); }
+.chandelier-room:hover img { transform: scale(1.03); }
+.chandelier-room-foot { position: absolute; inset: auto 0 0; display: flex; justify-content: space-between; align-items: end; gap: var(--space-4); padding: 72px var(--space-5) var(--space-5); background: linear-gradient(transparent, #141615e6); }
+.chandelier-room-foot strong { display: block; font-size: .95rem; font-weight: 500; }
+.chandelier-room-foot small { display: block; margin-top: var(--space-1); font-size: .75rem; color: var(--brass-light); }
+.chandelier-rail { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-6) 20px; }
+.chandelier-rail > li { position: relative; padding-top: 36px; }
+.chandelier-rail > li::before { content: ""; position: absolute; top: 0; left: -10px; right: -10px; height: 1px; background: #a8823f99; }
+.chandelier-rail > li::after { content: ""; position: absolute; top: -3px; left: calc(50% - 3.5px); width: 7px; height: 7px; border-radius: 50%; background: var(--color-brass); }
+.chandelier-drop { position: absolute; top: 0; left: calc(50% - .5px); width: 1px; height: 36px; background: var(--color-brass); transform-origin: top; }
+.chandelier-piece { display: block; }
+.chandelier-plate { display: block; aspect-ratio: 4 / 5; border-radius: 8px; overflow: hidden; background: #2a2d2b; transition: transform .5s var(--ease-out), box-shadow .5s var(--ease-out); }
+.chandelier-plate img { width: 100%; height: 100%; object-fit: cover; }
+.chandelier-piece:is(:hover, :focus-visible) .chandelier-plate { transform: translateY(-4px); box-shadow: 0 18px 30px #0007; }
+.chandelier-caption { display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-2); margin-top: var(--space-3); }
+.chandelier-caption strong { font-size: .82rem; font-weight: 500; color: #f0ede5; }
+.chandelier-caption small { font-family: var(--font-mono); font-size: .66rem; color: #a9a69c; white-space: nowrap; }
+
+/* Catalogue cards for whole photographs (Voltex Exclusive): never enlarged,
+   never multiplied into the plate. */
+.catalog-card[data-photo] .product-image-bed { background: #e9e7e1; }
+.catalog-card[data-photo] .product-image-bed > img { object-fit: scale-down; mix-blend-mode: normal; border-radius: 4px; }
+.catalog-card[data-photo]:hover .product-image-bed > img { transform: translateY(-3px); }
+.product-room-note { margin-top: 6px; font-size: .7rem; color: var(--color-brass-ink); }
+.product-gallery[data-photo] { background: #e9e7e1; }
+.product-gallery .product-room-note { position: absolute; z-index: 2; left: var(--space-4); bottom: var(--space-4); margin: 0; padding: 5px 10px; border-radius: 5px; background: #fffdf8e6; }
+
+/* Brand directory card and brand page for Voltex's own range. */
+.brand-gallery-card[data-own] { background: var(--color-brass-tint); border-color: #e5d9c2; }
+.brand-gallery-card[data-own]:is(:hover, :focus-visible) { background: #efe5d2; border-color: #c9b48a; }
+.exclusive-heading { position: relative; display: grid; grid-template-columns: 1.4fr 1fr; gap: var(--space-7); padding: var(--space-7); border-radius: 12px; background: var(--color-brass-tint); border: 1px solid #e5d9c2; overflow: hidden; }
+.exclusive-heading::before { content: ""; position: absolute; inset: 0 0 auto; height: 3px; background: var(--color-brass); }
+.exclusive-heading-copy h1 { max-width: 17ch; margin-top: var(--space-6); font-size: clamp(2rem, 3.6vw, 3.4rem); font-weight: 500; letter-spacing: -.045em; line-height: 1.06; }
+.exclusive-heading-copy p { max-width: 52ch; margin-top: var(--space-4); font-size: .95rem; line-height: 1.7; color: #5d5a4f; }
+.exclusive-heading-types { align-self: end; }
+.exclusive-heading-types > .spec { color: var(--color-brass-ink); }
+.exclusive-heading-types ul { margin-top: var(--space-3); border-top: 1px solid #e0d3ba; }
+.exclusive-heading-types a { display: flex; justify-content: space-between; align-items: center; min-height: 46px; border-bottom: 1px solid #e0d3ba; font-size: .9rem; transition: color .2s, padding .3s var(--ease-out); }
+.exclusive-heading-types a:hover { color: var(--color-brass-ink); padding-left: 6px; }
+
+@media (max-width: 1100px) {
+  .category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mega-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mega-category:nth-child(odd) { border-left: 0; padding-left: 0; }
+  .chandelier-layout { grid-template-columns: 1fr; }
+  .chandelier-room { aspect-ratio: 16 / 10; }
+}
+@media (max-width: 767px) {
+  .category-grid { grid-template-columns: 1fr; }
+  .chandelier-section { margin: 12px 10px 45px; padding-block: 40px; border-radius: 9px; }
+  .chandelier-section .site-width { width: calc(100% - 40px); }
+  .chandelier-heading { grid-template-columns: 1fr; gap: var(--space-4); margin-bottom: var(--space-6); }
+  .chandelier-heading h2 { font-size: 2.4rem; }
+  .chandelier-room { aspect-ratio: 4 / 5; }
+  .chandelier-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-6) 14px; }
+  .chandelier-rail > li::before { left: -7px; right: -7px; }
+  .chandelier-caption { flex-direction: column; gap: 2px; }
+  .exclusive-heading { grid-template-columns: 1fr; gap: var(--space-6); padding: var(--space-5); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .chandelier-room:hover img, .chandelier-piece:is(:hover, :focus-visible) .chandelier-plate, .catalog-card[data-photo]:hover .product-image-bed > img { transform: none; }
+}
+/* Photo cards carry a code at the end of the title; give it room to show. */
+.catalog-card[data-photo] h3 { -webkit-line-clamp: 3; }

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 50" width="166" height="50" role="img" aria-label="Voltex Exclusive">
+  <g fill="#242727">
+    <path d="M0 2h7.2l6.2 20.4V30z M28 2h-7.2l-6.2 20.4V30z"/>
+    <path d="M47.5 2C38.4 2 31.5 8.2 31.5 16s6.9 14 16 14 16-6.2 16-14-6.9-14-16-14zm0 5.8c5.6 0 9.8 3.5 9.8 8.2s-4.2 8.2-9.8 8.2-9.8-3.5-9.8-8.2 4.2-8.2 9.8-8.2z"/>
+    <path d="M67 2h5.8v22.2H87V30H67z"/>
+    <path d="M89.5 2h24v5.8h-9.1V30h-5.8V7.8h-9.1z"/>
+    <path d="M116.5 2h20v5.6h-14.2v5.6h12.8v5.6h-12.8v5.6h14.2V30h-20z"/>
+    <path d="M139.5 2h7.1l5.9 9.2 5.9-9.2h7.1l-9.5 14 9.5 14h-7.1l-5.9-9.2-5.9 9.2h-7.1l9.5-14z"/>
+  </g>
+  <rect x="13.2" y="21" width="1.6" height="9" fill="#bb5425"/>
+  <g fill="none" stroke="#8a6a2f" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" transform="translate(1 40)">
+    <path d="M6 0H0V8H6M0 4H5"/>
+    <path d="M19.5 0l7 8m0-8l-7 8"/>
+    <path d="M45.6 1.3A4 4 0 1 0 45.6 6.7"/>
+    <path d="M58.5 0V8H64"/>
+    <path d="M77 0V5A3 3 0 0 0 83 5V0"/>
+    <path d="M101.5 1.2C100.4 0 96.2 0 96.2 2.2S101.6 3.6 101.6 5.8 97.2 8.2 95.8 6.6"/>
+    <path d="M117.5 0V8"/>
+    <path d="M130.5 0l3.5 8 3.5-8"/>
+    <path d="M158 0H152V8H158M152 4H157"/>
+  </g>
+</svg>

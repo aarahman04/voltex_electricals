@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- Voltex: the modular switch plate, reduced to one module. Ink plate,
-       lit amber indicator, rocker below. See docs/design-system.md. -->
-  <rect width="32" height="32" rx="7" fill="#131A24"/>
-  <circle cx="16" cy="9.5" r="3" fill="#EE7A1B"/>
-  <rect x="9" y="16" width="14" height="8" rx="2" fill="#F6F5F2"/>
+  <!-- The open-apex V from the Voltex wordmark, with its copper contact. -->
+  <rect width="32" height="32" rx="7" fill="#242727"/>
+  <g transform="translate(5 6) scale(.786)">
+    <path fill="#f8f7f3" d="M0 2h7.2l6.2 20.4V30z M28 2h-7.2l-6.2 20.4V30z"/>
+    <rect x="13" y="20" width="2" height="10" fill="#ec884a"/>
+  </g>
 </svg>

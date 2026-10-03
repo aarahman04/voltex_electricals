@@ -12,6 +12,12 @@
   --color-seam-strong: #bfc3bb;
   --color-amber: #cf561d;
   --color-amber-tint: #fff0e5;
+  /* Decorative copper (rules, contact marks); --color-amber stays the text accent. */
+  --color-copper: #bb5425;
+  /* Voltex Exclusive and chandelier surfaces only. Text in brass uses brass-ink. */
+  --color-brass: #a8823f;
+  --color-brass-ink: #8a6a2f;
+  --color-brass-tint: #f3ede1;
   --color-live: #23845a;
 }
 

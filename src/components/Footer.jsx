@@ -19,7 +19,7 @@ export default function Footer() {
           <Link to="/products">All products</Link>
         </div></div>
         <div><h2 className="footer-heading">Our brands</h2><div className="footer-links">
-          {brands.filter((b) => ["havells", "orient", "philips", "crompton", "atomberg"].includes(b.slug)).map((b) => <Link key={b.slug} to={"/brand/" + b.slug}>{b.name}</Link>)}
+          {brands.filter((b) => ["voltex-exclusive", "havells", "orient", "philips", "crompton", "atomberg"].includes(b.slug)).map((b) => <Link key={b.slug} to={"/brand/" + b.slug}>{b.name}</Link>)}
           <Link to="/brands">All {brands.length} brands ↗</Link>
         </div></div>
         <div><h2 className="footer-heading">Here to help</h2><div className="footer-links">
