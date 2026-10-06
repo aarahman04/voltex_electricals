@@ -2678,6 +2678,7 @@
     "voltex-exclusive--vx-ch-0003": 45000,
     "voltex-exclusive--vx-ch-0005": 12000,
     "voltex-exclusive--vx-ch-0007": 30000,
-    "voltex-exclusive--vx-ch-0008": 10000
+    "voltex-exclusive--vx-ch-0008": 10000,
+    "voltex-exclusive--vx-ch-0009": 15000
   }
 }
